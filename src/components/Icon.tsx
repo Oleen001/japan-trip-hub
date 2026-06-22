@@ -40,6 +40,7 @@ const UIL_TO_PH: Record<string, string> = {
   yen: 'currency-jpy',
   // category / map-pin glyphs
   'raindrops-alt': 'drop',
+  tint: 'drop',
   building: 'buildings',
   water: 'waves',
   // route badges

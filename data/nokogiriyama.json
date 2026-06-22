@@ -1,0 +1,499 @@
+{
+  "slug": "nokogiriyama",
+  "name": {
+    "en": "Mt. Nokogiri",
+    "th": "ภูเขาโนโคกิริ",
+    "jp": "鋸山"
+  },
+  "region": "Kanto",
+  "prefecture": "Chiba",
+  "coords": {
+    "lat": 35.1597,
+    "lng": 139.8281
+  },
+  "category": [
+    "mountain",
+    "coast"
+  ],
+  "tagline_th": "เขาหินตัด 330 ม. บนคาบสมุทรโบโซ — หน้าผาชะโงก 'Jigoku-nozoki' มองนรก พระหินแกะยักษ์ + พระอรหันต์ 1,500 องค์ วิวอ่าวโตเกียวเห็นฟูจิ ไฮไลต์คือนั่งเรือเฟอร์รีข้ามอ่าวมา",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hanging%20rock%20observation%20deck%20on%20Nokogiriyama.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Edge%20of%20Nokogiriyama%27s%20Hell%20Peek.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 3,
+  "access": {
+    "summary_th": "ไม่ใช่ day-trip ที่ใกล้ที่สุด แต่ 'ทางไป' คือส่วนสนุก — 2 ทางหลัก: (1) JR ไป Kurihama แล้วนั่ง Tokyo Bay Ferry ข้ามอ่าวโตเกียว ~40 นาทีมาขึ้นที่ Kanaya เดินต่อขึ้นเขา (เด่นสุด ได้บรรยากาศทะเล) หรือ (2) JR Uchibo Line ตรงจากโตเกียวฝั่งชิบะมาลง Hamakanaya ไม่ต้องลงเรือ · ทั้งคู่จบที่ตีนเขา ต่อ ropeway ~4 นาทีขึ้นยอด ใช้เวลารวมจากใจกลางโตเกียว ~2-2.5 ชม.",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "JR → Kurihama → Tokyo Bay Ferry → Kanaya (แนะนำ ได้นั่งเรือ)",
+        "detail_th": "โตเกียว → train (JR Yokosuka Line) → Kurihama → เดิน/บัสไปท่าเรือ → ferry ข้ามอ่าวโตเกียว → Kanaya Port → เดิน ~10 นาทีถึงตีนเขา → ropeway ~4 นาทีขึ้นยอด",
+        "durationMin": 150,
+        "costYen": 2900,
+        "transfers": 3,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "ferry",
+            "label_th": "เรือเฟอร์รี",
+            "icon": "ship"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          },
+          {
+            "mode": "ropeway",
+            "label_th": "กระเช้า",
+            "icon": "cable-car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo / Shinagawa Station",
+            "to": "Kurihama Station",
+            "mode": "train",
+            "line_th": "JR Yokosuka Line (ไป Kurihama)",
+            "durationMin": 75,
+            "costYen": 1170,
+            "note_th": "นั่งตรงสาย Yokosuka จากโตเกียว/ชินากาวะถึงปลายทาง Kurihama · ออกบ่อย ~3-4 เที่ยว/ชม."
+          },
+          {
+            "from": "Kurihama Station",
+            "to": "Kurihama Ferry Port (ท่าเรือ)",
+            "mode": "walk",
+            "line_th": "เดิน ~15 นาที หรือ Keikyu Bus ~5 นาที",
+            "durationMin": 15,
+            "costYen": 0,
+            "note_th": "เดินได้สบาย หรือขึ้นบัส Keikyu สาย京急 ไปท่าเรือ ~200 เยนถ้าไม่อยากเดิน · เผื่อเวลาให้ทันรอบเรือ"
+          },
+          {
+            "from": "Kurihama Port",
+            "to": "Kanaya Port",
+            "mode": "ferry",
+            "line_th": "Tokyo Bay Ferry (東京湾フェリー) ข้ามอ่าวโตเกียว",
+            "durationMin": 40,
+            "costYen": 900,
+            "note_th": "ไฮไลต์ของทริป — ดาดฟ้าเปิดโล่ง ลมทะเล วันฟ้าใสเห็นฟูจิ · ~1 เที่ยว/ชม. (เช็ครอบล่วงหน้า เรืออาจงดถ้าคลื่นแรง) · ผู้ใหญ่เที่ยวเดียว ~900 เยน"
+          },
+          {
+            "from": "Kanaya Port",
+            "to": "Nokogiriyama Ropeway (ฐานล่าง)",
+            "mode": "walk",
+            "line_th": "เดินจากท่าเรือ ~8-10 นาที",
+            "durationMin": 10,
+            "costYen": 0,
+            "note_th": "เดินเลียบเมืองประมงเล็กๆ Kanaya ไปฐาน ropeway · ใกล้ JR Hamakanaya ด้วย"
+          },
+          {
+            "from": "Ropeway ฐานล่าง",
+            "to": "Nokogiriyama (ยอด/สถานีบน)",
+            "mode": "ropeway",
+            "line_th": "Nokogiriyama Ropeway",
+            "durationMin": 4,
+            "costYen": 950,
+            "note_th": "ขาเดียว ~950 เยน (ไป-กลับ ~1,200) · ~2-3 เที่ยว/ชม. ขึ้นชัน วิวอ่าวสวย · หรือขับ/เดินขึ้นทางรถยนต์ฝั่ง Nihon-ji ก็ได้"
+          }
+        ]
+      },
+      {
+        "mode": "JR Uchibo Line ตรง → Hamakanaya (ไม่ต้องลงเรือ)",
+        "detail_th": "โตเกียว → train (JR Keiyo/Sobu ไป Soga) → ต่อ JR Uchibo Line → Hamakanaya Station → เดิน ~8 นาทีถึงฐาน → ropeway ~4 นาทีขึ้นยอด",
+        "durationMin": 140,
+        "costYen": 2100,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "ropeway",
+            "label_th": "กระเช้า",
+            "icon": "cable-car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Soga Station",
+            "mode": "train",
+            "line_th": "JR Keiyo / Sobu Line Rapid (มุ่ง Chiba/Soga)",
+            "durationMin": 55,
+            "costYen": 0,
+            "note_th": "รวมค่าโดยสาร JR ต่อเนื่องถึง Hamakanaya เป็น 2,100 เยน — ใส่ค่าไว้ leg สุดท้าย · บางขบวน Uchibo เริ่มจากชิบะตรงไม่ต้องเปลี่ยนที่ Soga"
+          },
+          {
+            "from": "Soga Station",
+            "to": "Hamakanaya Station",
+            "mode": "train",
+            "line_th": "JR Uchibo Line (เลียบชายฝั่งตะวันตกคาบสมุทรโบโซ)",
+            "durationMin": 70,
+            "costYen": 2100,
+            "note_th": "วิวทะเลฝั่งซ้ายช่วงท้าย · ขบวนห่าง (~1-2 เที่ยว/ชม.) เช็คตารางก่อน · ลง Hamakanaya (ป้ายเล็ก)"
+          },
+          {
+            "from": "Hamakanaya Station",
+            "to": "Nokogiriyama (ยอด)",
+            "mode": "ropeway",
+            "line_th": "เดิน ~8 นาทีถึงฐาน + Nokogiriyama Ropeway ~4 นาที",
+            "durationMin": 12,
+            "costYen": 950,
+            "note_th": "ropeway ขาเดียว ~950 เยน (ไป-กลับ ~1,200) · หรือเดินขึ้นทาง trail ฝั่ง Nihon-ji ~60 นาที"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "เดินง่ายทั้งปี",
+      "months": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "note_th": "ระดับความสูงน้อย (330 ม.) ไม่มีหิมะปิดเส้น เดินได้เกือบตลอดปี · ใบไม้ผลิ-ต้นฤดูหนาว อากาศกำลังดี ฟ้าใสเห็นฟูจิจาก Jigoku-nozoki ชัด"
+    },
+    {
+      "label": "ใบไม้แดง koyo ปลาย พ.ย.",
+      "months": [
+        11,
+        12
+      ],
+      "note_th": "กลาง-ปลาย พ.ย. ต่อต้น ธ.ค. ใบเมเปิลแดงตามเส้นเดินในเขต Nihon-ji โบโซลงสีช้ากว่าภูเขาในแผ่นดิน"
+    },
+    {
+      "label": "เลี่ยงร้อนชื้น ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "หน้าร้อนแดดแรง บันไดหินสะท้อนความร้อน เดินเหนื่อย เตรียมน้ำเยอะ + หมวก ถ้ามาช่วงนี้"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "เขต Nihon-ji",
+      "type": "koyo",
+      "startFrac": 0.87,
+      "endFrac": 0.97,
+      "note_th": "ใบไม้แดงปลาย พ.ย.-ต้น ธ.ค."
+    },
+    {
+      "zone": "ทั้งภูเขา",
+      "type": "green",
+      "startFrac": 0.25,
+      "endFrac": 0.45,
+      "note_th": "เขียวสด อากาศดี เม.ย.-พ.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · เส้นเฟอร์รีค่าเดินทางสูงกว่าเส้นรถไฟตรงนิดหน่อยแต่ได้ประสบการณ์ข้ามอ่าว",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (เส้นเฟอร์รี JR+เรือ)",
+        "yen": 4140,
+        "thb": 952,
+        "note_th": "โตเกียว↔Kurihama รถไฟ + Tokyo Bay Ferry ไป-กลับ ~1,720 เยน (หรือเส้น Uchibo ตรงถูกกว่าเล็กน้อย)"
+      },
+      {
+        "label_th": "Ropeway ไป-กลับ",
+        "yen": 1200,
+        "thb": 276,
+        "note_th": "ขึ้นยอดเขาสะดวกสุด หรือเดินขึ้นประหยัดได้"
+      },
+      {
+        "label_th": "ค่าเข้าวัด Nihon-ji",
+        "yen": 700,
+        "thb": 161,
+        "note_th": "เข้าเขตพระใหญ่ Daibutsu + 1,500 Rakan + 100 Shaku Kannon"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "ซีฟู้ดชิบะแถบ Kanaya/Hota — ปลาอาจิ หอย"
+      },
+      {
+        "label_th": "ของฝาก/เบ็ดเตล็ด",
+        "yen": 800,
+        "thb": 184,
+        "note_th": "น้ำ ขนม ของที่ระลึก"
+      }
+    ],
+    "totalYen": 8840,
+    "totalThb": 2033,
+    "ranges": {
+      "lowThb": 1400,
+      "midThb": 2100,
+      "highThb": 3200
+    }
+  },
+  "pois": [
+    {
+      "name": "Jigoku-nozoki (หน้าผามองนรก)",
+      "icon": "mountains",
+      "durationMin": 30,
+      "blurb_th": "แท่นหินยื่นออกนอกหน้าผา ชะโงกมองลงเหวลึก วิวอ่าวโตเกียวสุดลูกหูลูกตา",
+      "deepDive_th": "Jigoku-nozoki (地獄のぞき 'แอบมองนรก') คือไฮไลต์ของ Nokogiriyama — แท่นหินที่เกิดจากการตัดหินสมัยก่อน ยื่นออกไปนอกหน้าผาชันดิ่ง ยืนบนนั้นแล้วชะโงกมองลงไปเห็นเหวลึกเบื้องล่างเหมือนมองลงนรก เป็นที่มาของชื่อ · จากจุดนี้มองออกไปเห็นอ่าวโตเกียวกว้างไกล วันฟ้าใสเห็นภูเขาฟูจิและคาบสมุทรมิอุระฝั่งตรงข้าม · มีราวกันตกแต่คนกลัวความสูงอาจขาสั่น · เดินจากสถานี ropeway ด้านบนขึ้นบันไดหินไปอีกพักหนึ่ง คนเยอะช่วงวันหยุดต้องต่อคิวถ่ายรูป",
+      "location_th": "ใกล้ยอด เหนือสถานี ropeway บน",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edge%20of%20Nokogiriyama%27s%20Hell%20Peek.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokogiriyama%20zigokunozoki.jpg?width=900"
+      }
+    },
+    {
+      "name": "Nihon-ji Daibutsu (พระหินแกะยักษ์)",
+      "icon": "building",
+      "durationMin": 30,
+      "blurb_th": "พระหินแกะจากหน้าผาสูง ~31 ม. ใหญ่กว่าพระใหญ่คามาคุระ/นารา",
+      "deepDive_th": "Nihon-ji Daibutsu (日本寺大仏) พระพุทธรูปยาคุชิ-นโยไร แกะสลักจากหน้าผาหินทรายของ Nokogiriyama สูงราว 31 เมตร นับเป็นพระหินแกะกลางแจ้งที่ใหญ่ที่สุดในญี่ปุ่น (ใหญ่กว่าพระใหญ่นาราและคามาคุระ) · องค์ปัจจุบันบูรณะปี 1969 จากองค์ดั้งเดิมสมัยเอโดะที่ผุพัง · นั่งสงบอยู่ในลานโล่งที่แกะเว้าเข้าไปในเขา รายล้อมด้วยป่า · อยู่ในเขตวัด Nihon-ji ซึ่งครอบคลุมพื้นที่กว้างทั้งเขา ต้องเสียค่าเข้าเขตวัด",
+      "location_th": "ลานล่างเขต Nihon-ji ฝั่งใต้",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nihonji%20Daibutsu.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Buddha%20at%20Nokogiriyama.JPG?width=900"
+      }
+    },
+    {
+      "name": "1,500 Rakan (พระอรหันต์หิน)",
+      "icon": "building",
+      "durationMin": 45,
+      "blurb_th": "รูปสลักพระอรหันต์ราว 1,500 องค์ เรียงรายตามเส้นเดินกลางป่า",
+      "deepDive_th": "Tokai Sennin Sekibutsu / 1,500 Rakan (千五百羅漢) — รูปสลักหินพระอรหันต์ราว 1,500 องค์ ที่ช่างแกะสลักทำขึ้นช่วงปลายสมัยเอโดะ (ใช้เวลาหลายสิบปี) เรียงรายซ่อนตัวอยู่ตามซอกหิน ถ้ำเล็ก และสองข้างเส้นเดินกลางป่าในเขต Nihon-ji · แต่ละองค์มีสีหน้าท่าทางต่างกันไม่ซ้ำ บางองค์ปกคลุมด้วยมอสเขียวให้บรรยากาศขลังลึกลับ · เดินเก็บไปเรื่อยตามทางได้ระหว่างทางลงจากยอดไปหา Daibutsu ถือเป็นไฮไลต์ที่หลายคนชอบกว่าตัวพระใหญ่",
+      "location_th": "ตลอดเส้นเดินในเขต Nihon-ji",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nihonji%20Temple%20-%20Arhats%202.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Hyaku-shaku Kannon (เจ้าแม่กวนอิม 100 ฉะกุ)",
+      "icon": "building",
+      "durationMin": 15,
+      "blurb_th": "พระกวนอิมแกะนูนสูง ~30 ม. ในผนังหินที่เคยเป็นเหมือง",
+      "deepDive_th": "Hyaku-shaku Kannon (百尺観音) รูปสลักนูนสูงเจ้าแม่กวนอิมสูงราว 30 เมตร (100 ฉะกุ) แกะลงในผนังหินตั้งฉากที่เกิดจากการตัดหินของเหมืองเก่า · สร้างหลังสงครามโลกครั้งที่ 2 เพื่ออุทิศแด่ผู้เสียชีวิตและขอความปลอดภัยทางถนน/ทางอากาศ · ตั้งอยู่ในซอกหุบหินสูงชันที่ผนังตัดเรียบเป็นเหลี่ยม สะท้อนอดีต Nokogiriyama ในฐานะแหล่งเหมืองหิน Boshu-ishi ส่งไปสร้างเมืองโตเกียว · อยู่ใกล้ทางขึ้น Jigoku-nozoki แวะถ่ายรูปได้",
+      "location_th": "ซอกหินใกล้ Jigoku-nozoki",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/100%20Shaku%20Kwan-non%20%40%20Nihon-ji%20%40%20Nokogiriyama%20%289461689867%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Nokogiriyama Ropeway",
+      "icon": "mountains",
+      "durationMin": 10,
+      "blurb_th": "กระเช้า ~4 นาทีจากตีนเขาขึ้นยอด วิวอ่าวโตเกียวจากบนเคบิน",
+      "deepDive_th": "Nokogiriyama Ropeway กระเช้าเชื่อมตีนเขาฝั่ง Kanaya กับสถานียอด ใช้เวลาราว 4 นาทีไต่ขึ้นชันสูง · จากในเคบินมองออกไปเห็นเมืองประมง Kanaya ท่าเรือเฟอร์รี และอ่าวโตเกียวกว้างไกล วันฟ้าใสเห็นฟูจิ — เป็นวิวพรีวิวก่อนถึงยอด · เปิดราว 9:00-17:00 (ปรับตามฤดู) ~2-3 เที่ยว/ชม. · ใครอยากออกแรงเดินขึ้น trail ฝั่ง Nihon-ji ก็ได้ (~60 นาที) แต่ ropeway สะดวกสุดและคุ้มกับวิว",
+      "location_th": "ฐานล่างใกล้ Kanaya / Hamakanaya",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokogiriyama%20Ropeway%2020150503.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Tokyo Bay Ferry (เรือข้ามอ่าว)",
+      "icon": "water",
+      "durationMin": 40,
+      "blurb_th": "เฟอร์รี Kurihama↔Kanaya ข้ามอ่าวโตเกียว ~40 นาที วิวฟูจิ",
+      "deepDive_th": "Tokyo Bay Ferry (東京湾フェริー) เรือเฟอร์รีข้ามปากอ่าวโตเกียวระหว่าง Kurihama (คาบสมุทรมิอุระ ฝั่งคานากาวะ) กับ Kanaya (คาบสมุทรโบโซ ฝั่งชิบะ) ใช้เวลาราว 40 นาที · เป็นวิธีมา Nokogiriyama ที่สนุกและแตกต่าง — ขึ้นไปดาดฟ้าเปิดโล่ง รับลมทะเล ดูเรือสินค้าวิ่งในอ่าว มีนกนางนวลตามเรือ และวันฟ้าใสเห็นภูเขาฟูจิเด่นกลางอ่าว · บรรทุกทั้งคนเดินเท้าและรถยนต์ ~1 เที่ยว/ชม. (เช็ครอบ; อาจงดถ้าคลื่นลมแรง) · ผู้ใหญ่เที่ยวเดียว ~900 เยน — แนะนำให้ใช้เส้นนี้อย่างน้อยขาไปหรือขากลับ",
+      "location_th": "Kurihama Port ↔ Kanaya Port",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boat%20%40%20Tokyo-Wan%20Ferry%20from%20Kurihama%20to%20Kanaya%20%289461661191%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "routeFlow": [
+    {
+      "name": "Kanaya Port (ตีนเขา)",
+      "elevationM": 5,
+      "modeToNext": "ropeway",
+      "modeDetail_th": "Nokogiriyama Ropeway ~4 นาที"
+    },
+    {
+      "name": "สถานียอด / Jigoku-nozoki",
+      "elevationM": 329,
+      "modeToNext": "walk",
+      "modeDetail_th": "เดินบันไดหินลงผ่าน 100 Shaku Kannon → 1,500 Rakan"
+    },
+    {
+      "name": "Nihon-ji Daibutsu",
+      "elevationM": 130,
+      "modeToNext": "walk",
+      "modeDetail_th": "ออกประตูวัดฝั่งใต้ลงสู่ Hota / กลับ Kanaya"
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip วงรอบเฟอร์รี + เขาหินตัด (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "ขาไปนั่งเรือ ขึ้นยอด เดินลงเก็บพระ",
+          "detail_th": "ออกโตเกียวเช้า → JR ไป Kurihama → เดิน/บัสไปท่าเรือ → Tokyo Bay Ferry ข้ามอ่าว ~40 นาทีถึง Kanaya (ขึ้นดาดฟ้าดูฟูจิ) → เดินไปฐาน ropeway ขึ้นยอด → Jigoku-nozoki ชะโงกมองนรก + วิวอ่าว → แวะ 100 Shaku Kannon → เดินบันไดหินลงผ่าน 1,500 Rakan → ปิดที่ Nihon-ji Daibutsu → กินซีฟู้ดชิบะแถว Kanaya → กลับ (เฟอร์รีหรือ JR Uchibo ตรง)",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "โตเกียว → Kurihama",
+              "detail_th": "JR Yokosuka Line ตรงถึง Kurihama",
+              "mode": "train",
+              "durationMin": 75
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "เดินไปท่าเรือ + ขึ้นเฟอร์รี",
+              "detail_th": "Tokyo Bay Ferry ข้ามอ่าว ขึ้นดาดฟ้าดูฟูจิ/เรือสินค้า",
+              "mode": "ferry",
+              "durationMin": 40
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "Kanaya → ฐาน ropeway → ขึ้นยอด",
+              "detail_th": "เดินจากท่าเรือ ~10 นาที + กระเช้า ~4 นาที",
+              "mode": "ropeway",
+              "durationMin": 15
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "Jigoku-nozoki + 100 Shaku Kannon",
+              "detail_th": "ชะโงกหน้าผามองนรก ถ่ายรูปวิวอ่าวโตเกียว+ฟูจิ แวะกวนอิมแกะหิน",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~12:30",
+              "title_th": "เดินลงผ่าน 1,500 Rakan",
+              "detail_th": "บันไดหินลงผ่านพระอรหันต์หินกลางป่า",
+              "mode": "walk",
+              "durationMin": 50
+            },
+            {
+              "time_th": "~13:30",
+              "title_th": "Nihon-ji Daibutsu",
+              "detail_th": "พระหินแกะยักษ์ 31 ม. ลานล่างเขตวัด",
+              "durationMin": 30
+            },
+            {
+              "time_th": "~14:30",
+              "title_th": "ซีฟู้ดชิบะ + กลับ",
+              "detail_th": "กินกลางวันแถว Kanaya/Hota แล้วกลับ (เฟอร์รี หรือ JR Uchibo ตรง)",
+              "mode": "ferry",
+              "durationMin": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "แบบเร็ว JR ตรง ครึ่งวัน (ข้ามเรือ)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เก็บไฮไลต์ยอดเขาแบบกระชับ",
+          "detail_th": "เหมาะถ้าเวลาน้อย/ไม่อยากรอรอบเรือ: JR Uchibo Line ตรงมา Hamakanaya → ropeway ขึ้นยอด → Jigoku-nozoki + Daibutsu (เลือกเดินวงสั้น) → กลับ JR ตรง · ประหยัดเวลากว่าแต่พลาดประสบการณ์เฟอร์รี",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "โตเกียว → Hamakanaya",
+              "detail_th": "JR Keiyo/Sobu → ต่อ Uchibo Line ตรงมาตีนเขา",
+              "mode": "train",
+              "durationMin": 125
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "Ropeway ขึ้นยอด + Jigoku-nozoki",
+              "detail_th": "ขึ้นกระเช้า ชะโงกหน้าผา ถ่ายวิวอ่าว",
+              "mode": "ropeway",
+              "durationMin": 60
+            },
+            {
+              "time_th": "เที่ยง",
+              "title_th": "Nihon-ji Daibutsu (วงสั้น)",
+              "detail_th": "เดินลงดูพระใหญ่ + ผ่าน Rakan บางส่วน",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "กลับโตเกียว",
+              "detail_th": "JR Uchibo ตรงกลับ",
+              "mode": "train",
+              "durationMin": 125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "บันไดหินเยอะมากและสูงชัน — เส้นจากยอดลง Daibutsu ผ่าน Rakan เป็นขั้นหินไม่สม่ำเสมอ เหนื่อยขา/เข่า ใส่รองเท้าผ้าใบพื้นยึดเกาะ คนเข่าไม่ดีควรเลือกขึ้น-ลง ropeway ทางเดียวกัน",
+    "Jigoku-nozoki เป็นหน้าผาจริงสูงชัน มีราวกันตกแต่คนกลัวความสูงควรระวัง อย่าปีนเลยแนวกั้นเพื่อถ่ายรูป",
+    "Tokyo Bay Ferry มีรอบจำกัด (~1 เที่ยว/ชม.) และอาจงดเดินเรือถ้าคลื่นลม/อากาศแรง — เช็คตารางและสถานะเดินเรือก่อนออก เผื่อแผนสำรองเป็น JR Uchibo Line",
+    "ขบวน JR Uchibo Line ห่าง (~1-2 เที่ยว/ชม.) พลาดขบวนรอนาน วางแผนเวลากลับให้ดี",
+    "หินสะท้อนความร้อนหน้าร้อน + ร่มเงาน้อยช่วงบันได เตรียมน้ำ หมวก ครีมกันแดด · ฝนตกทางหินลื่น"
+  ],
+  "sources": [
+    {
+      "label": "Mount Nokogiri — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6447.html"
+    },
+    {
+      "label": "Nihonji Temple / Nokogiriyama — official",
+      "url": "https://www.nihonji.jp/"
+    },
+    {
+      "label": "Tokyo Bay Ferry (Tokyo-Wan Ferry) — official",
+      "url": "https://www.tokyowanferry.com/"
+    }
+  ],
+  "tags_th": [
+    "เขาหินตัด",
+    "นั่งเรือเฟอร์รี",
+    "พระหินแกะ",
+    "วิวอ่าวโตเกียว",
+    "คาบสมุทรโบโซ",
+    "day-trip"
+  ],
+  "food": [
+    {
+      "name": "ซีฟู้ดชิบะ ปลาอาจิ",
+      "name_jp": "鯵",
+      "emoji": "🐟",
+      "note_th": "ร้านอาหารทะเลแถบ Kanaya/Hota — ปลาอาจิ (horse mackerel) สดจากอ่าว"
+    },
+    {
+      "name": "ข้าวหน้าปลาดิบรวม",
+      "name_jp": "海鮮丼",
+      "emoji": "🍚",
+      "note_th": "kaisen-don ซีฟู้ดท้องถิ่นโบโซ ใกล้ท่าเรือ Kanaya"
+    },
+    {
+      "name": "หอยเผา/อาหารทะเลย่าง",
+      "name_jp": "浜焼き",
+      "emoji": "🦪",
+      "note_th": "hamayaki ย่างหอย-กุ้งสดริมทะเลคาบสมุทรโบโซ"
+    }
+  ]
+}

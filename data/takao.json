@@ -1,0 +1,505 @@
+{
+  "slug": "takao",
+  "name": {
+    "en": "Mt. Takao",
+    "th": "ภูเขาทาคาโอะ",
+    "jp": "高尾山"
+  },
+  "region": "Kanto",
+  "prefecture": "Tokyo",
+  "coords": {
+    "lat": 35.62528,
+    "lng": 139.24361
+  },
+  "category": [
+    "mountain",
+    "nature"
+  ],
+  "tagline_th": "เขายอดนิยม 599 ม. day-trip ง่ายสุดจากชินจูกุ ~50 นาที · cable car + วัด Yakuoin + วิวฟูจิวันฟ้าใส · ใบไม้แดง พ.ย. สวยมาก",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E8%96%AC%E7%8E%8B%E9%99%A2%E3%81%AE%E7%B4%85%E8%91%89%20-%20panoramio.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons (CC)",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%E8%96%AC%E7%8E%8B%E9%99%A2%E3%81%AE%E7%B4%85%E8%91%89%20-%20panoramio%20(1).jpg?width=1600"
+  },
+  "difficultyFromTokyo": 1,
+  "access": {
+    "summary_th": "ง่ายสุดในลิสต์ — Keio Line จากชินจูกุนั่งตรงถึง Takaosanguchi (ฐานเขา) ~50 นาที 430 เยน ไม่ต้องต่อ · จากสถานีเดินไม่กี่ก้าวถึง cable car / chairlift ขึ้นกลางเขา (ลดเวลาเดิน ~45 นาที) แล้วเดินต่อ ~30-40 นาทีถึงยอด · ไป-กลับได้ในครึ่งวัน ไม่ต้องค้าง",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Keio Line ตรง + cable car",
+        "detail_th": "ชินจูกุ → train (Keio Takao Line ตรง) → Takaosanguchi → walk → cable car ขึ้นกลางเขา → เดินต่อขึ้นยอด",
+        "durationMin": 70,
+        "costYen": 920,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          },
+          {
+            "mode": "cablecar",
+            "label_th": "เคเบิลคาร์",
+            "icon": "cable-car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Keio Shinjuku Station",
+            "to": "Takaosanguchi Station",
+            "mode": "train",
+            "line_th": "Keio Line (Limited Express สาย Takao)",
+            "durationMin": 50,
+            "costYen": 430,
+            "note_th": "ออกจากสถานี Keio Shinjuku ใต้ดิน ~ทุก 20 นาที · นั่งตรงถึงปลายทาง ไม่ต้องต่อ · บางขบวนต้องเปลี่ยนที่ Kitano (ในตั๋วเดียว)"
+          },
+          {
+            "from": "Takaosanguchi Station",
+            "to": "Kiyotaki (Cable Car ฐานล่าง)",
+            "mode": "walk",
+            "line_th": "เดินจากสถานี ~5 นาที",
+            "durationMin": 5,
+            "costYen": 0,
+            "note_th": "สถานี cable car / chairlift อยู่ห่างสถานีรถไฟไม่กี่ก้าว เดินขึ้นทางเดินร้านค้าไปนิดเดียว"
+          },
+          {
+            "from": "Kiyotaki",
+            "to": "Takaosan (กลางเขา)",
+            "mode": "cablecar",
+            "line_th": "Takaotozan Cable Car (หรือ chairlift)",
+            "durationMin": 6,
+            "costYen": 490,
+            "note_th": "ขาเดียว 490 เยน (ไป-กลับ ~950) · cable car ชันที่สุดในญี่ปุ่น ~31° · chairlift ราคาเท่ากันแต่เปิด 9:00-16:00 · จากสถานีบนเดินต่อ ~30-40 นาทีถึงยอด"
+          }
+        ]
+      },
+      {
+        "mode": "Keio Line + เดินขึ้นเอง (ประหยัด)",
+        "detail_th": "ชินจูกุ → train (Keio Takao Line) → Takaosanguchi → เดิน Trail 1 ขึ้นยอดเอง (ไม่ใช้ cable car)",
+        "durationMin": 140,
+        "costYen": 430,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดินขึ้นเขา",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Keio Shinjuku Station",
+            "to": "Takaosanguchi Station",
+            "mode": "train",
+            "line_th": "Keio Line (สาย Takao)",
+            "durationMin": 50,
+            "costYen": 430,
+            "note_th": "เหมือน option แรก ~ทุก 20 นาที 430 เยน"
+          },
+          {
+            "from": "Takaosanguchi Station",
+            "to": "Takao Summit (ยอด 599 ม.)",
+            "mode": "walk",
+            "line_th": "Trail 1 (เส้นปูทาง ผ่าน Yakuoin)",
+            "durationMin": 90,
+            "costYen": 0,
+            "note_th": "Trail 1 ปูทางกว้าง ขึ้นยอด ~90 นาที ผ่านวัด Yakuoin · ประหยัดสุดแต่เหนื่อยกว่า เหมาะคนชอบเดิน"
+          }
+        ]
+      },
+      {
+        "mode": "JR Chuo Line → ต่อ Keio (ถ้าพักย่าน JR)",
+        "detail_th": "Tokyo/JR → train (JR Chuo Line) → Takao Station → train (Keio Line 1 ป้าย) → Takaosanguchi → cable car",
+        "durationMin": 75,
+        "costYen": 1090,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ JR",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ Keio",
+            "icon": "subway"
+          },
+          {
+            "mode": "cablecar",
+            "label_th": "เคเบิลคาร์",
+            "icon": "cable-car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Takao Station",
+            "mode": "train",
+            "line_th": "JR Chuo Line (Rapid)",
+            "durationMin": 60,
+            "costYen": 920,
+            "note_th": "เหมาะถ้าพักย่านสาย JR (Tokyo/Shinjuku ฝั่ง JR) หรือถือ JR Pass อยู่แล้ว · ลงที่ Takao Station (คนละสถานีกับ Takaosanguchi)"
+          },
+          {
+            "from": "Takao Station",
+            "to": "Takaosanguchi Station",
+            "mode": "train",
+            "line_th": "Keio Line (1 ป้าย)",
+            "durationMin": 3,
+            "costYen": 170,
+            "note_th": "ต่อ Keio Line ไปอีก 1 ป้ายถึงฐานเขา"
+          },
+          {
+            "from": "Kiyotaki",
+            "to": "Takaosan (กลางเขา)",
+            "mode": "cablecar",
+            "line_th": "Takaotozan Cable Car",
+            "durationMin": 6,
+            "costYen": 490,
+            "note_th": "ขาเดียว 490 เยน เหมือน option แรก"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง พ.ย.",
+      "months": [
+        11
+      ],
+      "note_th": "ครึ่งหลัง พ.ย. ใบเมเปิลแดงรอบวัด Yakuoin + ตามเส้นเดินสวยมาก เป็นไฮไลต์ของปี · คนเยอะมาก ควรไปวันธรรมดา/เช้าตรู่"
+    },
+    {
+      "label": "ซากุระ เม.ย.",
+      "months": [
+        4
+      ],
+      "note_th": "พื้นที่ Itchodaira เลยยอดไปมีซากุระหลายสายพันธุ์ ชมได้กลาง-ปลาย เม.ย."
+    },
+    {
+      "label": "เขียวสด ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "ป่าเขียวร่มรื่น อากาศบนเขาเย็นกว่าตัวเมือง เหมาะหนีร้อน แต่ชื้นและมีแมลง"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "รอบ Yakuoin + เส้นเดิน",
+      "type": "koyo",
+      "startFrac": 0.83,
+      "endFrac": 0.95,
+      "note_th": "เมเปิลแดงครึ่งหลัง พ.ย."
+    },
+    {
+      "zone": "Itchodaira",
+      "type": "bloom",
+      "startFrac": 0.27,
+      "endFrac": 0.37,
+      "note_th": "ซากุระกลาง-ปลาย เม.ย."
+    },
+    {
+      "zone": "ป่าฤดูร้อน",
+      "type": "green",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "เขียวสด ก.ค.-ส.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · คุ้มสุดถ้าซื้อ Mt. Takao + Keio 1-Day Ticket (2,300 เยน รวมรถไฟไป-กลับ + cable car/chairlift ไป-กลับ + เข้า Monkey Park)",
+    "items": [
+      {
+        "label_th": "รถไฟ Keio ไป-กลับ (ชินจูกุ↔Takaosanguchi)",
+        "yen": 860,
+        "thb": 198,
+        "note_th": "430 เยน/เที่ยว · ตรงไม่ต้องต่อ"
+      },
+      {
+        "label_th": "cable car / chairlift ไป-กลับ",
+        "yen": 950,
+        "thb": 219,
+        "note_th": "490 เยน/เที่ยว ขึ้นกลางเขา · เดินขึ้นเองได้ถ้าจะประหยัด (0 เยน)"
+      },
+      {
+        "label_th": "อาหาร (โซบะภูเขา + dango)",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "ร้านโซบะแถวฐานเขา/กลางเขา + ขนมระหว่างทาง"
+      },
+      {
+        "label_th": "ค่าเข้า/ของฝาก",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "Monkey Park 500 เยน + ทำบุญ Yakuoin + ของที่ระลึก"
+      }
+    ],
+    "totalYen": 4810,
+    "totalThb": 1106,
+    "ranges": {
+      "lowThb": 700,
+      "midThb": 1300,
+      "highThb": 2200
+    }
+  },
+  "pois": [
+    {
+      "name": "Takaosan Yakuoin",
+      "icon": "building",
+      "durationMin": 40,
+      "blurb_th": "วัดชินงนบนเขา มีรูปปั้น Tengu ปีศาจจมูกยาวเป็นสัญลักษณ์",
+      "deepDive_th": "Takaosan Yakuoin Yuki-ji (高尾山薬王院) วัดพุทธนิกายชินงนเก่าแก่กว่า 1,200 ปี ตั้งอยู่บนเส้น Trail 1 ใกล้ยอดเขา · จุดเด่นคือรูปปั้น 'Tengu' ปีศาจภูเขาจมูกยาวมีปีก ผู้พิทักษ์เขา ตั้งคู่หน้าวิหาร ผู้คนมาขอพรเรื่องโชคลาภ-ปัดเป่าสิ่งชั่วร้าย · ตัววิหารแกะสลักไม้สีแดง-ทองวิจิตร ขึ้นบันไดหินเป็นช่วงๆ · ช่วง พ.ย. ใบเมเปิลแดงรอบวัดสวยที่สุด เป็นจุดถ่ายรูปยอดฮิต",
+      "location_th": "บน Trail 1 ใกล้ยอด",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tengu%20%40%20Yakuo-in%20Yuki-ji%20Temple%20%40%20Mount%20Takao%20(9876422145).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC) — Guilhem Vellut",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yakuo-in%20Yuki-ji%20Temple%20%40%20Mount%20Takao%20(9876313994).jpg?width=900"
+      }
+    },
+    {
+      "name": "Takao Summit (ยอด 599 ม.)",
+      "icon": "mountains",
+      "durationMin": 30,
+      "blurb_th": "ยอดเขามีลานกว้าง ป้ายหมุดยอด 599 ม. ร้านค้าและจุดชมวิว",
+      "deepDive_th": "ยอด Mt. Takao สูง 599 เมตร มีลานกว้างพร้อมป้ายหมุดยอดเขา (高尾山頂 599.15m) ให้ถ่ายรูปเป็นที่ระลึก · มีร้านค้า ร้านอาหาร และพื้นที่นั่งพักกินข้าวกลางวัน · เป็นจุดสิ้นสุดของ Trail 1 และจุดเริ่มเดินต่อไป Mt. Jinba สำหรับสายเดินไกล · ช่วงสุดสัปดาห์ฤดูใบไม้แดงคนแน่นลานยอดมาก",
+      "location_th": "ยอดเขา 599 ม.",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%AB%98%E5%B0%BE%E5%B1%B1%E9%A0%82%EF%BC%97%E6%99%8239%E5%88%86.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%AB%98%E5%B0%BE%E5%B1%B1%E3%83%BC%EF%BC%91.JPG?width=900"
+      }
+    },
+    {
+      "name": "วิวฟูจิจากยอด",
+      "icon": "camera",
+      "blurb_th": "วันฟ้าใสเห็นภูเขาฟูจิเต็มตาจากลานชมวิวยอดเขา",
+      "deepDive_th": "จุดชมวิวบนยอด Mt. Takao วันอากาศใส (โดยเฉพาะฤดูหนาว ธ.ค.-ก.พ. ที่อากาศแห้ง ทัศนวิสัยดี) จะเห็นภูเขาฟูจิยอดหิมะขาวตั้งตระหง่านเหนือทิวเขาได้ชัดเจน เป็นภาพไฮไลต์ที่คนมาทาคาโอะตามหา · ช่วงเช้าตรู่/หลังฝนฟ้ามักใสที่สุด · วันเหมายัน (กลาง ธ.ค.) มีปรากฏการณ์ 'Diamond Fuji' พระอาทิตย์ตกตรงยอดฟูจิพอดี ดึงช่างภาพมาเยอะ",
+      "location_th": "ลานชมวิวยอดเขา",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Fuji%20from%20Mount%20Takao%20(9407396089).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC) — Guilhem Vellut",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Fuji%20from%20Mount%20Takao%20(9406689883).jpg?width=900"
+      }
+    },
+    {
+      "name": "Takaotozan Cable Car",
+      "icon": "train",
+      "durationMin": 6,
+      "blurb_th": "เคเบิลคาร์ชันที่สุดในญี่ปุ่น (~31°) ขึ้นกลางเขาใน 6 นาที",
+      "deepDive_th": "Takaotozan Cable Car (高尾登山電鉄) ขึ้นจากสถานี Kiyotaki ฐานเขาไปสถานีกลางเขาใน ~6 นาที · ช่วงชันที่สุด ~31° เป็นทางลาด cable car ที่ชันที่สุดในญี่ปุ่น นั่งสนุกตื่นเต้น · ตัวรถสีแดง-เหลืองเป็นเอกลักษณ์ · ลดเวลาเดินขึ้นเขาได้ ~45 นาที เหมาะคนไม่อยากเดินเยอะ · ทางเลือกข้างๆ คือ chairlift (lift เปิดโล่ง) ราคาเท่ากัน วิวเปิดกว่าแต่เปิดเฉพาะ 9:00-16:00 และหยุดถ้าฝนตก",
+      "location_th": "Kiyotaki → กลางเขา",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Takaotozan%20funicular%204.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Takaotozan%20funicular%202.jpg?width=900"
+      }
+    },
+    {
+      "name": "Mt. Takao Monkey Park",
+      "icon": "trees",
+      "durationMin": 40,
+      "blurb_th": "สวนลิงมาคาคญี่ปุ่น ~40 ตัว + สวนพืชป่า 500 ชนิด ใกล้สถานีกลางเขา",
+      "deepDive_th": "Mt. Takao Monkey Park (高尾山さる園・野草園) อยู่ใกล้สถานี cable car บนกลางเขา เลี้ยงลิงมาคาคญี่ปุ่น (Japanese macaque) ~40 ตัว ดูพฤติกรรมตามธรรมชาติได้ใกล้ๆ มีเจ้าหน้าที่บรรยายเป็นช่วง · ติดกันมี Wild Plant Garden รวมพืชป่าภูเขากว่า 500 ชนิด · ค่าเข้า 500 เยน (รวมในตั๋ว Mt. Takao + Keio 1-Day) · เหมาะพาเด็ก/แวะพักระหว่างเดินขึ้นยอด",
+      "location_th": "ใกล้สถานี cable car กลางเขา",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20Macaque%20%40%20Monkey%20Park%20%40%20Mount%20Takao%20(9876348913).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC) — Guilhem Vellut",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20Macaque%20%40%20Monkey%20Park%20%40%20Mount%20Takao%20(9876258694).jpg?width=900"
+      }
+    },
+    {
+      "name": "Trail 1 (เส้นหลัก)",
+      "icon": "trees",
+      "durationMin": 90,
+      "blurb_th": "เส้นเดินหลักปูทาง ผ่านป่าซีดาร์เก่า ต้น Octopus Cedar 500 ปี + Yakuoin",
+      "deepDive_th": "Trail 1 (1号路 / Omotesando) เส้นเดินหลักของ Mt. Takao เป็นทางปูกว้างเดินสบาย จากฐานเขาขึ้นยอด ~90 นาที (หรือเริ่มจากสถานี cable car กลางเขา ~30-40 นาที) · ผ่านป่าซีดาร์อายุนับร้อยปี รวมถึง 'Octopus Cedar' (蛸杉 Tako-sugi) ต้นซีดาร์อายุ ~450-500 ปี รากบิดเป็นรูปหนวดปลาหมึก เป็นจุดถ่ายรูปดัง · ผ่านวัด Yakuoin ก่อนถึงยอด · เป็นเส้นที่นิยมและง่ายสุด ครอบครัวเดินได้ · อีก 5 เส้น (Trail 2-6) แคบและเงียบกว่า สำหรับสายเดินป่าจริงจัง",
+      "location_th": "ฐานเขา → ยอด (เส้นหลัก)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Takao%20-%20Trail%201%20(9406596253).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC) — Guilhem Vellut",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Takao%20-%20Trail%201%20(9406583901).jpg?width=900"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ชิลครึ่งวัน-เต็มวัน (cable car + ยอด)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เก็บครบในวันเดียว สบายๆ",
+          "detail_th": "ออกชินจูกุเช้า นั่ง Keio Line ตรงถึง Takaosanguchi ~50 นาที → เดินไปสถานี cable car ขึ้นกลางเขา → แวะ Monkey Park → เดิน Trail 1 ผ่าน Octopus Cedar → ขึ้น Yakuoin ไหว้พระ-ดู Tengu → เดินต่อขึ้นยอด 599 ม. ชมวิวฟูจิ + กินข้าวกลางวันบนยอด → เดิน/นั่ง cable car ลง → กลับชินจูกุบ่าย-เย็น",
+          "steps": [
+            {
+              "time_th": "~08:30",
+              "title_th": "ออกชินจูกุ → Takaosanguchi",
+              "detail_th": "Keio Line ตรง ~50 นาที 430 เยน ไม่ต้องต่อ",
+              "mode": "train",
+              "durationMin": 50
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "Cable car ขึ้นกลางเขา",
+              "detail_th": "Takaotozan Cable Car ~6 นาที (ชันสุดในญี่ปุ่น) หรือ chairlift",
+              "mode": "cablecar",
+              "durationMin": 6
+            },
+            {
+              "time_th": "~09:45",
+              "title_th": "Mt. Takao Monkey Park",
+              "detail_th": "ดูลิงมาคาค ~40 ตัว + สวนพืชป่า ใกล้สถานีกลางเขา",
+              "durationMin": 40
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "เดิน Trail 1 + Octopus Cedar",
+              "detail_th": "ทางปูสบาย ผ่านป่าซีดาร์เก่า ต้นซีดาร์หนวดปลาหมึก 500 ปี",
+              "durationMin": 30
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "Takaosan Yakuoin",
+              "detail_th": "ไหว้พระ ดูรูปปั้น Tengu วิหารแกะไม้สีแดง-ทอง",
+              "durationMin": 40
+            },
+            {
+              "time_th": "~12:00",
+              "title_th": "ยอดเขา 599 ม. + วิวฟูจิ",
+              "detail_th": "ถ่ายรูปป้ายหมุดยอด ชมวิวฟูจิ (วันฟ้าใส) กินข้าวกลางวัน",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Cable car ลง",
+              "detail_th": "ลงกลางเขาแล้วเดินกลับสถานี เช็ครอบสุดท้ายช่วงเย็น",
+              "mode": "cablecar",
+              "durationMin": 6
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับชินจูกุ",
+              "detail_th": "Keio Line ตรงกลับ",
+              "mode": "train",
+              "durationMin": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "สายเดินป่า — เดินขึ้น-ลงเองไม่ใช้ cable car",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "ออกกำลังเต็มที่ ประหยัดสุด",
+          "detail_th": "เหมาะคนชอบเดิน: จาก Takaosanguchi เดิน Trail 1 ขึ้นยอด ~90 นาที (ผ่าน Octopus Cedar + Yakuoin) → พักชมวิวฟูจิบนยอด → ลงด้วยเส้นอื่น เช่น Trail 6 (เลียบลำธาร) หรือ Trail 4 (สะพานแขวน) เพื่อเปลี่ยนบรรยากาศ → กลับ · ไม่ต้องเสียค่า cable car",
+          "steps": [
+            {
+              "time_th": "~09:00",
+              "title_th": "ถึง Takaosanguchi → เริ่มเดิน",
+              "detail_th": "Keio Line ตรงจากชินจูกุ ~50 นาที",
+              "mode": "train",
+              "durationMin": 50
+            },
+            {
+              "time_th": "~09:45",
+              "title_th": "เดิน Trail 1 ขึ้นยอด",
+              "detail_th": "ทางปูกว้าง ผ่าน Octopus Cedar + Yakuoin ~90 นาที",
+              "mode": "walk",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~11:30",
+              "title_th": "ยอดเขา + วิวฟูจิ",
+              "detail_th": "พักกินข้าว ชมวิวฟูจิวันฟ้าใส",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "ลงด้วย Trail 6 / Trail 4",
+              "detail_th": "เส้นเลียบลำธาร / สะพานแขวน เปลี่ยนบรรยากาศ ~70-90 นาที",
+              "mode": "walk",
+              "durationMin": 80
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับชินจูกุ",
+              "mode": "train",
+              "durationMin": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ฤดูใบไม้แดง (ครึ่งหลัง พ.ย.) คนแน่นมาก — cable car/chairlift ต่อคิวยาว ควรไปวันธรรมดาหรือเช้าตรู่ อย่ามาสาย",
+    "chairlift เปิดเฉพาะ 9:00-16:00 และหยุดเมื่อฝน/ลมแรง · cable car เช็ครอบสุดท้ายลงเขา (~17:15-18:00 ตามฤดู) อย่าตกรอบ",
+    "วิวฟูจิเห็นเฉพาะวันอากาศใส (ฤดูหนาวชัดสุด) วันฟ้าหลัว/เมฆมากอาจไม่เห็น อย่าคาดหวังแน่นอน",
+    "Trail 1 ปูทางสบาย แต่ Trail 2-6 พื้นดิน/หินอาจลื่นช่วงฝน ใส่รองเท้าผ้าใบพื้นยึดเกาะดี"
+  ],
+  "sources": [
+    {
+      "label": "Takaosan (Mount Takao) — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e3029.html"
+    },
+    {
+      "label": "Mount Takao — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mount_Takao"
+    },
+    {
+      "label": "Takao Tozan Railway (cable car / chairlift)",
+      "url": "https://www.takaotozan.co.jp/"
+    }
+  ],
+  "tags_th": [
+    "day-trip",
+    "ภูเขา",
+    "วิวฟูจิ",
+    "ใบไม้แดง",
+    "cable car",
+    "ใกล้โตเกียว",
+    "ง่ายมาก"
+  ],
+  "food": [
+    {
+      "name": "โทโรโระโซบะ",
+      "name_jp": "とろろそば",
+      "emoji": "🍜",
+      "note_th": "โซบะราดมันภูเขาบด (yamaimo) เมนูขึ้นชื่อของทาคาโอะ มีหลายร้านตั้งแต่ฐานเขาถึงยอด"
+    },
+    {
+      "name": "Tengu-yaki",
+      "name_jp": "天狗焼き",
+      "emoji": "🥮",
+      "note_th": "ขนมอบไส้ถั่วดำรูปหน้า Tengu ของดังหน้าสถานี cable car กลางเขา ต่อคิวยาว"
+    },
+    {
+      "name": "ดังโงะย่าง",
+      "name_jp": "団子",
+      "emoji": "🍡",
+      "note_th": "ดังโงะเสียบไม้ราดมิโซะ/โชยุ ขายตามร้านริมทางเดินขึ้นเขา"
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "slug": "ashikaga",
+  "name": {
+    "en": "Ashikaga Flower Park",
+    "th": "สวนดอกไม้อาชิคางะ",
+    "jp": "あしかがフラワーパーク"
+  },
+  "region": "Kanto",
+  "prefecture": "Tochigi",
+  "coords": {
+    "lat": 36.314,
+    "lng": 139.521
+  },
+  "category": [
+    "nature"
+  ],
+  "tagline_th": "อุโมงค์ฟูจิ (wisteria) ม่วงยักษ์อายุ 160 ปี กลางเม.ย.-พ.ค. + ไฟประดับฤดูหนาว 1 ใน 3 ของญี่ปุ่น — มีสถานีรถไฟชื่อเดียวกันลงตรงหน้าสวน",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20wisteria%2C%20Ashikaga%20Flower%20Park%201.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons (CC)",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashikaga%20Flower%20Park%20station%20with%20winter%20illumination.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "มีสถานี JR ชื่อ 'Ashikaga Flower Park' ลงตรงหน้าสวนพอดี — จากโตเกียวต่อรถไฟ ~2-2.5 ชม. โดยไป Oyama ก่อนแล้วต่อ Ryomo Line อีก 1 ต่อ ไม่ยาก แต่ช่วง wisteria peak (ปลายเม.ย.-ต้นพ.ค.) คนเยอะมาก เผื่อเวลา",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "JR Shonan-Shinjuku/Utsunomiya Line → Oyama → Ryomo Line",
+        "detail_th": "ชินจูกุ/อุเอโนะ → train (Utsunomiya Line ผ่าน Shonan-Shinjuku) → Oyama → train (Ryomo Line) → Ashikaga Flower Park Station → เดิน ~3 นาทีถึงประตูสวน",
+        "durationMin": 140,
+        "costYen": 1980,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku / Ueno Station",
+            "to": "Oyama Station",
+            "mode": "train",
+            "line_th": "JR Shonan-Shinjuku Line / Utsunomiya Line (มุ่ง Utsunomiya)",
+            "durationMin": 70,
+            "costYen": 1520,
+            "note_th": "ลงจากชินจูกุใช้ Shonan-Shinjuku Line, จากอุเอโนะใช้ Utsunomiya Line · ขบวนถี่ ~2-4 เที่ยว/ชม. · นั่งยาวสบาย ไม่ต้องจอง"
+          },
+          {
+            "from": "Oyama Station",
+            "to": "Ashikaga Flower Park Station",
+            "mode": "train",
+            "line_th": "JR Ryomo Line (มุ่ง Takasaki/Maebashi)",
+            "durationMin": 25,
+            "costYen": 460,
+            "note_th": "Ryomo Line เป็นสาย local ~1-2 เที่ยว/ชม. เช็ครอบให้ดี · สถานีปลายทางชื่อตรง 'Ashikaga Flower Park' (เปิดปี 2018) อยู่ติดสวน"
+          },
+          {
+            "from": "Ashikaga Flower Park Station",
+            "to": "ประตูสวน Ashikaga Flower Park",
+            "mode": "walk",
+            "line_th": "เดินจากสถานี",
+            "durationMin": 3,
+            "costYen": 0,
+            "note_th": "สถานีลงตรงหน้าสวน เดินข้ามไม่ถึง 5 นาที"
+          }
+        ]
+      },
+      {
+        "mode": "Tobu Isesaki Line → Tatebayashi → Ryomo Line (Tobu pass คุ้มกว่า)",
+        "detail_th": "อาซากุสะ → train (Tobu Isesaki Line / limited express Ryomo) → Tatebayashi → ต่อรถไฟ JR Ryomo ที่ Tomita/Ashikaga area → Ashikaga Flower Park Station → เดินถึงสวน",
+        "durationMin": 150,
+        "costYen": 1400,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Asakusa Station",
+            "to": "Tatebayashi Station",
+            "mode": "train",
+            "line_th": "Tobu Isesaki Line (rapid / limited express Ryomo)",
+            "durationMin": 80,
+            "costYen": 940,
+            "note_th": "ออกจากอาซากุสะตรง · ถ้าใช้ limited express 'Ryomo' บวกค่าธรรมเนียมที่นั่ง ~510 เยน แต่เร็วและสบาย · เหมาะคนพักฝั่งอาซากุสะ/สกายทรี"
+          },
+          {
+            "from": "Tatebayashi Station",
+            "to": "Ashikaga Flower Park Station",
+            "mode": "train",
+            "line_th": "ต่อ JR Ryomo Line (เปลี่ยนที่บริเวณ Sano/Tomita)",
+            "durationMin": 45,
+            "costYen": 460,
+            "note_th": "ต้องเปลี่ยนสาย Tobu→JR · ทางนี้ค่ารถถูกกว่าแต่ต่อรถมากกว่าและช้ากว่า · เช็ครอบ Ryomo Line"
+          },
+          {
+            "from": "Ashikaga Flower Park Station",
+            "to": "ประตูสวน Ashikaga Flower Park",
+            "mode": "walk",
+            "line_th": "เดินจากสถานี",
+            "durationMin": 3,
+            "costYen": 0,
+            "note_th": "ลงสถานีตรงหน้าสวน"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "Wisteria (ฟูจิ) กลางเม.ย.-พ.ค.",
+      "months": [
+        4,
+        5
+      ],
+      "note_th": "ไฮไลต์อันดับ 1 — Great Wisteria ม่วงยักษ์อายุ ~160 ปีบานเต็มซุ้มพร้อมอุโมงค์ฟูจิขาว/ม่วง · พีคมักกลางเม.ย.-ต้นพ.ค. แต่เลื่อนตามอากาศแต่ละปี ต้องเช็ควันบานก่อนไป"
+    },
+    {
+      "label": "Illumination ไฟประดับฤดูหนาว ต.ค.-ก.พ.",
+      "months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "note_th": "งาน 'Flower Fantasy' ไฟประดับหลายล้านดวง ได้ชื่อเป็น 1 ใน 3 ของญี่ปุ่น · มี 'wisteria of light' จำลองซุ้มฟูจิด้วยไฟ ตอนกลางคืน"
+    },
+    {
+      "label": "ดอกตามฤดูอื่นๆ",
+      "months": [
+        5,
+        6
+      ],
+      "note_th": "หลังฟูจิโรย ต่อด้วยกุหลาบ, คลีมาทิส, ดอกไอริส และดอกบัวในสระช่วงต้นฤดูร้อน"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "Great Wisteria + อุโมงค์ฟูจิ",
+      "type": "bloom",
+      "startFrac": 0.29,
+      "endFrac": 0.37,
+      "note_th": "ฟูจิม่วง/ขาวบาน กลางเม.ย.-ต้นพ.ค. (พีคของสวน)"
+    },
+    {
+      "zone": "กุหลาบ + ดอกฤดูร้อน",
+      "type": "bloom",
+      "startFrac": 0.37,
+      "endFrac": 0.5,
+      "note_th": "กุหลาบ/คลีมาทิส/ดอกบัว พ.ค.-มิ.ย."
+    },
+    {
+      "zone": "Flower Fantasy Illumination",
+      "type": "event",
+      "startFrac": 0.79,
+      "endFrac": 1.0,
+      "note_th": "ไฟประดับฤดูหนาว ปลายต.ค.-ก.พ."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบิน · จุดสำคัญคือค่าเข้าที่ 'ผันตามฤดู' ตามปริมาณดอกที่บาน ช่วง wisteria peak แพงสุด",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (JR ชินจูกุ↔Ashikaga Flower Park)",
+        "yen": 3960,
+        "thb": 911,
+        "note_th": "JR Utsunomiya/Shonan-Shinjuku → Oyama → Ryomo Line ไป-กลับ (~1,980 เยน/เที่ยว)"
+      },
+      {
+        "label_th": "ค่าเข้าสวน (ผันตามฤดู)",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "ปกติ ~500-1,000 เยน · ช่วง wisteria peak ขึ้นถึง ~1,000-2,000 เยน · ช่วง illumination ~1,000-1,500 เยน · ราคาประกาศตามวันที่ดอกบาน"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "ร้านในสวน + ของกินตามเทศกาล (เช่น ซอฟต์ครีมสีฟูจิ)"
+      },
+      {
+        "label_th": "ของฝาก/เบ็ดเตล็ด",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "ของที่ระลึกธีมฟูจิ + เครื่องดื่ม"
+      }
+    ],
+    "totalYen": 8460,
+    "totalThb": 1946,
+    "ranges": {
+      "lowThb": 1400,
+      "midThb": 2000,
+      "highThb": 3200
+    }
+  },
+  "pois": [
+    {
+      "name": "Great Wisteria (ฟูจิม่วงยักษ์ 160 ปี)",
+      "icon": "trees",
+      "durationMin": 30,
+      "blurb_th": "ต้นฟูจิม่วงอายุ ~160 ปี แผ่ซุ้มกว้างกว่า 1,000 ตร.ม. เหมือนน้ำตกดอกม่วง",
+      "deepDive_th": "Great Wisteria (大藤) ต้นฟูจิ (wisteria) ม่วงยักษ์อายุราว 160 ปี เป็นสัญลักษณ์ของสวนและสิ่งที่ทำให้ Ashikaga โด่งดังระดับโลก · กิ่งถูกค้ำด้วยโครงเหล็กแผ่ออกเป็นซุ้มกว้างกว่า 1,000 ตารางเมตร เวลายืนใต้ซุ้มจะเหมือนอยู่ใต้น้ำตกดอกม่วงห้อยระย้าเต็มหัว · บานพีคกลางเม.ย.-ต้นพ.ค. (เลื่อนตามอากาศ) — ต้องเช็ควันบานก่อนไป เพราะเป็นช่วงที่ค่าเข้าแพงสุดและคนเยอะสุด · ตอนกลางคืนช่วงเทศกาลมี light-up ส่องซุ้มให้ดูขลังอีกแบบ",
+      "location_th": "ใจกลางสวน (โซน wisteria หลัก)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20wisteria%2C%20Ashikaga%20Flower%20Park%201.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20wisteria%2C%20Ashikaga%20Flower%20Park%208.jpg?width=900"
+      }
+    },
+    {
+      "name": "อุโมงค์ฟูจิ (Wisteria Tunnel)",
+      "icon": "trees",
+      "durationMin": 20,
+      "blurb_th": "ทางเดินลอดอุโมงค์ดอกฟูจิห้อยระย้าทั้งสองข้าง",
+      "deepDive_th": "อุโมงค์ฟูจิ (藤のトンネル) ทางเดินที่ขึงโครงให้กิ่งฟูจิห้อยลงมาเป็นม่านดอกทั้งสองข้างตลอดทาง เดินลอดเหมือนอยู่ในอุโมงค์ดอกไม้ · มีทั้งโซนฟูจิม่วง, ฟูจิชมพู และฟูจิขาวที่บานไล่กันช่วงปลายเม.ย.-ต้นพ.ค. · เป็นจุดถ่ายรูปยอดฮิตคู่กับ Great Wisteria · ระวังช่วงพีคคนหนาแน่นมาก เดินช้าๆ ต่อแถวกัน",
+      "location_th": "ติดกับโซน Great Wisteria",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20wisteria%2C%20Ashikaga%20Flower%20Park%209.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/White%20Japanese%20Wisteria%20%2849884820896%29.jpg?width=900"
+      }
+    },
+    {
+      "name": "White Wisteria Tunnel (อุโมงค์ฟูจิขาว)",
+      "icon": "trees",
+      "durationMin": 20,
+      "blurb_th": "อุโมงค์ฟูจิขาวยาว ~80 ม. บานหลังฟูจิม่วงเล็กน้อย",
+      "deepDive_th": "White Wisteria Tunnel (白藤のトンネル) อุโมงค์ฟูจิขาวความยาวราว 80 เมตร ดอกขาวบริสุทธิ์ห้อยลงมาเป็นม่านยาวจนเกือบถึงพื้น ดูสว่างและสะอาดตา · มักบานตามหลังฟูจิม่วง ~ปลายเม.ย.-ต้นพ.ค. ทำให้ช่วงต้นพ.ค. ได้เห็นทั้งม่วงและขาวพร้อมกันถ้าจังหวะดี · ตอนกลางคืน light-up ส่องฟูจิขาวให้เรืองแสงสวยมาก · พื้นที่นี้คนน้อยกว่า Great Wisteria เล็กน้อย ถ่ายรูปได้สบายกว่า",
+      "location_th": "โซนฟูจิขาว (เดินต่อจากอุโมงค์ม่วง)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/White%20Japanese%20Wisteria%20%2849884820896%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20wisteria%2C%20Ashikaga%20Flower%20Park%209.jpg?width=900"
+      }
+    },
+    {
+      "name": "Flower Fantasy Illumination",
+      "icon": "camera",
+      "durationMin": 90,
+      "blurb_th": "ไฟประดับฤดูหนาวหลายล้านดวง 1 ใน 3 ของญี่ปุ่น มีซุ้มฟูจิจำลองด้วยไฟ",
+      "deepDive_th": "Flower Fantasy (光の花の庭) งานไฟประดับฤดูหนาวของสวน เปิดช่วงปลายต.ค.-ก.พ. ใช้ไฟหลายล้านดวง ได้รับการจัดอันดับเป็น 1 ใน 3 ของญี่ปุ่น (Japan's Three Great Illuminations) · ไฮไลต์คือ 'Wisteria of Light' ที่จำลองซุ้มฟูจิอันโด่งดังขึ้นมาด้วยไฟม่วง ให้คนที่มาหน้าหนาว (นอกฤดูดอกบาน) ยังได้สัมผัสซุ้มฟูจิในอีกรูปแบบ · มีปราสาทไฟ, อุโมงค์ไฟ และทุ่งดอกไม้ไฟไล่สีสะท้อนผิวน้ำ · เปิดถึงค่ำ เหมาะมาช่วงบ่ายแก่ๆ แล้วรอไฟติดตอนพระอาทิตย์ตก",
+      "location_th": "ทั่วทั้งสวน (ช่วงเย็น-ค่ำ)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flower%20Fantasy%2020th%20Anniversary%201.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flower%20Fantasy%2020th%20Anniversary%203.jpg?width=900"
+      }
+    },
+    {
+      "name": "สระบัว + Flower Stage (ดอกตามฤดู)",
+      "icon": "compass",
+      "durationMin": 30,
+      "blurb_th": "สระบัวน้ำและลานดอกไม้กลางสวน เปลี่ยนหน้าตาตามฤดู",
+      "deepDive_th": "Flower Stage และสระบัวน้ำ (water lily pond) เป็นแกนกลางของสวนที่ออกแบบให้มีดอกไม้หมุนเวียนตลอดปี · ช่วงต้นฤดูร้อนสระบัวจะมี water lily บานบนผิวน้ำ ส่วนแปลงรอบๆ ปลูกกุหลาบ, คลีมาทิส, ไอริส, ดอกฤดูร้อนต่างๆ · หน้าใบไม้ร่วงต้นไม้รอบสระเปลี่ยนสีเหลือง-ส้ม-แดงตัดกับฟ้าใส · เป็นจุดเดินเล่นชิลๆ ไว้เก็บภาพมุมกว้างของสวนนอกฤดูฟูจิ และเป็นเหตุผลที่มาช่วงไหนของปีก็ยังมีดอกให้ดู",
+      "location_th": "กลางสวน รอบสระน้ำ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashikaga%20Flower%20Park%20Flower%20Stage%20In%20Late%20Autumn%201.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashikaga%20Flower%20Park%2020221030-1.jpg?width=900"
+      }
+    },
+    {
+      "name": "Ashikaga Flower Park Station",
+      "icon": "compass",
+      "durationMin": 10,
+      "blurb_th": "สถานี JR ชื่อเดียวกับสวน ลงตรงหน้าประตู หน้าหนาวมีไฟประดับ",
+      "deepDive_th": "Ashikaga Flower Park Station (あしかがフラワーパーク駅) สถานี JR Ryomo Line ที่เปิดปี 2018 โดยเฉพาะเพื่อรองรับนักท่องเที่ยวสวน — ชื่อสถานีตรงกับสวนและลงตรงหน้าประตูเดินไม่ถึง 5 นาที สะดวกมากเทียบกับสมัยก่อนที่ต้องลงสถานีไกลแล้วต่อบัส · ช่วงเทศกาล illumination ตัวสถานีและบันไดยังถูกประดับไฟให้เข้าธีมกับสวน เป็นจุดถ่ายรูปแรกตั้งแต่ก้าวลงจากรถไฟ · ทำให้ Ashikaga กลายเป็น day-trip ที่เข้าถึงง่ายแม้จะอยู่ Tochigi",
+      "location_th": "หน้าสวนพอดี (JR Ryomo Line)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashikaga%20Flower%20Park%20station%20with%20winter%20illumination.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashikaga%20Flower%20Park%20Station%20Frontgate.jpg?width=900"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip หน้าฟูจิบาน (กลางเม.ย.-พ.ค.) — แนะนำ",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เก็บซุ้มฟูจิให้ครบในวันเดียว",
+          "detail_th": "ออกโตเกียวเช้า (ยิ่งเช้ายิ่งดี เพราะช่วง peak คนเยอะมากตอนสาย) → JR ไป Oyama ต่อ Ryomo Line ลง Ashikaga Flower Park Station เดินข้ามถึงประตูสวน → เข้าชม Great Wisteria ม่วงยักษ์ก่อนคนแน่น → เดินอุโมงค์ฟูจิม่วง/ขาว → กินกลางวันในสวน (ลองซอฟต์ครีมสีฟูจิ) → เดินชมแปลงกุหลาบ/สระบัว → กลับโตเกียวช่วงบ่าย-เย็น เลี่ยงรถไฟ Ryomo Line รอบดึกที่ห่าง",
+          "steps": [
+            {
+              "time_th": "~07:30",
+              "title_th": "ออกชินจูกุ → Oyama",
+              "detail_th": "JR Shonan-Shinjuku / Utsunomiya Line",
+              "mode": "train",
+              "durationMin": 70
+            },
+            {
+              "time_th": "~08:50",
+              "title_th": "Oyama → Ashikaga Flower Park Station",
+              "detail_th": "ต่อ JR Ryomo Line (เช็ครอบ ~1-2 เที่ยว/ชม.)",
+              "mode": "train",
+              "durationMin": 25
+            },
+            {
+              "time_th": "~09:20",
+              "title_th": "เข้าสวน + Great Wisteria",
+              "detail_th": "ตรงไปต้นฟูจิม่วงยักษ์ก่อนคนแน่นช่วงสาย",
+              "durationMin": 40
+            },
+            {
+              "time_th": "~10:10",
+              "title_th": "อุโมงค์ฟูจิม่วง + ฟูจิขาว",
+              "detail_th": "เดินลอดอุโมงค์ดอกห้อยระย้า ถ่ายรูป",
+              "durationMin": 50
+            },
+            {
+              "time_th": "เที่ยง",
+              "title_th": "กลางวันในสวน",
+              "detail_th": "ร้านในสวน + ซอฟต์ครีมสีฟูจิ",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "แปลงกุหลาบ + สระบัว + Flower Stage",
+              "detail_th": "เดินชมดอกฤดูอื่นรอบสวน เก็บมุมกว้าง",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~15:30",
+              "title_th": "กลับโตเกียว",
+              "detail_th": "Ryomo Line → Oyama → JR เข้าโตเกียว · เช็ครอบ Ryomo Line อย่าตกรอบ",
+              "mode": "train",
+              "durationMin": 95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "Half-day หน้า Illumination ฤดูหนาว (เย็น-ค่ำ)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "มาช่วงบ่ายแก่ รอไฟติดตอนค่ำ",
+          "detail_th": "เหมาะหน้าหนาว (ต.ค.-ก.พ.) ที่ไม่มีฟูจิบาน: ออกโตเกียวบ่าย → ถึงสวนก่อนพระอาทิตย์ตก เดินดูแปลงดอก/โครงไฟตอนยังสว่าง → รอไฟ Flower Fantasy ติดตอนค่ำ ชม Wisteria of Light + ปราสาทไฟ + อุโมงค์ไฟ → กลับโตเกียว · ระวังรอบรถไฟ Ryomo Line ตอนกลางคืนห่าง ต้องเช็ครอบสุดท้ายให้ดี",
+          "steps": [
+            {
+              "time_th": "~13:30",
+              "title_th": "ออกโตเกียว → Ashikaga Flower Park",
+              "detail_th": "JR → Oyama → Ryomo Line",
+              "mode": "train",
+              "durationMin": 95
+            },
+            {
+              "time_th": "~15:30",
+              "title_th": "เดินสวนตอนยังสว่าง",
+              "detail_th": "ดูแปลงดอก/โครงไฟก่อนเปิดไฟ",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~16:30",
+              "title_th": "ไฟ Flower Fantasy ติด",
+              "detail_th": "Wisteria of Light + ปราสาทไฟ + ทุ่งไฟไล่สีสะท้อนน้ำ",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~18:30",
+              "title_th": "กลับโตเกียว",
+              "detail_th": "เช็ครอบ Ryomo Line รอบสุดท้ายให้แน่ใจ",
+              "mode": "train",
+              "durationMin": 95
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ค่าเข้า 'ผันตามฤดู' ตามปริมาณดอกที่บาน — ช่วง wisteria peak (ปลายเม.ย.-ต้นพ.ค.) แพงสุดถึง ~1,000-2,000 เยน เช็คราคาวันนั้นบนเว็บสวนก่อนไป",
+    "ฟูจิบานช่วงสั้นและเลื่อนตามอากาศแต่ละปี — ต้องเช็ค 'วันบาน' (flowering status) จากเว็บทางการก่อนซื้อตั๋ว/วางแผน ไม่งั้นอาจไปเจอดอกยังไม่บานหรือโรยแล้ว",
+    "ช่วง peak คนเยอะมหาศาล (โดยเฉพาะ Golden Week ต้นพ.ค.) — รถไฟ Ryomo Line และในสวนแน่น ไปเช้าและเผื่อเวลาต่อรถ",
+    "Ryomo Line เป็นสาย local รอบห่าง (~1-2 เที่ยว/ชม.) เช็ครอบสุดท้ายขากลับ โดยเฉพาะถ้าอยู่ดูไฟ illumination ตอนค่ำ"
+  ],
+  "sources": [
+    {
+      "label": "Ashikaga Flower Park — Official site",
+      "url": "https://www.ashikaga.co.jp/en/"
+    },
+    {
+      "label": "Ashikaga Flower Park — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e3848.html"
+    },
+    {
+      "label": "Ashikaga Flower Park — JNTO",
+      "url": "https://www.japan.travel/en/spot/715/"
+    }
+  ],
+  "tags_th": [
+    "wisteria",
+    "ฟูจิ",
+    "สวนดอกไม้",
+    "illumination",
+    "ไฟประดับ",
+    "day-trip"
+  ],
+  "food": [
+    {
+      "name": "ซอฟต์ครีมสีฟูจิ",
+      "name_jp": "藤ソフトクリーム",
+      "emoji": "🍦",
+      "note_th": "ซอฟต์ครีมสีม่วงธีมดอกฟูจิ ขายในสวนช่วงเทศกาล wisteria"
+    },
+    {
+      "name": "อิโมะฟราย (มันฝรั่งทอดถิ่น Tochigi)",
+      "name_jp": "いもフライ",
+      "emoji": "🍢",
+      "note_th": "ของกินเล่นขึ้นชื่อแถบ Ashikaga/Sano — มันต้มชุบแป้งทอดเสียบไม้ราดซอส"
+    },
+    {
+      "name": "Sano ramen",
+      "name_jp": "佐野ラーメン",
+      "emoji": "🍜",
+      "note_th": "ราเมงเส้นทำมือน้ำใสของเมือง Sano ที่อยู่ติดกัน แวะกินขากลับได้"
+    }
+  ]
+}

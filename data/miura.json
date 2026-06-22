@@ -1,0 +1,445 @@
+{
+  "slug": "miura",
+  "name": {
+    "en": "Miura & Jogashima",
+    "th": "มิอุระ & โจกาชิมะ",
+    "jp": "三浦・城ヶ島"
+  },
+  "region": "Kanto",
+  "prefecture": "Kanagawa",
+  "coords": {
+    "lat": 35.13,
+    "lng": 139.61
+  },
+  "category": [
+    "coast",
+    "nature"
+  ],
+  "tagline_th": "แหลมใต้สุดคานากาวะ — เกาะโจกาชิมะ หินผาทะเล ถ้ำหินโค้ง ประภาคารขาว + ตลาดปลามิซากิเมืองหลวงทูน่า กินมากุโระสดๆ ห่างโตเกียว ~1.5-2 ชม.",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jogashima%20aerial%20photograph.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/250429%20Jogashima%20Island%2033.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "นั่ง Keikyu Line จากชินากาวะถึง Misakiguchi (สถานีใต้สุดของสาย ~70-90 นาที) ต่อ Keikyu Bus ไปท่าเรือมิซากิ/เกาะโจกาชิมะอีก ~20-35 นาที รวม ~1.5-2 ชม. · คุ้มที่สุดด้วย 'Misaki Maguro Day Trip Ticket' บัตรเดียวรวมรถไฟไป-กลับ + บัส + คูปองข้าวทูน่า + คูปองเที่ยว/ของฝาก · ไม่ต้องค้างก็เที่ยวครบวันเดียวได้",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Misaki Maguro Day Trip Ticket (แนะนำ — คุ้มสุด)",
+        "detail_th": "ชินากาวะ → train (Keikyu Limited Express) → Misakiguchi → bus (Keikyu Bus) → ท่าเรือมิซากิ / เกาะโจกาชิมะ · บัตรเดียวรวมรถไฟไป-กลับ + บัสในโซน + คูปองมื้อทูน่า + คูปองเที่ยว/ช้อป",
+        "durationMin": 110,
+        "costYen": 3500,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinagawa Station",
+            "to": "Misakiguchi Station",
+            "mode": "train",
+            "line_th": "Keikyu Line (Limited Express / Airport Ltd.Exp)",
+            "durationMin": 75,
+            "costYen": 0,
+            "note_th": "ค่ารถไฟ+บัสไป-กลับรวมอยู่ในบัตร Misaki Maguro 3,500 เยน (จากชินากาวะ/คามาตะ/คาวาซากิ · จากโยโกฮามา 3,400 · จากฮาเนดะ 3,810) · ซื้อที่ตู้อัตโนมัติสถานี Keikyu (ยกเว้น Sengakuji กับ Misakiguchi) · บางขบวนต้องเปลี่ยนที่ Kanazawa-Bunko/Horinouchi"
+          },
+          {
+            "from": "Misakiguchi Station",
+            "to": "ท่าเรือมิซากิ (Misakiko) / เกาะโจกาชิมะ (Jogashima)",
+            "mode": "bus",
+            "line_th": "Keikyu Bus (สาย Misakiko / Jogashima)",
+            "durationMin": 25,
+            "costYen": 0,
+            "note_th": "รวมในบัตรแล้ว (โซนฟรี) · ลงป้าย Misakiko ไปตลาดปลา/Urari หรือนั่งต่อข้ามสะพานไป Jogashima ลงป้ายสุดสาย Jogashima Gyoko-mae · ~1-2 เที่ยว/ชม. เช็กตารางก่อน"
+          }
+        ]
+      },
+      {
+        "mode": "Keikyu Line + บัส (ซื้อตั๋วแยก)",
+        "detail_th": "ชินากาวะ → train (Keikyu Line) → Misakiguchi → bus → ท่าเรือมิซากิ / เกาะโจกาชิมะ · จ่ายตามจริงทีละต่อ ถ้าไม่อยากกินทูน่าหรือเที่ยวสั้น",
+        "durationMin": 110,
+        "costYen": 1300,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinagawa Station",
+            "to": "Misakiguchi Station",
+            "mode": "train",
+            "line_th": "Keikyu Line (Limited Express)",
+            "durationMin": 75,
+            "costYen": 950,
+            "note_th": "ค่าโดยสารเที่ยวเดียว ~950 เยน · Limited Express ไม่มีค่าธรรมเนียมที่นั่งพิเศษ"
+          },
+          {
+            "from": "Misakiguchi Station",
+            "to": "เกาะโจกาชิมะ (Jogashima)",
+            "mode": "bus",
+            "line_th": "Keikyu Bus (สาย Jogashima)",
+            "durationMin": 30,
+            "costYen": 370,
+            "note_th": "ลงป้ายสุดสาย Jogashima Gyoko-mae · ป้าย Misakiko (ตลาดปลา) ใกล้กว่าเล็กน้อย · ~1-2 เที่ยว/ชม."
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ทะเล+ฟูจิหน้าหนาว ธ.ค.-ก.พ.",
+      "months": [
+        12,
+        1,
+        2
+      ],
+      "note_th": "อากาศใส มองเห็นฟูจิข้ามทะเลชัดที่สุด · ทูน่าเข้าฤดู ตลาดปลาคึกคัก เตรียมเสื้อกันลมแรงริมแหลม"
+    },
+    {
+      "label": "ดอกไม้+เที่ยวสบาย มี.ค.-พ.ค.",
+      "months": [
+        3,
+        4,
+        5
+      ],
+      "note_th": "ต้น มี.ค. ทุ่งดอกไม้/ซากุระบานเร็วแถบมิอุระ อากาศกำลังดี เดินเลียบหน้าผาสบาย"
+    },
+    {
+      "label": "เล่นน้ำหน้าร้อน ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "ทะเลใส เหมาะ snorkel/ดำน้ำ Aburatsubo · ร้อนชื้น พกกันแดด แต่ฟูจิมักโดนหมอกบัง"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "วิวฟูจิข้ามทะเล",
+      "type": "snow",
+      "startFrac": 0.0,
+      "endFrac": 0.16,
+      "note_th": "อากาศใสหน้าหนาว เห็นฟูจิยอดหิมะชัด ธ.ค.-ก.พ."
+    },
+    {
+      "zone": "ทุ่งดอกไม้มิอุระ",
+      "type": "bloom",
+      "startFrac": 0.16,
+      "endFrac": 0.33,
+      "note_th": "ดอกไม้/ซากุระบานเร็ว มี.ค.-เม.ย."
+    },
+    {
+      "zone": "ทะเล/ดำน้ำ",
+      "type": "green",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "น้ำใส เล่นน้ำ-snorkel ก.ค.-ส.ค."
+    },
+    {
+      "zone": "ทูน่าเข้าฤดู",
+      "type": "event",
+      "startFrac": 0.83,
+      "endFrac": 1.0,
+      "note_th": "ตลาดปลามิซากิคึกคัก ทูน่าสดช่วงปลายปี-ต้นปี"
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ถ้าใช้บัตร Misaki Maguro คุ้มมากเพราะรวมรถไฟ+บัส+ข้าวทูน่า+คูปองในใบเดียว",
+    "items": [
+      {
+        "label_th": "Misaki Maguro Day Trip Ticket",
+        "yen": 3500,
+        "thb": 805,
+        "note_th": "รวมรถไฟ Keikyu ไป-กลับ + บัสในโซน + คูปองมื้อทูน่า + คูปองเที่ยว/ช้อป (จากชินากาวะ)"
+      },
+      {
+        "label_th": "อาหารเพิ่มเติม",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "เติมซูชิทูน่า/ของทะเลย่าง/คาเฟ่ นอกเหนือจากคูปองในบัตร"
+      },
+      {
+        "label_th": "ค่าเข้า/กิจกรรม",
+        "yen": 800,
+        "thb": 184,
+        "note_th": "Jogashima Park ฟรี · เผื่อค่าจอดเรือชมถ้ำ/พิพิธภัณฑ์เล็กๆ"
+      },
+      {
+        "label_th": "ของฝาก",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "ของทะเลแห้ง/ขนมที่ Urari Marche ใช้คูปองในบัตรได้บางส่วน"
+      }
+    ],
+    "totalYen": 6800,
+    "totalThb": 1564,
+    "ranges": {
+      "lowThb": 1000,
+      "midThb": 1600,
+      "highThb": 2800
+    }
+  },
+  "pois": [
+    {
+      "name": "Jogashima Lighthouse",
+      "icon": "building",
+      "durationMin": 30,
+      "blurb_th": "ประภาคารขาวเก่าแก่ปลายเกาะ จุดชมพระอาทิตย์ตก + ฟูจิข้ามทะเล",
+      "deepDive_th": "Jogashima Lighthouse (城ヶ島灯台) ประภาคารตะวันตกยุคแรกๆ ของญี่ปุ่น สร้างปี 1870 (สมัยเมจิ) แล้วสร้างใหม่ปี 1927 หลังแผ่นดินไหวคันโต · ตั้งบนปลายเกาะโจกาชิมะฝั่งตะวันตก รอบๆ มีลานชมวิวเปิดโล่งสู่อ่าวซางามิ วันฟ้าใสหน้าหนาวมองเห็นภูเขาฟูจิลอยข้ามทะเลได้ชัด · เป็นจุดชมพระอาทิตย์ตกยอดนิยม ตัวประภาคารขาวสะอาดถ่ายรูปสวย เดินจากป้ายบัส/ลานจอดไม่ไกล",
+      "location_th": "ปลายตะวันตกเกาะโจกาชิมะ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jogashima%20Lighthouse%20ac%20(1).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Umanose Domon",
+      "icon": "camera",
+      "durationMin": 40,
+      "blurb_th": "ถ้ำหินโค้งกลางผาทะเล เกิดจากคลื่นกัดเซาะ + แผ่นดินไหวยกตัว",
+      "deepDive_th": "Umanose Domon (馬の背洞門) ถ้ำหินรูปโค้งคล้ายอุโมงค์ ไฮไลต์ภูมิประเทศของเกาะโจกาชิมะ · เดิมเป็นโพรงใต้น้ำ ถูกแผ่นดินไหวครั้งใหญ่คันโต ปี 1923 ยกตัวขึ้นเหนือทะเลราว 10 เมตร แล้วคลื่นกัดเซาะเจาะทะลุเป็นซุ้มโค้ง · ตั้งบนลานหินผาขรุขระริมทะเล เดินลงไปถ่ายรูปได้ใกล้ๆ มุมยอดฮิตคือถ่ายลอดช่องโค้งออกไปเห็นมหาสมุทร · พื้นหินลื่นและคลื่นซัดแรงช่วงทะเลคลั่ง ระวังลื่น",
+      "location_th": "ฝั่งใต้เกาะโจกาชิมะ (เดินจากประภาคาร/สวน)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Umanose-Domon%20Jogashima%20Island.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Misaki Fish Market & Urari Marche",
+      "icon": "water",
+      "durationMin": 90,
+      "blurb_th": "ท่าปลามิซากิ เมืองหลวงทูน่า — กินมากุโระสดๆ + ตลาดของทะเล",
+      "deepDive_th": "Misaki Port (三崎港) ท่าปลาที่ขึ้นชื่อว่าเป็น 'เมืองหลวงทูน่า' ของคันโต ขึ้นปลามากุโระ (โดยเฉพาะทูน่าแช่แข็งจากมหาสมุทรไกล) มายาวนาน · ริมท่ามีตลาด Urari Marche แบ่งเป็นโซนปลาสด (ชั้นล่าง) และผัก/ของฝากมิอุระ (ชั้นบน) · รอบท่ามีร้านซูชิ/ข้าวหน้าทูน่า/kabuto-yaki (หัวทูน่าย่าง) เรียงราย เป็นเหตุผลหลักที่คนนั่ง Keikyu มาไกลถึงนี่ · ถ้าใช้บัตร Misaki Maguro มีคูปองมื้อทูน่าให้เลือกร้านที่ร่วมรายการ",
+      "location_th": "ท่าเรือมิซากิ (ฝั่งแผ่นดินใหญ่ ก่อนข้ามสะพานไปโจกาชิมะ)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/250429%20Jogashima%20Harbor%2010.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Jogashima Park",
+      "icon": "trees",
+      "durationMin": 60,
+      "blurb_th": "สวนริมทะเลบนเกาะ ลานหญ้าเปิดโล่ง ทางเดินเลียบหน้าผาชมวิว",
+      "deepDive_th": "Jogashima Park (城ヶ島公園) สวนสาธารณะฝั่งตะวันออกของเกาะ ลานหญ้ากว้างเปิดโล่งสู่ทะเล มีจุดชมวิว (observation deck) มองอ่าวซางามิและคาบสมุทรโบโซ · มีเส้นทางเดินเลียบหน้าผาเชื่อมไปยังแนวหินทะเลและ Umanose Domon เดินชิลๆ ไม่ชัน เหมาะครอบครัว · ฤดูหนาวอากาศใสเห็นฟูจิ ฤดูใบไม้ผลิมีดอกไม้ · เป็นจุดเริ่มเดินสำรวจเกาะที่ดีหลังลงบัส",
+      "location_th": "ฝั่งตะวันออกเกาะโจกาชิมะ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/250429%20Jogashima%20Island%2033.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Aburatsubo Bay",
+      "icon": "water",
+      "durationMin": 60,
+      "blurb_th": "อ่าวยื่นลึกน้ำนิ่ง ป่าเขียวล้อม มารีนา + จุดดำน้ำ/อควาเรียม",
+      "deepDive_th": "Aburatsubo (油壺) อ่าวรูปยาวยื่นลึกเข้าแผ่นดินทางตะวันตกของคาบสมุทรมิอุระ น้ำนิ่งใส ขนาบด้วยป่าเขียวและเนินสูง เคยเป็นที่ตั้งปราสาทยุคเซ็นโกกุ · เป็นแหล่งจอดเรือยอชต์/มารีนา และจุดดำน้ำ-snorkel ยอดนิยมเพราะคลื่นสงบ · บรรยากาศเงียบสงบต่างจากฝั่งหน้าผาทะเลของโจกาชิมะ เหมาะแวะถ้ามีเวลาเหลือหรืออยากเลี่ยงฝูงชน (อยู่คนละมุมของคาบสมุทร ต้องต่อบัสแยก)",
+      "location_th": "ฝั่งตะวันตกคาบสมุทรมิอุระ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aburatsubo-Moroiso%20Bay.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ทูน่า + เกาะโจกาชิมะ (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "กินทูน่ามิซากิ + เดินเที่ยวเกาะวันเดียว",
+          "detail_th": "ออกชินากาวะเช้าด้วย Keikyu (ซื้อบัตร Misaki Maguro ที่ตู้) → Misakiguchi → บัสไปท่าเรือมิซากิ ลุย Urari Marche + กินข้าวหน้าทูน่า/ซูชิมากุโระ (ใช้คูปองในบัตร) → นั่งบัส/เดินข้ามสะพานไปเกาะโจกาชิมะ → Jogashima Park ชมวิว → เดินเลียบหน้าผาไป Umanose Domon ถ่ายรูปถ้ำหินโค้ง → Jogashima Lighthouse ชมฟูจิข้ามทะเล/พระอาทิตย์ตก → กลับ Misakiguchi → ชินากาวะเย็น",
+          "steps": [
+            {
+              "time_th": "~08:30",
+              "title_th": "ออกชินากาวะ → Misakiguchi",
+              "detail_th": "Keikyu Limited Express ซื้อบัตร Misaki Maguro ที่ตู้ก่อนขึ้น",
+              "mode": "train",
+              "durationMin": 75
+            },
+            {
+              "time_th": "~10:00",
+              "title_th": "บัสไปท่าเรือมิซากิ",
+              "detail_th": "Keikyu Bus ลงป้าย Misakiko (รวมในบัตร)",
+              "mode": "bus",
+              "durationMin": 20
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "Urari Marche + มื้อทูน่า",
+              "detail_th": "ตลาดปลา + ข้าวหน้า/ซูชิมากุโระสด ใช้คูปองในบัตร",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~12:30",
+              "title_th": "ข้ามสะพานไปเกาะโจกาชิมะ",
+              "detail_th": "บัสต่อ/เดินข้ามสะพาน Jogashima Ohashi",
+              "mode": "bus",
+              "durationMin": 10
+            },
+            {
+              "time_th": "~13:00",
+              "title_th": "Jogashima Park",
+              "detail_th": "ลานหญ้าริมทะเล จุดชมวิวอ่าวซางามิ",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~14:15",
+              "title_th": "Umanose Domon",
+              "detail_th": "เดินเลียบหน้าผาไปถ้ำหินโค้ง ถ่ายรูปลอดช่อง",
+              "durationMin": 40
+            },
+            {
+              "time_th": "~15:15",
+              "title_th": "Jogashima Lighthouse",
+              "detail_th": "ประภาคารขาว ชมฟูจิข้ามทะเล/รอพระอาทิตย์ตกถ้าหน้าหนาว",
+              "durationMin": 40
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับชินากาวะ",
+              "detail_th": "บัสกลับ Misakiguchi → Keikyu Line",
+              "mode": "train",
+              "durationMin": 95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "แบบชิล เน้นกินทูน่า + อ่าวเงียบ",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "กินให้สุด ไม่เดินเยอะ",
+          "detail_th": "เหมาะถ้ามากับผู้ใหญ่/ไม่อยากเดินผาเยอะ: เน้นท่าเรือมิซากิ + Urari Marche กินทูน่าหลายเมนู → แวะเกาะโจกาชิมะแค่ Jogashima Park + ประภาคาร (ข้าม Umanose Domon ที่ต้องเดินผา) → ถ้ามีเวลาต่อบัสไป Aburatsubo อ่าวเงียบชมมารีนา → กลับ",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "ถึงท่าเรือมิซากิ",
+              "detail_th": "Keikyu + บัส ลง Misakiko",
+              "mode": "bus",
+              "durationMin": 20
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "Urari Marche กินทูน่า",
+              "detail_th": "ซูชิ/ข้าวหน้า/หัวทูน่าย่าง + ของฝากของทะเล",
+              "durationMin": 120
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Jogashima Park + ประภาคาร",
+              "detail_th": "ชมวิวแบบไม่ต้องเดินผา (ข้าม Umanose Domon)",
+              "durationMin": 90
+            },
+            {
+              "time_th": "บ่ายแก่",
+              "title_th": "Aburatsubo (ถ้ามีเวลา)",
+              "detail_th": "ต่อบัสไปอ่าวเงียบ ชมมารีนา/ป่าเขียว",
+              "mode": "bus",
+              "durationMin": 30
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับชินากาวะ",
+              "mode": "train",
+              "durationMin": 95
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "บัส Keikyu จาก Misakiguchi ไปเกาะ/ท่าเรือมีแค่ ~1-2 เที่ยว/ชม. เช็กตารางขากลับให้ดี โดยเฉพาะรอบเย็นหลังพระอาทิตย์ตก",
+    "ลานหินผารอบ Umanose Domon ลื่นและคลื่นซัดแรงช่วงทะเลคลั่ง/หลังฝน ใส่รองเท้ายึดเกาะดี อย่าเข้าใกล้ขอบน้ำตอนคลื่นสูง",
+    "วิวฟูจิข้ามทะเลเห็นชัดเฉพาะวันฟ้าใส (หน้าหนาวดีสุด) หน้าร้อนมักโดนหมอก/เมฆบัง อย่าคาดหวังทุกวัน",
+    "ปลายแหลมลมแรงตลอดปี โดยเฉพาะหน้าหนาว เตรียมเสื้อกันลม · ร้านทูน่าดังคิวยาวช่วงเที่ยงวันหยุด ไปเช้าหน่อยดีกว่า",
+    "บัตร Misaki Maguro ซื้อที่ตู้อัตโนมัติสถานี Keikyu ได้ ยกเว้นที่ Sengakuji และ Misakiguchi เอง — ซื้อก่อนออกเดินทาง"
+  ],
+  "sources": [
+    {
+      "label": "Misaki Maguro Day Trip Ticket — Keikyu Bus",
+      "url": "https://www.keikyu-bus.co.jp/en/tourist/kankoguide/015-miura.html"
+    },
+    {
+      "label": "Jogashima — Kanpai Japan",
+      "url": "https://www.kanpai-japan.com/miura-peninsula/jogashima"
+    },
+    {
+      "label": "Jogashima Park guide",
+      "url": "https://jogashima-park.jp/en/guide/"
+    },
+    {
+      "label": "Umanose Cave Mouth (Jogashima) — JNTO",
+      "url": "https://www.japan.travel/en/sports/diving/travel/umanose-cave-mouth-jogashima/"
+    },
+    {
+      "label": "Tuna Town: Misaki Port — Nippon.com",
+      "url": "https://www.nippon.com/en/guide-to-japan/gu900160/"
+    }
+  ],
+  "tags_th": [
+    "day-trip",
+    "ทะเล",
+    "หินผาทะเล",
+    "ประภาคาร",
+    "ทูน่า",
+    "วิวฟูจิ",
+    "ใกล้โตเกียว"
+  ],
+  "food": [
+    {
+      "name": "ข้าวหน้าทูน่า / ซูชิมากุโระ",
+      "name_jp": "鮪丼・鮪寿司",
+      "emoji": "🍣",
+      "note_th": "มิซากิเป็นเมืองหลวงทูน่า — มากุโระสดทุกส่วน เด่นสุดของที่นี่"
+    },
+    {
+      "name": "หัวทูน่าย่าง (คาบุโตะยากิ)",
+      "name_jp": "まぐろ兜焼き",
+      "emoji": "🐟",
+      "note_th": "หัวทูน่าย่างทั้งหัว เมนูเด็ดเฉพาะถิ่นท่าเรือมิซากิ"
+    },
+    {
+      "name": "มิโซะทูน่า / โทโระดง",
+      "name_jp": "ねぎとろ丼",
+      "emoji": "🍚",
+      "note_th": "เนื้อทูน่าส่วนมัน (โทโระ) สับ ราดข้าว ร้านรอบ Urari Marche"
+    },
+    {
+      "name": "ผัก/แตงโมมิอุระ",
+      "name_jp": "三浦野菜",
+      "emoji": "🥬",
+      "note_th": "คาบสมุทรมิอุระดังเรื่องกะหล่ำ ไดคอน แตงโม ขายชั้นบน Urari"
+    }
+  ]
+}

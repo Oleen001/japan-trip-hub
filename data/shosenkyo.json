@@ -1,0 +1,493 @@
+{
+  "slug": "shosenkyo",
+  "name": {
+    "en": "Shosenkyo Gorge",
+    "th": "โกรกธารโชเซนเคียว",
+    "jp": "昇仙峡"
+  },
+  "region": "Chubu",
+  "prefecture": "Yamanashi",
+  "coords": {
+    "lat": 35.7314,
+    "lng": 138.5519
+  },
+  "category": [
+    "nature",
+    "mountain"
+  ],
+  "tagline_th": "โกรกธารหินแกรนิตติดอันดับสวยสุดของญี่ปุ่น — เสาหิน Kakuenbo สูงเสียดฟ้า น้ำตก Senga + ropeway ขึ้นวิว ใบไม้แดงปลาย ต.ค.-พ.ย. งามจับใจ",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kakuenpou_in_autumn.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons (CC)",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sh%C5%8Dsenky%C5%8D_02.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 3,
+  "access": {
+    "summary_th": "นั่ง Chuo Line Limited Express (Azusa/Kaiji) จากชินจูกุถึง Kofu ~90 นาที แล้วต่อบัส Yamanashi Kotsu สาย Shosenkyo อีก ~30-40 นาทีถึงปากโกรก · เดินขึ้นเลียบน้ำตก Senga ~30-40 นาทีถึงฐาน ropeway ขึ้นวิว · ไม่จำเป็นต้องค้าง ถ้าออกเช้าเป็น day-trip ยาวๆ ได้ แต่ค้าง Kofu 1 คืน (มี onsen) สบายกว่า",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Limited Express (Azusa/Kaiji) → Kofu → บัส Yamanashi Kotsu",
+        "detail_th": "ชินจูกุ → train (Chuo Line LtdExp Kaiji/Azusa) → Kofu → bus (Yamanashi Kotsu สาย Shosenkyo) → Shosenkyo-guchi/Greenline → เดินเลียบน้ำตก Senga → ropeway ขึ้นวิว",
+        "durationMin": 130,
+        "costYen": 4640,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟด่วนพิเศษ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "ropeway",
+            "label_th": "กระเช้า",
+            "icon": "cable-car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Kofu Station",
+            "mode": "train",
+            "line_th": "JR Chuo Line Limited Express (Kaiji / Azusa)",
+            "durationMin": 90,
+            "costYen": 4020,
+            "note_th": "ค่าโดยสาร ~2,310 เยน + ค่าธรรมเนียมที่นั่งสำรอง ~1,710 เยน · ออกชินจูกุ ~2 เที่ยว/ชม. · จองที่นั่งล่วงหน้าช่วงใบไม้แดง"
+          },
+          {
+            "from": "Kofu Station (ทางออกเหนือ)",
+            "to": "Shosenkyo-guchi / Greenline Shosenkyo",
+            "mode": "bus",
+            "line_th": "Yamanashi Kotsu Bus สาย Shosenkyo (ป้ายหน้าสถานี Kofu)",
+            "durationMin": 35,
+            "costYen": 620,
+            "note_th": "~1 เที่ยว/ชม. (ถี่ขึ้นช่วงฤดูใบไม้แดง) · ลง 'Shosenkyo-guchi' เดินขึ้นทั้งโกรก หรือลง 'Greenline Shosenkyo' ใกล้ฐาน ropeway"
+          },
+          {
+            "from": "เดินเลียบน้ำตก Senga",
+            "to": "Senga-taki Ropeway (สถานีล่าง Sengataki)",
+            "mode": "walk",
+            "line_th": "เดินเลียบโกรกผ่านน้ำตก Senga",
+            "durationMin": 5,
+            "costYen": 0,
+            "note_th": "ถ้านั่งบัสถึง Greenline ปลายทางจะใกล้ฐาน ropeway อยู่แล้ว"
+          },
+          {
+            "from": "Sengataki Station (ฐานล่าง)",
+            "to": "Pananovara Station (วิวบนเขา)",
+            "mode": "ropeway",
+            "line_th": "Shosenkyo Ropeway",
+            "durationMin": 5,
+            "costYen": 0,
+            "note_th": "ไป-กลับ ~1,300 เยน (เที่ยวเดียว ~700) · บนยอดมีจุดชมวิว Fuji + ศาลเจ้า Yakuō · ราคานี้แยกจากค่าเดินทาง ดูในงบ"
+          }
+        ]
+      },
+      {
+        "mode": "ประหยัด: รถไฟธรรมดา (Local/Rapid) → Kofu → บัส",
+        "detail_th": "ชินจูกุ → train (Chuo Line Rapid + ต่อ Local) → Kofu → bus → Shosenkyo · ช้ากว่าแต่ถูกกว่า เหมาะคนไม่รีบ/งบจำกัด",
+        "durationMin": 195,
+        "costYen": 2930,
+        "transfers": 3,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟธรรมดา",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟธรรมดา",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Otsuki Station",
+            "mode": "train",
+            "line_th": "JR Chuo Line (Rapid/Chuo Special Rapid)",
+            "durationMin": 75,
+            "costYen": 0,
+            "note_th": "ค่าโดยสารรวมต่อเนื่องถึง Kofu คิดที่ leg ถัดไป · มักต้องเปลี่ยนขบวนที่ Otsuki หรือ Takao"
+          },
+          {
+            "from": "Otsuki Station",
+            "to": "Kofu Station",
+            "mode": "train",
+            "line_th": "JR Chuo Line (Local)",
+            "durationMin": 60,
+            "costYen": 2310,
+            "note_th": "ค่าโดยสาร JR ชินจูกุ→Kofu รวม 2,310 เยน (ไม่มีค่าธรรมเนียม LtdExp) · รวม ~2-2.5 ชม. ขึ้นกับการต่อขบวน"
+          },
+          {
+            "from": "Kofu Station",
+            "to": "Shosenkyo-guchi / Greenline",
+            "mode": "bus",
+            "line_th": "Yamanashi Kotsu Bus สาย Shosenkyo",
+            "durationMin": 35,
+            "costYen": 620,
+            "note_th": "~1 เที่ยว/ชม. · เช็ครอบบัสเที่ยวสุดท้ายขากลับให้ดี ช่วงเย็นบัสห่าง"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง ปลาย ต.ค.-พ.ย.",
+      "months": [
+        10,
+        11
+      ],
+      "note_th": "ไฮไลต์ของที่นี่ — ใบเมเปิล/ต้นไม้แดงส้มตัดกับเสาหินแกรนิตขาว ปกติพีคต้น-กลาง พ.ย. มีไลต์อัปกลางคืนบางช่วง"
+    },
+    {
+      "label": "เขียวสดหนีร้อน ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "โกรกเขียวชอุ่ม น้ำตก Senga ไหลแรง อากาศเย็นกว่าตัวเมือง เดินเลียบน้ำสบาย"
+    },
+    {
+      "label": "ใบไม้ผลิ เม.ย.-พ.ค.",
+      "months": [
+        4,
+        5
+      ],
+      "note_th": "ป่าเขียวอ่อน ฟ้าใส มองเห็นเสาหิน Kakuenbo ชัด อากาศกำลังดี"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "โกรก Shosenkyo (koyo)",
+      "type": "koyo",
+      "startFrac": 0.8,
+      "endFrac": 0.92,
+      "note_th": "ใบไม้แดงพีคปลาย ต.ค.-กลาง พ.ย."
+    },
+    {
+      "zone": "ป่าฤดูร้อนเขียว",
+      "type": "green",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "เขียวสด น้ำตกแรง ก.ค.-ส.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียวด้วย Limited Express (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ถ้าใช้รถไฟธรรมดาประหยัดค่าเดินทางได้ ~2,000 เยน แต่ใช้เวลามากขึ้น",
+    "items": [
+      {
+        "label_th": "รถไฟไป-กลับ (LtdExp ชินจูกุ↔Kofu)",
+        "yen": 8040,
+        "thb": 1849,
+        "note_th": "Kaiji/Azusa รวมค่าที่นั่งสำรอง ~4,020 เยน/เที่ยว · ใช้ Local ลดเหลือ ~4,620 เยนไป-กลับ"
+      },
+      {
+        "label_th": "บัส Kofu↔Shosenkyo ไป-กลับ",
+        "yen": 1240,
+        "thb": 285,
+        "note_th": "Yamanashi Kotsu สาย Shosenkyo"
+      },
+      {
+        "label_th": "Shosenkyo Ropeway ไป-กลับ",
+        "yen": 1300,
+        "thb": 299,
+        "note_th": "Sengataki → Pananovara ขึ้นจุดชมวิว Fuji + ศาลเจ้า Yakuō"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "hoto / soba ร้านปากโกรก หรือในเมือง Kofu"
+      },
+      {
+        "label_th": "ของฝาก/ทำบุญ",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "หินคริสตัล/ผลึก Yamanashi เป็นของขึ้นชื่อแถบนี้"
+      }
+    ],
+    "totalYen": 13580,
+    "totalThb": 3123,
+    "ranges": {
+      "lowThb": 1800,
+      "midThb": 3100,
+      "highThb": 4800
+    }
+  },
+  "pois": [
+    {
+      "name": "Senga Falls",
+      "icon": "water",
+      "durationMin": 20,
+      "blurb_th": "น้ำตกหลักของโกรก สูง ~30 ม. ละอองน้ำเป็นสายรุ้งวันแดดดี",
+      "deepDive_th": "Senga Falls (仙娥滝) น้ำตกหลักของ Shosenkyo สูงราว 30 เมตร น้ำพุ่งทะลุผ่านร่องหินแกรนิตที่ถูกน้ำกัดเซาะนับล้านปี ติดอันดับ '100 น้ำตกของญี่ปุ่น' · วันแดดดีละอองน้ำมักทำให้เกิดสายรุ้งพาดหน้าน้ำตก สวยมาก · อยู่ปลายเส้นเดินเลียบโกรกใกล้ฐาน ropeway เป็นจุดไคลแม็กซ์ก่อนขึ้นกระเช้า ฤดูใบไม้แดงรอบๆ ย้อมแดงส้มทั้งหุบ",
+      "location_th": "ปลายเส้นเดินโกรก ใกล้ฐาน ropeway",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shosenkyo-Waterfall.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Senga_Falls-1d.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Kakuenbo Rock",
+      "icon": "mountains",
+      "blurb_th": "เสาหินแกรนิตสูง ~180 ม. สัญลักษณ์ของโกรก ตั้งตระหง่านกลางหุบ",
+      "deepDive_th": "Kakuenbo (覚円峰) เสาหินแกรนิตยักษ์สูงราว 180 เมตร ตั้งตระหง่านเป็นสัญลักษณ์ประจำ Shosenkyo เกิดจากการกัดเซาะของแม่น้ำ Arakawa จนเหลือแกนหินแข็ง · ชื่อมาจากพระชื่อ Kakuen ที่เล่ากันว่าเคยมานั่งบำเพ็ญเพียรบนยอด · มองเห็นชัดสุดจากริมถนนเลียบโกรกและจุดชมวิว ตัดกับฟ้าครามหน้าใบไม้ผลิ หรือใบไม้แดงห่อหุ้มหน้า koyo เป็นภาพถ่ายไอคอนิกของที่นี่",
+      "location_th": "กลางโกรก มองจากเส้นเดิน/ถนนเลียบน้ำ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/De_Kakuenb%C5%8D_%28rots%29_in_de_Sh%C5%8Dsenky%C5%8D_vallei_te_Kofu%2C_gezien_vanaf_de_prefecturale_weg_7%2C_-14_april_2019.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sh%C5%8Dsenky%C5%8D_02.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Shosenkyo Ropeway",
+      "icon": "mountains",
+      "durationMin": 60,
+      "blurb_th": "กระเช้า ~5 นาทีขึ้นจุดชมวิว เห็นฟูจิ + เทือกเขาแอลป์ญี่ปุ่น",
+      "deepDive_th": "Shosenkyo Ropeway (昇仙峡ロープウェイ) กระเช้าจากสถานี Sengataki ใกล้น้ำตก ขึ้นถึงสถานี Pananovara บนเขาในราว 5 นาที · ด้านบนมีลานชมวิว Fuji-mi (วันฟ้าใสเห็นภูเขาไฟฟูจิ) ลานหินมงคล และศาลเจ้า Yakuō ขอพรเรื่องสุขภาพ/โชคลาภ · ช่วงใบไม้แดงวิวจากบนเขามองลงหุบเป็นพรมสีแดงส้มกว้างสุดลูกหูลูกตา ไป-กลับ ~1,300 เยน เดินเล่นด้านบน ~30-45 นาที",
+      "location_th": "ฐาน Sengataki → ยอด Pananovara",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shosenkyo_Ropeway_passing_each_other.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)"
+      }
+    },
+    {
+      "name": "Arakawa River Path",
+      "icon": "water",
+      "durationMin": 90,
+      "blurb_th": "เส้นเดินเลียบแม่น้ำ Arakawa ผ่านโขดหิน แอ่งน้ำใส สะพานข้ามโกรก",
+      "deepDive_th": "เส้นเดินเลียบแม่น้ำ Arakawa (荒川) คือเส้นหลักของการเที่ยว Shosenkyo — เดินจากปากโกรกขึ้นไปหาน้ำตก Senga ราว 30-40 นาที (เลือกเดินช่วงสั้นก็ได้) ลัดเลาะผ่านโขดหินแกรนิตรูปทรงแปลกตาที่มีชื่อเรียกเฉพาะ แอ่งน้ำสีมรกตใส และสะพานข้ามโกรกหลายจุด · ทางส่วนใหญ่ราบเรียบเดินสบาย มีบางช่วงเป็นถนนรถวิ่งร่วม · เป็นทางที่เห็น Kakuenbo และวิวหุบสวยที่สุด หน้า koyo คนเยอะแต่คุ้ม",
+      "location_th": "ตลอดโกรกจากปากทางขึ้นถึงน้ำตก Senga",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shosenkyo_Arakawa-1b.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)"
+      }
+    },
+    {
+      "name": "Koyo Viewpoint",
+      "icon": "camera",
+      "blurb_th": "จุดถ่ายใบไม้แดง ต้นสนหินแกรนิต+แม่น้ำ ภาพคลาสสิกของโกรก",
+      "deepDive_th": "จุดชมใบไม้แดง (紅葉) ระหว่างเส้นเดินเลียบโกรก ช่วงปลาย ต.ค.-กลาง พ.ย. ใบเมเปิลและต้นไม้เปลี่ยนสีย้อมหุบเป็นสีแดง-ส้ม-ทอง ตัดกับเสาหินแกรนิตสีขาวเทาและน้ำใส เป็นภาพถ่าย koyo ที่ขึ้นชื่อระดับประเทศ · จุดดีที่สุดคือบริเวณรอบ Kakuenbo และมองจากบน ropeway ลงมา · บางปีมีการจัดไลต์อัปตอนค่ำช่วงพีค เช็คปฏิทินใบไม้แดงของ Yamanashi ก่อนไปเพราะพีคเลื่อนได้ตามอากาศ",
+      "location_th": "รอบ Kakuenbo / มุมมองจาก ropeway",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%98%87%E4%BB%99%E5%B3%A1_-_panoramio_%2860%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%98%87%E4%BB%99%E5%B3%A1_-_panoramio_%2820%29.jpg?width=1600"
+      }
+    }
+  ],
+  "routeFlow": [
+    {
+      "name": "Shinjuku",
+      "elevationM": 40,
+      "modeToNext": "train",
+      "modeDetail_th": "Chuo Line LtdExp (Kaiji/Azusa) ~90 นาที"
+    },
+    {
+      "name": "Kofu",
+      "elevationM": 270,
+      "modeToNext": "bus",
+      "modeDetail_th": "Yamanashi Kotsu สาย Shosenkyo ~35 นาที"
+    },
+    {
+      "name": "Shosenkyo-guchi (ปากโกรก)",
+      "elevationM": 600,
+      "modeToNext": "walk",
+      "modeDetail_th": "เดินเลียบ Arakawa ขึ้นถึงน้ำตก Senga ~30-40 นาที"
+    },
+    {
+      "name": "Senga Falls / ฐาน Ropeway",
+      "elevationM": 770,
+      "modeToNext": "ropeway",
+      "modeDetail_th": "Shosenkyo Ropeway ~5 นาที"
+    },
+    {
+      "name": "Pananovara (จุดชมวิว)",
+      "elevationM": 1058
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip จากโตเกียว (LtdExp ไป-กลับวันเดียว)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เช้า-เย็น เก็บโกรก + น้ำตก + ropeway",
+          "detail_th": "ออกชินจูกุเช้าด้วย Kaiji/Azusa → ถึง Kofu ~90 นาที → ต่อบัส Yamanashi Kotsu สาย Shosenkyo ~35 นาทีถึงปากโกรก → เดินเลียบแม่น้ำ Arakawa ชม Kakuenbo และโขดหินแปลกตา ~30-40 นาทีถึงน้ำตก Senga → ขึ้น Shosenkyo Ropeway ชมวิว Fuji + ศาลเจ้า Yakuō → ลงมากินมื้อเที่ยง hoto/soba ปากโกรก → นั่งบัสกลับ Kofu (เช็ครอบบัสเที่ยวสุดท้าย) → LtdExp กลับชินจูกุเย็น",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "ออกชินจูกุ → Kofu",
+              "detail_th": "Chuo Line LtdExp Kaiji/Azusa จองที่นั่งช่วง koyo",
+              "mode": "train",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~09:45",
+              "title_th": "บัส Kofu → ปากโกรก Shosenkyo",
+              "detail_th": "Yamanashi Kotsu สาย Shosenkyo จากหน้าสถานี Kofu",
+              "mode": "bus",
+              "durationMin": 35
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "เดินเลียบ Arakawa ชม Kakuenbo",
+              "detail_th": "ทางเลียบน้ำผ่านเสาหินแกรนิต + โขดหินรูปแปลก",
+              "mode": "walk",
+              "durationMin": 40
+            },
+            {
+              "time_th": "~11:15",
+              "title_th": "น้ำตก Senga",
+              "detail_th": "จุดไคลแม็กซ์ของโกรก สูง ~30 ม. หาสายรุ้ง",
+              "durationMin": 20
+            },
+            {
+              "time_th": "~11:45",
+              "title_th": "Shosenkyo Ropeway ขึ้นวิว",
+              "detail_th": "ขึ้น Pananovara ~5 นาที ชม Fuji + ศาลเจ้า Yakuō เดินเล่นด้านบน",
+              "mode": "ropeway",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~13:00",
+              "title_th": "มื้อเที่ยง hoto/soba",
+              "detail_th": "ร้านปากโกรก เมนูถิ่น Yamanashi",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~14:30",
+              "title_th": "บัสกลับ Kofu",
+              "detail_th": "เช็ครอบบัสเที่ยวสุดท้ายช่วงบ่าย-เย็น อย่าตกรอบ",
+              "mode": "bus",
+              "durationMin": 35
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "LtdExp กลับชินจูกุ",
+              "mode": "train",
+              "durationMin": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง Kofu 1 คืน (โกรก + เมือง + onsen)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — ถึง Kofu + เที่ยว Shosenkyo เต็มวัน",
+          "detail_th": "เช็คอินโรงแรม Kofu (มี onsen หลายแห่ง) → บัสไป Shosenkyo เดินครบทั้งโกรก ไม่ต้องรีบ + ขึ้น ropeway → เย็นกลับ Kofu แช่ onsen กิน hoto",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "ชินจูกุ → Kofu",
+              "detail_th": "LtdExp Kaiji/Azusa ฝากกระเป๋าที่โรงแรม/ล็อกเกอร์",
+              "mode": "train",
+              "durationMin": 90
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "บัสไป Shosenkyo เที่ยวทั้งวัน",
+              "detail_th": "เดินครบเส้นโกรก + Kakuenbo + Senga + ropeway แบบไม่รีบ",
+              "mode": "bus",
+              "durationMin": 35
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับ Kofu แช่ onsen + hoto",
+              "detail_th": "Kofu มี onsen ในเมืองหลายแห่ง คลายเมื่อยขาดี"
+            }
+          ]
+        },
+        {
+          "title_th": "วันที่ 2 — เมือง Kofu แล้วกลับ",
+          "detail_th": "เดินเที่ยวเมือง Kofu (ปราสาท Maizuru, ร้านผลึกหิน/อัญมณีขึ้นชื่อ, ไวน์ Yamanashi) → LtdExp กลับชินจูกุบ่าย-เย็น",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "เมือง Kofu",
+              "detail_th": "ปราสาท Maizuru / ร้านอัญมณี-ผลึกหิน / ชิมไวน์ถิ่น"
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "LtdExp กลับชินจูกุ",
+              "mode": "train",
+              "durationMin": 90
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "บัส Kofu↔Shosenkyo มี ~1 เที่ยว/ชม. และเที่ยวสุดท้ายขากลับค่อนข้างเร็ว (ช่วงบ่าย-เย็น) — เช็คตารางก่อนและอย่าตกรอบ ไม่งั้นต้องเรียกแท็กซี่แพง",
+    "ช่วงใบไม้แดง (พ.ย.) คนเยอะมาก บัส/รถไฟแน่น แนะนำจองที่นั่ง LtdExp ล่วงหน้าและออกเช้า",
+    "พีคใบไม้แดงเลื่อนได้ตามอากาศแต่ละปี — เช็คปฏิทิน koyo ของ Yamanashi/Shosenkyo ก่อนล็อกวัน",
+    "ทางเลียบโกรกบางช่วงเป็นถนนที่มีรถวิ่งร่วม และพื้นลื่นหลังฝน ใส่รองเท้ากันลื่น เดินชิดทาง",
+    "วิว Fuji จากบน ropeway เห็นชัดเฉพาะวันฟ้าใส วันเมฆมาก/ทัศนวิสัยแย่อาจไม่เห็น"
+  ],
+  "sources": [
+    {
+      "label": "Shosenkyo Gorge — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e4304.html"
+    },
+    {
+      "label": "Shosenkyo / Kofu — Japan Travel (JNTO)",
+      "url": "https://www.japan.travel/en/spot/720/"
+    },
+    {
+      "label": "Shosenkyo Ropeway (เว็บทางการ)",
+      "url": "https://www.shousenkyo-r.jp/"
+    }
+  ],
+  "tags_th": [
+    "โกรกธาร",
+    "หินแกรนิต",
+    "ใบไม้แดง",
+    "น้ำตก",
+    "ropeway",
+    "Yamanashi"
+  ],
+  "food": [
+    {
+      "name": "โฮโตะ",
+      "name_jp": "ほうとう",
+      "emoji": "🍲",
+      "note_th": "เส้นแบนต้มมิโซะกับฟักทอง+ผัก อาหารถิ่นขึ้นชื่อสุดของ Yamanashi อุ่นท้องหน้าหนาว"
+    },
+    {
+      "name": "องุ่น/ไวน์ Yamanashi",
+      "name_jp": "葡萄・ワイン",
+      "emoji": "🍇",
+      "note_th": "Yamanashi เป็นแหล่งองุ่นและไวน์อันดับ 1 ของญี่ปุ่น มีไวน์ถิ่น Koshu ให้ชิม"
+    },
+    {
+      "name": "โทริโมสึนิ",
+      "name_jp": "鳥もつ煮",
+      "emoji": "🍢",
+      "note_th": "เครื่องในไก่ตุ๋นซีอิ๊วหวานสไตล์ Kofu เมนู B-kyu ขึ้นชื่อ กินคู่ข้าว/เบียร์"
+    }
+  ]
+}

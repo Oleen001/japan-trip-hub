@@ -1,0 +1,492 @@
+{
+  "slug": "nasu",
+  "name": {
+    "en": "Nasu Kogen",
+    "th": "นาสุโคเง็น",
+    "jp": "那須高原"
+  },
+  "region": "Kanto",
+  "prefecture": "Tochigi",
+  "coords": {
+    "lat": 37.12,
+    "lng": 139.97
+  },
+  "category": [
+    "mountain",
+    "onsen"
+  ],
+  "tagline_th": "ที่ราบสูงตีนภูเขาไฟ Mt Nasu — ropeway ขึ้นปากปล่อง, ออนเซ็นกำมะถันเก่าแก่ Shika-no-yu, ใบไม้แดงต้นฤดู + ฟาร์ม/รีสอร์ตหนีร้อน นั่งชินคันเซ็นจากโตเกียว ~70 นาที",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tochigi-Mt.%20Nasu%20that%20burns%20in%20autumn-m.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Toya%20Nasu%20ropeway%20gondola.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 3,
+  "access": {
+    "summary_th": "จากโตเกียวขึ้น Tohoku Shinkansen (Nasuno/Yamabiko) ถึง Nasushiobara ~70-80 นาที แล้วต่อบัส Kanto Bus ขึ้นที่ราบสูงไป Nasu Yumoto/Nasu Ropeway อีก ~60-75 นาที · JR เยอะ ตั๋วชินคันเซ็นเป็นค่าหลัก · day-trip ได้แต่เร่ง แนะนำค้าง 1 คืนในรีสอร์ต/ออนเซ็นบนที่ราบสูง",
+    "jrPassWorth": true,
+    "options": [
+      {
+        "mode": "Tohoku Shinkansen → Nasushiobara → บัส Kanto",
+        "detail_th": "Tokyo → shinkansen (Nasuno/Yamabiko) → Nasushiobara → bus (Kanto Bus สาย Nasu Ropeway) → Nasu Ropeway Sanroku (ฐานล่างกระเช้า) → ropeway ขึ้น Chausudake",
+        "durationMin": 155,
+        "costYen": 7350,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "ropeway",
+            "label_th": "กระเช้า",
+            "icon": "cable-car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Nasushiobara Station",
+            "mode": "shinkansen",
+            "line_th": "Tohoku Shinkansen (Nasuno / Yamabiko)",
+            "durationMin": 75,
+            "costYen": 5830,
+            "note_th": "Nasuno จอด Nasushiobara ทุกขบวน · Yamabiko บางขบวนจอด · ~1-2 เที่ยว/ชม. · ครอบคลุมด้วย JR East Pass (Tohoku) / JR Pass ทั่วประเทศ — คุ้มถ้ามี"
+          },
+          {
+            "from": "Nasushiobara Station",
+            "to": "Nasu Ropeway Sanroku (ฐานล่างกระเช้า)",
+            "mode": "bus",
+            "line_th": "Kanto Bus สาย Nasu Ropeway (ผ่าน Nasu Yumoto Onsen)",
+            "durationMin": 70,
+            "costYen": 1430,
+            "note_th": "ขึ้นที่หน้าสถานี (ฝั่งตะวันออก) · ~1 เที่ยว/ชม. ช่วง koyo คนเยอะรถแน่น เผื่อเวลา · ลง Nasu Yumoto Onsen ก่อนถึงปลายทางถ้าจะแช่ Shika-no-yu"
+          },
+          {
+            "from": "Nasu Ropeway Sanroku",
+            "to": "Nasu Ropeway Sancho (Chausudake 9-go-me)",
+            "mode": "ropeway",
+            "line_th": "Nasu Ropeway",
+            "durationMin": 4,
+            "costYen": 0,
+            "note_th": "กระเช้าใหญ่ ~4 นาที · ไป-กลับ ~1,800 เยน (ไม่รวมในราคา option นี้ คิดแยกในงบ) · จากสถานีบนเดินขึ้นยอด Chausudake อีก ~50 นาที · ปิดช่วงลมแรง/ฤดูหนาว (ปกติ ปลาย มี.ค.-ต้น ธ.ค.)"
+          }
+        ]
+      },
+      {
+        "mode": "ขับรถเช่า (ยืดหยุ่นสุดบนที่ราบสูง)",
+        "detail_th": "เช่ารถจากโตเกียว/Nasushiobara → ขับขึ้น Nasu Kogen เอง เที่ยวฟาร์ม รีสอร์ต ออนเซ็น และจุดชม koyo ได้อิสระ — ที่ราบสูงกระจายตัว บัสไม่ทั่วถึง",
+        "durationMin": 180,
+        "costYen": 8000,
+        "transfers": 0,
+        "legs": [
+          {
+            "mode": "car",
+            "label_th": "รถยนต์",
+            "icon": "car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo / Nasushiobara",
+            "to": "Nasu Kogen (จุดต่างๆ)",
+            "mode": "car",
+            "line_th": "Tohoku Expressway → Nasu IC → ถนนขึ้นที่ราบสูง",
+            "durationMin": 180,
+            "costYen": 8000,
+            "note_th": "ค่าโดยประมาณ = ทางด่วน+น้ำมัน (ยังไม่รวมค่าเช่ารถ/วัน) · จากโตเกียว ~180 กม. · ที่ราบสูงจุดเที่ยวห่างกัน รถสะดวกสุด · ระวังถนนเขาคดเคี้ยว+หมอกช่วงเย็น"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง ปลาย ก.ย.-ต.ค.",
+      "months": [
+        9,
+        10
+      ],
+      "note_th": "koyo มาเร็วเพราะอยู่บนที่สูง — ยอด Chausudake/รอบ ropeway เริ่มแดงปลาย ก.ย. ไล่ลงมาที่ราบสูงกลาง-ปลาย ต.ค. ช่วงพีคของภูมิภาค Kanto ที่มาเร็วสุดที่หนึ่ง"
+    },
+    {
+      "label": "หนีร้อน ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "ที่ราบสูง ~600-1,000 ม. อากาศเย็นกว่าโตเกียวหลายองศา เป็นเมืองตากอากาศหน้าร้อนคลาสสิก (จุดที่มีพระราชวังฤดูร้อน Nasu) เหมาะฟาร์ม/รีสอร์ต/ออนเซ็น"
+    },
+    {
+      "label": "ใบไม้ผลิ พ.ค.-มิ.ย.",
+      "months": [
+        5,
+        6
+      ],
+      "note_th": "เขียวสด ดอกไม้ฟาร์มบาน อากาศกำลังดี คนยังไม่แน่นเท่าหน้า koyo"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ยอด Chausudake / รอบ Ropeway",
+      "type": "koyo",
+      "startFrac": 0.72,
+      "endFrac": 0.79,
+      "note_th": "ใบไม้แดงบนยอดมาเร็ว ปลาย ก.ย.-ต้น ต.ค."
+    },
+    {
+      "zone": "ที่ราบสูง Nasu Kogen",
+      "type": "koyo",
+      "startFrac": 0.79,
+      "endFrac": 0.87,
+      "note_th": "ไล่ลงมาที่ราบสูงกลาง-ปลาย ต.ค."
+    },
+    {
+      "zone": "ที่ราบสูงหน้าร้อน",
+      "type": "green",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "เขียวสด อากาศเย็น หนีร้อน ก.ค.-ส.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน ไป-กลับโตเกียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินมาญี่ปุ่น · ตั๋วชินคันเซ็นเป็นค่าหลัก ถ้ามี JR Pass จะถูกลงมาก · ตัวเลขนี้แบบ day-trip ไม่ค้าง (ค้างเพิ่มค่าที่พัก ~3,000-8,000 เยน/คืน)",
+    "items": [
+      {
+        "label_th": "ชินคันเซ็นไป-กลับ (Tokyo↔Nasushiobara)",
+        "yen": 11660,
+        "thb": 2682,
+        "note_th": "Nasuno/Yamabiko reserved ~5,830/เที่ยว · ใช้ JR Pass แทนได้คุ้มมาก"
+      },
+      {
+        "label_th": "บัส Kanto ไป-กลับ (สถานี↔Ropeway)",
+        "yen": 2860,
+        "thb": 658,
+        "note_th": "~1,430/เที่ยว · มี free pass บัสรายวันบางช่วงคุ้มกว่าถ้าแวะหลายจุด"
+      },
+      {
+        "label_th": "Nasu Ropeway ไป-กลับ",
+        "yen": 1800,
+        "thb": 414,
+        "note_th": "ขึ้น Chausudake 9-go-me · เที่ยวเดียว ~1,200"
+      },
+      {
+        "label_th": "ออนเซ็น Shika-no-yu",
+        "yen": 500,
+        "thb": 115,
+        "note_th": "โรงอาบน้ำกำมะถันเก่าแก่ใน Nasu Yumoto"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2500,
+        "thb": 575,
+        "note_th": "นม/ชีส/ไอศกรีมฟาร์ม + เซ็ตกลางวัน"
+      },
+      {
+        "label_th": "ค่าเข้า/ของฝาก",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "ฟาร์ม/สวน/ของที่ระลึก"
+      }
+    ],
+    "totalYen": 20820,
+    "totalThb": 4789,
+    "ranges": {
+      "lowThb": 2500,
+      "midThb": 4800,
+      "highThb": 8500
+    }
+  },
+  "pois": [
+    {
+      "name": "Nasu Ropeway & Chausudake",
+      "icon": "mountains",
+      "durationMin": 180,
+      "blurb_th": "กระเช้าขึ้นภูเขาไฟยังคุกรุ่น เดินต่อ ~50 นาทีถึงยอด Chausudake 1,915 ม.",
+      "deepDive_th": "Nasu Ropeway พากระเช้าใหญ่ขึ้นถึง '9-go-me' (จุดที่ 9 จาก 10) ของ Chausudake (茶臼岳) ภูเขาไฟที่ยังมีกิจกรรม (active) สูง 1,915 ม. — ยอดสูงสุดของเทือก Nasu · จากสถานีบนเดินขึ้นยอดต่ออีก ~40-50 นาทีตามทางหินภูเขาไฟ ไม่ชันมากแต่โล่งลมแรง เห็นไอกำมะถันพ่นจากปล่องข้างทาง วิวเปิดโล่งทั้งที่ราบสูงและเทือกเขาโดยรอบ · ช่วงปลาย ก.ย.-ต้น ต.ค. ไหล่เขาแดงเป็นไฮไลต์ koyo · กระเช้าปิดช่วงลมแรงและฤดูหนาว (เปิดประมาณปลาย มี.ค.-ต้น ธ.ค.) เช็ครอบและสภาพอากาศก่อนไป",
+      "location_th": "ฐานล่างจากบัส Kanto ~70 นาทีจาก Nasushiobara",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Toya%20Nasu%20ropeway%20gondola.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasu-dake.JPG?width=1600"
+      }
+    },
+    {
+      "name": "Shika-no-yu Onsen",
+      "icon": "raindrops-alt",
+      "durationMin": 60,
+      "blurb_th": "โรงอาบน้ำกำมะถันสีขุ่นเก่าแก่กว่า 1,300 ปี ใจกลาง Nasu Yumoto",
+      "deepDive_th": "Shika-no-yu (鹿の湯 'บ่อกวาง') โรงอาบน้ำสาธารณะกลาง Nasu Yumoto Onsen ต้นกำเนิดเล่าขานย้อนไป ~1,300 ปี เป็นหัวใจของออนเซ็นเก่าแก่ที่สุดแห่งหนึ่งของญี่ปุ่น · น้ำกำมะถันสีขาวขุ่นกลิ่นแรง อาคารไม้เก่าบรรยากาศย้อนยุค มีบ่อหลายอุณหภูมิ (ตั้งแต่ ~41°C ถึงร้อนจัด ~48°C) แบบ rotenburo น้อย เน้นแช่ในร่มสไตล์ดั้งเดิม · ราคาเข้าถูก (~500 เยน) แยกชาย-หญิง ไม่มีสบู่/แชมพูในบ่อตามธรรมเนียมเก่า · เดินจากป้ายบัส Nasu Yumoto ได้เลย เหมาะแวะปิดท้ายวันคลายเมื่อยจากเดินเขา",
+      "location_th": "Nasu Yumoto Onsen (ระหว่างทางบัสขึ้น ropeway)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Deer%27s%20Spa%2C%20Nasu-Yumoto.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Chausu%2C%20Nasu.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Sessho-seki & Sainokawara",
+      "icon": "fire",
+      "durationMin": 40,
+      "blurb_th": "ลานหินภูเขาไฟพ่นกำมะถัน + 'หินสังหาร' ในตำนานจิ้งจอกเก้าหาง",
+      "deepDive_th": "Sessho-seki (殺生石 'หินสังหาร') หินภูเขาไฟชื่อก้องในตำนาน — เชื่อว่าเป็นร่างของจิ้งจอกเก้าหาง (Tamamo-no-Mae) ที่กลายเป็นหินปล่อยพิษ · ตั้งอยู่ในลาน Saiokawara/Sainokawara ที่พื้นเป็นหินภูเขาไฟเปลือยพ่นไอกำมะถันออกจากรอยแยกพื้น กลิ่นไข่เน่าชัด มีรูปปั้นจิโซเรียงราย บรรยากาศดิบแบบ 'นรกบนดิน' (jigoku) · ก้อนหินเดิมแตกเป็นสองท่อนเมื่อปี 2022 (ข่าวดังทั่วโลก) ยังเดินชมได้ · มีทางเดินไม้ยกพื้นพาชม ใกล้ Nasu Yumoto เดินต่อจาก Shika-no-yu ได้ · ระวังพื้นที่ก๊าซเข้มข้นในวันลมนิ่ง",
+      "location_th": "Saiokawara ใกล้ Nasu Yumoto Onsen",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Japan%2C%20Fukushima%2C%20Tochigi%20-%20Nasudake%2C%20Chausudake%20crater%202013.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (ภาพปากปล่อง Chausudake/Nasudake — ใช้แทนภาพลานกำมะถัน Sessho-seki ที่ยังไม่มีบน Commons)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasu-dake.JPG?width=1600"
+      }
+    },
+    {
+      "name": "Nasu Heisei no Mori",
+      "icon": "trees",
+      "durationMin": 120,
+      "blurb_th": "ป่าธรรมชาติเดิมของพระราชวังฤดูร้อน เปิดให้เดินศึกษาเส้นทางป่า",
+      "deepDive_th": "Nasu Heisei no Mori (那須平成の森) ผืนป่าที่เคยเป็นส่วนหนึ่งของพระราชวังฤดูร้อน Nasu (Nasu Imperial Villa) ได้รับพระราชทานให้เปิดเป็นป่าสาธารณะตั้งแต่ปี 2011 · มีโซน Fureai no Mori ที่เดินได้อิสระตามเส้นทางป่าธรรมชาติร่มรื่น (เห็นภาพป่าบีช/โอ๊กเขียวชอุ่ม น้ำตกเล็ก) และโซน Gakushu no Mori ที่ต้องไปกับไกด์ธรรมชาติ (จองล่วงหน้า) เข้าลึกถึงระบบนิเวศที่อนุรักษ์ดั้งเดิม · มี Field Center เป็นจุดเริ่ม ฟรีค่าเข้าโซนทั่วไป · เหมาะคนชอบเดินป่าเบาๆ ดูนก/พรรณไม้ อากาศเย็นสบายแม้หน้าร้อน",
+      "location_th": "ตอนบนของ Nasu Kogen ใกล้ทางขึ้น ropeway",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/180727%20Nasu%20Heisei-no-mori%20Forest%20Nasu%20Japan06.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Koyo รอบที่ราบสูง Nasu",
+      "icon": "camera",
+      "durationMin": 90,
+      "blurb_th": "เมเปิลแดงจัดต้นฤดู สะพานแขวน สวนรอบรีสอร์ต — koyo ที่มาเร็วสุดของ Kanto",
+      "deepDive_th": "Nasu Kogen เป็นหนึ่งในจุด koyo ที่มาเร็วที่สุดของภูมิภาค Kanto เพราะอยู่บนที่สูง · ไล่จากยอด Chausudake/รอบ ropeway ที่เริ่มแดงตั้งแต่ปลาย ก.ย.-ต้น ต.ค. ลงมาถึงที่ราบสูงและสวนรอบรีสอร์ต/สะพานแขวนกลาง-ปลาย ต.ค. · จุดถ่ายรูปยอดนิยมมีสะพานแขวน Tsutsuji (Tsutsuji-tsuribashi) ที่มองทะลุใบเมเปิลแดง และสวนเดินเล่นตามรีสอร์ต/วัดเล็กในย่าน · ช่วงพีคคนเยอะ บัสแน่น เผื่อเวลาเดินทาง + ไปเช้า",
+      "location_th": "กระจายทั่ว Nasu Kogen (ยอดเขา → ที่ราบสูง)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20momiji%20in%20Nasu%20%2852509529826%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Autumn%20bridge%20in%20Nasu%2C%20Tochigi%20%2852510074123%29.jpg?width=1600"
+      }
+    }
+  ],
+  "routeFlow": [
+    {
+      "name": "Tokyo",
+      "modeToNext": "shinkansen",
+      "modeDetail_th": "Tohoku Shinkansen (Nasuno/Yamabiko) ~75 นาที"
+    },
+    {
+      "name": "Nasushiobara",
+      "elevationM": 305,
+      "modeToNext": "bus",
+      "modeDetail_th": "Kanto Bus สาย Nasu Ropeway ~70 นาที"
+    },
+    {
+      "name": "Nasu Yumoto Onsen",
+      "elevationM": 600,
+      "modeToNext": "bus",
+      "modeDetail_th": "บัสขึ้นต่อ ~15 นาที"
+    },
+    {
+      "name": "Nasu Ropeway Sanroku",
+      "elevationM": 1390,
+      "modeToNext": "ropeway",
+      "modeDetail_th": "Nasu Ropeway ~4 นาที"
+    },
+    {
+      "name": "Chausudake 9-go-me",
+      "elevationM": 1684,
+      "modeToNext": "walk",
+      "modeDetail_th": "เดินขึ้นยอด ~50 นาที"
+    },
+    {
+      "name": "ยอด Chausudake",
+      "elevationM": 1915
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "ค้าง 1 คืน ออนเซ็น + ภูเขาไฟ + koyo (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — ขึ้นที่ราบสูง + Chausudake",
+          "detail_th": "ออกโตเกียวเช้า ชินคันเซ็นถึง Nasushiobara → บัส Kanto ขึ้นที่ราบสูง → ขึ้น Nasu Ropeway เดินยอด Chausudake ชมวิว/ไอกำมะถัน (เลี่ยงถ้าลมแรง) → บ่ายลงมาแวะ Sessho-seki ลานกำมะถัน → เย็นเช็คอินรีสอร์ต/เรียวกังย่าน Nasu Yumoto แช่ออนเซ็น",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "โตเกียว → Nasushiobara",
+              "detail_th": "Tohoku Shinkansen (Nasuno) ~75 นาที",
+              "mode": "shinkansen",
+              "durationMin": 75
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "บัสขึ้น Nasu Ropeway",
+              "detail_th": "Kanto Bus ผ่าน Nasu Yumoto",
+              "mode": "bus",
+              "durationMin": 70
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "Nasu Ropeway + Chausudake",
+              "detail_th": "กระเช้าขึ้น 9-go-me เดินยอดภูเขาไฟ ~50 นาที (เช็คลม/อากาศ)",
+              "durationMin": 180
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Sessho-seki & Saiokawara",
+              "detail_th": "ลานหินกำมะถัน + หินสังหารในตำนาน",
+              "durationMin": 40
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "เช็คอิน + ออนเซ็น",
+              "detail_th": "เรียวกัง/รีสอร์ตย่าน Nasu Yumoto แช่น้ำกำมะถัน",
+              "durationMin": 90
+            }
+          ]
+        },
+        {
+          "title_th": "วันที่ 2 — ป่า + ฟาร์ม + koyo",
+          "detail_th": "เช้าเดิน Nasu Heisei no Mori ป่าธรรมชาติ → แวะ Shika-no-yu แช่โรงอาบน้ำเก่าแก่ → เที่ยวฟาร์ม/ชีส/ไอศกรีม + เก็บภาพ koyo รอบที่ราบสูง (ถ้าหน้าใบไม้แดง) → บ่ายแก่บัสลง Nasushiobara → ชินคันเซ็นกลับโตเกียว",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "Nasu Heisei no Mori",
+              "detail_th": "เดินเส้นป่าธรรมชาติ Fureai no Mori",
+              "durationMin": 120
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "Shika-no-yu Onsen",
+              "detail_th": "โรงอาบน้ำกำมะถันเก่าแก่ ~1,300 ปี",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "ฟาร์ม + koyo",
+              "detail_th": "นม/ชีส/ไอศกรีมฟาร์ม + เก็บภาพใบไม้แดงรอบที่ราบสูง",
+              "durationMin": 120
+            },
+            {
+              "time_th": "~16:00",
+              "title_th": "บัสลง Nasushiobara",
+              "mode": "bus",
+              "durationMin": 70
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "ชินคันเซ็นกลับโตเกียว",
+              "mode": "shinkansen",
+              "durationMin": 75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "Day-trip เร่ง (ภูเขาไฟ + ออนเซ็น)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "ไป-กลับวันเดียว เก็บไฮไลต์",
+          "detail_th": "ต้องออกเช้ามากและคุมรอบบัส/ropeway ให้ดี: ชินคันเซ็นถึง Nasushiobara → บัสขึ้น ropeway → Chausudake → ลงมา Sessho-seki + แช่ Shika-no-yu → บัสลง → ชินคันเซ็นกลับเย็น · ข้ามป่า/ฟาร์มออกไป เพราะที่ราบสูงกระจายตัว บัสมีจำกัด",
+          "steps": [
+            {
+              "time_th": "~07:30",
+              "title_th": "โตเกียว → Nasushiobara",
+              "mode": "shinkansen",
+              "durationMin": 75
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "บัส → Nasu Ropeway",
+              "mode": "bus",
+              "durationMin": 70
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "Chausudake",
+              "detail_th": "ropeway + เดินยอด (เช็คลม)",
+              "durationMin": 150
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Sessho-seki + Shika-no-yu",
+              "detail_th": "ลานกำมะถัน + แช่ออนเซ็นเก่าแก่",
+              "durationMin": 100
+            },
+            {
+              "time_th": "~16:30",
+              "title_th": "บัสลง + ชินคันเซ็นกลับ",
+              "mode": "bus",
+              "durationMin": 70
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "Chausudake เป็นภูเขาไฟยังคุกรุ่น (active) — มีจุดพ่นไอกำมะถัน เลี่ยงเข้าใกล้รอยแยกที่ก๊าซเข้มข้น โดยเฉพาะวันลมนิ่ง คนเป็นหอบหืด/โรคทางเดินหายใจระวังเป็นพิเศษ",
+    "บนยอดโล่งลมแรงมากและอากาศเปลี่ยนเร็ว — Nasu Ropeway ปิดบ่อยช่วงลมแรง/ทัศนวิสัยแย่ เช็คสถานะกระเช้ากับสภาพอากาศก่อนออกเดินทาง อย่าวางแผนแบบไม่มีแผนสำรอง",
+    "ฤดูหนาว ropeway ปิดและทางขึ้นยอดมีหิมะ/น้ำแข็ง ไม่เหมาะมือใหม่ · ช่วงเปิดปกติปลาย มี.ค.-ต้น ธ.ค.",
+    "บัสบนที่ราบสูงมีจำกัด (~1 เที่ยว/ชม.) และแน่นมากช่วง koyo — เผื่อเวลาต่อรถ ไปเช้า หรือเช่ารถจะยืดหยุ่นกว่ามาก",
+    "Shika-no-yu น้ำกำมะถันเข้มข้นและบางบ่อร้อนจัด (~48°C) — ค่อยๆ ลง ไม่แช่นานเกินไป และไม่มีสบู่/แชมพูตามธรรมเนียมดั้งเดิม"
+  ],
+  "sources": [
+    {
+      "label": "Nasu — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e5300.html"
+    },
+    {
+      "label": "Mount Nasu (Nasudake) — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e5301.html"
+    },
+    {
+      "label": "Nasu Highland — Tochigi Tourism (JNTO)",
+      "url": "https://www.japan.travel/en/destinations/kanto/tochigi/nasu-and-around/"
+    }
+  ],
+  "tags_th": [
+    "ภูเขาไฟ",
+    "ออนเซ็น",
+    "ใบไม้แดง",
+    "หนีร้อน",
+    "ฟาร์ม",
+    "ชินคันเซ็น"
+  ],
+  "food": [
+    {
+      "name": "นม/ชีส/ไอศกรีมฟาร์ม Nasu",
+      "name_jp": "那須高原の乳製品",
+      "emoji": "🥛",
+      "note_th": "ที่ราบสูงเลี้ยงวัวนม ฟาร์มเปิดให้ชิมนมสด ชีส โยเกิร์ต ไอศกรีมเจ้าดัง"
+    },
+    {
+      "name": "เนื้อวากิว Nasu / Tochigi",
+      "name_jp": "那須和牛",
+      "emoji": "🥩",
+      "note_th": "เนื้อวัวเลี้ยงในที่ราบสูง เสิร์ฟตามร้านสเต๊ก/ยากินิกุย่านรีสอร์ต"
+    },
+    {
+      "name": "ออนเซ็นทามาโกะ (ไข่ลวกบ่อน้ำร้อน)",
+      "name_jp": "温泉卵",
+      "emoji": "🥚",
+      "note_th": "ไข่ลวกน้ำพุร้อนกำมะถัน หากินได้แถบ Nasu Yumoto"
+    },
+    {
+      "name": "สตรอว์เบอร์รี Tochigi (Tochiotome)",
+      "name_jp": "とちおとめ",
+      "emoji": "🍓",
+      "note_th": "Tochigi เป็นแชมป์สตรอว์เบอร์รีญี่ปุ่น มีสวนให้เก็บช่วงฤดูหนาว-ใบไม้ผลิ"
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "slug": "hitachi",
+  "name": {
+    "en": "Hitachi Seaside Park",
+    "th": "สวนริมทะเลฮิตาชิ",
+    "jp": "国営ひたち海浜公園"
+  },
+  "region": "Kanto",
+  "prefecture": "Ibaraki",
+  "coords": {
+    "lat": 36.4012,
+    "lng": 140.5897
+  },
+  "category": [
+    "nature",
+    "coast"
+  ],
+  "tagline_th": "สวนริมทะเลยักษ์ — เนินดอกฟ้า nemophila 4.5 ล้านต้น (ปลายเม.ย.-พ.ค.) + ทุ่ง kochia แดงสดต.ค. ภาพถ่ายระดับโปสการ์ด ไปเช้ากลับเย็นจากโตเกียว",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nemophila%20and%20a%20Tree%20in%20Hitachi%20Seaside%20Park.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hitachi%20Seaside%20Park%202018.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "ไป-กลับวันเดียวได้สบาย — JR Joban Line limited express (Hitachi/Tokiwa) จากอุเอโนะ/ชินากาว่า/โตเกียว ถึง Katsuta (~75-100 นาที) แล้วต่อบัสสายตรงไปสวน ~15-25 นาที · รวมทางเดียวประมาณ 2-2.5 ชม. ไม่ต้องค้าง",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "JR Joban Line LEX (Hitachi/Tokiwa) → Katsuta → บัส",
+        "detail_th": "อุเอโนะ → train (Joban Line limited express Hitachi/Tokiwa) → Katsuta Station → bus ~15-25 นาที → Hitachi Seaside Park (ทางเข้า West/Main Gate)",
+        "durationMin": 110,
+        "costYen": 4690,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟด่วน",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Ueno Station (โตเกียว)",
+            "to": "Katsuta Station",
+            "mode": "train",
+            "line_th": "JR Joban Line Limited Express (Hitachi / Tokiwa)",
+            "durationMin": 85,
+            "costYen": 4160,
+            "note_th": "ค่าโดยสาร ~3,890 เยน (รถพื้นฐาน ~2,310 + ค่า limited express ~1,580) · ~1-2 เที่ยว/ชม. · จองที่นั่งล่วงหน้าได้ ราคาในตารางนี้ปัดรวม ~4,160 รวมที่นั่ง · ขึ้นได้จากชินากาว่า/โตเกียว/อุเอโนะ"
+          },
+          {
+            "from": "Katsuta Station (ฝั่ง East Exit)",
+            "to": "Hitachi Seaside Park",
+            "mode": "bus",
+            "line_th": "Ibaraki Kotsu Bus (สายตรงเข้าสวน / สาย Kaihinkoen)",
+            "durationMin": 20,
+            "costYen": 410,
+            "note_th": "ออกจากท่ารถหน้าสถานี East Exit · ช่วงไฮซีซั่นดอกบาน (Golden Week/ฤดู kochia) มีบัส shuttle ถี่ขึ้นและรถติด เผื่อเวลา"
+          }
+        ]
+      },
+      {
+        "mode": "JR ธรรมดา (ประหยัด) → Katsuta → บัส",
+        "detail_th": "อุเอโนะ → train (Joban Line รถธรรมดา/rapid ไม่เสียค่า LEX) → Katsuta Station → bus → Hitachi Seaside Park",
+        "durationMin": 165,
+        "costYen": 2720,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Ueno Station",
+            "to": "Mito Station",
+            "mode": "train",
+            "line_th": "JR Joban Line (Special Rapid / Local)",
+            "durationMin": 115,
+            "costYen": 2310,
+            "note_th": "ประหยัดกว่าราว 1,400 เยน แต่ช้ากว่าและบางช่วงต้องต่อขบวน · เหมาะคนงบจำกัด/ไม่รีบ"
+          },
+          {
+            "from": "Mito Station",
+            "to": "Katsuta Station",
+            "mode": "train",
+            "line_th": "JR Joban Line (Local)",
+            "durationMin": 10,
+            "costYen": 0,
+            "note_th": "ค่าโดยสารต่อเนื่องรวมในตั๋ว Ueno→Katsuta"
+          },
+          {
+            "from": "Katsuta Station (East Exit)",
+            "to": "Hitachi Seaside Park",
+            "mode": "bus",
+            "line_th": "Ibaraki Kotsu Bus (สาย Kaihinkoen)",
+            "durationMin": 20,
+            "costYen": 410,
+            "note_th": "บัสสายเดียวกับ option แรก"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "Nemophila ดอกฟ้า ปลายเม.ย.-พ.ค.",
+      "months": [
+        4,
+        5
+      ],
+      "note_th": "ไฮไลต์เบอร์ 1 — nemophila (ดอกฟ้า 'baby blue eyes') 4.5 ล้านต้นคลุมเนิน Miharashi Hill ทั้งลูก พีคปลายเม.ย.-ต้นพ.ค. (ตรงกับ Golden Week คนเยอะมาก) ภาพฟ้าจรดฟ้าสุดลูกหูลูกตา"
+    },
+    {
+      "label": "Kochia แดงสด ต.ค.",
+      "months": [
+        10
+      ],
+      "note_th": "ไฮไลต์เบอร์ 2 — พุ่ม kochia กลมๆ บนเนิน Miharashi เปลี่ยนจากเขียวเป็นแดงสดกลาง-ปลายต.ค. ข้างล่างเนินมีทุ่ง cosmos ชมพูคู่กัน"
+    },
+    {
+      "label": "ทิวลิป + ดอกฤดูใบไม้ผลิ เม.ย.",
+      "months": [
+        4
+      ],
+      "note_th": "Tamago-no-Mori มีทิวลิปหลายแสนต้นบานต้น-กลางเม.ย. ก่อน/คาบเกี่ยวกับ nemophila"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "Miharashi Hill (nemophila)",
+      "type": "bloom",
+      "startFrac": 0.31,
+      "endFrac": 0.4,
+      "note_th": "ดอกฟ้า nemophila ปลายเม.ย.-ต้นพ.ค."
+    },
+    {
+      "zone": "Tamago-no-Mori (tulip)",
+      "type": "bloom",
+      "startFrac": 0.27,
+      "endFrac": 0.34,
+      "note_th": "ทิวลิปต้น-กลางเม.ย."
+    },
+    {
+      "zone": "Miharashi Hill (kochia)",
+      "type": "bloom",
+      "startFrac": 0.78,
+      "endFrac": 0.85,
+      "note_th": "kochia แดงสดกลาง-ปลายต.ค."
+    },
+    {
+      "zone": "ทุ่ง cosmos",
+      "type": "bloom",
+      "startFrac": 0.75,
+      "endFrac": 0.83,
+      "note_th": "cosmos ชมพูคู่ kochia ต.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าหลักคือ JR limited express ไป-กลับ ใช้ rapid ธรรมดาประหยัดได้อีก",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (JR LEX อุเอโนะ↔Katsuta)",
+        "yen": 8320,
+        "thb": 1914,
+        "note_th": "Joban Line Limited Express ไป-กลับ · ใช้รถธรรมดาเหลือ ~4,620 เยน"
+      },
+      {
+        "label_th": "บัส Katsuta↔สวน ไป-กลับ",
+        "yen": 820,
+        "thb": 189,
+        "note_th": "Ibaraki Kotsu Bus ~410 เยน/เที่ยว"
+      },
+      {
+        "label_th": "ค่าเข้าสวน",
+        "yen": 450,
+        "thb": 104,
+        "note_th": "ผู้ใหญ่ 450 เยน (ช่วงดอกบาน) · เด็ก/ผู้สูงอายุถูกกว่า"
+      },
+      {
+        "label_th": "เช่าจักรยานในสวน",
+        "yen": 450,
+        "thb": 104,
+        "note_th": "~450 เยน/3 ชม. แรก · สวนกว้างมาก จักรยานช่วยประหยัดแรง"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "ร้านในสวน/ใกล้ Katsuta + ของกินถิ่นอิบารากิ"
+      },
+      {
+        "label_th": "ของฝาก/เบ็ดเตล็ด",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "ของที่ระลึก nemophila/kochia ในร้านสวน"
+      }
+    ],
+    "totalYen": 13040,
+    "totalThb": 3001,
+    "ranges": {
+      "lowThb": 1800,
+      "midThb": 3000,
+      "highThb": 4500
+    }
+  },
+  "pois": [
+    {
+      "name": "Miharashi Hill (Nemophila)",
+      "icon": "trees",
+      "durationMin": 60,
+      "blurb_th": "เนินสูงสุดของสวน ปูด้วยดอกฟ้า nemophila 4.5 ล้านต้น ฟ้าจรดฟ้า",
+      "deepDive_th": "Miharashi-no-Oka (みはらしの丘) เนินสูงที่สุดในสวน ปลายเม.ย.-ต้นพ.ค. ถูกปกคลุมด้วย nemophila ('baby blue eyes') ราว 4.5 ล้านต้นทั้งลูกเนิน เมื่อมองจากด้านล่างขึ้นไปดอกสีฟ้าจะกลืนกับท้องฟ้าเป็นภาพ 'ฟ้าจรดฟ้า' อันเป็นซิกเนเจอร์ของที่นี่ · บนยอดมีต้นสนเดี่ยวเป็นจุดถ่ายรูปยอดนิยม และมองเห็นทะเลแปซิฟิกได้ · ช่วงพีคตรงกับ Golden Week คนแน่นมาก แนะนำมาถึงตอนเปิดสวนเช้าเพื่อเลี่ยงฝูงคน",
+      "location_th": "ใจกลางสวน โซน Miharashi",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Miharashino%20Oka%20(Hitachi%20Seaside%20Park)%2003.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hitachi%20Seaside%20Park%202018.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Miharashi Hill (Kochia)",
+      "icon": "trees",
+      "durationMin": 60,
+      "blurb_th": "เนินเดียวกัน แต่หน้าต.ค. เต็มไปด้วยพุ่ม kochia กลมๆ แดงสด",
+      "deepDive_th": "เนิน Miharashi ลูกเดิมเปลี่ยนโฉมตามฤดู — กลาง-ปลายต.ค. พุ่ม kochia (โคเชีย / 'burning bush') ราว 3 หมื่นต้นเปลี่ยนจากเขียวเป็นแดงสดเป็นลูกกลมๆ เรียงเต็มเนิน ดูเหมือนพรมปุยสีแดง · ก่อนหน้านั้นช่วงปลายก.ย.-ต้นต.ค. ยังเป็นสีเขียว/เขียวอมแดง ก็สวยไปอีกแบบ · เชิงเนินมีทุ่ง cosmos ชมพูบานคู่กันพอดี เป็นคู่สีแดง-ชมพูที่ถ่ายรูปสวยมาก",
+      "location_th": "ใจกลางสวน โซน Miharashi (ฤดูใบไม้ร่วง)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kochia%20Hitachi%20Seaside%20Park.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kochia%20Hill.jpg?width=900"
+      }
+    },
+    {
+      "name": "ทุ่ง Cosmos",
+      "icon": "trees",
+      "durationMin": 30,
+      "blurb_th": "ทุ่ง cosmos ชมพู-ขาว บานคู่ kochia แดงในฤดูใบไม้ร่วง",
+      "deepDive_th": "ช่วงต.ค. นอกจาก kochia แดงบนเนินแล้ว ที่ราบเชิงเนินและโซนใกล้เคียงยังมีทุ่ง cosmos (ดอกคอสมอส) สีชมพู-ขาว-แดงเข้มบานสะพรั่งหลายแสนต้น · เป็นฉากหลังที่ทำให้ภาพ kochia แดงดูมีมิติสี และเป็นจุดเดินเล่นถ่ายรูปสบายๆ พื้นราบ · ฤดูใบไม้ผลิจุดนี้และโซนใกล้กันจะสลับเป็นดอกชนิดอื่นตามปฏิทินสวน",
+      "location_th": "เชิงเนิน Miharashi + โซนทุ่งดอก",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cosmos%20and%20Kochia%20at%20Hitachinaka%20Seaside%20Park%20(52480054264).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Pleasure Garden + ชิงช้าสวรรค์",
+      "icon": "camera",
+      "durationMin": 60,
+      "blurb_th": "สวนสนุกเล็กในสวน มีชิงช้าสวรรค์มองวิวทุ่งดอก + ทะเล",
+      "deepDive_th": "Pleasure Garden (โซนสวนสนุก) มีเครื่องเล่นครอบครัวและ 'ชิงช้าสวรรค์' (Ferris wheel) สูงราว 100 ม. ที่เป็นแลนด์มาร์กมองเห็นแต่ไกล · ขึ้นไปด้านบนเห็นเนินดอกฟ้า/แดง ทะเลแปซิฟิก และทั้งสวนแบบพาโนรามา เป็นจุดถ่ายรูปเก็บภาพรวมที่ดีที่สุด · เหมาะพักขาหลังเดินชมดอก หรือมากับเด็ก",
+      "location_th": "โซน Pleasure Garden ฝั่งตะวันตกของสวน",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nemophila%20and%20Ferris%20Wheel%20in%20Hitachi%20Seaside%20Park.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hitachi%20Seaside%20Park%202018.jpg?width=1600"
+      }
+    },
+    {
+      "name": "เส้นปั่นจักรยานในสวน",
+      "icon": "compass",
+      "durationMin": 90,
+      "blurb_th": "เลนจักรยาน ~11 กม. รอบสวน เช่าจักรยานปั่นชมทุ่งดอกได้ทั่ว",
+      "deepDive_th": "สวนกว้างราว 350 เฮกตาร์ (พื้นที่เปิดให้เที่ยว ~200 เฮกตาร์) เดินเท้าทั่วเหนื่อยมาก จึงมีเลนจักรยานเฉพาะยาวราว 11 กม. ลัดเลาะผ่านทุ่งดอก ป่า และริมทะเล · มีจุดเช่าจักรยาน (Cycle Center) คิดเป็นช่วงเวลา ราคาเริ่ม ~450 เยน/3 ชม. มีจักรยานเด็ก/แม่ลูก/tandem · เป็นวิธีเที่ยวที่คุ้มแรงและสนุกที่สุดสำหรับสวนขนาดนี้",
+      "location_th": "Cycle Center ใกล้ West Gate (ปั่นได้ทั่วสวน)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nemophila%20Hitachi%20Seaside%20Park.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hitachi%20Seaside%20Park%202018.jpg?width=1600"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ฤดูดอกฟ้า nemophila (แนะนำ เม.ย.-พ.ค.)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เก็บเนินดอกฟ้า + ทิวลิป + ชิงช้าสวรรค์ ในวันเดียว",
+          "detail_th": "ออกอุเอโนะเช้าด้วย Joban Line LEX → Katsuta → บัสเข้าสวน · เข้า West Gate เช่าจักรยานปั่นตรงไป Miharashi Hill เก็บภาพ nemophila ฟ้าจรดฟ้าก่อนคนแน่น → แวะ Tamago-no-Mori ดูทิวลิป → ขึ้นชิงช้าสวรรค์มองวิวรวม → กินข้าวเที่ยงในสวน → ปั่นชมทุ่งดอกริมทะเล → คืนจักรยาน → บัสกลับ Katsuta → LEX กลับโตเกียวเย็น",
+          "steps": [
+            {
+              "time_th": "~07:30",
+              "title_th": "อุเอโนะ → Katsuta",
+              "detail_th": "Joban Line Limited Express (Hitachi/Tokiwa) จองที่นั่งล่วงหน้า",
+              "mode": "train",
+              "durationMin": 85
+            },
+            {
+              "time_th": "~09:00",
+              "title_th": "บัส Katsuta → สวน + เข้า West Gate",
+              "detail_th": "บัส Ibaraki Kotsu ~20 นาที · ซื้อตั๋วเข้า 450 เยน",
+              "mode": "bus",
+              "durationMin": 20
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "เช่าจักรยาน + Miharashi Hill (nemophila)",
+              "detail_th": "ปั่นตรงไปเนินดอกฟ้าก่อนคนแน่น เก็บภาพฟ้าจรดฟ้า + ต้นสนเดี่ยว",
+              "durationMin": 75
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "Tamago-no-Mori (ทิวลิป)",
+              "detail_th": "ทิวลิปหลายแสนต้น (ถ้ายังบานคาบเกี่ยว)",
+              "durationMin": 30
+            },
+            {
+              "time_th": "~11:45",
+              "title_th": "ชิงช้าสวรรค์ (Pleasure Garden)",
+              "detail_th": "ขึ้นชมวิวรวมทุ่งดอก + ทะเลแปซิฟิก",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~12:45",
+              "title_th": "อาหารกลางวันในสวน",
+              "detail_th": "ร้านในโซน Pleasure Garden / West Gate",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "ปั่นจักรยานชมทุ่ง + ริมทะเล",
+              "detail_th": "เลนจักรยาน ~11 กม. ลัดเลาะป่า/ทุ่ง/ชายฝั่ง แล้วคืนจักรยาน",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~16:00",
+              "title_th": "บัสกลับ Katsuta → LEX กลับโตเกียว",
+              "detail_th": "เผื่อเวลารถติดช่วงไฮซีซั่น",
+              "mode": "train",
+              "durationMin": 105
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "Day-trip ฤดู kochia แดง (ต.ค.)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เนิน kochia แดง + ทุ่ง cosmos",
+          "detail_th": "แผนเดียวกับฤดูใบไม้ผลิ แต่ไฮไลต์เปลี่ยนเป็น Miharashi Hill ที่ปูด้วย kochia แดงสด + ทุ่ง cosmos ชมพูเชิงเนิน · มากลาง-ปลายต.ค. เพื่อให้ kochia แดงเต็มที่ · ปั่นจักรยานเก็บทั้งเนินแดงและทุ่ง cosmos แล้วขึ้นชิงช้าสวรรค์ถ่ายภาพรวมสีแดง-ชมพูจากมุมสูง",
+          "steps": [
+            {
+              "time_th": "~07:30",
+              "title_th": "อุเอโนะ → Katsuta → สวน",
+              "detail_th": "Joban Line LEX + บัส เข้า West Gate",
+              "mode": "train",
+              "durationMin": 105
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "Miharashi Hill (kochia แดง)",
+              "detail_th": "พุ่ม kochia กลมแดงเต็มเนิน เช่าจักรยานปั่นถึงเร็ว",
+              "durationMin": 75
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "ทุ่ง Cosmos",
+              "detail_th": "cosmos ชมพู-ขาวเชิงเนิน คู่กับ kochia แดง",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~12:00",
+              "title_th": "ชิงช้าสวรรค์ + อาหารกลางวัน",
+              "detail_th": "ขึ้นชมวิวรวมสีแดง-ชมพู แล้วกินข้าวในสวน",
+              "durationMin": 90
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "ปั่นจักรยานชมสวน + ริมทะเล",
+              "detail_th": "เก็บโซนป่าใบไม้เปลี่ยนสี/ชายฝั่ง แล้วคืนจักรยาน",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~16:00",
+              "title_th": "บัสกลับ Katsuta → LEX กลับโตเกียว",
+              "mode": "train",
+              "durationMin": 105
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ดอกไม้เป็นไปตามฤดูกาลและสภาพอากาศ — เช็คสถานะการบาน (bloom status) จากเว็บ/IG ทางการของสวนก่อนออกเดินทาง โดยเฉพาะ nemophila (ปลายเม.ย.-พ.ค.) และ kochia แดง (กลาง-ปลายต.ค.) ที่พีคแค่ไม่กี่สัปดาห์",
+    "ช่วงพีค nemophila ตรงกับ Golden Week คนแน่นมากและรถ/บัสติด — มาถึงตอนสวนเปิดเช้า และเผื่อเวลาบัส Katsuta↔สวนเป็นพิเศษ",
+    "สวนกว้างมาก (เปิดเที่ยว ~200 เฮกตาร์) เดินเท้าล้วนเหนื่อย — แนะนำเช่าจักรยานหรือใช้รถรางในสวน (Seaside Train)",
+    "JR limited express ไม่คุ้มกับ JR Pass สำหรับ day-trip นี้ (ระยะสั้น) — ซื้อตั๋วเที่ยวเดียว/ไป-กลับปกติ หรือใช้รถ rapid ธรรมดาเพื่อประหยัด",
+    "สวนมีวันหยุดทำการ (มักจันทร์บางช่วง/ปีใหม่) และเวลาเปิด-ปิดเปลี่ยนตามฤดู — เช็คปฏิทินก่อนไป"
+  ],
+  "sources": [
+    {
+      "label": "Hitachi Seaside Park — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e3762.html"
+    },
+    {
+      "label": "Hitachi Seaside Park — official site (EN)",
+      "url": "https://hitachikaihin.jp/en/"
+    },
+    {
+      "label": "Hitachi Seaside Park — JNTO",
+      "url": "https://www.japan.travel/en/spot/716/"
+    }
+  ],
+  "tags_th": [
+    "day-trip",
+    "ทุ่งดอกไม้",
+    "nemophila ดอกฟ้า",
+    "kochia แดง",
+    "ริมทะเล",
+    "จักรยาน",
+    "ถ่ายรูปสวย"
+  ],
+  "food": [
+    {
+      "name": "ปลาอันโคนาเบะ",
+      "name_jp": "あんこう鍋",
+      "emoji": "🍲",
+      "note_th": "หม้อไฟปลาอันโค (monkfish) ของขึ้นชื่ออิบารากิช่วงหน้าหนาว"
+    },
+    {
+      "name": "นัตโตะมิโตะ",
+      "name_jp": "水戸納豆",
+      "emoji": "🫘",
+      "note_th": "นัตโตะเมืองมิโตะ อิบารากิ ของถิ่นชื่อดัง หาซื้อแถว Katsuta/Mito"
+    },
+    {
+      "name": "มันหวานอบ (โฮชิอิโมะ)",
+      "name_jp": "干し芋",
+      "emoji": "🍠",
+      "note_th": "อิบารากิเป็นแหล่งผลิตมันหวานตากแห้งอันดับ 1 ของญี่ปุ่น ของฝากยอดนิยม"
+    },
+    {
+      "name": "เมล่อนอิบารากิ",
+      "name_jp": "茨城メロン",
+      "emoji": "🍈",
+      "note_th": "อิบารากิผลิตเมล่อนมากที่สุดในญี่ปุ่น หวานฉ่ำ มีเสิร์ฟเป็นของหวาน/ซอฟต์ครีม"
+    }
+  ]
+}

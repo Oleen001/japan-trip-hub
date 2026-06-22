@@ -1,0 +1,479 @@
+{
+  "slug": "goshikinuma",
+  "name": {
+    "en": "Goshikinuma",
+    "th": "โกชิคินุมะ (บึงห้าสี)",
+    "jp": "五色沼"
+  },
+  "region": "Tohoku",
+  "prefecture": "Fukushima",
+  "coords": {
+    "lat": 37.66,
+    "lng": 140.07
+  },
+  "category": [
+    "lake",
+    "nature"
+  ],
+  "tagline_th": "กลุ่มบึงภูเขาไฟหลากสี ฟ้า-เขียวมรกต-เทอร์ควอยซ์ เกิดจาก Mt Bandai ระเบิด เดินเลียบบึง ~3.6 กม. ~70 นาที โคโยปลาย ต.ค. สวยสะกด",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Autumn%20colours%20at%20Goshikinuma%20%2837146446004%29.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Autumn%20colours%20at%20Goshikinuma%20%2837807805976%29.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 4,
+  "access": {
+    "summary_th": "ไกลสุดในลิสต์ — Tohoku Shinkansen จากโตเกียวถึง Koriyama (~80 นาที) ต่อ JR Banetsu West Line ถึง Inawashiro (~35 นาที) แล้วบัสขึ้น Urabandai ~25 นาทีถึงปาก Goshikinuma · รวม ~3 ชม. ต่อ 2-3 ครั้ง เหมาะค้าง 1 คืนแถบ Urabandai ไม่บีบเป็น day-trip",
+    "jrPassWorth": true,
+    "options": [
+      {
+        "mode": "Tohoku Shinkansen + JR Banetsu West + บัส",
+        "detail_th": "โตเกียว → shinkansen (Tohoku/Yamabiko) → Koriyama → train (JR Banetsu West Line) → Inawashiro → bus (Bandai Toto สาย Urabandai) → Goshikinuma-iriguchi (ปากเส้นเดิน)",
+        "durationMin": 175,
+        "costYen": 9540,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Koriyama Station",
+            "mode": "shinkansen",
+            "line_th": "Tohoku Shinkansen (Yamabiko)",
+            "durationMin": 80,
+            "costYen": 8040,
+            "note_th": "Yamabiko จอด Koriyama (Hayabusa บางขบวนไม่จอด เช็คก่อน) · ~1-2 ขบวน/ชม. · ที่นั่งไม่จองก็มี · JR Pass / JR East Tohoku Area Pass ครอบคลุมช่วงนี้"
+          },
+          {
+            "from": "Koriyama Station",
+            "to": "Inawashiro Station",
+            "mode": "train",
+            "line_th": "JR Banetsu West Line (Aizu-Wakamatsu ทิศทาง)",
+            "durationMin": 35,
+            "costYen": 770,
+            "note_th": "รถไฟ local ~1 ขบวน/ชม. เช็ครอบให้ดี (ห่างกันมาก) · ลง Inawashiro แล้วออกหน้าสถานีหาป้ายบัส"
+          },
+          {
+            "from": "Inawashiro Station",
+            "to": "Goshikinuma-iriguchi",
+            "mode": "bus",
+            "line_th": "Bandai Toto Bus (สาย Urabandai)",
+            "durationMin": 25,
+            "costYen": 730,
+            "note_th": "บัสจาก Inawashiro ขึ้น Urabandai ลงป้าย Goshikinuma-iriguchi (ปาก Bishamonnuma) · เที่ยวจำกัด ~ไม่กี่เที่ยว/วัน เช็คตารางตามฤดู (หนาแน่นช่วงโคโย ต.ค.) · ปลายเส้นเดินอีกฝั่งคือป้าย Urabandai Kogen-eki"
+          }
+        ]
+      },
+      {
+        "mode": "ขับรถเช่า (จาก Koriyama / Inawashiro)",
+        "detail_th": "โตเกียว → shinkansen → Koriyama/Inawashiro → เช่ารถ → ขับขึ้น Urabandai ทาง Bandai-Azuma Lake Line / Route 459 → ลานจอด Bishamonnuma หรือ Urabandai Visitor Center",
+        "durationMin": 150,
+        "costYen": 12000,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "subway"
+          },
+          {
+            "mode": "car",
+            "label_th": "รถเช่า",
+            "icon": "car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Koriyama Station",
+            "mode": "shinkansen",
+            "line_th": "Tohoku Shinkansen (Yamabiko)",
+            "durationMin": 80,
+            "costYen": 8040,
+            "note_th": "ขึ้นชินคันเซ็นถึง Koriyama แล้วเช่ารถหน้าสถานี (หรือไปต่อ Inawashiro แล้วเช่า)"
+          },
+          {
+            "from": "Koriyama / Inawashiro",
+            "to": "Goshikinuma (Urabandai)",
+            "mode": "car",
+            "line_th": "Bandai-Azuma Lake Line / Route 459",
+            "durationMin": 50,
+            "costYen": 3960,
+            "note_th": "ค่ารวมโดยประมาณ = เช่ารถครึ่งวัน + น้ำมัน · ยืดหยุ่นกว่าเที่ยวบึงรอบ Urabandai + Lake Hibara ในวันเดียว · ฤดูหนาวถนนภูเขาอาจปิด/ต้องยางสโนว์"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "โคโยปลาย ต.ค.",
+      "months": [
+        10
+      ],
+      "note_th": "ปลาย ต.ค. - ต้น พ.ย. เมเปิลแดงสะท้อนผิวน้ำสีเทอร์ควอยซ์ พีคของปี คนเยอะ บัสหนาแน่น"
+    },
+    {
+      "label": "เขียวฤดูร้อน มิ.ย.-ส.ค.",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "note_th": "ป่าเขียวสด น้ำบึงสีฟ้า-มรกตคอนทราสต์สวย อากาศบนที่ราบสูงเย็นกว่าตัวเมือง เหมาะเดินเส้นเลียบบึง"
+    },
+    {
+      "label": "ใบไม้ผลิ พ.ค.",
+      "months": [
+        5
+      ],
+      "note_th": "หิมะละลาย ป่าเขียวอ่อน Mt Bandai ยังมีหิมะบนยอดเป็นฉากหลัง"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "บึง Goshikinuma",
+      "type": "koyo",
+      "startFrac": 0.79,
+      "endFrac": 0.88,
+      "note_th": "โคโยพีคปลาย ต.ค. - ต้น พ.ย."
+    },
+    {
+      "zone": "ป่า/น้ำบึงฤดูร้อน",
+      "type": "green",
+      "startFrac": 0.42,
+      "endFrac": 0.66,
+      "note_th": "เขียวสด น้ำสีฟ้ามรกต มิ.ย.-ส.ค."
+    },
+    {
+      "zone": "หิมะปกคลุม",
+      "type": "snow",
+      "startFrac": 0.92,
+      "endFrac": 1.0,
+      "note_th": "ธ.ค.-มี.ค. หิมะหนา เส้นเดินบางช่วงปิด/ต้องอุปกรณ์"
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน ค้าง Urabandai 1 คืน (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าหลักคือชินคันเซ็นไป-กลับ ถ้ามี JR Pass ตัดส่วนนี้ได้เยอะ",
+    "items": [
+      {
+        "label_th": "ชินคันเซ็นไป-กลับ (โตเกียว↔Koriyama)",
+        "yen": 16080,
+        "thb": 3698,
+        "note_th": "Tohoku Shinkansen ~8,040 เยน/เที่ยว · JR Pass / JR East Tohoku Area Pass คุ้มมากเส้นนี้"
+      },
+      {
+        "label_th": "ต่อรถไฟ + บัส Urabandai ไป-กลับ",
+        "yen": 3000,
+        "thb": 690,
+        "note_th": "Banetsu West (Koriyama↔Inawashiro) + Bandai Toto Bus ขึ้นบึง"
+      },
+      {
+        "label_th": "ที่พัก Urabandai 1 คืน",
+        "yen": 9000,
+        "thb": 2070,
+        "note_th": "เพนชัน/รีสอร์ตแถบ Urabandai Kogen หรือออนเซ็นใกล้เคียง"
+      },
+      {
+        "label_th": "อาหาร 1 วันครึ่ง",
+        "yen": 4000,
+        "thb": 920,
+        "note_th": "ร้านในรีสอร์ต + คาเฟ่ Visitor Center + บะหมี่/อาหารถิ่น"
+      },
+      {
+        "label_th": "ค่าเช่าเรือ/ของฝาก",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "เช่าเรือพายที่ Bishamonnuma + ของที่ระลึก"
+      }
+    ],
+    "totalYen": 33580,
+    "totalThb": 7723,
+    "ranges": {
+      "lowThb": 4500,
+      "midThb": 8000,
+      "highThb": 13000
+    }
+  },
+  "pois": [
+    {
+      "name": "Bishamonnuma",
+      "icon": "water",
+      "durationMin": 40,
+      "blurb_th": "บึงใหญ่สุด สีเทอร์ควอยซ์ มีเรือพายให้เช่า วิว Mt Bandai",
+      "deepDive_th": "Bishamonnuma (毘沙門沼) บึงใหญ่ที่สุดในกลุ่มบึงห้าสี อยู่ปลายเส้นเดินฝั่ง Goshikinuma-iriguchi เป็นจุดเริ่มยอดนิยม · น้ำสีฟ้า-เทอร์ควอยซ์เปลี่ยนเฉดตามแสงและมุมมอง มีจุดชมวิวเห็น Mt Bandai เป็นฉากหลัง · มีเรือพาย (rowboat) ให้เช่าออกกลางบึง บรรยากาศชิล · ช่วงโคโยปลาย ต.ค. เมเปิลแดงรอบบึงสะท้อนผิวน้ำเป็นภาพไอคอนิกของที่นี่ · ลือกันว่าถ้ามองดีๆ จะเห็น 'ปลาคาร์ปรูปหัวใจ' ในบึง",
+      "location_th": "ปากเส้นเดินฝั่ง Goshikinuma-iriguchi",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%BA%94%E8%89%B2%E6%B2%BC%20%E6%AF%98%E6%B2%99%E9%96%80%E6%B2%BC%E3%81%AE%E7%B4%85%E8%91%89.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bishamon%20Pond%20With%20Mount%20Bandai.JPG?width=1600"
+      }
+    },
+    {
+      "name": "Aonuma",
+      "icon": "water",
+      "durationMin": 15,
+      "blurb_th": "บึงสีฟ้ามรกตจัดจ้านที่สุด ตื่นตาที่สุดในเส้น",
+      "deepDive_th": "Aonuma (青沼 'บึงสีฟ้า') หนึ่งในบึงที่สีจัดจ้านสะดุดตาที่สุดของเส้นเดิน น้ำสีฟ้า-เขียวมรกตสว่างเกือบเรืองแสง เกิดจากแร่ธาตุภูเขาไฟ (อะลูมิเนียม/กำมะถัน) ที่ทำให้แสงกระเจิงเป็นสีนี้ · อยู่ค่อนไปทางฝั่ง Urabandai Kogen ของเส้นเดิน ใกล้ Rurinuma · เป็นจุดถ่ายรูปที่คนรอคิวถ่าย โดยเฉพาะวันแดดดีที่น้ำจะยิ่งสีสด",
+      "location_th": "ช่วงปลายเส้นฝั่ง Urabandai Kogen",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20emerald%20waters%20at%20%E9%9D%92%E6%B2%BC%20%28%E8%A3%8F%E7%A3%90%E6%A2%AF%E4%BA%94%E8%89%B2%E6%B2%BC%29%20%283780510114%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "เส้นเดินเลียบบึง (Nature Trail)",
+      "icon": "trees",
+      "durationMin": 70,
+      "blurb_th": "เส้นเดินป่า ~3.6 กม. ~70 นาที ผ่านบึงหลากสีต่อเนื่อง",
+      "deepDive_th": "เส้นเดินธรรมชาติ Goshikinuma (五色沼自然探勝路) ยาว ~3.6 กม. เดินทางเดียวจากปลายฝั่ง Goshikinuma-iriguchi (Bishamonnuma) ถึง Urabandai Kogen-eki ใช้เวลา ~70 นาที (ไม่นับแวะถ่ายรูป) · พื้นทางส่วนใหญ่ราบ-ลูกคลื่นเบา เดินสบายแต่บางช่วงเป็นรากไม้/โคลนหลังฝน · ผ่านบึงเรียงต่อกันหลายลูก (Bishamonnuma → Akanuma → Midoronuma → Ryunuma → Bensuinuma → Rurinuma → Aonuma) แต่ละลูกสีต่างกันชัดเจน · นิยมเดินทางเดียวแล้วนั่งบัสกลับจุดเริ่ม ไม่ต้องเดินย้อน · เตรียมรองเท้ากันลื่นและน้ำดื่ม ไม่มีร้านระหว่างทาง",
+      "location_th": "Goshikinuma-iriguchi → Urabandai Kogen-eki",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goshiki%20numa%28Ura-Bandai%29.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "วิว Mt Bandai",
+      "icon": "mountains",
+      "blurb_th": "ภูเขาไฟต้นกำเนิดบึงห้าสี ฉากหลังตระหง่านเหนือผิวน้ำ",
+      "deepDive_th": "Mt Bandai (磐梯山, 1,816 ม.) ภูเขาไฟที่ระเบิดครั้งใหญ่ปี 1888 ดินถล่มปิดกั้นลำธารจนเกิดที่ราบสูง Urabandai และกลุ่มบึงหลากสีนี้ขึ้นมา · สีน้ำที่ต่างกันของแต่ละบึงมาจากแร่ธาตุภูเขาไฟและสาหร่ายในสัดส่วนต่างกัน · จากริม Bishamonnuma และรอบ Lake Hibara มองเห็นยอด Bandai เป็นฉากหลังชัดเจน โดยเฉพาะวันฟ้าใส · ฝั่งนี้ (Urabandai = หลังเขา) คือด้านที่ถล่ม หน้าผารูปทรงขรุขระต่างจากฝั่งหน้าที่เป็นกรวยสวย",
+      "location_th": "มองจากริมบึง / Lake Hibara",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bishamon%20Pond%20With%20Mount%20Bandai.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Bandai%20from%20Lake%20Hibara%2001.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Lake Hibara",
+      "icon": "water",
+      "durationMin": 60,
+      "blurb_th": "ทะเลสาบใหญ่สุดของ Urabandai มีเกาะเล็กกระจาย เช่าเรือ/ปั่นจักรยานรอบ",
+      "deepDive_th": "Lake Hibara (檜原湖) ทะเลสาบที่ใหญ่ที่สุดในบรรดาทะเลสาบที่เกิดจาก Mt Bandai ระเบิดปี 1888 อยู่ห่างจาก Goshikinuma ไม่ไกล (เดินทาง/ขับรถต่อได้) · ผิวน้ำกว้างมีเกาะเล็กๆ กระจายหลายร้อยเกาะ มีเรือนำเที่ยว เช่าเรือ คายัก และเส้นปั่นจักรยานเลียบทะเลสาบในฤดูร้อน · ฤดูหนาวกลายเป็นจุดตกปลา wakasagi บนน้ำแข็ง · จับคู่เที่ยวกับ Goshikinuma ได้ลงตัวถ้าค้าง Urabandai",
+      "location_th": "เหนือ Goshikinuma เล็กน้อย (Urabandai)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Hibara%20As%20Seen%20From%20Bandai.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Bandai%20from%20Lake%20Hibara%2001.jpg?width=1600"
+      }
+    }
+  ],
+  "routeFlow": [
+    {
+      "name": "Goshikinuma-iriguchi (Bishamonnuma)",
+      "elevationM": 800,
+      "modeToNext": "walk",
+      "modeDetail_th": "เดินเส้นเลียบบึง ~70 นาที"
+    },
+    {
+      "name": "Midoronuma / Ryunuma",
+      "elevationM": 810,
+      "modeToNext": "walk",
+      "modeDetail_th": "เดินต่อผ่านบึงหลากสี"
+    },
+    {
+      "name": "Aonuma / Rurinuma",
+      "elevationM": 820,
+      "modeToNext": "walk",
+      "modeDetail_th": "ช่วงท้ายเส้นใกล้ทางออก"
+    },
+    {
+      "name": "Urabandai Kogen-eki (ปลายทาง)",
+      "elevationM": 820,
+      "modeToNext": "bus",
+      "modeDetail_th": "นั่งบัสกลับจุดเริ่ม / ต่อไป Lake Hibara"
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "ค้าง Urabandai 1 คืน (แนะนำ — ไม่บีบ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — เดินทาง + เส้นเลียบบึง",
+          "detail_th": "ออกโตเกียวสาย ชินคันเซ็นถึง Koriyama → ต่อ Banetsu West ถึง Inawashiro → บัสขึ้น Urabandai เช็คอินที่พัก เก็บกระเป๋า → เดินเส้น Goshikinuma จากฝั่ง Goshikinuma-iriguchi (Bishamonnuma) ไป Urabandai Kogen-eki ~70 นาที แวะถ่ายรูปบึงแต่ละสี → นั่งบัสกลับ พักผ่อน/ออนเซ็นเย็น",
+          "steps": [
+            {
+              "time_th": "~08:30",
+              "title_th": "โตเกียว → Koriyama",
+              "detail_th": "Tohoku Shinkansen (Yamabiko)",
+              "mode": "shinkansen",
+              "durationMin": 80
+            },
+            {
+              "time_th": "~10:00",
+              "title_th": "Koriyama → Inawashiro",
+              "detail_th": "JR Banetsu West Line (เช็ครอบ ~1/ชม.)",
+              "mode": "train",
+              "durationMin": 35
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "บัสขึ้น Urabandai",
+              "detail_th": "Bandai Toto Bus ลง Goshikinuma-iriguchi",
+              "mode": "bus",
+              "durationMin": 25
+            },
+            {
+              "time_th": "~12:00",
+              "title_th": "เช็คอิน + พักกินข้าว",
+              "detail_th": "เก็บกระเป๋าที่พัก Urabandai Kogen",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~13:30",
+              "title_th": "เดินเส้น Goshikinuma",
+              "detail_th": "Bishamonnuma → Aonuma ~3.6 กม. ~70 นาที (รวมแวะถ่ายรูป ~2 ชม.)",
+              "mode": "walk",
+              "durationMin": 120
+            },
+            {
+              "time_th": "~16:00",
+              "title_th": "บัสกลับ + ออนเซ็น",
+              "detail_th": "นั่งบัสจาก Urabandai Kogen-eki กลับ พักผ่อนเย็น",
+              "mode": "bus",
+              "durationMin": 20
+            }
+          ]
+        },
+        {
+          "title_th": "วันที่ 2 — Lake Hibara + กลับ",
+          "detail_th": "เช้าแวะ Lake Hibara (ล่องเรือ/ปั่นจักรยานเลียบทะเลสาบ ถ้าฤดูร้อน) หรือเดิน Bishamonnuma ซ้ำตอนแสงเช้า → เก็บของ นั่งบัสลง Inawashiro → Banetsu West → ชินคันเซ็นกลับโตเกียวบ่าย",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "Lake Hibara",
+              "detail_th": "ล่องเรือ/ปั่นจักรยานเลียบทะเลสาบ วิว Mt Bandai",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~12:00",
+              "title_th": "บัสลง Inawashiro",
+              "detail_th": "Bandai Toto Bus กลับสถานี",
+              "mode": "bus",
+              "durationMin": 25
+            },
+            {
+              "time_th": "~13:00",
+              "title_th": "Inawashiro → Koriyama → โตเกียว",
+              "detail_th": "Banetsu West + Tohoku Shinkansen กลับ",
+              "mode": "shinkansen",
+              "durationMin": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "Day-trip จัดเต็ม (ออกเช้ามาก กลับดึก)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "ไป-กลับวันเดียว (เหนื่อยแต่ทำได้)",
+          "detail_th": "ออกโตเกียวเช้ามาก ชินคันเซ็นรอบแรก → Koriyama → Inawashiro → บัสขึ้นบึง เดินเส้น Goshikinuma ทางเดียว ~70 นาที เก็บบึงครบ → นั่งบัสกลับ Inawashiro → ชินคันเซ็นกลับเย็น · ต้องวางตารางบัส+รถไฟ local ที่มาน้อยให้แม่น เผื่อพลาดรอบ เสี่ยงตกค้าง",
+          "steps": [
+            {
+              "time_th": "~06:30",
+              "title_th": "โตเกียว → Koriyama → Inawashiro",
+              "detail_th": "ชินคันเซ็นรอบแรก + Banetsu West",
+              "mode": "shinkansen",
+              "durationMin": 120
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "บัสขึ้น Goshikinuma-iriguchi",
+              "detail_th": "Bandai Toto Bus",
+              "mode": "bus",
+              "durationMin": 25
+            },
+            {
+              "time_th": "~10:00",
+              "title_th": "เดินเส้น Goshikinuma",
+              "detail_th": "Bishamonnuma → Aonuma เก็บบึงครบ",
+              "mode": "walk",
+              "durationMin": 100
+            },
+            {
+              "time_th": "~13:00",
+              "title_th": "บัสลง + ชินคันเซ็นกลับ",
+              "detail_th": "เช็ครอบบัส/รถไฟ local ที่มาน้อยให้แม่น",
+              "mode": "shinkansen",
+              "durationMin": 145
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ฤดูหนาว (ราว ธ.ค.-มี.ค.) หิมะหนา เส้นเดินบางช่วง/บัสบางสายลดเที่ยวหรือปิด ต้องเช็คตารางและเตรียมอุปกรณ์กันลื่น",
+    "เป็นเขตภูเขามีหมี (ツキノワグマ) — พกกระดิ่งหมี เดินส่งเสียง อย่าเดินเงียบคนเดียวช่วงเช้ามืด/พลบค่ำ ดูป้ายเตือนตามทาง",
+    "บัส Urabandai + รถไฟ local Banetsu West มาน้อย (บางช่วง ~1 เที่ยว/ชม.) จดตารางขากลับให้แม่น อย่าตกรอบสุดท้าย",
+    "ช่วงโคโยปลาย ต.ค. คนเยอะมาก บัสและที่พักเต็มไว — จองที่พักล่วงหน้าและเผื่อเวลารอบัส",
+    "เส้นเดินมีช่วงรากไม้/โคลนลื่นหลังฝน ใส่รองเท้าพื้นยึดเกาะดี ระหว่างทางไม่มีร้าน/ห้องน้ำ"
+  ],
+  "sources": [
+    {
+      "label": "Goshikinuma Ponds — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e7503.html"
+    },
+    {
+      "label": "Urabandai (Bandai-Asahi NP) — JNTO",
+      "url": "https://www.japan.travel/en/spot/1857/"
+    },
+    {
+      "label": "Goshiki-numa — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Goshiki-numa"
+    }
+  ],
+  "tags_th": [
+    "บึงห้าสี",
+    "ภูเขาไฟ",
+    "เดินป่าชิล",
+    "ใบไม้แดง",
+    "Tohoku",
+    "ค้างคืน"
+  ],
+  "food": [
+    {
+      "name": "โซกิโซบะ / คิตะคาตะราเม็ง",
+      "name_jp": "喜多方ラーメン",
+      "emoji": "🍜",
+      "note_th": "คิตะคาตะ (เมืองราเม็งชื่อดังของ Fukushima) อยู่ไม่ไกล เส้นแบนน้ำซุปโชยุใส"
+    },
+    {
+      "name": "เนื้อยากินิกุถ้วย Aizu",
+      "name_jp": "会津",
+      "emoji": "🍲",
+      "note_th": "อาหารถิ่นแถบ Aizu/Inawashiro — เนื้อ นาเบะ ของหมักดอง"
+    },
+    {
+      "name": "ขนม/ไอศกรีมนมที่ราบสูง",
+      "name_jp": "高原ソフト",
+      "emoji": "🍦",
+      "note_th": "ฟาร์มนมแถบ Bandai Kogen ไอศกรีมนมสดเข้มข้น แวะที่ Visitor Center/ร้านริมทาง"
+    }
+  ]
+}

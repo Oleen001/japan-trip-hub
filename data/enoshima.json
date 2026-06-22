@@ -1,0 +1,467 @@
+{
+  "slug": "enoshima",
+  "name": {
+    "en": "Enoshima & Kamakura",
+    "th": "เอโนชิมะ & คามาคุระ",
+    "jp": "江の島・鎌倉"
+  },
+  "region": "Kanto",
+  "prefecture": "Kanagawa",
+  "coords": {
+    "lat": 35.3,
+    "lng": 139.48
+  },
+  "category": [
+    "coast",
+    "shrine"
+  ],
+  "tagline_th": "เกาะศาลเจ้าริมทะเล + เมืองวัดเก่าคามาคุระ นั่งรถไฟ Enoden เลียบทะเล ไหว้พระใหญ่ Daibutsu วันหยุดเดียวจากโตเกียวก็เห็นฟูจิข้ามอ่าว",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/KUGENUMA%20KAIGAN%20Beach%20and%20ENOSHIMA%20Island%202018%2009%2016.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20Enoshima%20from%20USAF%20UH-1N%20Huey.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "เป็นทริปทะเล day-trip ที่นั่งรถไฟตรงจากโตเกียวได้ ~1 ชม. — เส้นยอดนิยมคือ JR Shonan-Shinjuku/Tokaido Line ลง Kamakura (เที่ยวพระใหญ่+Hase ก่อน) แล้วต่อ Enoden เลียบทะเลไป Enoshima · หรือสาย Odakyu จาก Shinjuku ลงตรง Katase-Enoshima เข้าเกาะเลย · เที่ยวครบทั้งสองฝั่งในวันเดียวได้สบายถ้าออกเช้า",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "JR → Kamakura + Enoden เลียบทะเล (แนะนำ)",
+        "detail_th": "Shinjuku → train (JR Shonan-Shinjuku Line) → Kamakura → train (Enoden เลียบทะเล) → Enoshima → walk ข้ามสะพานเข้าเกาะ",
+        "durationMin": 90,
+        "costYen": 1200,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Kamakura Station",
+            "mode": "train",
+            "line_th": "JR Shonan-Shinjuku Line (ตรง) หรือ Tokaido Line ต่อที่ Ofuna",
+            "durationMin": 60,
+            "costYen": 940,
+            "note_th": "Shonan-Shinjuku Line วิ่งตรงถึง Kamakura ไม่ต้องต่อ ~รายชั่วโมง · ถ้าออกจากสถานี Tokyo ใช้ Tokaido Line ลง Ofuna แล้วต่อ Yokosuka Line"
+          },
+          {
+            "from": "Kamakura Station",
+            "to": "Enoshima Station",
+            "mode": "train",
+            "line_th": "Enoden (Enoshima Electric Railway)",
+            "durationMin": 24,
+            "costYen": 260,
+            "note_th": "รถไฟสายเล็กเลียบทะเล วิวสวยช่วง Kamakurakokomae–Shichirigahama · นั่งฝั่งขวา (ขาไป Enoshima) เห็นทะเล · ~5 เที่ยว/ชม. · พิจารณาบัตร Enoden 1-day (800 เยน) ถ้าจะลงหลายสถานี"
+          },
+          {
+            "from": "Enoshima Station",
+            "to": "เกาะ Enoshima (ข้ามสะพาน Benten)",
+            "mode": "walk",
+            "line_th": "เดินจากสถานี Enoden ~15 นาที ผ่านสะพาน",
+            "durationMin": 15,
+            "costYen": 0,
+            "note_th": "เดินจาก Enoden Enoshima Station ไปทางทะเล ~15 นาที ข้ามสะพาน Benten Bridge เข้าเกาะ · มี escalator เสียเงิน (Escar) ช่วยขึ้นเนินบนเกาะถ้าไม่อยากเดินบันได"
+          }
+        ]
+      },
+      {
+        "mode": "Odakyu → Katase-Enoshima ตรง (เข้าเกาะก่อน)",
+        "detail_th": "Shinjuku → train (Odakyu Enoshima Line / รถด่วน Romancecar) → Katase-Enoshima → walk ข้ามสะพานเข้าเกาะ",
+        "durationMin": 75,
+        "costYen": 650,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station (Odakyu)",
+            "to": "Katase-Enoshima Station",
+            "mode": "train",
+            "line_th": "Odakyu Enoshima Line (Rapid Express) หรือ Romancecar (จองที่นั่ง)",
+            "durationMin": 65,
+            "costYen": 650,
+            "note_th": "Rapid Express ~650 เยน บางขบวนต้องต่อที่ Fujisawa · Romancecar นั่งตรงสบายแต่บวกค่าธรรมเนียมที่นั่ง ~+750 เยน · สถานี Katase-Enoshima ทรงพระราชวังมังกรน่าถ่ายรูป · คุ้มถ้าใช้บัตร Enoshima-Kamakura Freepass"
+          },
+          {
+            "from": "Katase-Enoshima Station",
+            "to": "เกาะ Enoshima (ข้ามสะพาน Benten)",
+            "mode": "walk",
+            "line_th": "เดินข้ามสะพาน Benten Bridge ~10 นาที",
+            "durationMin": 10,
+            "costYen": 0,
+            "note_th": "ใกล้สะพานเข้าเกาะที่สุดในบรรดาสถานีทั้งหมด · เหมาะถ้าตั้งใจเที่ยวเกาะ Enoshima เป็นหลัก"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ไฮเดรนเยีย Hase-dera มิ.ย.",
+      "months": [
+        6
+      ],
+      "note_th": "กลาง-ปลาย มิ.ย. ดอกไฮเดรนเยีย (อาจิไซ) บานเต็มทางเดิน Hydrangea Path ที่ Hase-dera สวยที่สุดของปี — ช่วงนี้คนเยอะมาก อาจต้องรับบัตรคิวเข้าทางเดิน"
+    },
+    {
+      "label": "ทะเลร้อน ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "หน้าร้อนชายหาด Yuigahama/Shichirigahama เปิดเล่นน้ำ มี beach house · บรรยากาศทะเลคึกคัก แดดจัด เตรียมกันแดด"
+    },
+    {
+      "label": "ฟ้าใสเห็นฟูจิ ธ.ค.-ก.พ.",
+      "months": [
+        12,
+        1,
+        2
+      ],
+      "note_th": "หน้าหนาวอากาศแห้งฟ้าใส มองเห็นภูเขาฟูจิข้ามอ่าวซางามิจากเกาะ Enoshima / ชายหาดได้ชัดที่สุด โดยเฉพาะตอนพระอาทิตย์ตก"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "Hase-dera ไฮเดรนเยีย",
+      "type": "bloom",
+      "startFrac": 0.42,
+      "endFrac": 0.52,
+      "note_th": "อาจิไซบานกลาง-ปลาย มิ.ย."
+    },
+    {
+      "zone": "ทะเล/ชายหาด",
+      "type": "green",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "ฤดูเล่นน้ำ ก.ค.-ส.ค."
+    },
+    {
+      "zone": "วิวฟูจิข้ามอ่าว",
+      "type": "event",
+      "startFrac": 0.92,
+      "endFrac": 1.0,
+      "note_th": "ฟ้าใสเห็นฟูจิ ธ.ค.-ก.พ."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ถ้าจะลง Enoden หลายสถานี + ขึ้น Sea Candle แนะนำซื้อ Enoshima-Kamakura Freepass ให้คุ้ม",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (JR + Enoden)",
+        "yen": 2400,
+        "thb": 552,
+        "note_th": "JR ชินจูกุ↔Kamakura ไป-กลับ + Enoden หรือซื้อ Enoshima-Kamakura Freepass (~1,640 เยนจาก Odakyu) ครอบ Enoden ทั้งวัน"
+      },
+      {
+        "label_th": "ค่าเข้าวัด/ศาลเจ้า",
+        "yen": 1100,
+        "thb": 253,
+        "note_th": "Kotoku-in (พระใหญ่) 300 + Hase-dera 400 + Enoshima Shrine area/Samuel Cocking Garden 200-400"
+      },
+      {
+        "label_th": "Sea Candle + Escar/Iwaya",
+        "yen": 1100,
+        "thb": 253,
+        "note_th": "ขึ้นหอ Sea Candle ~500 + escalator Escar ~360 + Iwaya Caves ~500 (เลือกได้ตามเวลา)"
+      },
+      {
+        "label_th": "อาหาร (ชิราสึ + ของทะเล)",
+        "yen": 2500,
+        "thb": 575,
+        "note_th": "ข้าวหน้าชิราสึ (ปลาตัวเล็กลวก/สด) + ขนมริมทาง Komachi-dori"
+      },
+      {
+        "label_th": "ของฝาก/เบ็ดเตล็ด",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "ขนม Komachi-dori, โอมาโมริ, ไอศกรีม"
+      }
+    ],
+    "totalYen": 8100,
+    "totalThb": 1863,
+    "ranges": {
+      "lowThb": 1200,
+      "midThb": 2000,
+      "highThb": 3200
+    }
+  },
+  "pois": [
+    {
+      "name": "Great Buddha of Kamakura (Kotoku-in)",
+      "icon": "building",
+      "durationMin": 40,
+      "blurb_th": "พระพุทธรูปสำริดกลางแจ้งสูง ~11.4 ม. อายุกว่า 750 ปี ไอคอนคามาคุระ",
+      "deepDive_th": "Great Buddha (鎌倉大仏) หรือ Daibutsu ที่วัด Kotoku-in พระพุทธรูปสำริดอามิตาภะกลางแจ้งสูงราว 11.4 ม. หนักกว่า 120 ตัน หล่อขึ้นปี ค.ศ. 1252 · เดิมมีวิหารครอบแต่ถูกสึนามิ/พายุพัดหายไปหลายร้อยปีก่อน เลยกลายเป็นพระประทับกลางแจ้งจนทุกวันนี้ · จ่ายเพิ่มเล็กน้อย (~50 เยน) เข้าไปดู 'ข้างใน' องค์พระที่กลวงได้ · เป็นจุดที่นักท่องเที่ยวพลาดไม่ได้ เดินจากสถานี Enoden Hase ~7 นาที อยู่เส้นทางเดียวกับ Hase-dera",
+      "location_th": "ใกล้ Hase Station (Enoden) เดิน 7 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/KamakuraDaibutsu1.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Le%20Grand%20Bouddha%20du%20Kotoku-in%20%28Kamakura%2C%20Japon%29%20%2842096289494%29.jpg?width=900"
+      }
+    },
+    {
+      "name": "Hase-dera Temple",
+      "icon": "trees",
+      "durationMin": 50,
+      "blurb_th": "วัดบนเนินวิวอ่าว + ทางเดินไฮเดรนเยียในหุบ มิ.ย. + เจ้าแม่กวนอิม 11 พักตร์",
+      "deepDive_th": "Hase-dera (長谷寺) วัดบนไหล่เขาที่มีพระโพธิสัตว์กวนอิมไม้แกะสลักปิดทอง 11 พักตร์ สูง ~9.18 ม. องค์ใหญ่ที่สุดองค์หนึ่งของญี่ปุ่น · ลานชมวิวด้านบนมองเห็นเมืองคามาคุระและอ่าวซางามิทั้งอ่าว · ไฮไลต์ตามฤดูคือ Hydrangea Path (อาจิไซ) บนเนินหลังวัด กลาง-ปลาย มิ.ย. ดอกไฮเดรนเยียกว่า 2,500 ต้นบานพร้อมกัน ช่วงพีคต้องรับบัตรคิวเข้าทางเดิน · มีสวนหิน ถ้ำเล็ก และรูปปั้นจิโซ่เรียงรายให้เดินชม · อยู่ใกล้ๆ พระใหญ่ เที่ยวต่อกันได้",
+      "location_th": "ใกล้ Hase Station (Enoden) เดิน 5 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Entrance%20to%20Hydrangea%20Path%20at%20Hasedera%20%28Kamakura%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Enoden เลียบทะเล (Enoshima Electric Railway)",
+      "icon": "camera",
+      "durationMin": 30,
+      "blurb_th": "รถไฟสายเล็กเก่าแก่ วิ่งเลียบทะเลระหว่าง Kamakura–Fujisawa วิวทะเลสุดคลาสสิก",
+      "deepDive_th": "Enoden (江ノ電) รถไฟสายท้องถิ่นเปิดตั้งแต่ปี 1902 วิ่ง ~10 กม. ระหว่าง Kamakura กับ Fujisawa ผ่าน 15 สถานี · ช่วงไฮไลต์คือระหว่าง Kamakurakokomae–Shichirigahama ที่รางวิ่งเลียบทะเลติดกับถนน วิวมหาสมุทรแปซิฟิกเปิดโล่ง เป็นภาพรถไฟริมทะเลที่โด่งดัง (และเป็นฉากในการ์ตูน Slam Dunk ที่ทางข้ามรถไฟ Kamakurakokomae) · ขบวนสีเขียว-ครีมคลาสสิก นั่งฝั่งขวาขาไป Enoshima เห็นทะเลเต็มตา · ลงแวะถ่ายรูปแต่ละสถานีได้ คุ้มถ้ามีบัตร 1-day",
+      "location_th": "สาย Kamakura ↔ Fujisawa",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enoden%20-%20Shichirigahama.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Enoshima Shrine & Sea Candle",
+      "icon": "mountains",
+      "durationMin": 90,
+      "blurb_th": "ศาลเจ้าเบนเท็นบนเกาะ + หอชมวิว Sea Candle เห็นฟูจิข้ามอ่าวตอนฟ้าใส",
+      "deepDive_th": "เกาะ Enoshima (江の島) เกาะเล็กเชื่อมแผ่นดินด้วยสะพาน เป็นที่ตั้งของ Enoshima Shrine สามศาลเจ้าบูชาเทพีเบนไซเท็น (เทพแห่งดนตรี โชคลาภ ความรัก) ที่คนนิยมมาขอพร · เดินขึ้นเนินผ่านถนนร้านค้าเก่า มีบันไดเยอะ หรือจ่ายขึ้น escalator Escar ช่วยได้ · บนยอดมี Samuel Cocking Garden สวนพฤกษศาสตร์ และหอชมวิว Enoshima Sea Candle (ประภาคาร/หอสังเกตการณ์) ขึ้นไปเห็นวิว 360 องศา — วันฟ้าใสเห็นภูเขาฟูจิข้ามอ่าวซางามิชัดเจน โดยเฉพาะช่วงพระอาทิตย์ตกหน้าหนาว",
+      "location_th": "บนเกาะ Enoshima",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enoshima%20Sea%20Candle%201.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Chigogafuchi & Iwaya Caves",
+      "icon": "water",
+      "durationMin": 50,
+      "blurb_th": "ลานหินริมทะเลปลายเกาะ + ถ้ำทะเลศักดิ์สิทธิ์ จุดชมพระอาทิตย์ตก",
+      "deepDive_th": "ปลายสุดของเกาะ Enoshima เป็นลานหินภูเขาไฟ Chigogafuchi (稚児ヶ淵) ที่ทะเลกัดเซาะเป็นชั้นหินกว้าง คลื่นซัดสวย เป็นจุดชมพระอาทิตย์ตกและตกปลายอดนิยม · ถัดลงไปคือ Iwaya Caves (岩屋) ถ้ำทะเลสองคูหาที่คลื่นเซาะลึกเข้าไปในหน้าผา เคยเป็นที่บำเพ็ญเพียรของพระและซามูไรในอดีต ภายในมืดสลัวแจกเทียนให้ถือเดิน บรรยากาศขลัง · ช่วงคลื่นแรง/พายุปิดถ้ำได้ เช็กก่อนไป · เดินจาก Sea Candle ลงมาทางทะเลด้านหลังเกาะ",
+      "location_th": "ปลายเกาะ Enoshima ด้านทะเล",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chigogafuchi%20walkway%20-%20Enoshima%2C%20Japan%20-%20DSC07895.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Yuigahama Beach",
+      "icon": "water",
+      "durationMin": 30,
+      "blurb_th": "ชายหาดทรายยาวของคามาคุระ เดินเล่นชิลริมทะเล ใกล้ตัวเมือง",
+      "deepDive_th": "Yuigahama (由比ヶ浜) ชายหาดทรายยาวริมอ่าวซางามิ ใกล้ตัวเมืองคามาคุระที่สุด เดินจากสถานี Enoden Yuigahama/Hase ได้ · หน้าร้อน (ก.ค.-ส.ค.) เปิดเป็นหาดเล่นน้ำมี beach house ร้านอาหารชั่วคราวคึกคัก เล่นเซิร์ฟ/แพดเดิลบอร์ดได้ · นอกฤดูเล่นน้ำก็เดินเล่นชายหาดชิลๆ ชมพระอาทิตย์ตก เห็นเกาะ Enoshima และเงาฟูจิไกลๆ ได้ · เหมาะแทรกระหว่างทางเดินจากพระใหญ่/Hase ไปขึ้น Enoden",
+      "location_th": "ใกล้ Yuigahama/Hase Station (Enoden)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kamakura%20Yuigahama%20Beach%202024.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip เต็มวัน (คามาคุระ → Enoden → Enoshima)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เช้าเที่ยววัด บ่ายเลียบทะเลไปเกาะ",
+          "detail_th": "ออกชินจูกุเช้า นั่ง JR Shonan-Shinjuku ตรงถึง Kamakura → ต่อ Enoden ลง Hase เที่ยว Hase-dera + พระใหญ่ Kotoku-in → กลับมาเดิน Komachi-dori กินชิราสึกลางวัน → ขึ้น Enoden เลียบทะเลไป Enoshima (นั่งฝั่งขวาชมทะเล) → ข้ามสะพานขึ้นเกาะ ไหว้ Enoshima Shrine + ขึ้น Sea Candle → เดินลงปลายเกาะ Chigogafuchi/Iwaya Caves ชมพระอาทิตย์ตก → กลับโตเกียว",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "ออกชินจูกุ → Kamakura",
+              "detail_th": "JR Shonan-Shinjuku Line ตรง ~60 นาที",
+              "mode": "train",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~09:15",
+              "title_th": "Enoden → Hase",
+              "detail_th": "ต่อ Enoden จาก Kamakura ลง Hase ~5 นาที",
+              "mode": "train",
+              "durationMin": 5
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "Hase-dera + พระใหญ่ Kotoku-in",
+              "detail_th": "เที่ยว Hase-dera (มิ.ย. ดูไฮเดรนเยีย) แล้วเดินต่อไปพระใหญ่ ~7 นาที",
+              "durationMin": 110
+            },
+            {
+              "time_th": "~12:00",
+              "title_th": "กลับ Kamakura กินกลางวัน",
+              "detail_th": "เดิน Komachi-dori กินข้าวหน้าชิราสึ + ขนมริมทาง",
+              "durationMin": 75
+            },
+            {
+              "time_th": "~13:30",
+              "title_th": "Enoden เลียบทะเลไป Enoshima",
+              "detail_th": "นั่งฝั่งขวาชมทะเลช่วง Kamakurakokomae–Shichirigahama ลง Enoshima Station",
+              "mode": "train",
+              "durationMin": 24
+            },
+            {
+              "time_th": "~14:10",
+              "title_th": "เดินข้ามสะพานขึ้นเกาะ",
+              "detail_th": "เดิน ~15 นาทีข้ามสะพาน Benten เข้าเกาะ (มี Escar ช่วยขึ้นเนิน)",
+              "mode": "walk",
+              "durationMin": 15
+            },
+            {
+              "time_th": "~14:30",
+              "title_th": "Enoshima Shrine + Sea Candle",
+              "detail_th": "ไหว้ศาลเจ้าเบนเท็น ขึ้นหอ Sea Candle ชมวิว 360° เห็นฟูจิถ้าฟ้าใส",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~16:30",
+              "title_th": "Chigogafuchi + Iwaya Caves",
+              "detail_th": "เดินลงปลายเกาะ ลานหินริมทะเล + ถ้ำทะเล ชมพระอาทิตย์ตก",
+              "durationMin": 60
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับโตเกียว",
+              "detail_th": "Odakyu จาก Katase-Enoshima หรือกลับ Enoden→JR",
+              "mode": "train",
+              "durationMin": 75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "ครึ่งวันเน้น Enoshima (เข้าเกาะตรง)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เกาะ + ทะเลแบบเบาๆ",
+          "detail_th": "เหมาะถ้ามีเวลาครึ่งวัน/ตื่นสาย: นั่ง Odakyu จากชินจูกุลง Katase-Enoshima ตรง → ข้ามสะพานขึ้นเกาะเลย → Enoshima Shrine + Sea Candle + ปลายเกาะ Iwaya → กินซีฟู้ด/ชิราสึริมเกาะ → ถ้ามีแรงนั่ง Enoden ย้อนไปดูพระใหญ่ที่ Hase ก่อนกลับ",
+          "steps": [
+            {
+              "time_th": "เช้า-สาย",
+              "title_th": "Odakyu → Katase-Enoshima",
+              "detail_th": "นั่งตรงจากชินจูกุ ~65 นาที เข้าเกาะใกล้สุด",
+              "mode": "train",
+              "durationMin": 65
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "ขึ้นเกาะ Enoshima",
+              "detail_th": "ข้ามสะพาน → Enoshima Shrine → Sea Candle → ปลายเกาะ Chigogafuchi/Iwaya",
+              "durationMin": 150
+            },
+            {
+              "time_th": "เที่ยง",
+              "title_th": "กินซีฟู้ด/ชิราสึ",
+              "detail_th": "ข้าวหน้าชิราสึ + ของทะเลริมเกาะ",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "(เสริม) Enoden ไปดูพระใหญ่",
+              "detail_th": "ถ้ามีแรง นั่ง Enoden เลียบทะเลไป Hase ดู Kotoku-in + Hase-dera ก่อนกลับ",
+              "mode": "train",
+              "durationMin": 24
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "วันหยุดสุดสัปดาห์/ช่วงไฮเดรนเยีย (มิ.ย.) คนเยอะมาก Enoden แน่นและรอคิวนาน — ออกเช้า หลีกเลี่ยงบ่ายวันเสาร์-อาทิตย์ ถ้าได้",
+    "Hydrangea Path ที่ Hase-dera ช่วงพีคต้องรับบัตรคิว (numbered ticket) เข้าทางเดิน อาจรอเป็นชั่วโมง เผื่อเวลา",
+    "Iwaya Caves และเส้นเดินปลายเกาะ Chigogafuchi ปิดเมื่อคลื่นแรง/พายุ/ทะเลหนุน — เช็กสภาพอากาศก่อนวางแผนช่วงท้ายวัน",
+    "บนเกาะ Enoshima มีบันไดและทางชันเยอะ ถ้าเดินไม่ไหวให้ใช้ escalator Escar (เสียเงิน ขาขึ้นอย่างเดียว) · เผื่อแรงสำหรับขาลงด้วย"
+  ],
+  "sources": [
+    {
+      "label": "Kamakura — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e2165.html"
+    },
+    {
+      "label": "Enoshima — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e3037.html"
+    },
+    {
+      "label": "Great Buddha (Kotoku-in) — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e3104.html"
+    },
+    {
+      "label": "Hase-dera Temple — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e3103.html"
+    }
+  ],
+  "tags_th": [
+    "day-trip",
+    "ทะเล",
+    "ศาลเจ้า",
+    "รถไฟเลียบทะเล",
+    "พระใหญ่",
+    "ไฮเดรนเยีย",
+    "วิวฟูจิ",
+    "ใกล้โตเกียว"
+  ],
+  "food": [
+    {
+      "name": "ข้าวหน้าชิราสึ",
+      "name_jp": "しらす丼",
+      "emoji": "🍚",
+      "note_th": "ปลาตัวเล็ก (ลูกปลาซาร์ดีน) ลวกหรือสด ราดบนข้าว ของขึ้นชื่อชายฝั่งโชนัน/คามาคุระ"
+    },
+    {
+      "name": "เซมเบ้ปลาหมึกอัด",
+      "name_jp": "たこせんべい",
+      "emoji": "🐙",
+      "note_th": "ปลาหมึกตัวเป็นๆ อัดเครื่องร้อนเป็นแผ่นกรอบ ร้านดังบนเกาะ Enoshima เข้าคิวยาว"
+    },
+    {
+      "name": "ของทะเลย่าง",
+      "name_jp": "海鮮",
+      "emoji": "🦪",
+      "note_th": "หอย/กุ้ง/ปลาสดย่างริมเกาะ Enoshima"
+    },
+    {
+      "name": "ขนม Komachi-dori",
+      "name_jp": "小町通り",
+      "emoji": "🍡",
+      "note_th": "ถนนคนเดินหน้าสถานีคามาคุระ ขนมริมทาง ไอศกรีม ดังโงะ มัทฉะ"
+    }
+  ]
+}

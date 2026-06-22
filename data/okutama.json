@@ -1,0 +1,450 @@
+{
+  "slug": "okutama",
+  "name": {
+    "en": "Okutama",
+    "th": "โอคุทามะ",
+    "jp": "奥多摩"
+  },
+  "region": "Kanto",
+  "prefecture": "Tokyo",
+  "coords": {
+    "lat": 35.8094,
+    "lng": 139.0966
+  },
+  "category": [
+    "nature",
+    "lake"
+  ],
+  "tagline_th": "ป่าเขาตะวันตกสุดของโตเกียว — ทะเลสาบเขื่อนสีมรกต โกรกธารน้ำใส ถ้ำหินปูนใหญ่ที่สุดในคันโต อยู่สุดสาย JR Ome Line",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Okutama%20%40%20Mukashi%20Michi%20%40%20Okutama%20%2811007373014%29.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ogouchi%20Dam%20%40%20Lake%20Okutama%20%2815064770607%29.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "นั่ง JR Chuo Line จากชินจูกุถึง Ome (~75 นาที) ต่อ JR Ome Line ไปสุดสายที่ Okutama Station (~35 นาที) รวม ~2 ชม. ครึ่ง · ในพื้นที่ต้องต่อบัสไปทะเลสาบ/ถ้ำ Nippara เพราะกระจายตัวกว้าง · เสาร์-อาทิตย์มี Holiday Rapid Okutama วิ่งตรงถึงสุดสาย สบายกว่า",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "JR Chuo/Ome Line (ต่อที่ Ome)",
+        "detail_th": "ชินจูกุ → train (Chuo Line Rapid) → Ome → train (Ome Line) → Okutama Station สุดสาย → ในพื้นที่ต่อบัสไปทะเลสาบ/ถ้ำ",
+        "durationMin": 150,
+        "costYen": 1110,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Ome Station",
+            "mode": "train",
+            "line_th": "JR Chuo Line (Rapid)",
+            "durationMin": 75,
+            "costYen": 0,
+            "note_th": "ค่าโดยสาร JR คิดรวมต่อเนื่องถึง Okutama (รวม 1,110 เยน) — ใส่ค่าไว้ leg ถัดไป · บางขบวนต้องเปลี่ยนที่ Tachikawa หรือ Ome"
+          },
+          {
+            "from": "Ome Station",
+            "to": "Okutama Station",
+            "mode": "train",
+            "line_th": "JR Ome Line (สุดสาย)",
+            "durationMin": 35,
+            "costYen": 1110,
+            "note_th": "ค่าโดยสาร JR Shinjuku→Okutama รวม 1,110 เยน · มักเปลี่ยนขบวนที่ Ome · ขบวนถี่ขึ้นช่วงเช้า เผื่อเวลารอต่อ ~15-20 นาที"
+          }
+        ]
+      },
+      {
+        "mode": "Holiday Rapid Okutama (เสาร์-อาทิตย์/วันหยุด)",
+        "detail_th": "ชินจูกุ → train (Holiday Rapid Okutama ตรง ไม่ต้องต่อ) → Okutama Station สุดสาย",
+        "durationMin": 110,
+        "costYen": 1110,
+        "transfers": 0,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Okutama Station",
+            "mode": "train",
+            "line_th": "Holiday Rapid Okutama (ตรงสุดสาย)",
+            "durationMin": 110,
+            "costYen": 1110,
+            "note_th": "เฉพาะเสาร์-อาทิตย์/วันหยุด · เป็น rapid ไม่มีค่าธรรมเนียมพิเศษ ราคาเท่าตั๋ว JR ปกติ · ~2-3 เที่ยว/วัน ขาไปช่วงเช้า · บางขบวนตัดตู้ครึ่งทาง เช็คป้ายให้ดี"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง ปลาย ต.ค.-พ.ย.",
+      "months": [
+        10,
+        11
+      ],
+      "note_th": "ไฮไลต์สุด — ใบไม้เปลี่ยนสีรอบทะเลสาบ Okutama + โกรก Hatonosu สวยมาก บนที่สูงเปลี่ยนสีเร็วกว่าโตเกียวกลางเมือง"
+    },
+    {
+      "label": "หนีร้อน ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "ป่าเขียวสด แม่น้ำ Tama เย็น เหมาะเล่นน้ำ/แค้มป์ริมน้ำ · ถ้ำ Nippara เย็น ~11°C ตลอดปี หนีร้อนได้ดี"
+    },
+    {
+      "label": "ใบไม้ผลิ เม.ย.-พ.ค.",
+      "months": [
+        4,
+        5
+      ],
+      "note_th": "ป่าเขียวอ่อน อากาศกำลังดี ซากุระบานช้ากว่าเมืองเพราะอยู่บนที่สูง"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ทะเลสาบ Okutama",
+      "type": "koyo",
+      "startFrac": 0.8,
+      "endFrac": 0.92,
+      "note_th": "ใบไม้แดงปลาย ต.ค.-กลาง พ.ย."
+    },
+    {
+      "zone": "โกรก Hatonosu",
+      "type": "koyo",
+      "startFrac": 0.83,
+      "endFrac": 0.95,
+      "note_th": "เมเปิลแดงเลียบน้ำ กลาง-ปลาย พ.ย."
+    },
+    {
+      "zone": "ป่าฤดูร้อน",
+      "type": "green",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "เขียวสด ลำธารเย็น ก.ค.-ส.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าหลักคือรถไฟ JR + บัสในพื้นที่ + ค่าเข้าถ้ำ",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (JR ชินจูกุ↔Okutama)",
+        "yen": 2220,
+        "thb": 511,
+        "note_th": "JR Chuo/Ome Line ไป-กลับ หรือ Holiday Rapid วันหยุด"
+      },
+      {
+        "label_th": "บัสในพื้นที่ (ทะเลสาบ/ถ้ำ Nippara)",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "Nishi Tokyo Bus จาก Okutama Station ~25-30 นาที ไป-กลับ"
+      },
+      {
+        "label_th": "ค่าเข้าถ้ำ Nippara",
+        "yen": 900,
+        "thb": 207,
+        "note_th": "ผู้ใหญ่ ~900 เยน เปิด ~08:00-17:00 (ฤดูหนาวปิดเร็ว)"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "soba/udon ใกล้สถานี + คาเฟ่ริมน้ำ"
+      },
+      {
+        "label_th": "ของฝาก/เบ็ดเตล็ด",
+        "yen": 800,
+        "thb": 184,
+        "note_th": "วาซาบิ/ของที่ระลึกท้องถิ่น"
+      }
+    ],
+    "totalYen": 6920,
+    "totalThb": 1592,
+    "ranges": {
+      "lowThb": 1100,
+      "midThb": 1700,
+      "highThb": 2800
+    }
+  },
+  "pois": [
+    {
+      "name": "Lake Okutama (Okutamako)",
+      "icon": "water",
+      "durationMin": 90,
+      "blurb_th": "ทะเลสาบเขื่อน Ogouchi สีมรกต ล้อมด้วยภูเขา จุดชมใบไม้แดงหลักของโตเกียว",
+      "deepDive_th": "Lake Okutama (奥多摩湖) คืออ่างเก็บน้ำหลังเขื่อน Ogouchi (小河内ダム) ที่สร้างเสร็จปี 1957 เป็นแหล่งน้ำสำคัญของมหานครโตเกียว · ผืนน้ำสีเขียวมรกตยาวคดเคี้ยวล้อมรอบด้วยภูเขาป่าทึบ มีจุดชมวิวและพิพิธภัณฑ์น้ำ (Okutama Water and Greenery Museum) ฟรีใกล้สันเขื่อน · ไฮไลต์คือฤดูใบไม้แดงปลาย ต.ค.-กลาง พ.ย. ที่ภูเขารอบทะเลสาบเปลี่ยนเป็นสีแดงส้ม สะท้อนผิวน้ำสวยมาก · มี 'สะพานลอยน้ำ' (drum bridge / 麦山の浮橋) เดินข้ามทะเลสาบบนทุ่นลอยได้ เป็นสปอตถ่ายรูปยอดนิยม · จากสถานี Okutama ต่อ Nishi Tokyo Bus ~15 นาทีถึงสันเขื่อน",
+      "location_th": "บัสจาก Okutama Station ~15 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ogouchi%20Dam%20%40%20Lake%20Okutama%20%2815064770607%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ogouchi%20Dam%20%40%20Lake%20Okutama%20%2815228311706%29.jpg?width=900"
+      }
+    },
+    {
+      "name": "Hatonosu Gorge",
+      "icon": "water",
+      "durationMin": 60,
+      "blurb_th": "โกรกธารน้ำมรกต เดินเลียบน้ำข้ามสะพานแขวน ใกล้สถานี Hatonosu",
+      "deepDive_th": "Hatonosu Gorge (鳩ノ巣渓谷) โกรกธารของแม่น้ำ Tama ที่น้ำกัดเซาะหินจนเป็นแอ่งสีเขียวมรกตสลับโขดหินใหญ่ · มีเส้นทางเดินเลียบน้ำ (Otama Walking Trail) ที่ราบเรียบ ข้ามสะพานแขวนเล็กๆ เหนือธารน้ำ บรรยากาศร่มรื่นกลางป่า · เดินจากสถานี Hatonosu (1 สถานีก่อนถึง Okutama) ได้ใน ~5 นาที เหมาะแวะระหว่างทาง · ฤดูใบไม้แดงกลาง-ปลาย พ.ย. เมเปิลริมน้ำเปลี่ยนสีสวยมาก · เชื่อมต่อเดินยาวไปทาง Mount Mitake ได้ถ้ามีเวลา",
+      "location_th": "ใกล้ Hatonosu Station ~5 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hatonosu%20Gorge%2020240518.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tama%20river%20%40%20Hatonosu%20Valley%20%40%20Otama%20Walking%20Trail%20%2810755941846%29.jpg?width=900"
+      }
+    },
+    {
+      "name": "Nippara Limestone Cave",
+      "icon": "mountains",
+      "durationMin": 60,
+      "blurb_th": "ถ้ำหินปูนใหญ่ที่สุดในคันโต หินงอกหินย้อยอลังการ เย็น ~11°C ทั้งปี",
+      "deepDive_th": "Nippara Limestone Cave (日原鍾乳洞) ถ้ำหินปูนที่ใหญ่ที่สุดในภูมิภาคคันโต ความยาวรวม ~1,270 ม. เปิดให้เดินชม ~800 ม. · ภายในมีหินงอกหินย้อย เสาหินปูน และโถงถ้ำสูงที่จัดไฟส่องสวยงาม อุณหภูมิคงที่ ~11°C ตลอดปี (อุ่นหน้าหนาว เย็นหน้าร้อน) · เคยเป็นสถานที่ศักดิ์สิทธิ์ทางศาสนามาแต่โบราณ · พื้นทางเดินลื่นและมีบันไดชันบางช่วง ใส่รองเท้ากันลื่น · เข้าได้ลึกสุดในหุบเขา Nippara — นั่ง Nishi Tokyo Bus จาก Okutama Station ~30 นาที (ช่วง peak โกยอนรถติด เผื่อเวลา) · ค่าเข้าผู้ใหญ่ ~900 เยน",
+      "location_th": "บัสจาก Okutama Station ~30 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nippara%20Limestone%20Cave%20%2815504098295%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nippara%20Limestone%20Cave%20%40%20Nippara%20Valley%20%40%20Okutama%20%2811028936465%29.jpg?width=900"
+      }
+    },
+    {
+      "name": "แม่น้ำ Tama (Okutama)",
+      "icon": "tint",
+      "durationMin": 60,
+      "blurb_th": "ต้นน้ำแม่น้ำ Tama น้ำใสเย็น หาดหินกรวด เล่นน้ำ/แค้มป์ริมน้ำหน้าร้อน",
+      "deepDive_th": "แม่น้ำ Tama (多摩川) ช่วงต้นน้ำในเขต Okutama ไหลผ่านหุบเขาป่าทึบ น้ำใสเย็นไหลผ่านโขดหินและหาดกรวด · เป็นจุดยอดนิยมหน้าร้อนสำหรับเล่นน้ำ ตกปลา และแค้มป์ริมน้ำ (มีลานกางเต็นท์หลายแห่งตามริมตลิ่ง) · เส้นทางเดิน Otama Walking Trail เลียบแม่น้ำเชื่อมระหว่าง Hatonosu - Okutama ผ่านวิวธารน้ำและสะพานหลายจุด · อากาศเย็นกว่าตัวเมืองโตเกียวหลายองศา เหมาะหนีร้อน · ระวังกระแสน้ำแรงหลังฝนตก",
+      "location_th": "เลียบเส้น Hatonosu–Okutama",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tama%20River%20%40%20Otama%20Trail%20%40%20Hike%20from%20Kori%20to%20Okutama%20%2815066883349%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tama%20river%2020130428%20-%20panoramio.jpg?width=900"
+      }
+    },
+    {
+      "name": "Okutama Mukashimichi (เส้นทางเก่า)",
+      "icon": "trees",
+      "durationMin": 240,
+      "blurb_th": "เส้นเดินป่าทางเกวียนเก่าเลียบทะเลสาบ ผ่านหมู่บ้านภูเขาและศาลเจ้าเก่า",
+      "deepDive_th": "Okutama Mukashimichi (奥多摩むかし道) 'เส้นทางเก่า' ระยะ ~10 กม. เดิน ~3-4 ชม. ตามเส้นทางเดินเกวียนโบราณที่เชื่อม Okutama Station กับทะเลสาบ Okutama ก่อนสร้างถนนใหม่ · ผ่านหมู่บ้านภูเขาเล็กๆ ป่าสนซีดาร์ ศาลเจ้าและรูปสลักหินเก่าแก่ริมทาง สะพานแขวน และจุดชมวิวทะเลสาบ · เป็นทริปเดินป่าเบาๆ ที่ได้บรรยากาศชนบทญี่ปุ่นดั้งเดิม นิยมเดินจากทะเลสาบลงมา Okutama Station (ทางลาดลงสบายกว่า) · ฤดูใบไม้แดงสวยเป็นพิเศษ · พกน้ำ+ของกินไปเอง เพราะระหว่างทางร้านน้อย",
+      "location_th": "ระหว่างทะเลสาบ–Okutama Station",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Okutama%20%2811007220265%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mukashi%20Michi%20%40%20Okutama%20%2811007421563%29.jpg?width=900"
+      }
+    }
+  ],
+  "routeFlow": [
+    {
+      "name": "Shinjuku",
+      "elevationM": 40,
+      "modeToNext": "train",
+      "modeDetail_th": "JR Chuo Line Rapid ~75 นาที"
+    },
+    {
+      "name": "Ome",
+      "elevationM": 190,
+      "modeToNext": "train",
+      "modeDetail_th": "JR Ome Line ~35 นาที"
+    },
+    {
+      "name": "Okutama Station",
+      "elevationM": 340,
+      "modeToNext": "bus",
+      "modeDetail_th": "Nishi Tokyo Bus ไปทะเลสาบ/ถ้ำ ~15-30 นาที"
+    },
+    {
+      "name": "Lake Okutama / Nippara",
+      "elevationM": 530
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ทะเลสาบ + ถ้ำ Nippara (เน้นรถ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เก็บไฮไลต์หลักในวันเดียว",
+          "detail_th": "ออกชินจูกุเช้า (เสาร์-อาทิตย์ใช้ Holiday Rapid Okutama ตรง) → ลง Okutama Station → บัสไปสันเขื่อน Ogouchi เดินชมทะเลสาบ Okutama + สะพานลอยน้ำ → กลับมา Okutama Station กินกลางวัน → บัสไปถ้ำ Nippara เดินชมถ้ำหินปูน ~1 ชม. → กลับ Okutama Station → ขากลับแวะลง Hatonosu Station เดินโกรก Hatonosu ปิดท้าย → กลับชินจูกุเย็น",
+          "steps": [
+            {
+              "time_th": "~07:45",
+              "title_th": "ออกชินจูกุ → Okutama Station",
+              "detail_th": "เสาร์-อาทิตย์ใช้ Holiday Rapid Okutama ตรง สบายสุด",
+              "mode": "train",
+              "durationMin": 110
+            },
+            {
+              "time_th": "~09:45",
+              "title_th": "บัสไปสันเขื่อน Ogouchi",
+              "detail_th": "Nishi Tokyo Bus ไปทะเลสาบ Okutama",
+              "mode": "bus",
+              "durationMin": 15
+            },
+            {
+              "time_th": "~10:00",
+              "title_th": "ทะเลสาบ Okutama",
+              "detail_th": "เดินชมสันเขื่อน + สะพานลอยน้ำ + จุดชมวิว/พิพิธภัณฑ์น้ำ",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~12:00",
+              "title_th": "บัสกลับ Okutama Station + กินกลางวัน",
+              "detail_th": "soba/udon ใกล้สถานี",
+              "mode": "bus",
+              "durationMin": 15
+            },
+            {
+              "time_th": "~13:15",
+              "title_th": "บัสไปถ้ำ Nippara",
+              "detail_th": "Nishi Tokyo Bus ~30 นาที (peak โกยอนรถติด เผื่อเวลา)",
+              "mode": "bus",
+              "durationMin": 30
+            },
+            {
+              "time_th": "~14:00",
+              "title_th": "Nippara Limestone Cave",
+              "detail_th": "เดินชมถ้ำหินปูน ~1 ชม. เย็น ~11°C",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~15:30",
+              "title_th": "บัสกลับ + แวะ Hatonosu Gorge",
+              "detail_th": "ขากลับลง Hatonosu Station เดินโกรกเลียบน้ำปิดท้าย",
+              "mode": "train",
+              "durationMin": 30
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับชินจูกุ",
+              "mode": "train",
+              "durationMin": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "เดินป่า Mukashimichi (สายเดินจริงจัง)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เดินเส้นทางเก่าเลียบทะเลสาบ",
+          "detail_th": "เหมาะคนชอบเดินป่า: ขึ้นบัสจาก Okutama Station ไปทะเลสาบก่อน → เดินเส้น Okutama Mukashimichi (~10 กม. ~3-4 ชม.) ลงเขากลับมา Okutama Station ผ่านหมู่บ้านภูเขา ศาลเจ้าเก่า สะพานแขวน จุดชมวิวทะเลสาบ → ถึงสถานีพอดีกินมื้อเย็น → กลับชินจูกุ · พกน้ำ+ของกินไปเอง",
+          "steps": [
+            {
+              "time_th": "~07:45",
+              "title_th": "ออกชินจูกุ → Okutama Station",
+              "mode": "train",
+              "durationMin": 110
+            },
+            {
+              "time_th": "~09:45",
+              "title_th": "บัสขึ้นทะเลสาบ Okutama",
+              "detail_th": "ขึ้นไปจุดเริ่มเดินด้านบนก่อน เดินลงสบายกว่า",
+              "mode": "bus",
+              "durationMin": 15
+            },
+            {
+              "time_th": "~10:15",
+              "title_th": "เดิน Okutama Mukashimichi",
+              "detail_th": "~10 กม. ผ่านหมู่บ้านภูเขา ศาลเจ้าเก่า สะพานแขวน",
+              "mode": "walk",
+              "durationMin": 210
+            },
+            {
+              "time_th": "~14:00",
+              "title_th": "ถึง Okutama Station + พักกินของ",
+              "detail_th": "ปิดท้ายเส้นเดินที่สถานี",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย-เย็น",
+              "title_th": "กลับชินจูกุ",
+              "mode": "train",
+              "durationMin": 120
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "POI กระจายตัวกว้างและต้องพึ่งบัสในพื้นที่ — เช็คตารางบัส Nishi Tokyo Bus ล่วงหน้า (รอบห่าง ช่วงนอก peak บางสายวันละไม่กี่เที่ยว) วางแผนรอบกลับให้ดี",
+    "ถ้ำ Nippara ช่วงใบไม้แดง (พ.ย.) คนเยอะ บัสและถนนเข้าหุบเขาแคบรถติดมาก เผื่อเวลาเดินทางเป็นชั่วโมง",
+    "ในถ้ำพื้นลื่นและมีบันไดชัน + แม่น้ำ/โกรกหินลื่นหลังฝน ใส่รองเท้ากันลื่นพื้นยึดเกาะดี",
+    "บนที่สูงเย็นกว่าโตเกียวหลายองศา หน้าหนาวถ้ำ Nippara ปิดเร็ว/บางช่วงปิด เช็คเวลาก่อนไป",
+    "ขบวนสุดสาย Ome Line ความถี่น้อยช่วงเย็น เช็ครอบรถไฟกลับให้ดี อย่าตกขบวนสุดท้าย"
+  ],
+  "sources": [
+    {
+      "label": "Okutama — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e3035.html"
+    },
+    {
+      "label": "Lake Okutama — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e3035_lake.html"
+    },
+    {
+      "label": "Okutama Tourism (official)",
+      "url": "https://www.okutama.gr.jp/"
+    }
+  ],
+  "tags_th": [
+    "day-trip",
+    "ทะเลสาบ",
+    "ถ้ำหินปูน",
+    "โกรกธาร",
+    "เดินป่า",
+    "ใบไม้แดง",
+    "หนีร้อน"
+  ],
+  "food": [
+    {
+      "name": "วาซาบิสด",
+      "name_jp": "山葵",
+      "emoji": "🌿",
+      "note_th": "น้ำใสต้นน้ำ Tama ปลูกวาซาบิคุณภาพดี ของขึ้นชื่อ Okutama"
+    },
+    {
+      "name": "โซบะ/อุด้งภูเขา",
+      "name_jp": "蕎麦",
+      "emoji": "🍜",
+      "note_th": "ร้านเส้นใกล้สถานี Okutama เหมาะกินกลางวัน"
+    },
+    {
+      "name": "ปลายามาเมะย่างเกลือ",
+      "name_jp": "山女魚の塩焼き",
+      "emoji": "🐟",
+      "note_th": "ปลาแม่น้ำต้นน้ำ Tama ย่างเกลือ"
+    },
+    {
+      "name": "คอนยัค Okutama",
+      "name_jp": "こんにゃく",
+      "emoji": "🍢",
+      "note_th": "บุกท้องถิ่นต้มซีอิ๊ว ขายตามจุดท่องเที่ยว"
+    }
+  ]
+}

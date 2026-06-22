@@ -1,0 +1,504 @@
+{
+  "slug": "jogasaki",
+  "name": {
+    "en": "Jogasaki Coast",
+    "th": "ชายฝั่งโจกาซากิ",
+    "jp": "城ヶ崎海岸"
+  },
+  "region": "Chubu",
+  "prefecture": "Shizuoka",
+  "coords": {
+    "lat": 34.8917,
+    "lng": 139.1331
+  },
+  "category": [
+    "coast",
+    "nature"
+  ],
+  "tagline_th": "ชายฝั่งผาหินลาวาจากภูเขาไฟ ทะเลสีเทอร์ควอยซ์ เดินสะพานแขวนข้ามผา + ประภาคารวิวมหาสมุทร บนคาบสมุทรอิซุ",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jogasaki%20Coast%2020111016%20a.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ito%20Jogasaki-K%C3%BCste%20Kadowaki-tsuki%201.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "จากโตเกียว ~2-2.5 ชม. · ทางง่ายสุดคือ Odoriko limited express ตรงจากโตเกียว/ชินจูกุ ถึง Ito แล้วต่อ Izukyu Line อีกไม่กี่ป้ายลง Jogasaki-Kaigan · หรือประหยัดกว่าด้วย Shinkansen → Atami → ต่อ Ito Line/Izukyu Line · ช่วง Ito ลงใต้เป็นรางเอกชน Izukyu ไม่อยู่ใน JR Pass ต้องจ่ายเพิ่ม",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Odoriko limited express ตรง (สบายสุด)",
+        "detail_th": "โตเกียว → train (Odoriko ตรง) → Ito → train (Izukyu Line) → Jogasaki-Kaigan → เดิน ~10-20 นาทีถึงชายฝั่ง",
+        "durationMin": 140,
+        "costYen": 4500,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟด่วน",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station (หรือ Shinjuku)",
+            "to": "Ito Station",
+            "mode": "train",
+            "line_th": "JR Odoriko Limited Express (ตรง)",
+            "durationMin": 100,
+            "costYen": 4000,
+            "note_th": "~1 ขบวน/ชม. · เป็นตั๋ว reserved ควรจองที่นั่งล่วงหน้า · ราคา ~4,000 เยนถึง Ito (รวมค่าธรรมเนียมด่วน) · ถ้ามี JR Pass ครอบถึง Ito แต่ต้องจ่ายส่วนเพิ่มช่วง Izukyu ทีหลัง"
+          },
+          {
+            "from": "Ito Station",
+            "to": "Jogasaki-Kaigan Station",
+            "mode": "train",
+            "line_th": "Izukyu (Izu Kyuko) Line",
+            "durationMin": 15,
+            "costYen": 500,
+            "note_th": "รางเอกชน Izukyu — ไม่อยู่ใน JR Pass ต้องซื้อตั๋วแยก · บางขบวน Odoriko วิ่งเลยตรงถึง Izukyu-Shimoda จอด Jogasaki-Kaigan ได้เลยไม่ต้องต่อ"
+          },
+          {
+            "from": "Jogasaki-Kaigan Station",
+            "to": "Kadowaki Suspension Bridge",
+            "mode": "walk",
+            "line_th": "เดินตามป้ายเส้น Picnical",
+            "durationMin": 20,
+            "costYen": 0,
+            "note_th": "เดิน ~10-20 นาทีจากสถานีถึงสะพานแขวน Kadowaki / ประภาคาร · ทางเดินมีป้ายชัด"
+          }
+        ]
+      },
+      {
+        "mode": "Shinkansen → Atami → Ito Line/Izukyu (ถูกกว่า)",
+        "detail_th": "โตเกียว → shinkansen (Tokaido Kodama/Hikari) → Atami → train (JR Ito Line) → Ito → train (Izukyu Line) → Jogasaki-Kaigan → เดินถึงชายฝั่ง",
+        "durationMin": 130,
+        "costYen": 5200,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Atami Station",
+            "mode": "shinkansen",
+            "line_th": "Tokaido Shinkansen (Kodama/บาง Hikari)",
+            "durationMin": 45,
+            "costYen": 4270,
+            "note_th": "~45 นาที ~4,270 เยน · Kodama จอดทุกป้าย Atami แน่นอน · ถ้ามี JR Pass ช่วงนี้ฟรี (เลือก Kodama/Hikari ไม่ใช่ Nozomi)"
+          },
+          {
+            "from": "Atami Station",
+            "to": "Ito Station",
+            "mode": "train",
+            "line_th": "JR Ito Line (local)",
+            "durationMin": 25,
+            "costYen": 0,
+            "note_th": "~20-25 นาที ~350 เยน (รวมไว้กับ leg ถัดไป) · ออกบ่อย · อยู่ใน JR Pass"
+          },
+          {
+            "from": "Ito Station",
+            "to": "Jogasaki-Kaigan Station",
+            "mode": "train",
+            "line_th": "Izukyu (Izu Kyuko) Line",
+            "durationMin": 15,
+            "costYen": 850,
+            "note_th": "รางเอกชน Izukyu — ไม่อยู่ใน JR Pass · รวมค่า Atami→Ito (~350) + Ito→Jogasaki-Kaigan (~500) ไว้ตรงนี้"
+          },
+          {
+            "from": "Jogasaki-Kaigan Station",
+            "to": "Kadowaki Suspension Bridge",
+            "mode": "walk",
+            "line_th": "เดินตามป้ายเส้น Picnical",
+            "durationMin": 20,
+            "costYen": 0,
+            "note_th": "เดิน ~10-20 นาทีจากสถานีถึงสะพานแขวน Kadowaki / ประภาคาร"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "เดินได้ทั้งปี",
+      "months": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "note_th": "ผาริมทะเลกลางแจ้ง อากาศใส ลมเย็น ช่วงฤดูใบไม้ผลิ-ใบไม้ร่วงสบายสุด หลีกเลี่ยงวันลมแรง/พายุ"
+    },
+    {
+      "label": "Omuro Burning ก.พ.",
+      "months": [
+        2
+      ],
+      "note_th": "เทศกาลเผาภูเขา Omuro Yamayaki อาทิตย์ที่ 2 ก.พ. — เผาหญ้าแห้งทั้งภูเขาให้เป็นสีดำสนิท ภาพหายาก เห็นได้แค่ปีละครั้ง"
+    },
+    {
+      "label": "ทะเลใส ฤดูร้อน ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "น้ำทะเลใสสีเทอร์ควอยซ์ชัดสุด แต่แดดจัด เตรียมกันแดด/น้ำดื่ม · Mt Omuro เขียวสดสวย"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "Mt Omuro (เผาภูเขา)",
+      "type": "event",
+      "startFrac": 0.1,
+      "endFrac": 0.15,
+      "note_th": "Yamayaki เผาภูเขา อาทิตย์ที่ 2 ก.พ."
+    },
+    {
+      "zone": "ผาชายฝั่ง (เดินสบาย)",
+      "type": "green",
+      "startFrac": 0.18,
+      "endFrac": 0.42,
+      "note_th": "ฤดูใบไม้ผลิ อากาศกำลังดี เดินเส้น Picnical สบาย"
+    },
+    {
+      "zone": "ทะเลเทอร์ควอยซ์",
+      "type": "green",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "หน้าร้อน น้ำใสสีฟ้าเขียวชัดสุด"
+    },
+    {
+      "zone": "ผาชายฝั่ง (ใส เย็น)",
+      "type": "green",
+      "startFrac": 0.74,
+      "endFrac": 0.95,
+      "note_th": "ฤดูใบไม้ร่วง-ต้นหนาว ฟ้าใส ลมเย็น"
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าหลักคือรถไฟ (Odoriko/Shinkansen + Izukyu) · เดินชายฝั่งฟรี ค่าใช้จ่ายเสริมคือกระเช้า Mt Omuro + อาหารทะเล",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (Odoriko + Izukyu)",
+        "yen": 9000,
+        "thb": 2070,
+        "note_th": "ไป-กลับโตเกียว↔Jogasaki-Kaigan · ใช้ Shinkansen→Atami→Ito Line ถูกลงได้เล็กน้อย"
+      },
+      {
+        "label_th": "Mt Omuro chairlift ไป-กลับ",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "กระเช้านั่งขึ้นยอดปล่องภูเขาไฟ ~5 นาที (option เสริม ถ้าแวะ)"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2500,
+        "thb": 575,
+        "note_th": "ซีฟู้ดอิซุ — ปลา kinmedai (ตาทอง), ข้าวหน้าปลาดิบ, ร้านริมท่า Ito"
+      },
+      {
+        "label_th": "ของฝาก/เครื่องดื่ม",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "ของที่ระลึก ร้านข้างประภาคาร + คาเฟ่"
+      }
+    ],
+    "totalYen": 13500,
+    "totalThb": 3105,
+    "ranges": {
+      "lowThb": 2500,
+      "midThb": 3300,
+      "highThb": 5000
+    }
+  },
+  "pois": [
+    {
+      "name": "Kadowaki Suspension Bridge",
+      "icon": "building",
+      "durationMin": 15,
+      "blurb_th": "สะพานแขวนยาว 48 ม. สูง 23 ม. ข้ามอ่าวผาหินลาวา วิวทะเลเปิดโล่ง",
+      "deepDive_th": "Kadowaki Suspension Bridge (門脇つり橋) สะพานแขวนเหล็กยาว 48 เมตร ทอดข้ามอ่าวระหว่างหน้าผาหินลาวา สูงเหนือผิวน้ำ 23 เมตร · ยืนกลางสะพานเห็นคลื่นซัดโขดหินลาวาสีดำกับน้ำทะเลสีเทอร์ควอยซ์ด้านล่างชัดเจน เป็นจุดถ่ายรูปไอคอนิกที่สุดของโจกาซากิ · สะพานมั่นคงเดินข้ามได้ทุกวัย แต่ลมแรงและเห็นน้ำลึกด้านล่าง คนกลัวความสูงอาจเสียวเล็กน้อย · อยู่ติดกับประภาคาร Kadowaki เดินถึงกันใน 2-3 นาที",
+      "location_th": "Kadowakizaki · เดิน ~15-20 นาทีจาก Jogasaki-Kaigan Station",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jogasaki%20Coast%2020111016%20b.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ito%20Jogasaki-K%C3%BCste%20Kadowaki-tsuki%201.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Kadowaki Lighthouse",
+      "icon": "building",
+      "durationMin": 20,
+      "blurb_th": "ประภาคารสูง 24.9 ม. มีจุดชมวิว 2 ชั้น เห็นมหาสมุทร + เกาะอิซุ ฟรี",
+      "deepDive_th": "Kadowaki Lighthouse (門脇埼灯台) ประภาคารสีขาวสูง 24.9 เมตร ตั้งบนหน้าผาริมทะเลข้างสะพานแขวน · มีจุดชมวิว 2 ชั้น เปิดให้ขึ้นฟรี วันฟ้าใสมองเห็นมหาสมุทรแปซิฟิกกว้างและหมู่เกาะอิซุ (Izu Islands) ไกลลิบ · ข้างประภาคารมีร้านขายของฝากและร้านอาหารเล็กๆ ขายของท้องถิ่น เหมาะแวะพักระหว่างเดินเส้น Picnical · เป็นแลนด์มาร์กคู่กับสะพานแขวนที่เห็นได้จากหลายมุมตลอดเส้นทางเดิน",
+      "location_th": "ติดกับ Kadowaki Suspension Bridge",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ito%20Jogasaki-K%C3%BCste%2047.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jogasaki%20Coast%2020111016%20a.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Picnical Course (เส้นเดินเลียบผา)",
+      "icon": "trees",
+      "durationMin": 90,
+      "blurb_th": "เส้นเดินเลียบผา ~3 กม. จากสถานี ผ่านสะพานแขวน-ประภาคาร ~1.5 ชม. แทบราบ",
+      "deepDive_th": "Picnical Course (ピクニカルコース) เส้นเดินเลียบชายฝั่งระยะ ~3.2 กม. เริ่มจากแถวสถานี Jogasaki-Kaigan ผ่าน Kadowaki Suspension Bridge และ Kadowaki Lighthouse ไปจบที่ Izu Marine Park ใช้เวลาราว 1 ชม. 30 นาที · เส้นทางแทบราบ (ขึ้น ~69 ม. / ลง ~124 ม.) เดินสบายไม่ต้องปีนเขา · ด้านหนึ่งเป็นผาหินลาวาดำกับทะเลสีเทอร์ควอยซ์ อีกด้านเป็นป่าสนชายทะเล มีจุดชมวิวและโขดหินรูปทรงแปลกตลอดทาง · เป็นเส้นยอดนิยมที่สุดของโจกาซากิ (เส้นยาวกว่าคือ Jogasaki Nature Trail ~9 กม.) · ใส่รองเท้าผ้าใบ ระวังขอบผาไม่มีราวกั้นบางช่วง",
+      "location_th": "เริ่มจาก Jogasaki-Kaigan Station ถึง Izu Marine Park",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ito%20Jogasaki-K%C3%BCste%20Kadowaki-tsuki%201.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jogasaki%20Coast%2020111016%20a.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Lava Cliffs & Turquoise Inlets",
+      "icon": "water",
+      "blurb_th": "ผาหินลาวาดำจากภูเขาไฟ Omuro คลื่นซัด น้ำทะเลสีเทอร์ควอยซ์",
+      "deepDive_th": "ชายฝั่งโจกาซากิเกิดจากลาวาของภูเขาไฟ Omuro ที่ปะทุเมื่อ ~4,000 ปีก่อน ไหลลงทะเลแล้วเย็นตัวกลายเป็นผาหินบะซอลต์สีดำยาวต่อเนื่อง ~9 กม. · จุดเด่นคือคอนทราสต์ของหินลาวาดำขรุขระกับน้ำทะเลใสสีฟ้าเทอร์ควอยซ์ที่คลื่นซัดเข้าซอกผาเป็นฟองขาว · มีโขดหินรูปทรงแปลกตา เสาหินตั้ง อ่าวเล็กๆ และจุดชมวิวเป็นระยะตลอดเส้นเดิน · วันคลื่นแรงเห็นพลังของทะเลชัด สวยแต่ต้องระวังอย่าเข้าใกล้ขอบผา",
+      "location_th": "ตลอดแนวชายฝั่ง Picnical / Nature Trail",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ito%20Jogasaki-K%C3%BCste%2019.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ito%20Jogasaki-K%C3%BCste%2010.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Lava Rock Viewpoints",
+      "icon": "camera",
+      "blurb_th": "จุดชมเสาหินลาวาตั้งชัน คลื่นกระแทกโขด มุมถ่ายรูปดราม่า",
+      "deepDive_th": "ตลอดเส้นเดินมีจุดชมวิวที่ยื่นออกไปเห็นเสาหินลาวาตั้งชันและแหลมหินยื่นลงทะเล คลื่นแปซิฟิกซัดกระแทกโขดเป็นละอองขาว · เป็นมุมถ่ายรูปที่ดราม่าที่สุดของชายฝั่ง โดยเฉพาะช่วงเช้าแดดเฉียงหรือวันคลื่นแรง · หลายจุดมีแอ่งน้ำขังตามโขดหิน (tidal pool) เวลาน้ำลดเห็นปลาเล็ก/สัตว์ทะเลเกาะหิน · ระวังพื้นหินลื่น/แหลม และอย่าปีนลงใกล้คลื่นเพราะอันตราย",
+      "location_th": "จุดชมวิวตามเส้น Picnical/Nature Trail",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ito%20Jogasaki-K%C3%BCste%2038.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ito%20Jogasaki-K%C3%BCste%2010.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Mount Omuro (Omuroyama)",
+      "icon": "mountains",
+      "durationMin": 60,
+      "blurb_th": "ภูเขาไฟรูปกรวยเขียวขจี ต้นกำเนิดลาวาชายฝั่ง ขึ้นยอดด้วยกระเช้า",
+      "deepDive_th": "Mount Omuro (大室山) ภูเขาไฟดับรูปกรวยสมบูรณ์แบบสูง 580 ม. ปกคลุมด้วยหญ้าเขียวทั้งลูก เป็นต้นกำเนิดของลาวาที่ก่อชายฝั่งโจกาซากิเมื่อ ~4,000 ปีก่อน · ขึ้นยอดได้ทางเดียวคือกระเช้านั่ง (chairlift) ~5-6 นาที บนยอดมีเส้นเดินวงรอบปากปล่องภูเขาไฟ (crater) ชมวิว 360° เห็นคาบสมุทรอิซุ ทะเล หมู่เกาะอิซุ และฟูจิในวันใส · ทุกอาทิตย์ที่ 2 ของ ก.พ. มีพิธี Yamayaki เผาหญ้าทั้งภูเขาให้ดำสนิท (ประเพณี ~700 ปี) · อยู่ห่างชายฝั่งไม่ไกล มักเที่ยวคู่กันในวันเดียว ต้องนั่งบัส/รถจาก Izu-Kogen หรือ Jogasaki-Kaigan",
+      "location_th": "ใกล้ Izu-Kogen / ห่างชายฝั่ง ~15-20 นาทีโดยรถ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20%C5%8Cmuro%20%28Izu%20Peninsula%29%20%26%20Mt.Fuji.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Omuro%20%28Izu%20Peninsula%29%2020100426.jpg?width=1600"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ชายฝั่ง + ประภาคาร (เน้นเดิน)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เช้า-บ่าย เดินเส้น Picnical ครบไฮไลต์",
+          "detail_th": "ออกโตเกียวเช้าด้วย Odoriko ตรง → ลง Jogasaki-Kaigan → เดิน ~15 นาทีถึง Kadowaki Suspension Bridge ถ่ายรูปสะพานแขวนข้ามผา → ขึ้นจุดชมวิว Kadowaki Lighthouse (ฟรี) → เดินเส้น Picnical เลียบผาหินลาวา ชมทะเลเทอร์ควอยซ์ ~1.5 ชม. ไปจบ Izu Marine Park → กินซีฟู้ดอิซุ → กลับโตเกียวเย็น (ถ้ามีเวลา/แรง แวะ Mt Omuro นั่งกระเช้าขึ้นปากปล่อง)",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "ออกโตเกียว → Jogasaki-Kaigan",
+              "detail_th": "Odoriko ตรงถึง Ito แล้วต่อ Izukyu Line (จองที่นั่ง Odoriko ล่วงหน้า)",
+              "mode": "train",
+              "durationMin": 130
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "เดินไป Kadowaki Suspension Bridge",
+              "detail_th": "เดิน ~15-20 นาทีตามป้ายเส้น Picnical จากสถานี",
+              "mode": "walk",
+              "durationMin": 20
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "สะพานแขวน + ประภาคาร Kadowaki",
+              "detail_th": "ถ่ายรูปสะพานข้ามผา ขึ้นจุดชมวิวประภาคาร (ฟรี) เห็นมหาสมุทร",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~11:45",
+              "title_th": "เดินเส้น Picnical เลียบผา",
+              "detail_th": "ผาหินลาวา ทะเลเทอร์ควอยซ์ จุดชมวิว ~3 กม. ไปจบ Izu Marine Park",
+              "mode": "walk",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~13:30",
+              "title_th": "กินซีฟู้ดอิซุ",
+              "detail_th": "ปลา kinmedai ตาทอง / ข้าวหน้าปลาดิบ แถว Ito หรือใกล้สถานี",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย (option)",
+              "title_th": "Mt Omuro กระเช้าขึ้นปากปล่อง",
+              "detail_th": "ถ้ามีเวลา นั่งกระเช้า ~5 นาที เดินวงรอบ crater ชมวิว 360° + ฟูจิ",
+              "durationMin": 60
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับโตเกียว",
+              "detail_th": "Izukyu → Ito → Odoriko หรือ Shinkansen จาก Atami",
+              "mode": "train",
+              "durationMin": 130
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "ชายฝั่ง + Mt Omuro ค้าง 1 คืน (ชิล)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — ชายฝั่ง + ออนเซ็น Ito",
+          "detail_th": "เดินทางถึงช่วงเที่ยง เดินเส้น Picnical ชมสะพานแขวน-ประภาคาร-ผาลาวาแบบไม่รีบ → เย็นเข้าพักออนเซ็นเมือง Ito แช่น้ำพุร้อน + กินซีฟู้ด",
+          "steps": [
+            {
+              "time_th": "เที่ยง",
+              "title_th": "ถึง Jogasaki-Kaigan",
+              "mode": "train",
+              "durationMin": 130
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "เดินเส้น Picnical เต็มๆ",
+              "detail_th": "สะพานแขวน + ประภาคาร + ผาลาวา ไม่ต้องรีบ",
+              "mode": "walk",
+              "durationMin": 120
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "เข้าออนเซ็นเมือง Ito",
+              "detail_th": "เมืองน้ำพุร้อนเก่าแก่ แช่ออนเซ็น + อาหารทะเล",
+              "durationMin": 0
+            }
+          ]
+        },
+        {
+          "title_th": "วันที่ 2 — Mt Omuro + กลับ",
+          "detail_th": "เช้านั่งกระเช้าขึ้นยอด Mt Omuro เดินรอบปากปล่องภูเขาไฟ ชมวิวคาบสมุทร + ฟูจิ → กลับโตเกียวบ่าย",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "Mt Omuro กระเช้า + crater walk",
+              "detail_th": "นั่งกระเช้าขึ้นยอด เดินวงรอบปากปล่อง ชมวิว 360°",
+              "durationMin": 90
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "กลับโตเกียว",
+              "mode": "train",
+              "durationMin": 130
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "เป็นผาริมทะเลสูง บางช่วงไม่มีราวกั้น — อย่าเข้าใกล้ขอบผาเพื่อถ่ายรูป โดยเฉพาะวันลมแรง",
+    "วันลมแรง/พายุ คลื่นซัดสูงและสะพานแขวนเสียว เช็คพยากรณ์อากาศก่อนไป",
+    "ช่วง Ito ลงใต้เป็นรางเอกชน Izukyu ไม่อยู่ใน JR Pass ต้องซื้อตั๋ว/จ่ายส่วนเพิ่มแยก",
+    "Odoriko เป็น limited express ที่นั่ง reserved ควรจองล่วงหน้าโดยเฉพาะวันหยุด",
+    "Mt Omuro ขึ้นยอดได้ทางเดียวคือกระเช้า เช็ครอบ/วันหยุดให้ดี · ปิดวัน Yamayaki ช่วงเผาภูเขา",
+    "พื้นหินลาวาขรุขระและลื่นช่วงเปียก ใส่รองเท้าผ้าใบ/รองเท้าเดินที่ยึดเกาะดี"
+  ],
+  "sources": [
+    {
+      "label": "Jogasaki Coast — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6308.html"
+    },
+    {
+      "label": "Mount Omuro — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6315.html"
+    },
+    {
+      "label": "Jogasaki Coast — JNTO",
+      "url": "https://www.japan.travel/en/spot/163/"
+    },
+    {
+      "label": "Tokyo to Izu Peninsula access — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6305.html"
+    },
+    {
+      "label": "Jogasaki suspension bridges guide — Izu Letters",
+      "url": "https://en.izu-letters.jp/column/detail.php?c=28"
+    }
+  ],
+  "tags_th": [
+    "ชายฝั่ง",
+    "ผาหินลาวา",
+    "สะพานแขวน",
+    "ประภาคาร",
+    "เดินเลียบทะเล",
+    "คาบสมุทรอิซุ"
+  ],
+  "food": [
+    {
+      "name": "ปลาคินเมได (ตาทอง)",
+      "name_jp": "金目鯛",
+      "emoji": "🐟",
+      "note_th": "ปลาแดงตาโตขึ้นชื่อของอิซุ นึ่งซีอิ๊ว/ย่าง/ซาชิมิ"
+    },
+    {
+      "name": "ข้าวหน้าปลาดิบรวม (ไคเซ็นด้ง)",
+      "name_jp": "海鮮丼",
+      "emoji": "🍚",
+      "note_th": "ซีฟู้ดสดจากท่า Ito ราดบนข้าว"
+    },
+    {
+      "name": "วาซาบิสดอิซุ",
+      "name_jp": "山葵",
+      "emoji": "🌿",
+      "note_th": "คาบสมุทรอิซุปลูกวาซาบิคุณภาพดี กินคู่ปลาดิบ"
+    },
+    {
+      "name": "เทนกุสะ/ทากันสึเทน (วุ้นสาหร่าย)",
+      "name_jp": "ところてん",
+      "emoji": "🍮",
+      "note_th": "ของหวานเย็นทำจากสาหร่ายชายฝั่งอิซุ"
+    }
+  ]
+}

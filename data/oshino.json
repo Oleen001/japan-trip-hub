@@ -1,0 +1,493 @@
+{
+  "slug": "oshino",
+  "name": {
+    "en": "Oshino Hakkai",
+    "th": "โอชิโนะ ฮัคไค",
+    "jp": "忍野八海"
+  },
+  "region": "Chubu",
+  "prefecture": "Yamanashi",
+  "coords": {
+    "lat": 35.4604,
+    "lng": 138.8316
+  },
+  "category": [
+    "nature",
+    "lake"
+  ],
+  "tagline_th": "หมู่บ้านน้ำพุ 8 บ่อ น้ำใสจากหิมะ Mt Fuji ละลาย (มรดกโลก UNESCO) สะท้อนวิวฟูจิ + บ้านมุงจากเก่า ใกล้ Kawaguchiko",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/231028%20Waku-ike%20Oshino%20Hakkai%20springs%20Oshino%20Yamanashi%20pref%20Japan01s3.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Oshino%20Hakkai%2005.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 3,
+  "access": {
+    "summary_th": "ไม่มีสถานีรถไฟของตัวเอง — ต้องไป Fujisan/Kawaguchiko ก่อนแล้วต่อบัสท้องถิ่น ~20 นาที จากโตเกียวนิยม Fuji Excursion (ตรง) หรือ Highway bus (ถูกกว่า) → Fujisan Station → บัส Fujikyu ลง 'Oshino Hakkai Iriguchi' เดิน 5 นาที · ไม่ต้องค้าง แต่มักรวมทริปกับ Kawaguchiko/Mt Fuji ในวันเดียว",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Fuji Excursion (ตรง) + บัสท้องถิ่น",
+        "detail_th": "ชินจูกุ → train (Fuji Excursion Limited Express ตรง) → Fujisan Station → bus (Fujikyu สาย Uchino) → Oshino Hakkai Iriguchi → walk 5 นาที",
+        "durationMin": 140,
+        "costYen": 4480,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟด่วน",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Fujisan Station",
+            "mode": "train",
+            "line_th": "Fuji Excursion (Limited Express ตรง ไม่ต้องต่อ)",
+            "durationMin": 113,
+            "costYen": 4130,
+            "note_th": "~1 ชม. 53 นาที · มีแค่ ~4 เที่ยว/วัน ต้องจองที่นั่งล่วงหน้า โดยเฉพาะ high season · วิ่งตรงชินจูกุ→Fujisan ไม่ต้องเปลี่ยนขบวน"
+          },
+          {
+            "from": "Fujisan Station",
+            "to": "Oshino Hakkai Iriguchi",
+            "mode": "bus",
+            "line_th": "Fujikyu Bus (สายไป Uchino / Hirano)",
+            "durationMin": 20,
+            "costYen": 350,
+            "note_th": "~1-2 เที่ยว/ชม. · ลงป้าย Oshino Hakkai Iriguchi · เช็ครอบกลับให้ดี บัสไม่ถี่"
+          },
+          {
+            "from": "Oshino Hakkai Iriguchi",
+            "to": "บ่อน้ำพุ (Waku-ike)",
+            "mode": "walk",
+            "line_th": "เดินจากป้ายบัส",
+            "durationMin": 5,
+            "costYen": 0,
+            "note_th": "เดินเข้าหมู่บ้านน้ำพุ ~5 นาที"
+          }
+        ]
+      },
+      {
+        "mode": "Highway bus (ถูกสุด) + บัสท้องถิ่น",
+        "detail_th": "Shinjuku Expressway Bus Terminal (Busta) → highway bus → Fujisan Station → bus (Fujikyu) → Oshino Hakkai Iriguchi → walk 5 นาที",
+        "durationMin": 130,
+        "costYen": 2550,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "bus",
+            "label_th": "บัสทางด่วน",
+            "icon": "bus"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัสท้องถิ่น",
+            "icon": "bus"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku (Busta) Expressway Bus Terminal",
+            "to": "Fujisan Station",
+            "mode": "bus",
+            "line_th": "Highway Bus (Fujikyu/Keio สาย Mt Fuji)",
+            "durationMin": 105,
+            "costYen": 2200,
+            "note_th": "~1 ชม. 45 นาที · ออกถี่หลายเที่ยว/วัน ถูกกว่า Fuji Excursion มาก · แต่ติดรถได้ช่วงสุดสัปดาห์/high season ควรจองล่วงหน้า"
+          },
+          {
+            "from": "Fujisan Station",
+            "to": "Oshino Hakkai Iriguchi",
+            "mode": "bus",
+            "line_th": "Fujikyu Bus (สายไป Uchino / Hirano)",
+            "durationMin": 20,
+            "costYen": 350,
+            "note_th": "~1-2 เที่ยว/ชม. · ลงป้าย Oshino Hakkai Iriguchi"
+          },
+          {
+            "from": "Oshino Hakkai Iriguchi",
+            "to": "บ่อน้ำพุ (Waku-ike)",
+            "mode": "walk",
+            "line_th": "เดินจากป้ายบัส",
+            "durationMin": 5,
+            "costYen": 0,
+            "note_th": "เดินเข้าหมู่บ้านน้ำพุ ~5 นาที"
+          }
+        ]
+      },
+      {
+        "mode": "ต่อจาก Kawaguchiko (รวมทริป)",
+        "detail_th": "Kawaguchiko Station → Fuji-Yoshida/Oshino/Yamanakako Tour Bus → ป้าย 'Oshino Hakkai' (stop 126) → walk 3 นาที — เหมาะถ้าพัก/เที่ยว Kawaguchiko อยู่แล้ว",
+        "durationMin": 30,
+        "costYen": 730,
+        "transfers": 0,
+        "legs": [
+          {
+            "mode": "bus",
+            "label_th": "บัสท่องเที่ยว",
+            "icon": "bus"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Kawaguchiko Station",
+            "to": "Oshino Hakkai (bus stop 126)",
+            "mode": "bus",
+            "line_th": "Fuji-Yoshida/Oshino/Yamanakako Tour Bus (สายแดง)",
+            "durationMin": 25,
+            "costYen": 730,
+            "note_th": "ผ่าน Hana-no-Miyako Park / Lake Yamanakako · ใช้ Mt Fuji Pass / 2-day bus pass คุ้มถ้าเที่ยวหลายจุดรอบฟูจิ"
+          },
+          {
+            "from": "Oshino Hakkai (bus stop 126)",
+            "to": "บ่อน้ำพุ",
+            "mode": "walk",
+            "line_th": "เดินจากป้ายบัส",
+            "durationMin": 3,
+            "costYen": 0,
+            "note_th": "เดิน ~3 นาทีถึงหมู่บ้านน้ำพุ"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ฤดูหนาว ฟูจิใส ธ.ค.-ก.พ.",
+      "months": [
+        12,
+        1,
+        2
+      ],
+      "note_th": "อากาศแห้ง ท้องฟ้าใส มองเห็น Mt Fuji หิมะปกคลุมชัดที่สุด สะท้อนผิวน้ำพุสวย · หนาวจัด แต่งตัวกันหนาวให้ดี"
+    },
+    {
+      "label": "ซากุระ + ฟูจิ เม.ย.",
+      "months": [
+        4
+      ],
+      "note_th": "กลาง-ปลาย เม.ย. ซากุระบานเลียบลำธาร มี Mt Fuji เป็นฉากหลัง วิวคลาสสิกของหมู่บ้าน"
+    },
+    {
+      "label": "ใบไม้แดง พ.ย.",
+      "months": [
+        11
+      ],
+      "note_th": "เมเปิลแดง-เหลืองรอบบ่อน้ำพุ ตัดกับน้ำใสมรกต + บ้านมุงจาก สวยมากในฤดูใบไม้ร่วง"
+    },
+    {
+      "label": "เขียวสด ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "ต้นไม้เขียวชอุ่ม น้ำพุเย็นคลายร้อน · แต่หน้าร้อนฟูจิมักมีเมฆบัง เห็นยอดยาก"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ฟูจิใส (หิมะปกคลุม)",
+      "type": "snow",
+      "startFrac": 0.0,
+      "endFrac": 0.16,
+      "note_th": "ธ.ค.-ก.พ. ฟ้าแห้งใส เห็นยอดฟูจิหิมะชัดสุด"
+    },
+    {
+      "zone": "ซากุระเลียบลำธาร",
+      "type": "bloom",
+      "startFrac": 0.28,
+      "endFrac": 0.36,
+      "note_th": "กลาง-ปลาย เม.ย."
+    },
+    {
+      "zone": "ใบไม้แดงรอบบ่อ",
+      "type": "koyo",
+      "startFrac": 0.83,
+      "endFrac": 0.95,
+      "note_th": "เมเปิลแดงกลาง-ปลาย พ.ย."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าเดินทางเป็นก้อนหลัก ตัวสถานที่เข้าฟรี (เก็บค่าเฉพาะพิพิธภัณฑ์ + ที่จอดรถ)",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (Highway bus + บัสท้องถิ่น)",
+        "yen": 5100,
+        "thb": 1173,
+        "note_th": "Highway bus ชินจูกุ↔Fujisan ไป-กลับ + บัส Fujikyu ต่อ Oshino · ถ้าใช้ Fuji Excursion จะแพงขึ้น"
+      },
+      {
+        "label_th": "ค่าเข้าพิพิธภัณฑ์ Hannoki Bayashi",
+        "yen": 300,
+        "thb": 69,
+        "note_th": "บ้านมุงจาก + บ่อ Sokonashi (วิวฟูจิดีสุด) เปิด 9:00-17:00"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "Yoshida udon, โมจิย่าง, ของกินริมทางในหมู่บ้าน"
+      },
+      {
+        "label_th": "ของฝาก/น้ำพุบรรจุขวด",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "ของที่ระลึก + ขนมท้องถิ่น"
+      }
+    ],
+    "totalYen": 8400,
+    "totalThb": 1932,
+    "ranges": {
+      "lowThb": 1500,
+      "midThb": 2200,
+      "highThb": 3500
+    }
+  },
+  "pois": [
+    {
+      "name": "Waku-ike Pond",
+      "icon": "water",
+      "blurb_th": "บ่อใหญ่สุด-ลึกสุด น้ำสีฟ้ามรกตใสจนเห็นพืชน้ำไหวใต้ผิว สปอตถ่ายรูปหลัก",
+      "deepDive_th": "Waku-ike (湧池) บ่อน้ำพุที่เป็นตัวแทนและมีน้ำมากที่สุดใน 8 บ่อของ Oshino Hakkai น้ำใสจัดจนมองทะลุเห็นพืชน้ำไหวเอนใต้ผิวตัดกับสีฟ้ามรกตเข้ม · น้ำมาจากหิมะ Mt Fuji ที่ละลายซึมผ่านชั้นหินภูเขาไฟใต้ดินนานเกือบ 20 ปีจึงกรองใสบริสุทธิ์ · เป็นจุดถ่ายรูปยอดนิยมที่สุด มีบ้านมุงจากและต้นไม้ล้อมรอบ บางมุมสะท้อนวิว Mt Fuji · อยู่กลางหมู่บ้านเดินถึงง่าย",
+      "location_th": "กลางหมู่บ้าน Oshino",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/231028%20Waku-ike%20Oshino%20Hakkai%20springs%20Oshino%20Yamanashi%20pref%20Japan01s3.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Oshino%20Hakkai%2005.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Kagami-ike Pond (บ่อกระจกสะท้อนฟูจิ)",
+      "icon": "mountains",
+      "blurb_th": "บ่อนิ่งสะท้อนวิว Mt Fuji เหมือนกระจก — มุมโพสต์การ์ดของหมู่บ้าน",
+      "deepDive_th": "Kagami-ike (鏡池 'บ่อกระจก') อยู่ทางเหนือของ Waku-ike น้ำพุน้อยกว่าและผิวนิ่งกว่า เลยทำหน้าที่เป็น 'กระจก' สะท้อนยอด Mt Fuji หิมะปกคลุม + บ้านมุงจากได้สวยในวันฟ้าใสลมสงบ · ว่ากันว่าปริมาณน้ำเปลี่ยนตามข้างขึ้นข้างแรมของดวงจันทร์ · เป็นมุมถ่ายภาพ Mt Fuji คู่บ่อน้ำที่คลาสสิกที่สุดมุมหนึ่งของ Oshino โดยเฉพาะหน้าหนาวที่ฟูจิชัด",
+      "location_th": "เหนือ Waku-ike",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kagamiike%20Pond%2C%20Oshino%20Hakkai.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kagami%20Pond%2C%20Oshino%20Hakkai%202020.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Sokonashi-ike & Hannoki Bayashi Museum",
+      "icon": "building",
+      "durationMin": 30,
+      "blurb_th": "พิพิธภัณฑ์บ้านมุงจาก + บ่อ Sokonashi ที่ว่ากันว่ามองเห็นฟูจิดีสุด (เสียค่าเข้า 300 เยน)",
+      "deepDive_th": "Hannoki Bayashi Shiryokan (榛の木林資料館) พิพิธภัณฑ์กลางแจ้งในบริเวณ Oshino Hakkai มีบ้านชาวนามุงจาก (thatched farmhouse) เก่าแก่ให้เข้าชม จัดแสดงเครื่องมือการเกษตร ข้าวของเครื่องใช้ และอาวุธซามูไรโบราณ · ทางเข้าบ่อ Sokonashi-ike (底抜池 'บ่อไร้ก้น') ที่ได้ชื่อว่ามีมุมวิว Mt Fuji ดีที่สุดอยู่ในพื้นที่พิพิธภัณฑ์นี้ · เก็บค่าเข้าเล็กน้อย 300 เยน เปิด 9:00-17:00 ทุกวัน เป็นจุดเดียวในบริเวณที่ต้องจ่ายเงินเข้า",
+      "location_th": "ในบริเวณหมู่บ้าน (โซนพิพิธภัณฑ์)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/231028%20Sokonashi-ike%20Oshino%20Hakkai%20springs%20Oshino%20Yamanashi%20pref%20Japan01s3.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20Water%20Mill%20at%20Oshino%20Hakkai%20-%20panoramio.jpg?width=1600"
+      }
+    },
+    {
+      "name": "หมู่บ้านบ้านมุงจาก + กังหันน้ำ",
+      "icon": "trees",
+      "blurb_th": "บ้านมุงจากเก่า กังหันน้ำริมบ่อ ร้านของกิน — บรรยากาศหมู่บ้านชนบทเก่า",
+      "deepDive_th": "ตัวหมู่บ้าน Oshino เองเป็นไฮไลต์ — บ้านชาวนามุงหลังคาจาก (kayabuki) แบบดั้งเดิม กังหันน้ำไม้หมุนริมบ่อ และทางเดินเลียบลำธารน้ำใสที่มีปลาเทราต์/koi ว่าย · เรียงรายด้วยร้านของกินริมทาง ขนม โมจิย่าง และของฝากท้องถิ่น · เดินชมรอบ 8 บ่อแบบสบายๆ ใช้เวลา ~1-1.5 ชม. ครบทั้งหมู่บ้าน · บรรยากาศคล้ายย้อนยุคชนบทญี่ปุ่นแม้จะนักท่องเที่ยวเยอะ",
+      "location_th": "ทั่วหมู่บ้าน",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20Water%20Mill%20at%20Oshino%20Hakkai%20-%20panoramio.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Oshino%20Hakkai%2007.jpg?width=1600"
+      }
+    },
+    {
+      "name": "วิว Mt Fuji เหนือหมู่บ้าน Oshino",
+      "icon": "camera",
+      "blurb_th": "Mt Fuji หิมะปกคลุมตั้งตระหง่านเหนือทุ่งนา-หมู่บ้าน วิวเปิดโล่งสวยหน้าหนาว",
+      "deepDive_th": "นอกจากภาพฟูจิสะท้อนน้ำในบ่อ จุดเด่นของ Oshino คือทำเลที่ Mt Fuji ตั้งอยู่ใกล้และเปิดโล่ง — มองจากทุ่งนาและขอบหมู่บ้านเห็นยอดฟูจิหิมะปกคลุมเต็มลูกแบบไม่มีอะไรบัง · วันฟ้าใสหน้าหนาว (ธ.ค.-ก.พ.) คือช่วงที่ภาพคมชัดที่สุด · เป็นเหตุผลที่ Oshino Hakkai ถูกขึ้นทะเบียนเป็นส่วนหนึ่งของมรดกโลก Mt Fuji (UNESCO, 2013) ในฐานะแหล่งน้ำศักดิ์สิทธิ์ของภูเขาไฟฟูจิ",
+      "location_th": "ขอบหมู่บ้าน / ทุ่งโดยรอบ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oshino%20%286949570018%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kagamiike%20Pond%2C%20Oshino%20Hakkai.JPG?width=1600"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "รวมกับ Kawaguchiko/Mt Fuji วันเดียว (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เช้าฟูจิ-คาวากุจิโกะ บ่าย Oshino",
+          "detail_th": "ออกชินจูกุเช้า (Fuji Excursion หรือ highway bus) → ลง Fujisan/Kawaguchiko เที่ยวฝั่งทะเลสาบ/Mt Fuji ช่วงเช้า → ช่วงสาย-บ่ายนั่ง Tour Bus มา Oshino Hakkai เดินชม 8 บ่อ น้ำใส + วิวฟูจิ ~1.5 ชม. → กินอุด้ง Yoshida + ของกินริมทาง → เข้าพิพิธภัณฑ์ Hannoki Bayashi → กลับ Fujisan/Kawaguchiko แล้วต่อกลับโตเกียวเย็น",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "ออกชินจูกุ → Fujisan/Kawaguchiko",
+              "detail_th": "Fuji Excursion (ตรง) หรือ highway bus ถูกกว่า",
+              "mode": "train",
+              "durationMin": 113
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "เที่ยวฝั่ง Kawaguchiko/Mt Fuji",
+              "detail_th": "ทะเลสาบ/ropeway/จุดชมฟูจิช่วงเช้าที่ฟ้ายังใส",
+              "durationMin": 120
+            },
+            {
+              "time_th": "~13:00",
+              "title_th": "Tour Bus มา Oshino Hakkai",
+              "detail_th": "จาก Kawaguchiko Station ลงป้าย Oshino Hakkai (stop 126) เดิน 3 นาที",
+              "mode": "bus",
+              "durationMin": 25
+            },
+            {
+              "time_th": "~13:30",
+              "title_th": "เดินชม 8 บ่อ + Waku-ike / Kagami-ike",
+              "detail_th": "เดินรอบหมู่บ้าน น้ำใสมรกต ถ่ายฟูจิสะท้อนน้ำ ~1.5 ชม.",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~15:00",
+              "title_th": "อุด้ง Yoshida + พิพิธภัณฑ์ Hannoki Bayashi",
+              "detail_th": "กินของถิ่น + ดูบ้านมุงจาก/บ่อ Sokonashi (300 เยน)",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~16:30",
+              "title_th": "บัสกลับ Fujisan/Kawaguchiko",
+              "detail_th": "เช็ครอบบัสล่วงหน้า ไม่ถี่",
+              "mode": "bus",
+              "durationMin": 25
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับโตเกียว",
+              "detail_th": "Fuji Excursion / highway bus กลับชินจูกุ",
+              "mode": "train",
+              "durationMin": 113
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "แวะสั้น Oshino อย่างเดียว (เน้นบ่อน้ำ)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เก็บไฮไลต์ 8 บ่อเร็วๆ",
+          "detail_th": "เหมาะถ้าเวลาน้อย/ผ่านทางระหว่าง Yamanakako–Kawaguchiko: ลงป้าย Oshino Hakkai → เดิน Waku-ike → Kagami-ike (ฟูจิสะท้อน) → ชิมน้ำพุ/ของกินริมทาง → ขึ้นบัสไปต่อ ใช้เวลารวม ~1-1.5 ชม.",
+          "steps": [
+            {
+              "time_th": "ถึง",
+              "title_th": "ลงป้าย Oshino Hakkai",
+              "detail_th": "เดินเข้าหมู่บ้าน ~3-5 นาที",
+              "mode": "walk",
+              "durationMin": 5
+            },
+            {
+              "time_th": "+15น.",
+              "title_th": "Waku-ike (บ่อใหญ่)",
+              "detail_th": "น้ำฟ้ามรกตใส จุดถ่ายรูปหลัก",
+              "durationMin": 20
+            },
+            {
+              "time_th": "+35น.",
+              "title_th": "Kagami-ike",
+              "detail_th": "ถ่ายฟูจิสะท้อนน้ำ (วันฟ้าใส)",
+              "durationMin": 20
+            },
+            {
+              "time_th": "ก่อนกลับ",
+              "title_th": "ของกินริมทาง + ขึ้นบัสต่อ",
+              "detail_th": "เช็ครอบบัสให้แน่ก่อนเดินเล่นเพลิน",
+              "mode": "bus",
+              "durationMin": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "นักท่องเที่ยวเยอะมาก โดยเฉพาะช่วงกลางวัน/สุดสัปดาห์/high season — มาช่วงเช้าตรู่หรือบ่ายแก่ๆ จะถ่ายรูปบ่อน้ำได้โล่งกว่า",
+    "ไม่มีสถานีรถไฟของตัวเอง ต้องต่อบัสจาก Fujisan/Kawaguchiko และบัสไม่ถี่ — เช็ค/จำรอบบัสกลับให้ดี อย่าตกรอบสุดท้าย",
+    "Mt Fuji โผล่ให้เห็นเฉพาะวันฟ้าใส (ดีสุดหน้าหนาว ธ.ค.-ก.พ.) หน้าร้อนมักมีเมฆบังยอด — ถ้ามาเพื่อวิวฟูจิให้เผื่อใจ",
+    "ไม่มีที่จอดรถฟรี — บ้านชาวบ้านเปิดเป็นลานจอด ~300 เยน/วัน (ถ้าขับรถมาเอง) · ตัวบ่อเข้าฟรี เก็บเงินเฉพาะพิพิธภัณฑ์ Hannoki Bayashi",
+    "หน้าหนาวพื้นทางเดินเลียบลำธารอาจลื่น/มีน้ำแข็ง ระวังลื่น"
+  ],
+  "sources": [
+    {
+      "label": "Oshino Hakkai — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6915.html"
+    },
+    {
+      "label": "Oshino Hakkai — JNTO (Japan Travel)",
+      "url": "https://www.japan.travel/en/spot/1327/"
+    },
+    {
+      "label": "Oshino Hakkai — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Oshino_Hakkai"
+    },
+    {
+      "label": "Tokyo to Mt. Fuji Transport Guide (Fuji Excursion vs Bus)",
+      "url": "https://shinkansentickets.net/guide/tokyo-mt-fuji-transport-guide"
+    }
+  ],
+  "tags_th": [
+    "น้ำพุ",
+    "วิวฟูจิ",
+    "มรดกโลก",
+    "บ้านมุงจาก",
+    "ใกล้คาวากุจิโกะ"
+  ],
+  "food": [
+    {
+      "name": "อุด้งโยชิดะ",
+      "name_jp": "吉田のうどん",
+      "emoji": "🍜",
+      "note_th": "อุด้งเส้นหนาเหนียวสุดของถิ่น Fuji-Yoshida/Oshino น้ำซุปมิโซะ-โชยุ ใส่ม้า/กะหล่ำ"
+    },
+    {
+      "name": "โมจิย่างน้ำพุ",
+      "name_jp": "草餅",
+      "emoji": "🍡",
+      "note_th": "โมจิ/ดังโงะย่างริมทางในหมู่บ้าน ใช้น้ำพุใสทำ"
+    },
+    {
+      "name": "น้ำพุ Mt Fuji",
+      "name_jp": "湧水",
+      "emoji": "💧",
+      "note_th": "น้ำหิมะฟูจิละลายกรองใต้หินภูเขาไฟ ~20 ปี ดื่มได้ที่บ่อต้นน้ำ"
+    },
+    {
+      "name": "ฮูโต (เนื้อม้าดิบ)",
+      "name_jp": "馬刺し",
+      "emoji": "🥩",
+      "note_th": "ของถิ่น Yamanashi เสิร์ฟเป็นซาชิมิเนื้อม้า จิ้มขิง-กระเทียม"
+    }
+  ]
+}
