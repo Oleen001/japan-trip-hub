@@ -11,7 +11,7 @@ import { Icon } from '../Icon';
 const TOKYO: [number, number] = [139.6917, 35.6895];
 const HOME: { coordinates: [number, number]; zoom: number } = { coordinates: [138.4, 36.4], zoom: 6 };
 const MIN_ZOOM = 0.8;
-const MAX_ZOOM = 18;
+const MAX_ZOOM = 24;
 
 // recreate ComposableMap's projection so we can project lng/lat → x/y ourselves
 // (default viewBox 800×600 → translate [400,300]); must match projectionConfig below

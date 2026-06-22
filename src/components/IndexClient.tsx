@@ -164,10 +164,10 @@ export function IndexClient({ destinations }: { destinations: Destination[] }) {
       {/* mobile: selected pin card (bottom) */}
       {activeSlug && (
         <div className="absolute inset-x-3 bottom-3 z-30 lg:hidden">
-          <div className="mx-auto max-w-[520px] rounded-2xl border border-line bg-white p-3 shadow-pop">
+          <div className="mx-auto flex max-h-[58vh] max-w-[520px] flex-col overflow-y-auto rounded-2xl border border-line bg-white p-3 shadow-pop">
             <button
               onClick={() => setActiveSlug(null)}
-              className="mx-auto mb-2 block h-1 w-10 cursor-pointer rounded-full bg-line"
+              className="mx-auto mb-2 block h-1 w-10 flex-none cursor-pointer rounded-full bg-line"
               aria-label="ปิด"
             />
             {(() => {
