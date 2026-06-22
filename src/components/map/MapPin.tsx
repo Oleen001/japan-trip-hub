@@ -45,12 +45,19 @@ export function MapPin({
         style={{
           cursor: 'pointer',
           opacity: dimmed ? 0.5 : 1,
+          outline: 'none', // focus shown via teardrop stroke below, not a rectangular ring
           transition: 'opacity .16s ease, transform .16s ease',
           transform: lifted ? 'translateY(-3px)' : 'none',
         }}
         tabIndex={0}
         role="button"
         aria-label={`${label} — ความง่าย ${difficulty}/5`}
+        // DOM click on the element fires reliably even though the parent
+        // ZoomableGroup (d3-zoom) swallows the Marker's own onClick during pan
+        onClick={(e) => {
+          e.stopPropagation();
+          onSelect();
+        }}
         onKeyDown={(e) => {
           if (e.key === 'Enter' || e.key === ' ') {
             e.preventDefault();
@@ -71,8 +78,8 @@ export function MapPin({
           <path
             d={teardropPath(size)}
             fill={color}
-            stroke={state === 'active' ? 'var(--koyo)' : '#fff'}
-            strokeWidth={state === 'active' ? 3 : 2}
+            stroke={state === 'active' || state === 'hover' ? 'var(--koyo)' : '#fff'}
+            strokeWidth={state === 'active' ? 3 : state === 'hover' ? 2.5 : 2}
             style={{ filter: 'drop-shadow(0 2px 6px rgba(20,40,70,.22))' }}
           />
           {/* category icon */}
