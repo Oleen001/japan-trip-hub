@@ -288,7 +288,61 @@
       "days": [
         {
           "title_th": "เช้า-บ่าย เก็บครบในวันเดียว",
-          "detail_th": "ออกชินจูกุเช้า (เสาร์-อาทิตย์ใช้ Holiday Rapid Okutama ตรง สบายสุด) → ลง Mitake Station แวะเดิน Mitake Gorge เลียบน้ำมรกต → บัส 10 นาทีไป Takimoto → cable car ขึ้น Mitakesan → เดินผ่านหมู่บ้านบนภูเขา ~25 นาทีขึ้น Musashi-Mitake Shrine → ถ้ามีแรงเดินเส้น Rock Garden + Ayahiro Falls (~2-3 ชม.) → cable car ลง (เช็ครอบสุดท้าย ~18:00) → กลับชินจูกุเย็น"
+          "detail_th": "ออกชินจูกุเช้า (เสาร์-อาทิตย์ใช้ Holiday Rapid Okutama ตรง สบายสุด) → ลง Mitake Station แวะเดิน Mitake Gorge เลียบน้ำมรกต → บัส 10 นาทีไป Takimoto → cable car ขึ้น Mitakesan → เดินผ่านหมู่บ้านบนภูเขา ~25 นาทีขึ้น Musashi-Mitake Shrine → ถ้ามีแรงเดินเส้น Rock Garden + Ayahiro Falls (~2-3 ชม.) → cable car ลง (เช็ครอบสุดท้าย ~18:00) → กลับชินจูกุเย็น",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "ออกชินจูกุ → Mitake Station",
+              "detail_th": "เสาร์-อาทิตย์ใช้ Holiday Rapid Okutama ตรง สบายสุด",
+              "mode": "train",
+              "durationMin": 85
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "เดิน Mitake Gorge",
+              "detail_th": "เลียบน้ำมรกต ทางราบเรียบ ห่างสถานี ~2 นาที",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~10:20",
+              "title_th": "บัสไป Takimoto",
+              "detail_th": "Nishi Tokyo Bus สาย Cable-shita",
+              "mode": "bus",
+              "durationMin": 10
+            },
+            {
+              "time_th": "~10:40",
+              "title_th": "Cable car ขึ้น Mitakesan",
+              "detail_th": "Mitake Tozan Cable Car ~6 นาที",
+              "mode": "cablecar",
+              "durationMin": 6
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "Musashi-Mitake Shrine",
+              "detail_th": "เดินผ่านหมู่บ้านบนภูเขา ~25 นาทีขึ้นศาลเจ้ายอด 929 ม.",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Rock Garden + Ayahiro Falls",
+              "detail_th": "ถ้ามีแรง เดินวงรอบลำธารหินมอส ~2-3 ชม. (ข้ามได้ถ้าเวลาน้อย)",
+              "durationMin": 150
+            },
+            {
+              "time_th": "~16:30",
+              "title_th": "Cable car ลง",
+              "detail_th": "เช็ครอบสุดท้ายลงเขา ~18:00 อย่าตกรอบ",
+              "mode": "cablecar",
+              "durationMin": 6
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับชินจูกุ",
+              "mode": "train",
+              "durationMin": 85
+            }
+          ]
         }
       ]
     },
@@ -298,7 +352,34 @@
       "days": [
         {
           "title_th": "เก็บไฮไลต์เร็วๆ",
-          "detail_th": "เหมาะถ้ามีเวลาจำกัด/มากับเด็กเล็ก: cable car ขึ้น Mitakesan → เดินขึ้น Musashi-Mitake Shrine → ลงมาเดิน Mitake Gorge ปิดท้าย → กลับ · ข้ามเส้น Rock Garden ที่ใช้เวลานานออกไป"
+          "detail_th": "เหมาะถ้ามีเวลาจำกัด/มากับเด็กเล็ก: cable car ขึ้น Mitakesan → เดินขึ้น Musashi-Mitake Shrine → ลงมาเดิน Mitake Gorge ปิดท้าย → กลับ · ข้ามเส้น Rock Garden ที่ใช้เวลานานออกไป",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "ขึ้นถึง Mitakesan",
+              "detail_th": "รถไฟจากชินจูกุ → บัส → cable car ขึ้นยอด",
+              "mode": "cablecar",
+              "durationMin": 6
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "Musashi-Mitake Shrine",
+              "detail_th": "เดินขึ้นศาลเจ้ายอด ผ่านหมู่บ้านบนภูเขา",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Mitake Gorge",
+              "detail_th": "ลงมาเดินเลียบน้ำมรกตปิดท้าย (ข้าม Rock Garden ออกไป)",
+              "durationMin": 45
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับชินจูกุ",
+              "mode": "train",
+              "durationMin": 85
+            }
+          ]
         }
       ]
     }

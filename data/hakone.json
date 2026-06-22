@@ -197,7 +197,19 @@
       "days": [
         {
           "title_th": "ออกเช้า วน Hakone loop ทวนเข็ม",
-          "detail_th": "Romancecar ออกชินจูกุ 7:00-8:00 → Hakone-Yumoto · นั่งรถไฟภูเขา Hakone Tozan ขึ้น Gora → เคเบิลคาร์ Sounzan → ropeway ขึ้น Owakudani (กินไข่ดำ ชมหุบเขากำมะถัน) → ropeway ต่อ Togendai → เรือโจรสลัดข้ามทะเลสาบ Ashi (เห็นฟูจิ) → ลงท่า Moto-Hakone เดินไปศาลเจ้า Hakone + torii กลางน้ำ → บัสกลับ Hakone-Yumoto → Romancecar กลับชินจูกุ ~19:00-20:00 · เหนื่อยแต่เก็บไฮไลต์ครบ ข้ามพิพิธภัณฑ์"
+          "detail_th": "Romancecar ออกชินจูกุ 7:00-8:00 → Hakone-Yumoto · นั่งรถไฟภูเขา Hakone Tozan ขึ้น Gora → เคเบิลคาร์ Sounzan → ropeway ขึ้น Owakudani (กินไข่ดำ ชมหุบเขากำมะถัน) → ropeway ต่อ Togendai → เรือโจรสลัดข้ามทะเลสาบ Ashi (เห็นฟูจิ) → ลงท่า Moto-Hakone เดินไปศาลเจ้า Hakone + torii กลางน้ำ → บัสกลับ Hakone-Yumoto → Romancecar กลับชินจูกุ ~19:00-20:00 · เหนื่อยแต่เก็บไฮไลต์ครบ ข้ามพิพิธภัณฑ์",
+          "steps": [
+            { "time_th": "~07:30", "title_th": "Romancecar ชินจูกุ → Hakone-Yumoto", "mode": "train", "detail_th": "Limited Express ตรง reserved", "durationMin": 85 },
+            { "title_th": "รถไฟภูเขา Hakone Tozan → Gora", "mode": "train", "detail_th": "switchback ซิกแซ็ก", "durationMin": 40 },
+            { "title_th": "เคเบิลคาร์ → Sounzan", "mode": "cablecar", "durationMin": 10 },
+            { "title_th": "Ropeway → Owakudani", "mode": "ropeway", "durationMin": 8 },
+            { "time_th": "~10:30", "title_th": "Owakudani", "detail_th": "กินไข่ดำ ชมหุบเขากำมะถัน", "durationMin": 60 },
+            { "title_th": "Ropeway → Togendai", "mode": "ropeway", "detail_th": "วิวฟูจิเปิด", "durationMin": 16 },
+            { "time_th": "~12:30", "title_th": "เรือโจรสลัดข้ามทะเลสาบ Ashi", "mode": "ferry", "detail_th": "นั่งฝั่งขวาเห็นฟูจิชัด", "durationMin": 40 },
+            { "time_th": "บ่าย", "title_th": "ศาลเจ้า Hakone + torii กลางน้ำ", "detail_th": "เดินจากท่า Moto-Hakone", "durationMin": 50 },
+            { "title_th": "บัสกลับ Hakone-Yumoto", "mode": "bus", "durationMin": 40 },
+            { "time_th": "~19:00", "title_th": "Romancecar กลับชินจูกุ", "mode": "train", "durationMin": 85 }
+          ]
         }
       ]
     },
@@ -207,11 +219,29 @@
       "days": [
         {
           "title_th": "วันที่ 1 — พิพิธภัณฑ์ + เข้าที่พักแช่ออนเซ็น",
-          "detail_th": "Romancecar เช้าสายๆ ถึง Hakone-Yumoto · รถไฟภูเขาขึ้น Chokoku-no-Mori → Hakone Open-Air Museum (1.5-2 ชม.) · ต่อ Pola Museum ถ้ามีเวลา/ฝนตก · เข้า ryokan ที่ Gora ช่วงบ่ายแก่ แช่ rotenburo · มื้อเย็น kaiseki ใน ryokan · พักผ่อนแช่ออนเซ็นกลางคืน ไม่ต้องรีบ"
+          "detail_th": "Romancecar เช้าสายๆ ถึง Hakone-Yumoto · รถไฟภูเขาขึ้น Chokoku-no-Mori → Hakone Open-Air Museum (1.5-2 ชม.) · ต่อ Pola Museum ถ้ามีเวลา/ฝนตก · เข้า ryokan ที่ Gora ช่วงบ่ายแก่ แช่ rotenburo · มื้อเย็น kaiseki ใน ryokan · พักผ่อนแช่ออนเซ็นกลางคืน ไม่ต้องรีบ",
+          "steps": [
+            { "time_th": "~09:30", "title_th": "Romancecar ชินจูกุ → Hakone-Yumoto", "mode": "train", "detail_th": "เช้าสายๆ ไม่ต้องรีบ", "durationMin": 85 },
+            { "title_th": "รถไฟภูเขา → Chokoku-no-Mori", "mode": "train", "detail_th": "Hakone Tozan switchback", "durationMin": 35 },
+            { "time_th": "~11:30", "title_th": "Hakone Open-Air Museum", "detail_th": "ประติมากรรมกลางแจ้ง + Picasso", "durationMin": 120 },
+            { "time_th": "บ่าย", "title_th": "Pola Museum (ถ้ามีเวลา/ฝนตก)", "detail_th": "Impressionist + Forest Walking Path", "durationMin": 90 },
+            { "time_th": "บ่ายแก่", "title_th": "เช็คอิน ryokan ที่ Gora", "detail_th": "แช่ rotenburo" },
+            { "time_th": "เย็น", "title_th": "มื้อเย็น kaiseki + ออนเซ็นกลางคืน", "detail_th": "ไม่ต้องรีบ" }
+          ]
         },
         {
           "title_th": "วันที่ 2 — Owakudani + ทะเลสาบ + ศาลเจ้า",
-          "detail_th": "เช้าฟ้าใส (โอกาสเห็นฟูจิดีสุด) · เคเบิลคาร์ Sounzan → ropeway ขึ้น Owakudani กินไข่ดำ ชมจุดวิวใหม่ → ropeway ต่อ Togendai → เรือโจรสลัด ข้ามทะเลสาบ Ashi เห็นฟูจิ+torii → ลง Moto-Hakone เดินศาลเจ้า Hakone ถ่ายรูป torii กลางน้ำ (มาเช้าคิวสั้น) → บัสกลับ Hakone-Yumoto · ช้อปของฝากแถวสถานี → Romancecar กลับชินจูกุเย็น"
+          "detail_th": "เช้าฟ้าใส (โอกาสเห็นฟูจิดีสุด) · เคเบิลคาร์ Sounzan → ropeway ขึ้น Owakudani กินไข่ดำ ชมจุดวิวใหม่ → ropeway ต่อ Togendai → เรือโจรสลัด ข้ามทะเลสาบ Ashi เห็นฟูจิ+torii → ลง Moto-Hakone เดินศาลเจ้า Hakone ถ่ายรูป torii กลางน้ำ (มาเช้าคิวสั้น) → บัสกลับ Hakone-Yumoto · ช้อปของฝากแถวสถานี → Romancecar กลับชินจูกุเย็น",
+          "steps": [
+            { "time_th": "เช้า", "title_th": "เคเบิลคาร์ Gora → Sounzan", "mode": "cablecar", "detail_th": "เช้าฟ้าใส โอกาสเห็นฟูจิดีสุด", "durationMin": 10 },
+            { "title_th": "Ropeway → Owakudani", "mode": "ropeway", "durationMin": 8 },
+            { "time_th": "~09:30", "title_th": "Owakudani", "detail_th": "กินไข่ดำ ชมจุดวิวใหม่ Valley of the Earth", "durationMin": 60 },
+            { "title_th": "Ropeway → Togendai", "mode": "ropeway", "detail_th": "วิวฟูจิเปิดสุด", "durationMin": 16 },
+            { "time_th": "~11:30", "title_th": "เรือโจรสลัดข้ามทะเลสาบ Ashi", "mode": "ferry", "detail_th": "เห็นฟูจิ + torii", "durationMin": 40 },
+            { "time_th": "บ่าย", "title_th": "ศาลเจ้า Hakone + torii กลางน้ำ", "detail_th": "ลง Moto-Hakone (มาเช้าคิวสั้น)", "durationMin": 50 },
+            { "title_th": "บัสกลับ Hakone-Yumoto", "mode": "bus", "detail_th": "ช้อปของฝากแถวสถานี", "durationMin": 40 },
+            { "time_th": "เย็น", "title_th": "Romancecar กลับชินจูกุ", "mode": "train", "durationMin": 85 }
+          ]
         }
       ]
     }

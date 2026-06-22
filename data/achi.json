@@ -266,11 +266,68 @@
       "days": [
         {
           "title_th": "วันที่ 1 — เข้าอาจิ → ออนเซ็น → ดูดาวกลางคืน",
-          "detail_th": "บัสด่วนเช้าจากชินจูกุ (~4 ชม.) → Igara → แท็กซี่/รถโรงแรมเข้า Hirugami Onsen · บ่ายเที่ยว koyo/Hanamomo ตามฤดู หรือแช่ออนเซ็นพักผ่อน · เย็นกินข้าว → กลางคืนรถรับ-ส่งขึ้น Heavens Sonohara เข้า Star Tour ดูดาว/ทางช้างเผือก (~2 ชม.) · กลับนอนที่ออนเซ็น"
+          "detail_th": "บัสด่วนเช้าจากชินจูกุ (~4 ชม.) → Igara → แท็กซี่/รถโรงแรมเข้า Hirugami Onsen · บ่ายเที่ยว koyo/Hanamomo ตามฤดู หรือแช่ออนเซ็นพักผ่อน · เย็นกินข้าว → กลางคืนรถรับ-ส่งขึ้น Heavens Sonohara เข้า Star Tour ดูดาว/ทางช้างเผือก (~2 ชม.) · กลับนอนที่ออนเซ็น",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "บัสด่วนจากชินจูกุ",
+              "detail_th": "Chuo Highway Bus ~4 ชม. 15 น. จองล่วงหน้า",
+              "mode": "bus",
+              "durationMin": 250
+            },
+            {
+              "time_th": "~12:15",
+              "title_th": "Igara → Hirugami Onsen",
+              "detail_th": "แท็กซี่ ~10 นาที หรือรถรับส่งโรงแรมฟรี",
+              "mode": "car",
+              "durationMin": 10
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "เที่ยว koyo/Hanamomo ตามฤดู / แช่ออนเซ็น",
+              "detail_th": "พักผ่อนในหุบเขาอาจิ"
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กินข้าว เตรียมขึ้นยอด"
+            },
+            {
+              "time_th": "กลางคืน",
+              "title_th": "Star Tour @ Heavens Sonohara",
+              "detail_th": "รถรับส่ง + กระเช้าขึ้นยอด 1,400 ม. ดับไฟดูดาว/ทางช้างเผือก",
+              "mode": "ropeway",
+              "durationMin": 120
+            }
+          ]
         },
         {
           "title_th": "วันที่ 2 — เที่ยวหุบเขา → กลับ",
-          "detail_th": "เช้าตลาดเช้า asaichi Hirugami / เที่ยวหุบเขา Achi ตามฤดู (Hanamomo เม.ย. / koyo ต.ค.-พ.ย.) · บ่ายแท็กซี่ออก Igara → บัสด่วนกลับชินจูกุ · ถ้าเช่ารถจาก Iida แวะ Tenryukyo Gorge ขากลับได้"
+          "detail_th": "เช้าตลาดเช้า asaichi Hirugami / เที่ยวหุบเขา Achi ตามฤดู (Hanamomo เม.ย. / koyo ต.ค.-พ.ย.) · บ่ายแท็กซี่ออก Igara → บัสด่วนกลับชินจูกุ · ถ้าเช่ารถจาก Iida แวะ Tenryukyo Gorge ขากลับได้",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "ตลาดเช้า asaichi Hirugami",
+              "detail_th": "ผักผลไม้ท้องถิ่นริมแม่น้ำ"
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "เที่ยวหุบเขา Achi ตามฤดู",
+              "detail_th": "Hanamomo เม.ย. / koyo ต.ค.-พ.ย."
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "แท็กซี่ออก Igara",
+              "mode": "car",
+              "durationMin": 10
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "บัสด่วนกลับชินจูกุ",
+              "detail_th": "ถ้าเช่ารถจาก Iida แวะ Tenryukyo Gorge ขากลับได้",
+              "mode": "bus",
+              "durationMin": 250
+            }
+          ]
         }
       ]
     },
@@ -280,7 +337,40 @@
       "days": [
         {
           "title_th": "เข้าทาง Iida เช่ารถเที่ยวรอบหุบเขา",
-          "detail_th": "Tokaido Shinkansen → Toyohashi → Iida Line → Iida เช่ารถ · เที่ยว Tenryukyo Gorge + หุบเขา Achi อิสระ · ค้าง Hirugami Onsen + Star Tour กลางคืน · เหมาะคนขับรถได้ อยากเที่ยวจุดกระจายโดยไม่พึ่งแท็กซี่/บัสรอบน้อย"
+          "detail_th": "Tokaido Shinkansen → Toyohashi → Iida Line → Iida เช่ารถ · เที่ยว Tenryukyo Gorge + หุบเขา Achi อิสระ · ค้าง Hirugami Onsen + Star Tour กลางคืน · เหมาะคนขับรถได้ อยากเที่ยวจุดกระจายโดยไม่พึ่งแท็กซี่/บัสรอบน้อย",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "Tokaido Shinkansen → Toyohashi",
+              "mode": "shinkansen",
+              "durationMin": 120
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "Iida Line → Iida",
+              "detail_th": "รถ local ภูเขาคดเคี้ยว ~2.5 ชม.",
+              "mode": "train",
+              "durationMin": 150
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "เช่ารถที่ Iida",
+              "detail_th": "เที่ยว Tenryukyo Gorge + หุบเขา Achi อิสระ",
+              "mode": "car",
+              "durationMin": 30
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "เข้า Hirugami Onsen + แช่ออนเซ็น"
+            },
+            {
+              "time_th": "กลางคืน",
+              "title_th": "Star Tour @ Heavens Sonohara",
+              "detail_th": "กระเช้าขึ้นยอดดูดาว",
+              "mode": "ropeway",
+              "durationMin": 120
+            }
+          ]
         }
       ]
     }

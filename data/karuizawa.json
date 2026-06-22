@@ -239,7 +239,52 @@
       "days": [
         {
           "title_th": "ปั่นจักรยานเที่ยวเมือง + น้ำตก",
-          "detail_th": "เช้า shinkansen Tokyo → Karuizawa ~70 นาที · เช่าจักรยานที่หน้าสถานี ปั่นไป Kumoba Pond (สระสะท้อนเงา) → Old Karuizawa Ginza เดินเล่นชิมเบเกอรี่/แยม · บ่ายนั่งบัสไปน้ำตก Shiraito (ม่านไหมขาว) · กลับมาช้อป Prince Shopping Plaza ติดสถานี → shinkansen กลับโตเกียวเย็น · เก็บไฮไลต์ครบในวันเดียวเพราะเดินทางเร็ว"
+          "detail_th": "เช้า shinkansen Tokyo → Karuizawa ~70 นาที · เช่าจักรยานที่หน้าสถานี ปั่นไป Kumoba Pond (สระสะท้อนเงา) → Old Karuizawa Ginza เดินเล่นชิมเบเกอรี่/แยม · บ่ายนั่งบัสไปน้ำตก Shiraito (ม่านไหมขาว) · กลับมาช้อป Prince Shopping Plaza ติดสถานี → shinkansen กลับโตเกียวเย็น · เก็บไฮไลต์ครบในวันเดียวเพราะเดินทางเร็ว",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "Shinkansen Tokyo → Karuizawa",
+              "detail_th": "Hokuriku Shinkansen ~70 นาที",
+              "mode": "shinkansen",
+              "durationMin": 70
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "เช่าจักรยาน + Kumoba Pond",
+              "detail_th": "เช่าจักรยานหน้าสถานี ปั่นไปสระสะท้อนเงา",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "Old Karuizawa Ginza",
+              "detail_th": "เดินเล่นถนนเมืองเก่า ชิมเบเกอรี่/แยม",
+              "durationMin": 90
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "บัสไปน้ำตก Shiraito",
+              "detail_th": "น้ำตกม่านไหมขาว",
+              "mode": "bus",
+              "durationMin": 30
+            },
+            {
+              "time_th": "~14:00",
+              "title_th": "ชมน้ำตก Shiraito",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่ายแก่",
+              "title_th": "Prince Shopping Plaza",
+              "detail_th": "ช้อปของฝาก outlet ติดสถานี",
+              "durationMin": 90
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "Shinkansen กลับโตเกียว",
+              "mode": "shinkansen",
+              "durationMin": 70
+            }
+          ]
         }
       ]
     },
@@ -249,11 +294,64 @@
       "days": [
         {
           "title_th": "วันที่ 1 — เมืองเก่า + forest bathing",
-          "detail_th": "shinkansen เช้าสายๆ ถึง Karuizawa · เช่าจักรยานปั่นเที่ยวเมือง Kumoba Pond + Old Karuizawa Ginza · บ่ายป่า forest bathing / คาเฟ่ในป่า บรรยากาศเย็นสบาย · เข้าที่พักรีสอร์ทป่า พักผ่อน ไม่ต้องรีบ"
+          "detail_th": "shinkansen เช้าสายๆ ถึง Karuizawa · เช่าจักรยานปั่นเที่ยวเมือง Kumoba Pond + Old Karuizawa Ginza · บ่ายป่า forest bathing / คาเฟ่ในป่า บรรยากาศเย็นสบาย · เข้าที่พักรีสอร์ทป่า พักผ่อน ไม่ต้องรีบ",
+          "steps": [
+            {
+              "time_th": "~10:00",
+              "title_th": "Shinkansen ถึง Karuizawa",
+              "detail_th": "ออกเช้าสายๆ ไม่ต้องรีบ",
+              "mode": "shinkansen",
+              "durationMin": 70
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "เช่าจักรยานเที่ยวเมือง",
+              "detail_th": "ปั่น Kumoba Pond + Old Karuizawa Ginza",
+              "durationMin": 150
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Forest bathing / คาเฟ่ในป่า",
+              "detail_th": "บรรยากาศเย็นสบายกลางป่า",
+              "durationMin": 120
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "เข้าที่พักรีสอร์ทป่า",
+              "detail_th": "พักผ่อน ไม่ต้องรีบ"
+            }
+          ]
         },
         {
           "title_th": "วันที่ 2 — น้ำตก Shiraito + outlet",
-          "detail_th": "เช้านั่งบัสไปน้ำตก Shiraito (ช่วง koyo มีไฟประดับ) ถ่ายรูปม่านไหมขาว · กลับมาช้อป Karuizawa-Prince Shopping Plaza ติดสถานี ปิดท้ายของฝาก → shinkansen กลับโตเกียวเย็น"
+          "detail_th": "เช้านั่งบัสไปน้ำตก Shiraito (ช่วง koyo มีไฟประดับ) ถ่ายรูปม่านไหมขาว · กลับมาช้อป Karuizawa-Prince Shopping Plaza ติดสถานี ปิดท้ายของฝาก → shinkansen กลับโตเกียวเย็น",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "บัสไปน้ำตก Shiraito",
+              "detail_th": "ช่วง koyo มีไฟประดับ",
+              "mode": "bus",
+              "durationMin": 30
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "ชมน้ำตก Shiraito",
+              "detail_th": "ถ่ายรูปม่านไหมขาว",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Prince Shopping Plaza",
+              "detail_th": "ช้อปของฝาก outlet ติดสถานี ปิดท้าย",
+              "durationMin": 120
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "Shinkansen กลับโตเกียว",
+              "mode": "shinkansen",
+              "durationMin": 70
+            }
+          ]
         }
       ]
     }

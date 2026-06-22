@@ -270,11 +270,66 @@
       "days": [
         {
           "title_th": "วันที่ 1 — เข้าหุบเขา + เดินโซนล่าง",
-          "detail_th": "บัสด่วนเช้าจากชินจูกุ ถึงคามิโคจิช่วงเที่ยง · ลงป้าย Taisho Pond เดินทวนน้ำเลียบแม่น้ำ Azusa → Tashiro Pond → Kappa Bridge (~1.5 ชม. ทางราบ) · เข้าที่พักในหุบเขา แช่ออนเซ็น · เย็นเดินเล่นริม Kappa Bridge ตอนคนเริ่มกลับ บรรยากาศเงียบสงบ"
+          "detail_th": "บัสด่วนเช้าจากชินจูกุ ถึงคามิโคจิช่วงเที่ยง · ลงป้าย Taisho Pond เดินทวนน้ำเลียบแม่น้ำ Azusa → Tashiro Pond → Kappa Bridge (~1.5 ชม. ทางราบ) · เข้าที่พักในหุบเขา แช่ออนเซ็น · เย็นเดินเล่นริม Kappa Bridge ตอนคนเริ่มกลับ บรรยากาศเงียบสงบ",
+          "steps": [
+            {
+              "time_th": "~07:00",
+              "title_th": "บัสด่วนจากชินจูกุ",
+              "detail_th": "ออกจาก Busta Shinjuku เช้า · จองล่วงหน้า",
+              "mode": "bus",
+              "durationMin": 300
+            },
+            {
+              "time_th": "~12:00",
+              "title_th": "ถึงป้าย Taisho Pond",
+              "detail_th": "ลงป้ายบัสแรก เริ่มเดินที่สระ Taisho น้ำตายต้นไม้ยืน"
+            },
+            {
+              "time_th": "~12:30",
+              "title_th": "เดินทวนน้ำ → Kappa Bridge",
+              "detail_th": "เลียบแม่น้ำ Azusa ผ่าน Tashiro Pond เข้าศูนย์กลางหุบเขา ทางราบ",
+              "mode": "walk",
+              "durationMin": 90
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "เข้าที่พัก + แช่ออนเซ็น",
+              "detail_th": "เช็คอิน lodge ในหุบเขา พักผ่อน"
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "เดินเล่นริม Kappa Bridge",
+              "detail_th": "ตอนคนเริ่มกลับ บรรยากาศเงียบสงบ"
+            }
+          ]
         },
         {
           "title_th": "วันที่ 2 — เดินต้นน้ำ Myojin + กลับ",
-          "detail_th": "เช้าตรู่ฟ้าใส ถ่ายยอด Hotaka จาก Kappa Bridge คนน้อย · เดิน loop ไป Myojin Pond + Dakesawa Marsh ทางฝั่งขวา-กลับฝั่งซ้าย (~2-2.5 ชม.) · มื้อกลางวันริมแม่น้ำ · บ่ายบัสกลับชินจูกุ/Matsumoto"
+          "detail_th": "เช้าตรู่ฟ้าใส ถ่ายยอด Hotaka จาก Kappa Bridge คนน้อย · เดิน loop ไป Myojin Pond + Dakesawa Marsh ทางฝั่งขวา-กลับฝั่งซ้าย (~2-2.5 ชม.) · มื้อกลางวันริมแม่น้ำ · บ่ายบัสกลับชินจูกุ/Matsumoto",
+          "steps": [
+            {
+              "time_th": "เช้าตรู่",
+              "title_th": "ถ่ายยอด Hotaka จาก Kappa Bridge",
+              "detail_th": "ฟ้าใส คนน้อย เห็นยอดเขาชัด"
+            },
+            {
+              "time_th": "~08:00",
+              "title_th": "เดิน loop Myojin Pond + Dakesawa Marsh",
+              "detail_th": "ไปฝั่งขวา-กลับฝั่งซ้าย · แวะ Dakesawa Marsh · เข้าศาลเจ้า Hotaka (ค่าเข้า ¥500)",
+              "mode": "walk",
+              "durationMin": 150
+            },
+            {
+              "time_th": "~11:30",
+              "title_th": "มื้อกลางวันริมแม่น้ำ"
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "บัสกลับชินจูกุ/Matsumoto",
+              "mode": "bus",
+              "durationMin": 300
+            }
+          ]
         }
       ]
     },
@@ -284,7 +339,39 @@
       "days": [
         {
           "title_th": "บัสด่วนเช้า เก็บโซนล่าง กลับเย็น",
-          "detail_th": "บัสด่วนเช้ามืดจากชินจูกุ ถึงหุบเขาสาย · เดินเร็ว Taisho Pond → Kappa Bridge → Dakesawa Marsh เก็บไฮไลต์โซนล่าง · กลับบัสบ่ายแก่ · เหนื่อยและพลาด Myojin Pond + บรรยากาศเช้า/เย็นเงียบๆ ไม่แนะนำถ้าไม่จำเป็น"
+          "detail_th": "บัสด่วนเช้ามืดจากชินจูกุ ถึงหุบเขาสาย · เดินเร็ว Taisho Pond → Kappa Bridge → Dakesawa Marsh เก็บไฮไลต์โซนล่าง · กลับบัสบ่ายแก่ · เหนื่อยและพลาด Myojin Pond + บรรยากาศเช้า/เย็นเงียบๆ ไม่แนะนำถ้าไม่จำเป็น",
+          "steps": [
+            {
+              "time_th": "~05:30",
+              "title_th": "บัสด่วนเช้ามืดจากชินจูกุ",
+              "detail_th": "ออกเช้ามากเพื่อมีเวลาในหุบเขา",
+              "mode": "bus",
+              "durationMin": 300
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "ถึงป้าย Taisho Pond",
+              "detail_th": "เริ่มเดินเร็วเก็บโซนล่าง"
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "เดินเร็ว Taisho → Kappa Bridge → Dakesawa Marsh",
+              "detail_th": "เก็บไฮไลต์โซนล่าง ทางราบ",
+              "mode": "walk",
+              "durationMin": 150
+            },
+            {
+              "time_th": "~13:30",
+              "title_th": "มื้อกลางวันริม Kappa Bridge"
+            },
+            {
+              "time_th": "บ่ายแก่",
+              "title_th": "บัสกลับชินจูกุ",
+              "detail_th": "พลาด Myojin Pond + บรรยากาศเช้า/เย็นเงียบ",
+              "mode": "bus",
+              "durationMin": 300
+            }
+          ]
         }
       ]
     }

@@ -309,11 +309,78 @@
       "days": [
         {
           "title_th": "วันที่ 1 — เข้า Magome เดินเทรลสู่ Tsumago",
-          "detail_th": "เช้า shinkansen Tokyo → Nagoya → Ltd Express Shinano → Nakatsugawa → บัสเข้า Magome · เดินเล่น Magome-juku บนเนิน ชมวิวภูเขา Ena · ฝากกระเป๋าใหญ่ส่ง forwarding ไป Tsumago · เดินเทรล Nakasendo ~8 กม. (2.5-3 ชม.) ผ่าน Magome Pass → ศาลาชา Tachiba (พักจิบชาฟรี) → น้ำตก Odaki/Medaki → ถึง Tsumago-juku · เข้าพัก minshuku บ้านไม้เก่า รับกระเป๋า มื้อเย็นในเรือน"
+          "detail_th": "เช้า shinkansen Tokyo → Nagoya → Ltd Express Shinano → Nakatsugawa → บัสเข้า Magome · เดินเล่น Magome-juku บนเนิน ชมวิวภูเขา Ena · ฝากกระเป๋าใหญ่ส่ง forwarding ไป Tsumago · เดินเทรล Nakasendo ~8 กม. (2.5-3 ชม.) ผ่าน Magome Pass → ศาลาชา Tachiba (พักจิบชาฟรี) → น้ำตก Odaki/Medaki → ถึง Tsumago-juku · เข้าพัก minshuku บ้านไม้เก่า รับกระเป๋า มื้อเย็นในเรือน",
+          "steps": [
+            {
+              "time_th": "~07:30",
+              "title_th": "shinkansen Tokyo → Nagoya",
+              "detail_th": "Tokaido Shinkansen ~100 นาที",
+              "mode": "shinkansen",
+              "durationMin": 100
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "Ltd Express Shinano → Nakatsugawa",
+              "detail_th": "ต่อรถด่วนเข้าหุบเขาคิโซะ ~50 นาที",
+              "mode": "train",
+              "durationMin": 50
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "บัสเข้า Magome",
+              "detail_th": "บัสจาก Nakatsugawa เข้าหมู่บ้าน Magome-juku",
+              "mode": "bus",
+              "durationMin": 30
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "เดินเล่น Magome-juku",
+              "detail_th": "หมู่บ้านบนเนิน ถนนหินปู ชมวิวภูเขา Ena · ฝากกระเป๋าส่ง forwarding ไป Tsumago",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~12:00",
+              "title_th": "เดินเทรล Nakasendo ~8 กม.",
+              "detail_th": "ผ่าน Magome Pass → ศาลาชา Tachiba (จิบชาฟรี) → น้ำตก Odaki/Medaki → ถึง Tsumago",
+              "mode": "walk",
+              "durationMin": 180
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "เข้าพัก minshuku Tsumago",
+              "detail_th": "บ้านไม้เก่า รับกระเป๋า มื้อเย็นในเรือน ค้าง 1 คืน"
+            }
+          ]
         },
         {
           "title_th": "วันที่ 2 — Tsumago ยามเช้า + กลับ",
-          "detail_th": "เช้าตรู่เดินชม Tsumago-juku ตอนคนยังน้อย บรรยากาศ Edo แท้ ถ่ายรูปบ้านไม้/ถนนไร้สายไฟ · ชิม soba/ขนมท้องถิ่น · บัสไป Nagiso Station → train Chuo Main Line ออกฝั่ง Nagano หรือย้อนทาง Nagoya → shinkansen กลับโตเกียว"
+          "detail_th": "เช้าตรู่เดินชม Tsumago-juku ตอนคนยังน้อย บรรยากาศ Edo แท้ ถ่ายรูปบ้านไม้/ถนนไร้สายไฟ · ชิม soba/ขนมท้องถิ่น · บัสไป Nagiso Station → train Chuo Main Line ออกฝั่ง Nagano หรือย้อนทาง Nagoya → shinkansen กลับโตเกียว",
+          "steps": [
+            {
+              "time_th": "เช้าตรู่",
+              "title_th": "เดินชม Tsumago-juku",
+              "detail_th": "คนยังน้อย บรรยากาศ Edo แท้ ถ่ายรูปบ้านไม้/ถนนไร้สายไฟ",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "ชิม soba/ขนมท้องถิ่น",
+              "detail_th": "อาหารเช้า-สายในหมู่บ้าน"
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "บัสไป Nagiso Station",
+              "detail_th": "บัสจาก Tsumago ออกสู่สถานี Nagiso",
+              "mode": "bus",
+              "durationMin": 10
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "train + shinkansen กลับโตเกียว",
+              "detail_th": "Chuo Main Line ออกฝั่ง Nagano หรือย้อนทาง Nagoya → shinkansen กลับ Tokyo",
+              "mode": "train"
+            }
+          ]
         }
       ]
     },
@@ -323,7 +390,44 @@
       "days": [
         {
           "title_th": "เดินเทรล Magome → Tsumago แล้วรีบกลับ",
-          "detail_th": "ออกโตเกียวเช้ามืด shinkansen → Nagoya → Shinano → Nakatsugawa → บัส Magome · เดินเทรล ~8 กม. ถึง Tsumago บ่าย · บัส Nagiso → รีบขึ้นรถกลับ Nagoya → shinkansen กลับโตเกียวค่ำ · ทำได้แต่เร่งและเหนื่อย ไม่ได้ซึมบรรยากาศหมู่บ้านยามเช้า/เย็น แนะนำค้างมากกว่า"
+          "detail_th": "ออกโตเกียวเช้ามืด shinkansen → Nagoya → Shinano → Nakatsugawa → บัส Magome · เดินเทรล ~8 กม. ถึง Tsumago บ่าย · บัส Nagiso → รีบขึ้นรถกลับ Nagoya → shinkansen กลับโตเกียวค่ำ · ทำได้แต่เร่งและเหนื่อย ไม่ได้ซึมบรรยากาศหมู่บ้านยามเช้า/เย็น แนะนำค้างมากกว่า",
+          "steps": [
+            {
+              "time_th": "เช้ามืด",
+              "title_th": "shinkansen Tokyo → Nagoya",
+              "detail_th": "Tokaido Shinkansen ~100 นาที",
+              "mode": "shinkansen",
+              "durationMin": 100
+            },
+            {
+              "time_th": "~09:00",
+              "title_th": "Shinano → Nakatsugawa → บัส Magome",
+              "detail_th": "Ltd Express Shinano ต่อบัสเข้าหมู่บ้าน Magome",
+              "mode": "train",
+              "durationMin": 80
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "เดินเทรล Magome → Tsumago ~8 กม.",
+              "detail_th": "ผ่าน Magome Pass, ศาลาชา, น้ำตก ถึง Tsumago ช่วงบ่าย",
+              "mode": "walk",
+              "durationMin": 180
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "บัส Nagiso → รีบกลับ",
+              "detail_th": "บัสออกสถานี Nagiso ต่อรถกลับ Nagoya",
+              "mode": "bus",
+              "durationMin": 10
+            },
+            {
+              "time_th": "ค่ำ",
+              "title_th": "shinkansen กลับโตเกียว",
+              "detail_th": "ย้อน Nagoya → shinkansen กลับ Tokyo",
+              "mode": "shinkansen",
+              "durationMin": 100
+            }
+          ]
         }
       ]
     }

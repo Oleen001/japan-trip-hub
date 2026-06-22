@@ -272,7 +272,54 @@
       "days": [
         {
           "title_th": "เช้าจับฟูจิ บ่ายวนทะเลสาบ",
-          "detail_th": "ออกชินจูกุเช้ามาก (บัส highway หรือ Fuji Excursion) · 'เช้าก่อน 9:00 ฟูจิออกชัดสุด' ตรงไป Chureito Pagoda ก่อน (Fujikyu ลง Shimoyoshida) ขึ้นบันได ~400 ขั้นถ่ายเจดีย์คู่ฟูจิ → กลับเข้าสถานี Kawaguchiko ขึ้นบัส Omni ไป Oishi Park ฝั่งเหนือ ชมฟูจิสะท้อนน้ำ → ropeway ขึ้น Mt. Tenjo → (พ.ย.) แวะ Momiji Corridor → บัส/รถไฟกลับชินจูกุเย็น"
+          "detail_th": "ออกชินจูกุเช้ามาก (บัส highway หรือ Fuji Excursion) · 'เช้าก่อน 9:00 ฟูจิออกชัดสุด' ตรงไป Chureito Pagoda ก่อน (Fujikyu ลง Shimoyoshida) ขึ้นบันได ~400 ขั้นถ่ายเจดีย์คู่ฟูจิ → กลับเข้าสถานี Kawaguchiko ขึ้นบัส Omni ไป Oishi Park ฝั่งเหนือ ชมฟูจิสะท้อนน้ำ → ropeway ขึ้น Mt. Tenjo → (พ.ย.) แวะ Momiji Corridor → บัส/รถไฟกลับชินจูกุเย็น",
+          "steps": [
+            {
+              "time_th": "~07:00",
+              "title_th": "ออกชินจูกุ → Kawaguchiko",
+              "detail_th": "บัส highway หรือ Fuji Excursion · ออกเช้ามากเพื่อจับฟูจิก่อน 9:00",
+              "mode": "bus",
+              "durationMin": 120
+            },
+            {
+              "time_th": "~09:00",
+              "title_th": "Chureito Pagoda",
+              "detail_th": "Fujikyu ลง Shimoyoshida ขึ้นบันได ~400 ขั้น ถ่ายเจดีย์คู่ฟูจิ — มาก่อนคนเยอะ",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "บัส Omni → Oishi Park",
+              "detail_th": "กลับเข้าสถานี Kawaguchiko ขึ้นบัสวนไปฝั่งเหนือ",
+              "mode": "bus",
+              "durationMin": 30
+            },
+            {
+              "time_th": "~11:30",
+              "title_th": "Oishi Park",
+              "detail_th": "ชมฟูจิสะท้อนน้ำ + ดอกไม้ตามฤดู ฝั่งเหนือทะเลสาบ",
+              "durationMin": 90
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Ropeway ขึ้น Mt. Tenjo",
+              "detail_th": "วิวฟูจิเหนือทะเลสาบจากจุดสูง",
+              "mode": "ropeway",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Momiji Corridor",
+              "detail_th": "(พ.ย.) แวะอุโมงค์ใบไม้แดงริมน้ำ",
+              "durationMin": 45
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับชินจูกุ",
+              "mode": "bus",
+              "durationMin": 120
+            }
+          ]
         }
       ]
     },
@@ -282,11 +329,65 @@
       "days": [
         {
           "title_th": "วันที่ 1 — ทะเลสาบ + ropeway + ออนเซ็น",
-          "detail_th": "ถึง Kawaguchiko ช่วงเที่ยง · บัส Omni วน Oishi Park ฝั่งเหนือ (ดอกไม้ตามฤดู + ฟูจิสะท้อนน้ำ) → ropeway ขึ้น Mt. Tenjo ชมพระอาทิตย์ตกฟูจิ → (พ.ย.) Momiji Corridor light-up กลางคืน → เข้าที่พักริมทะเลสาบ แช่ออนเซ็นวิวฟูจิ มื้อเย็น Hoto"
+          "detail_th": "ถึง Kawaguchiko ช่วงเที่ยง · บัส Omni วน Oishi Park ฝั่งเหนือ (ดอกไม้ตามฤดู + ฟูจิสะท้อนน้ำ) → ropeway ขึ้น Mt. Tenjo ชมพระอาทิตย์ตกฟูจิ → (พ.ย.) Momiji Corridor light-up กลางคืน → เข้าที่พักริมทะเลสาบ แช่ออนเซ็นวิวฟูจิ มื้อเย็น Hoto",
+          "steps": [
+            {
+              "time_th": "~12:00",
+              "title_th": "ถึง Kawaguchiko",
+              "detail_th": "เดินทางจากชินจูกุช่วงสาย ถึงช่วงเที่ยง",
+              "mode": "bus",
+              "durationMin": 120
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Oishi Park",
+              "detail_th": "บัส Omni วนฝั่งเหนือ ดอกไม้ตามฤดู + ฟูจิสะท้อนน้ำ",
+              "mode": "bus",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~16:00",
+              "title_th": "Ropeway ขึ้น Mt. Tenjo",
+              "detail_th": "ชมพระอาทิตย์ตกฟูจิจากจุดสูง",
+              "mode": "ropeway",
+              "durationMin": 60
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "Momiji Corridor light-up",
+              "detail_th": "(พ.ย.) อุโมงค์ใบไม้แดงประดับไฟกลางคืน",
+              "durationMin": 45
+            },
+            {
+              "time_th": "ค่ำ",
+              "title_th": "เข้าที่พักริมทะเลสาบ",
+              "detail_th": "แช่ออนเซ็นวิวฟูจิ มื้อเย็น Hoto"
+            }
+          ]
         },
         {
           "title_th": "วันที่ 2 — Chureito เช้าตรู่ + กลับ",
-          "detail_th": "ตื่นเช้ามืดไป Chureito Pagoda ก่อนคนเยอะ (ฟูจิเช้าใสสุด + คิวสั้น) ถ่ายเจดีย์แดงคู่ฟูจิ → กลับมาเดินเล่นริมทะเลสาบ/คาเฟ่ ช้อปของฝากแถวสถานี → บัส/รถไฟกลับชินจูกุช่วงบ่าย"
+          "detail_th": "ตื่นเช้ามืดไป Chureito Pagoda ก่อนคนเยอะ (ฟูจิเช้าใสสุด + คิวสั้น) ถ่ายเจดีย์แดงคู่ฟูจิ → กลับมาเดินเล่นริมทะเลสาบ/คาเฟ่ ช้อปของฝากแถวสถานี → บัส/รถไฟกลับชินจูกุช่วงบ่าย",
+          "steps": [
+            {
+              "time_th": "~06:00",
+              "title_th": "Chureito Pagoda เช้าตรู่",
+              "detail_th": "ตื่นเช้ามืดมาก่อนคนเยอะ — ฟูจิเช้าใสสุด คิวสั้น ถ่ายเจดีย์แดงคู่ฟูจิ",
+              "durationMin": 120
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "เดินเล่นริมทะเลสาบ/คาเฟ่",
+              "detail_th": "ช้อปของฝากแถวสถานี",
+              "durationMin": 120
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "กลับชินจูกุ",
+              "mode": "bus",
+              "durationMin": 120
+            }
+          ]
         }
       ]
     }

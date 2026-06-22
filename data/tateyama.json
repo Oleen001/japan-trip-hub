@@ -198,11 +198,32 @@
       "days": [
         {
           "title_th": "เข้า Toyama",
-          "detail_th": "เช้าตรู่ Shinkansen โตเกียว→Toyama (~2 ชม.) · เที่ยวเมือง Toyama เบาๆ (Toyama Castle / ซูชิเมือง Toyama) · ค้าง Toyama · เตรียมกระเป๋าใหญ่ส่ง forwarding พรุ่งนี้"
+          "detail_th": "เช้าตรู่ Shinkansen โตเกียว→Toyama (~2 ชม.) · เที่ยวเมือง Toyama เบาๆ (Toyama Castle / ซูชิเมือง Toyama) · ค้าง Toyama · เตรียมกระเป๋าใหญ่ส่ง forwarding พรุ่งนี้",
+          "steps": [
+            { "time_th": "~08:00", "title_th": "Shinkansen โตเกียว → Toyama", "mode": "shinkansen", "detail_th": "Hokuriku Shinkansen (Kagayaki) reserved", "durationMin": 128 },
+            { "time_th": "~10:30", "title_th": "เที่ยวเมือง Toyama", "detail_th": "Toyama Castle / ซูชิเมือง Toyama เบาๆ" },
+            { "time_th": "เย็น", "title_th": "ค้าง Toyama", "detail_th": "เตรียมกระเป๋าใหญ่ส่ง forwarding พรุ่งนี้" }
+          ]
         },
         {
           "title_th": "Traverse ทะลุ route",
-          "detail_th": "เช้ามืดดรอปกระเป๋า forwarding @ Dentetsu-Toyama (ก่อน 10:00) · Tateyama St. → cablecar → Murodo (Mikurigaike + Jigokudani ~2 ชม.) → Daikanbo → ropeway → Kurobe Dam → Ogizawa · bus → Shinano-Omachi (รับกระเป๋า) → Nagano → Shinkansen กลับโตเกียว"
+          "detail_th": "เช้ามืดดรอปกระเป๋า forwarding @ Dentetsu-Toyama (ก่อน 10:00) · Tateyama St. → cablecar → Murodo (Mikurigaike + Jigokudani ~2 ชม.) → Daikanbo → ropeway → Kurobe Dam → Ogizawa · bus → Shinano-Omachi (รับกระเป๋า) → Nagano → Shinkansen กลับโตเกียว",
+          "steps": [
+            { "time_th": "~07:30", "title_th": "ดรอปกระเป๋า forwarding", "detail_th": "@ Dentetsu-Toyama ก่อน 10:00 (เงินสดเท่านั้น)" },
+            { "time_th": "~08:00", "title_th": "รถไฟ → Tateyama", "mode": "train", "detail_th": "Toyama Chiho Railway (Tateyama Line)", "durationMin": 60 },
+            { "title_th": "Cable car ขึ้น Bijodaira", "mode": "cablecar", "detail_th": "ต้องจองรอบเวลา", "durationMin": 7 },
+            { "title_th": "Highland bus → Murodo", "mode": "bus", "detail_th": "ผ่าน Midagahara ลงเดินได้", "durationMin": 50 },
+            { "time_th": "~10:30", "title_th": "Murodo", "detail_th": "Mikurigaike + Jigokudani", "durationMin": 120 },
+            { "title_th": "Trolley bus → Daikanbo", "mode": "bus", "detail_th": "อุโมงค์ใต้ภูเขา Tateyama", "durationMin": 10 },
+            { "time_th": "บ่าย", "title_th": "Daikanbo viewpoint", "detail_th": "พานอรามาหุบ Kurobe", "durationMin": 15 },
+            { "title_th": "Ropeway → Kurobedaira", "mode": "ropeway", "detail_th": "ไม่มีเสากลาง วิวหุบ koyo", "durationMin": 7 },
+            { "title_th": "Cable car → Kurobeko", "mode": "cablecar", "durationMin": 5 },
+            { "title_th": "เดินข้ามสันเขื่อน → Kurobe Dam", "mode": "walk", "detail_th": "~0.8 km", "durationMin": 15 },
+            { "title_th": "Kurobe Dam", "detail_th": "จุดชมวิว 220 ขั้น (เช็ค water discharge)", "durationMin": 40 },
+            { "title_th": "Electric bus → Ogizawa", "mode": "bus", "detail_th": "อุโมงค์ Kanden", "durationMin": 16 },
+            { "time_th": "เย็น", "title_th": "บัส → Shinano-Omachi → Nagano", "mode": "bus", "detail_th": "รับกระเป๋าที่ Shinano-Omachi" },
+            { "title_th": "Shinkansen กลับโตเกียว", "mode": "shinkansen", "detail_th": "Hokuriku Shinkansen จาก Nagano", "durationMin": 80 }
+          ]
         }
       ]
     },
@@ -212,7 +233,14 @@
       "days": [
         {
           "title_th": "เข้า-ออกฝั่ง Toyama ฝั่งเดียว",
-          "detail_th": "เข้า-ออกฝั่ง Toyama · ค้าง Toyama 2 คืน · ตั๋วถูกลง ไม่ต้อง forwarding · แต่เห็นแค่ครึ่ง route (พลาด Kurobe Dam, ropeway, Daikanbo)"
+          "detail_th": "เข้า-ออกฝั่ง Toyama · ค้าง Toyama 2 คืน · ตั๋วถูกลง ไม่ต้อง forwarding · แต่เห็นแค่ครึ่ง route (พลาด Kurobe Dam, ropeway, Daikanbo)",
+          "steps": [
+            { "time_th": "~08:00", "title_th": "รถไฟ Toyama → Tateyama", "mode": "train", "detail_th": "Toyama Chiho Railway", "durationMin": 60 },
+            { "title_th": "Cable car ขึ้น Bijodaira", "mode": "cablecar", "durationMin": 7 },
+            { "title_th": "Highland bus → Murodo", "mode": "bus", "detail_th": "ผ่าน Midagahara", "durationMin": 50 },
+            { "time_th": "~10:30", "title_th": "Murodo", "detail_th": "Mikurigaike + Jigokudani + Midagahara", "durationMin": 180 },
+            { "time_th": "บ่าย", "title_th": "ย้อนทางเดิม → Toyama", "detail_th": "bus → cablecar → train กลับ Toyama (ค้างต่อ)" }
+          ]
         }
       ]
     }

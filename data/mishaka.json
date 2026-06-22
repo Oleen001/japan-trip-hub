@@ -266,7 +266,53 @@
       "days": [
         {
           "title_th": "เก็บสระ + โกรก + ออนเซ็นในวันเดียว",
-          "detail_th": "Azusa เช้าตรู่จากชินจูกุ → Chino → เช่ารถขึ้นที่ราบสูง · ถึงสระ Mishaka 'เช้าก่อนลมพัด' เพื่อเงาสะท้อนคมที่สุด (ใบไม้แดงปลาย ต.ค.-ต้น พ.ย.) → ขับต่อ Yokoya Gorge เดินชมน้ำตกหลายชั้น 1-2 ชม. → แช่ Meiji Onsen คลายเมื่อย → คืนรถที่ Chino → Azusa กลับชินจูกุเย็น · เช่ารถยืดหยุ่นกว่าบัสท้องถิ่นที่รอบน้อยมาก"
+          "detail_th": "Azusa เช้าตรู่จากชินจูกุ → Chino → เช่ารถขึ้นที่ราบสูง · ถึงสระ Mishaka 'เช้าก่อนลมพัด' เพื่อเงาสะท้อนคมที่สุด (ใบไม้แดงปลาย ต.ค.-ต้น พ.ย.) → ขับต่อ Yokoya Gorge เดินชมน้ำตกหลายชั้น 1-2 ชม. → แช่ Meiji Onsen คลายเมื่อย → คืนรถที่ Chino → Azusa กลับชินจูกุเย็น · เช่ารถยืดหยุ่นกว่าบัสท้องถิ่นที่รอบน้อยมาก",
+          "steps": [
+            {
+              "time_th": "~07:00",
+              "title_th": "Azusa ชินจูกุ → Chino",
+              "detail_th": "Limited Express Azusa เช้าตรู่",
+              "mode": "train",
+              "durationMin": 130
+            },
+            {
+              "time_th": "~09:15",
+              "title_th": "เช่ารถขึ้นที่ราบสูง",
+              "detail_th": "รับรถที่ Chino ยืดหยุ่นกว่าบัสท้องถิ่น",
+              "mode": "car",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~10:00",
+              "title_th": "สระ Mishaka",
+              "detail_th": "'เช้าก่อนลมพัด' เพื่อเงาสะท้อนคมที่สุด (ใบไม้แดงปลาย ต.ค.-ต้น พ.ย.)",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~11:30",
+              "title_th": "ขับต่อ Yokoya Gorge",
+              "mode": "car",
+              "durationMin": 20
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "เดิน Yokoya Gorge",
+              "detail_th": "ชมน้ำตกหลายชั้น 1-2 ชม.",
+              "durationMin": 120
+            },
+            {
+              "time_th": "บ่ายแก่",
+              "title_th": "แช่ Meiji Onsen",
+              "detail_th": "คลายเมื่อย",
+              "durationMin": 60
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "คืนรถ → Azusa กลับชินจูกุ",
+              "mode": "train",
+              "durationMin": 130
+            }
+          ]
         }
       ]
     },
@@ -276,7 +322,42 @@
       "days": [
         {
           "title_th": "เน้นสระ Mishaka อย่างเดียว",
-          "detail_th": "Azusa → Chino → บัส Oku-Tateshina ลง Meiji Onsen Iriguchi → เดิน 3 นาทีถึงสระ · เน้นเก็บภาพสระเช้าๆ แล้วกลับ · ข้อควรระวังหลักคือบัสมีรอบน้อยมาก ต้องเช็คตารางขากลับให้แน่นก่อนออก ไม่งั้นตกค้าง"
+          "detail_th": "Azusa → Chino → บัส Oku-Tateshina ลง Meiji Onsen Iriguchi → เดิน 3 นาทีถึงสระ · เน้นเก็บภาพสระเช้าๆ แล้วกลับ · ข้อควรระวังหลักคือบัสมีรอบน้อยมาก ต้องเช็คตารางขากลับให้แน่นก่อนออก ไม่งั้นตกค้าง",
+          "steps": [
+            {
+              "time_th": "~07:00",
+              "title_th": "Azusa ชินจูกุ → Chino",
+              "mode": "train",
+              "durationMin": 130
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "บัส Oku-Tateshina",
+              "detail_th": "ลง Meiji Onsen Iriguchi · บัสรอบน้อยมาก เช็คตารางขากลับก่อนออก",
+              "mode": "bus",
+              "durationMin": 40
+            },
+            {
+              "time_th": "~10:15",
+              "title_th": "เดินถึงสระ Mishaka",
+              "detail_th": "เดิน 3 นาทีจากป้ายบัส เก็บภาพสระเช้าๆ",
+              "mode": "walk",
+              "durationMin": 5
+            },
+            {
+              "time_th": "เช้า",
+              "title_th": "ชมสระ Mishaka",
+              "detail_th": "เน้นเก็บภาพเงาสะท้อนแล้วกลับ",
+              "durationMin": 60
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "บัส + Azusa กลับชินจูกุ",
+              "detail_th": "เช็ครอบบัสขากลับให้แน่น ไม่งั้นตกค้าง",
+              "mode": "train",
+              "durationMin": 170
+            }
+          ]
         }
       ]
     }

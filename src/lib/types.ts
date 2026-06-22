@@ -84,10 +84,20 @@ export type RouteStop = {
   modeDetail_th?: string;
 };
 
+/** one step of a day plan — a stop/activity, or a transit leg (when `mode` is set) */
+export type PlanStep = {
+  time_th?: string; // ป้ายเวลา เช่น "08:00" / "~10:30" / "เช้า" (optional)
+  title_th: string; // ชื่อจุด/กิจกรรมสั้น เช่น "Mitake Gorge"
+  detail_th?: string; // ขยายสั้นๆ
+  mode?: string; // ถ้าเป็น transit leg: shinkansen|train|bus|cablecar|ropeway|ferry|walk|car|plane → icon
+  durationMin?: number; // เวลาที่ leg/กิจกรรมนี้ใช้
+};
+
 export type Plan = {
   label_th: string;
   recommended: boolean;
-  days: { title_th: string; detail_th: string }[];
+  /** `steps` powers the structured timeline; `detail_th` is kept as fallback/summary */
+  days: { title_th: string; detail_th: string; steps?: PlanStep[] }[];
 };
 
 export type Source = { label: string; url: string };

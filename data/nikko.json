@@ -232,7 +232,16 @@
       "days": [
         {
           "title_th": "ออกเช้า — เขตศาลเจ้าครบ กลับเย็น",
-          "detail_th": "SPACIA X เช้าจาก Asakusa ~7-8 โมง → Tobu-Nikko ~10 โมง. เดินขึ้นแวะ Shinkyo Bridge ถ่ายรูป → Rinnoji Sanbutsudo → Toshogu (เผื่อ 2 ชม. ดู Yomeimon/ลิงสามตัว/แมวหลับ) → ถ้าไหวต่อ Futarasan + Taiyuin ด้วย World Heritage Pass. กินยูบะ (เต้าหู้แผ่น) มื้อเที่ยง specialty Nikko. SPACIA X กลับบ่าย-เย็น. งบ ~2,900฿/คน. เหมาะคนเวลาน้อย ไม่เน้นธรรมชาติบนเขา"
+          "detail_th": "SPACIA X เช้าจาก Asakusa ~7-8 โมง → Tobu-Nikko ~10 โมง. เดินขึ้นแวะ Shinkyo Bridge ถ่ายรูป → Rinnoji Sanbutsudo → Toshogu (เผื่อ 2 ชม. ดู Yomeimon/ลิงสามตัว/แมวหลับ) → ถ้าไหวต่อ Futarasan + Taiyuin ด้วย World Heritage Pass. กินยูบะ (เต้าหู้แผ่น) มื้อเที่ยง specialty Nikko. SPACIA X กลับบ่าย-เย็น. งบ ~2,900฿/คน. เหมาะคนเวลาน้อย ไม่เน้นธรรมชาติบนเขา",
+          "steps": [
+            { "time_th": "~07:30", "title_th": "SPACIA X Asakusa → Tobu-Nikko", "mode": "train", "detail_th": "Limited Express ตรง reserved", "durationMin": 110 },
+            { "time_th": "~10:00", "title_th": "เดินขึ้นเขตศาลเจ้า + Shinkyo Bridge", "mode": "walk", "detail_th": "สะพานแดง ถ่ายรูป", "durationMin": 20 },
+            { "title_th": "Rinnoji Sanbutsudo", "detail_th": "พระพุทธรูปทอง 3 องค์", "durationMin": 40 },
+            { "time_th": "~11:00", "title_th": "Toshogu Shrine", "detail_th": "Yomeimon / ลิงสามตัว / แมวหลับ", "durationMin": 120 },
+            { "time_th": "บ่าย", "title_th": "Futarasan + Taiyuin (ถ้าไหว)", "detail_th": "World Heritage Pass" },
+            { "title_th": "มื้อเที่ยงยูบะ", "detail_th": "เต้าหู้แผ่น specialty Nikko" },
+            { "time_th": "บ่าย-เย็น", "title_th": "SPACIA X กลับโตเกียว", "mode": "train", "durationMin": 110 }
+          ]
         }
       ]
     },
@@ -242,11 +251,28 @@
       "days": [
         {
           "title_th": "วัน 1 — เขตศาลเจ้ามรดกโลก",
-          "detail_th": "SPACIA X เช้า → Tobu-Nikko. เดิน Shinkyo Bridge → Toshogu → Rinnoji → (Futarasan/Taiyuin ถ้ามีแรง). บ่ายแก่เช็คอินที่พักตัวเมือง Nikko หรือ Chuzenji Onsen. เย็นกินยูบะ/อิ่มสบายๆ พักผ่อน. ถือ NIKKO PASS ALL AREA ใช้บัสไม่อั้น"
+          "detail_th": "SPACIA X เช้า → Tobu-Nikko. เดิน Shinkyo Bridge → Toshogu → Rinnoji → (Futarasan/Taiyuin ถ้ามีแรง). บ่ายแก่เช็คอินที่พักตัวเมือง Nikko หรือ Chuzenji Onsen. เย็นกินยูบะ/อิ่มสบายๆ พักผ่อน. ถือ NIKKO PASS ALL AREA ใช้บัสไม่อั้น",
+          "steps": [
+            { "time_th": "~08:00", "title_th": "SPACIA X Asakusa → Tobu-Nikko", "mode": "train", "detail_th": "Limited Express ตรง reserved", "durationMin": 110 },
+            { "time_th": "~10:00", "title_th": "Shinkyo Bridge", "mode": "walk", "detail_th": "สะพานแดงถ่ายรูป", "durationMin": 20 },
+            { "title_th": "Toshogu Shrine", "detail_th": "Yomeimon / ลิงสามตัว / แมวหลับ", "durationMin": 120 },
+            { "title_th": "Rinnoji + (Futarasan/Taiyuin ถ้ามีแรง)", "detail_th": "World Heritage Pass", "durationMin": 60 },
+            { "time_th": "บ่ายแก่", "title_th": "เช็คอินที่พัก", "detail_th": "ตัวเมือง Nikko หรือ Chuzenji Onsen" },
+            { "time_th": "เย็น", "title_th": "มื้อเย็นยูบะ พักผ่อน", "detail_th": "ถือ NIKKO PASS ALL AREA ใช้บัสไม่อั้น" }
+          ]
         },
         {
           "title_th": "วัน 2 — Oku-Nikko: Chuzenji + Kegon + Senjogahara",
-          "detail_th": "ออกเช้าตรู่ (ก่อน 7:30 ขึ้นบัสรอบแรกเลี่ยงรถติด Irohazaka) → บัสไต่ 48 โค้ง ขึ้น Lake Chuzenji. ชม Kegon Falls (ลง observation ลิฟต์ ¥570) + ริมทะเลสาบ Chuzenji วิว Mt.Nantai. ต่อบัสสาย Yumoto เดิน Yudaki → Senjogahara boardwalk ~2-3ชม. (larch ทองตอน autumn). บ่ายนั่งบัสลงกลับ Tobu-Nikko → SPACIA X กลับโตเกียว. งบรวม ~7,260฿/คน"
+          "detail_th": "ออกเช้าตรู่ (ก่อน 7:30 ขึ้นบัสรอบแรกเลี่ยงรถติด Irohazaka) → บัสไต่ 48 โค้ง ขึ้น Lake Chuzenji. ชม Kegon Falls (ลง observation ลิฟต์ ¥570) + ริมทะเลสาบ Chuzenji วิว Mt.Nantai. ต่อบัสสาย Yumoto เดิน Yudaki → Senjogahara boardwalk ~2-3ชม. (larch ทองตอน autumn). บ่ายนั่งบัสลงกลับ Tobu-Nikko → SPACIA X กลับโตเกียว. งบรวม ~7,260฿/คน",
+          "steps": [
+            { "time_th": "~07:00", "title_th": "บัสขึ้น Lake Chuzenji", "mode": "bus", "detail_th": "ไต่ Irohazaka 48 โค้ง (รอบแรกเลี่ยงรถติด)", "durationMin": 50 },
+            { "time_th": "~08:00", "title_th": "Kegon Falls", "detail_th": "ลง observation ลิฟต์ ¥570", "durationMin": 45 },
+            { "title_th": "ริมทะเลสาบ Chuzenji", "detail_th": "วิว Mt.Nantai", "durationMin": 45 },
+            { "title_th": "บัสสาย Yumoto → Yudaki", "mode": "bus", "detail_th": "ต่อขึ้นเหนือ", "durationMin": 20 },
+            { "time_th": "~10:30", "title_th": "เดิน Senjogahara boardwalk", "detail_th": "Yudaki → ทุ่งพรุ larch ทอง autumn", "durationMin": 150 },
+            { "time_th": "บ่าย", "title_th": "บัสลงกลับ Tobu-Nikko", "mode": "bus", "durationMin": 60 },
+            { "title_th": "SPACIA X กลับโตเกียว", "mode": "train", "durationMin": 110 }
+          ]
         }
       ]
     }

@@ -294,7 +294,50 @@
       "days": [
         {
           "title_th": "บัสเช้า → Hatomachitoge → ทุ่งพรุ → กลับ",
-          "detail_th": "บัสด่วน/รถไฟเช้ามืดจากโตเกียว → Tokura → shuttle ขึ้น Hatomachitoge · เดินลงป่า ~1 ชม. ถึงขอบทุ่ง Yamanohana → เดิน boardwalk เข้า Ozegahara เก็บวิวทุ่งพรุ+ดอกตามฤดู (~2-3 ชม. ไป-กลับ) · เดินขึ้นกลับ Hatomachitoge → shuttle + บัสกลับโตเกียวเย็น · เหนื่อยแต่เก็บไฮไลต์ทุ่งพรุได้ครบในวันเดียว"
+          "detail_th": "บัสด่วน/รถไฟเช้ามืดจากโตเกียว → Tokura → shuttle ขึ้น Hatomachitoge · เดินลงป่า ~1 ชม. ถึงขอบทุ่ง Yamanohana → เดิน boardwalk เข้า Ozegahara เก็บวิวทุ่งพรุ+ดอกตามฤดู (~2-3 ชม. ไป-กลับ) · เดินขึ้นกลับ Hatomachitoge → shuttle + บัสกลับโตเกียวเย็น · เหนื่อยแต่เก็บไฮไลต์ทุ่งพรุได้ครบในวันเดียว",
+          "steps": [
+            {
+              "time_th": "~06:00",
+              "title_th": "บัสด่วน/รถไฟเช้ามืดจากโตเกียว",
+              "detail_th": "ออกเช้ามากเพราะวันเดียวต้องไป-กลับ",
+              "mode": "bus",
+              "durationMin": 280
+            },
+            {
+              "time_th": "~10:40",
+              "title_th": "ต่อ shuttle Tokura → Hatomachitoge",
+              "detail_th": "รถส่วนตัวห้ามขึ้น ต้องใช้ shuttle/แท็กซี่",
+              "mode": "bus",
+              "durationMin": 25
+            },
+            {
+              "time_th": "~11:15",
+              "title_th": "เดินลงป่า → ขอบทุ่ง Yamanohana",
+              "detail_th": "เดินลงเขาเข้าทุ่งพรุ",
+              "mode": "walk",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~12:15",
+              "title_th": "เดิน boardwalk เข้า Ozegahara",
+              "detail_th": "เก็บวิวทุ่งพรุ + ดอกตามฤดู ไป-กลับ",
+              "mode": "walk",
+              "durationMin": 150
+            },
+            {
+              "time_th": "~14:45",
+              "title_th": "เดินขึ้นกลับ Hatomachitoge",
+              "detail_th": "ขากลับเดินขึ้นเหนื่อยกว่า เผื่อแรง",
+              "mode": "walk",
+              "durationMin": 75
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "shuttle + บัสกลับโตเกียว",
+              "mode": "bus",
+              "durationMin": 305
+            }
+          ]
         }
       ]
     },
@@ -304,11 +347,64 @@
       "days": [
         {
           "title_th": "วันที่ 1 — เข้า Hatomachitoge → ค้าง hut",
-          "detail_th": "บัสเช้าถึง Tokura → shuttle Hatomachitoge → เดินเข้า Ozegahara เก็บวิวไม่ต้องรีบ → เดินต่อไป Ozenuma ค้าง hut ริมบึง · เย็นชมพรุ/บึงเงียบๆ พระอาทิตย์ตก"
+          "detail_th": "บัสเช้าถึง Tokura → shuttle Hatomachitoge → เดินเข้า Ozegahara เก็บวิวไม่ต้องรีบ → เดินต่อไป Ozenuma ค้าง hut ริมบึง · เย็นชมพรุ/บึงเงียบๆ พระอาทิตย์ตก",
+          "steps": [
+            {
+              "time_th": "~07:00",
+              "title_th": "บัสเช้าจากโตเกียว → Tokura",
+              "mode": "bus",
+              "durationMin": 280
+            },
+            {
+              "time_th": "~11:40",
+              "title_th": "ต่อ shuttle Tokura → Hatomachitoge",
+              "mode": "bus",
+              "durationMin": 25
+            },
+            {
+              "time_th": "~12:15",
+              "title_th": "เดินเข้า Ozegahara",
+              "detail_th": "เดินลงป่าถึงทุ่งพรุ เก็บวิวไม่ต้องรีบ",
+              "mode": "walk",
+              "durationMin": 90
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "เดินต่อไป Ozenuma",
+              "detail_th": "ข้ามทุ่งพรุไปบึงฝั่งตะวันออก",
+              "mode": "walk",
+              "durationMin": 180
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "ค้าง hut ริม Ozenuma",
+              "detail_th": "ชมพรุ/บึงเงียบๆ พระอาทิตย์ตก"
+            }
+          ]
         },
         {
           "title_th": "วันที่ 2 — Ozenuma → ออกฝั่ง Oshimizu",
-          "detail_th": "เช้าชมบึง Ozenuma สะท้อนเงาภูเขายามเช้า · เดินออกทาง trailhead Oshimizu (ฝั่งตะวันออก) → shuttle + บัสกลับโตเกียว · ทะลุ 2 ฝั่งเห็นทั้งทุ่งพรุและบึง ไม่ย้อนทาง (เดินรวม 6-8 ชม. ตลอด 2 วัน)"
+          "detail_th": "เช้าชมบึง Ozenuma สะท้อนเงาภูเขายามเช้า · เดินออกทาง trailhead Oshimizu (ฝั่งตะวันออก) → shuttle + บัสกลับโตเกียว · ทะลุ 2 ฝั่งเห็นทั้งทุ่งพรุและบึง ไม่ย้อนทาง (เดินรวม 6-8 ชม. ตลอด 2 วัน)",
+          "steps": [
+            {
+              "time_th": "เช้าตรู่",
+              "title_th": "ชมบึง Ozenuma ยามเช้า",
+              "detail_th": "ผิวน้ำสะท้อนเงาภูเขา Hiuchigatake"
+            },
+            {
+              "time_th": "~08:00",
+              "title_th": "เดินออกทาง trailhead Oshimizu",
+              "detail_th": "ฝั่งตะวันออก ไม่ย้อนทาง",
+              "mode": "walk",
+              "durationMin": 90
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "shuttle + บัสกลับโตเกียว",
+              "mode": "bus",
+              "durationMin": 305
+            }
+          ]
         }
       ]
     }

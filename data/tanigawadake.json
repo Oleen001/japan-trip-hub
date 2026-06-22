@@ -293,7 +293,56 @@
       "days": [
         {
           "title_th": "กระเช้าขึ้นยอด + แวะสถานีลึกสุด",
-          "detail_th": "เช้า shinkansen Tokyo → Jomo-Kogen ~70 นาที · (เลือกแวะ Doai Station สถานีลึกสุด 486 ขั้นขาไป) → บัสขึ้นสถานีกระเช้า · ropeway ขึ้น Tenjindaira 1,319 ม. เดิน walk-in-the-air ชม koyo พีคแรกคันโต ~1.5 ชม. → ลงกระเช้า · บัส+shinkansen กลับโตเกียวเย็น · เก็บไฮไลต์ได้ในวันเดียวเพราะเดินทางเร็ว"
+          "detail_th": "เช้า shinkansen Tokyo → Jomo-Kogen ~70 นาที · (เลือกแวะ Doai Station สถานีลึกสุด 486 ขั้นขาไป) → บัสขึ้นสถานีกระเช้า · ropeway ขึ้น Tenjindaira 1,319 ม. เดิน walk-in-the-air ชม koyo พีคแรกคันโต ~1.5 ชม. → ลงกระเช้า · บัส+shinkansen กลับโตเกียวเย็น · เก็บไฮไลต์ได้ในวันเดียวเพราะเดินทางเร็ว",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "shinkansen Tokyo → Jomo-Kogen",
+              "detail_th": "Joetsu Shinkansen ~70 นาที",
+              "mode": "shinkansen",
+              "durationMin": 70
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "(เลือก) แวะ Doai Station",
+              "detail_th": "สถานีลึกสุดในญี่ปุ่น ลง 486 ขั้นในอุโมงค์ ถ่ายรูปแปลกตา",
+              "durationMin": 30
+            },
+            {
+              "time_th": "~10:00",
+              "title_th": "บัสขึ้นสถานีกระเช้า",
+              "detail_th": "บัสจาก Jomo-Kogen ขึ้น Tanigawadake Ropeway สถานีล่าง",
+              "mode": "bus",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "ropeway ขึ้น Tenjindaira",
+              "detail_th": "กระเช้าขึ้น 1,319 ม. ~15 นาที",
+              "mode": "ropeway",
+              "durationMin": 15
+            },
+            {
+              "time_th": "~11:30",
+              "title_th": "เดิน walk-in-the-air ชม koyo",
+              "detail_th": "เดินสันเขาชม koyo พีคแรกคันโต แดง-ทองทั้งหุบเขา",
+              "durationMin": 90
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "ลงกระเช้า + บัสกลับ",
+              "detail_th": "ropeway ลง + บัสกลับ Jomo-Kogen",
+              "mode": "ropeway",
+              "durationMin": 60
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "shinkansen กลับโตเกียว",
+              "detail_th": "Joetsu Shinkansen กลับ Tokyo ~70 นาที",
+              "mode": "shinkansen",
+              "durationMin": 70
+            }
+          ]
         }
       ]
     },
@@ -303,11 +352,73 @@
       "days": [
         {
           "title_th": "วันที่ 1 — เข้า Minakami แช่ออนเซ็น",
-          "detail_th": "shinkansen Tokyo → Jomo-Kogen → train → Minakami · เที่ยวเมือง/กิจกรรมผจญภัยแม่น้ำ Tone (หน้าร้อน) หรือเดินเล่นริมแม่น้ำ · เข้าที่พักออนเซ็น แช่ rotenburo ชมใบไม้แดง"
+          "detail_th": "shinkansen Tokyo → Jomo-Kogen → train → Minakami · เที่ยวเมือง/กิจกรรมผจญภัยแม่น้ำ Tone (หน้าร้อน) หรือเดินเล่นริมแม่น้ำ · เข้าที่พักออนเซ็น แช่ rotenburo ชมใบไม้แดง",
+          "steps": [
+            {
+              "time_th": "~09:00",
+              "title_th": "shinkansen Tokyo → Jomo-Kogen",
+              "detail_th": "Joetsu Shinkansen ~70 นาที",
+              "mode": "shinkansen",
+              "durationMin": 70
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "train → Minakami",
+              "detail_th": "ต่อรถเข้าเมืองออนเซ็น Minakami",
+              "mode": "train",
+              "durationMin": 30
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "เที่ยวเมือง / กิจกรรมแม่น้ำ Tone",
+              "detail_th": "rafting/canyoning หน้าร้อน หรือเดินเล่นริมแม่น้ำ",
+              "durationMin": 180
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "เข้าที่พักออนเซ็น",
+              "detail_th": "แช่ rotenburo ชมใบไม้แดง พักค้าง 1 คืน"
+            }
+          ]
         },
         {
           "title_th": "วันที่ 2 — กระเช้าขึ้นยอด",
-          "detail_th": "เช้าบัสจาก Minakami ขึ้นสถานีกระเช้า · ropeway ขึ้น Tenjindaira ชม koyo พีคแรกคันโต เดิน walk-in-the-air · (แวะ Doai Station ขากลับได้) → shinkansen กลับโตเกียวเย็น"
+          "detail_th": "เช้าบัสจาก Minakami ขึ้นสถานีกระเช้า · ropeway ขึ้น Tenjindaira ชม koyo พีคแรกคันโต เดิน walk-in-the-air · (แวะ Doai Station ขากลับได้) → shinkansen กลับโตเกียวเย็น",
+          "steps": [
+            {
+              "time_th": "~09:00",
+              "title_th": "บัสขึ้นสถานีกระเช้า",
+              "detail_th": "บัสจาก Minakami ขึ้น Tanigawadake Ropeway สถานีล่าง",
+              "mode": "bus",
+              "durationMin": 20
+            },
+            {
+              "time_th": "~09:45",
+              "title_th": "ropeway ขึ้น Tenjindaira",
+              "detail_th": "กระเช้าขึ้น 1,319 ม. ~15 นาที",
+              "mode": "ropeway",
+              "durationMin": 15
+            },
+            {
+              "time_th": "~10:00",
+              "title_th": "เดิน walk-in-the-air ชม koyo",
+              "detail_th": "เดินสันเขาชม koyo พีคแรกคันโต",
+              "durationMin": 120
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "(เลือก) แวะ Doai Station ขากลับ",
+              "detail_th": "สถานีลึกสุด 486 ขั้น",
+              "durationMin": 30
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "shinkansen กลับโตเกียว",
+              "detail_th": "บัส + Joetsu Shinkansen กลับ Tokyo",
+              "mode": "shinkansen",
+              "durationMin": 70
+            }
+          ]
         }
       ]
     }

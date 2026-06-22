@@ -302,11 +302,75 @@
       "days": [
         {
           "title_th": "วันที่ 1 — เข้า Matsumoto → Norikura Kogen",
-          "detail_th": "เช้า Azusa ชินจูกุ→Matsumoto (~2.5-3 ชม.) · เที่ยว Matsumoto Castle เบาๆ หรือต่อบัส Alpico เข้า Norikura Kogen ช่วงบ่าย · เข้าที่พัก แช่ออนเซ็น เดินเล่นทะเลสาบ Ushidome / น้ำตก Sanbon ใกล้ฐาน · พักผ่อนเตรียมขึ้นยอดเช้าวันรุ่ง"
+          "detail_th": "เช้า Azusa ชินจูกุ→Matsumoto (~2.5-3 ชม.) · เที่ยว Matsumoto Castle เบาๆ หรือต่อบัส Alpico เข้า Norikura Kogen ช่วงบ่าย · เข้าที่พัก แช่ออนเซ็น เดินเล่นทะเลสาบ Ushidome / น้ำตก Sanbon ใกล้ฐาน · พักผ่อนเตรียมขึ้นยอดเช้าวันรุ่ง",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "Azusa ชินจูกุ → Matsumoto",
+              "detail_th": "Ltd Express Azusa ~2.5-3 ชม.",
+              "mode": "train",
+              "durationMin": 165
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "(เลือก) เที่ยว Matsumoto Castle",
+              "detail_th": "ปราสาทดำเบาๆ ก่อนต่อรถเข้าที่ราบสูง",
+              "durationMin": 90
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "บัส Alpico → Norikura Kogen",
+              "detail_th": "ต่อรถ + บัสขึ้นที่ราบสูงฐาน ~1 ชม.",
+              "mode": "bus",
+              "durationMin": 80
+            },
+            {
+              "time_th": "บ่าย-เย็น",
+              "title_th": "เดินเล่นฐาน + แช่ออนเซ็น",
+              "detail_th": "ทะเลสาบ Ushidome / น้ำตก Sanbon ใกล้ฐาน · เข้าที่พัก แช่ออนเซ็น",
+              "durationMin": 90
+            }
+          ]
         },
         {
           "title_th": "วันที่ 2 — ขึ้น Tatamidaira + ยอด Kengamine",
-          "detail_th": "เช้าตรู่ฟ้าใส shuttle ขึ้น Tatamidaira (~50 นาที, จองล่วงหน้า) · เดินชมทุ่งดอกแอลป์ / สระ Fudoike · ใครไหวเดินต่อขึ้นยอด Kengamine 3,026 ม. (ไป-กลับ ~3 ชม.) · ลงทันรอบ shuttle เที่ยวบ่าย → กลับ Norikura Kogen → บัส Matsumoto → Azusa กลับโตเกียว"
+          "detail_th": "เช้าตรู่ฟ้าใส shuttle ขึ้น Tatamidaira (~50 นาที, จองล่วงหน้า) · เดินชมทุ่งดอกแอลป์ / สระ Fudoike · ใครไหวเดินต่อขึ้นยอด Kengamine 3,026 ม. (ไป-กลับ ~3 ชม.) · ลงทันรอบ shuttle เที่ยวบ่าย → กลับ Norikura Kogen → บัส Matsumoto → Azusa กลับโตเกียว",
+          "steps": [
+            {
+              "time_th": "เช้าตรู่",
+              "title_th": "shuttle ขึ้น Tatamidaira",
+              "detail_th": "ฟ้าใส ~50 นาที จองล่วงหน้า รถส่วนตัวห้ามขึ้น",
+              "mode": "bus",
+              "durationMin": 50
+            },
+            {
+              "time_th": "เช้า",
+              "title_th": "เดินชมทุ่งดอกแอลป์ / สระ Fudoike",
+              "detail_th": "ที่ราบยอด 2,702 ม. เดิน flat ชมวิว Northern Alps",
+              "durationMin": 60
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "(เลือก) เดินขึ้นยอด Kengamine",
+              "detail_th": "3,026 ม. ไป-กลับ ~3 ชม. ใครไหว",
+              "mode": "walk",
+              "durationMin": 180
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "shuttle ลง + บัส Matsumoto",
+              "detail_th": "ลงทันรอบ shuttle → กลับ Norikura Kogen → บัส Matsumoto",
+              "mode": "bus",
+              "durationMin": 100
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "Azusa กลับโตเกียว",
+              "detail_th": "Ltd Express Azusa Matsumoto → ชินจูกุ",
+              "mode": "train",
+              "durationMin": 165
+            }
+          ]
         }
       ]
     },
@@ -316,7 +380,34 @@
       "days": [
         {
           "title_th": "ใช้ Matsumoto เป็นฐาน ขึ้น-ลงวันเดียว",
-          "detail_th": "ค้าง Matsumoto · เช้ามืดบัส+shuttle ขึ้น Tatamidaira เก็บทุ่งดอก/ยอด แล้วลงกลับ Matsumoto เย็น · เหนื่อยและต้องเร่งรอบ shuttle แต่ไม่ต้องย้ายที่พัก เหมาะคนอยากเที่ยว Matsumoto ควบ"
+          "detail_th": "ค้าง Matsumoto · เช้ามืดบัส+shuttle ขึ้น Tatamidaira เก็บทุ่งดอก/ยอด แล้วลงกลับ Matsumoto เย็น · เหนื่อยและต้องเร่งรอบ shuttle แต่ไม่ต้องย้ายที่พัก เหมาะคนอยากเที่ยว Matsumoto ควบ",
+          "steps": [
+            {
+              "time_th": "เช้ามืด",
+              "title_th": "บัส + shuttle ขึ้น Tatamidaira",
+              "detail_th": "จาก Matsumoto ต่อบัส + shuttle ขึ้นยอด 2,702 ม. (จองล่วงหน้า)",
+              "mode": "bus",
+              "durationMin": 150
+            },
+            {
+              "time_th": "เช้า-สาย",
+              "title_th": "เก็บทุ่งดอก / ยอด",
+              "detail_th": "เดินชมทุ่งดอกแอลป์ สระ Fudoike หรือขึ้นยอด Kengamine",
+              "durationMin": 180
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "shuttle + บัสลง Matsumoto",
+              "detail_th": "ลงทันรอบ shuttle เที่ยวสุดท้าย กลับเข้าเมือง Matsumoto",
+              "mode": "bus",
+              "durationMin": 150
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "ค้าง Matsumoto",
+              "detail_th": "ไม่ต้องย้ายที่พัก เที่ยว Matsumoto ควบได้"
+            }
+          ]
         }
       ]
     }
