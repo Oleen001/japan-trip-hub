@@ -11,7 +11,7 @@ import { Icon } from '../Icon';
 const TOKYO: [number, number] = [139.6917, 35.6895];
 const HOME: { coordinates: [number, number]; zoom: number } = { coordinates: [138.4, 36.4], zoom: 6 };
 const MIN_ZOOM = 0.8;
-const MAX_ZOOM = 12;
+const MAX_ZOOM = 18;
 
 // recreate ComposableMap's projection so we can project lng/lat → x/y ourselves
 // (default viewBox 800×600 → translate [400,300]); must match projectionConfig below
@@ -181,7 +181,11 @@ export function JapanMap({
           {/* popover (map callout) for the active pin — tracks the pin, points down at it */}
           {activeDest && (
             <Marker coordinates={[activeDest.coords.lng, activeDest.coords.lat]}>
-              <g transform={`scale(${popK})`} style={{ pointerEvents: 'auto' }}>
+              <g
+                transform={`scale(${popK})`}
+                style={{ pointerEvents: 'auto' }}
+                onPointerDown={(e) => e.stopPropagation()}
+              >
                 <foreignObject x={-124} y={-214} width={248} height={172} style={{ overflow: 'visible' }}>
                   <div
                     className="relative w-[236px] overflow-hidden rounded-xl border border-line bg-white shadow-pop"
@@ -222,7 +226,8 @@ export function JapanMap({
                     </Link>
                     <button
                       type="button"
-                      onClick={(e) => {
+                      onPointerDown={(e) => e.stopPropagation()}
+                      onPointerUp={(e) => {
                         e.stopPropagation();
                         onSelectPin(activeDest.slug);
                       }}
