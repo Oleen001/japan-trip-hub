@@ -20,7 +20,6 @@ export function MapPin({
   onLeave,
   onSelect,
   label,
-  zoom = 1,
 }: {
   coords: [number, number];
   pinId: string;
@@ -33,7 +32,6 @@ export function MapPin({
   onLeave: () => void;
   onSelect: () => void;
   label: string;
-  zoom?: number;
 }) {
   // pointer-down position, to tell a click apart from a map pan (d3-zoom)
   const downRef = useRef<{ x: number; y: number } | null>(null);
@@ -42,10 +40,11 @@ export function MapPin({
   const clipId = `pin-clip-${pinId}`;
   const dimmed = state === 'dimmed';
   const lifted = state === 'hover' || state === 'active';
-  // pins grow when zooming in and shrink when zooming out, but damped (√) so
-  // they never balloon at max zoom. Normalized to the default zoom (6) so the
-  // on-screen size there matches the old constant-size pin.
-  const k = 1 / Math.sqrt(6 * zoom);
+  // Fixed scale (NOT tied to zoom state) — the pin lives in map space, so the
+  // ZoomableGroup's own transform scales it smoothly as you zoom (grows when you
+  // move closer, shrinks when you pull back) with no per-zoom re-render or
+  // counter-scale snap. 1/6 normalizes the default zoom (6) to the old size.
+  const k = 1 / 6;
 
   return (
     <Marker coordinates={coords} onMouseEnter={onHover} onMouseLeave={onLeave}>

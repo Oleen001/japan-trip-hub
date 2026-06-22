@@ -174,7 +174,6 @@ export function JapanMap({
                 onHover={() => onHoverPin(d.slug)}
                 onLeave={() => onHoverPin(null)}
                 onSelect={() => onSelectPin(d.slug)}
-                zoom={pos.zoom}
               />
             );
           })}
