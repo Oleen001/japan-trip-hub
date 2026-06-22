@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import type { Poi } from '@/lib/types';
 import { Icon } from '../Icon';
+import { FlatIcon } from '../FlatIcon';
 import { SmartImage } from '../SmartImage';
 import { Modal } from '../Modal';
 
@@ -32,7 +33,7 @@ export function PoiGrid({ pois }: { pois: Poi[] }) {
         maxWidth={620}
         title={
           <span className="flex items-center gap-2">
-            {active && <Icon name={active.icon} size={20} style={{ color: 'var(--alp)' }} />}
+            {active && <FlatIcon name={active.icon} size={22} />}
             {active?.name}
           </span>
         }
@@ -88,7 +89,7 @@ function PoiCard({ poi, onOpen }: { poi: Poi; onOpen: () => void }) {
       <div className="p-[18px]">
         <div className="mb-[6px] flex items-baseline justify-between gap-2">
           <h4 className="flex items-center gap-2 text-[16px] font-bold">
-            <Icon name={poi.icon} size={18} style={{ color: 'var(--alp)' }} />
+            <FlatIcon name={poi.icon} size={20} />
             {poi.name}
           </h4>
           {dur && (

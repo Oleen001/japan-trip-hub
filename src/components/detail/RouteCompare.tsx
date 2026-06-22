@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import type { AccessOption } from '@/lib/types';
 import { Icon } from '../Icon';
+import { FlatIcon } from '../FlatIcon';
 import { Yen } from '../Yen';
 import { Tag } from '../primitives';
 import { Modal } from '../Modal';
@@ -54,7 +55,7 @@ export function RouteCompare({ options }: { options: AccessOption[] }) {
                         <span key={j} className="flex items-center gap-[3px]">
                           {j > 0 && <Icon name="angle-right" size={13} className="text-ink-soft" />}
                           <span className="inline-flex items-center gap-1 rounded-full border border-line bg-white px-[8px] py-[2px] text-[11.5px] font-semibold text-ink-soft">
-                            <Icon name={leg.icon} size={13} style={{ color: 'var(--alp)' }} />
+                            <FlatIcon name={leg.icon} size={14} />
                             {leg.label_th}
                           </span>
                         </span>
@@ -148,7 +149,7 @@ function StepTimeline({
               className="absolute left-[-26px] top-[2px] grid h-[20px] w-[20px] place-items-center rounded-full border-2 border-alp bg-white"
               aria-hidden
             >
-              <Icon name={iconForMode(s.mode)} size={11} style={{ color: 'var(--alp)' }} />
+              <FlatIcon name={iconForMode(s.mode)} size={13} />
             </span>
 
             <div className="flex items-baseline justify-between gap-3">

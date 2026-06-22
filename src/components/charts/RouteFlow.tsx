@@ -1,5 +1,5 @@
 import type { RouteStop } from '@/lib/types';
-import { Icon } from '../Icon';
+import { FlatIcon } from '../FlatIcon';
 import { iconForMode } from '@/lib/route';
 
 export function RouteFlow({ stops }: { stops: RouteStop[] }) {
@@ -61,8 +61,8 @@ export function RouteFlow({ stops }: { stops: RouteStop[] }) {
               </div>
               {stop.modeToNext && i < stops.length - 1 && (
                 <div className="flex min-h-[20px] items-center gap-[6px] py-px pl-px text-[11.5px] text-ink-soft">
-                  <span style={{ color: 'var(--snow)' }}>
-                    <Icon name={iconForMode(stop.modeToNext)} size={14} />
+                  <span>
+                    <FlatIcon name={iconForMode(stop.modeToNext)} size={15} />
                   </span>
                   <em className="not-italic">
                     <span className="italic">{stop.modeToNext}</span>

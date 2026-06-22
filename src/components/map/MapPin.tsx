@@ -1,5 +1,6 @@
 'use client';
 
+import { useRef } from 'react';
 import { Marker } from 'react-simple-maps';
 import type { Category, Difficulty } from '@/lib/types';
 import { CATEGORY_COLOR, CATEGORY_ICON, DIFFICULTY_COLOR } from '@/lib/maps';
@@ -30,6 +31,8 @@ export function MapPin({
   label: string;
   zoom?: number;
 }) {
+  // pointer-down position, to tell a click apart from a map pan (d3-zoom)
+  const downRef = useRef<{ x: number; y: number } | null>(null);
   const color = CATEGORY_COLOR[category];
   const size = state === 'active' ? 42 : 34;
   const dimmed = state === 'dimmed';
@@ -39,7 +42,7 @@ export function MapPin({
   const k = 1 / Math.max(1, zoom);
 
   return (
-    <Marker coordinates={coords} onMouseEnter={onHover} onMouseLeave={onLeave} onClick={onSelect}>
+    <Marker coordinates={coords} onMouseEnter={onHover} onMouseLeave={onLeave}>
       <g transform={`scale(${k})`}>
       <g
         style={{
@@ -52,11 +55,20 @@ export function MapPin({
         tabIndex={0}
         role="button"
         aria-label={`${label} — ความง่าย ${difficulty}/5`}
-        // DOM click on the element fires reliably even though the parent
-        // ZoomableGroup (d3-zoom) swallows the Marker's own onClick during pan
-        onClick={(e) => {
-          e.stopPropagation();
-          onSelect();
+        // Distinguish a tap from a map pan ourselves: d3-zoom (ZoomableGroup)
+        // intercepts pointer events, so a plain onClick fires unreliably.
+        // Record pointer-down, then treat pointer-up as a select only if the
+        // pointer barely moved (< 6px) — a real drag is left to the map.
+        onPointerDown={(e) => {
+          downRef.current = { x: e.clientX, y: e.clientY };
+        }}
+        onPointerUp={(e) => {
+          const d = downRef.current;
+          downRef.current = null;
+          if (d && Math.hypot(e.clientX - d.x, e.clientY - d.y) < 6) {
+            e.stopPropagation();
+            onSelect();
+          }
         }}
         onKeyDown={(e) => {
           if (e.key === 'Enter' || e.key === ' ') {
