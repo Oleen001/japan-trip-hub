@@ -85,27 +85,6 @@ export function DestinationDetail({ data }: { data: Destination }) {
               <RouteCompare options={data.access.options} />
             </Card>
 
-            {/* ค่าใช้จ่าย — donut + table รวมใน tile เดียว */}
-            <Card>
-              <TileHead icon="dollar-alt" title="ค่าใช้จ่าย" subtitle="ต่อคน · เรท 0.23 THB/JPY" />
-              <BudgetDonut
-                items={data.budget.items}
-                totalYen={data.budget.totalYen}
-                totalThb={data.budget.totalThb}
-              />
-              {data.budget.note_th && (
-                <p className="mb-5 mt-4 text-[12.5px] leading-[1.6] text-ink-soft">{data.budget.note_th}</p>
-              )}
-              <div className="border-t border-line pt-5">
-                <BudgetTable budget={data.budget} />
-                <Note tone="blue">
-                  <b>ช่วงงบ:</b>&nbsp; Low ~{ranges.lowThb.toLocaleString('en-US')} ฿ &nbsp;·&nbsp;{' '}
-                  <b>Mid ~{ranges.midThb.toLocaleString('en-US')} ฿</b> &nbsp;·&nbsp; High ~
-                  {ranges.highThb.toLocaleString('en-US')}+ ฿
-                </Note>
-              </div>
-            </Card>
-
             {/* season timeline gantt */}
             {data.seasonTimeline && data.seasonTimeline.length > 0 && (
               <Card>
@@ -136,6 +115,27 @@ export function DestinationDetail({ data }: { data: Destination }) {
                 <RouteFlow stops={data.routeFlow} />
               </Card>
             )}
+
+            {/* ค่าใช้จ่าย — donut + table (rail) */}
+            <Card>
+              <TileHead icon="dollar-alt" title="ค่าใช้จ่าย" subtitle="ต่อคน · เรท 0.23 THB/JPY" />
+              <BudgetDonut
+                items={data.budget.items}
+                totalYen={data.budget.totalYen}
+                totalThb={data.budget.totalThb}
+              />
+              {data.budget.note_th && (
+                <p className="mb-5 mt-4 text-[12.5px] leading-[1.6] text-ink-soft">{data.budget.note_th}</p>
+              )}
+              <div className="border-t border-line pt-5">
+                <BudgetTable budget={data.budget} />
+                <Note tone="blue">
+                  <b>ช่วงงบ:</b>&nbsp; Low ~{ranges.lowThb.toLocaleString('en-US')} ฿ &nbsp;·&nbsp;{' '}
+                  <b>Mid ~{ranges.midThb.toLocaleString('en-US')} ฿</b> &nbsp;·&nbsp; High ~
+                  {ranges.highThb.toLocaleString('en-US')}+ ฿
+                </Note>
+              </div>
+            </Card>
 
             {/* อาหารแนะนำ */}
             {data.food && data.food.length > 0 && (

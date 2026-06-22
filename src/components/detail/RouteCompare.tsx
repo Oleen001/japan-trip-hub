@@ -82,7 +82,10 @@ export function RouteCompare({ options }: { options: AccessOption[] }) {
                 </div>
               </div>
 
-              <p className="mt-[10px] text-[12.5px] leading-[1.6] text-ink-soft">{opt.detail_th}</p>
+              {/* full paragraph only when there's no structured step breakdown */}
+              {!hasSteps && (
+                <p className="mt-[10px] text-[12.5px] leading-[1.6] text-ink-soft">{opt.detail_th}</p>
+              )}
 
               {hasSteps && (
                 <button

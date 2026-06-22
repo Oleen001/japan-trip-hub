@@ -1,10 +1,9 @@
-import type { Category, Destination, Difficulty, SeasonType } from './types';
+import type { Category, Destination, SeasonType } from './types';
 
 export type FilterState = {
   region: string | 'all';
   seasons: SeasonType[];
   categories: Category[];
-  maxDifficulty: Difficulty;
   savedOnly: boolean;
 };
 
@@ -12,7 +11,6 @@ export const DEFAULT_FILTER: FilterState = {
   region: 'all',
   seasons: [],
   categories: [],
-  maxDifficulty: 5,
   savedOnly: false,
 };
 
@@ -26,7 +24,6 @@ export function matchesFilter(
   savedSlugs: string[],
 ): boolean {
   if (f.region !== 'all' && d.region !== f.region) return false;
-  if (d.difficultyFromTokyo > f.maxDifficulty) return false;
   if (f.categories.length > 0 && !f.categories.some((c) => d.category.includes(c))) return false;
   if (f.seasons.length > 0) {
     const types = seasonTypes(d);
@@ -41,7 +38,6 @@ export function isFilterActive(f: FilterState): boolean {
     f.region !== 'all' ||
     f.seasons.length > 0 ||
     f.categories.length > 0 ||
-    f.maxDifficulty < 5 ||
     f.savedOnly
   );
 }

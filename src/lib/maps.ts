@@ -38,6 +38,15 @@ export const DIFFICULTY_COLOR: Record<Difficulty, string> = {
   5: '#b03a3a',
 };
 
+/** สั้น — ใช้บน chip/pill คู่กับ DifficultyPips (สื่อ level จริง ไม่ใช่ "ง่าย" ทุกอัน) */
+export const DIFFICULTY_SHORT_TH: Record<Difficulty, string> = {
+  1: 'ง่ายมาก',
+  2: 'ง่าย',
+  3: 'ปานกลาง',
+  4: 'ค่อนข้างยาก',
+  5: 'ยาก',
+};
+
 export const DIFFICULTY_LABEL_TH: Record<Difficulty, string> = {
   1: 'ชิล day-trip',
   2: 'ง่าย',

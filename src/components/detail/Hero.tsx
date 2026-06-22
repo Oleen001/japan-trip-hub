@@ -2,7 +2,7 @@ import type { Destination } from '@/lib/types';
 import { Icon } from '../Icon';
 import { CategoryGlyph } from '../CategoryGlyph';
 import { DifficultyPips } from '../DifficultyPips';
-import { CATEGORY_LABEL_TH, SEASON_LABEL_TH } from '@/lib/maps';
+import { CATEGORY_LABEL_TH, DIFFICULTY_SHORT_TH, SEASON_LABEL_TH } from '@/lib/maps';
 
 export function Hero({ data }: { data: Destination }) {
   const primaryCat = data.category[0];
@@ -37,7 +37,7 @@ export function Hero({ data }: { data: Destination }) {
           )}
           {topSeasonType && <MetaPill icon="trees">{SEASON_LABEL_TH[topSeasonType]}</MetaPill>}
           <span className="inline-flex items-center gap-[7px] rounded-full border border-white/[.18] bg-white/[.12] px-[14px] py-[7px] text-[13.5px]">
-            ความง่าย <DifficultyPips level={data.difficultyFromTokyo} light />
+            {DIFFICULTY_SHORT_TH[data.difficultyFromTokyo]} <DifficultyPips level={data.difficultyFromTokyo} light />
           </span>
         </div>
       </div>

@@ -10,6 +10,7 @@ import { FilterBar } from './FilterBar';
 import { DestinationCard } from './DestinationCard';
 import { RouteCompare } from './detail/RouteCompare';
 import { DifficultyPips } from './DifficultyPips';
+import { DIFFICULTY_SHORT_TH } from '@/lib/maps';
 import { Icon } from './Icon';
 import { cn } from '@/lib/cn';
 
@@ -26,7 +27,6 @@ function summarize(f: FilterState): string {
   if (f.region !== 'all') parts.push(`ภาค ${f.region}`);
   if (f.categories.length) parts.push(`${f.categories.length} ประเภท`);
   if (f.seasons.length) parts.push(`${f.seasons.length} ฤดู`);
-  if (f.maxDifficulty < 5) parts.push(`ความง่าย ≤${f.maxDifficulty}`);
   if (f.savedOnly) parts.push('เฉพาะที่บันทึก');
   return 'กรอง: ' + parts.join(' · ');
 }
@@ -90,7 +90,9 @@ export function IndexClient({ destinations }: { destinations: Destination[] }) {
                   </p>
                 </div>
                 <span className="inline-flex flex-none items-center gap-[5px] rounded-full bg-paper px-[8px] py-[3px]">
-                  <span className="text-[9.5px] font-bold uppercase tracking-wide text-ink-soft">ง่าย</span>
+                  <span className="text-[9.5px] font-bold uppercase tracking-wide text-ink-soft">
+                    {DIFFICULTY_SHORT_TH[activeDest.difficultyFromTokyo]}
+                  </span>
                   <DifficultyPips level={activeDest.difficultyFromTokyo} />
                 </span>
               </div>

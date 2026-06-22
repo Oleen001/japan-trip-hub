@@ -7,7 +7,7 @@ import { SmartImage } from './SmartImage';
 import { SaveButton } from './SaveButton';
 import { DifficultyPips } from './DifficultyPips';
 import { CategoryGlyph } from './CategoryGlyph';
-import { CATEGORY_COLOR, CATEGORY_LABEL_TH, SEASON_LABEL_TH } from '@/lib/maps';
+import { CATEGORY_COLOR, CATEGORY_LABEL_TH, DIFFICULTY_SHORT_TH, SEASON_LABEL_TH } from '@/lib/maps';
 import { cn } from '@/lib/cn';
 
 export function DestinationCard({
@@ -51,7 +51,9 @@ export function DestinationCard({
             </span>
           )}
           <span className="inline-flex items-center gap-[6px] rounded-full bg-white px-[9px] py-[4px] shadow-pin">
-            <span className="text-[10px] font-bold uppercase tracking-wide text-ink-soft">ง่าย</span>
+            <span className="text-[10px] font-bold uppercase tracking-wide text-ink-soft">
+              {DIFFICULTY_SHORT_TH[destination.difficultyFromTokyo]}
+            </span>
             <DifficultyPips level={destination.difficultyFromTokyo} />
           </span>
         </div>

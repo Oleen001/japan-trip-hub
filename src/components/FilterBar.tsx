@@ -46,7 +46,7 @@ export function FilterBar({
 
   return (
     <div className={cn('flex flex-col gap-[14px]', className)}>
-      {/* region + difficulty row */}
+      {/* region */}
       <div className={cn('flex flex-wrap items-center gap-3', layout === 'sheet' && 'flex-col items-stretch')}>
         <label className="flex items-center gap-2 text-[13px] font-semibold text-ink-soft">
           ภาค
@@ -63,33 +63,6 @@ export function FilterBar({
             ))}
           </select>
         </label>
-
-        <div className="flex min-w-[200px] flex-1 flex-col gap-[3px]">
-          <div className="flex items-center gap-2">
-            <span className="whitespace-nowrap text-[12px] font-semibold text-ink-soft">ความง่าย</span>
-            <input
-              type="range"
-              min={1}
-              max={5}
-              step={1}
-              value={value.maxDifficulty}
-              onChange={(e) =>
-                onChange({ ...value, maxDifficulty: Number(e.target.value) as FilterState['maxDifficulty'] })
-              }
-              className="diff-slider h-[6px] flex-1 cursor-pointer appearance-none rounded-full"
-              style={{
-                background:
-                  'linear-gradient(90deg,#2f7d52,#5f9e6e,#b8893a,#c8662f,#b03a3a)',
-              }}
-              aria-label="ความง่ายจากโตเกียวสูงสุด"
-            />
-            <span className="w-10 text-right text-[12px] font-bold text-ink tabnum">≤{value.maxDifficulty}/5</span>
-          </div>
-          <div className="flex justify-between px-[2px] text-[10.5px] text-ink-soft">
-            <span>ชิล day-trip</span>
-            <span>ค้าง + หลายต่อ</span>
-          </div>
-        </div>
       </div>
 
       {/* season chips */}

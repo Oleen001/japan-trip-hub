@@ -115,6 +115,18 @@ body {
   }
 }
 
+/* season-gantt popover entrance */
+@keyframes gantt-pop {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* difficulty range slider thumb */
 .diff-slider::-webkit-slider-thumb {
   -webkit-appearance: none;

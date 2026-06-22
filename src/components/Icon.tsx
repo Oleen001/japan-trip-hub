@@ -49,6 +49,9 @@ const UIL_TO_PH: Record<string, string> = {
   'sign-alt': 'arrows-merge',
   // tile heads + misc
   'dollar-alt': 'coins',
+  bed: 'bed',
+  'shopping-bag': 'shopping-bag',
+  wallet: 'wallet',
   receipt: 'receipt',
   'exclamation-triangle': 'warning',
   ticket: 'ticket',
