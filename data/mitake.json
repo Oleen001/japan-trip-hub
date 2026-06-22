@@ -1,0 +1,348 @@
+{
+  "slug": "mitake",
+  "name": {
+    "en": "Mount Mitake",
+    "th": "ภูเขามิทาเกะ",
+    "jp": "御岳山"
+  },
+  "region": "Kanto",
+  "prefecture": "Tokyo",
+  "coords": {
+    "lat": 35.7833,
+    "lng": 139.15
+  },
+  "category": [
+    "mountain",
+    "nature",
+    "shrine"
+  ],
+  "tagline_th": "ธรรมชาติเขียวขจี โกรกธารน้ำใส + หมู่บ้านบนภูเขามีศาลเจ้า ห่างชินจูกุ ~2 ชม. day-trip ชิลสุด",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitake_Valley_%40_Mitake_(10418840623).jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitake_Valley_%40_Mitake_(10418871943).jpg?width=1600"
+  },
+  "difficultyFromTokyo": 1,
+  "access": {
+    "summary_th": "ง่ายสุดในลิสต์ — JR Chuo Line จากชินจูกุถึง Ome (~75 นาที) ต่อ Ome Line ไป Mitake แล้วบัส 10 นาที + cable car ขึ้นเกือบถึงยอด ไม่เกิน 2 ชม. ไม่ต้องค้าง",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "JR Chuo/Ome Line + บัส + cable car",
+        "detail_th": "ชินจูกุ → train (Chuo Line) → Ome → train (Ome Line) → Mitake Station → bus 10 นาที → Takimoto → cable car ~6 นาที → Mitakesan",
+        "durationMin": 150,
+        "costYen": 2080,
+        "transfers": 3,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "cablecar",
+            "label_th": "เคเบิลคาร์",
+            "icon": "cable-car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Ome Station",
+            "mode": "train",
+            "line_th": "JR Chuo Line (Rapid)",
+            "durationMin": 75,
+            "costYen": 0,
+            "note_th": "รวมค่าโดยสารกับช่วง Ome→Mitake เป็น 1,040 เยน (คิดตามระยะ JR ต่อเนื่อง) — ใส่ค่าไว้ที่ leg ถัดไป"
+          },
+          {
+            "from": "Ome Station",
+            "to": "Mitake Station",
+            "mode": "train",
+            "line_th": "JR Ome Line",
+            "durationMin": 20,
+            "costYen": 1040,
+            "note_th": "ค่าโดยสาร JR Shinjuku→Mitake รวม 1,040 เยน · มักเปลี่ยนขบวนที่ Ome (บางขบวนเลยตรงถึง Mitake)"
+          },
+          {
+            "from": "Mitake Station",
+            "to": "Takimoto (Cable Car ฐานล่าง)",
+            "mode": "bus",
+            "line_th": "Nishi Tokyo Bus (สาย Cable-shita)",
+            "durationMin": 10,
+            "costYen": 340,
+            "note_th": "~2 เที่ยว/ชม. · หรือเดินขึ้น ~40 นาที"
+          },
+          {
+            "from": "Takimoto",
+            "to": "Mitakesan (ยอด)",
+            "mode": "cablecar",
+            "line_th": "Mitake Tozan Cable Car",
+            "durationMin": 6,
+            "costYen": 700,
+            "note_th": "ขาเดียว 700 เยน (ไป-กลับ 1,200) · 2-3 เที่ยว/ชม. · เช็ครอบสุดท้ายลงเขา ~18:00"
+          }
+        ]
+      },
+      {
+        "mode": "Holiday Rapid Okutama (เสาร์-อาทิตย์ แนะนำ)",
+        "detail_th": "ชินจูกุ → train (Holiday Rapid Okutama ตรง) → Mitake Station → bus → cable car → Mitakesan",
+        "durationMin": 120,
+        "costYen": 2080,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "cablecar",
+            "label_th": "เคเบิลคาร์",
+            "icon": "cable-car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Mitake Station",
+            "mode": "train",
+            "line_th": "Holiday Rapid Okutama (ตรง ไม่ต้องต่อ)",
+            "durationMin": 85,
+            "costYen": 1040,
+            "note_th": "เฉพาะเสาร์-อาทิตย์/วันหยุด · เป็น rapid ไม่มีค่าธรรมเนียมพิเศษ ราคาเท่า Chuo+Ome รวมกัน · ~3 เที่ยว/วัน ขาไปช่วงเช้า"
+          },
+          {
+            "from": "Mitake Station",
+            "to": "Takimoto (Cable Car ฐานล่าง)",
+            "mode": "bus",
+            "line_th": "Nishi Tokyo Bus (สาย Cable-shita)",
+            "durationMin": 10,
+            "costYen": 340,
+            "note_th": "~2 เที่ยว/ชม. · หรือเดินขึ้น ~40 นาที"
+          },
+          {
+            "from": "Takimoto",
+            "to": "Mitakesan (ยอด)",
+            "mode": "cablecar",
+            "line_th": "Mitake Tozan Cable Car",
+            "durationMin": 6,
+            "costYen": 700,
+            "note_th": "ขาเดียว 700 เยน (ไป-กลับ 1,200) · เช็ครอบสุดท้ายลงเขา ~18:00"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง พ.ย.",
+      "months": [
+        11
+      ],
+      "note_th": "กลาง-ปลาย พ.ย. ใบเมเปิลแดงในโกรก บนที่สูงเย็นกว่าโตเกียว เตรียมเสื้อกันหนาว"
+    },
+    {
+      "label": "ร้อนหนีร้อน ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "เขียวสด ลำธารเย็น เหมาะ river trekking อากาศเย็นกว่าตัวเมือง"
+    },
+    {
+      "label": "ใบไม้ผลิ เม.ย.-พ.ค.",
+      "months": [
+        4,
+        5
+      ],
+      "note_th": "ป่าเขียวอ่อน อากาศกำลังดี"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "โกรก Mitake",
+      "type": "koyo",
+      "startFrac": 0.83,
+      "endFrac": 0.95,
+      "note_th": "เมเปิลแดงกลาง-ปลาย พ.ย."
+    },
+    {
+      "zone": "ป่าฤดูร้อน",
+      "type": "green",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "เขียวสด ก.ค.-ส.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · เดินทาง+cable car เป็นค่าหลัก ถูกที่สุดในลิสต์",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (JR ชินจูกุ↔Mitake)",
+        "yen": 1840,
+        "thb": 423,
+        "note_th": "JR Chuo/Ome Line ไป-กลับ หรือ Holiday Rapid วันหยุด"
+      },
+      {
+        "label_th": "cable car ไป-กลับ",
+        "yen": 1200,
+        "thb": 276,
+        "note_th": "Takimoto → Mitakesan ~6 นาที ข้อต่อหลักขึ้นยอด"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "soba/udon ในหมู่บ้าน + คาเฟ่ริมโกรก"
+      },
+      {
+        "label_th": "ค่าเข้า/ของฝาก",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "ทำบุญศาลเจ้า + ของที่ระลึก"
+      }
+    ],
+    "totalYen": 6040,
+    "totalThb": 1389,
+    "ranges": {
+      "lowThb": 900,
+      "midThb": 1500,
+      "highThb": 2500
+    }
+  },
+  "pois": [
+    {
+      "name": "Mitake Gorge",
+      "icon": "water",
+      "blurb_th": "โกรกธารน้ำใสมรกต โขดหิน เดินเลียบน้ำได้สบาย",
+      "deepDive_th": "Mitake Gorge (御岳渓谷) โกรกธารใกล้สถานี Mitake น้ำสีมรกตไหลผ่านโขดหิน มีเส้นเดินเลียบน้ำที่ราบเรียบไม่ต้องปีน เดินสบายทุกวัย · เป็นสปอตใบไม้เปลี่ยนสี (koyo) กลาง-ปลาย พ.ย. ที่สวยมาก และหน้าร้อนยังเป็นจุดเล่นคายัก/แช่ตัวคลายร้อนยอดนิยม · อยู่ห่างจากสถานี Mitake แค่ ~2 นาที เหมาะเริ่มหรือปิดท้ายวันแบบไม่ต้องเหนื่อย",
+      "location_th": "ใกล้ Mitake Station 2 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitake_Valley_%40_Mitake_(10418871943).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitake_Valley_%40_Mitake_(10418840623).jpg?width=1600"
+      }
+    },
+    {
+      "name": "Musashi-Mitake Shrine",
+      "icon": "building",
+      "durationMin": 30,
+      "blurb_th": "ศาลเจ้าบนยอด เดินจากกระเช้า ~25 นาทีผ่านหมู่บ้านบนภูเขา",
+      "deepDive_th": "Musashi-Mitake Shrine (武蔵御嶽神社) ศาลเจ้าโบราณบนยอดเขาสูง 929 ม. เดินจากสถานีกระเช้าด้านบน ~25 นาทีผ่านหมู่บ้านบนภูเขาที่ยังมี shukubo (เรือนพักนักแสวงบุญ) ให้ค้างได้ · บรรยากาศขลังกลางป่าสนซีดาร์เก่าแก่ · จุดเด่นคือเป็นศาลเจ้าที่นิยมพา 'สุนัข' มาขอพร (รับการคุ้มครองสุนัข) มีโอมาโมริสำหรับสัตว์เลี้ยงโดยเฉพาะ · ทางเดินขึ้นเป็นบันไดหินช่วงท้าย เผื่อแรงเล็กน้อย",
+      "location_th": "ยอด 929 ม.",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitake_Valley_%40_Mitake_(10418734575).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitake_Valley_%40_Mitake_(10418840623).jpg?width=1600"
+      }
+    },
+    {
+      "name": "Rock Garden (Nanayo Falls)",
+      "icon": "trees",
+      "durationMin": 150,
+      "blurb_th": "เส้นเดินป่า 2-3 ชม. ผ่านลำธารหินมอส น้ำตกเล็ก",
+      "deepDive_th": "Rock Garden (ロックガーデン) เส้นเดินวงรอบจากยอด ~2-3 ชม. ลัดเลาะผ่านลำธารหินปกคลุมมอสเขียวชอุ่ม น้ำตกเล็กเป็นระยะ อากาศเย็นชื้นสบายตลอดเส้น · เหมาะคนชอบเดินเบาๆ ในธรรมชาติ ไม่ชันมากแต่พื้นลื่นช่วงฝน · ผ่านน้ำตก Nanayo และเชื่อมต่อกับน้ำตก Ayahiro ในเส้นเดียวกัน เป็นไฮไลต์ trekking ของ Mitake",
+      "location_th": "เส้นวงรอบจากยอด",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%83%E4%BB%A3%E3%81%AE%E6%BB%9D%EF%BC%88%E5%BE%A1%E5%B2%B3%E5%B1%B1%EF%BC%89.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Ayahiro Falls",
+      "icon": "water",
+      "blurb_th": "น้ำตกศักดิ์สิทธิ์ ใช้ทำพิธีชำระล้าง",
+      "deepDive_th": "Ayahiro Falls (綾広の滝) น้ำตกศักดิ์สิทธิ์อยู่ในเส้นเดิน Rock Garden ใช้ทำพิธี misogi (ชำระล้างกายใจด้วยน้ำตก) ของผู้ฝึกทางจิตวิญญาณ · บรรยากาศเงียบสงบกลางป่าลึก น้ำใสเย็น เป็นจุดพักที่สวยและขลังที่สุดจุดหนึ่งของเส้นเดิน · เดินถึงได้ต่อเนื่องจาก Rock Garden ไม่ต้องแยกเส้น",
+      "location_th": "ในเส้น Rock Garden",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%B6%BE%E5%BA%83%E3%81%AE%E6%BB%9D%EF%BC%88%E5%BE%A1%E5%B2%B3%E5%B1%B1%EF%BC%89.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ชิลวันเดียว (โกรก + ยอดเขา)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เช้า-บ่าย เก็บครบในวันเดียว",
+          "detail_th": "ออกชินจูกุเช้า (เสาร์-อาทิตย์ใช้ Holiday Rapid Okutama ตรง สบายสุด) → ลง Mitake Station แวะเดิน Mitake Gorge เลียบน้ำมรกต → บัส 10 นาทีไป Takimoto → cable car ขึ้น Mitakesan → เดินผ่านหมู่บ้านบนภูเขา ~25 นาทีขึ้น Musashi-Mitake Shrine → ถ้ามีแรงเดินเส้น Rock Garden + Ayahiro Falls (~2-3 ชม.) → cable car ลง (เช็ครอบสุดท้าย ~18:00) → กลับชินจูกุเย็น"
+        }
+      ]
+    },
+    {
+      "label_th": "แบบสั้น ครึ่งวัน (ข้าม Rock Garden)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เก็บไฮไลต์เร็วๆ",
+          "detail_th": "เหมาะถ้ามีเวลาจำกัด/มากับเด็กเล็ก: cable car ขึ้น Mitakesan → เดินขึ้น Musashi-Mitake Shrine → ลงมาเดิน Mitake Gorge ปิดท้าย → กลับ · ข้ามเส้น Rock Garden ที่ใช้เวลานานออกไป"
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "cable car เป็นข้อต่อหลักขึ้น-ลงยอด เช็ครอบสุดท้ายลงเขา (~18:00) ให้ดี อย่าตกรอบ ไม่งั้นต้องเดินลงไกล",
+    "เส้น Rock Garden ลื่นช่วงฝน/หลังฝน ใส่รองเท้ากันลื่นพื้นยึดเกาะดี",
+    "หน้าหนาวบนยอดเย็นกว่าโตเกียวหลายองศา เช้าอาจมีน้ำแข็งเกาะตามทางเดิน ระวังลื่น"
+  ],
+  "sources": [
+    {
+      "label": "Mount Mitake — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e3036.html"
+    },
+    {
+      "label": "Mount Mitake — JNTO",
+      "url": "https://www.japan.travel/en/spot/1631/"
+    }
+  ],
+  "tags_th": [
+    "day-trip",
+    "โกรกธาร",
+    "ศาลเจ้า",
+    "ใบไม้แดง",
+    "ใกล้โตเกียว"
+  ],
+  "food": [
+    {
+      "name": "โซบะภูเขา",
+      "name_jp": "蕎麦",
+      "emoji": "🍜",
+      "note_th": "ร้านโซบะบนหมู่บ้านยอดเขา"
+    },
+    {
+      "name": "วาซาบิสด",
+      "name_jp": "山葵",
+      "emoji": "🌿",
+      "note_th": "น้ำใสแถบ Okutama ปลูกวาซาบิดี"
+    },
+    {
+      "name": "ปลาอายุย่างเกลือ",
+      "name_jp": "鮎の塩焼き",
+      "emoji": "🐟",
+      "note_th": "ปลาแม่น้ำย่างเกลือ ริมโกรก Mitake"
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "slug": "karuizawa",
+  "name": {
+    "en": "Karuizawa",
+    "th": "คารุอิซาวะ",
+    "jp": "軽井沢"
+  },
+  "region": "Chubu",
+  "prefecture": "Nagano",
+  "coords": {
+    "lat": 36.3486,
+    "lng": 138.5972
+  },
+  "category": [
+    "nature",
+    "mountain"
+  ],
+  "tagline_th": "เมืองตากอากาศบนที่ราบสูง ป่า forest-bathing + น้ำตก Shiraito + ใบไม้แดง shinkansen 70 นาทีถึง",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Karuizawa_shiraito-no-taki03s3200.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shiraito_Falls%2C_Karuizawa_2243.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "ง่ายและเร็ว — Hokuriku Shinkansen จากสถานีโตเกียว/Ueno ถึง Karuizawa ~70 นาทีตรง ในเมืองเช่าจักรยาน/บัส/แท็กซี่ เหมาะทั้ง day-trip และค้าง",
+    "jrPassWorth": true,
+    "options": [
+      {
+        "mode": "Hokuriku Shinkansen ตรง",
+        "detail_th": "Tokyo Station → shinkansen (Hokuriku Asama/Hakutaka) → Karuizawa ~70 นาทีตรง ไม่ต้องต่อรถ · เร็วและสบายที่สุด ลงถึงสถานี Karuizawa ติดเอาท์เล็ตเลย",
+        "durationMin": 70,
+        "costYen": 5700,
+        "transfers": 0,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซน",
+            "icon": "subway"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Karuizawa Station",
+            "mode": "shinkansen",
+            "line_th": "Hokuriku Shinkansen (Asama/Hakutaka)",
+            "durationMin": 70,
+            "costYen": 5700,
+            "note_th": "base fare ~2,640 + ที่นั่งจอง ~2,850 (regular season) · non-reserved ถูกกว่าเล็กน้อย · peak/off-peak ±200 เยน"
+          }
+        ]
+      },
+      {
+        "mode": "Shinkansen + บัส Shiraito",
+        "detail_th": "Tokyo → shinkansen (Hokuriku) → Karuizawa → bus (~25 นาที) → Shiraito Falls · ต่อบัสจากหน้าสถานีถ้าจะไปน้ำตก Shiraito โดยตรง",
+        "durationMin": 120,
+        "costYen": 6420,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซน",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Karuizawa Station",
+            "mode": "shinkansen",
+            "line_th": "Hokuriku Shinkansen (Asama/Hakutaka)",
+            "durationMin": 70,
+            "costYen": 5700,
+            "note_th": "base fare ~2,640 + ที่นั่งจอง ~2,850 (regular season)"
+          },
+          {
+            "from": "Karuizawa Station",
+            "to": "Shiraito Falls (Shiraito no Taki)",
+            "mode": "bus",
+            "line_th": "Kusakaru Kotsu Bus (สาย Shiraito Highland Way)",
+            "durationMin": 25,
+            "costYen": 720,
+            "note_th": "~1-2 เที่ยว/ชม. · ฤดูหนาวลดเที่ยว/อาจหยุด เช็คตารางก่อน"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง ต.ค.-พ.ย.",
+      "months": [
+        10,
+        11
+      ],
+      "note_th": "ปลาย ต.ค.-ต้น พ.ย. ป่าแดง-ทอง larch สีทองรอบ Kumoba Pond เย็น เสื้อกันหนาว"
+    },
+    {
+      "label": "ร้อนหนีร้อน ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "ที่ราบสูงเย็นสบาย รีสอร์ทหนีร้อนคลาสสิก forest bathing ป่าเขียว"
+    },
+    {
+      "label": "ใบไม้ผลิ พ.ค.",
+      "months": [
+        5
+      ],
+      "note_th": "ป่าเขียวสด ดอกไม้บาน อากาศกำลังดี"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ป่า + Kumoba Pond koyo",
+      "type": "koyo",
+      "startFrac": 0.78,
+      "endFrac": 0.92,
+      "note_th": "ปลาย ต.ค.-ต้น พ.ย."
+    },
+    {
+      "zone": "ป่าเขียวหนีร้อน",
+      "type": "green",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "ก.ค.-ส.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน ค้าง 1 คืน (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น เป็นงบเฉพาะช่วงคารุอิซาวะจากฐานโตเกียว · เดินทางด้วย shinkansen ตรง ถ้า day-trip ตัดค่าที่พักออก",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (Hokuriku Shinkansen)",
+        "yen": 11400,
+        "thb": 2622,
+        "note_th": "Tokyo ↔ Karuizawa ตรง 70 นาที/เที่ยว · JR Pass คุ้มถ้ามีอยู่แล้ว"
+      },
+      {
+        "label_th": "เช่าจักรยาน 1 วัน",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "เมืองกระจายกว้าง จักรยานสะดวกสุดเที่ยวรอบเมือง"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 3000,
+        "thb": 690,
+        "note_th": "คาเฟ่ เบเกอรี่ Old Ginza + มื้อหลัก"
+      },
+      {
+        "label_th": "ที่พัก 1 คืน",
+        "yen": 12000,
+        "thb": 2760,
+        "note_th": "ระดับกลาง คนเดียว/หาร 2 · รีสอร์ทป่าแพงกว่านี้"
+      },
+      {
+        "label_th": "ของฝาก/outlet",
+        "yen": 3000,
+        "thb": 690,
+        "note_th": "Prince Shopping Plaza ติดสถานี ช้อปแบรนด์ลดราคา"
+      }
+    ],
+    "totalYen": 30900,
+    "totalThb": 7107,
+    "ranges": {
+      "lowThb": 3200,
+      "midThb": 6500,
+      "highThb": 13000
+    }
+  },
+  "pois": [
+    {
+      "name": "Shiraito Falls (白糸の滝)",
+      "icon": "water",
+      "durationMin": 40,
+      "blurb_th": "น้ำตกม่านไหมขาวจากน้ำพุใต้ดินนับร้อยเส้น สวยทุกฤดู",
+      "deepDive_th": "Shiraito no Taki (白糸の滝) น้ำตกสูงเพียง 3 ม. แต่กว้างถึง 70 ม. — ความพิเศษคือน้ำไม่ได้มาจากแม่น้ำ แต่ไหลออกจากน้ำพุใต้ดินตามหน้าผาเป็นเส้นบางนับร้อยเส้นเหมือนม่านไหมขาว (ชื่อแปลว่า 'น้ำตกเส้นด้ายขาว') · เพราะมาจากน้ำใต้ดิน อุณหภูมิและปริมาณน้ำคงที่ตลอดปี สวยทุกฤดูไม่ขึ้นกับฝน · ช่วงใบไม้เปลี่ยนสี (ปลาย ต.ค.-ต้น พ.ย.) มีไฟประดับยามค่ำคืน · นั่งบัสจากหน้าสถานี Karuizawa ~25 นาที แล้วเดินจากป้ายบัสเข้าไปไม่ไกล ทางราบเดินสบาย · เคล็ดลับ: เช้าหรือวันธรรมดาคนน้อยกว่า ถ่ายรูปได้สวยกว่า",
+      "location_th": "บัส ~25 นาทีจากสถานี Karuizawa",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shiraito_Falls%2C_Karuizawa_2243.jpg?width=1600",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karuizawa_shiraito-no-taki03s3200.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Kumoba Pond (雲場池 / Swan Lake)",
+      "icon": "water",
+      "durationMin": 40,
+      "blurb_th": "สระสะท้อนเงา larch สีทอง+ใบไม้แดง เดินรอบ ~20 นาที",
+      "deepDive_th": "Kumoba Pond (雲場池) หรือที่ฝรั่งเรียก 'Swan Lake' เป็นสระน้ำเล็กๆ ในป่าใกล้ตัวเมือง Karuizawa เกิดจากน้ำพุใต้ดินไหลผ่าน · ไฮไลต์คือช่วงใบไม้เปลี่ยนสี (ปลาย ต.ค.-ต้น พ.ย.) ต้น larch สีทองและเมเปิลแดงสะท้อนเงาลงผิวน้ำนิ่ง เป็นจุดถ่ายภาพ koyo ที่สวยและเข้าถึงง่ายที่สุดของเมือง · มีทางเดินรอบสระ ~20 นาที ทางราบสบาย · เดินหรือปั่นจักรยานจากตัวเมืองมาได้ · เคล็ดลับ: เช้าตรู่ลมนิ่ง ผิวน้ำเป็นกระจกสะท้อนเงาคมที่สุด คนยังน้อย",
+      "location_th": "เดินจากตัวเมือง",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shiraito_Falls%2C_Karuizawa_2014-08-04_(15227325926).jpg?width=1600",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karuizawa_shiraito-no-taki03s3200.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Old Karuizawa Ginza",
+      "icon": "building",
+      "durationMin": 60,
+      "blurb_th": "ถนนช้อปปิ้งต้นไม้ครึ้ม คาเฟ่ เบเกอรี่ บรรยากาศยุโรป",
+      "deepDive_th": "Old Karuizawa Ginza (旧軽井沢銀座) ถนนช้อปปิ้งสายหลักของเมืองเก่า บรรยากาศรีสอร์ทตากอากาศแบบยุโรปที่ Karuizawa มีชื่อมาตั้งแต่ยุคที่มิชชันนารีต่างชาติมาสร้างบ้านพักฤดูร้อนเมื่อร้อยกว่าปีก่อน · สองข้างทางร่มรื่นด้วยต้นไม้ เต็มไปด้วยคาเฟ่ เบเกอรี่ ร้านแยม ร้านขนมปังเก่าแก่ ร้านของฝากงานคราฟต์ · เดินเล่นชิลๆ ชิมขนมปัง/แยมผลไม้ท้องถิ่นที่ขึ้นชื่อ · อยู่ห่างสถานีหลักไปทางเมืองเก่า เดิน/ปั่นจักรยาน/บัสไปได้ · เคล็ดลับ: หน้าร้อนคนแน่น มาช่วงเช้าหรือวันธรรมดาเดินสบายกว่า",
+      "location_th": "ใจกลางเมือง",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20Karuizawa%20ginza06n3872.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Karuizawa-Prince Shopping Plaza",
+      "icon": "building",
+      "durationMin": 120,
+      "blurb_th": "เอาท์เล็ตใหญ่ ช้อปแบรนด์ลดราคา + วิวภูเขา",
+      "deepDive_th": "Karuizawa-Prince Shopping Plaza เอาท์เล็ตขนาดใหญ่ที่สุดแห่งหนึ่งของญี่ปุ่น ตั้งอยู่ติดสถานี Karuizawa ออกจากชานชาลา shinkansen เดินถึงได้เลย · รวมร้านแบรนด์แฟชั่น กีฬา ของใช้ในบ้าน หลายร้อยร้านลดราคา กระจายอยู่บนพื้นที่กว้างมีสนามหญ้า สระน้ำ และวิวภูเขาเป็นฉากหลัง บรรยากาศเดินช้อปสบายไม่อึดอัด · เหมาะปิดท้ายทริปก่อนนั่ง shinkansen กลับ หรือวันฝนตกที่ไม่อยากออกไปไกล · มี food court และร้านอาหารหลากหลาย · เคล็ดลับ: พื้นที่กว้างมาก ดูแผนผังเลือกโซนแบรนด์ที่อยากไปก่อน จะได้ไม่เดินเสียเวลา",
+      "location_th": "ติดสถานี Karuizawa",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Karuizawa%20Prince%20Shopping%20Plaza.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ไป-กลับโตเกียววันเดียว",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "ปั่นจักรยานเที่ยวเมือง + น้ำตก",
+          "detail_th": "เช้า shinkansen Tokyo → Karuizawa ~70 นาที · เช่าจักรยานที่หน้าสถานี ปั่นไป Kumoba Pond (สระสะท้อนเงา) → Old Karuizawa Ginza เดินเล่นชิมเบเกอรี่/แยม · บ่ายนั่งบัสไปน้ำตก Shiraito (ม่านไหมขาว) · กลับมาช้อป Prince Shopping Plaza ติดสถานี → shinkansen กลับโตเกียวเย็น · เก็บไฮไลต์ครบในวันเดียวเพราะเดินทางเร็ว"
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง 1 คืน ตากอากาศชิลๆ (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — เมืองเก่า + forest bathing",
+          "detail_th": "shinkansen เช้าสายๆ ถึง Karuizawa · เช่าจักรยานปั่นเที่ยวเมือง Kumoba Pond + Old Karuizawa Ginza · บ่ายป่า forest bathing / คาเฟ่ในป่า บรรยากาศเย็นสบาย · เข้าที่พักรีสอร์ทป่า พักผ่อน ไม่ต้องรีบ"
+        },
+        {
+          "title_th": "วันที่ 2 — น้ำตก Shiraito + outlet",
+          "detail_th": "เช้านั่งบัสไปน้ำตก Shiraito (ช่วง koyo มีไฟประดับ) ถ่ายรูปม่านไหมขาว · กลับมาช้อป Karuizawa-Prince Shopping Plaza ติดสถานี ปิดท้ายของฝาก → shinkansen กลับโตเกียวเย็น"
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "เมืองกระจายกว้าง ระยะไกล ควรเช่าจักรยาน/บัส/แท็กซี่ — เดินอย่างเดียวไม่ทั่ว",
+    "หน้า koyo (ปลาย ต.ค.-ต้น พ.ย.) + weekend คนเยอะ ที่พักเต็มเร็ว จองล่วงหน้า",
+    "ที่ราบสูงเย็นกว่าโตเกียวมาก กลางคืนเย็นแม้หน้าร้อน เตรียมเสื้อคลุมเสมอ"
+  ],
+  "sources": [
+    {
+      "label": "Go! Nagano — Karuizawa",
+      "url": "https://www.go-nagano.net/en/trip-idea/id18082"
+    },
+    {
+      "label": "JNTO — Karuizawa autumn itinerary",
+      "url": "https://www.japan.travel/en/special-features/karuizawa-itinerary-things-to-do-fall-autumn/"
+    }
+  ],
+  "tags_th": [
+    "ตากอากาศ",
+    "น้ำตก Shiraito",
+    "ใบไม้แดง",
+    "shinkansen 70 นาที",
+    "outlet"
+  ],
+  "food": [
+    {
+      "name": "ขนมปัง/แยมคารุอิซาวะ",
+      "emoji": "🍞",
+      "note_th": "เมืองเบเกอรี่+แยมผลไม้ระดับตำนาน"
+    },
+    {
+      "name": "โซบะชินชู",
+      "name_jp": "信州そば",
+      "emoji": "🍜",
+      "note_th": "โซบะ Nagano"
+    },
+    {
+      "name": "ไส้กรอก/แฮมรมควัน",
+      "emoji": "🌭",
+      "note_th": "ของถิ่นจากฟาร์มที่ราบสูง"
+    }
+  ]
+}

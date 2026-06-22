@@ -1,0 +1,336 @@
+{
+  "slug": "kawaguchiko",
+  "name": {
+    "en": "Lake Kawaguchiko",
+    "th": "ทะเลสาบคาวากุจิโกะ",
+    "jp": "河口湖"
+  },
+  "region": "Chubu",
+  "prefecture": "Yamanashi",
+  "coords": {
+    "lat": 35.5167,
+    "lng": 138.7544
+  },
+  "category": [
+    "lake",
+    "mountain",
+    "nature"
+  ],
+  "tagline_th": "ทะเลสาบสะท้อนฟูจิไอคอนิกที่สุด + เจดีย์ Chureito แดงคู่ฟูจิ ไป-กลับวันเดียวจากชินจูกุได้",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chureito_Pagoda_Mount_Fuji_banner.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/12-Chureito-pagoda-and-Mount-Fuji-Japan_(29677439878).jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "สะดวกมาก — บัสตรงจากชินจูกุถึงสถานี Kawaguchiko ~1 ชม. 45 นาที หรือรถไฟด่วน Fuji Excursion รอบสถานีมีบัส Omni วนรอบทะเลสาบ",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Highway Bus ตรง (นิยม/ถูกสุด)",
+        "detail_th": "ชินจูกุ (Busta) → bus (highway) → Kawaguchiko Station",
+        "durationMin": 105,
+        "costYen": 2200,
+        "transfers": 0,
+        "legs": [
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Expressway Bus Terminal (Busta)",
+            "to": "Kawaguchiko Station",
+            "mode": "bus",
+            "line_th": "Highway Bus (Fujikyu/Keio) ตรง",
+            "durationMin": 105,
+            "costYen": 2200,
+            "note_th": "~2 เที่ยว/ชม. · จองออนไลน์ล่วงหน้าได้ ~2,000 เยน · weekend/เทศกาลรถติดทางด่วน เผื่อเวลา"
+          }
+        ]
+      },
+      {
+        "mode": "Fuji Excursion Ltd Express (เร็ว/สบาย)",
+        "detail_th": "ชินจูกุ → train (Fuji Excursion ตรง) → Kawaguchiko",
+        "durationMin": 115,
+        "costYen": 4200,
+        "transfers": 0,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Kawaguchiko Station",
+            "mode": "train",
+            "line_th": "Fuji Excursion Limited Express (ตรง JR Chuo + Fujikyu)",
+            "durationMin": 115,
+            "costYen": 4200,
+            "note_th": "base fare 2,580 + ตั๋วด่วนที่นั่งจอง 1,620 · all-reserved ต้องจองที่นั่ง · ~3-4 เที่ยว/วัน"
+          }
+        ]
+      },
+      {
+        "mode": "JR Chuo + Fujikyu (ประหยัด ต่อรถ)",
+        "detail_th": "ชินจูกุ → train (Chuo Line) → Otsuki → train (Fujikyu Railway) → Kawaguchiko",
+        "durationMin": 165,
+        "costYen": 2580,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Otsuki Station",
+            "mode": "train",
+            "line_th": "JR Chuo Line (Rapid/Local ไม่ใช่ Limited Express)",
+            "durationMin": 100,
+            "costYen": 1410,
+            "note_th": "มักต้องเปลี่ยนขบวน 1 ครั้งที่ Takao/Otsuki · ถ้าขึ้น Limited Express Kaiji/Azusa จ่ายค่าด่วนเพิ่ม"
+          },
+          {
+            "from": "Otsuki Station",
+            "to": "Kawaguchiko Station",
+            "mode": "train",
+            "line_th": "Fujikyu Railway (local)",
+            "durationMin": 55,
+            "costYen": 1170,
+            "note_th": "รถไฟท้องถิ่น เปลี่ยนชานชาลาที่ Otsuki · ขบวน Fujisan View Express มีค่าธรรมเนียมเสริม"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง + Momiji Corridor พ.ย.",
+      "months": [
+        11
+      ],
+      "note_th": "ครึ่งแรก พ.ย. อุโมงค์เมเปิลแดงริมทะเลสาบ มี Maple Festival ไฟกลางคืน เย็นสบาย"
+    },
+    {
+      "label": "ฤดูหนาว ฟ้าใสเห็นฟูจิชัดสุด ธ.ค.-ก.พ.",
+      "months": [
+        12,
+        1,
+        2
+      ],
+      "note_th": "อากาศแห้ง ฟ้าใส ฟูจิยอดหิมะคมชัด เช้ามืดสะท้อนน้ำ Reverse Fuji หนาวจัด เสื้อกันหนาวหนัก"
+    },
+    {
+      "label": "ซากุระ เม.ย.",
+      "months": [
+        4
+      ],
+      "note_th": "กลาง เม.ย. ซากุระริมฝั่งเหนือคู่ฟูจิ"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "Momiji Corridor",
+      "type": "koyo",
+      "startFrac": 0.83,
+      "endFrac": 0.95,
+      "note_th": "ต้น-กลาง พ.ย."
+    },
+    {
+      "zone": "ซากุระฝั่งเหนือ",
+      "type": "bloom",
+      "startFrac": 0.27,
+      "endFrac": 0.37,
+      "note_th": "กลาง เม.ย."
+    },
+    {
+      "zone": "ฟ้าใสเห็นฟูจิ",
+      "type": "snow",
+      "startFrac": 0,
+      "endFrac": 0.16,
+      "note_th": "ธ.ค.-ก.พ."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน ค้าง 1 คืนริมทะเลสาบ (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ถ้า day-trip ตัดค่าที่พักออก เหลือ ~2,500 ฿/วัน",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (บัส/รถไฟ ชินจูกุ↔Kawaguchiko)",
+        "yen": 4400,
+        "thb": 1012,
+        "note_th": "Highway Bus ไป-กลับ ถูกสุด หรือ Fuji Excursion เร็วกว่า"
+      },
+      {
+        "label_th": "บัส Omni 2-day (วนรอบทะเลสาบ)",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "ขึ้น-ลงไม่จำกัด เชื่อม Oishi Park / Chureito / Momiji Corridor"
+      },
+      {
+        "label_th": "ropeway ไป-กลับ (Kachi Kachi)",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "ขึ้น Mt. Tenjo ชมฟูจิ+ทะเลสาบจากมุมสูง"
+      },
+      {
+        "label_th": "ที่พักริมทะเลสาบ 1 คืน",
+        "yen": 12000,
+        "thb": 2760,
+        "note_th": "ระดับกลาง วิวฟูจิ/ออนเซ็นแพงกว่านี้"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 4000,
+        "thb": 920,
+        "note_th": "Hoto (บะหมี่หม้อพื้นถิ่น) + คาเฟ่ริมน้ำ + มื้อเย็น"
+      }
+    ],
+    "totalYen": 22900,
+    "totalThb": 5267,
+    "ranges": {
+      "lowThb": 1500,
+      "midThb": 6000,
+      "highThb": 12000
+    }
+  },
+  "pois": [
+    {
+      "name": "Chureito Pagoda",
+      "icon": "building",
+      "durationMin": 60,
+      "blurb_th": "เจดีย์แดง 5 ชั้นคู่ฟูจิ + ซากุระ/ใบไม้แดง ภาพโปสการ์ดดังสุด",
+      "deepDive_th": "Chureito Pagoda (新倉山浅間公園) เจดีย์แดง 5 ชั้นตั้งอยู่บนเนินในสวน Arakurayama Sengen Park เมื่อมองในเฟรมเดียวกับ Mt. Fuji ด้านหลัง (พร้อมซากุระฤดูใบไม้ผลิ หรือใบไม้แดงฤดูใบไม้ร่วง) กลายเป็นภาพไอคอนิกที่สุดภาพหนึ่งของญี่ปุ่นบนโปสการ์ด/โปสเตอร์ท่องเที่ยว · ต้องเดินขึ้นบันได ~400 ขั้นจึงถึงจุดถ่ายภาพ · คนแน่นมากช่วง koyo (พ.ย.) และซากุระ (เม.ย.) คิวถ่ายรูปยาว ควรมาเช้าสุด · อยู่ฝั่ง Shimoyoshida บนสาย Fujikyu คนละฝั่งกับตัวทะเลสาบ",
+      "location_th": "Shimoyoshida (ฝั่ง Fujikyu)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/12-Chureito-pagoda-and-Mount-Fuji-Japan_(29677439878).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chureito_Pagoda_Mount_Fuji_banner.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Oishi Park",
+      "icon": "trees",
+      "durationMin": 60,
+      "blurb_th": "จุดวิวฟูจิสะท้อนน้ำดีสุด ทุ่ง kochia/ลาเวนเดอร์ คาเฟ่ริมน้ำ",
+      "deepDive_th": "Oishi Park (大石公園) สวนริมฝั่งเหนือของทะเลสาบ Kawaguchiko เป็นจุดชมวิว Mt. Fuji สะท้อนน้ำที่สวยที่สุดจุดหนึ่ง เพราะมีฟูจิเต็มองค์อยู่ตรงข้ามทะเลสาบพอดี · มีแปลงดอกไม้ตามฤดู — ทุ่ง kochia (โคเคีย) สีแดงในฤดูใบไม้ร่วง และลาเวนเดอร์ในฤดูร้อน — เป็นฉากหน้าคู่กับฟูจิ · มีคาเฟ่ริมน้ำและร้านขายของท้องถิ่น · เข้าถึงด้วยบัส Omni สายฝั่งเหนือจากสถานี Kawaguchiko",
+      "location_th": "ฝั่งเหนือทะเลสาบ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chureito_Pagoda_and_Mount_Fuji_(44951842365).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chureito_Pagoda_Mount_Fuji_banner.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Mt. Fuji Panoramic Ropeway",
+      "icon": "mountains",
+      "durationMin": 45,
+      "blurb_th": "กระเช้าขึ้น Mt. Tenjo มองฟูจิ+ทะเลสาบจากมุมสูง",
+      "deepDive_th": "Mt. Fuji Panoramic Ropeway (เดิมชื่อ Kachi Kachi Ropeway) กระเช้าลอยฟ้าขึ้นสู่ Mt. Tenjo เหนือฝั่งตะวันออกของทะเลสาบ Kawaguchiko · จุดชมวิวด้านบนมองเห็น Mt. Fuji เต็มองค์คู่กับทะเลสาบทั้งผืนจากมุมสูง สวยทั้งวันฟ้าใส · ราคา ~¥1,000 ไป-กลับ · มีธีมตำนานนิทานพื้นบ้าน 'Kachi-Kachi Yama' (กระต่ายกับทานูกิ) ตกแต่งตามจุด เด็กชอบ · ใกล้สถานี Kawaguchiko เดิน/บัสไม่ไกล",
+      "location_th": "ริมทะเลสาบ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.%20Fuji%20Panoramic%20Ropeway.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Momiji Corridor",
+      "icon": "trees",
+      "durationMin": 40,
+      "blurb_th": "อุโมงค์เมเปิลแดง พีค koyo ต้น-กลาง พ.ย.",
+      "deepDive_th": "Momiji Corridor (もみじ回廊) ทางเดินอุโมงค์ต้นเมเปิลแก่ริมลำธารฝั่งตะวันตกของทะเลสาบ Kawaguchiko · ช่วงพีค koyo ต้น-กลาง พ.ย. ใบเมเปิลแดงเข้มซ้อนกันเป็นอุโมงค์สวยมาก เป็นไฮไลต์ใบไม้แดงของพื้นที่ Fuji Five Lakes · ช่วงเทศกาล Fujikawaguchiko Autumn Leaves Festival มีการประดับไฟกลางคืน (light-up) ให้ถ่ายภาพใบไม้แดงสะท้อนน้ำยามค่ำ · เข้าถึงด้วยบัส Omni สายฝั่งตะวันตก",
+      "location_th": "ฝั่งตะวันตก",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kawaguchiko%20Momiji%20Tunnel%20Fuji.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ไป-กลับวันเดียว (เก็บไฮไลต์ฟูจิ)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เช้าจับฟูจิ บ่ายวนทะเลสาบ",
+          "detail_th": "ออกชินจูกุเช้ามาก (บัส highway หรือ Fuji Excursion) · 'เช้าก่อน 9:00 ฟูจิออกชัดสุด' ตรงไป Chureito Pagoda ก่อน (Fujikyu ลง Shimoyoshida) ขึ้นบันได ~400 ขั้นถ่ายเจดีย์คู่ฟูจิ → กลับเข้าสถานี Kawaguchiko ขึ้นบัส Omni ไป Oishi Park ฝั่งเหนือ ชมฟูจิสะท้อนน้ำ → ropeway ขึ้น Mt. Tenjo → (พ.ย.) แวะ Momiji Corridor → บัส/รถไฟกลับชินจูกุเย็น"
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง 1 คืนริมทะเลสาบ (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — ทะเลสาบ + ropeway + ออนเซ็น",
+          "detail_th": "ถึง Kawaguchiko ช่วงเที่ยง · บัส Omni วน Oishi Park ฝั่งเหนือ (ดอกไม้ตามฤดู + ฟูจิสะท้อนน้ำ) → ropeway ขึ้น Mt. Tenjo ชมพระอาทิตย์ตกฟูจิ → (พ.ย.) Momiji Corridor light-up กลางคืน → เข้าที่พักริมทะเลสาบ แช่ออนเซ็นวิวฟูจิ มื้อเย็น Hoto"
+        },
+        {
+          "title_th": "วันที่ 2 — Chureito เช้าตรู่ + กลับ",
+          "detail_th": "ตื่นเช้ามืดไป Chureito Pagoda ก่อนคนเยอะ (ฟูจิเช้าใสสุด + คิวสั้น) ถ่ายเจดีย์แดงคู่ฟูจิ → กลับมาเดินเล่นริมทะเลสาบ/คาเฟ่ ช้อปของฝากแถวสถานี → บัส/รถไฟกลับชินจูกุช่วงบ่าย"
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ฟูจิไม่ได้เห็นทุกวัน เมฆบังบ่อยโดยเฉพาะกลางวัน/หน้าร้อน — มาเช้าก่อน 9:00 หรือบ่ายแก่ โอกาสเห็นชัดสูงกว่า ฤดูหนาวฟ้าใสสุด",
+    "หน้า koyo (พ.ย.) / ซากุระ (เม.ย.) ที่ Chureito Pagoda คนแน่นมาก คิวถ่ายรูปจุดเจดีย์คู่ฟูจิยาว — มาเช้าสุดก่อนรถทัวร์มาถึง",
+    "บัส highway หน้าเทศกาล/weekend รถติดบนทางด่วน เผื่อเวลา และจองที่นั่งล่วงหน้า (บัสเต็มเร็วช่วงพีค)",
+    "Chureito อยู่ฝั่ง Fujikyu (สถานี Shimoyoshida) คนละฝั่งกับตัวทะเลสาบ — วางแผนเส้นทางให้ดี ใช้บัส Omni/รถไฟ Fujikyu เชื่อม"
+  ],
+  "sources": [
+    {
+      "label": "Lake Kawaguchiko — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6906.html"
+    },
+    {
+      "label": "Fuji Five Lakes — Official Access",
+      "url": "https://www.fujifivelakes.net/access"
+    }
+  ],
+  "tags_th": [
+    "ฟูจิ",
+    "ทะเลสาบ",
+    "เจดีย์ Chureito",
+    "ใบไม้แดง",
+    "day-trip ได้"
+  ],
+  "food": [
+    {
+      "name": "โฮโต",
+      "name_jp": "ほうとう",
+      "emoji": "🍲",
+      "note_th": "เส้นแบนต้มในซุปมิโซะกับฟักทอง/ผัก อาหารประจำยามานาชิ"
+    },
+    {
+      "name": "ชินเก็นโมจิ",
+      "name_jp": "信玄餅",
+      "emoji": "🍡",
+      "note_th": "โมจิราดผงคินาโกะ+น้ำตาลดำ ของฝากดัง"
+    },
+    {
+      "name": "ปลาเทราต์/ปลานิจิมาสึ",
+      "emoji": "🐟",
+      "note_th": "ปลาน้ำจืดทะเลสาบฟูจิ"
+    }
+  ]
+}

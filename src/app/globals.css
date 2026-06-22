@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #1a2332;
+  --ink-soft: #48566b;
+  --ink-faint: #8794a8;
+  --line: #e3e8f0;
+  --line-strong: #d4e3ec;
+  --paper: #f7f9fc;
+  --paper-2: #eef2f8;
+  --card: #ffffff;
+  --alp: #2d6a8e;
+  --alp-dark: #1d4d6b;
+  --alp-soft: #e8f1f6;
+  --alp-700: #255a78;
+  --koyo: #c8662f;
+  --koyo-soft: #fbeee4;
+  --koyo-dark: #a4521f;
+  --snow: #6b8aa8;
+  --gold: #b8893a;
+  --ok: #2f7d52;
+  --ok-soft: #e6f3eb;
+  --warn: #b03a3a;
+  --warn-soft: #fbeaea;
+  --shadow: 0 1px 2px rgba(20, 40, 70, 0.05), 0 8px 24px rgba(20, 40, 70, 0.07);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.tabnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* global keyboard focus ring — alp on white ≈ 4.7:1 (≥3:1) */
+:focus-visible {
+  outline: 2px solid var(--alp);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* zigzag mountain pattern — port .hero::before */
+.mountain-pattern::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 120px;
+  background:
+    linear-gradient(135deg, transparent 49%, #fff 50%) 0 0 / 60px 120px repeat-x,
+    linear-gradient(225deg, transparent 49%, #fff 50%) 30px 0 / 60px 120px repeat-x;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+/* faint mountain texture for map bg */
+.map-texture::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 160px;
+  background:
+    linear-gradient(135deg, transparent 49%, var(--alp) 50%) 0 0 / 80px 160px repeat-x,
+    linear-gradient(225deg, transparent 49%, var(--alp) 50%) 40px 0 / 80px 160px repeat-x;
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+/* skeleton shimmer for images */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+.img-skeleton {
+  background: linear-gradient(90deg, var(--alp-soft) 25%, #f0f5f9 50%, var(--alp-soft) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .img-skeleton {
+    animation: none;
+  }
+}
+
+/* difficulty range slider thumb */
+.diff-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid var(--alp);
+  box-shadow: 0 1px 3px rgba(20, 40, 70, 0.25);
+  cursor: pointer;
+}
+.diff-slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid var(--alp);
+  box-shadow: 0 1px 3px rgba(20, 40, 70, 0.25);
+  cursor: pointer;
+}
+
+/* leaflet placeholder bg */
+.leaflet-placeholder {
+  background:
+    repeating-linear-gradient(45deg, var(--alp-soft), var(--alp-soft) 12px, #eef4f8 12px, #eef4f8 24px);
+}

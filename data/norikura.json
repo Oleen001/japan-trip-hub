@@ -1,0 +1,368 @@
+{
+  "slug": "norikura",
+  "name": {
+    "en": "Mount Norikura",
+    "th": "ภูเขาโนริกุระ",
+    "jp": "乗鞍岳"
+  },
+  "region": "Chubu",
+  "prefecture": "Nagano / Gifu",
+  "coords": {
+    "lat": 36.1064,
+    "lng": 137.5536
+  },
+  "category": [
+    "mountain",
+    "nature"
+  ],
+  "tagline_th": "ป้ายรถบัสสูงสุดในญี่ปุ่น (2,702 ม.) ขึ้นถึงยอด 3,000 ม. โดยไม่ต้องปีน ทุ่งดอกไม้แอลป์ + วิวเทือกเขา",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norikura_tatamidaira.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tatamidaira_Mount_Norikura.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 4,
+  "access": {
+    "summary_th": "ไกล หลายต่อ ต้องจองบัสล่วงหน้า — ผ่าน Matsumoto ต่อบัสขึ้น Norikura Kogen แล้ว shuttle ขึ้น Tatamidaira (รถส่วนตัวห้ามขึ้น) แนะนำค้างอย่างน้อย 1 คืน · ปิดฤดูหนาว ~พ.ย.-พ.ค.",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Azusa + บัส + shuttle (แนะนำ)",
+        "detail_th": "ชินจูกุ → train (Ltd Express Azusa) → Matsumoto ~2.5-3 ชม. → bus (Alpico ~1 ชม.) → Norikura Kogen → shuttle bus ~50 นาที → Tatamidaira · ต้องจอง shuttle ล่วงหน้าช่วงพีค",
+        "durationMin": 330,
+        "costYen": 11140,
+        "transfers": 3,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "ชินจูกุ (Shinjuku)",
+            "to": "Matsumoto (松本)",
+            "mode": "train",
+            "line_th": "Ltd Express Azusa (JR Chuo Line)",
+            "durationMin": 165,
+            "costYen": 6730,
+            "note_th": "รวมค่าโดยสาร + ค่าด่วนที่นั่งจอง · ~2.5-3 ชม."
+          },
+          {
+            "from": "Matsumoto",
+            "to": "Shin-Shimashima (新島々)",
+            "mode": "train",
+            "line_th": "Alpico Kamikochi Line (Matsumoto Dentetsu)",
+            "durationMin": 30,
+            "costYen": 710,
+            "note_th": "เงินสดเท่านั้น · ชานชาลา 7 ที่ Matsumoto"
+          },
+          {
+            "from": "Shin-Shimashima",
+            "to": "Norikura Kogen (乗鞍高原)",
+            "mode": "bus",
+            "line_th": "Alpico Bus (สาย Norikura Kogen)",
+            "durationMin": 50,
+            "costYen": 1350,
+            "note_th": "รอบจำกัด เช็คตาราง"
+          },
+          {
+            "from": "Norikura Kogen",
+            "to": "Tatamidaira (畳平 2,702 ม.)",
+            "mode": "bus",
+            "line_th": "Norikura Eco shuttle bus (Alpico)",
+            "durationMin": 50,
+            "costYen": 2350,
+            "note_th": "เที่ยวเดียว · ตั้งแต่ 2025 ต้องจองล่วงหน้า รถส่วนตัวห้ามขึ้น · ไป-กลับ ~3,000 เยน"
+          }
+        ]
+      },
+      {
+        "mode": "ผ่าน Hirayu Onsen (ฝั่ง Gifu)",
+        "detail_th": "Matsumoto → bus → Hirayu Onsen → shuttle bus ~1 ชม. → Tatamidaira · เข้าฝั่ง Gifu จับคู่เที่ยว Takayama/Okuhida ได้",
+        "durationMin": 360,
+        "costYen": 11230,
+        "transfers": 3,
+        "legs": [
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "ชินจูกุ (Shinjuku)",
+            "to": "Matsumoto (松本)",
+            "mode": "train",
+            "line_th": "Ltd Express Azusa (JR Chuo Line)",
+            "durationMin": 165,
+            "costYen": 6730,
+            "note_th": "รวมค่าโดยสาร + ค่าด่วนที่นั่งจอง"
+          },
+          {
+            "from": "Matsumoto",
+            "to": "Hirayu Onsen (平湯温泉)",
+            "mode": "bus",
+            "line_th": "Nohi Bus / Alpico (สาย Takayama-Matsumoto)",
+            "durationMin": 90,
+            "costYen": 3000,
+            "note_th": "~4 รอบ/วัน · ต้องจองที่นั่งล่วงหน้า"
+          },
+          {
+            "from": "Hirayu Onsen",
+            "to": "Tatamidaira (畳平 2,702 ม.)",
+            "mode": "bus",
+            "line_th": "Nohi Bus (Norikura Line shuttle)",
+            "durationMin": 60,
+            "costYen": 1500,
+            "note_th": "เที่ยวเดียว ~45-60 นาที · ตั้งแต่ 2025 ต้องจองล่วงหน้า · ไป-กลับ ~2,300 เยน"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ทุ่งดอกไม้แอลป์ ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "กลาง ก.ค.-ส.ค. ทุ่งดอก alpine บานบน Tatamidaira (4 เฮกตาร์) เย็นสบายบนที่สูง หนีร้อนเมืองได้ดี"
+    },
+    {
+      "label": "ใบไม้แดง ก.ย.-ต.ค.",
+      "months": [
+        9,
+        10
+      ],
+      "note_th": "ปลาย ก.ย.-ต้น ต.ค. koyo บนที่สูงสวยจัด เย็นจัด เตรียมเสื้อกันหนาว"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ทุ่งดอกแอลป์ (Tatamidaira)",
+      "type": "bloom",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "กลาง ก.ค.-ส.ค. ทุ่งดอก alpine บานเต็มที่ราบยอด"
+    },
+    {
+      "zone": "Tatamidaira koyo",
+      "type": "koyo",
+      "startFrac": 0.66,
+      "endFrac": 0.79,
+      "note_th": "ปลาย ก.ย.-ต้น ต.ค. ใบไม้บนที่สูงเปลี่ยนสีก่อนใคร"
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน ค้าง 1 คืน (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น เป็นงบเฉพาะช่วงโนริกุระจากฐานโตเกียว · ไกลและต้องค้าง day-trip แทบเป็นไปไม่ได้",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (ชินจูกุ↔Matsumoto + บัส)",
+        "yen": 18000,
+        "thb": 4140,
+        "note_th": "Azusa ไป-กลับ + บัส Alpico เข้า Norikura Kogen"
+      },
+      {
+        "label_th": "shuttle ไป-กลับ Tatamidaira",
+        "yen": 3000,
+        "thb": 690,
+        "note_th": "รถส่วนตัวห้ามขึ้น ต้องใช้ shuttle เท่านั้น จองล่วงหน้าช่วงพีค"
+      },
+      {
+        "label_th": "ที่พัก Norikura Kogen 1 คืน",
+        "yen": 10000,
+        "thb": 2300,
+        "note_th": "ระดับกลาง ที่ราบสูงฐานก่อนขึ้นยอด มีออนเซ็น"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 3500,
+        "thb": 805,
+        "note_th": "มื้อบนเขา + ที่พัก/ร้านในหมู่บ้าน"
+      },
+      {
+        "label_th": "ของฝาก",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "ของที่ระลึกบนยอด/หมู่บ้าน"
+      }
+    ],
+    "totalYen": 36000,
+    "totalThb": 8280,
+    "ranges": {
+      "lowThb": 6000,
+      "midThb": 8500,
+      "highThb": 14000
+    }
+  },
+  "pois": [
+    {
+      "name": "Tatamidaira plateau",
+      "icon": "mountains",
+      "durationMin": 60,
+      "blurb_th": "ที่ราบบนยอด ป้ายรถบัสสูงสุดในญี่ปุ่น ทุ่งดอกแอลป์ + สระ Fudoike เดินชมวิวไม่ต้องปีน",
+      "deepDive_th": "Tatamidaira (畳平) ที่ราบบนยอดสูง 2,702 ม. เป็นที่ตั้งของ 'ป้ายรถบัสสูงสุดในญี่ปุ่น' — รถ shuttle ขึ้นมาส่งถึงตรงนี้เลย ไม่ต้องเดินขึ้น · มีทุ่งดอกไม้แอลป์ราว 4 เฮกตาร์บานช่วงกลาง ก.ค.-ส.ค. และสระภูเขาไฟ Fudoike · จากที่ราบเดินเส้น flat ชมวิวเทือกเขา Northern Alps แบบไม่ต้องปีน เหมาะมือใหม่ที่อยากสัมผัสบรรยากาศยอดเขา 3,000 ม. แบบสบายๆ · เป็นจุดตั้งต้นเส้นเดินขึ้นยอด Kengamine ด้วย · ระวัง: ที่สูงระดับนี้แดดแรง อากาศเปลี่ยนเร็ว เย็นจัดแม้หน้าร้อน",
+      "location_th": "ยอด 2,702 ม. · ปลายทาง shuttle bus",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tatamidaira_Mount_Norikura.jpg?width=900",
+        "source": "wikimedia",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Norikura_tatamidaira.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Norikuradake summit (Kengamine 3,026 ม.)",
+      "icon": "mountains",
+      "durationMin": 180,
+      "blurb_th": "เดิน ~1.5-2 ชม. ขึ้นยอด 3,000 ม. ระดับง่ายที่สุดในบรรดายอด 3,000 ของญี่ปุ่น",
+      "deepDive_th": "Kengamine (剣ヶ峰) ยอดสูงสุดของภูเขา Norikura ที่ 3,026 ม. · เดินจาก Tatamidaira ~1.5-2 ชม. (ไป-กลับ ~3 ชม.) เป็นยอด 3,000 ม. ที่ 'ปีนง่ายที่สุด' ในญี่ปุ่นเพราะ shuttle ส่งถึง 2,702 ม. แล้วเดินขึ้นแค่ ~300 ม. แนวสูง · เส้นทางเป็นทางหินชัด ไม่ต้องใช้อุปกรณ์ปีน แต่ต้องมีรองเท้าเดินเขา · วันฟ้าใสเห็นพานอรามา Northern Alps, ภูเขาไฟ Ontake และวันใสมากเห็นถึงฟูจิ · ระวัง: ระดับความสูงอาจทำให้เหนื่อย/แพ้ความสูง เดินช้าๆ เผื่อเวลารอบ shuttle เที่ยวสุดท้าย",
+      "location_th": "เดินจาก Tatamidaira",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tatamidaira_of_Mount_Norikura.jpg?width=900",
+        "source": "wikimedia",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Norikura_tatamidaira.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Norikura Kogen (ที่ราบสูงฐาน)",
+      "icon": "trees",
+      "durationMin": 90,
+      "blurb_th": "น้ำตก Sanbon ทะเลสาบ Ushidome ออนเซ็น เหมาะค้างฐานก่อนขึ้นยอด",
+      "deepDive_th": "Norikura Kogen (乗鞍高原) ที่ราบสูงฐานทางฝั่ง Nagano ก่อนต่อ shuttle ขึ้น Tatamidaira · เป็นโซนค้างคืนหลัก มีรีสอร์ท เพนชั่น และออนเซ็นน้ำขุ่นกำมะถัน · จุดเดินเล่นใกล้ๆ ได้แก่ น้ำตก Sanbon (三本滝) สามสายไหลมารวมกัน และทะเลสาบ Ushidome (牛留池) สระเล็กสะท้อนเงาภูเขา · ช่วง koyo ปลาย ก.ย.-ต.ค. ใบไม้รอบที่ราบสูงเปลี่ยนสีสวย · เหมาะมาถึงบ่าย เดินเล่น แช่ออนเซ็น แล้วเช้าวันรุ่งขึ้นค่อยขึ้นยอดตอนฟ้าใส",
+      "location_th": "ฐานก่อนขึ้นยอด · ฝั่ง Nagano",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norikura_tatamidaira.jpg?width=900",
+        "source": "wikimedia",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Norikura_tatamidaira.jpg?width=1600"
+      }
+    },
+    {
+      "name": "วิวพระอาทิตย์ขึ้น / ดาว",
+      "icon": "mountains",
+      "durationMin": 60,
+      "blurb_th": "ที่สูงไกลแสงเมือง ฟ้าใส มี sunrise bus บางช่วง",
+      "deepDive_th": "ด้วยความสูง 2,700-3,000 ม. และอยู่ไกลแสงเมือง โนริกุระเป็นจุดชมพระอาทิตย์ขึ้นและดูดาวชั้นดี · ช่วงฤดูร้อนบางวันมี 'sunrise bus' รอบพิเศษขึ้น Tatamidaira ก่อนรุ่งสาง ให้ชมแสงแรกแตะยอดเทือกเขา (un-kai ทะเลหมอกในวันสภาพอากาศเหมาะ) · กลางคืนฟ้าใสเห็นดาวหนาแน่นและทางช้างเผือก · ระวัง: ก่อนรุ่งบนยอดหนาวจัดมาก ลมแรง เตรียมเสื้อกันหนาวหนาแม้หน้าร้อน และเช็ครอบ sunrise bus ล่วงหน้าเพราะมีเฉพาะบางช่วง",
+      "location_th": "บนยอด / Tatamidaira",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sun%20pillar%20and%20Sunrise%20from%20Mount%20Norikura.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "routeFlow": [
+    {
+      "name": "Matsumoto",
+      "elevationM": 592,
+      "modeToNext": "bus",
+      "modeDetail_th": "บัส Alpico ~1 ชม. ขึ้นที่ราบสูง"
+    },
+    {
+      "name": "Norikura Kogen",
+      "elevationM": 1500,
+      "modeToNext": "shuttle bus",
+      "modeDetail_th": "shuttle ขึ้นยอด ~50 นาที (รถส่วนตัวห้ามขึ้น)"
+    },
+    {
+      "name": "Tatamidaira",
+      "elevationM": 2702,
+      "modeToNext": "เดิน",
+      "modeDetail_th": "เดินขึ้นยอด ~1.5-2 ชม."
+    },
+    {
+      "name": "Kengamine (ยอด)",
+      "elevationM": 3026,
+      "modeToNext": "",
+      "modeDetail_th": "ยอดสูงสุด — เดินกลับลง Tatamidaira ทันรอบ shuttle"
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "ค้าง Norikura Kogen 1 คืน + ขึ้นยอดเช้า (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — เข้า Matsumoto → Norikura Kogen",
+          "detail_th": "เช้า Azusa ชินจูกุ→Matsumoto (~2.5-3 ชม.) · เที่ยว Matsumoto Castle เบาๆ หรือต่อบัส Alpico เข้า Norikura Kogen ช่วงบ่าย · เข้าที่พัก แช่ออนเซ็น เดินเล่นทะเลสาบ Ushidome / น้ำตก Sanbon ใกล้ฐาน · พักผ่อนเตรียมขึ้นยอดเช้าวันรุ่ง"
+        },
+        {
+          "title_th": "วันที่ 2 — ขึ้น Tatamidaira + ยอด Kengamine",
+          "detail_th": "เช้าตรู่ฟ้าใส shuttle ขึ้น Tatamidaira (~50 นาที, จองล่วงหน้า) · เดินชมทุ่งดอกแอลป์ / สระ Fudoike · ใครไหวเดินต่อขึ้นยอด Kengamine 3,026 ม. (ไป-กลับ ~3 ชม.) · ลงทันรอบ shuttle เที่ยวบ่าย → กลับ Norikura Kogen → บัส Matsumoto → Azusa กลับโตเกียว"
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง Matsumoto + ไปเช้า-กลับเย็น",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "ใช้ Matsumoto เป็นฐาน ขึ้น-ลงวันเดียว",
+          "detail_th": "ค้าง Matsumoto · เช้ามืดบัส+shuttle ขึ้น Tatamidaira เก็บทุ่งดอก/ยอด แล้วลงกลับ Matsumoto เย็น · เหนื่อยและต้องเร่งรอบ shuttle แต่ไม่ต้องย้ายที่พัก เหมาะคนอยากเที่ยว Matsumoto ควบ"
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "shuttle bus ต้องจองล่วงหน้า — ปี 2025 ไม่รับ walk-up ช่วงพีค จองผ่าน Japan Bus Online รถส่วนตัวห้ามขึ้น Tatamidaira ตลอด",
+    "ปิดฤดูหนาว — Skyline / Echo Line ปิด ~พ.ย.-พ.ค. ตรวจวันเปิด-ปิดของปีนั้นก่อนวางแผน",
+    "ที่สูง 2,700-3,000 ม. เย็นจัด/แดดแรง/อาจแพ้ความสูง อากาศเปลี่ยนเร็ว เตรียมเสื้อกันหนาว+กันฝน แม้หน้าร้อน",
+    "day-trip จากโตเกียวแทบเป็นไปไม่ได้ — ต้องค้างอย่างน้อย 1 คืน (Matsumoto หรือ Norikura Kogen)",
+    "เผื่อเวลารอบ shuttle เที่ยวสุดท้ายลงเขา — เดินขึ้นยอดแล้วต้องกลับทันรอบ ไม่งั้นตกค้างบนยอด"
+  ],
+  "sources": [
+    {
+      "label": "Norikura Skyline (official)",
+      "url": "https://norikuradake.jp/en.html"
+    },
+    {
+      "label": "Nouhi Bus — Norikura Line",
+      "url": "https://www.nouhibus.co.jp/route_bus/norikura-line-en/"
+    }
+  ],
+  "tags_th": [
+    "ยอด 3,000 ม.",
+    "ไม่ต้องปีน",
+    "ทุ่งดอกแอลป์",
+    "ปิดฤดูหนาว",
+    "ค้าง 1 คืน"
+  ],
+  "food": [
+    {
+      "name": "ซันโซคุยากิ",
+      "name_jp": "山賊焼き",
+      "emoji": "🍖",
+      "note_th": "ไก่ชุบแป้งทอดชิ้นใหญ่ ของถิ่นมัตสึโมโตะ"
+    },
+    {
+      "name": "โซบะชินชู",
+      "name_jp": "信州そば",
+      "emoji": "🍜",
+      "note_th": "โซบะ Nagano เมืองโซบะอันดับต้นของญี่ปุ่น"
+    },
+    {
+      "name": "วาซาบิสด",
+      "name_jp": "山葵",
+      "emoji": "🌿",
+      "note_th": "ฟาร์มวาซาบิ Daio ใกล้มัตสึโมโตะ"
+    }
+  ]
+}

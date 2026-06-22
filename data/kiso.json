@@ -1,0 +1,374 @@
+{
+  "slug": "kiso",
+  "name": {
+    "en": "Kiso Valley",
+    "th": "หุบเขาคิโซะ",
+    "jp": "木曽路"
+  },
+  "region": "Chubu",
+  "prefecture": "Nagano / Gifu",
+  "coords": {
+    "lat": 35.5772,
+    "lng": 137.5689
+  },
+  "category": [
+    "nature",
+    "mountain"
+  ],
+  "tagline_th": "เดินเส้นทางโบราณ Edo ผ่านป่าเขาหุบเขาคิโซะ เชื่อม 2 หมู่บ้านไม้โบราณอนุรักษ์สมบูรณ์ ~8 กม. ชิลๆ",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsumago_2009_4.JPG?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Township_of_Tsumago-juku_24.JPG?width=1600"
+  },
+  "difficultyFromTokyo": 3,
+  "access": {
+    "summary_th": "ไม่มีทางตรง ต้องอ้อม — เร็วสุดผ่าน Nagoya (Tokaido Shinkansen) ต่อ Ltd Express Shinano เข้าหุบเขาคิโซะ ลง Nakatsugawa (เข้า Magome) หรือ Nagiso (เข้า Tsumago) ต่อบัส แล้วเดินเทรล 8 กม. (มีบริการขนกระเป๋าระหว่าง 2 หมู่บ้าน)",
+    "jrPassWorth": true,
+    "options": [
+      {
+        "mode": "ผ่าน Nagoya (เร็วสุด)",
+        "detail_th": "Tokyo → shinkansen (Tokaido) → Nagoya ~100 นาที → train (Ltd Express Shinano) → Nakatsugawa ~50 นาที → bus ~25 นาที → Magome · เร็วสุด เข้าฝั่ง Magome แล้วเดินเทรลไป Tsumago",
+        "durationMin": 220,
+        "costYen": 15000,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซน",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "สถานีโตเกียว (Tokyo)",
+            "to": "Nagoya (名古屋)",
+            "mode": "shinkansen",
+            "line_th": "Tokaido Shinkansen (Hikari/Nozomi)",
+            "durationMin": 100,
+            "costYen": 11090,
+            "note_th": "Hikari ที่นั่งจอง ~11,090 เยน (Nozomi แพงกว่าเล็กน้อย) · รวมค่าโดยสาร + ค่าด่วน"
+          },
+          {
+            "from": "Nagoya",
+            "to": "Nakatsugawa (中津川)",
+            "mode": "train",
+            "line_th": "Ltd Express Shinano (JR Chuo Line)",
+            "durationMin": 50,
+            "costYen": 3170,
+            "note_th": "รวมค่าโดยสาร + ค่าด่วนที่นั่งจอง · ราว 1 ขบวน/ชม."
+          },
+          {
+            "from": "Nakatsugawa",
+            "to": "Magome-juku (馬籠宿)",
+            "mode": "bus",
+            "line_th": "Kita-ena Kotsu Bus",
+            "durationMin": 30,
+            "costYen": 800,
+            "note_th": "จ่ายเงินสด เตรียมเศษพอดี · รอบจำกัด เช็คตาราง"
+          }
+        ]
+      },
+      {
+        "mode": "ผ่าน Shiojiri/Nagano",
+        "detail_th": "ชินจูกุ → train (Ltd Express Azusa) → Shiojiri → train (Chuo Main Line) → Nagiso (เข้า Tsumago) · เข้าฝั่ง Tsumago ก่อน เหมาะถ้าตั้งฐานฝั่ง Nagano",
+        "durationMin": 270,
+        "costYen": 7470,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          }
+        ],
+        "steps": [
+          {
+            "from": "ชินจูกุ (Shinjuku)",
+            "to": "Shiojiri (塩尻)",
+            "mode": "train",
+            "line_th": "Ltd Express Azusa (JR Chuo Line)",
+            "durationMin": 150,
+            "costYen": 6000,
+            "note_th": "รวมค่าโดยสาร + ค่าด่วนที่นั่งจอง · ราว 6,000 เยน (Shiojiri ก่อน Matsumoto 1 สถานี) · ประมาณ"
+          },
+          {
+            "from": "Shiojiri",
+            "to": "Nagiso (南木曽)",
+            "mode": "train",
+            "line_th": "JR Chuo Main Line (local)",
+            "durationMin": 55,
+            "costYen": 1170,
+            "note_th": "รถ local รอบน้อย · เข้าฝั่ง Tsumago"
+          },
+          {
+            "from": "Nagiso",
+            "to": "Tsumago-juku (妻籠宿)",
+            "mode": "bus",
+            "line_th": "Ontake Kotsu Bus (สาย Tsumago)",
+            "durationMin": 10,
+            "costYen": 300,
+            "note_th": "ราว 300 เยน · เดินได้ ~3 กม. ถ้าไม่ทันรอบบัส · ประมาณ"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง พ.ย.",
+      "months": [
+        11
+      ],
+      "note_th": "กลาง-ปลาย พ.ย. ป่าหุบเขาแดง-ทองตามเทรล หมู่บ้านไม้คู่ใบไม้เปลี่ยนสี เย็นสบายเดินกำลังดี"
+    },
+    {
+      "label": "ใบไม้ผลิ เม.ย.-พ.ค.",
+      "months": [
+        4,
+        5
+      ],
+      "note_th": "ป่าเขียวอ่อน ดอกไม้ อากาศเย็นสบายเหมาะเดิน"
+    },
+    {
+      "label": "ร้อน ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "เขียวครึ้ม แต่ชื้น/ร้อนกลางวัน เดินเช้า"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "เทรล Nakasendo koyo",
+      "type": "koyo",
+      "startFrac": 0.83,
+      "endFrac": 0.95,
+      "note_th": "กลาง-ปลาย พ.ย."
+    },
+    {
+      "zone": "ป่าเขียวอ่อน",
+      "type": "green",
+      "startFrac": 0.27,
+      "endFrac": 0.42,
+      "note_th": "เม.ย.-พ.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน ค้าง 1 คืน (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น เป็นงบเฉพาะช่วงคิโซะจากฐานโตเกียว · ไกล/หลายต่อ แนะนำค้าง minshuku 1 คืนเพื่อซึมบรรยากาศ Edo",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (shinkansen + Ltd Express)",
+        "yen": 20000,
+        "thb": 4600,
+        "note_th": "ผ่าน Nagoya เข้า-ออกหุบเขาคิโซะ · JR Pass คุ้มถ้ามีอยู่แล้ว"
+      },
+      {
+        "label_th": "บัส + ขนกระเป๋า",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "บัสเข้าหมู่บ้าน + บริการขนกระเป๋า Magome↔Tsumago ระหว่างเดินเทรล"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2500,
+        "thb": 575,
+        "note_th": "soba หุบเขาคิโซะ + ขนม gohei-mochi + ชา"
+      },
+      {
+        "label_th": "ที่พัก minshuku 1 คืน (รวมอาหาร)",
+        "yen": 11000,
+        "thb": 2530,
+        "note_th": "เกสต์เฮาส์บ้านไม้เก่าในหมู่บ้าน รวมอาหารเช้า-เย็น"
+      },
+      {
+        "label_th": "ของฝาก",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "งานคราฟต์ไม้ ของที่ระลึกหมู่บ้าน Edo"
+      }
+    ],
+    "totalYen": 37000,
+    "totalThb": 8510,
+    "ranges": {
+      "lowThb": 5000,
+      "midThb": 8500,
+      "highThb": 14000
+    }
+  },
+  "pois": [
+    {
+      "name": "Tsumago-juku (妻籠宿)",
+      "icon": "building",
+      "durationMin": 90,
+      "blurb_th": "หมู่บ้าน post-town อนุรักษ์สมบูรณ์สุด ไม่มีสายไฟ/รถ บรรยากาศ Edo แท้",
+      "deepDive_th": "Tsumago-juku (妻籠宿) คือหมู่บ้านสถานีพัก (post-town) บนเส้นทางโบราณ Nakasendo ที่อนุรักษ์ได้สมบูรณ์ที่สุดในญี่ปุ่น · ในยุค Edo Nakasendo เป็นหนึ่งใน 5 เส้นทางหลวงหลวงที่เชื่อม Edo (โตเกียว) กับ Kyoto ผ่านภูเขาตอนใน Tsumago เป็นจุดพักคนเดินทาง · ปัจจุบันชาวบ้านตั้งกฎ 'ไม่ขาย ไม่ให้เช่า ไม่ทำลาย' บ้านไม้เก่า + ซ่อนสายไฟใต้ดิน + ห้ามรถวิ่งช่วงกลางวัน ทำให้เดินแล้วเหมือนย้อนกลับไป 200 ปี · มีบ้านพักโบราณเปิดให้ชม ร้าน soba ร้านน้ำชา · เคล็ดลับ: เช้าตรู่/เย็นใกล้ปิดทัวร์ไกด์ คนน้อยถ่ายรูปได้บรรยากาศแท้ที่สุด · เข้าฝั่ง Nagiso (สถานี Nagiso) ใกล้สุด",
+      "location_th": "ฝั่ง Nagano",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Township_of_Tsumago-juku_24.JPG?width=1600",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsumago_2009_4.JPG?width=1600"
+      }
+    },
+    {
+      "name": "Magome-juku (馬籠宿)",
+      "icon": "building",
+      "durationMin": 90,
+      "blurb_th": "หมู่บ้านบนเนินถนนหินปู วิวภูเขา Ena มีจุดชมวิว",
+      "deepDive_th": "Magome-juku (馬籠宿) หมู่บ้านสถานีพักบน Nakasendo ฝั่ง Gifu ตั้งอยู่บนทางลาดเชิงเขา ถนนหลักเป็นทางลาดปูหินไหลลงเป็นขั้นๆ สองข้างเรียงรายด้วยบ้านไม้ ร้านขนม ร้านของฝาก คาเฟ่ · ต่างจาก Tsumago ที่เป็นพื้นราบ — Magome อยู่บนเนินจึงมีจุดชมวิวเหนือหมู่บ้านมองเห็นภูเขา Ena และทุ่งนาด้านล่าง สวยมากช่วงใบไม้เปลี่ยนสี · เป็นจุดเริ่ม/จบเทรล Nakasendo ที่นิยม (เดินจาก Magome ขึ้นเนินไป Tsumago หรือกลับกัน) · มีของกินขึ้นชื่อ gohei-mochi (ข้าวปั้นย่างซอสถั่ว) · เคล็ดลับ: เดินจาก Magome → Tsumago เป็นทางขึ้นช่วงต้นแล้วลงยาว เหนื่อยน้อยกว่าทางกลับ",
+      "location_th": "ฝั่ง Gifu",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Township_of_Tsumago-juku_25.JPG?width=1600",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsumago_2009_4.JPG?width=1600"
+      }
+    },
+    {
+      "name": "Nakasendo Trail (8 กม.)",
+      "icon": "trees",
+      "durationMin": 180,
+      "blurb_th": "เส้นเดินโบราณผ่านป่า ลำธาร น้ำตกคู่ Odaki/Medaki",
+      "deepDive_th": "Nakasendo Trail ช่วง Magome–Tsumago เป็นเส้นเดินโบราณยาว ~8 กม. ที่นักท่องเที่ยวต่างชาตินิยมที่สุดในญี่ปุ่นสำหรับเดิน post-town walk · เส้นทางปูด้วยหินและดินผ่านป่าซีดาร์ ทุ่งนาขั้นบันได ลำธาร และหมู่บ้านเล็กๆ ระหว่างทาง — ไฮไลต์คือน้ำตกคู่ Odaki/Medaki (น้ำตกผัว-เมีย) · ป้ายบอกทางสองภาษาอังกฤษ-ญี่ปุ่นชัดเจน มี 'กระดิ่งไล่หมี' ติดตามทางให้ลั่นเป็นระยะ · ใช้เวลาเดิน ~2.5-3 ชม. ระดับชิลๆ ไม่ต้องเทรนนิ่ง · มีบริการขนกระเป๋าระหว่าง 2 หมู่บ้าน (ฝากเช้า รับอีกฝั่งบ่าย) เดินเบาตัว · เคล็ดลับ: เริ่มจาก Magome ไป Tsumago ทางลงมากกว่าขึ้น เหนื่อยน้อยกว่า",
+      "location_th": "Magome → Tsumago",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Magome-toge%20pass.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "ร้านน้ำชากลางทาง (Tachiba)",
+      "icon": "building",
+      "durationMin": 20,
+      "blurb_th": "ศาลาพักโบราณ มีลุงเสิร์ฟชาฟรี บรรยากาศย้อนยุค",
+      "deepDive_th": "Tachiba-jaya (立場茶屋) ศาลาพักน้ำชาโบราณตั้งอยู่ราวกึ่งกลางเทรล Nakasendo ระหว่าง Magome กับ Tsumago · เป็นบ้านไม้มุงหลังคามีเตาผิงกลางบ้าน (irori) แบบดั้งเดิม มีอาสาสมัครท้องถิ่น (มักเป็นคุณลุงสูงวัย) คอยต้อนรับและเสิร์ฟชาเขียวร้อนฟรีให้นักเดินทางได้พักเหนื่อย · บรรยากาศย้อนยุคเหมือนคนเดินทางยุค Edo แวะพักจริงๆ เป็นจุดพักที่อบอุ่นและน่าจดจำของเส้นทาง · เคล็ดลับ: แวะนั่งพักจิบชา ทักทายลุง เป็นช่วงเวลาเล็กๆ ที่หลายคนประทับใจที่สุดของการเดินเทรลนี้",
+      "location_th": "กลางเทรล",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tateba%20tea%20house%2C%20Tsumago-juku%2C%20Nagiso%2C%202016.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "routeFlow": [
+    {
+      "name": "Nakatsugawa Station",
+      "elevationM": 313,
+      "modeToNext": "bus",
+      "modeDetail_th": "บัส ~25 นาที เข้าหมู่บ้าน Magome"
+    },
+    {
+      "name": "Magome-juku",
+      "elevationM": 600,
+      "modeToNext": "เดินเทรล",
+      "modeDetail_th": "ขึ้นเนินช่วงต้นสู่จุดสูงสุด"
+    },
+    {
+      "name": "Magome Pass (ช่องเขา)",
+      "elevationM": 801,
+      "modeToNext": "เดินเทรล",
+      "modeDetail_th": "จุดสูงสุดของเทรล จากนี้ลงยาว"
+    },
+    {
+      "name": "Tachiba Tea House",
+      "elevationM": 700,
+      "modeToNext": "เดินเทรล",
+      "modeDetail_th": "ศาลาพักชาฟรีกลางทาง ผ่านน้ำตก Odaki/Medaki"
+    },
+    {
+      "name": "Tsumago-juku",
+      "elevationM": 420,
+      "modeToNext": "bus",
+      "modeDetail_th": "บัสไป Nagiso Station"
+    },
+    {
+      "name": "Nagiso Station",
+      "elevationM": 410,
+      "modeToNext": "",
+      "modeDetail_th": "ออกฝั่ง Nagano (Chuo Main Line)"
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "ค้าง 1 คืน minshuku เดินเทรลเต็มเส้น (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — เข้า Magome เดินเทรลสู่ Tsumago",
+          "detail_th": "เช้า shinkansen Tokyo → Nagoya → Ltd Express Shinano → Nakatsugawa → บัสเข้า Magome · เดินเล่น Magome-juku บนเนิน ชมวิวภูเขา Ena · ฝากกระเป๋าใหญ่ส่ง forwarding ไป Tsumago · เดินเทรล Nakasendo ~8 กม. (2.5-3 ชม.) ผ่าน Magome Pass → ศาลาชา Tachiba (พักจิบชาฟรี) → น้ำตก Odaki/Medaki → ถึง Tsumago-juku · เข้าพัก minshuku บ้านไม้เก่า รับกระเป๋า มื้อเย็นในเรือน"
+        },
+        {
+          "title_th": "วันที่ 2 — Tsumago ยามเช้า + กลับ",
+          "detail_th": "เช้าตรู่เดินชม Tsumago-juku ตอนคนยังน้อย บรรยากาศ Edo แท้ ถ่ายรูปบ้านไม้/ถนนไร้สายไฟ · ชิม soba/ขนมท้องถิ่น · บัสไป Nagiso Station → train Chuo Main Line ออกฝั่ง Nagano หรือย้อนทาง Nagoya → shinkansen กลับโตเกียว"
+        }
+      ]
+    },
+    {
+      "label_th": "Day-trip ไป-กลับวันเดียว (เร่ง)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เดินเทรล Magome → Tsumago แล้วรีบกลับ",
+          "detail_th": "ออกโตเกียวเช้ามืด shinkansen → Nagoya → Shinano → Nakatsugawa → บัส Magome · เดินเทรล ~8 กม. ถึง Tsumago บ่าย · บัส Nagiso → รีบขึ้นรถกลับ Nagoya → shinkansen กลับโตเกียวค่ำ · ทำได้แต่เร่งและเหนื่อย ไม่ได้ซึมบรรยากาศหมู่บ้านยามเช้า/เย็น แนะนำค้างมากกว่า"
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ไกลและหลายต่อ — day-trip ทำได้แต่เร่ง แนะนำค้าง 1 คืน minshuku เพื่อได้บรรยากาศหมู่บ้านยามเช้า/เย็นตอนคนน้อย",
+    "มีหมีในพื้นที่ — เดินตามเทรลหลัก ลั่นกระดิ่งไล่หมีตามทางที่ติดไว้ อย่าออกนอกเส้นทาง",
+    "รถไฟ/บัสในหุบเขารอบน้อย — วางแผนเวลากลับให้ดี เช็คตารางรอบสุดท้ายล่วงหน้า",
+    "บริการขนกระเป๋า Magome↔Tsumago มีเฉพาะบางช่วง/เวลา (ฝากเช้า รับบ่าย) — เช็คเงื่อนไขก่อน จะได้เดินเทรลเบาตัว"
+  ],
+  "sources": [
+    {
+      "label": "japan-guide — Kiso Valley",
+      "url": "https://www.japan-guide.com/e/e6078.html"
+    },
+    {
+      "label": "Go! Nagano — Kiso area guide",
+      "url": "https://db.go-nagano.net/en/area-guide/cities/kiso/"
+    }
+  ],
+  "tags_th": [
+    "เส้นทางโบราณ",
+    "หมู่บ้าน Edo",
+    "เดินเทรล",
+    "ใบไม้แดง",
+    "ค้าง minshuku"
+  ],
+  "food": [
+    {
+      "name": "โกเฮโมจิ",
+      "name_jp": "五平餅",
+      "emoji": "🍡",
+      "note_th": "ข้าวปั้นเสียบไม้ทาซอสมิโซะ/งา ย่างไฟ ของถิ่นคิโซะ"
+    },
+    {
+      "name": "โฮบะมิโซะ",
+      "name_jp": "朴葉味噌",
+      "emoji": "🍂",
+      "note_th": "มิโซะย่างบนใบโฮบะ ของถิ่นแถบ Gifu/Kiso"
+    },
+    {
+      "name": "โซบะคิโซะ",
+      "name_jp": "蕎麦",
+      "emoji": "🍜",
+      "note_th": "โซบะหุบเขา กินคู่เกาลัด kuri ฤดูใบไม้ร่วง"
+    }
+  ]
+}

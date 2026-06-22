@@ -1,0 +1,358 @@
+{
+  "slug": "oze",
+  "name": {
+    "en": "Oze National Park",
+    "th": "อุทยานแห่งชาติโอเซะ",
+    "jp": "尾瀬国立公園"
+  },
+  "region": "Kanto",
+  "prefecture": "Gunma",
+  "coords": {
+    "lat": 36.9167,
+    "lng": 139.2333
+  },
+  "category": [
+    "nature",
+    "mountain"
+  ],
+  "tagline_th": "ที่ราบสูงพรุน้ำใหญ่ที่สุดของญี่ปุ่น — เดินบนทางไม้ยกระดับผ่านทุ่งพรุ + ดอก mizubasho ฤดูใบไม้ผลิ ต้นกำเนิดอนุรักษ์ธรรมชาติญี่ปุ่น",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ozegahara_22.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ozegahara_35.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 4,
+  "access": {
+    "summary_th": "เข้าได้เฉพาะฤดู ต้องเดิน — ฝั่ง Gunma สะดวกสุด มีบัสด่วนตรงจากชินจูกุ (ฤดูร้อน-ใบไม้ร่วง) ต่อ shuttle ขึ้น trailhead แล้วเดินบน boardwalk · ปิดฤดูหนาว",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "บัสด่วนตรงจากชินจูกุ (Kanetsu Kotsu)",
+        "detail_th": "ชินจูกุ (Busta) → bus (highway, ปลาย พ.ค.-กลาง ต.ค.) → Oze (Tokura/Oshimizu) → walk เข้าทุ่งพรุ · ตรงสุด แต่บัสวิ่งเฉพาะฤดู",
+        "durationMin": 365,
+        "costYen": 6500,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "ชินจูกุ (Busta)",
+            "to": "Tokura (尾瀬戸倉)",
+            "mode": "bus",
+            "line_th": "Kan-Etsu Kotsu Oze-go (尾瀬号)",
+            "durationMin": 280,
+            "costYen": 5200,
+            "note_th": "วิ่งตามฤดู 22 พ.ค.–18 ต.ค. 2026 · วันละ 3 เที่ยว (กลางวัน 2 + รถนอน 1, รถนอน ~350 นาที) · จองล่วงหน้าได้ 1 เดือน"
+          },
+          {
+            "from": "Tokura (戸倉)",
+            "to": "Hatomachitoge (鳩待峠)",
+            "mode": "bus",
+            "line_th": "Kan-Etsu Kotsu shuttle (乗合バส)",
+            "durationMin": 25,
+            "costYen": 1300,
+            "note_th": "วิ่ง 18 เม.ย.–3 พ.ย. 2026 · รถส่วนตัวห้ามขึ้นช่วงควบคุมจราจร ต้องใช้ shuttle/แท็กซี่ (ราคาเท่ากัน 1,300 เยน)"
+          },
+          {
+            "from": "Hatomachitoge",
+            "to": "Ozegahara (尾瀬ヶ原)",
+            "mode": "walk",
+            "line_th": "เดินลงเขาเข้าทุ่งพรุ",
+            "durationMin": 60,
+            "costYen": 0,
+            "note_th": "เดินลง ~1 ชม. ขากลับเดินขึ้นเหนื่อยกว่า เผื่อแรง"
+          }
+        ]
+      },
+      {
+        "mode": "รถไฟ + บัส ผ่าน Numata",
+        "detail_th": "Tokyo → shinkansen (Joetsu) → Jomo-Kogen → bus → Tokura → shuttle bus → Hatomachitoge trailhead → walk ~1 ชม. → Ozegahara · เร็วช่วง shinkansen แต่ต่อหลายทอด",
+        "durationMin": 270,
+        "costYen": 9540,
+        "transfers": 3,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซน",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo",
+            "to": "Jomo-Kogen (上毛高原)",
+            "mode": "shinkansen",
+            "line_th": "JR Joetsu Shinkansen (とき/たにがわ)",
+            "durationMin": 75,
+            "costYen": 5490,
+            "note_th": "ราคาที่นั่งอิสระ (自由席) รวมค่าด่วนพิเศษ · ที่นั่งจอง (指定席) ~6,020 เยน · ~1 ขบวน/ชม. · ครอบคลุมโดย JR Pass"
+          },
+          {
+            "from": "Jomo-Kogen",
+            "to": "Tokura (尾瀬戸倉)",
+            "mode": "bus",
+            "line_th": "Kan-Etsu Kotsu (สาย 鎌田線)",
+            "durationMin": 110,
+            "costYen": 2750,
+            "note_th": "วิ่งทั้งปี · ออกจาก Jomo-Kogen ~5 เที่ยว/วัน · ขากลับ 2,900 เยน"
+          },
+          {
+            "from": "Tokura (戸倉)",
+            "to": "Hatomachitoge (鳩待峠)",
+            "mode": "bus",
+            "line_th": "Kan-Etsu Kotsu shuttle (乗合バス)",
+            "durationMin": 25,
+            "costYen": 1300,
+            "note_th": "วิ่ง 18 เม.ย.–3 พ.ย. 2026 · รถส่วนตัวห้ามขึ้นช่วงควบคุมจราจร ต้องใช้ shuttle/แท็กซี่"
+          },
+          {
+            "from": "Hatomachitoge",
+            "to": "Ozegahara (尾瀬ヶ原)",
+            "mode": "walk",
+            "line_th": "เดินลงเขาเข้าทุ่งพรุ",
+            "durationMin": 60,
+            "costYen": 0,
+            "note_th": "เดินลง ~1 ชม."
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ดอก Mizubasho พ.ค.-มิ.ย.",
+      "months": [
+        5,
+        6
+      ],
+      "note_th": "ปลาย พ.ค.-ต้น มิ.ย. ทุ่งดอกขาวบานเต็มพรุ ไอคอนิกที่สุด ยังเย็น เตรียมเสื้อกันหนาว"
+    },
+    {
+      "label": "ดอก Nikkokisuge ก.ค.",
+      "months": [
+        7
+      ],
+      "note_th": "กลาง ก.ค. ทุ่งดอกลิลลี่เหลือง (nikkokisuge) บานสะพรั่งทั่วทุ่งพรุ"
+    },
+    {
+      "label": "หญ้าพรุเปลี่ยนสี ก.ย.-ต.ค.",
+      "months": [
+        9,
+        10
+      ],
+      "note_th": "ปลาย ก.ย.-ต้น ต.ค. ทุ่งพรุเป็นสีทองแดง (kusa-momiji) คู่ฉากหลังภูเขา"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "Mizubasho (ดอกขาว)",
+      "type": "bloom",
+      "startFrac": 0.37,
+      "endFrac": 0.45,
+      "note_th": "ปลาย พ.ค.-ต้น มิ.ย. ดอกขาวบานเต็มพรุ"
+    },
+    {
+      "zone": "Nikkokisuge (ลิลลี่เหลือง)",
+      "type": "bloom",
+      "startFrac": 0.5,
+      "endFrac": 0.58,
+      "note_th": "กลาง ก.ค. ทุ่งดอกเหลืองสะพรั่ง"
+    },
+    {
+      "zone": "kusa-momiji (พรุเปลี่ยนสี)",
+      "type": "koyo",
+      "startFrac": 0.66,
+      "endFrac": 0.79,
+      "note_th": "ปลาย ก.ย.-ต้น ต.ค. ทุ่งพรุสีทองแดง"
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน เดินเยอะ อาจค้าง mountain hut 1 คืน (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น เป็นงบเฉพาะช่วงโอเซะจากฐานโตเกียว · ทำเป็น day-trip เดินไฮไลต์ได้ถ้าออกเช้ามาก",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (บัส/รถไฟ)",
+        "yen": 10400,
+        "thb": 2392,
+        "note_th": "บัสด่วน Kanetsu Kotsu ไป-กลับ หรือ Joetsu Shinkansen+บัส"
+      },
+      {
+        "label_th": "shuttle ไป-กลับ trailhead",
+        "yen": 2600,
+        "thb": 598,
+        "note_th": "Tokura → Hatomachitoge / Oshimizu shuttle bus"
+      },
+      {
+        "label_th": "ที่พัก mountain hut 1 คืน (รวมอาหาร)",
+        "yen": 9500,
+        "thb": 2185,
+        "note_th": "hut ในทุ่งพรุ/ริมบึง จองล่วงหน้า รวมมื้อเช้า-เย็น"
+      },
+      {
+        "label_th": "อาหาร / น้ำ",
+        "yen": 2500,
+        "thb": 575,
+        "note_th": "เสบียงระหว่างเดิน + มื้อกลางวัน — ในทุ่งร้านน้อย"
+      }
+    ],
+    "totalYen": 25000,
+    "totalThb": 5750,
+    "ranges": {
+      "lowThb": 3500,
+      "midThb": 7000,
+      "highThb": 10000
+    }
+  },
+  "pois": [
+    {
+      "name": "Ozegahara Marshland",
+      "icon": "trees",
+      "durationMin": 120,
+      "blurb_th": "ที่ราบพรุน้ำใหญ่สุดบนภูเขา เดินบน boardwalk ตัดผ่านทุ่ง ฉากหลังภูเขา",
+      "deepDive_th": "Ozegahara (尾瀬ヶ原) ที่ราบพรุน้ำสูง ~1,400 ม. ใหญ่ที่สุดในญี่ปุ่นบนภูเขา · เดินบน boardwalk ไม้ยกระดับที่ทอดยาวตัดผ่านทุ่งพรุ มีฉากหลังเป็นภูเขา Shibutsu (ฝั่งตะวันตก) และ Hiuchigatake (ฝั่งตะวันออก) · ตามฤดูเปลี่ยนหน้าทุ่งไปเรื่อย: mizubasho ขาว (พ.ค.-มิ.ย.) → nikkokisuge เหลือง (ก.ค.) → kusa-momiji ทุ่งทองแดง (ก.ย.-ต.ค.) · เป็นต้นกำเนิดของขบวนการอนุรักษ์ธรรมชาติของญี่ปุ่น มีกฎเข้มห้ามออกนอก boardwalk · เคล็ดลับ: เดินเช้าตรู่ผิวน้ำในบึงเล็กๆ (ike-to) นิ่งสะท้อนเงาภูเขาสวย · ทางราบเดินสบายแต่ระยะไกล เผื่อเวลาและน้ำ",
+      "location_th": "สูง ~1,400 ม.",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ozegahara_35.jpg?width=900",
+        "source": "wikimedia",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ozegahara_22.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Ozenuma Pond",
+      "icon": "water",
+      "durationMin": 90,
+      "blurb_th": "บึงน้ำกว้างสะท้อนเงาภูเขา Hiuchigatake มี hut ริมบึง",
+      "deepDive_th": "Ozenuma (尾瀬沼) บึงน้ำกว้างทางฝั่งตะวันออกของอุทยาน สูง ~1,660 ม. · สะท้อนเงาภูเขา Hiuchigatake (ภูเขาไฟสูงสุดของภูมิภาคโทโฮกุ) บนผิวน้ำในวันลมสงบ บรรยากาศสงบเงียบกว่าทุ่ง Ozegahara · มีทางเดินรอบบึงและมี hut/ลานพัก (Ozenuma Visitor Center) ริมน้ำ เหมาะเป็นจุดค้างคืนหรือพักกินข้าวกลางทาง · เข้าถึงจากฝั่ง trailhead Oshimizu สะดวก · เคล็ดลับ: ถ้าค้าง hut ที่นี่ จะได้ชมพระอาทิตย์ขึ้น/ตกสะท้อนบึงและทุ่งพรุยามเช้าที่นักท่องเที่ยว day-trip ไม่ได้เห็น",
+      "location_th": "ฝั่งตะวันออก · ~1,660 ม.",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ozegahara_65.jpg?width=900",
+        "source": "wikimedia",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ozegahara_22.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Hatomachitoge trailhead",
+      "icon": "trees",
+      "durationMin": 60,
+      "blurb_th": "ทางเข้าใกล้ทุ่งพรุสุด เดิน 1 ชม. จุดเริ่มยอดนิยม",
+      "deepDive_th": "Hatomachitoge (鳩待峠) ช่องเขาทางเข้าที่ใกล้ทุ่ง Ozegahara ที่สุด และเป็นจุดเริ่มเดินยอดนิยมที่สุดของโอเซะ · จาก Tokura ต่อ shuttle bus ขึ้นมาถึงช่องเขานี้ แล้วเดินลงเขาในป่าราว 1 ชม. ก็ถึงขอบทุ่งพรุ (Yamanohana) · ขากลับต้องเดินขึ้นเขากลับช่องเขา เหนื่อยกว่าขาเข้า เผื่อแรง · มีศูนย์บริการ ร้านอาหาร และที่พักเล็กๆ ที่ช่องเขา · เคล็ดลับ: ช่วงพีค (mizubasho/koyo + weekend) มีระบบจำกัดรถเข้า ต้องใช้ shuttle เท่านั้น มาเช้าหลีกเลี่ยงคิว shuttle ยาว",
+      "location_th": "ทางเข้าหลัก · ช่องเขา",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hatomachi%20Pass%2001.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "ดอกตามฤดู",
+      "icon": "trees",
+      "durationMin": 30,
+      "blurb_th": "mizubasho (พ.ค.-มิ.ย.) / nikkokisuge (ก.ค.) / kusa-momiji (ก.ย.-ต.ค.)",
+      "deepDive_th": "หัวใจของโอเซะคือ 'มาให้ตรงฤดู' เพราะหน้าทุ่งเปลี่ยนไปตามเดือน · Mizubasho (ดอกบอนหิมะ/skunk cabbage สีขาว) ปลาย พ.ค.-ต้น มิ.ย. คือภาพไอคอนิกที่สุด ดอกขาวกระจายเต็มพรุชื้น · Nikkokisuge (เดย์ลิลลี่สีเหลืองส้ม) กลาง ก.ค. บานเป็นทุ่งเหลืองทอง · Kusa-momiji ปลาย ก.ย.-ต้น ต.ค. หญ้าพรุทั้งทุ่งเปลี่ยนเป็นสีทองแดงคู่ฉากภูเขา · นอกจากนี้มีดอกเล็กๆ ตามฤดูอีกหลายชนิดตลอดเส้น boardwalk · เคล็ดลับ: เช็คสถานะการบานล่าสุดจากเว็บอุทยาน/hut ก่อนไป เพราะแต่ละปีคลาดเคลื่อนตามอากาศ",
+      "location_th": "ทั่วทุ่งพรุ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/645a%20Mizubasho%2C%20Oze%20Japan%201971%20%2851353996785%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip เดินไฮไลต์ Ozegahara (ออกเช้ามาก)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "บัสเช้า → Hatomachitoge → ทุ่งพรุ → กลับ",
+          "detail_th": "บัสด่วน/รถไฟเช้ามืดจากโตเกียว → Tokura → shuttle ขึ้น Hatomachitoge · เดินลงป่า ~1 ชม. ถึงขอบทุ่ง Yamanohana → เดิน boardwalk เข้า Ozegahara เก็บวิวทุ่งพรุ+ดอกตามฤดู (~2-3 ชม. ไป-กลับ) · เดินขึ้นกลับ Hatomachitoge → shuttle + บัสกลับโตเกียวเย็น · เหนื่อยแต่เก็บไฮไลต์ทุ่งพรุได้ครบในวันเดียว"
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง mountain hut 1 คืน ทะลุ 2 trailhead",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — เข้า Hatomachitoge → ค้าง hut",
+          "detail_th": "บัสเช้าถึง Tokura → shuttle Hatomachitoge → เดินเข้า Ozegahara เก็บวิวไม่ต้องรีบ → เดินต่อไป Ozenuma ค้าง hut ริมบึง · เย็นชมพรุ/บึงเงียบๆ พระอาทิตย์ตก"
+        },
+        {
+          "title_th": "วันที่ 2 — Ozenuma → ออกฝั่ง Oshimizu",
+          "detail_th": "เช้าชมบึง Ozenuma สะท้อนเงาภูเขายามเช้า · เดินออกทาง trailhead Oshimizu (ฝั่งตะวันออก) → shuttle + บัสกลับโตเกียว · ทะลุ 2 ฝั่งเห็นทั้งทุ่งพรุและบึง ไม่ย้อนทาง (เดินรวม 6-8 ชม. ตลอด 2 วัน)"
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "เข้าได้เฉพาะฤดู — บัส/shuttle วิ่ง ~ปลาย พ.ค.-กลาง ต.ค. นอกช่วงนี้เข้าไม่ได้ (ปิดฤดูหนาว หิมะหนา)",
+    "ต้องเดินเยอะ 6-8 ชม. ถ้าทะลุ 2 trailhead — เตรียมรองเท้าเดินป่า น้ำ อาหาร ในทุ่งร้านน้อย",
+    "มีหมีในพื้นที่ — เดินตาม boardwalk เท่านั้น ห้ามออกนอกทางไม้ พกกระดิ่ง/ส่งเสียงตามทาง",
+    "อากาศบนที่สูงเปลี่ยนเร็ว เช้าหนาว — เตรียมเสื้อกันฝน + กันหนาว แม้หน้าร้อน",
+    "ห้ามออกนอก boardwalk เด็ดขาด — เป็นเขตอนุรักษ์ระบบนิเวศพรุที่เปราะบาง ห้ามเก็บดอกไม้/ทิ้งขยะ นำขยะกลับเอง"
+  ],
+  "sources": [
+    {
+      "label": "Oze — japan-guide",
+      "url": "https://www.japan-guide.com/e/e7440.html"
+    },
+    {
+      "label": "National Parks of Japan — Oze access",
+      "url": "https://www.japan.travel/national-parks/parks/oze/how-to-get-there/"
+    }
+  ],
+  "tags_th": [
+    "ทุ่งพรุ",
+    "boardwalk",
+    "ดอกไม้ตามฤดู",
+    "เดินป่า",
+    "ปิดฤดูหนาว"
+  ],
+  "food": [
+    {
+      "name": "ข้าวปั้น / อาหาร hut",
+      "emoji": "🍙",
+      "note_th": "อาหารกล่อง/ข้าวปั้นกินระหว่างเดิน boardwalk"
+    },
+    {
+      "name": "มิซึซาวะอุด้ง / คอนเนียคุ",
+      "name_jp": "水沢うどん",
+      "emoji": "🍜",
+      "note_th": "ของถิ่น Gunma ทางเข้าฝั่ง Gunma"
+    },
+    {
+      "name": "ฮานาเมเมโมจิ / ของหวานภูเขา",
+      "emoji": "🍡",
+      "note_th": "ของกินเล่นตามจุดพัก"
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "slug": "nikko",
+  "name": { "en": "Nikko", "th": "นิกโก้", "jp": "日光" },
+  "region": "Kanto",
+  "prefecture": "Tochigi",
+  "coords": { "lat": 36.7581, "lng": 139.5986 },
+  "category": ["shrine", "nature", "lake"],
+  "tagline_th": "ศาลเจ้ามรดกโลกทองอร่าม + น้ำตก 97 เมตร + ทะเลสาบบนเขาที่ใบไม้แดงทั้งหุบ — day-trip จากโตเกียวได้",
+  "heroImage": {
+    "url": "https://ak-d.tripcdn.com/images/0100612000k0bazpq7581_W_1200_0_Q70.webp?proc=source%2ftrip",
+    "source": "trip.com",
+    "credit": "Trip.com — Nikko Toshogu Shrine",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nikko_Tosho-gu_Yomeimon_Gate.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "ง่ายสุดในกลุ่มมรดกโลก — Tobu SPACIA X จาก Asakusa ตรงถึง Tobu-Nikko ~1ชม.50น. ไม่ต้องต่อรถ. ตัวเมือง (Toshogu/Rinnoji/Shinkyo) เดิน/บัสสั้นๆ เที่ยวจบในวันเดียวสบาย. แต่ถ้าจะขึ้นเขา Lake Chuzenji + Senjogahara ต้องต่อบัส ~50 นาทีและวันจะยาว — ควรค้าง 1 คืน",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Tobu SPACIA X (Limited Express)",
+        "detail_th": "Asakusa → Tobu-Nikko ตรง ไม่ต่อ ขบวนใหม่ที่นั่งพรีเมียม. ต้องจองที่นั่งล่วงหน้า. ราคารวมค่าโดยสาร + LE supplement ~¥3,340 ต่อเที่ยว",
+        "durationMin": 110,
+        "costYen": 3340,
+        "transfers": 0,
+        "steps": [
+          { "from": "Asakusa", "to": "Tobu-Nikko", "mode": "train", "line_th": "Tobu SPACIA X (Limited Express)", "durationMin": 110, "costYen": 3340, "note_th": "base fare ¥1,400 + LE supplement (Standard Seat) ¥1,940 = ¥3,340 · ที่นั่ง reserved ต้องจองล่วงหน้า · ที่นั่งพรีเมียม (Cockpit/Compartment) แพงกว่า" }
+        ]
+      },
+      {
+        "mode": "Tobu Revaty / Kegon (LE รุ่นเก่ากว่า)",
+        "detail_th": "ทางเลือก LE อื่นจาก Asakusa ราคาใกล้ SPACIA X ตารางถี่กว่า. ต้องจองที่นั่งเช่นกัน",
+        "durationMin": 115,
+        "costYen": 3050,
+        "transfers": 0,
+        "steps": [
+          { "from": "Asakusa", "to": "Tobu-Nikko", "mode": "train", "line_th": "Tobu Limited Express (Revaty Kegon / Kegon)", "durationMin": 115, "costYen": 3050, "note_th": "base fare ¥1,400 + LE supplement ¥1,650 ≈ ¥3,050 · ตารางถี่กว่า SPACIA X · ต้องจองที่นั่ง · ตัวเลข supplement ประมาณ" }
+        ]
+      },
+      {
+        "mode": "JR (Tohoku Shinkansen + JR Nikko Line)",
+        "detail_th": "Tokyo/Ueno → Utsunomiya (shinkansen ~55น.) → ต่อ JR Nikko Line → JR Nikko (~45น.). ต่อ 1 ครั้ง. คุ้มเฉพาะคนถือ JR Pass (ครอบคลุมทั้งเส้น ฟรี); ถ้าไม่มี pass แพงกว่า Tobu",
+        "durationMin": 120,
+        "costYen": 5680,
+        "transfers": 1,
+        "steps": [
+          { "from": "Tokyo / Ueno", "to": "Utsunomiya", "mode": "shinkansen", "line_th": "Tohoku Shinkansen (Yamabiko/Nasuno) — reserved", "durationMin": 55, "costYen": 4920, "note_th": "base fare ~¥2,310 + reserved limited express ~¥2,610 ≈ ¥4,920 (off-peak) · JR Pass ครอบคลุมฟรี · ตัวเลขประมาณ" },
+          { "from": "Utsunomiya", "to": "JR Nikko", "mode": "train", "line_th": "JR Nikko Line (local)", "durationMin": 45, "costYen": 760, "note_th": "รถ local · ต่อจาก Utsunomiya · ราคาประมาณ" }
+        ]
+      },
+      {
+        "mode": "บัส Tobu-Nikko → Chuzenji Onsen (ในพื้นที่)",
+        "detail_th": "ขึ้น Lake Chuzenji/Kegon ต้องนั่งบัสต่อจากสถานี ~50น. ทุก ~30น. ผ่าน Irohazaka 48 โค้ง. เหมารวมใน NIKKO PASS ALL AREA",
+        "durationMin": 50,
+        "costYen": 1250,
+        "transfers": 0,
+        "steps": [
+          { "from": "Tobu-Nikko Station", "to": "Chuzenji Onsen", "mode": "bus", "line_th": "Tobu Bus (สาย Chuzenji Onsen / Yumoto)", "durationMin": 50, "costYen": 1250, "note_th": "บัสทุก ~30 นาที · ผ่าน Irohazaka 48 โค้ง · รวมใน NIKKO PASS ALL AREA · เป็นช่วงในพื้นที่ ต่อจากตัวเมือง (ไม่ใช่จากโตเกียวตรง)" }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "Koyo บนเขา (Oku-Nikko)",
+      "months": [10, 11],
+      "note_th": "Lake Chuzenji + Kegon + Irohazaka peak ~18 ต.ค.–1 พ.ย. ใบไม้แดงทั้งหุบ — ช่วงพีคที่สุดของ Nikko แต่รถติด Irohazaka หนักมากเสาร์-อาทิตย์"
+    },
+    {
+      "label": "Koyo ตัวเมือง",
+      "months": [11],
+      "note_th": "Shinkyo Bridge + Toshogu peak ช้ากว่าบนเขา ~5-12 พ.ย. ใบแดงตัดกับสะพานแดง+ทองศาลเจ้า สวยและคนน้อยกว่าบนเขา"
+    },
+    {
+      "label": "ต้นฤดูร้อน",
+      "months": [6, 7],
+      "note_th": "มิ.ย. primrose บานริม Lake Chuzenji, เขียวสด, หนีร้อนโตเกียวขึ้น Oku-Nikko เย็นสบาย คนน้อย"
+    },
+    {
+      "label": "ฤดูหนาว",
+      "months": [12, 1, 2],
+      "note_th": "เงียบ ราคาถูก น้ำตกแข็ง+onsen อบอุ่น แต่บัส Yumoto ลดเที่ยว ล่องเรือ Chuzenji ปิด (เปิดกลางเม.ย.–30 พ.ย.)"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "Oku-Nikko / Yumoto (สูงสุด)",
+      "type": "koyo",
+      "startFrac": 0.0,
+      "endFrac": 0.3,
+      "note_th": "เริ่มเปลี่ยน ~5-10 ต.ค. ที่ระดับสูงสุด"
+    },
+    {
+      "zone": "Lake Chuzenji / Kegon / Irohazaka",
+      "type": "koyo",
+      "startFrac": 0.28,
+      "endFrac": 0.62,
+      "note_th": "พีค ~18 ต.ค.–1 พ.ย. — หัวใจของฤดูใบไม้เปลี่ยนสี Nikko"
+    },
+    {
+      "zone": "ตัวเมือง / Shinkyo / Toshogu",
+      "type": "koyo",
+      "startFrac": 0.58,
+      "endFrac": 0.85,
+      "note_th": "พีค ~5-12 พ.ย. ช้ากว่าบนเขา ~2-3 สัปดาห์"
+    }
+  ],
+  "budget": {
+    "note_th": "ต่อคน เรท 0.23 THB/JPY · ตัวเลขตั๋ว/ค่าเข้าอิงราคาทางการ 2025-2026 · ตรวจสอบเองอีกครั้งก่อนจอง — แผนแนะนำคือ Plan B (ค้าง 1 คืน + ขึ้นเขา)",
+    "items": [
+      { "label_th": "SPACIA X ไป-กลับ Asakusa↔Tobu-Nikko", "yen": 6680, "thb": 1536 },
+      { "label_th": "NIKKO PASS ALL AREA (4 วัน, บัสขึ้นเขา+ในเมือง)", "yen": 8000, "thb": 1840, "note_th": "คุ้มเพราะบัส Chuzenji/Senjogahara/ในเมืองรวมหมด" },
+      { "label_th": "ค่าเข้า Toshogu + ลิฟต์ Kegon Falls", "yen": 1870, "thb": 430 },
+      { "label_th": "ที่พัก 1 คืน (business hotel / guesthouse mid)", "yen": 9000, "thb": 2070 },
+      { "label_th": "อาหาร 2 วัน (รวมยูบะ specialty)", "yen": 6000, "thb": 1380 }
+    ],
+    "totalYen": 31550,
+    "totalThb": 7256,
+    "ranges": { "lowThb": 5500, "midThb": 7260, "highThb": 11500 }
+  },
+  "pois": [
+    {
+      "name": "Toshogu Shrine (日光東照宮)",
+      "icon": "shield-check",
+      "durationMin": 120,
+      "blurb_th": "สุสานโทคุงาวะ อิเอยาสึ ศาลเจ้าหรูที่สุดในญี่ปุ่น มรดกโลก UNESCO — ทอง-แดง-เขียวเต็มทุกตารางนิ้ว",
+      "deepDive_th": "ศาลเจ้าระดับ headquarters ของเครือ Toshogu ทั่วญี่ปุ่น สร้างเป็นสุสานของโทคุงาวะ อิเอยาสึ ผู้ตั้งโชกุนตระกูลโทคุงาวะ. ไฮไลต์คือ Yomeimon gate — ประตูสูง ~11m มีงานแกะสลักไม้สมัยเอโดะกว่า 500 ชิ้น (มังกร เทพ เด็ก) ละเอียดจนเรียก 'ประตูพระอาทิตย์ตก' เพราะดูทั้งวันไม่เบื่อ. ของดังอีก: ลิงสามตัว (ไม่ดู-ไม่ฟัง-ไม่พูด) และแมวหลับ (Nemuri-neko) ฝีมือ Hidari Jingoro, เจดีย์ 5 ชั้น. ค่าเข้า ¥1,300 (combo + พิพิธภัณฑ์ ¥2,100) · เปิด 9:00-17:00 เม.ย.-ต.ค. (พ.ย.-มี.ค. ปิด 16:00 last entry ก่อน 30น.). เคล็ดลับ: ซื้อ World Heritage Pass ¥2,100 คุ้มกว่าถ้าจะเดิน Futarasan + Taiyuin ต่อ. มาเช้าเลี่ยงทัวร์กรุ๊ป",
+      "location_th": "เขตศาลเจ้า เดิน ~25-35น. จาก Tobu-Nikko หรือนั่งบัส World Heritage 2-3 ป้าย",
+      "image": {
+        "url": "https://ak-d.tripcdn.com/images/0HJ4312000pspq03u3F96_W_1200_0_Q70.webp?proc=source%2ftrip",
+        "source": "trip.com",
+        "credit": "Trip.com — Nikko Toshogu Shrine",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nikko_toshogu_yomeimon_gate_ver1.jpg?width=900"
+      }
+    },
+    {
+      "name": "Shinkyo Bridge (神橋)",
+      "icon": "location-point",
+      "durationMin": 20,
+      "blurb_th": "สะพานแดงศักดิ์สิทธิ์ ประตูสู่เขตมรดกโลก — จุดถ่ายรูปแรกพอลงจากสถานี ใบแดงล้อมตอน พ.ย.",
+      "deepDive_th": "สะพานไม้สีแดงเข้มยาว ~28m กว้าง ~8m ทอดข้ามแม่น้ำ Daiya ถือเป็นหนึ่งในสะพานสวยที่สุดของญี่ปุ่นและเป็นประตูเชิงสัญลักษณ์สู่กลุ่มศาลเจ้า-วัดมรดกโลก. สีแดงตัดกับน้ำใสและภูเขาเขียว (หรือใบแดงตอน พ.ย.) เป็นช็อตคลาสสิกของ Nikko. ดูและถ่ายรูปจากทางเท้าได้ฟรี ถ้าอยากเดินขึ้นไปบนสะพานจริงจ่ายค่าธรรมเนียมเล็กน้อย (~¥300). อยู่ระหว่างทางเดินจากสถานีขึ้นไปเขตศาลเจ้าพอดี — แวะ 15-20 นาทีก่อนเข้า Toshogu",
+      "location_th": "ทางขึ้นเขตศาลเจ้า ~20น.เดินจาก Tobu-Nikko หรือบัสป้าย Shinkyo",
+      "image": {
+        "url": "https://ak-d.tripcdn.com/images/0103l1200082mjacg6735_W_1200_0_Q70.webp?proc=source%2ftrip",
+        "source": "trip.com",
+        "credit": "Trip.com — Shinkyo Bridge",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shinkyo_Bridge_over_the_Daiya_River_at_Nikko%2C_Japan.jpg?width=900"
+      }
+    },
+    {
+      "name": "Rinnoji Temple (輪王寺)",
+      "icon": "building",
+      "durationMin": 40,
+      "blurb_th": "วัดสำคัญสุดของ Nikko — Sanbutsudo ประดิษฐานพระพุทธรูปทองยักษ์ 3 องค์ เดินต่อจาก Toshogu ได้เลย",
+      "deepDive_th": "วัดที่สำคัญที่สุดของ Nikko ก่อตั้งมายาวนาน. อาคารหลัก Sanbutsudo (โถงสามพระพุทธ) ประดิษฐานพระพุทธรูปปิดทองขนาดใหญ่ 3 องค์ที่ให้บรรยากาศขรึมศักดิ์สิทธิ์. อยู่ห่างจาก Toshogu เดินไม่กี่นาที จึงเที่ยวควบในรอบเดียวได้สบาย และสวน Shoyoen ข้างๆ สวยตอน autumn. ค่าเข้า Sanbutsudo ~¥400 (รวมในชุด World Heritage / Nikko 2-temple ได้). เหมาะแวะเสริมต่อจากศาลเจ้า ไม่ต้องเผื่อเวลามาก",
+      "location_th": "เขตศาลเจ้า ติดกับ Toshogu เดิน ~5น.",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/NikkoRinnoji5390.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons — Rinnoji Sanbutsudo"
+      }
+    },
+    {
+      "name": "Kegon Falls (華厳の滝)",
+      "icon": "water",
+      "durationMin": 45,
+      "blurb_th": "น้ำตกสูง 97 เมตร 1 ใน 3 น้ำตกชื่อดังสุดของญี่ปุ่น — น้ำจาก Lake Chuzenji ทิ้งดิ่งหน้าผา",
+      "deepDive_th": "น้ำตกสูง 97m ที่น้ำจาก Lake Chuzenji ทิ้งตัวลงหน้าผาเป็นสายเดียวตระการตา หนึ่งในสามน้ำตกชื่อดังที่สุดของญี่ปุ่น. ดูฟรีจาก deck ด้านบน แต่จ่ายลิฟต์ ¥570 (เด็ก ¥340) ลงไปจุดชม observation ด้านล่างจะเห็นน้ำตกเต็มความสูงแบบเงยหน้ามอง — คนส่วนใหญ่บอกว่าคุ้ม โดยเฉพาะตอน autumn ที่หน้าผาล้อมด้วยใบแดง-ทอง. peak ใบไม้ ~กลาง ต.ค.–ต้น พ.ย. อยู่ติด Chuzenji bus terminal เดิน ~5น. — แวะคู่กับ Lake Chuzenji ในจุดเดียว",
+      "location_th": "Chuzenji Onsen เดิน ~5น.จากป้ายบัส (ต่อบัส ~50น.จาก Tobu-Nikko)",
+      "image": {
+        "url": "https://ak-d.tripcdn.com/images/0105s120008alsjab24BD_W_1200_0_Q70.webp?proc=source%2ftrip",
+        "source": "trip.com",
+        "credit": "Trip.com — Kegon Falls",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kegon_Taki.jpg?width=900"
+      }
+    },
+    {
+      "name": "Lake Chuzenji (中禅寺湖)",
+      "icon": "water",
+      "durationMin": 90,
+      "blurb_th": "ทะเลสาบสูงสุดในญี่ปุ่น 1,269 ม. มี Mt.Nantai เป็นฉากหลัง — หัวใจของ koyo Nikko",
+      "deepDive_th": "ทะเลสาบบนภูเขาที่สูงที่สุดในญี่ปุ่น (1,269m) เกิดจากลาวา Mt.Nantai (2,486m) ปิดกั้นหุบ. จากริมทะเลสาบมองข้ามน้ำเห็นภูเขา Nantai ตั้งตระหง่าน — ฉากถ่ายรูปหลักของฤดูใบไม้เปลี่ยนสี เพราะใบแดงไล่ลงเชิงเขาช่วง ~20 ต.ค.–5 พ.ย. ล่องเรือชมวิวได้ (เปิดกลางเม.ย.–30 พ.ย. รวมใน NIKKO PASS ALL AREA). มิ.ย. มี primrose บานริมน้ำ. อยู่ติด Kegon Falls + Chuzenji Onsen — เป็นฐานเที่ยว Oku-Nikko. เพราะอยู่สูง อากาศเย็นกว่าตัวเมืองมาก เตรียมเสื้อกันหนาว",
+      "location_th": "Oku-Nikko ปลายทาง Irohazaka (บัส ~50น.จาก Tobu-Nikko)",
+      "image": {
+        "url": "https://ak-d.tripcdn.com/images/01054120008imw9umB526_W_1200_0_Q70.webp?proc=source%2ftrip",
+        "source": "trip.com",
+        "credit": "Trip.com — Lake Chuzenji",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_nantai_and_lake_chuzenji.jpg?width=900"
+      }
+    },
+    {
+      "name": "Irohazaka Winding Road (いろは坂)",
+      "icon": "compass",
+      "durationMin": 40,
+      "blurb_th": "ถนนภูเขา 48 โค้งหักศอก เชื่อมตัวเมือง↔Lake Chuzenji — autumn ทั้งหุบเป็นใบแดง (แต่รถติดสาหัส)",
+      "deepDive_th": "ถนนภูเขา 15.8km ที่มี 48 โค้งหักศอก ตั้งชื่อตามอักษรญี่ปุ่นโบราณ 'iroha' 48 ตัว. แบ่งเป็น First Irohazaka (ทางลงอย่างเดียว) และ Second Irohazaka (ทางขึ้นอย่างเดียว) เป็นเส้นทางขึ้น Oku-Nikko/Lake Chuzenji ที่บัสทุกคันต้องผ่าน. ช่วง autumn (ปลาย ต.ค.–ต้น พ.ย.) ทั้งหุบเขาเปลี่ยนเป็นแดง-ส้ม-ทอง สวยระดับ iconic ของญี่ปุ่น. ⚠️ แต่ก็ทำให้รถติดหนักที่สุดของ Nikko ในช่วงนี้ — เสาร์-อาทิตย์/วันหยุดติดตั้งแต่ 7 โมงเช้า ยาวถึงบ่าย. หมายเหตุ: Akechidaira Ropeway (จุดชมวิว Kegon+Chuzenji จากด้านบนกลาง Irohazaka) ปิดปรับปรุง 16 ม.ค. 2026–31 ส.ค. 2027 — ช่วงนี้ขึ้นไม่ได้",
+      "location_th": "ระหว่างตัวเมือง Nikko ↔ Lake Chuzenji (นั่งบัสผ่าน)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Iroha_Zaka_Nikko_%E3%81%84%E3%82%8D%E3%81%AF%E5%9D%82_Fall_(87686983).jpeg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons — Iroha Zaka Nikko Fall (87686983)"
+      }
+    },
+    {
+      "name": "Yudaki Falls & Senjogahara Marsh (湯滝・戦場ヶ原)",
+      "icon": "trees",
+      "durationMin": 150,
+      "blurb_th": "เส้นเดินป่าราบ 6 กม. ผ่านน้ำตก Yudaki → ทุ่งพรุ Senjogahara — larch สีทองตอน autumn คนน้อย",
+      "deepDive_th": "จุดที่คนไทยส่วนใหญ่พลาด แต่เป็นเสน่ห์ underrated ของ Oku-Nikko. เส้น hike เริ่มจากน้ำตก Yudaki เดินเลียบแม่น้ำ Yugawa ผ่านป่าร่มแล้วออกสู่ทุ่งพรุ Senjogahara บน boardwalk ยกพื้น ~6km ค่อนข้างราบ (~2ชม.ถึง Akanuma / ~3ชม.ถ้าเดินยาวถึง Ryuzu Falls). ตอน autumn หญ้าในพรุเปลี่ยนเป็นแดง-เหลือง larch รอบๆ เป็นทองอร่าม วิวเปิดโล่งเห็นภูเขา. บัสสาย Yumoto Onsen จาก Tobu-Nikko (จอด JR Nikko ด้วยบางเที่ยว) ลง Akanuma / Yudaki Iriguchi / Sanbonmatsu. เหมาะค้าง 1 คืนแล้วเดินเช้าๆ — day-trip ไป-กลับโตเกียวพร้อมเดินเส้นนี้จะแน่นเกิน. เตรียมรองเท้าเดิน + เสื้อกันลม (พื้นที่พรุโล่งลมแรง)",
+      "location_th": "Oku-Nikko เหนือ Lake Chuzenji (บัสสาย Yumoto ต่อจาก Chuzenji)",
+      "image": {
+        "url": "https://ak-d.tripcdn.com/images/0100a12000f6rf2o21C5F_W_1200_0_Q70.webp?proc=source%2ftrip",
+        "source": "trip.com",
+        "credit": "Trip.com — Senjogahara Marshland",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Senj%C5%8Dgahara_01.jpg?width=900"
+      }
+    }
+  ],
+  "routeFlow": [
+    { "name": "Asakusa (Tokyo)", "elevationM": 10, "modeToNext": "train", "modeDetail_th": "Tobu SPACIA X · ตรง ~1ชม.50น." },
+    { "name": "Tobu-Nikko Station", "elevationM": 543, "modeToNext": "walk/bus", "modeDetail_th": "เดิน/บัสขึ้นเขตศาลเจ้า ~20-30น." },
+    { "name": "Shinkyo Bridge", "elevationM": 600, "modeToNext": "walk", "modeDetail_th": "เดินขึ้นเขตศาลเจ้า" },
+    { "name": "Toshogu / Rinnoji (เขตศาลเจ้า)", "elevationM": 640, "modeToNext": "bus", "modeDetail_th": "บัส Chuzenji ผ่าน Irohazaka ~50น." },
+    { "name": "Irohazaka 48 โค้ง", "elevationM": 1000, "modeToNext": "bus", "modeDetail_th": "ไต่ขึ้น Oku-Nikko" },
+    { "name": "Lake Chuzenji / Kegon Falls", "elevationM": 1269, "modeToNext": "bus", "modeDetail_th": "บัสสาย Yumoto ต่อขึ้นเหนือ" },
+    { "name": "Senjogahara / Yudaki", "elevationM": 1400, "modeToNext": "", "modeDetail_th": "ปลายทาง Oku-Nikko" }
+  ],
+  "plans": [
+    {
+      "label_th": "Plan A · Day-trip ตัวเมือง (มรดกโลก)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "ออกเช้า — เขตศาลเจ้าครบ กลับเย็น",
+          "detail_th": "SPACIA X เช้าจาก Asakusa ~7-8 โมง → Tobu-Nikko ~10 โมง. เดินขึ้นแวะ Shinkyo Bridge ถ่ายรูป → Rinnoji Sanbutsudo → Toshogu (เผื่อ 2 ชม. ดู Yomeimon/ลิงสามตัว/แมวหลับ) → ถ้าไหวต่อ Futarasan + Taiyuin ด้วย World Heritage Pass. กินยูบะ (เต้าหู้แผ่น) มื้อเที่ยง specialty Nikko. SPACIA X กลับบ่าย-เย็น. งบ ~2,900฿/คน. เหมาะคนเวลาน้อย ไม่เน้นธรรมชาติบนเขา"
+        }
+      ]
+    },
+    {
+      "label_th": "Plan B · ค้าง 1 คืน + ขึ้นเขา Chuzenji/Senjogahara",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "วัน 1 — เขตศาลเจ้ามรดกโลก",
+          "detail_th": "SPACIA X เช้า → Tobu-Nikko. เดิน Shinkyo Bridge → Toshogu → Rinnoji → (Futarasan/Taiyuin ถ้ามีแรง). บ่ายแก่เช็คอินที่พักตัวเมือง Nikko หรือ Chuzenji Onsen. เย็นกินยูบะ/อิ่มสบายๆ พักผ่อน. ถือ NIKKO PASS ALL AREA ใช้บัสไม่อั้น"
+        },
+        {
+          "title_th": "วัน 2 — Oku-Nikko: Chuzenji + Kegon + Senjogahara",
+          "detail_th": "ออกเช้าตรู่ (ก่อน 7:30 ขึ้นบัสรอบแรกเลี่ยงรถติด Irohazaka) → บัสไต่ 48 โค้ง ขึ้น Lake Chuzenji. ชม Kegon Falls (ลง observation ลิฟต์ ¥570) + ริมทะเลสาบ Chuzenji วิว Mt.Nantai. ต่อบัสสาย Yumoto เดิน Yudaki → Senjogahara boardwalk ~2-3ชม. (larch ทองตอน autumn). บ่ายนั่งบัสลงกลับ Tobu-Nikko → SPACIA X กลับโตเกียว. งบรวม ~7,260฿/คน"
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "รถติด Irohazaka หนักมากช่วง koyo (ต.ค.–ต้น พ.ย.) — เสาร์-อาทิตย์/วันหยุดติดตั้งแต่ ~7 โมงเช้ายาวถึงบ่าย. ไป weekday + ขึ้นบัสรอบแรกก่อน 7:30",
+    "Akechidaira Ropeway (จุดชมวิว Kegon+Chuzenji กลาง Irohazaka) ปิดปรับปรุง 16 ม.ค. 2026 – 31 ส.ค. 2027 — ช่วงนี้ขึ้นไม่ได้ อย่าวางแผนพึ่งจุดนี้",
+    "ใบไม้เปลี่ยนสี: บนเขา (Chuzenji/Kegon ~18 ต.ค.–1 พ.ย.) peak ก่อนตัวเมือง (Shinkyo/Toshogu ~5-12 พ.ย.) ~2-3 สัปดาห์ — เลือกวันตาม elevation ที่อยากได้",
+    "NIKKO PASS ไม่รวมค่า Limited Express (SPACIA X) — ต้องจ่ายและจองที่นั่งแยกต่างหาก",
+    "ขึ้นเขา Chuzenji + เดิน Senjogahara = วันยาว (บัส 50น./เที่ยว + hike 2-3ชม.) — day-trip ไป-กลับโตเกียวพร้อมขึ้นเขาจะเหนื่อยมาก ควรค้าง 1 คืน",
+    "ฤดูหนาว (ธ.ค.–มี.ค.) บัสสาย Yumoto ลดเที่ยว และล่องเรือ Lake Chuzenji ปิด (เปิดกลางเม.ย.–30 พ.ย.) — เช็คตารางบัสฤดูหนาวก่อนไป",
+    "NIKKO PASS ซื้อได้เฉพาะนักท่องเที่ยวต่างชาติ (พาสปอร์ตไทยใช้ได้) — เตรียมพาสปอร์ตตอนซื้อ/ใช้"
+  ],
+  "sources": [
+    { "label": "Tobu — NIKKO PASS World Heritage Area", "url": "https://www.tobu.co.jp/en/ticket/nikko/city.html" },
+    { "label": "Tobu — NIKKO PASS All Area", "url": "https://www.tobu.co.jp/en/ticket/nikko/all.html" },
+    { "label": "Tobu — Nikko Bus Information", "url": "https://www.tobu.co.jp/en/access/nikko/bus_nikko.html" },
+    { "label": "Japan Guide — Kegon Falls", "url": "https://www.japan-guide.com/e/e3812.html" },
+    { "label": "Japan Guide — Senjogahara Marshland", "url": "https://www.japan-guide.com/e/e3811.html" },
+    { "label": "Japan Guide — Irohazaka", "url": "https://www.japan-guide.com/e/e3816.html" },
+    { "label": "Japan Guide — Autumn leaf spots in Nikko", "url": "https://www.japan-guide.com/e/e3817.html" },
+    { "label": "Japan Uncharted — Nikko express train Tobu vs JR", "url": "https://japanuncharted.com/tochigi/train/nikko-express-train-options" },
+    { "label": "Japan Trails — Irohazaka (Akechidaira closure)", "url": "https://japan-trails.com/media/irohazaka/" },
+    { "label": "Nikko Kankou — official fee list PDF", "url": "https://www.nikko-kankou.org/" }
+  ],
+  "tags_th": ["มรดกโลก", "ศาลเจ้า", "ใบไม้เปลี่ยนสี", "น้ำตก", "ทะเลสาบ", "เดินป่า", "day-trip", "Tobu SPACIA X"],
+  "food": [
+    { "name": "ยูบะ", "name_jp": "湯波", "emoji": "🫕", "note_th": "ฟองเต้าหู้ของนิกโก้ เสิร์ฟหลายแบบ ทั้งสด/ทอด/ในซุป" },
+    { "name": "โซบะนิกโก้", "name_jp": "蕎麦", "emoji": "🍜", "note_th": "น้ำดีจากภูเขาทำโซบะอร่อย" },
+    { "name": "ขนมปัง/พุดดิ้งนมนิกโก้", "emoji": "🍮", "note_th": "นมจากฟาร์มที่ราบสูง" }
+  ]
+}

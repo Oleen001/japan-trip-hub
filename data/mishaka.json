@@ -1,0 +1,326 @@
+{
+  "slug": "mishaka",
+  "name": {
+    "en": "Mishaka Pond",
+    "th": "สระมิชากะ",
+    "jp": "御射鹿池"
+  },
+  "region": "Chubu",
+  "prefecture": "Nagano",
+  "coords": {
+    "lat": 36.0103,
+    "lng": 138.2606
+  },
+  "category": [
+    "lake",
+    "nature"
+  ],
+  "tagline_th": "สระน้ำกระจกเงาในป่าที่ราบสูง สะท้อนใบไม้แดงกลับหัวเหมือนภาพวาด — แรงบันดาลใจจิตรกรชื่อดัง",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Autumn_leaves_of_Mishaka_pond.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mishaka_pond.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "นั่ง Azusa มาฝั่ง Chino แล้วต่อบัสท้องถิ่นขึ้นที่ราบสูง Oku-Tateshina (บัสน้อยรอบ) สะดวกกว่ามากถ้าเช่ารถ/แท็กซี่จาก Chino จับคู่ Mishaka + Yokoya Gorge + Tateshina วันเดียว",
+    "jrPassWorth": true,
+    "options": [
+      {
+        "mode": "Azusa + บัสท้องถิ่น",
+        "detail_th": "ชินจูกุ → train (Ltd Express Azusa) → Chino ~2 ชม. → bus (Oku-Tateshina Shibu-no-Yu) → Meiji Onsen Iriguchi → walk 3 นาที → สระ",
+        "durationMin": 240,
+        "costYen": 7260,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Chino Station",
+            "mode": "train",
+            "line_th": "Limited Express Azusa (JR Chuo Line)",
+            "durationMin": 130,
+            "costYen": 5760,
+            "note_th": "base fare 3,520 + ตั๋วด่วนที่นั่งจอง 2,240 · Azusa เป็น all-reserved ต้องจองที่นั่ง"
+          },
+          {
+            "from": "Chino Station (ทางออกฝั่งตะวันตก)",
+            "to": "Meiji Onsen Iriguchi",
+            "mode": "bus",
+            "line_th": "Alpico Bus (สาย Oku-Tateshina / Shibu-no-yu)",
+            "durationMin": 41,
+            "costYen": 1500,
+            "note_th": "ประมาณ — บัสตามฤดูกาล (มักเปิดเฉพาะ summer/autumn) รอบน้อยมาก ต้องเช็คตาราง Alpico ก่อนไป"
+          },
+          {
+            "from": "Meiji Onsen Iriguchi",
+            "to": "Mishaka Pond",
+            "mode": "walk",
+            "line_th": "เดินเท้า",
+            "durationMin": 3,
+            "costYen": 0
+          }
+        ]
+      },
+      {
+        "mode": "Azusa + เช่ารถจาก Chino (ยืดหยุ่นสุด)",
+        "detail_th": "ชินจูกุ → train (Azusa) → Chino → car (เช่ารถ ~30-40 นาที) → Mishaka Pond",
+        "durationMin": 210,
+        "costYen": 8000,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "car",
+            "label_th": "รถ",
+            "icon": "car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Chino Station",
+            "mode": "train",
+            "line_th": "Limited Express Azusa (JR Chuo Line)",
+            "durationMin": 130,
+            "costYen": 5760,
+            "note_th": "base fare 3,520 + ตั๋วด่วนที่นั่งจอง 2,240 · all-reserved"
+          },
+          {
+            "from": "Chino Station",
+            "to": "Mishaka Pond",
+            "mode": "car",
+            "line_th": "เช่ารถ (compact class)",
+            "durationMin": 35,
+            "costYen": 2240,
+            "note_th": "ประมาณ — ค่าเช่ารถ compact ~8,900-11,000/วัน ตัวเลขนี้คิดเป็นส่วนแบ่งต่อคนเมื่อหารกลุ่ม ยังไม่รวมน้ำมัน/ETC/ประกัน"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดงสะท้อนน้ำ (พีค) ต.ค.-พ.ย.",
+      "months": [
+        10,
+        11
+      ],
+      "note_th": "ปลาย ต.ค.-ต้น พ.ย. เงาสะท้อนสีทอง-แดง มาเช้าก่อนลมพัดผิวน้ำ เย็นจัด 5-10°C เตรียมเสื้อหนา"
+    },
+    {
+      "label": "ป่าเขียวสด มิ.ย.-ก.ค.",
+      "months": [
+        6,
+        7
+      ],
+      "note_th": "เขียวมรกตสะท้อนน้ำ คนน้อยกว่า เย็นสบาย"
+    },
+    {
+      "label": "หิมะ ม.ค.-ก.พ.",
+      "months": [
+        1,
+        2
+      ],
+      "note_th": "สระขาวโพลน เงียบสงัด ถนนขึ้นอาจปิด/ลื่น เช็คก่อน"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "สระ koyo",
+      "type": "koyo",
+      "startFrac": 0.8,
+      "endFrac": 0.92,
+      "note_th": "ปลาย ต.ค.-ต้น พ.ย."
+    },
+    {
+      "zone": "ป่าเขียว",
+      "type": "green",
+      "startFrac": 0.42,
+      "endFrac": 0.58,
+      "note_th": "มิ.ย.-ก.ค."
+    },
+    {
+      "zone": "หิมะ",
+      "type": "snow",
+      "startFrac": 0,
+      "endFrac": 0.16,
+      "note_th": "ม.ค.-ก.พ."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าเดินทาง Azusa จากโตเกียวเป็นค่าหลัก",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (Azusa ชินจูกุ↔Chino + บัส)",
+        "yen": 14000,
+        "thb": 3220,
+        "note_th": "Ltd Express Azusa ไป-กลับ + บัสท้องถิ่น/แท็กซี่ขึ้นที่ราบสูง"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "มื้อกลางวัน + คาเฟ่ที่ราบสูง"
+      },
+      {
+        "label_th": "ออนเซ็น Meiji/Tateshina",
+        "yen": 800,
+        "thb": 184,
+        "note_th": "แช่คลายเมื่อยหลังเดินเล่น"
+      },
+      {
+        "label_th": "ของฝาก",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "ของที่ระลึกที่ราบสูง Tateshina"
+      }
+    ],
+    "totalYen": 17800,
+    "totalThb": 4094,
+    "ranges": {
+      "lowThb": 2000,
+      "midThb": 4200,
+      "highThb": 7000
+    }
+  },
+  "pois": [
+    {
+      "name": "Mishaka Pond",
+      "icon": "water",
+      "durationMin": 30,
+      "blurb_th": "สระกรดสูงไม่มีปลา น้ำใส มอสก้นสระทำให้สะท้อนเงาคมเหมือนกระจก",
+      "deepDive_th": "Mishaka Pond (御射鹿池) สระเก็บน้ำเพื่อการเกษตรขนาดเล็กที่มีความเป็นกรดสูงจึงไม่มีปลาอาศัย น้ำใสมากบวกกับมอสที่ก้นสระทำให้ผิวน้ำสะท้อนเงาคมเหมือนกระจก · เป็นแรงบันดาลใจของภาพ 'Green Echoes' ของจิตรกรชื่อดัง Kaii Higashiyama ทำให้กลายเป็นจุดถ่ายภาพระดับตำนาน · เดินจากจุดจอด/จุดชมไม่กี่นาที มีจุดถ่ายภาพที่กำหนดไว้ ห้ามลงน้ำหรือข้ามรั้ว · เงาสะท้อนสวยที่สุดช่วงเช้าลมสงบ ใบไม้แดงปลาย ต.ค.-ต้น พ.ย. สะท้อนกลับหัวเหมือนภาพวาด",
+      "location_th": "Oku-Tateshina",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mishaka_pond.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Autumn_leaves_of_Mishaka_pond.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Yokoya Gorge",
+      "icon": "trees",
+      "durationMin": 90,
+      "blurb_th": "โกรกน้ำตกหลายชั้น เดิน 1-2 ชม. สวยช่วง koyo",
+      "deepDive_th": "Yokoya Gorge (横谷渓谷) โกรกธารน้ำตกอยู่ใกล้สระ Mishaka มีเส้นเดินป่าลัดเลาะผ่านน้ำตกหลายชั้น เช่น Otome Falls และน้ำตกอื่นๆ ตลอดเส้น · สวยมากช่วงใบไม้เปลี่ยนสี (koyo) ปลาย ต.ค.-ต้น พ.ย. ทั้งหุบเป็นสีทอง-แดง · ใช้เวลาเดิน 1-2 ชม. ตามระยะที่เลือก เหมาะจับคู่กับ Mishaka ในวันเดียว",
+      "location_th": "ใกล้สระ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mishaka_pond_01_-_Aug_14%2C_2017.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Autumn_leaves_of_Mishaka_pond.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Tateshina / Shirakaba Kogen",
+      "icon": "mountains",
+      "blurb_th": "ทะเลสาบ Shirakaba ทุ่งหญ้า ออนเซ็น เหมาะค้างต่อ",
+      "deepDive_th": "Tateshina / Shirakaba Kogen ที่ราบสูงโดยรอบสระ Mishaka เป็นแหล่งตากอากาศคลาสสิกของ Nagano มีทะเลสาบ Shirakaba ทุ่งหญ้ากว้าง และออนเซ็น Oku-Tateshina กระจายอยู่ · เหมาะต่อยอดเป็นทริปค้างคืนถ้าอยากเที่ยวเต็มที่กว่า day-trip · อากาศเย็นสบายตลอดปี หน้าหนาวมีหิมะ",
+      "location_th": "ที่ราบสูงรอบๆ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Shirakaba%20and%20Kurumayama%20Highlands%20-%20Aug%2010%2C%202008.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Meiji Onsen",
+      "icon": "raindrops-alt",
+      "blurb_th": "ออนเซ็นเก่าแก่ แช่คลายเมื่อยหลังเดิน",
+      "deepDive_th": "Meiji Onsen (明治温泉) ออนเซ็นเก่าแก่ตั้งอยู่ใกล้สระ Mishaka ในที่ราบสูง Oku-Tateshina · เป็นจุดแวะแช่คลายเมื่อยหลังเดินเล่นรอบสระหรือเดิน Yokoya Gorge บรรยากาศเงียบสงบกลางป่า · จุดลงบัส 'Meiji Onsen Iriguchi' ก็เป็นทางเข้าหลักสู่สระ Mishaka พอดี",
+      "location_th": "ใกล้สระ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Tateshina%20from%20Mount%20Yoko.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip เช่ารถจาก Chino (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เก็บสระ + โกรก + ออนเซ็นในวันเดียว",
+          "detail_th": "Azusa เช้าตรู่จากชินจูกุ → Chino → เช่ารถขึ้นที่ราบสูง · ถึงสระ Mishaka 'เช้าก่อนลมพัด' เพื่อเงาสะท้อนคมที่สุด (ใบไม้แดงปลาย ต.ค.-ต้น พ.ย.) → ขับต่อ Yokoya Gorge เดินชมน้ำตกหลายชั้น 1-2 ชม. → แช่ Meiji Onsen คลายเมื่อย → คืนรถที่ Chino → Azusa กลับชินจูกุเย็น · เช่ารถยืดหยุ่นกว่าบัสท้องถิ่นที่รอบน้อยมาก"
+        }
+      ]
+    },
+    {
+      "label_th": "ไปด้วยบัสสาธารณะ (ประหยัด ต้องเช็คตาราง)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เน้นสระ Mishaka อย่างเดียว",
+          "detail_th": "Azusa → Chino → บัส Oku-Tateshina ลง Meiji Onsen Iriguchi → เดิน 3 นาทีถึงสระ · เน้นเก็บภาพสระเช้าๆ แล้วกลับ · ข้อควรระวังหลักคือบัสมีรอบน้อยมาก ต้องเช็คตารางขากลับให้แน่นก่อนออก ไม่งั้นตกค้าง"
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ห้ามลงน้ำ/ห้ามข้ามรั้ว เป็นแหล่งเก็บน้ำเพื่อการเกษตร ต้องถ่ายจากจุดที่กำหนดเท่านั้น",
+    "บัสสาธารณะรอบน้อยมาก เช็คตารางขากลับให้ดี แนะนำเช่ารถ/แท็กซี่จาก Chino จะยืดหยุ่นกว่ามาก",
+    "เงาสะท้อนสวยเฉพาะเช้าลมสงบ สายๆ ลมพัดผิวน้ำกระเพื่อมเงาเสีย — วางแผนมาถึงให้เช้าที่สุด",
+    "หน้าหนาว (ม.ค.-ก.พ.) ถนนขึ้นที่ราบสูงอาจปิด/ลื่นจากหิมะ เช็คสถานะเส้นทางก่อนไป"
+  ],
+  "sources": [
+    {
+      "label": "Mishaka Pond — Chino Travel",
+      "url": "https://navi.chinotabi.jp/en/spot/3076/"
+    },
+    {
+      "label": "Mishaka Pond — Go! Nagano",
+      "url": "https://db.go-nagano.net/en/topics_detail6/id=3009"
+    }
+  ],
+  "tags_th": [
+    "สระสะท้อนเงา",
+    "ใบไม้แดง",
+    "ที่ราบสูง",
+    "ถ่ายรูป",
+    "Nagano"
+  ],
+  "food": [
+    {
+      "name": "โซบะชินชู",
+      "name_jp": "信州そば",
+      "emoji": "🍜",
+      "note_th": "Nagano เป็นเมืองโซบะอันดับต้นของญี่ปุ่น"
+    },
+    {
+      "name": "โอยากิ",
+      "name_jp": "おやき",
+      "emoji": "🥟",
+      "note_th": "แป้งห่อไส้ผัก/ถั่วแดง อาหารพื้นบ้านชินชู"
+    },
+    {
+      "name": "แอปเปิล/ไซเดอร์",
+      "emoji": "🍎",
+      "note_th": "Nagano ปลูกแอปเปิลเยอะ ฤดูใบไม้ร่วงสดมาก"
+    }
+  ]
+}

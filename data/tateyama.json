@@ -1,0 +1,244 @@
+{
+  "slug": "tateyama",
+  "name": { "en": "Tateyama Kurobe", "th": "ทาเทยามะ คุโรเบะ", "jp": "立山黒部" },
+  "region": "Chubu",
+  "prefecture": "Toyama / Nagano",
+  "coords": { "lat": 36.5778, "lng": 137.6186 },
+  "category": ["mountain", "nature", "coast"],
+  "tagline_th": "เส้นทางอัลไพน์เหนือเมฆ ผ่าน Murodo 2,450m — ใบไม้แดง + ลุ้นหิมะแรกกลาง ต.ค.",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Autumn_colored_Tateyama_(51831768498).jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons"
+  },
+  "difficultyFromTokyo": 4,
+  "access": {
+    "summary_th": "Murodo อยู่กึ่งกลาง Tateyama Kurobe Alpine Route — เข้าได้ 2 ฝั่ง: ตะวันตก (Toyama) และตะวันออก (Nagano/Ogizawa) · route ยาว เดิน segment เยอะ day-trip ไป-กลับโตเกียววันเดียวเหนื่อยมาก ควรค้าง 1 คืนที่ Toyama แล้ว traverse ทะลุ route คุ้มกว่า out-and-back",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "ฝั่งตะวันตก · Toyama (แนะนำเริ่ม)",
+        "detail_th": "โตเกียว → Hokuriku Shinkansen (Kagayaki) → Toyama ~2 ชม. 8 นาที → Dentetsu-Toyama → Tateyama Station → cablecar → highland bus → Murodo · เริ่มฝั่งนี้แต่เช้ารถน้อยกว่า แล้วทะลุออก Nagano",
+        "durationMin": 240,
+        "costYen": 18690,
+        "transfers": 3,
+        "steps": [
+          { "from": "Tokyo", "to": "Toyama", "mode": "shinkansen", "line_th": "Hokuriku Shinkansen (Kagayaki) — reserved", "durationMin": 128, "costYen": 13180, "note_th": "Kagayaki ที่นั่ง reserved ทั้งขบวน ต้องจอง · base fare + reserved seat รวมแล้ว" },
+          { "from": "Toyama", "to": "Dentetsu-Toyama", "mode": "walk", "line_th": "เดินเปลี่ยนสถานี (ติดกัน)", "durationMin": 5, "costYen": 0, "note_th": "Dentetsu-Toyama อยู่ข้าง JR Toyama" },
+          { "from": "Dentetsu-Toyama", "to": "Tateyama", "mode": "train", "line_th": "Toyama Chiho Railway (Tateyama Line)", "durationMin": 60, "costYen": 1420 },
+          { "from": "Tateyama", "to": "Bijodaira", "mode": "cablecar", "line_th": "Tateyama Cablecar", "durationMin": 7, "costYen": 1090, "note_th": "ต้องจองรอบเวลา (reserved time slot)" },
+          { "from": "Bijodaira", "to": "Murodo", "mode": "bus", "line_th": "Tateyama Highland Bus", "durationMin": 50, "costYen": 3000, "note_th": "ผ่าน Midagahara ลงเดินได้" }
+        ]
+      },
+      {
+        "mode": "ฝั่งตะวันออก · Nagano / Ogizawa",
+        "detail_th": "โตเกียว → Hokuriku Shinkansen → Nagano ~80-90 นาที → bus → Shinano-Omachi → bus → Ogizawa → electric bus (อุโมงค์) → Kurobe Dam → cablecar/ropeway → Murodo · Shinkansen ถูกกว่าฝั่ง Toyama แต่ต่อบัสเข้า Ogizawa หลายต่อ",
+        "durationMin": 270,
+        "costYen": 19600,
+        "transfers": 4,
+        "steps": [
+          { "from": "Tokyo", "to": "Nagano", "mode": "shinkansen", "line_th": "Hokuriku Shinkansen (Kagayaki) — reserved", "durationMin": 80, "costYen": 8450, "note_th": "Kagayaki reserved ¥8,450 (Hakutaka reserved ~¥8,890) · base + reserved seat รวมแล้ว" },
+          { "from": "Nagano Station", "to": "Ogizawa", "mode": "bus", "line_th": "Alpico Express Bus (Nagano–Ogizawa)", "durationMin": 105, "costYen": 4300, "note_th": "บัสตรงสาย Nagano–Ogizawa ~105 นาที · non-reserved" },
+          { "from": "Ogizawa", "to": "Kurobe Dam", "mode": "bus", "line_th": "Kanden Tunnel Electric Bus", "durationMin": 16, "costYen": 1800, "note_th": "อุโมงค์ ต้องจองรอบเวลา" },
+          { "from": "Kurobe Dam / Kurobeko", "to": "Kurobedaira", "mode": "cablecar", "line_th": "Kurobe Cablecar (วิ่งในอุโมงค์)", "durationMin": 5, "costYen": 1150, "note_th": "เดินข้ามสันเขื่อน ~0.8 km จาก Kurobe Dam ก่อนขึ้น cablecar" },
+          { "from": "Kurobedaira", "to": "Daikanbo", "mode": "ropeway", "line_th": "Tateyama Ropeway (ไม่มีเสากลาง)", "durationMin": 7, "costYen": 1700 },
+          { "from": "Daikanbo", "to": "Murodo", "mode": "bus", "line_th": "Tateyama Tunnel Electric Bus", "durationMin": 10, "costYen": 2200, "note_th": "บัสไฟฟ้าในอุโมงค์ใต้ภูเขา Tateyama" }
+        ]
+      },
+      {
+        "mode": "Full traverse (ทะลุ route) — แนะนำ",
+        "detail_th": "Dentetsu-Toyama → Ogizawa one-way ¥12,170 (~2,800฿) เห็นทุกจุดไม่ย้อนทาง · ใช้ Baggage Forwarding Dentetsu-Toyama ↔ Shinano-Omachi ¥4,000/ใบ (~920฿) เปิดถึง 8 พ.ย. เงินสดเท่านั้น ดรอปก่อน 10:00 → เดินเบาตัว",
+        "durationMin": 360,
+        "costYen": 12170,
+        "transfers": 6,
+        "steps": [
+          { "from": "Dentetsu-Toyama", "to": "Tateyama", "mode": "train", "line_th": "Toyama Chiho Railway (Tateyama Line)", "durationMin": 60, "costYen": 1420 },
+          { "from": "Tateyama", "to": "Bijodaira", "mode": "cablecar", "line_th": "Tateyama Cablecar", "durationMin": 7, "costYen": 1090, "note_th": "ต้องจองรอบเวลา" },
+          { "from": "Bijodaira", "to": "Murodo", "mode": "bus", "line_th": "Tateyama Highland Bus", "durationMin": 50, "costYen": 3000, "note_th": "ผ่าน Midagahara" },
+          { "from": "Murodo", "to": "Daikanbo", "mode": "bus", "line_th": "Tateyama Tunnel Electric Bus", "durationMin": 10, "costYen": 2200, "note_th": "อุโมงค์ใต้ภูเขา" },
+          { "from": "Daikanbo", "to": "Kurobedaira", "mode": "ropeway", "line_th": "Tateyama Ropeway (ไม่มีเสากลาง)", "durationMin": 7, "costYen": 1700 },
+          { "from": "Kurobedaira", "to": "Kurobeko", "mode": "cablecar", "line_th": "Kurobe Cablecar (วิ่งในอุโมงค์)", "durationMin": 5, "costYen": 1150 },
+          { "from": "Kurobe Dam", "to": "Ogizawa", "mode": "bus", "line_th": "Kanden Tunnel Electric Bus", "durationMin": 16, "costYen": 1800, "note_th": "เดินข้ามสันเขื่อน ~0.8 km จาก Kurobeko ไป Kurobe Dam ก่อนขึ้นบัส" }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง (koyo) — พีคกลาง ต.ค.",
+      "months": [9, 10],
+      "note_th": "ปลาย ก.ย.–กลาง ต.ค. Murodo/Daikanbo พีคก่อน · กลาง ต.ค. Midagahara/Bijodaira พีคพอดี · ลุ้นหิมะแรกโปะยอด (ปี 2025 หิมะแรกตก 6 ต.ค.) แต่ไม่มีกำแพงหิมะ (snow walls เป็นของ เม.ย.–มิ.ย.)"
+    },
+    {
+      "label": "หิมะกำแพง (snow corridor)",
+      "months": [4, 5, 6],
+      "note_th": "กำแพงหิมะสูงหลายเมตรช่วงเปิด route 15 เม.ย.–มิ.ย. เป็นไฮไลต์คนละแบบ — อากาศยังหนาวจัด"
+    },
+    {
+      "label": "เขียวสด ดอกไม้ภูเขา",
+      "months": [7, 8],
+      "note_th": "หน้าร้อนภูเขาเขียว ดอกไม้อัลไพน์บาน Midagahara ชุ่มน้ำสวย อากาศเย็นสบายหนีร้อนเมือง"
+    }
+  ],
+  "seasonTimeline": [
+    { "zone": "Murodo / Daikanbo", "type": "koyo", "startFrac": 0.72, "endFrac": 0.79, "note_th": "ปลาย ก.ย.–กลาง ต.ค. โซนสูงเปลี่ยนก่อน" },
+    { "zone": "Midagahara / Bijodaira", "type": "green", "startFrac": 0.76, "endFrac": 0.83, "note_th": "พีคกลาง ต.ค. — ตรงทริปพอดี" },
+    { "zone": "โซนล่าง / Kurobe Dam", "type": "koyo", "startFrac": 0.81, "endFrac": 0.88, "note_th": "ปลาย ต.ค.–ต้น พ.ย. โซนล่างเปลี่ยนทีหลัง" },
+    { "zone": "หิมะแรกโปะยอด", "type": "snow", "startFrac": 0.76, "endFrac": 0.92, "note_th": "กลาง ต.ค.–พ.ย. ลุ้นหิมะแรกบน Murodo" }
+  ],
+  "budget": {
+    "note_th": "งบต่อคน แผนแนะนำ (traverse + ค้าง Toyama 1 คืน) เรท 0.23 THB/JPY — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ช่วงงบ Low ~10,500฿ · Mid ~12,700฿ · High ~16,000+฿ (High = ค้าง Hotel Tateyama บน Murodo + window seat upgrade +¥2,000)",
+    "items": [
+      { "label_th": "Shinkansen ไป-กลับ (โตเกียว↔Toyama/Nagano)", "yen": 21180, "thb": 4870, "note_th": "ขาเข้า Toyama ¥13,180 + ขาออก Nagano→โตเกียว ¥8,000" },
+      { "label_th": "Alpine Route traverse (Dentetsu-Toyama→Ogizawa)", "yen": 12170, "thb": 2800, "note_th": "ตั๋ว one-way ทะลุ route ราคา 2026" },
+      { "label_th": "ที่พัก Toyama 1 คืน (mid)", "yen": 9000, "thb": 2070, "note_th": "เมืองใหญ่ โรงแรมเยอะ ราคาดี ฐานก่อน/หลัง traverse" },
+      { "label_th": "อาหาร 2 วัน", "yen": 6000, "thb": 1380, "note_th": "ซูชิเมือง Toyama + มื้อบนเขา" },
+      { "label_th": "Baggage forwarding", "yen": 4000, "thb": 920, "note_th": "Dentetsu-Toyama ↔ Shinano-Omachi เงินสดเท่านั้น" },
+      { "label_th": "Bus Ogizawa→Shinano-Omachi→Nagano", "yen": 3000, "thb": 690, "note_th": "ต่อบัสออกฝั่ง Nagano" }
+    ],
+    "totalYen": 55350,
+    "totalThb": 12730,
+    "ranges": { "lowThb": 10500, "midThb": 12700, "highThb": 16000 }
+  },
+  "pois": [
+    {
+      "name": "Mikurigaike Pond",
+      "icon": "water",
+      "durationMin": 40,
+      "blurb_th": "บ่อน้ำสะท้อนเงา Tateyama peaks — ภาพไอคอนิกของ route เดินรอบได้",
+      "deepDive_th": "Mikurigaike (みくりが池) เป็นบ่อน้ำจากภูเขาไฟที่ลึกที่สุดในบรรดาบ่อบน Murodo (~15m) อยู่สูง 2,405m · จุดถ่ายภาพไอคอนิกที่สุดของ Alpine Route — วันลมสงบผิวน้ำสะท้อนยอด Tateyama เป็นกระจกเงา · มี loop เดินรอบบ่อ ~1 ชม. ทางเดินชัดเหมาะมือใหม่ ผ่าน Mikurigaike Onsen (ออนเซ็นสูงสุดในญี่ปุ่น 2,410m) · กลาง ต.ค. ใบไม้รอบบ่อเริ่มเปลี่ยนสี + ลุ้นหิมะโปะยอดสะท้อนน้ำ · เช้าตรู่ลมนิ่งสุด ภาพ reflection ชัดที่สุด",
+      "location_th": "Murodo",
+      "image": {
+        "url": "https://ak-d.tripcdn.com/images/010441200088vnho4EAF2_C_760_506_R5.jpg?proc=source/trip",
+        "source": "trip.com",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mikurigaike_Onsen_and_Mount_Okudainichi.jpg?width=900"
+      }
+    },
+    {
+      "name": "Jigokudani (หุบนรก)",
+      "icon": "fire",
+      "durationMin": 20,
+      "blurb_th": "บ่อกำมะถันพ่นไอ ดูจากจุดชม (ทางลงปิดเพราะแก๊ส)",
+      "deepDive_th": "Jigokudani (地獄谷 'หุบนรก') คือพื้นที่ภูเขาไฟยังคุกรุ่นบน Murodo มีบ่อกำมะถันเดือดและไอน้ำร้อนพวยพุ่งตลอด ส่งกลิ่นกำมะถันแรง · ปัจจุบันทางเดินลงหุบ 'ปิด' เพราะระดับแก๊สภูเขาไฟ (ไฮโดรเจนซัลไฟด์) สูงเกินปลอดภัย — ชมได้จากจุดชมวิวด้านบนเท่านั้น · เป็นแหล่งความร้อนที่ป้อนน้ำให้ Mikurigaike Onsen · ระวัง: คนเป็นโรคทางเดินหายใจ/หอบหืดควรเลี่ยงอยู่นาน บางวันลมพัดแก๊สเข้มข้นขึ้น",
+      "location_th": "Murodo",
+      "image": {
+        "url": "https://ak-d.tripcdn.com/images/0105c120008acexnfDE5E_C_760_506_R5.jpg?proc=source/trip",
+        "source": "trip.com",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tateyama_jigokudani_fumarole.jpg?width=900"
+      }
+    },
+    {
+      "name": "Kurobe Dam",
+      "icon": "raindrops-alt",
+      "durationMin": 40,
+      "blurb_th": "เขื่อนสูงสุดในญี่ปุ่น 186m · water discharge ปกติถึงกลาง ต.ค.",
+      "deepDive_th": "Kurobe Dam (黒部ダム) เขื่อนโค้ง (arch dam) สูงที่สุดในญี่ปุ่น 186m สร้างเสร็จปี 1963 ใช้แรงงานมหาศาลในยุคนั้น เป็นสัญลักษณ์วิศวกรรมหลังสงคราม · ไฮไลต์คือ 'water discharge' การปล่อยน้ำมหาศาลพ่นเป็นม่านหมอก (ปกติ 26 มิ.ย.–15 ต.ค.) — ไปปลาย ต.ค. อาจไม่เห็น เช็ควันสุดท้ายก่อน · เดินขึ้นจุดชมวิว 220 ขั้นเห็นเขื่อน+อ่างเก็บน้ำ Kurobe จากมุมสูง วันฟ้าใสมีเทือกเขาเป็นฉาก · มีร้านแกงกะหรี่เขื่อน 'Kurobe Dam Curry' สีเขียวเลียนแบบอ่างน้ำ เป็นของกินซิกเนเจอร์ · อยู่ฝั่งตะวันออกของ route ใกล้ Ogizawa",
+      "location_th": "ฝั่งตะวันออก · ใกล้ Ogizawa",
+      "image": {
+        "url": "https://ak-d.tripcdn.com/images/0ww0r12000qs8y0yv9715_C_760_506_R5.jpg?proc=source/trip",
+        "source": "trip.com",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurobe_Dam_20141012_130913.jpg?width=900"
+      }
+    },
+    {
+      "name": "Daikanbo Viewpoint",
+      "icon": "compass",
+      "durationMin": 15,
+      "blurb_th": "จุดชมวิวพานอรามาเทือกเขา Tateyama + หุบ Kurobe จากที่สูง",
+      "deepDive_th": "Daikanbo (大観峰) อยู่สูง 2,316m เป็นสถานีต่อระหว่าง trolley bus (จาก Murodo) กับ ropeway (ลง Kurobedaira) · ระเบียงชมวิวเปิดมองเห็นพานอรามาเทือกเขา Tateyama ด้านหลังและหุบเขา Kurobe + อ่างเก็บน้ำเขื่อนด้านหน้าจากมุมสูง · กลาง ต.ค. หุบ Kurobe ด้านล่างเป็นทะเลใบไม้แดง-ส้มเต็มหุบ · เป็นจุดแวะสั้นๆ ระหว่างต่อ ropeway แต่วิวคุ้มมาก ไม่มีที่พัก/ทางเดินไกล ชมจากระเบียงสถานี",
+      "location_th": "กลาง route · 2,316m",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tateyama_Murodo-1.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Midagahara Wetland",
+      "icon": "trees",
+      "durationMin": 30,
+      "blurb_th": "พื้นที่ชุ่มน้ำสูง มีทางเดินไม้ · กลาง ต.ค. ใบไม้เปลี่ยนสีพีค",
+      "deepDive_th": "Midagahara (弥陀ヶ原) เป็นที่ราบสูงพื้นที่ชุ่มน้ำ (high moor) สูง ~1,930m ขึ้นทะเบียนเป็นพื้นที่ชุ่มน้ำ Ramsar · มีทางเดินไม้ (boardwalk) ลัดเลาะผ่านบึงเล็กๆ ที่เรียกว่า 'gaki-no-tahata' (นาของปีศาจหิว) ตามตำนานพุทธ · หน้าร้อนมีดอกไม้อัลไพน์บานเต็มทุ่ง · กลาง ต.ค. หญ้าและพุ่มเปลี่ยนเป็นสีทอง-แดงพีคพอดีช่วงทริป เป็นโซนที่ใบไม้สวยตรงเวลาที่สุด · highland bus จอดให้ลงเดินได้ ใช้เวลาสั้นๆ 30 นาทีก็เก็บวิวได้",
+      "location_th": "ฝั่งตะวันตก · 1,930m",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Midagahara_from_Tateyama_Highland_Bus.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Tateyama Ropeway",
+      "icon": "mountains-sun",
+      "durationMin": 10,
+      "blurb_th": "กระเช้าลอยฟ้าไม่มีเสากลางยาวสุดในญี่ปุ่น วิวหุบ koyo เต็มตา",
+      "deepDive_th": "Tateyama Ropeway เชื่อม Daikanbo (2,316m) ↔ Kurobedaira (1,828m) เป็นกระเช้าลอยฟ้าแบบไม่มีเสากลาง (no support tower) ที่ยาวที่สุดในญี่ปุ่น ~1.7 กม. · เพราะไม่มีเสากลางบดบัง วิวจึงเปิดโล่งเต็มตา — กลาง ต.ค. ลอยข้ามหุบเขาที่เป็นทะเลใบไม้แดง-ส้มทั้งหุบ Kurobe เห็นเขื่อนและเทือกเขา · กระเช้าวิ่งทุก ~20 นาที จุได้ ~80 คน ช่วง koyo คิวยาว มาเช้าหรือเผื่อเวลา · ถ่ายรูปได้ทั้งขาขึ้น-ลง วิวเปิดทั้งสองทิศ",
+      "location_th": "กลาง route · Daikanbo↔Kurobedaira",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tateyama-ropeway-2018-09-09.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "routeFlow": [
+    { "name": "Tateyama Station", "elevationM": 475, "modeToNext": "cablecar", "modeDetail_th": "ชัน 7 นาที" },
+    { "name": "Bijodaira", "elevationM": 977, "modeToNext": "highland bus", "modeDetail_th": "ผ่าน Midagahara" },
+    { "name": "Midagahara", "elevationM": 1930, "modeToNext": "highland bus", "modeDetail_th": "พื้นที่ชุ่มน้ำสูง" },
+    { "name": "Murodo", "elevationM": 2450, "modeToNext": "trolley bus", "modeDetail_th": "อุโมงค์ใต้ภูเขา Tateyama" },
+    { "name": "Daikanbo", "elevationM": 2316, "modeToNext": "ropeway", "modeDetail_th": "ไม่มีเสากลาง ยาวสุดในญี่ปุ่น" },
+    { "name": "Kurobedaira", "elevationM": 1828, "modeToNext": "cablecar", "modeDetail_th": "เคเบิลคาร์ลงหุบ" },
+    { "name": "Kurobeko", "elevationM": 1455, "modeToNext": "เดินข้ามสันเขื่อน", "modeDetail_th": "~0.8 km ข้ามสันเขื่อน" },
+    { "name": "Kurobe Dam", "elevationM": 1470, "modeToNext": "electric bus", "modeDetail_th": "อุโมงค์ 6.1 km" },
+    { "name": "Ogizawa", "elevationM": 1433, "modeToNext": "", "modeDetail_th": "ออกฝั่ง Nagano" }
+  ],
+  "plans": [
+    {
+      "label_th": "แบบ A — Traverse เต็ม + ค้าง Toyama",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เข้า Toyama",
+          "detail_th": "เช้าตรู่ Shinkansen โตเกียว→Toyama (~2 ชม.) · เที่ยวเมือง Toyama เบาๆ (Toyama Castle / ซูชิเมือง Toyama) · ค้าง Toyama · เตรียมกระเป๋าใหญ่ส่ง forwarding พรุ่งนี้"
+        },
+        {
+          "title_th": "Traverse ทะลุ route",
+          "detail_th": "เช้ามืดดรอปกระเป๋า forwarding @ Dentetsu-Toyama (ก่อน 10:00) · Tateyama St. → cablecar → Murodo (Mikurigaike + Jigokudani ~2 ชม.) → Daikanbo → ropeway → Kurobe Dam → Ogizawa · bus → Shinano-Omachi (รับกระเป๋า) → Nagano → Shinkansen กลับโตเกียว"
+        }
+      ]
+    },
+    {
+      "label_th": "แบบ B — Out-and-back ถึง Murodo (ไม่อยากย้ายเมือง)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เข้า-ออกฝั่ง Toyama ฝั่งเดียว",
+          "detail_th": "เข้า-ออกฝั่ง Toyama · ค้าง Toyama 2 คืน · ตั๋วถูกลง ไม่ต้อง forwarding · แต่เห็นแค่ครึ่ง route (พลาด Kurobe Dam, ropeway, Daikanbo)"
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "จอง WEB ticket ล่วงหน้า — ช่วง koyo กลาง ต.ค. cablecar/bus มีโควต้าต่อรอบ บัสเต็มเร็ว ไม่จองอาจรอหลายชั่วโมง จองผ่าน WEB ticket ทางการ",
+    "เช็ค water discharge ของ Kurobe Dam — ปล่อยน้ำถึงกลาง ต.ค. เท่านั้น ไปปลาย ต.ค. อาจไม่เห็น",
+    "Baggage forwarding เปิดถึง 8 พ.ย. + เงินสดเท่านั้น — เตรียมเงินสด ดรอปก่อน 10:00",
+    "อากาศแปรปรวนบนยอด — มีโอกาสหมอก/ฝน/หิมะแรก เผื่อแผนสำรอง + เสื้อกันหนาวเสมอ (ยอดใกล้ 0°C โซนล่าง ~15°C)",
+    "ทำ Alpine Route ช่วงต้น–กลางทริป ไม่ใช่วันบินออก — เผื่อ route ปิดฉุกเฉินเพราะอากาศ",
+    "route ปิดกลางคืน — ขึ้นเช้าให้ทันรอบสุดท้ายของแต่ละ segment ไม่งั้นตกค้าง",
+    "ไม่มีกำแพงหิมะในเดือน ต.ค. — snow walls เป็นของ เม.ย.–มิ.ย. เท่านั้น อย่าคาดหวัง"
+  ],
+  "sources": [
+    { "label": "Alpine Route 2026 เปิด 15 เม.ย.", "url": "https://www.alpen-route.com/en/tateyama-kurobe-alpine-route-will-open-on-april-15th-2026" },
+    { "label": "ค่าโดยสารทางการ", "url": "https://www.alpen-route.com/en/fare/" },
+    { "label": "Baggage Forwarding", "url": "https://www.alpen-route.com/en/transport/baggage.html" },
+    { "label": "koyo peak — japan-guide", "url": "https://www.japan-guide.com/e/e7550.html" },
+    { "label": "October weather — snowmonkeyresorts", "url": "https://www.snowmonkeyresorts.com/news/tateyama-kurobe-alpine-route-in-october/" },
+    { "label": "Hokuriku Shinkansen fares — nippon.com", "url": "https://www.nippon.com/en/features/h10015/" }
+  ],
+  "tags_th": ["ภูเขาสูง", "ใบไม้แดง", "อัลไพน์", "ต้องค้าง 1 คืน", "วิวพานอรามา", "ลุ้นหิมะแรก", "เดินป่าง่าย"],
+  "food": [
+    { "name": "กุ้งขาว Toyama", "name_jp": "白えび", "emoji": "🦐", "note_th": "กุ้งขาวอ่าวโทยามะ ทำ tempura/sushi/donburi" },
+    { "name": "ปลาหมึกหิ่งห้อย", "name_jp": "ホタルイカ", "emoji": "🦑", "note_th": "ของถิ่นโทยามะฤดูใบไม้ผลิ เรืองแสงได้" },
+    { "name": "มัสสึซูชิ", "name_jp": "ます寿司", "emoji": "🍣", "note_th": "ข้าวหน้าปลาเทราต์อัดในกล่องไม้ ของฝากขึ้นชื่อ" },
+    { "name": "ราเมงดำโทยามะ", "name_jp": "富山ブラック", "emoji": "🍜", "note_th": "ซุปโชยุดำเข้ม รสจัด" }
+  ]
+}

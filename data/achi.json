@@ -1,0 +1,332 @@
+{
+  "slug": "achi",
+  "name": {
+    "en": "Achi Village",
+    "th": "หมู่บ้านอาจิ",
+    "jp": "阿智村"
+  },
+  "region": "Chubu",
+  "prefecture": "Nagano",
+  "coords": {
+    "lat": 35.4453,
+    "lng": 137.7556
+  },
+  "category": [
+    "nature",
+    "mountain"
+  ],
+  "tagline_th": "“ท้องฟ้าดาวสวยที่สุดในญี่ปุ่น” (รับรองโดยกระทรวงสิ่งแวดล้อม) — กระเช้าขึ้นยอด 1,400 ม. ดูดาวกลางความมืดสนิท",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Ena_from_Mount_Hijiri_2001-9-25.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Ena_from_Mount_Surikogi_2007-5-3.JPG?width=1600"
+  },
+  "difficultyFromTokyo": 5,
+  "access": {
+    "summary_th": "ไกลและเข้าถึงยากด้วยขนส่งสาธารณะ — อยู่ลึกใต้สุดของ Nagano สะดวกสุดคือบัสด่วนจากชินจูกุ (~4 ชม.) ต่อแท็กซี่ หรือผ่าน Iida + เช่ารถ ต้องค้างเพราะกิจกรรมหลักคือทัวร์ดูดาวกลางคืน",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "บัสด่วนชินจูกุ + แท็กซี่ (แนะนำ)",
+        "detail_th": "ชินจูกุ → bus (highway) → Igara bus stop → taxi ~10 นาที → Achi/Heavens Sonohara · ตรงสุดด้วยขนส่งสาธารณะ แต่ต้องต่อแท็กซี่ช่วงสุดท้าย",
+        "durationMin": 260,
+        "costYen": 6000,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "car",
+            "label_th": "รถ",
+            "icon": "car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "ชินจูกุ (Busta)",
+            "to": "Komaba / Igara (中央道昼神温泉)",
+            "mode": "bus",
+            "line_th": "Chuo Highway Bus (Keio + Shinnan Kotsu)",
+            "durationMin": 250,
+            "costYen": 4500,
+            "note_th": "~4 ชม. 15 น. · จองล่วงหน้าเลือกที่นั่ง (web割เริ่ม ~3,900 เยน) · วันละ ~5-6 เที่ยว · ป้ายปลายทาง 駒場 ในเขต Achi PA"
+          },
+          {
+            "from": "Komaba / Igara",
+            "to": "Hirugami Onsen / Heavens Sonohara",
+            "mode": "car",
+            "line_th": "แท็กซี่ (หรือรถรับส่งโรงแรมฟรี)",
+            "durationMin": 10,
+            "costYen": 1500,
+            "note_th": "ประมาณ — แท็กซี่ชนบท ~1,500-2,000 เยน · เรียวกัง Hirugami ส่วนใหญ่มีรถรับส่งฟรีจากป้ายนี้ถ้าแจ้งตอนจอง (กรณีนั้น = 0 เยน)"
+          }
+        ]
+      },
+      {
+        "mode": "รถไฟผ่าน Iida + เช่ารถ",
+        "detail_th": "Tokyo → shinkansen (Tokaido) → Toyohashi → train (Iida Line) → Iida/Tenryukyo ~2 ชม. → car (เช่ารถ/แท็กซี่) → Achi · อ้อมแต่ยืดหยุ่นถ้าเช่ารถเที่ยวรอบหุบเขา",
+        "durationMin": 300,
+        "costYen": 14210,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซน",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "car",
+            "label_th": "รถ",
+            "icon": "car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo",
+            "to": "Toyohashi (豊橋)",
+            "mode": "shinkansen",
+            "line_th": "Tokaido Shinkansen (Hikari/Kodama)",
+            "durationMin": 120,
+            "costYen": 8570,
+            "note_th": "ราคาที่นั่งอิสระ (自由席) รวมค่าด่วน · ที่นั่งจอง ~9,100 เยน · Hikari ~1.5 ชม. / Kodama ~2.3 ชม. (Hikari จอด Toyohashi บางขบวน)"
+          },
+          {
+            "from": "Toyohashi",
+            "to": "Iida (飯田)",
+            "mode": "train",
+            "line_th": "JR Iida Line (รถธรรมดา 普通)",
+            "durationMin": 150,
+            "costYen": 2640,
+            "note_th": "รถ local ~2.5 ชม. ภูเขาคดเคี้ยว · ด่วน Inaji วิ่งวันละ ~2 เที่ยว เร็วไม่ต่างกันมากแต่บวกค่าด่วน ~1,400-1,700 เยน"
+          },
+          {
+            "from": "Iida",
+            "to": "Achi / Hirugami",
+            "mode": "car",
+            "line_th": "แท็กซี่ / เช่ารถ",
+            "durationMin": 30,
+            "costYen": 3000,
+            "note_th": "ประมาณ — แท็กซี่ทั้งคัน ~6,000-7,000 เยน (หาร 2 = ~3,000/คน) · มีรถเมล์ท้องถิ่น ~40 น. ถูกกว่า · เช่ารถยืดหยุ่นเที่ยวรอบหุบเขา"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ดูดาวฤดูร้อน ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "ฟ้าใส ทางช้างเผือกชัด กลางคืนเย็นสบายบนยอด เตรียมเสื้อคลุม"
+    },
+    {
+      "label": "ดูดาว + koyo ต.ค.-พ.ย.",
+      "months": [
+        10,
+        11
+      ],
+      "note_th": "อากาศแห้ง ฟ้าใสสุด ดาวคมชัด + ใบไม้แดงกลางวัน เย็นจัดกลางคืน เตรียมเสื้อกันหนาว"
+    },
+    {
+      "label": "ดอก Hanamomo เม.ย.",
+      "months": [
+        4
+      ],
+      "note_th": "ปลาย เม.ย. หมู่บ้านเต็มดอกพีชสีชมพู-ขาว-แดง (hanamomo)"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ทางช้างเผือก (ดูดาวฤดูร้อน)",
+      "type": "event",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "ก.ค.-ส.ค. ฟ้าใส ทางช้างเผือกชัดสุด"
+    },
+    {
+      "zone": "ดาว + koyo",
+      "type": "koyo",
+      "startFrac": 0.75,
+      "endFrac": 0.9,
+      "note_th": "ต.ค.-พ.ย. อากาศแห้ง ดาวคม + ใบไม้แดง"
+    },
+    {
+      "zone": "Hanamomo (ดอกพีช)",
+      "type": "bloom",
+      "startFrac": 0.3,
+      "endFrac": 0.37,
+      "note_th": "ปลาย เม.ย. หมู่บ้านเต็มดอกพีช"
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน ค้าง 1 คืน (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น เป็นงบเฉพาะช่วงอาจิจากฐานโตเกียว · ต้องค้าง 1 คืน (Hirugami Onsen) เพราะกิจกรรมหลักคือดูดาวกลางคืน",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (บัส/รถไฟ)",
+        "yen": 12000,
+        "thb": 2760,
+        "note_th": "บัสด่วนชินจูกุ ไป-กลับ หรือ Tokaido+Iida Line"
+      },
+      {
+        "label_th": "ทัวร์ดูดาว + กระเช้า",
+        "yen": 3000,
+        "thb": 690,
+        "note_th": "Star Tour @ Heavens Sonohara ขึ้นกระเช้า + ไกด์ จองล่วงหน้า"
+      },
+      {
+        "label_th": "ที่พัก Hirugami Onsen 1 คืน",
+        "yen": 13000,
+        "thb": 2990,
+        "note_th": "เรียวกัง/โรงแรมออนเซ็น ระดับกลาง รวมมื้อมักมีตามแพ็กเกจ"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 3500,
+        "thb": 805,
+        "note_th": "มื้อในหมู่บ้าน + ของกินระหว่างทัวร์"
+      }
+    ],
+    "totalYen": 31500,
+    "totalThb": 7245,
+    "ranges": {
+      "lowThb": 6500,
+      "midThb": 8500,
+      "highThb": 14000
+    }
+  },
+  "pois": [
+    {
+      "name": "Star Tour @ Heavens Sonohara",
+      "icon": "mountains",
+      "durationMin": 120,
+      "blurb_th": "ทัวร์ดูดาวกลางคืนบนยอด ดับไฟให้มืดสนิท ชมทางช้างเผือก มีไกด์",
+      "deepDive_th": "Star Tour ที่ลานสกี Heavens Sonohara คือกิจกรรมหลักของอาจิและเหตุผลที่คนมาที่นี่ · ขึ้นกระเช้าไปยังยอดราว 1,400 ม. ในตอนค่ำ แล้วทีมงานจะ 'ดับไฟทั้งหมด' ให้ฟ้ามืดสนิท ปล่อยให้ตาปรับแล้วชมดาวหนาแน่นและทางช้างเผือกแบบที่หาดูยากในญี่ปุ่น · มีไกด์ใช้เลเซอร์ชี้กลุ่มดาวและเล่าเรื่อง · ต้องจองล่วงหน้า (ราคารวมกระเช้า ~¥3,000) และขึ้นกับสภาพอากาศ — เมฆ/ฝน = ดาวไม่ออก (วันฟ้าปิดยังขึ้นได้แต่ดูดาวไม่ได้) · เหตุผลที่อาจิดาวสวย: อยู่ลึกในหุบเขาไกลแสงเมือง ได้การรับรอง 'จุดชมดาวสวยที่สุด' จากกระทรวงสิ่งแวดล้อม · เคล็ดลับ: เลือกวันที่ไม่มีจันทร์เต็มดวงจะเห็นดาวมากกว่า",
+      "location_th": "ยอด 1,400 ม. (ขึ้นกระเช้า)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Heavens%20sonohara.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Hirugami Onsen",
+      "icon": "raindrops-alt",
+      "durationMin": 60,
+      "blurb_th": "ออนเซ็นใหญ่สุดของ Nagano ใต้ ฐานค้างคืนก่อน/หลังดูดาว",
+      "deepDive_th": "Hirugami Onsen (昼神温泉) แหล่งออนเซ็นที่ใหญ่ที่สุดของ Nagano ตอนใต้ ตั้งอยู่ในหุบเขาอาจิ เป็นฐานค้างคืนหลักของนักท่องเที่ยวที่มาดูดาว · น้ำแร่เป็นด่างอ่อน (alkaline) ขึ้นชื่อเรื่องผิวเนียน มีเรียวกังและโรงแรมออนเซ็นหลายแห่ง หลายที่จัดรถรับ-ส่งไป Star Tour ให้ · มีตลาดเช้า (asaichi) ขายผักผลไม้ท้องถิ่นริมแม่น้ำ · เหมาะแช่ออนเซ็นคลายเมื่อยตอนเย็นก่อนขึ้นไปดูดาว และนอนพักหลังกลับดึก · เคล็ดลับ: จองที่พักที่มีบริการรถรับ-ส่ง Heavens Sonohara จะสะดวกมากเพราะ Star Tour จบดึกและพื้นที่เดินทางเองยาก",
+      "location_th": "ฐานหมู่บ้าน · หุบเขาอาจิ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Ena_from_route_Maemiya_2010-12-12.jpg?width=900",
+        "source": "wikimedia",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Ena_from_Mount_Hijiri_2001-9-25.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Hanamomo no Sato",
+      "icon": "trees",
+      "durationMin": 60,
+      "blurb_th": "หุบเขาเต็มดอก hanamomo ปลาย เม.ย.",
+      "deepDive_th": "Hanamomo no Sato (花桃の里) หุบเขาในอาจิที่ปลูกต้น hanamomo (พีชประดับ) นับพันต้นตลอดสองข้างทาง · ปลาย เม.ย.-ต้น พ.ค. ดอกบานพร้อมกันเป็นสามสีในต้นเดียว/พื้นที่เดียวกัน — ชมพู ขาว และแดง สร้างทิวทัศน์หุบเขาสีพาสเทลที่เป็นเอกลักษณ์ · เป็นไฮไลต์กลางวันช่วงฤดูใบไม้ผลิ จับคู่กับการค้างดูดาวกลางคืนได้ดี · มีจุดชมวิวและถนนเลียบแม่น้ำ Achi ที่ดอกพีชเรียงรายสวย · เคล็ดลับ: ช่วงเทศกาล hanamomo คนเยอะและรถติด มาเช้าหรือใช้รถรับ-ส่ง/เช่ารถจะคล่องตัวกว่า",
+      "location_th": "หุบเขา Achi",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Ena.jpg?width=900",
+        "source": "wikimedia",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Ena_from_Mount_Hijiri_2001-9-25.jpg?width=1600"
+      }
+    },
+    {
+      "name": "koyo รอบหมู่บ้าน",
+      "icon": "trees",
+      "durationMin": 60,
+      "blurb_th": "ใบไม้แดงเชิงเขา ต.ค.-พ.ย. ชมกลางวันก่อนดูดาวกลางคืน",
+      "deepDive_th": "ช่วง ต.ค.-พ.ย. เชิงเทือกเขาแอลป์ใต้ (Southern Alps) รอบหมู่บ้านอาจิเปลี่ยนเป็นใบไม้แดง-ทอง · เป็นกิจกรรมกลางวันที่ลงตัวกับแพ็กเกจดูดาว — กลางวันเที่ยวชม koyo / แช่ออนเซ็น แล้วกลางคืนขึ้น Star Tour · จุดชมใบไม้แดงกระจายตามหุบเขาและถนนเลียบแม่น้ำ บางช่วงมีไฟประดับยามค่ำ (light-up) · อากาศแห้งช่วงนี้ทำให้ฟ้ากลางคืนใสที่สุดของปี ดาวคมชัด เป็นฤดูที่คุ้มที่สุดถ้าอยากได้ทั้งใบไม้แดงและดาว · เคล็ดลับ: กลางคืน ต.ค.-พ.ย. หนาวจัดบนยอด เตรียมเสื้อกันหนาวหนาสำหรับ Star Tour",
+      "location_th": "เชิงเทือกเขาแอลป์ใต้",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Achi%20%28Nagano%29%20banner%20Flowering%20Trees.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "ค้าง 1 คืน Hirugami Onsen + Star Tour (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — เข้าอาจิ → ออนเซ็น → ดูดาวกลางคืน",
+          "detail_th": "บัสด่วนเช้าจากชินจูกุ (~4 ชม.) → Igara → แท็กซี่/รถโรงแรมเข้า Hirugami Onsen · บ่ายเที่ยว koyo/Hanamomo ตามฤดู หรือแช่ออนเซ็นพักผ่อน · เย็นกินข้าว → กลางคืนรถรับ-ส่งขึ้น Heavens Sonohara เข้า Star Tour ดูดาว/ทางช้างเผือก (~2 ชม.) · กลับนอนที่ออนเซ็น"
+        },
+        {
+          "title_th": "วันที่ 2 — เที่ยวหุบเขา → กลับ",
+          "detail_th": "เช้าตลาดเช้า asaichi Hirugami / เที่ยวหุบเขา Achi ตามฤดู (Hanamomo เม.ย. / koyo ต.ค.-พ.ย.) · บ่ายแท็กซี่ออก Igara → บัสด่วนกลับชินจูกุ · ถ้าเช่ารถจาก Iida แวะ Tenryukyo Gorge ขากลับได้"
+        }
+      ]
+    },
+    {
+      "label_th": "เช่ารถผ่าน Iida (ยืดหยุ่นสุด)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เข้าทาง Iida เช่ารถเที่ยวรอบหุบเขา",
+          "detail_th": "Tokaido Shinkansen → Toyohashi → Iida Line → Iida เช่ารถ · เที่ยว Tenryukyo Gorge + หุบเขา Achi อิสระ · ค้าง Hirugami Onsen + Star Tour กลางคืน · เหมาะคนขับรถได้ อยากเที่ยวจุดกระจายโดยไม่พึ่งแท็กซี่/บัสรอบน้อย"
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ต้องค้างคืน — กิจกรรมหลักคือดูดาวกลางคืน ไป-กลับวันเดียวจากโตเกียวเป็นไปไม่ได้",
+    "ทัวร์ดูดาวต้องจองล่วงหน้า + ขึ้นกับสภาพอากาศ — เมฆ/ฝน = ดาวไม่ออก (วันฟ้าปิดยังขึ้นกระเช้าได้แต่ไม่เห็นดาว)",
+    "ขนส่งสาธารณะเข้าถึงยากมาก — เช่ารถสะดวกกว่า ไม่งั้นต้องพึ่งแท็กซี่/รถรับ-ส่งของโรงแรม จองที่พักที่มีบริการรถ Star Tour",
+    "กลางคืนบนยอดหนาวกว่าด้านล่างมาก แม้หน้าร้อน — เตรียมเสื้อกันหนาวเสมอ",
+    "เลือกวันที่ไม่ใช่จันทร์เต็มดวง — แสงจันทร์กลบดาว ดูพยากรณ์ดวงจันทร์/อากาศก่อนจองวัน"
+  ],
+  "sources": [
+    {
+      "label": "Go! Nagano — Achi",
+      "url": "https://www.go-nagano.net/en/trip-idea/id19626"
+    },
+    {
+      "label": "JNTO — Achi Village",
+      "url": "https://www.japan.travel/en/spot/2050/"
+    }
+  ],
+  "tags_th": [
+    "ดูดาว",
+    "ฟ้ามืดสนิท",
+    "ออนเซ็น",
+    "ค้าง 1 คืน",
+    "Nagano ใต้"
+  ],
+  "food": [
+    {
+      "name": "โกเฮโมจิ",
+      "name_jp": "五平餅",
+      "emoji": "🍡",
+      "note_th": "ข้าวปั้นไม้ทาซอส ของถิ่น Nagano ใต้"
+    },
+    {
+      "name": "โซบะชินชู",
+      "name_jp": "信州そば",
+      "emoji": "🍜",
+      "note_th": "โซบะ Nagano เมืองโซบะอันดับต้นของญี่ปุ่น"
+    },
+    {
+      "name": "จิงกิสคัง",
+      "name_jp": "ジンギスカン",
+      "emoji": "🍖",
+      "note_th": "เนื้อแกะย่าง นิยมแถบ Nagano บางพื้นที่"
+    }
+  ]
+}

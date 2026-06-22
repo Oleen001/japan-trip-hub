@@ -1,0 +1,335 @@
+{
+  "slug": "kamikochi",
+  "name": {
+    "en": "Kamikochi",
+    "th": "คามิโคจิ",
+    "jp": "上高地"
+  },
+  "region": "Chubu",
+  "prefecture": "Nagano",
+  "coords": {
+    "lat": 36.25,
+    "lng": 137.6333
+  },
+  "category": [
+    "mountain",
+    "nature"
+  ],
+  "tagline_th": "หุบเขาแอลป์ญี่ปุ่นที่สวยที่สุด แม่น้ำ Azusa ใสมรกตคู่ยอดเขา 3,000 ม. — รถส่วนตัวห้ามเข้า ธรรมชาติบริสุทธิ์",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/150920_Kappa-bashi_Kamikochi_Japan01n.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/150920_Kappa-bashi_Kamikochi_Japan02n.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 4,
+  "access": {
+    "summary_th": "ไม่มีสถานีรถไฟ/รถส่วนตัวเข้าไม่ได้ — ทุกคนเข้าด้วยบัส มีบัสด่วนตรงจากชินจูกุ หรือผ่าน Matsumoto ต่อรถไฟ+บัส ต้องจองบัสล่วงหน้า แนะนำค้าง 1 คืน · เปิดเฉพาะ 17 เม.ย.–15 พ.ย.",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "บัสด่วนตรงจากชินจูกุ (Alpico)",
+        "detail_th": "ชินจูกุ (Busta) → bus (highway ตรง) → Kamikochi · ไม่ต้องต่อรถ จองล่วงหน้าช่วงพีค ~ปลายเดือนก่อนไป",
+        "durationMin": 300,
+        "costYen": 9000,
+        "transfers": 0,
+        "legs": [
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "ชินจูกุ (Busta)",
+            "to": "Kamikochi",
+            "mode": "bus",
+            "line_th": "Sawayaka Shinshu-go (Alpico + Keio)",
+            "durationMin": 300,
+            "costYen": 9000,
+            "note_th": "รอบกลางวัน ~5 ชม. / overnight ~7 ชม. · ราคา dynamic 8,000–14,000 เยนตามวัน/ฤดู (¥9,000 เป็นค่าเฉลี่ย) · จองล่วงหน้าได้ 1 เดือน · เปิดเฉพาะ 17 เม.ย.–14 พ.ย. 2026"
+          }
+        ]
+      },
+      {
+        "mode": "ผ่าน Matsumoto (รถไฟ + บัส)",
+        "detail_th": "ชินจูกุ → train (Ltd Express Azusa) → Matsumoto → train (Matsumoto Dentetsu) → Shin-Shimashima → bus ~60 นาที → Kamikochi · เร็วกว่าบัสตรงเล็กน้อยและจับคู่เที่ยว Matsumoto ได้",
+        "durationMin": 240,
+        "costYen": 9330,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "ชินจูกุ",
+            "to": "Matsumoto",
+            "mode": "train",
+            "line_th": "JR Ltd Express Azusa (あずさ)",
+            "durationMin": 150,
+            "costYen": 6620,
+            "note_th": "ค่าตั๋วพื้นฐาน + ค่าด่วนพิเศษที่นั่งจองรวมแล้ว · จอง ticketless ผ่าน Ekinet ล่วงหน้าลดเหลือ ~5,720 เยน · วิ่ง ~16 เที่ยว/วัน"
+          },
+          {
+            "from": "Matsumoto",
+            "to": "Shin-Shimashima",
+            "mode": "train",
+            "line_th": "Alpico Kamikochi Line (上高地線)",
+            "durationMin": 30,
+            "costYen": 710,
+            "note_th": "เงินสดเท่านั้น — IC card/บัตรเครดิตใช้ไม่ได้ (private railway) · วิ่ง ~12 เที่ยว/วัน"
+          },
+          {
+            "from": "Shin-Shimashima",
+            "to": "Kamikochi",
+            "mode": "bus",
+            "line_th": "Alpico bus (Kamikochi Line)",
+            "durationMin": 60,
+            "costYen": 2000,
+            "note_th": "ออก ~10 นาทีหลังรถไฟถึง · ตั้งแต่ปี 2025 ทุกเที่ยว Matsumoto–Kamikochi ต้องจองล่วงหน้า มาขึ้นเลยไม่ได้"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ดอกไม้แอลป์/เขียวสด พ.ค.-ก.ค.",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "note_th": "กลาง พ.ค.-ก.ค. ป่าเขียว ดอกไม้บาน เดินริมแม่น้ำ Azusa กำลังดี อากาศเย็นสบาย"
+    },
+    {
+      "label": "ใบไม้แดง ต.ค.",
+      "months": [
+        10
+      ],
+      "note_th": "กลาง ต.ค. พีค koyo แดง-ทองคู่ยอดเขาหิมะ เย็นจัด เตรียมเสื้อกันหนาว"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ป่าเขียว / ดอกไม้แอลป์",
+      "type": "green",
+      "startFrac": 0.37,
+      "endFrac": 0.54,
+      "note_th": "กลาง พ.ค.-ก.ค. ป่าเขียวสด ดอกไม้บานริมแม่น้ำ"
+    },
+    {
+      "zone": "Kamikochi koyo",
+      "type": "koyo",
+      "startFrac": 0.75,
+      "endFrac": 0.83,
+      "note_th": "กลาง ต.ค. ใบไม้แดง-ทองคู่ยอดเขาหิมะ"
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน ค้าง 1 คืน (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น เป็นงบเฉพาะช่วงคามิโคจิจากฐานโตเกียว · เข้าด้วยบัสเท่านั้น ค้าง 1 คืนในหุบเขาคุ้มกว่าไป-กลับ",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (บัส/รถไฟ)",
+        "yen": 20000,
+        "thb": 4600,
+        "note_th": "บัสด่วน Alpico ไป-กลับ หรือ Azusa+รถไฟ+บัส"
+      },
+      {
+        "label_th": "ที่พักในหุบเขา 1 คืน (รวมอาหาร)",
+        "yen": 15000,
+        "thb": 3450,
+        "note_th": "โรงแรม/lodge ในหุบเขา จองล่วงหน้า 1-2 เดือน รวมมื้อเช้า-เย็น"
+      },
+      {
+        "label_th": "อาหารกลางวัน",
+        "yen": 2500,
+        "thb": 575,
+        "note_th": "มื้อกลางวันร้านในหุบเขา + คาเฟ่ริมแม่น้ำ"
+      },
+      {
+        "label_th": "ค่าเข้าจุด (Myojin Pond ฯลฯ)",
+        "yen": 500,
+        "thb": 115,
+        "note_th": "ค่าเข้าศาลเจ้า Hotaka / Myojin Pond ¥500"
+      },
+      {
+        "label_th": "ของฝาก",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "ของที่ระลึก kappa + ขนม"
+      }
+    ],
+    "totalYen": 39500,
+    "totalThb": 9085,
+    "ranges": {
+      "lowThb": 5500,
+      "midThb": 9500,
+      "highThb": 16000
+    }
+  },
+  "pois": [
+    {
+      "name": "Kappa Bridge",
+      "icon": "mountains",
+      "durationMin": 40,
+      "blurb_th": "สะพานแขวนสัญลักษณ์ วิวแม่น้ำ Azusa ใสคู่ยอด Hotaka จุดถ่ายรูปไอคอนิก",
+      "deepDive_th": "Kappa Bridge (河童橋 Kappa-bashi) สะพานแขวนไม้สัญลักษณ์ของคามิโคจิ ตั้งกลางหุบเขาเป็นจุดศูนย์กลางที่ทุกเส้นเดินเริ่มต้นจากที่นี่ · จากสะพานมองเห็นแม่น้ำ Azusa สีมรกตใสไหลคู่กับเทือกเขา Hotaka 3,000 ม. เป็นวิวโปสการ์ดที่ถูกถ่ายมากที่สุดของหุบเขา · รอบสะพานมีโรงแรม ร้านอาหาร คาเฟ่ และจุดข้อมูลนักท่องเที่ยว เป็นฐานเดินเล่นที่สะดวก · เคล็ดลับ: เช้าตรู่ก่อนบัสทัวร์มาถึง คนน้อยและฟ้ามักใสกว่า เห็นยอด Hotaka ชัด · ชื่อ kappa มาจากตำนานปีศาจน้ำญี่ปุ่น มีของที่ระลึกธีม kappa ขายทั่วหุบเขา",
+      "location_th": "ใจกลางหุบเขา",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/150920_Kappa-bashi_Kamikochi_Japan02n.jpg?width=900",
+        "source": "wikimedia",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/150920_Kappa-bashi_Kamikochi_Japan01n.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Taisho Pond",
+      "icon": "water",
+      "durationMin": 40,
+      "blurb_th": "สระเกิดจากภูเขาไฟ Yakedake ระเบิด มีต้นไม้ตายยืนกลางน้ำ สวยเหนือจริงเช้ามืดหมอกลอย",
+      "deepDive_th": "Taisho Pond (大正池 Taisho-ike) สระน้ำที่เกิดในปี ค.ศ. 1915 (ยุค Taisho) เมื่อภูเขาไฟ Yakedake ระเบิดและดินถล่มปิดกั้นแม่น้ำ Azusa เกิดเป็นสระขึ้น · เอกลักษณ์คือมีต้นไม้ตายยืนต้นอยู่กลางน้ำ สะท้อนเงาเทือกเขา Hotaka และ Yakedake บนผิวน้ำใส · สวยเหนือจริงโดยเฉพาะเช้ามืดเมื่อมีหมอกลอยเหนือผิวน้ำ — เป็นจุดถ่ายภาพยอดนิยมของช่างภาพ · อยู่ปลายหุบเขาฝั่งล่าง เป็นจุดที่บัสจอดป้ายแรก เดินเลียบแม่น้ำกลับ Kappa Bridge ได้ ~1 ชม. ผ่าน Tashiro Pond/Marsh · เคล็ดลับ: ลงป้าย Taisho Pond ก่อน แล้วเดินทวนน้ำขึ้นไป Kappa Bridge เก็บวิวต่อเนื่อง",
+      "location_th": "ปลายหุบเขา (ป้ายบัสแรก)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kappa_Bridge_Monument_at_Kamik%C5%8Dchi%2C_Morinaga_%26_Co.%2CLtd._Gifts_(2).jpg?width=900",
+        "source": "wikimedia",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/150920_Kappa-bashi_Kamikochi_Japan01n.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Myojin Pond",
+      "icon": "water",
+      "durationMin": 60,
+      "blurb_th": "สระใสในป่า + ศาลเจ้า Hotaka เงียบสงบ น้ำใสเป็นกระจก (ค่าเข้า ¥500)",
+      "deepDive_th": "Myojin Pond (明神池 Myojin-ike) สระน้ำใสซ่อนอยู่ในป่าทางต้นน้ำ เดินจาก Kappa Bridge ขึ้นไป ~1 ชม. (ทางราบเลียบแม่น้ำ) · ตั้งอยู่ในเขตศาลเจ้า Hotaka Jinja Okumiya (ค่าเข้า ¥500) บรรยากาศขลังเงียบสงบ น้ำใสนิ่งเป็นกระจกสะท้อนป่าและหน้าผา · ทุกปี 8 ต.ค. มีพิธี Ofune Matsuri ล่องเรือมังกรในสระ · เคล็ดลับ: เดินไป Myojin ทางฝั่งขวาแม่น้ำ (ผ่าน Dakesawa) แล้วกลับฝั่งซ้าย ทำเป็น loop ~2-2.5 ชม. ได้บรรยากาศป่าครบ · เงียบกว่าโซน Kappa Bridge มาก เหมาะคนชอบความสงบ",
+      "location_th": "เดินจาก Kappa Bridge ~1 ชม.",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/150920_Kappa-bashi_Kamikochi_Japan01n.jpg?width=900",
+        "source": "wikimedia",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/150920_Kappa-bashi_Kamikochi_Japan01n.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Dakesawa Marsh",
+      "icon": "water",
+      "durationMin": 20,
+      "blurb_th": "บึงน้ำใสริมเส้นเดิน น้ำพุใต้ดินใสแจ๋ว",
+      "deepDive_th": "Dakesawa Marsh (岳沢湿原 Dakesawa-shitsugen) บึงน้ำใสเล็กๆ ริมเส้นเดินฝั่งขวาแม่น้ำ ห่าง Kappa Bridge เพียง 5-10 นาที · น้ำมาจากน้ำพุใต้ดินใสแจ๋วจนเห็นพืชน้ำและก้นบึงชัด มีต้นไม้ล้มจมน้ำสร้างทัศนียภาพแบบป่าดิบ · เป็นจุดแวะสั้นๆ ระหว่างเดินไป Myojin Pond ไม่ต้องเดินไกล · เคล็ดลับ: แสงเช้าส่องผ่านป่าลงบึงสวยมาก เหมาะถ่ายภาพ มีทางเดินไม้ boardwalk เลียบบึง อย่าออกนอกทางเพื่อรักษาระบบนิเวศ",
+      "location_th": "5-10 นาทีจาก Kappa Bridge",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakesawa.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "routeFlow": [
+    {
+      "name": "Shinjuku / Matsumoto",
+      "elevationM": 40,
+      "modeToNext": "bus",
+      "modeDetail_th": "บัสด่วนตรง หรือ Azusa+รถไฟ+บัส"
+    },
+    {
+      "name": "Taisho Pond (ป้ายแรก)",
+      "elevationM": 1490,
+      "modeToNext": "เดิน",
+      "modeDetail_th": "เดินเลียบแม่น้ำ ~1 ชม. ทวนน้ำ"
+    },
+    {
+      "name": "Kappa Bridge (ศูนย์กลาง)",
+      "elevationM": 1500,
+      "modeToNext": "เดิน",
+      "modeDetail_th": "เดินขึ้นต้นน้ำ ~1 ชม."
+    },
+    {
+      "name": "Myojin Pond",
+      "elevationM": 1530,
+      "modeToNext": "",
+      "modeDetail_th": "สุดเส้นเดินยอดนิยม — กลับ Kappa Bridge เป็น loop"
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "ค้าง 1 คืนในหุบเขา (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — เข้าหุบเขา + เดินโซนล่าง",
+          "detail_th": "บัสด่วนเช้าจากชินจูกุ ถึงคามิโคจิช่วงเที่ยง · ลงป้าย Taisho Pond เดินทวนน้ำเลียบแม่น้ำ Azusa → Tashiro Pond → Kappa Bridge (~1.5 ชม. ทางราบ) · เข้าที่พักในหุบเขา แช่ออนเซ็น · เย็นเดินเล่นริม Kappa Bridge ตอนคนเริ่มกลับ บรรยากาศเงียบสงบ"
+        },
+        {
+          "title_th": "วันที่ 2 — เดินต้นน้ำ Myojin + กลับ",
+          "detail_th": "เช้าตรู่ฟ้าใส ถ่ายยอด Hotaka จาก Kappa Bridge คนน้อย · เดิน loop ไป Myojin Pond + Dakesawa Marsh ทางฝั่งขวา-กลับฝั่งซ้าย (~2-2.5 ชม.) · มื้อกลางวันริมแม่น้ำ · บ่ายบัสกลับชินจูกุ/Matsumoto"
+        }
+      ]
+    },
+    {
+      "label_th": "ไป-กลับวันเดียวจากชินจูกุ (เร่ง)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "บัสด่วนเช้า เก็บโซนล่าง กลับเย็น",
+          "detail_th": "บัสด่วนเช้ามืดจากชินจูกุ ถึงหุบเขาสาย · เดินเร็ว Taisho Pond → Kappa Bridge → Dakesawa Marsh เก็บไฮไลต์โซนล่าง · กลับบัสบ่ายแก่ · เหนื่อยและพลาด Myojin Pond + บรรยากาศเช้า/เย็นเงียบๆ ไม่แนะนำถ้าไม่จำเป็น"
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ปิดฤดูหนาว (15 พ.ย.–17 เม.ย.) รถส่วนตัวห้ามเข้าตลอดปี เข้าด้วยบัสเท่านั้น จองล่วงหน้า ~1 เดือน",
+    "คนแน่นมากช่วง ส.ค. + weekend หน้า koyo — ที่พักในหุบเขาจอง 1-2 เดือนล่วงหน้า",
+    "ปีนยอดจริง (Hotaka/Yarigatake) แนะนำเฉพาะ มิ.ย.-ก.ย. และต้องมีประสบการณ์ — นักท่องเที่ยวทั่วไปเดินเส้น flat ริมแม่น้ำก็สวยพอแล้ว",
+    "ที่ ~1,500 ม. เย็นกว่าโตเกียวมาก เช้า-เย็นหนาว เตรียมเสื้อกันหนาว + กันฝน แม้หน้าร้อน",
+    "เดินตามทาง/boardwalk เท่านั้นเพื่อรักษาระบบนิเวศ — มีกฎอนุรักษ์เข้มงวด ไม่มีถังขยะ ต้องนำขยะกลับเอง"
+  ],
+  "sources": [
+    {
+      "label": "Kamikochi — japan-guide",
+      "url": "https://www.japan-guide.com/e/e6040.html"
+    },
+    {
+      "label": "Kamikochi official — access",
+      "url": "https://www.kamikochi.org/access/public"
+    }
+  ],
+  "tags_th": [
+    "หุบเขาแอลป์",
+    "แม่น้ำมรกต",
+    "รถห้ามเข้า",
+    "ปิดฤดูหนาว",
+    "ค้าง 1 คืน"
+  ],
+  "food": [
+    {
+      "name": "ปลาอิวานะย่าง",
+      "name_jp": "岩魚の塩焼き",
+      "emoji": "🐟",
+      "note_th": "ปลาภูเขาย่างเกลือ เสียบไม้ ขายในหุบเขา"
+    },
+    {
+      "name": "โซบะชินชู",
+      "name_jp": "信州そば",
+      "emoji": "🍜",
+      "note_th": "โซบะ Nagano น้ำดีจากภูเขา"
+    },
+    {
+      "name": "ขนมปัง / curry ที่ lodge",
+      "emoji": "🍛",
+      "note_th": "เมนูในโรงแรม/ลอดจ์กลางหุบเขา"
+    }
+  ]
+}

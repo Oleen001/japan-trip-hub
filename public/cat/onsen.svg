@@ -1,0 +1,14 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- onsen · #c8662f koyo · sunken hot-spring pool + steam -->
+  <!-- steam curls, bold, taper S-curve -->
+  <path d="M8 9 C6.3 7 9.6 5.6 8.4 3.5" stroke="#e0935f" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M12 8 C10.2 5.9 13.6 4.4 12.2 2.2" stroke="#c8662f" stroke-width="2" stroke-linecap="round"/>
+  <path d="M16 9 C14.4 7.1 17.4 5.7 16.3 3.7" stroke="#e0935f" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- pool rim (stone ring), darker -->
+  <ellipse cx="12" cy="16" rx="9" ry="4.4" fill="#a8511f"/>
+  <!-- water inside -->
+  <ellipse cx="12" cy="15.6" rx="6.8" ry="3.1" fill="#e0935f"/>
+  <!-- ripple lines -->
+  <path d="M8.4 15.4 C9.8 16.2 14.2 16.2 15.6 15.4" stroke="#fbe3d3" stroke-width="1" stroke-linecap="round"/>
+  <path d="M9.8 17 C10.8 17.5 13.2 17.5 14.2 17" stroke="#fbe3d3" stroke-width="0.9" stroke-linecap="round"/>
+</svg>

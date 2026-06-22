@@ -1,0 +1,357 @@
+{
+  "slug": "tanigawadake",
+  "name": {
+    "en": "Mount Tanigawa",
+    "th": "ภูเขาทานิกาวะ",
+    "jp": "谷川岳"
+  },
+  "region": "Kanto",
+  "prefecture": "Gunma",
+  "coords": {
+    "lat": 36.8358,
+    "lng": 138.9269
+  },
+  "category": [
+    "mountain",
+    "nature",
+    "onsen"
+  ],
+  "tagline_th": "กระเช้าขึ้นเขาชม 'ใบไม้แดงพีคแรกของคันโต' ต้น-กลาง ต.ค. + เมืองออนเซ็น Minakami + สถานีรถไฟลึกสุดในญี่ปุ่น",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tanigawa-dake%2C_October_2007.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tanigawa_banner.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 3,
+  "access": {
+    "summary_th": "เร็วกว่าที่คิด — Joetsu Shinkansen จากสถานีโตเกียวถึง Jomo-Kogen ~70 นาที ต่อบัสขึ้นสถานีกระเช้า รวมไม่เกิน 2.5 ชม. แวะ Doai Station (สถานีลึกสุดในญี่ปุ่น) ขาไปได้",
+    "jrPassWorth": true,
+    "options": [
+      {
+        "mode": "Joetsu Shinkansen + บัส + ropeway",
+        "detail_th": "Tokyo → shinkansen (Joetsu Toki/Tanigawa) → Jomo-Kogen ~70 นาที → bus ~50 นาที → Tanigawadake Ropeway สถานีล่าง → ropeway → Tenjindaira 1,319 ม. · เส้นเร็วสุด ขึ้นถึงจุดชมวิวด้วยกระเช้าไม่ต้องปีน",
+        "durationMin": 150,
+        "costYen": 9350,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซน",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "ropeway",
+            "label_th": "กระเช้า",
+            "icon": "cable-car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "สถานีโตเกียว (Tokyo)",
+            "to": "Jomo-Kogen (上毛高原)",
+            "mode": "shinkansen",
+            "line_th": "Joetsu Shinkansen (Toki/Tanigawa)",
+            "durationMin": 70,
+            "costYen": 6000,
+            "note_th": "รวมค่าโดยสาร + ค่าด่วนที่นั่งไม่จอง · รถออกราว 1-2 ขบวน/ชม."
+          },
+          {
+            "from": "Jomo-Kogen",
+            "to": "Tanigawadake Ropeway (สถานีล่าง)",
+            "mode": "bus",
+            "line_th": "Kan-etsu Kotsu Bus (สาย Tanigawadake Ropeway)",
+            "durationMin": 45,
+            "costYen": 1250,
+            "note_th": "บัสจอดผ่าน Minakami · รอบจำกัด เช็คตารางก่อน"
+          },
+          {
+            "from": "Tanigawadake Ropeway (สถานีล่าง Doaiguchi)",
+            "to": "Tenjindaira (1,319 ม.)",
+            "mode": "ropeway",
+            "line_th": "Tanigawadake Ropeway",
+            "durationMin": 15,
+            "costYen": 2100,
+            "note_th": "ขาขึ้นเที่ยวเดียว ~15 นาที · ไป-กลับ 3,000 เยน"
+          }
+        ]
+      },
+      {
+        "mode": "ผ่าน Minakami Station (ค้างออนเซ็น)",
+        "detail_th": "Tokyo → shinkansen (Joetsu) → Jomo-Kogen → train → Minakami → bus ~20 นาที → ropeway สถานีล่าง → ropeway → Tenjindaira · เส้นนี้แวะค้างเมืองออนเซ็น Minakami ก่อนขึ้นเขา",
+        "durationMin": 180,
+        "costYen": 8940,
+        "transfers": 3,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซน",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "ropeway",
+            "label_th": "กระเช้า",
+            "icon": "cable-car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "สถานีโตเกียว (Tokyo)",
+            "to": "Jomo-Kogen (上毛高原)",
+            "mode": "shinkansen",
+            "line_th": "Joetsu Shinkansen (Toki/Tanigawa)",
+            "durationMin": 70,
+            "costYen": 6000,
+            "note_th": "รวมค่าโดยสาร + ค่าด่วนที่นั่งไม่จอง"
+          },
+          {
+            "from": "Jomo-Kogen",
+            "to": "Minakami (水上)",
+            "mode": "train",
+            "line_th": "JR Joetsu Line (local) — ต่อบัสสั้นไป Numata/Minakami",
+            "durationMin": 30,
+            "costYen": 240,
+            "note_th": "ราว 240 เยน · จาก Jomo-Kogen ไม่มีรถไฟตรง ปกติต่อบัสหรือไป Minakami ผ่านสถานีหลัก · ประมาณ"
+          },
+          {
+            "from": "Minakami",
+            "to": "Tanigawadake Ropeway (สถานีล่าง)",
+            "mode": "bus",
+            "line_th": "Kan-etsu Kotsu Bus",
+            "durationMin": 20,
+            "costYen": 600,
+            "note_th": "ประมาณ · รอบจำกัด"
+          },
+          {
+            "from": "Tanigawadake Ropeway (สถานีล่าง)",
+            "to": "Tenjindaira (1,319 ม.)",
+            "mode": "ropeway",
+            "line_th": "Tanigawadake Ropeway",
+            "durationMin": 15,
+            "costYen": 2100,
+            "note_th": "ขาขึ้นเที่ยวเดียว · ไป-กลับ 3,000 เยน"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง (พีคแรกคันโต) ต.ค.",
+      "months": [
+        10
+      ],
+      "note_th": "ต้น-กลาง ต.ค. บนยอดเปลี่ยนก่อนใคร แดง-ทองทั้งหุบเขา เย็นจัดบนยอด เสื้อกันลม"
+    },
+    {
+      "label": "หิมะ/สกี ธ.ค.-มี.ค.",
+      "months": [
+        12,
+        1,
+        2,
+        3
+      ],
+      "note_th": "Tenjindaira เป็นลานสกี กระเช้าวิ่งหน้าหนาว ป่าหิมะขาว"
+    },
+    {
+      "label": "ร้อน trekking ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "เขียว เย็นสบาย เดินป่าเบาๆ บนยอด"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "Tenjindaira koyo",
+      "type": "koyo",
+      "startFrac": 0.72,
+      "endFrac": 0.83,
+      "note_th": "ต้น-กลาง ต.ค."
+    },
+    {
+      "zone": "หิมะ/สกี",
+      "type": "snow",
+      "startFrac": 0,
+      "endFrac": 0.25,
+      "note_th": "ธ.ค.-มี.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น เป็นงบเฉพาะช่วงทานิกาวะจากฐานโตเกียว · day-trip ได้ หรือค้างออนเซ็น Minakami เพิ่มค่าที่พัก",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (Joetsu Shinkansen + บัส)",
+        "yen": 10000,
+        "thb": 2300,
+        "note_th": "Tokyo ↔ Jomo-Kogen + บัสขึ้นสถานีกระเช้า · JR Pass คุ้มถ้ามีอยู่แล้ว"
+      },
+      {
+        "label_th": "ropeway ไป-กลับ",
+        "yen": 3000,
+        "thb": 690,
+        "note_th": "ขึ้น Tenjindaira 1,319 ม. + ลิฟต์ต่อ"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 3000,
+        "thb": 690,
+        "note_th": "มื้อกลางวัน + คาเฟ่บนเขา/เมือง"
+      },
+      {
+        "label_th": "ของฝาก",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "ของที่ระลึก Minakami/Gunma"
+      }
+    ],
+    "totalYen": 17500,
+    "totalThb": 4025,
+    "ranges": {
+      "lowThb": 3500,
+      "midThb": 6800,
+      "highThb": 13000
+    }
+  },
+  "pois": [
+    {
+      "name": "Tanigawadake Ropeway → Tenjindaira",
+      "icon": "mountains",
+      "durationMin": 90,
+      "blurb_th": "กระเช้า 15 นาทีถึง 1,319 ม. เดินชมวิวกลางอากาศไม่ต้องปีน",
+      "deepDive_th": "Tanigawadake Ropeway กระเช้าลอยฟ้าจากสถานีล่าง Doaiguchi ขึ้นถึงสถานี Tenjindaira ที่ความสูง 1,319 ม. ใช้เวลา ~15 นาที · จากสถานีบนมีลิฟต์ (chairlift) ต่อขึ้นไปอีก และมีเส้นเดินชมวิว 'walk in the air' เดินบนสันเขาชมพานอรามาเทือกเขา Tanigawa โดยไม่ต้องปีนเขาจริง · ช่วงต้น ต.ค. คือพีค koyo แรกของภูมิภาคคันโต — บนยอดเปลี่ยนสีก่อนที่อื่น แดง-ทองทั้งหุบเขา · หน้าหนาว Tenjindaira กลายเป็นลานสกี · เคล็ดลับ: เช็คสถานะกระเช้าก่อนไป วันลมแรงอาจหยุดวิ่ง · บนยอดเย็นกว่าด้านล่างมาก เตรียมเสื้อกันลม",
+      "location_th": "สถานีล่าง Doaiguchi",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tanigawa_banner.jpg?width=1600",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tanigawa-dake%2C_October_2007.jpg?width=1600"
+      }
+    },
+    {
+      "name": "เมืองออนเซ็น Minakami",
+      "icon": "raindrops-alt",
+      "durationMin": 120,
+      "blurb_th": "หลายแหล่งน้ำแร่ริมแม่น้ำ เหมาะค้าง 1 คืน",
+      "deepDive_th": "Minakami (みなかみ) เป็นเมืองออนเซ็นกระจายตัวริมแม่น้ำ Tone มีหลายแหล่งน้ำแร่ (Minakami Onsen, Takaragawa Onsen ฯลฯ) เหมาะเป็นฐานค้าง 1 คืนก่อน/หลังขึ้นกระเช้า Tanigawadake · แช่ rotenburo (บ่อกลางแจ้ง) ริมแม่น้ำชมใบไม้แดงในฤดู koyo บรรยากาศชนบทผ่อนคลาย · เมืองนี้ยังเป็นฐาน outdoor adventure (ดู POI กิจกรรมผจญภัย) · เคล็ดลับ: ถ้ามาช่วงใบไม้แดงต้น ต.ค. ค้าง 1 คืนคุ้มกว่า day-trip เพราะได้ทั้งกระเช้ากลางวันและแช่ออนเซ็นเย็น · จองที่พักล่วงหน้าช่วง koyo",
+      "location_th": "ริมแม่น้ำ Tone",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tanigawa_(52212084000).jpg?width=1600",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tanigawa-dake%2C_October_2007.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Doai Station (土合駅)",
+      "icon": "subway",
+      "durationMin": 30,
+      "blurb_th": "สถานีรถไฟลึกสุดในญี่ปุ่น ชานชาลาในอุโมงค์ 486 ขั้น",
+      "deepDive_th": "Doai Station (土合駅) เป็นสถานีรถไฟ 'ลึกที่สุดในญี่ปุ่น' — ชานชาลาขาขึ้น (ทิศ Niigata) อยู่ในอุโมงค์ใต้ภูเขาลึก ~70 ม. ใต้ดิน ต้องเดินลงบันได 486 ขั้นจากอาคารสถานีด้านบนเพื่อไปถึงชานชาลา · เป็นจุดถ่ายรูปแปลกตา บันไดยาวลิ่วหายเข้าไปในความมืดของอุโมงค์ บรรยากาศเหมือนฉากหนัง · อยู่ใกล้ทางเข้ากระเช้า Tanigawadake แวะได้ในเส้นทางขาไป · เคล็ดลับ: เดินลง 486 ขั้นง่าย แต่เดินขึ้นเหนื่อย เผื่อแรง/เวลา · เช็ครอบรถไฟ Joetsu Line ที่จอด Doai มีน้อย วางแผนเวลาให้ดี",
+      "location_th": "ทางเข้ากระเช้า",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tanigawa_panorama_(51984152224).jpg?width=1600",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tanigawa-dake%2C_October_2007.jpg?width=1600"
+      }
+    },
+    {
+      "name": "กิจกรรมผจญภัย Minakami",
+      "icon": "water",
+      "durationMin": 180,
+      "blurb_th": "rafting/canyoning หน้าร้อน เมือง outdoor adventure",
+      "deepDive_th": "Minakami เป็นหนึ่งในเมือง outdoor adventure ขึ้นชื่อของญี่ปุ่น เพราะแม่น้ำ Tone ที่ไหลแรงและธรรมชาติหุบเขารอบตัว · หน้าร้อน (ราว พ.ค.-ต.ค.) มีกิจกรรมล่องแก่ง white-water rafting, canyoning (ปีนป่ายโรยตัวลำธารน้ำตก), bungee jump และ trekking — มีบริษัททัวร์ฝรั่ง/ญี่ปุ่นหลายเจ้าจัดแพ็กเกจครึ่งวัน/เต็มวัน · เหมาะคนชอบ active หรือมาคู่กับการแช่ออนเซ็นพักผ่อนช่วงเย็น · เคล็ดลับ: กิจกรรมน้ำเป็นของหน้าร้อน หน้าหนาวเปลี่ยนเป็นสกี/snow activity · จองล่วงหน้าและเช็คเงื่อนไขอายุ/ว่ายน้ำของแต่ละกิจกรรม",
+      "location_th": "แม่น้ำ Tone",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/White%20Water%20Rafting%2C%20Kamimoku%2C%20Gunma%2C%20Japan.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ไป-กลับโตเกียววันเดียว",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "กระเช้าขึ้นยอด + แวะสถานีลึกสุด",
+          "detail_th": "เช้า shinkansen Tokyo → Jomo-Kogen ~70 นาที · (เลือกแวะ Doai Station สถานีลึกสุด 486 ขั้นขาไป) → บัสขึ้นสถานีกระเช้า · ropeway ขึ้น Tenjindaira 1,319 ม. เดิน walk-in-the-air ชม koyo พีคแรกคันโต ~1.5 ชม. → ลงกระเช้า · บัส+shinkansen กลับโตเกียวเย็น · เก็บไฮไลต์ได้ในวันเดียวเพราะเดินทางเร็ว"
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง 1 คืน ออนเซ็น Minakami",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — เข้า Minakami แช่ออนเซ็น",
+          "detail_th": "shinkansen Tokyo → Jomo-Kogen → train → Minakami · เที่ยวเมือง/กิจกรรมผจญภัยแม่น้ำ Tone (หน้าร้อน) หรือเดินเล่นริมแม่น้ำ · เข้าที่พักออนเซ็น แช่ rotenburo ชมใบไม้แดง"
+        },
+        {
+          "title_th": "วันที่ 2 — กระเช้าขึ้นยอด",
+          "detail_th": "เช้าบัสจาก Minakami ขึ้นสถานีกระเช้า · ropeway ขึ้น Tenjindaira ชม koyo พีคแรกคันโต เดิน walk-in-the-air · (แวะ Doai Station ขากลับได้) → shinkansen กลับโตเกียวเย็น"
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "Tanigawadake ตัวเขาเป็นภูเขาอันตราย (สถิติเสียชีวิตจากปีนสูงที่สุดในโลก) — นักท่องเที่ยวขึ้นแค่ Tenjindaira ด้วยกระเช้าพอ อย่าฝืนปีนเส้นยากขึ้นยอดจริง",
+    "กระเช้ามีปิดซ่อม/หยุดวันลมแรง — เช็คสถานะกระเช้าก่อนไป ถ้าหยุดวิ่งจะขึ้นยอดไม่ได้",
+    "บนยอดเย็นกว่าด้านล่างมาก อากาศเปลี่ยนเร็ว เตรียมเสื้อกันลม-กันฝนเสมอ",
+    "Doai Station ลง 486 ขั้นง่าย แต่เดินขึ้นเหนื่อย + รถไฟจอดน้อยรอบ เผื่อแรงและเวลา"
+  ],
+  "sources": [
+    {
+      "label": "japan-guide — Mount Tanigawa",
+      "url": "https://www.japan-guide.com/e/e7462.html"
+    },
+    {
+      "label": "Visit Gunma — autumn leaves Mt. Tanigawa",
+      "url": "https://www.visit-gunma.jp/en/spots/autumn-leaves-at-mt-tanigawa/"
+    }
+  ],
+  "tags_th": [
+    "กระเช้า",
+    "ใบไม้แดงพีคแรก",
+    "ออนเซ็น Minakami",
+    "สถานีลึกสุด",
+    "Gunma"
+  ],
+  "food": [
+    {
+      "name": "มิซึซาวะอุด้ง",
+      "name_jp": "水沢うどん",
+      "emoji": "🍜",
+      "note_th": "1 ใน 3 อุด้งดังของญี่ปุ่น เส้นเหนียวนุ่ม ของถิ่นแถบ Gunma"
+    },
+    {
+      "name": "คอนเนียคุ",
+      "name_jp": "こんにゃく",
+      "emoji": "🍢",
+      "note_th": "Gunma ผลิตคอนเนียคุอันดับ 1 ของประเทศ"
+    },
+    {
+      "name": "โทฟุภูเขา / ปลา iwana",
+      "emoji": "🐟",
+      "note_th": "อาหารเมืองออนเซ็น Minakami เน้นวัตถุดิบภูเขา"
+    }
+  ]
+}

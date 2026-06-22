@@ -1,0 +1,12 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- shrine · torii gate · #b8893a gold -->
+  <!-- pillars, slight taper (wider at base) -->
+  <path d="M6 8.5 C6.2 13 6.2 16 6.4 20.5 L8.4 20.5 C8.2 16 8.2 13 8 8.5 Z" fill="#b8893a"/>
+  <path d="M16 8.5 C15.8 13 15.8 16 15.6 20.5 L17.6 20.5 C17.8 16 17.8 13 18 8.5 Z" fill="#b8893a"/>
+  <!-- lower tie beam (nuki) -->
+  <path d="M5 11 C9.5 10.4 14.5 10.4 19 11 L19 12.6 C14.5 12 9.5 12 5 12.6 Z" fill="#9a6f2a"/>
+  <!-- top lintel (kasagi), curved up at ends -->
+  <path d="M3 7.4 C8.5 5.6 15.5 5.6 21 7.4 C21 7.4 20 9.4 19.6 9.4 C14.5 8.3 9.5 8.3 4.4 9.4 C4 9.4 3 7.4 3 7.4 Z" fill="#d4a64f"/>
+  <!-- small ridge cap on top -->
+  <path d="M9.5 4.9 C11 4.5 13 4.5 14.5 4.9 L14.5 6.2 C13 5.9 11 5.9 9.5 6.2 Z" fill="#9a6f2a"/>
+</svg>

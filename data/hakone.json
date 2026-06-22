@@ -1,0 +1,247 @@
+{
+  "slug": "hakone",
+  "name": { "en": "Hakone", "th": "ฮาโกเน่", "jp": "箱根" },
+  "region": "Kanto",
+  "prefecture": "Kanagawa",
+  "coords": { "lat": 35.2324, "lng": 139.1069 },
+  "category": ["onsen", "lake", "shrine", "mountain", "nature"],
+  "tagline_th": "ออนเซ็น + วิวฟูจิ + พิพิธภัณฑ์กลางแจ้ง ครบในที่เดียว ห่างชินจูกุแค่ 85 นาที",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Ashi_%26_Mt_Fuji_%26_Hakone_Shrine.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons"
+  },
+  "difficultyFromTokyo": 1,
+  "access": {
+    "summary_th": "ง่ายที่สุดในบรรดาปลายทางวิวฟูจิ — Romancecar จากชินจูกุตรงถึง Hakone-Yumoto ไม่ต้องต่อรถ 85 นาที แล้วใช้ Hakone Free Pass วน loop (รถไฟภูเขา → เคเบิลคาร์ → ropeway → เรือทะเลสาบ → บัส) ได้ทั้งหมดในตั๋วใบเดียว เหมาะทั้ง day-trip และค้าง 1 คืน",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Odakyu Romancecar (ตรง ไม่ต่อรถ)",
+        "detail_th": "ชินจูกุ → Hakone-Yumoto ตรงเลย ที่นั่ง reserved ทุกที่ ~85 นาที · ค่า Free Pass (2 วัน จากชินจูกุ) ¥7,100 + ค่าธรรมเนียม Romancecar ¥1,200/เที่ยว (e-ticket ¥1,150) · แนะนำจองที่นั่งล่วงหน้า ช่วง weekend/ใบไม้เปลี่ยนสีเต็มเร็ว",
+        "durationMin": 85,
+        "costYen": 9500,
+        "transfers": 0,
+        "steps": [
+          { "from": "Shinjuku", "to": "Hakone-Yumoto", "mode": "train", "line_th": "Odakyu Hakone Free Pass (2 วัน, จากชินจูกุ)", "durationMin": 85, "costYen": 7100, "note_th": "ตั๋วเหมา 2 วัน ครอบคลุมค่าเดินทาง ชินจูกุ↔Odawara ไป-กลับ + รถไฟภูเขา/cablecar/ropeway/เรือ/บัสในฮาโกเน่ทั้งหมด — ราคาเหมา ไม่ใช่ค่าเที่ยวเดียว" },
+          { "from": "Shinjuku", "to": "Hakone-Yumoto", "mode": "train", "line_th": "Odakyu Romancecar (Limited Express) — ค่าธรรมเนียมพิเศษ", "durationMin": 0, "costYen": 2400, "note_th": "ค่าธรรมเนียม Romancecar ¥1,200/เที่ยว (¥1,150 e-ticket) × ไป-กลับ = ¥2,400 · ที่นั่ง reserved ต้องจอง · เพิ่มจากค่า Free Pass (durationMin=0 เพราะรวมเวลาในขา train แล้ว)" }
+        ]
+      },
+      {
+        "mode": "Odakyu ด่วน (Express ธรรมดา) + Free Pass",
+        "detail_th": "ถ้าไม่อยากจ่ายค่า Romancecar เพิ่ม นั่งรถด่วน Odakyu ธรรมดาจากชินจูกุ ต่อที่ Odawara → Hakone-Yumoto ~100-115 นาที 1 ต่อ · ราคาเดินทางรวมอยู่ใน Free Pass แล้ว (¥7,100) ไม่มีค่าธรรมเนียมเพิ่ม",
+        "durationMin": 110,
+        "costYen": 7100,
+        "transfers": 1,
+        "steps": [
+          { "from": "Shinjuku", "to": "Odawara", "mode": "train", "line_th": "Odakyu Express (Kyuko) — รวมใน Hakone Free Pass", "durationMin": 90, "costYen": 7100, "note_th": "ราคาคือ Hakone Free Pass 2 วัน เหมาทั้งทริป (ชินจูกุ↔Odawara ไป-กลับ + transport ในฮาโกเน่) · Express ธรรมดาไม่มีค่าธรรมเนียมเพิ่ม ไม่ต้องจองที่นั่ง" },
+          { "from": "Odawara", "to": "Hakone-Yumoto", "mode": "train", "line_th": "Hakone Tozan Line (ต่อรถ) — รวมในพาส", "durationMin": 15, "costYen": 0, "note_th": "เปลี่ยนขบวนที่ Odawara · รวมในพาสแล้ว" }
+        ]
+      },
+      {
+        "mode": "Shinkansen (Kodama) → Odawara → Hakone area",
+        "detail_th": "โตเกียว → Odawara ด้วย Tokaido Shinkansen ~35 นาที (เร็วสุด แต่ Free Pass แบบ Odawara ไม่รวมช่วงนี้) ต้องซื้อตั๋ว shinkansen แยก ~¥3,280 + Free Pass แบบเริ่ม Odawara ¥6,000 · คุ้มถ้ามี JR Pass อยู่แล้วหรือไปจากสถานีโตเกียว",
+        "durationMin": 50,
+        "costYen": 9280,
+        "transfers": 1,
+        "steps": [
+          { "from": "Tokyo", "to": "Odawara", "mode": "shinkansen", "line_th": "Tokaido Shinkansen (Kodama) — reserved", "durationMin": 35, "costYen": 3280, "note_th": "base fare + reserved · ตั๋วแยก ไม่รวมใน Free Pass แบบ Odawara" },
+          { "from": "Odawara", "to": "Hakone-Yumoto", "mode": "train", "line_th": "Hakone Free Pass (แบบเริ่ม Odawara, 2 วัน)", "durationMin": 15, "costYen": 6000, "note_th": "พาสเหมา 2 วัน เริ่มที่ Odawara ¥6,000 ครอบคลุมรถไฟภูเขา/cablecar/ropeway/เรือ/บัสในฮาโกเน่ — ราคาเหมา ไม่ใช่ค่าเที่ยวเดียว" }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้เปลี่ยนสี (พีค)",
+      "months": [11],
+      "note_th": "กลาง-ปลาย พ.ย. คือพีคของฮาโกเน่ ใบเมเปิลแดงรอบทะเลสาบ Ashi + รถไฟภูเขา Hakone Tozan วิ่งผ่านอุโมงค์ใบไม้แดง สวยสุดของปี (แต่คนเยอะ จองที่พักล่วงหน้า)"
+    },
+    {
+      "label": "ฤดูหนาว ฟ้าใส เห็นฟูจิชัด",
+      "months": [12, 1, 2],
+      "note_th": "อากาศแห้ง ฟ้าใส โอกาสเห็นฟูจิยอดหิมะปกคลุมสูงสุดของปี วิว torii กลางน้ำ + ฟูจิคมชัด · แต่ระวัง ropeway ปิดซ่อมบางช่วง (ดู warnings)"
+    },
+    {
+      "label": "ฤดูใบไม้ผลิ",
+      "months": [4, 5],
+      "note_th": "ดอกซากุระแถบ Gora Park + ดอกอะซาเลีย/ไฮเดรนเยียตามรถไฟภูเขา อากาศกำลังดี ไม่ร้อนไม่หนาว"
+    }
+  ],
+  "seasonTimeline": [
+    { "zone": "ใบไม้เปลี่ยนสี (ที่ราบสูง/Owakudani)", "type": "koyo", "startFrac": 0.79, "endFrac": 0.87, "note_th": "ปลาย ต.ค.–กลาง พ.ย. โซนสูงเปลี่ยนก่อน" },
+    { "zone": "ใบไม้เปลี่ยนสี (ทะเลสาบ/Gora)", "type": "koyo", "startFrac": 0.84, "endFrac": 0.92, "note_th": "กลาง–ปลาย พ.ย. โซนทะเลสาบ Ashi + Gora พีค" },
+    { "zone": "ฟ้าใส เห็นฟูจิชัดสุด", "type": "snow", "startFrac": 0.92, "endFrac": 1.0, "note_th": "ธ.ค.–ก.พ. ฟ้าใส ฟูจิยอดหิมะ" },
+    { "zone": "ซากุระ / ดอกไม้ฤดูใบไม้ผลิ", "type": "bloom", "startFrac": 0.25, "endFrac": 0.42, "note_th": "เม.ย.–พ.ค. ซากุระ Gora + ไฮเดรนเยีย" }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน ค้าง 1 คืน (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น เป็นงบเฉพาะช่วงฮาโกเน่จากฐานโตเกียว · ถ้า day-trip ตัดค่าที่พักออก เหลือ ~2,400-3,000 ฿/วัน",
+    "items": [
+      { "label_th": "Hakone Free Pass 2 วัน (จากชินจูกุ)", "yen": 7100, "thb": 1633, "note_th": "ครอบคลุมรถไฟภูเขา เคเบิลคาร์ ropeway เรือทะเลสาบ บัส Hakone Tozan ทั้งหมด" },
+      { "label_th": "ค่าธรรมเนียม Romancecar ไป-กลับ", "yen": 2400, "thb": 552, "note_th": "¥1,200/เที่ยว · ข้ามได้ถ้านั่ง Express ธรรมดา" },
+      { "label_th": "ที่พัก ออนเซ็น ryokan/โรงแรม 1 คืน", "yen": 14000, "thb": 3220, "note_th": "ระดับกลาง คนเดียว/หาร 2 · ryokan kaiseki+ออนเซ็นแพงกว่านี้มาก" },
+      { "label_th": "อาหาร 2 วัน (ไม่รวมมื้อใน ryokan)", "yen": 5000, "thb": 1150, "note_th": "ไข่ดำ Owakudani + มื้อกลางวัน + คาเฟ่" },
+      { "label_th": "ค่าเข้าพิพิธภัณฑ์ (Open-Air + Pola)", "yen": 3800, "thb": 874, "note_th": "Open-Air ¥2,000 + Pola ¥1,800 (ถูกลง ~¥200 ถ้าซื้อออนไลน์)" },
+      { "label_th": "เบ็ดเตล็ด ของฝาก", "yen": 2000, "thb": 460, "note_th": "ไข่ดำ ของที่ระลึก คาเฟ่" }
+    ],
+    "totalYen": 34300,
+    "totalThb": 7889,
+    "ranges": { "lowThb": 3500, "midThb": 7900, "highThb": 16000 }
+  },
+  "pois": [
+    {
+      "name": "Owakudani หุบเขานรก + ไข่ดำ",
+      "icon": "fire",
+      "durationMin": 60,
+      "blurb_th": "หุบเขาภูเขาไฟที่ยังคุกรุ่น ควันกำมะถันพวยพุ่ง กินไข่ดำต้มในบ่อกำมะถัน — เชื่อกันว่าอายุยืนขึ้น 7 ปี/ฟอง",
+      "deepDive_th": "Owakudani (大涌谷) คือปล่องภูเขาไฟเก่าจากการระเบิดของภูเขา Hakone เมื่อ ~3,000 ปีก่อน ปัจจุบันยังมีไอน้ำกำมะถันและบ่อน้ำเดือดพวยพุ่งตลอด ขึ้นถึงได้ด้วย Hakone Ropeway สถานี Owakudani · พระเอกคือ 'ไข่ดำ' (黒たまご kuro-tamago) ไข่ที่ต้มในบ่อน้ำกำมะถัน เปลือกดำสนิทจากปฏิกิริยาเหล็ก+ซัลเฟอร์ ตำนานว่ากิน 1 ฟองอายุยืนขึ้น 7 ปี · ราคา ¥500/4 ฟอง ซื้อที่ร้าน Owakudani Kurotamago-kan · ปี 2025 เปิดจุดชมวิวใหม่ 'Valley of the Earth' ที่สถานี (กระจกใส 3 จุดชม) เวลา 9:00–17:00 (ธ.ค.–ม.ค. ถึง 16:15) · วันฟ้าใสเห็นฟูจิจากที่นี่ได้ด้วย · ระวัง: คนเป็นโรคทางเดินหายใจ/หอบหืดควรเลี่ยง เพราะแก๊สกำมะถันเข้มข้น บางวันปิดเมื่อระดับแก๊สสูง",
+      "location_th": "สถานี Owakudani · Hakone Ropeway",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/161223_Owakudani_Hakone_Japan08s3.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Lake Ashi + เรือโจรสลัด",
+      "icon": "water",
+      "durationMin": 50,
+      "blurb_th": "ล่องเรือสไตล์โจรสลัดข้ามทะเลสาบในปากปล่องภูเขาไฟ วันฟ้าใสเห็นฟูจิ + torii กลางน้ำในเฟรมเดียว",
+      "deepDive_th": "Lake Ashi (芦ノ湖 Ashinoko) เป็นทะเลสาบในปากปล่องภูเขาไฟ Hakone อายุ ~3,000 ปี เป็นไฮไลต์วิวฟูจิที่ดีที่สุดจุดหนึ่งของฮาโกเน่ · เรือชมวิวออกแบบเป็นเรือโจรสลัดสีสันจัด (ปัจจุบันมี 3 ลำดีไซน์ต่างกัน) วิ่งระหว่างท่า Togendai – Hakone-machi – Moto-Hakone · ค่าโดยสารเที่ยวเดียว ~¥1,200 (เด็ก ¥600) ไป-กลับ ~¥2,220 — แต่ 'รวมอยู่ใน Hakone Free Pass แล้ว' ไม่ต้องจ่ายเพิ่ม · เคล็ดลับ: นั่งฝั่งขวาของเรือ (ทิศตะวันตก) เวลาออกจาก Togendai จะเห็นฟูจิชัดที่สุด · ช่วงเช้าฟ้ามักใสกว่าบ่าย โอกาสเห็นฟูจิสูงกว่า · จุด iconic คือมองเห็นฟูจิ + torii สีแดงกลางน้ำของศาลเจ้า Hakone พร้อมกัน",
+      "location_th": "ท่า Togendai / Hakone-machi / Moto-Hakone",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pirate-themed_sightseeing_Cruise_at_Lake_Ashi%2C_Hakone%2C_Japan.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Hakone Shrine + Torii กลางน้ำ",
+      "icon": "shield-check",
+      "durationMin": 50,
+      "blurb_th": "ศาลเจ้าโบราณกลางป่าสน เสา torii สีแดงตั้งกลางทะเลสาบ — จุดถ่ายรูปไอคอนิกที่สุดของฮาโกเน่",
+      "deepDive_th": "Hakone Jinja (箱根神社) ศาลเจ้าโบราณก่อตั้งปี ค.ศ. 757 ซ่อนอยู่ในป่าสนซีดาร์เก่าแก่ริมทะเลสาบ Ashi · ไฮไลต์คือ 'Heiwa no Torii' (เสาแห่งสันติภาพ) เสา torii สีแดงสดตั้งอยู่กลางน้ำ สร้างปี 1952 เพื่อรำลึกสนธิสัญญาสันติภาพซานฟรานซิสโก — วันฟ้าใสมีฟูจิเป็นฉากหลัง เป็นภาพที่ถูกถ่ายมากที่สุดของฮาโกเน่ · เปิด 24 ชม. เข้าฟรี · เคล็ดลับ: คิวถ่ายรูปที่ torii กลางน้ำยาวมาก (รอ 30-60 นาทีช่วงพีค) — มาเช้าสุดก่อน 8:00 หรือเย็นใกล้ปิดเรือคนน้อยกว่า · เดินขึ้นบันไดหินผ่านโคมหินไปยังตัวศาลเจ้าหลักในป่า บรรยากาศขลัง · อยู่ใกล้ท่าเรือ Moto-Hakone เดินไม่ไกล",
+      "location_th": "Moto-Hakone · ริมทะเลสาบ Ashi",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HakoneTorii2.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Hakone Open-Air Museum",
+      "icon": "camera",
+      "durationMin": 120,
+      "blurb_th": "พิพิธภัณฑ์ประติมากรรมกลางแจ้งบนเนินเขา มีห้อง Picasso + หอกระจกสีให้ปีนเล่น เด็กก็สนุก",
+      "deepDive_th": "The Hakone Open-Air Museum (彫刻の森美術館) พิพิธภัณฑ์ศิลปะกลางแจ้งแห่งแรกของญี่ปุ่น (เปิด 1969) วางประติมากรรมกว่า 120 ชิ้นบนสนามหญ้าเนินเขา กลมกลืนกับวิวภูเขาฮาโกเน่ · มีผลงาน Henry Moore, Rodin และ 'Picasso Pavilion' รวมเซรามิก+ภาพพิมพ์ Picasso · ไฮไลต์เด็กชอบคือ 'Symphonic Sculpture' หอคอยกระจกสีบันไดวนปีนขึ้นไปชมวิว · ค่าเข้า ¥2,000 (ถูกลง ~¥200 ถ้าซื้อตั๋วออนไลน์) เปิด 9:00–17:00 ทุกวันตลอดปี (last admission 16:30) · มีบ่อแช่เท้าออนเซ็นฟรีในสวน · เคล็ดลับ: ลงสถานี Chokoku-no-Mori บนรถไฟภูเขา Hakone Tozan เดิน 2 นาที · เผื่อเวลา 1.5-2 ชม. เดินเยอะ ใส่รองเท้าสบาย",
+      "location_th": "สถานี Chokoku-no-Mori · Hakone Tozan Railway",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakone_Open-air_Museum_20211202-5.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Hakone Ropeway",
+      "icon": "mountains-sun",
+      "durationMin": 40,
+      "blurb_th": "กระเช้าลอยฟ้าข้ามหุบเขากำมะถัน Owakudani — วันฟ้าใสเห็นฟูจิเต็มตาจากกระเช้า",
+      "deepDive_th": "Hakone Ropeway (箱根ロープウェイ) กระเช้าลอยฟ้าเชื่อม Sounzan – Owakudani – Togendai เป็นข้อต่อสำคัญของ Hakone loop · ระยะเต็ม ~4 กม. ลอยข้ามหุบเขาภูเขาไฟ Owakudani เห็นควันกำมะถันด้านล่าง และวันฟ้าใสเห็นฟูจิเต็มตา · ราคาเต็มสาย ¥2,000 เที่ยวเดียว / ¥3,000 ไป-กลับ — 'รวมใน Free Pass แล้ว' · เปิด 9:00–16:45 (ก.พ.–พ.ย.) / 9:00–16:15 (ธ.ค.–ม.ค.) · กระเช้ามาทุก ~1 นาที ไม่ต้องรอนาน · สำคัญมาก: ropeway มีปิดซ่อมบำรุงเป็นช่วงๆ ในฤดูหนาว (ดู warnings) ช่วงปิดจะมีรถบัสทดแทนวิ่งทุก 15 นาที วิวหายไปแต่ไปต่อได้ · เคล็ดลับ: ถ่ายรูปฟูจิช่วงกระเช้าออกจาก Owakudani ไป Togendai วิวเปิดสุด",
+      "location_th": "Sounzan – Owakudani – Togendai",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakone_Ropeway_-_Hakone%2C_Kanagawa%2C_Japan_-_DSC07952.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Gora + ออนเซ็น",
+      "icon": "fire",
+      "durationMin": 90,
+      "blurb_th": "เมืองออนเซ็นปลายทางรถไฟภูเขา — ฐานค้างคืนแช่ ryokan, สวน Gora, ไข่ดำ ramen ร้านเก่า",
+      "deepDive_th": "Gora (強羅) เมืองตากอากาศปลายทางรถไฟภูเขา Hakone Tozan และจุดเริ่มเคเบิลคาร์ขึ้น Sounzan · เป็นโซนรวม ryokan + โรงแรมออนเซ็นระดับดีที่สุดของฮาโกเน่ เหมาะเป็นฐานค้าง 1 คืน แช่ rotenburo (บ่อกลางแจ้ง) · มี Gora Park สวนสไตล์ฝรั่งเศสบนเนิน (ซากุระ พ.ค. / ใบไม้แดง พ.ย.) · เคล็ดลับ: ออนเซ็นฮาโกเน่มีหลายชนิดน้ำแร่ บางที่เป็นน้ำขุ่นกำมะถันจาก Owakudani — เช็กก่อนจองว่าชอบแบบไหน · ถ้าไม่ค้าง มี onsen แบบ day-use หลายแห่งให้แช่รายชั่วโมง (เช่น Tenzan, Yunessun) · มื้อเย็น kaiseki ใน ryokan คือไฮไลต์ของการค้าง — จองแบบรวมอาหารเช้า-เย็น (一泊二食)",
+      "location_th": "สถานี Gora · ปลายทาง Hakone Tozan Railway",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gorakadan_Onsen_Rotenburo_2.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Pola Museum of Art",
+      "icon": "building",
+      "durationMin": 90,
+      "blurb_th": "พิพิธภัณฑ์กระจกในป่าบีช คอลเลกชัน Impressionist (Monet, Renoir) + เส้นทางเดินป่าศิลปะ",
+      "deepDive_th": "POLA Museum of Art (ポーラ美術館) พิพิธภัณฑ์สถาปัตยกรรมกระจกซ่อนตัวกลางป่าบีชธรรมชาติ ออกแบบให้กลมกลืนกับป่า แสงธรรมชาติส่องเข้าทั่วอาคาร · จุดเด่นคือคอลเลกชันงาน Impressionist และ Modern ระดับโลก — Monet, Renoir, Cézanne, Picasso, Van Gogh รวมถึงงานญี่ปุ่นและเครื่องแก้ว · ค่าเข้า ¥1,800 (65+ ¥1,600 / นักเรียน ม.ปลาย-มหา'ลัย ¥1,300 / เด็กฟรี) เปิด 9:00–17:00 (last admission 16:30) · มี 'Forest Walking Path' เส้นทางเดินป่ารอบพิพิธภัณฑ์มีงานศิลปะติดตั้งกลางแจ้ง เดินฟรี · เคล็ดลับ: เงียบ คนน้อยกว่า Open-Air Museum เหมาะคนชอบศิลปะ+ความสงบ · เข้าถึงด้วยบัส Hakone Tozan จาก Gora/Sounzan (รวมใน Free Pass) · เหมาะวันฝนตก/วันที่ฟูจิไม่ออก เป็นกิจกรรม indoor สำรอง",
+      "location_th": "Kowakudani · นั่งบัสจาก Gora/Sounzan",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/191103_Pola_Museum_of_Art_Hakone_Japan02s3.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "routeFlow": [
+    { "name": "Shinjuku", "elevationM": 40, "modeToNext": "Romancecar", "modeDetail_th": "Limited Express ตรง ~85 นาที ไม่ต้องต่อรถ" },
+    { "name": "Hakone-Yumoto", "elevationM": 96, "modeToNext": "Hakone Tozan train", "modeDetail_th": "รถไฟภูเขาซิกแซ็ก switchback ~40 นาที" },
+    { "name": "Gora", "elevationM": 541, "modeToNext": "cable car", "modeDetail_th": "เคเบิลคาร์ชัน ~10 นาที 6 สถานี" },
+    { "name": "Sounzan", "elevationM": 750, "modeToNext": "ropeway", "modeDetail_th": "กระเช้าลอยฟ้าข้ามหุบเขากำมะถัน" },
+    { "name": "Owakudani", "elevationM": 1044, "modeToNext": "ropeway", "modeDetail_th": "ลงกระเช้าต่อไป Togendai วิวฟูจิเปิด" },
+    { "name": "Togendai (ท่าเรือ)", "elevationM": 723, "modeToNext": "pirate ship", "modeDetail_th": "เรือโจรสลัดข้ามทะเลสาบ Ashi" },
+    { "name": "Moto-Hakone / Hakone-machi", "elevationM": 723, "modeToNext": "bus", "modeDetail_th": "ศาลเจ้า torii กลางน้ำ → บัสกลับ Hakone-Yumoto" }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ไป-กลับโตเกียววันเดียว (วน loop)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "ออกเช้า วน Hakone loop ทวนเข็ม",
+          "detail_th": "Romancecar ออกชินจูกุ 7:00-8:00 → Hakone-Yumoto · นั่งรถไฟภูเขา Hakone Tozan ขึ้น Gora → เคเบิลคาร์ Sounzan → ropeway ขึ้น Owakudani (กินไข่ดำ ชมหุบเขากำมะถัน) → ropeway ต่อ Togendai → เรือโจรสลัดข้ามทะเลสาบ Ashi (เห็นฟูจิ) → ลงท่า Moto-Hakone เดินไปศาลเจ้า Hakone + torii กลางน้ำ → บัสกลับ Hakone-Yumoto → Romancecar กลับชินจูกุ ~19:00-20:00 · เหนื่อยแต่เก็บไฮไลต์ครบ ข้ามพิพิธภัณฑ์"
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง 1 คืน ออนเซ็น ryokan (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — พิพิธภัณฑ์ + เข้าที่พักแช่ออนเซ็น",
+          "detail_th": "Romancecar เช้าสายๆ ถึง Hakone-Yumoto · รถไฟภูเขาขึ้น Chokoku-no-Mori → Hakone Open-Air Museum (1.5-2 ชม.) · ต่อ Pola Museum ถ้ามีเวลา/ฝนตก · เข้า ryokan ที่ Gora ช่วงบ่ายแก่ แช่ rotenburo · มื้อเย็น kaiseki ใน ryokan · พักผ่อนแช่ออนเซ็นกลางคืน ไม่ต้องรีบ"
+        },
+        {
+          "title_th": "วันที่ 2 — Owakudani + ทะเลสาบ + ศาลเจ้า",
+          "detail_th": "เช้าฟ้าใส (โอกาสเห็นฟูจิดีสุด) · เคเบิลคาร์ Sounzan → ropeway ขึ้น Owakudani กินไข่ดำ ชมจุดวิวใหม่ → ropeway ต่อ Togendai → เรือโจรสลัด ข้ามทะเลสาบ Ashi เห็นฟูจิ+torii → ลง Moto-Hakone เดินศาลเจ้า Hakone ถ่ายรูป torii กลางน้ำ (มาเช้าคิวสั้น) → บัสกลับ Hakone-Yumoto · ช้อปของฝากแถวสถานี → Romancecar กลับชินจูกุเย็น"
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "Hakone Ropeway มีปิดซ่อมบำรุงเป็นช่วงในฤดูหนาว: ช่วง Sounzan–Owakudani 8-19 ธ.ค. 2025 และ 13-30 ม.ค. 2026 · ช่วง Owakudani–Togendai 31 ม.ค.–20 ก.พ. 2026 — ช่วงปิดมีรถบัสทดแทนวิ่งทุก 15 นาที (ไปต่อได้แต่ไม่ได้วิวกระเช้า) เช็กตารางล่าสุดที่เว็บ Odakyu/Hakonenavi ก่อนไป",
+    "Hakone Free Pass 'ไม่รวม' ค่าธรรมเนียม Romancecar — ต้องจ่ายเพิ่ม ¥1,200/เที่ยว ถ้าจะนั่งรถด่วนพิเศษ (Express ธรรมดารวมในพาสแล้ว)",
+    "ฟูจิไม่ได้เห็นทุกวัน — มักออกชัดช่วงเช้าและฤดูหนาว (ธ.ค.-ก.พ.) ฤดูร้อน/บ่ายเมฆบังบ่อย อย่าตั้งความหวังสูงเกินไป มีแผนสำรอง indoor (พิพิธภัณฑ์)",
+    "Owakudani มีแก๊สกำมะถันเข้มข้น — คนเป็นหอบหืด/โรคหัวใจ/ทางเดินหายใจควรเลี่ยงหรือไม่อยู่นาน บางวันปิดเมื่อระดับแก๊สสูงเกิน เช็กสถานะวันนั้นก่อน",
+    "ช่วงใบไม้เปลี่ยนสี (กลาง-ปลาย พ.ย.) และ weekend คนเยอะมาก — Romancecar ที่นั่ง reserved เต็มเร็ว จองล่วงหน้า · ที่พัก ryokan ดีๆ จองล่วงหน้า 1-2 เดือน",
+    "เก็บตั๋ว Free Pass ไว้ดีๆ ต้องแตะ/แสดงทุกครั้งที่ขึ้นรถไฟ-เรือ-กระเช้า-บัส · ตั๋วเป็นกระดาษ/บัตร อย่าทำหาย",
+    "Hakone loop มี 2 ทิศ — เลี่ยงทำตามฝูงชนไปทางเดียวกันช่วงพีค ลองวนสวนทาง (เริ่มจากศาลเจ้า/ทะเลสาบก่อน) คนน้อยกว่า",
+    "อากาศบนที่สูง (Owakudani 1,044m) เย็นกว่าโตเกียว 5-7°C เสมอ — เตรียมเสื้อกันลม ฤดูหนาวมีหิมะ/ถนนลื่น"
+  ],
+  "sources": [
+    { "label": "Hakone Freepass — Odakyu Global (official)", "url": "https://odakyu-global.com/passes/hakone-freepass/" },
+    { "label": "Hakone Freepass — Hakonenavi (official)", "url": "https://www.hakonenavi.jp/international/en/discount_passes/free_pass" },
+    { "label": "Romancecar — Odakyu Global", "url": "https://odakyu-global.com/passes/romancecar/" },
+    { "label": "Hakone Ropeway + maintenance notice — Hakonenavi", "url": "https://www.hakonenavi.jp/international/en/transportation/hakone-ropeway" },
+    { "label": "Hakone Ropeway — Japan Guide", "url": "https://www.japan-guide.com/e/e5223.html" },
+    { "label": "Hakone Open-Air Museum (official)", "url": "https://www.hakone-oam.or.jp/en/" },
+    { "label": "Pola Museum of Art (Japan Guide)", "url": "https://www.japan-guide.com/e/e5214.html" },
+    { "label": "Hakone Sightseeing Cruise — Hakonenavi", "url": "https://www.hakonenavi.jp/international/en/transportation/hakone-kankosen" },
+    { "label": "Hakone Shrine — Japan Guide", "url": "https://www.japan-guide.com/e/e5204.html" },
+    { "label": "Hakone autumn foliage — Odakyu Hakonetrip", "url": "https://hakonetrip.odakyu-global.com/feature/hakone-for-autumn-leave/" }
+  ],
+  "tags_th": ["ออนเซ็น", "วิวฟูจิ", "ทะเลสาบ", "พิพิธภัณฑ์", "day-trip ได้", "ใบไม้เปลี่ยนสี", "คู่รัก", "Free Pass คุ้ม"],
+  "food": [
+    { "name": "ไข่ดำ Owakudani", "name_jp": "黒たまご", "emoji": "🥚", "note_th": "ต้มในบ่อกำมะถัน เปลือกดำ เชื่อว่ากินแล้วอายุยืน 7 ปี" },
+    { "name": "โซบะฮาโกเน่", "name_jp": "蕎麦", "emoji": "🍜", "note_th": "ร้านโซบะเก่าแก่หลายเจ้าในเขต Hakone-Yumoto" },
+    { "name": "ปลา himono ย่าง", "name_jp": "干物", "emoji": "🐟", "note_th": "ปลาตากแห้งย่าง ของขึ้นชื่อแถบ Odawara/Hakone" }
+  ]
+}
