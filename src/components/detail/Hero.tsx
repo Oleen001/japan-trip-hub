@@ -13,7 +13,7 @@ export function Hero({ data }: { data: Destination }) {
       <div
         className="absolute inset-0"
         style={{
-          background: `linear-gradient(160deg,rgba(29,77,107,.86),rgba(45,106,142,.80) 45%,rgba(63,126,156,.82)), url('${data.heroImage.url}') center 30%/cover no-repeat`,
+          background: `linear-gradient(160deg,rgba(29,77,107,.86),rgba(45,106,142,.1) 45%,rgba(63,126,156,.82)), url('${data.heroImage.url}') center 30%/cover no-repeat`,
           backgroundColor: '#1d4d6b',
         }}
         aria-hidden

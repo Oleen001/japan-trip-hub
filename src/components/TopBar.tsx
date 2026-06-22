@@ -29,9 +29,8 @@ export function TopBar() {
     <header className="sticky top-0 z-50 h-[60px] border-b border-line bg-white/85 backdrop-blur-md">
       <div className="mx-auto flex h-full max-w-[1280px] items-center justify-between gap-4 px-4 sm:px-6">
         <Link href="/" className="flex items-center gap-[10px]">
-          <span className="grid h-9 w-9 place-items-center rounded-md bg-alp text-white">
-            <Icon name="mountains" size={20} />
-          </span>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/brand.svg" alt="" className="h-9 w-auto rounded-md" />
           <span className="text-[16px] font-extrabold tracking-[-.01em] text-ink">
             Japan Trip Hub
           </span>

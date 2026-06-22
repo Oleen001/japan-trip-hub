@@ -2,7 +2,8 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { ComposableMap, Geographies, Geography, Line, Marker, ZoomableGroup } from 'react-simple-maps';
+import { ComposableMap, Geographies, Geography, Marker, ZoomableGroup } from 'react-simple-maps';
+import { geoMercator } from 'd3-geo';
 import type { Destination } from '@/lib/types';
 import { MapPin, type PinState } from './MapPin';
 import { Icon } from '../Icon';
@@ -11,6 +12,51 @@ const TOKYO: [number, number] = [139.6917, 35.6895];
 const HOME: { coordinates: [number, number]; zoom: number } = { coordinates: [138.4, 36.4], zoom: 6 };
 const MIN_ZOOM = 0.8;
 const MAX_ZOOM = 12;
+
+// recreate ComposableMap's projection so we can project lng/lat → x/y ourselves
+// (default viewBox 800×600 → translate [400,300]); must match projectionConfig below
+const PROJECTION = geoMercator().center([138.2, 37]).scale(1700).translate([400, 300]);
+
+/**
+ * A hand-drawn-looking path from a→b: sample points along the line, push each
+ * sideways by an organic (mixed-frequency, seeded) wobble that fades to 0 at
+ * both ends, then smooth through them with a Catmull-Rom spline. Deterministic
+ * per endpoint pair so it doesn't jitter on re-render.
+ */
+function sketchyPath(x1: number, y1: number, x2: number, y2: number): string {
+  const dx = x2 - x1;
+  const dy = y2 - y1;
+  const len = Math.hypot(dx, dy) || 1;
+  const px = -dy / len; // perpendicular unit
+  const py = dx / len;
+  const seed = x1 * 12.9898 + y1 * 78.233 + x2 * 37.719 + y2 * 13.137;
+  const n = Math.max(7, Math.round(len / 22));
+  const amp = Math.min(26, len * 0.07);
+  const pts: [number, number][] = [];
+  for (let i = 0; i <= n; i++) {
+    const t = i / n;
+    const env = Math.sin(Math.PI * t); // 0 at ends, 1 mid — keeps endpoints anchored
+    const w =
+      Math.sin(t * 6.3 + seed) * 0.55 +
+      Math.sin(t * 11.7 + seed * 1.7) * 0.3 +
+      Math.sin(t * 19.1 + seed * 0.5) * 0.15;
+    const off = env * amp * w;
+    pts.push([x1 + dx * t + px * off, y1 + dy * t + py * off]);
+  }
+  let d = `M ${pts[0][0].toFixed(1)} ${pts[0][1].toFixed(1)}`;
+  for (let i = 0; i < pts.length - 1; i++) {
+    const p0 = pts[i - 1] ?? pts[i];
+    const p1 = pts[i];
+    const p2 = pts[i + 1];
+    const p3 = pts[i + 2] ?? p2;
+    const c1x = p1[0] + (p2[0] - p0[0]) / 6;
+    const c1y = p1[1] + (p2[1] - p0[1]) / 6;
+    const c2x = p2[0] - (p3[0] - p1[0]) / 6;
+    const c2y = p2[1] - (p3[1] - p1[1]) / 6;
+    d += ` C ${c1x.toFixed(1)} ${c1y.toFixed(1)}, ${c2x.toFixed(1)} ${c2y.toFixed(1)}, ${p2[0].toFixed(1)} ${p2[1].toFixed(1)}`;
+  }
+  return d;
+}
 
 export function JapanMap({
   destinations,
@@ -77,18 +123,25 @@ export function JapanMap({
             }
           </Geographies>
 
-          {/* path from Tokyo to the active destination (great-circle — not road-accurate) */}
-          {activeDest && (
-            <Line
-              from={TOKYO}
-              to={[activeDest.coords.lng, activeDest.coords.lat]}
-              stroke="var(--koyo)"
-              strokeWidth={2.5 * popK}
-              strokeLinecap="round"
-              strokeDasharray={`${7 * popK} ${6 * popK}`}
-              fill="none"
-            />
-          )}
+          {/* hand-drawn-looking path from Tokyo to the active destination */}
+          {activeDest &&
+            (() => {
+              const a = PROJECTION(TOKYO);
+              const b = PROJECTION([activeDest.coords.lng, activeDest.coords.lat]);
+              if (!a || !b) return null;
+              return (
+                <path
+                  d={sketchyPath(a[0], a[1], b[0], b[1])}
+                  fill="none"
+                  stroke="var(--koyo)"
+                  strokeWidth={2.4 * popK}
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  opacity={0.9}
+                  style={{ pointerEvents: 'none' }}
+                />
+              );
+            })()}
 
           {/* Tokyo anchor */}
           <Marker coordinates={TOKYO}>
@@ -111,6 +164,8 @@ export function JapanMap({
               <MapPin
                 key={d.slug}
                 coords={[d.coords.lng, d.coords.lat]}
+                pinId={d.slug}
+                imageUrl={d.heroImage.url}
                 category={d.category[0]}
                 difficulty={d.difficultyFromTokyo}
                 state={st}

@@ -108,6 +108,29 @@ export function DestinationDetail({ data }: { data: Destination }) {
 
           {/* RAIL column */}
           <div className="mt-4 flex flex-col gap-4 lg:mt-0">
+            {/* อาหารแนะนำ — บนสุดของ rail */}
+            {data.food && data.food.length > 0 && (
+              <Card>
+                <TileHead icon="restaurant" title="กินอะไรดี" subtitle="ของถิ่น" />
+                <ul className="flex flex-col gap-[14px]">
+                  {data.food.map((f, i) => (
+                    <li key={i} className="flex gap-[10px]">
+                      <span className="flex-none text-[24px] leading-none">{f.emoji}</span>
+                      <div className="min-w-0">
+                        <div className="text-[13.5px] font-bold leading-tight text-ink">
+                          {f.name}
+                          {f.name_jp && (
+                            <span className="ml-1 text-[11px] font-normal text-ink-soft">{f.name_jp}</span>
+                          )}
+                        </div>
+                        <p className="mt-px text-[12px] leading-[1.5] text-ink-soft">{f.note_th}</p>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </Card>
+            )}
+
             {/* route flow */}
             {data.routeFlow && data.routeFlow.length > 0 && (
               <Card>
@@ -136,29 +159,6 @@ export function DestinationDetail({ data }: { data: Destination }) {
                 </Note>
               </div>
             </Card>
-
-            {/* อาหารแนะนำ */}
-            {data.food && data.food.length > 0 && (
-              <Card>
-                <TileHead icon="restaurant" title="กินอะไรดี" subtitle="ของถิ่น" />
-                <ul className="flex flex-col gap-[14px]">
-                  {data.food.map((f, i) => (
-                    <li key={i} className="flex gap-[10px]">
-                      <span className="flex-none text-[24px] leading-none">{f.emoji}</span>
-                      <div className="min-w-0">
-                        <div className="text-[13.5px] font-bold leading-tight text-ink">
-                          {f.name}
-                          {f.name_jp && (
-                            <span className="ml-1 text-[11px] font-normal text-ink-soft">{f.name_jp}</span>
-                          )}
-                        </div>
-                        <p className="mt-px text-[12px] leading-[1.5] text-ink-soft">{f.note_th}</p>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </Card>
-            )}
 
             {/* ฤดูแนะนำ */}
             {data.bestSeasons.length > 0 && (

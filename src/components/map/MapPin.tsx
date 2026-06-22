@@ -3,13 +3,15 @@
 import { useRef } from 'react';
 import { Marker } from 'react-simple-maps';
 import type { Category, Difficulty } from '@/lib/types';
-import { CATEGORY_COLOR, CATEGORY_ICON, DIFFICULTY_COLOR } from '@/lib/maps';
+import { CATEGORY_COLOR, DIFFICULTY_COLOR } from '@/lib/maps';
 import { Icon } from '../Icon';
 
 export type PinState = 'default' | 'hover' | 'active' | 'dimmed';
 
 export function MapPin({
   coords,
+  pinId,
+  imageUrl,
   category,
   difficulty,
   state,
@@ -21,6 +23,8 @@ export function MapPin({
   zoom = 1,
 }: {
   coords: [number, number];
+  pinId: string;
+  imageUrl: string;
   category: Category;
   difficulty: Difficulty;
   state: PinState;
@@ -34,7 +38,8 @@ export function MapPin({
   // pointer-down position, to tell a click apart from a map pan (d3-zoom)
   const downRef = useRef<{ x: number; y: number } | null>(null);
   const color = CATEGORY_COLOR[category];
-  const size = state === 'active' ? 42 : 34;
+  const size = state === 'active' ? 46 : 38;
+  const clipId = `pin-clip-${pinId}`;
   const dimmed = state === 'dimmed';
   const lifted = state === 'hover' || state === 'active';
   // counter-scale against ZoomableGroup so pins keep a constant on-screen size
@@ -85,21 +90,31 @@ export function MapPin({
         )}
         {/* hit area (transparent, ≥44px) */}
         <circle r={24} cx={0} cy={-size / 2} fill="transparent" />
-        {/* teardrop */}
+        {/* teardrop = location photo masked by the pin shape */}
         <g transform={`translate(${-size / 2}, ${-size}) scale(${lifted ? 1.12 : 1})`}>
-          <path
-            d={teardropPath(size)}
-            fill={color}
-            stroke={state === 'active' || state === 'hover' ? 'var(--koyo)' : '#fff'}
-            strokeWidth={state === 'active' ? 3 : state === 'hover' ? 2.5 : 2}
+          <defs>
+            <clipPath id={clipId}>
+              <path d={teardropPath(size)} />
+            </clipPath>
+          </defs>
+          {/* color backing (shows while photo loads / if it fails) */}
+          <path d={teardropPath(size)} fill={color} />
+          <image
+            href={imageUrl}
+            x={0}
+            y={0}
+            width={size}
+            height={size}
+            preserveAspectRatio="xMidYMid slice"
+            clipPath={`url(#${clipId})`}
             style={{ filter: 'drop-shadow(0 2px 6px rgba(20,40,70,.22))' }}
           />
-          {/* category icon */}
-          <foreignObject x={size * 0.18} y={size * 0.12} width={size * 0.64} height={size * 0.64}>
-            <div className="flex h-full w-full items-center justify-center text-white">
-              <Icon name={CATEGORY_ICON[category]} size={size * 0.5} />
-            </div>
-          </foreignObject>
+          <path
+            d={teardropPath(size)}
+            fill="none"
+            stroke={state === 'active' || state === 'hover' ? 'var(--koyo)' : '#fff'}
+            strokeWidth={state === 'active' ? 3 : state === 'hover' ? 2.5 : 2}
+          />
         </g>
         {/* difficulty dot */}
         <circle
