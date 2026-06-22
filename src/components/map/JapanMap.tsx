@@ -8,7 +8,7 @@ import { MapPin, type PinState } from './MapPin';
 import { Icon } from '../Icon';
 
 const TOKYO: [number, number] = [139.6917, 35.6895];
-const HOME: { coordinates: [number, number]; zoom: number } = { coordinates: [138.4, 36.4], zoom: 1.7 };
+const HOME: { coordinates: [number, number]; zoom: number } = { coordinates: [138.4, 36.4], zoom: 6 };
 const MIN_ZOOM = 0.8;
 const MAX_ZOOM = 12;
 

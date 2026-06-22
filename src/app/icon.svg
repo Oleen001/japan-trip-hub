@@ -1,0 +1,9 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="7" fill="#2d6a8e"/>
+  <!-- back peak -->
+  <path d="M21 12 L29.5 25 L13.5 25 Z" fill="#ffffff" fill-opacity="0.55"/>
+  <!-- front peak -->
+  <path d="M12.5 8.5 L24 25 L2.5 25 Z" fill="#ffffff"/>
+  <!-- snow cap notch on the front peak -->
+  <path d="M12.5 8.5 L16.1 13.7 L14.1 14.9 L12.5 13.4 L10.9 14.9 L8.9 13.7 Z" fill="#2d6a8e"/>
+</svg>
