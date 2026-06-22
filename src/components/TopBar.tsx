@@ -39,7 +39,6 @@ export function TopBar() {
 
         <nav className="flex items-center gap-1">
           {navItem('/', 'map', 'แผนที่')}
-          {navItem('/route', 'directions', 'เส้นทาง')}
           {navItem('/destinations', 'list-ul', 'รายการ')}
           <Link
             href="/destinations?saved=1"

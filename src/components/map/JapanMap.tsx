@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { ComposableMap, Geographies, Geography, Marker, ZoomableGroup } from 'react-simple-maps';
+import { ComposableMap, Geographies, Geography, Line, Marker, ZoomableGroup } from 'react-simple-maps';
 import type { Destination } from '@/lib/types';
 import { MapPin, type PinState } from './MapPin';
 import { Icon } from '../Icon';
@@ -76,6 +76,19 @@ export function JapanMap({
               ))
             }
           </Geographies>
+
+          {/* path from Tokyo to the active destination (great-circle — not road-accurate) */}
+          {activeDest && (
+            <Line
+              from={TOKYO}
+              to={[activeDest.coords.lng, activeDest.coords.lat]}
+              stroke="var(--koyo)"
+              strokeWidth={2.5 * popK}
+              strokeLinecap="round"
+              strokeDasharray={`${7 * popK} ${6 * popK}`}
+              fill="none"
+            />
+          )}
 
           {/* Tokyo anchor */}
           <Marker coordinates={TOKYO}>

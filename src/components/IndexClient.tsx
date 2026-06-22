@@ -2,11 +2,14 @@
 
 import { useMemo, useState } from 'react';
 import dynamic from 'next/dynamic';
+import Link from 'next/link';
 import type { Destination } from '@/lib/types';
 import { DEFAULT_FILTER, isFilterActive, matchesFilter, type FilterState } from '@/lib/filter';
 import { useSaved } from '@/lib/useSaved';
 import { FilterBar } from './FilterBar';
 import { DestinationCard } from './DestinationCard';
+import { RouteCompare } from './detail/RouteCompare';
+import { DifficultyPips } from './DifficultyPips';
 import { Icon } from './Icon';
 import { cn } from '@/lib/cn';
 
@@ -45,6 +48,7 @@ export function IndexClient({ destinations }: { destinations: Destination[] }) {
     [destinations, filter, saved],
   );
   const visibleSlugs = useMemo(() => new Set(visible.map((d) => d.slug)), [visible]);
+  const activeDest = activeSlug ? destinations.find((d) => d.slug === activeSlug) ?? null : null;
 
   return (
     // fills the viewport below the 60px TopBar; no page scroll — Google-Maps-style
@@ -62,38 +66,80 @@ export function IndexClient({ destinations }: { destinations: Destination[] }) {
         />
       </div>
 
-      {/* ── desktop: floating left panel (filter + results) over the map ── */}
+      {/* ── desktop: floating left panel — filter+results, or route view when a pin is active ── */}
       <div className="absolute bottom-4 left-4 top-4 z-20 hidden w-[380px] flex-col overflow-hidden rounded-2xl border border-line bg-white/95 shadow-pop backdrop-blur-md lg:flex">
-        <div className="border-b border-line px-4 py-[14px]">
-          <FilterBar value={filter} onChange={setFilter} regions={regions} />
-        </div>
-        <div className="flex items-baseline justify-between border-b border-line px-4 py-[10px]">
-          <span className="text-[13.5px] font-extrabold text-ink">
-            พบ <span className="tabnum text-alp">{visible.length}</span> ปลายทาง
-          </span>
-          <span className="truncate pl-2 text-[11.5px] text-ink-soft">{summarize(filter)}</span>
-        </div>
-        <div className="flex-1 space-y-3 overflow-y-auto px-4 py-4">
-          {visible.map((d) => (
-            <div
-              key={d.slug}
-              onMouseEnter={() => setHoverSlug(d.slug)}
-              onMouseLeave={() => setHoverSlug(null)}
-              className={cn(
-                'rounded-xl ring-2 transition-shadow',
-                activeSlug === d.slug || hoverSlug === d.slug ? 'ring-alp/40' : 'ring-transparent',
+        {activeDest ? (
+          <>
+            <div className="border-b border-line px-4 py-[14px]">
+              <button
+                onClick={() => setActiveSlug(null)}
+                className="mb-[10px] inline-flex cursor-pointer items-center gap-1 text-[12.5px] font-semibold text-alp hover:text-alp-700"
+              >
+                <Icon name="angle-left" size={15} /> ทุกปลายทาง
+              </button>
+              <div className="flex items-start justify-between gap-2">
+                <div className="min-w-0">
+                  <h2 className="text-[17px] font-extrabold leading-tight text-ink">
+                    {activeDest.name.th}
+                    {activeDest.name.jp && (
+                      <span className="ml-[6px] text-[12px] font-medium text-ink-soft">{activeDest.name.jp}</span>
+                    )}
+                  </h2>
+                  <p className="text-[11.5px] text-ink-soft">
+                    {activeDest.region} · {activeDest.prefecture}
+                  </p>
+                </div>
+                <span className="inline-flex flex-none items-center gap-[5px] rounded-full bg-paper px-[8px] py-[3px]">
+                  <span className="text-[9.5px] font-bold uppercase tracking-wide text-ink-soft">ง่าย</span>
+                  <DifficultyPips level={activeDest.difficultyFromTokyo} />
+                </span>
+              </div>
+            </div>
+            <div className="flex-1 overflow-y-auto px-4 py-4">
+              <p className="mb-3 text-[12.5px] leading-[1.6] text-ink-soft">{activeDest.access.summary_th}</p>
+              <RouteCompare options={activeDest.access.options} />
+              <Link
+                href={`/d/${activeDest.slug}`}
+                className="mt-4 flex w-full cursor-pointer items-center justify-center gap-1 rounded-md bg-alp px-4 py-[11px] text-[14px] font-bold text-white transition-colors hover:bg-alp-700"
+              >
+                ดูรายละเอียดเต็ม <Icon name="angle-right" size={16} />
+              </Link>
+            </div>
+          </>
+        ) : (
+          <>
+            <div className="border-b border-line px-4 py-[14px]">
+              <FilterBar value={filter} onChange={setFilter} regions={regions} />
+            </div>
+            <div className="flex items-baseline justify-between border-b border-line px-4 py-[10px]">
+              <span className="text-[13.5px] font-extrabold text-ink">
+                พบ <span className="tabnum text-alp">{visible.length}</span> ปลายทาง
+              </span>
+              <span className="truncate pl-2 text-[11.5px] text-ink-soft">{summarize(filter)}</span>
+            </div>
+            <div className="flex-1 space-y-3 overflow-y-auto px-4 py-4">
+              {visible.map((d) => (
+                <div
+                  key={d.slug}
+                  onMouseEnter={() => setHoverSlug(d.slug)}
+                  onMouseLeave={() => setHoverSlug(null)}
+                  className={cn(
+                    'rounded-xl ring-2 transition-shadow',
+                    hoverSlug === d.slug ? 'ring-alp/40' : 'ring-transparent',
+                  )}
+                >
+                  <DestinationCard destination={d} variant="compact" />
+                </div>
+              ))}
+              {visible.length === 0 && (
+                <div className="rounded-xl border border-dashed border-line py-12 text-center text-ink-soft">
+                  <Icon name="map-marker" size={30} />
+                  <p className="mt-2 text-[13px]">ไม่มีปลายทางตรงตัวกรอง</p>
+                </div>
               )}
-            >
-              <DestinationCard destination={d} variant="compact" />
             </div>
-          ))}
-          {visible.length === 0 && (
-            <div className="rounded-xl border border-dashed border-line py-12 text-center text-ink-soft">
-              <Icon name="map-marker" size={30} />
-              <p className="mt-2 text-[13px]">ไม่มีปลายทางตรงตัวกรอง</p>
-            </div>
-          )}
-        </div>
+          </>
+        )}
       </div>
 
       {/* ── mobile: floating controls over the map ── */}
