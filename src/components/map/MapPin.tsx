@@ -42,9 +42,10 @@ export function MapPin({
   const clipId = `pin-clip-${pinId}`;
   const dimmed = state === 'dimmed';
   const lifted = state === 'hover' || state === 'active';
-  // counter-scale against ZoomableGroup so pins keep a constant on-screen size
-  // (no counter-scale below zoom 1, so they don't grow when zoomed out)
-  const k = 1 / Math.max(1, zoom);
+  // pins grow when zooming in and shrink when zooming out, but damped (√) so
+  // they never balloon at max zoom. Normalized to the default zoom (6) so the
+  // on-screen size there matches the old constant-size pin.
+  const k = 1 / Math.sqrt(6 * zoom);
 
   return (
     <Marker coordinates={coords} onMouseEnter={onHover} onMouseLeave={onLeave}>
