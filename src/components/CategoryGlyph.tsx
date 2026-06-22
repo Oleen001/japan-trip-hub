@@ -21,7 +21,7 @@ export function CategoryGlyph({
   // eslint-disable-next-line @next/next/no-img-element
   const img = (
     <img
-      src={`/cat/${cat}.svg`}
+      src={`/flat/cat/${cat}.svg`}
       alt=""
       width={size}
       height={size}
@@ -43,7 +43,7 @@ export function CategoryGlyph({
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src={`/cat/${cat}.svg`}
+        src={`/flat/cat/${cat}.svg`}
         alt=""
         width={size}
         height={size}
