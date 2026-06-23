@@ -1,0 +1,475 @@
+{
+  "slug": "fukiware",
+  "name": {
+    "en": "Fukiware Falls",
+    "th": "น้ำตกฟุคิวาเระ",
+    "jp": "吹割の滝"
+  },
+  "region": "Kanto",
+  "prefecture": "Gunma",
+  "coords": {
+    "lat": 36.7308,
+    "lng": 139.1817
+  },
+  "category": [
+    "nature"
+  ],
+  "tagline_th": "\"ไนแอการาแห่งตะวันออก\" — น้ำตกกว้างไหลลงรอยแยกหินกลางลำธาร เดินเลียบโกรกได้รอบ ใบไม้แดงปลาย ต.ค.",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukiware%20Falls%2001.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukiware%20Falls%2002.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 3,
+  "access": {
+    "summary_th": "ไม่มีรถไฟถึงหน้าน้ำตก ต้องนั่ง Joetsu Shinkansen จากโตเกียวถึง Jomo-Kogen (~70 นาที) แล้วต่อบัส Kan-etsu สาย Kamata อีก ~74 นาทีถึงป้าย \"Fukiware no Taki\" เดินเข้าน้ำตก 5 นาที · รวม ~2.5 ชม. ไป-กลับวันเดียวได้แต่ต้องเช็ครอบบัสให้ดี (บัสไม่ถี่)",
+    "jrPassWorth": true,
+    "options": [
+      {
+        "mode": "Joetsu Shinkansen → Jomo-Kogen → บัส Kamata (เร็วสุด แนะนำ)",
+        "detail_th": "โตเกียว → shinkansen (Joetsu, Toki/Tanigawa) → Jomo-Kogen Station → bus (Kan-etsu สาย Kamata ไป Oze-Tokura) → ป้าย Fukiware no Taki → เดิน 5 นาที",
+        "durationMin": 150,
+        "costYen": 5460,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Jomo-Kogen Station",
+            "mode": "shinkansen",
+            "line_th": "Joetsu Shinkansen (Toki / Tanigawa)",
+            "durationMin": 70,
+            "costYen": 4200,
+            "note_th": "ที่นั่งอิสระ ~4,200 เยน (จองที่นั่งเพิ่ม ~530 เยน) · JR Pass / JR East Pass ครอบคลุมช่วงนี้ — คุ้มถ้ามี"
+          },
+          {
+            "from": "Jomo-Kogen Station",
+            "to": "Fukiware no Taki (ป้ายบัส)",
+            "mode": "bus",
+            "line_th": "Kan-etsu Bus สาย Kamata (ปลายทาง Oze-Tokura / Kamata)",
+            "durationMin": 74,
+            "costYen": 1260,
+            "note_th": "บัสไม่ถี่ (วันละไม่กี่เที่ยว) · เช็คตารางขาไป-ขากลับก่อนเดินทาง · จ่ายเงินสด/IC ตอนลง"
+          },
+          {
+            "from": "Fukiware no Taki (ป้ายบัส)",
+            "to": "หน้าน้ำตก / ทางเดินเลียบโกรก",
+            "mode": "walk",
+            "line_th": "เดินจากป้ายบัสผ่านร้านค้า",
+            "durationMin": 5,
+            "costYen": 0,
+            "note_th": "ทางลงสู่ลำธารเป็นบันได/ทางลาด เดินไม่ไกล"
+          }
+        ]
+      },
+      {
+        "mode": "Shinkansen → Takasaki → Joetsu Line → Numata → บัส (ถูกกว่าเล็กน้อย)",
+        "detail_th": "โตเกียว → shinkansen → Takasaki → train (JR Joetsu Line) → Numata Station → bus (Kan-etsu สาย Kamata) → ป้าย Fukiware no Taki → เดิน 5 นาที",
+        "durationMin": 170,
+        "costYen": 5350,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Takasaki Station",
+            "mode": "shinkansen",
+            "line_th": "Joetsu/Hokuriku Shinkansen",
+            "durationMin": 50,
+            "costYen": 4490,
+            "note_th": "ที่นั่งอิสระ ~4,490 เยน · ถ้าไม่รีบ นั่ง JR ธรรมดา (Takasaki Line) จากอุเอโนะ ~2 ชม. ประหยัดค่า shinkansen ได้มาก"
+          },
+          {
+            "from": "Takasaki Station",
+            "to": "Numata Station",
+            "mode": "train",
+            "line_th": "JR Joetsu Line (local)",
+            "durationMin": 45,
+            "costYen": 990,
+            "note_th": "รถไฟ local ~45 นาที · บางช่วงรอต่อขบวนนาน เช็คเวลา"
+          },
+          {
+            "from": "Numata Station",
+            "to": "Fukiware no Taki (ป้ายบัส)",
+            "mode": "bus",
+            "line_th": "Kan-etsu Bus สาย Kamata",
+            "durationMin": 45,
+            "costYen": 1250,
+            "note_th": "~40-45 นาที · บัสสายเดียวกับ Jomo-Kogen (วิ่งผ่าน Numata ต่อ) · ไม่ถี่ เช็คตาราง"
+          },
+          {
+            "from": "Fukiware no Taki (ป้ายบัส)",
+            "to": "หน้าน้ำตก",
+            "mode": "walk",
+            "line_th": "เดินจากป้ายบัส",
+            "durationMin": 5,
+            "costYen": 0,
+            "note_th": "ทางเดินสั้นสู่ลำธาร"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง ปลาย ต.ค.-ต้น พ.ย.",
+      "months": [
+        10,
+        11
+      ],
+      "note_th": "ไฮไลต์ของที่นี่ — เมเปิล/บีช/นานาคามาโดะเปลี่ยนสีแดง-เหลืองรอบโกรก ตัดกับหินเทาและน้ำขาว พีคปลาย ต.ค. ถึงต้น พ.ย."
+    },
+    {
+      "label": "เขียวสด+น้ำเยอะ ฤดูร้อน มิ.ย.-ส.ค.",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "note_th": "ป่าเขียวจัด หน้าฝน/หลังฝนน้ำมากไหลแรงดูอลังการ แต่หินเปียกลื่นกว่าปกติ ระวังให้มาก"
+    },
+    {
+      "label": "ใบไม้ผลิเขียวอ่อน พ.ค.",
+      "months": [
+        5
+      ],
+      "note_th": "ป่าเพิ่งแตกใบ อากาศกำลังดี คนน้อยกว่าหน้า koyo"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "โกรก Fukiware",
+      "type": "koyo",
+      "startFrac": 0.79,
+      "endFrac": 0.88,
+      "note_th": "ใบไม้แดงปลาย ต.ค.-ต้น พ.ย."
+    },
+    {
+      "zone": "ป่าฤดูร้อน",
+      "type": "green",
+      "startFrac": 0.42,
+      "endFrac": 0.66,
+      "note_th": "เขียวสด น้ำเยอะ มิ.ย.-ส.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่า shinkansen+บัสเป็นก้อนหลัก ถ้ามี JR Pass จะถูกลงมาก (เหลือแค่ค่าบัส)",
+    "items": [
+      {
+        "label_th": "Shinkansen ไป-กลับ (โตเกียว↔Jomo-Kogen)",
+        "yen": 8400,
+        "thb": 1932,
+        "note_th": "ที่นั่งอิสระ ~4,200 เยน/เที่ยว · JR Pass ครอบคลุม — ถ้ามีจะตัดส่วนนี้ออกเกือบหมด"
+      },
+      {
+        "label_th": "บัส Kan-etsu ไป-กลับ (Jomo-Kogen↔Fukiware)",
+        "yen": 2520,
+        "thb": 580,
+        "note_th": "~1,260 เยน/เที่ยว · ต้องจ่ายแยกแม้มี JR Pass"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 1800,
+        "thb": 414,
+        "note_th": "ร้านริมน้ำตก — soba, มันจู, แอปเปิลพายร้าน Kyaraen ขึ้นชื่อ"
+      },
+      {
+        "label_th": "ของฝาก/เบ็ดเตล็ด",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "ไม่มีค่าเข้าน้ำตก (ฟรี) · งบของที่ระลึก"
+      }
+    ],
+    "totalYen": 13720,
+    "totalThb": 3156,
+    "ranges": {
+      "lowThb": 1200,
+      "midThb": 3200,
+      "highThb": 4500
+    }
+  },
+  "pois": [
+    {
+      "name": "Fukiware Falls (ตัวน้ำตก)",
+      "icon": "water",
+      "durationMin": 30,
+      "blurb_th": "น้ำตกกว้าง 30 ม. ไหลลง \"รอยแยก\" หินกลางลำธาร ไม่ใช่ตกจากหน้าผา",
+      "deepDive_th": "Fukiware Falls (吹割の滝) เป็นน้ำตกที่แปลกตา — สูงแค่ ~7 ม. แต่กว้างถึง ~30 ม. และน้ำไม่ได้ตกจากหน้าผาแบบน้ำตกทั่วไป แต่ไหลแผ่บนลานหินกว้างแล้ว \"ทรุดลงสู่รอยแยก (V-shaped fissure)\" ที่น้ำกัดเซาะหินภูเขาไฟมานับหมื่นปี จึงได้ฉายา \"ไนแอการาแห่งตะวันออก (東洋のナイアガラ)\" · เป็น 1 ใน 100 น้ำตกชื่อดังของญี่ปุ่น และเป็น Natural Monument ของชาติ · หน้าฝน/หลังฝนน้ำมากจะอลังการสุด หน้า koyo จะสวยด้วยใบไม้แดงล้อม · จุดชมหลักอยู่ริมลานหินใกล้ตัวน้ำตกมาก ไม่มีราวกั้น ต้องระวังมาก",
+      "location_th": "กลางลำธาร Katashina River",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukiware%20Falls%2016.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukiware%20Falls%2005.jpg?width=900"
+      }
+    },
+    {
+      "name": "ลานหินกว้าง (Riverbed Rock Plateau)",
+      "icon": "water",
+      "blurb_th": "ลานหินภูเขาไฟกว้างมหึมา เดินบนหินเรียบเข้าใกล้น้ำได้",
+      "deepDive_th": "ก่อนถึงตัวน้ำตก น้ำจะไหลแผ่บนลานหินภูเขาไฟกว้างเรียบเป็นพืดราวกับถนนหิน เกิดจากการกัดเซาะของน้ำเป็นเวลานาน · นักท่องเที่ยวเดินบนลานหินนี้เข้าไปดูน้ำตกได้ใกล้มาก (เห็นได้ในภาพมุมกว้าง มีคนเดินเป็นจุดเล็กๆ บนหิน) ทำให้สัมผัสพลังน้ำได้เต็มที่ · แต่นี่คือจุดอันตรายที่สุด — หินเปียกลื่น ไม่มีราวกั้น เคยมีคนพลัดตกลงรอยแยก ต้องอยู่ในเส้นที่กำหนดและไม่เข้าใกล้ขอบเกินไป",
+      "location_th": "หน้าตัวน้ำตก",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukiware%20Falls%2001.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukiware%20Falls%2012.jpg?width=900"
+      }
+    },
+    {
+      "name": "ทางเดินเลียบโกรก (Gorge Loop Walk)",
+      "icon": "trees",
+      "durationMin": 60,
+      "blurb_th": "เส้นเดินวงรอบ ~1 ชม. เลียบโกรกหินสูงชัน ผ่านจุดชมหลายมุม",
+      "deepDive_th": "มีเส้นเดินวงรอบ (loop) เลียบโกรกแม่น้ำ Katashina ที่กัดเซาะเป็นหน้าผาหินสูงชันสองข้าง (เห็นในมุมตั้งของรูป) · เดินจากตัวน้ำตก ไล่ขึ้นไปตามทางในป่า ข้ามสะพานแขวน Ukiwa-bashi ที่เป็นจุดชมน้ำตกจากมุมสูง แล้ววนกลับ ใช้เวลา ~40-60 นาทีถ้าเดินเรื่อยๆ · ระหว่างทางผ่านจุดชมหลายมุม ทั้งวิวโกรก หน้าผา และน้ำตกจากด้านบน · เป็นเส้นที่ทำให้ที่นี่ไม่ใช่แค่ \"ดูน้ำตกแล้วกลับ\" แต่เดินเที่ยวได้จริง",
+      "location_th": "วงรอบจากลานน้ำตก",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukiware%20Falls%2002.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukiware%20Falls%2001.jpg?width=900"
+      }
+    },
+    {
+      "name": "สะพานแขวน Ukiwa-bashi (จุดชมมุมสูง)",
+      "icon": "camera",
+      "blurb_th": "สะพานแขวนเหนือแม่น้ำ มุมถ่ายภาพน้ำตกที่ดีที่สุด",
+      "deepDive_th": "สะพานแขวน Ukiwa-bashi (浮島橋 / สะพานบริเวณ Ukishima) ทอดข้ามแม่น้ำเหนือน้ำตก เป็นจุดที่มองเห็นภาพรวมของน้ำตกกว้างและลานหินได้สวยที่สุดในมุมสูง (เห็นสะพานเล็กๆ ด้านหลังน้ำตกในรูป) · เป็นจุดถ่ายรูปยอดนิยม โดยเฉพาะหน้า koyo ที่ใบไม้แดงเต็มโกรก · บนเกาะกลางน้ำ (Ukishima) ยังมีศาลเจ้าเล็ก Ukishima Kannon ให้แวะ · สะพานแกว่งเล็กน้อยตามปกติของสะพานแขวน",
+      "location_th": "เหนือน้ำตก บนเส้น loop",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukiware%20Falls%2012.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukiware%20Falls%2014.jpg?width=900"
+      }
+    },
+    {
+      "name": "Hannya Rocks & Masutobi Falls",
+      "icon": "mountains",
+      "blurb_th": "หินหน้าปีศาจ Hannya + น้ำตกย่อย Masutobi สูง 15 ม. ปลายเส้นเดิน",
+      "deepDive_th": "เดินเลยตัวน้ำตกหลักลงไปตามโกรก จะเจอ Hannya Rocks (般若岩) — หน้าผาหินที่มองคล้ายหน้ากาก Hannya (ปีศาจหญิงในละครโนห์) และ Masutobi Falls (鱒飛の滝) น้ำตกย่อยสูง ~15 ม. ที่ว่ากันว่าปลาเทราต์เคยกระโดดข้าม · เป็นจุดเสริมที่ทำให้เส้นเดินสมบูรณ์ บรรยากาศเงียบกว่าจุดน้ำตกหลัก · เหมาะคนที่อยากเดินครบทั้งโกรกไม่รีบกลับ",
+      "location_th": "ปลายโกรกด้านล่างน้ำตกหลัก",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukiware%20Falls%2010.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukiware%20Falls%2014.jpg?width=900"
+      }
+    }
+  ],
+  "routeFlow": [
+    {
+      "name": "Tokyo",
+      "modeToNext": "shinkansen",
+      "modeDetail_th": "Joetsu Shinkansen ~70 นาที"
+    },
+    {
+      "name": "Jomo-Kogen",
+      "elevationM": 410,
+      "modeToNext": "bus",
+      "modeDetail_th": "Kan-etsu Bus สาย Kamata ~74 นาที"
+    },
+    {
+      "name": "Fukiware no Taki (ป้ายบัส)",
+      "elevationM": 660,
+      "modeToNext": "walk",
+      "modeDetail_th": "เดิน ~5 นาทีสู่ลำธาร"
+    },
+    {
+      "name": "ลานน้ำตก Fukiware",
+      "elevationM": 655
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ไป-กลับวันเดียว (น้ำตก + เดิน loop)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เช้า-บ่าย เก็บน้ำตก + เดินเลียบโกรกครบ",
+          "detail_th": "ออกโตเกียวเช้า → Joetsu Shinkansen ลง Jomo-Kogen → บัส Kan-etsu สาย Kamata ลงป้าย Fukiware no Taki (เช็ครอบบัสขาไป-กลับตั้งแต่ก่อนออก เพราะไม่ถี่) → เดิน 5 นาทีลงลานหิน ชมตัวน้ำตกใกล้ๆ → เดินเส้น loop เลียบโกรก ข้ามสะพาน Ukiwa-bashi → ลงไป Hannya Rocks + Masutobi Falls → กินข้าว/แอปเปิลพายริมน้ำ → ขึ้นบัสรอบบ่าย-เย็นกลับ Jomo-Kogen → shinkansen กลับโตเกียว",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "ออกโตเกียว → Jomo-Kogen",
+              "detail_th": "Joetsu Shinkansen (Toki/Tanigawa) ~70 นาที · JR Pass ใช้ได้",
+              "mode": "shinkansen",
+              "durationMin": 70
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "บัส Kan-etsu → Fukiware no Taki",
+              "detail_th": "สาย Kamata ปลายทาง Oze-Tokura · เช็ครอบให้ตรงก่อนถึง Jomo-Kogen",
+              "mode": "bus",
+              "durationMin": 74
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "ชมตัวน้ำตก + ลานหิน",
+              "detail_th": "เดิน 5 นาทีลงลำธาร เข้าใกล้น้ำตกที่ไหลลงรอยแยก ระวังหินลื่น/ไม่มีราว",
+              "durationMin": 40
+            },
+            {
+              "time_th": "~11:45",
+              "title_th": "เดิน loop เลียบโกรก + สะพาน Ukiwa-bashi",
+              "detail_th": "วงรอบโกรก ~1 ชม. ขึ้นจุดชมมุมสูงบนสะพานแขวน",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~13:00",
+              "title_th": "Hannya Rocks + Masutobi Falls + กินข้าว",
+              "detail_th": "เดินปลายโกรก แล้วกลับมากิน soba/แอปเปิลพายริมน้ำตก",
+              "durationMin": 75
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "บัสกลับ Jomo-Kogen",
+              "detail_th": "อย่าตกรอบบัส — มีวันละไม่กี่เที่ยว เช็คเที่ยวสุดท้าย",
+              "mode": "bus",
+              "durationMin": 74
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "Shinkansen กลับโตเกียว",
+              "mode": "shinkansen",
+              "durationMin": 70
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง 1 คืน Oigami Onsen (น้ำตก + ออนเซน)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — น้ำตก แล้วค้างออนเซน",
+          "detail_th": "ถึง Fukiware ช่วงสาย เดินน้ำตก+โกรกแบบไม่รีบ → นั่งบัส/แท็กซี่ไป Oigami Onsen (老神温泉) ที่อยู่ใกล้กัน ค้าง 1 คืนแช่ออนเซนริมหุบเขา · เหมาะถ้าอยากรวมกับ Oze หรือเที่ยว Gunma หลายที่ ไม่ต้องเร่งรอบบัสกลับ",
+          "steps": [
+            {
+              "time_th": "สาย",
+              "title_th": "ถึง Fukiware เดินชมแบบชิล",
+              "detail_th": "ไม่ต้องเร่ง เก็บทั้งน้ำตก loop และปลายโกรก",
+              "durationMin": 180
+            },
+            {
+              "time_th": "บ่าย-เย็น",
+              "title_th": "เข้า Oigami Onsen",
+              "detail_th": "บัส/แท็กซี่สั้นๆ ไปแช่ออนเซนค้างคืน",
+              "mode": "bus",
+              "durationMin": 20
+            }
+          ]
+        },
+        {
+          "title_th": "วันที่ 2 — กลับ หรือต่อ Oze/Gunma",
+          "detail_th": "เช้าแช่ออนเซนอีกรอบ → บัสกลับ Jomo-Kogen/Numata → shinkansen กลับโตเกียว · หรือต่อรถไป Oze National Park (ปลายทางบัสสายเดียวกันคือ Oze-Tokura) สำหรับคนรักธรรมชาติ",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "ออนเซน + กลับ",
+              "detail_th": "บัสกลับ Jomo-Kogen แล้ว shinkansen กลับโตเกียว",
+              "mode": "shinkansen",
+              "durationMin": 70
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "อันตรายที่สุดคือลานหินหน้าน้ำตก — หินเปียกลื่นมาก ไม่มีราวกั้น และมี \"รอยแยก\" ที่น้ำตกลงไป เคยมีคนพลัดตก ห้ามเข้าใกล้ขอบหรือออกนอกเส้นที่กำหนด ใส่รองเท้าพื้นยึดเกาะดี",
+    "บัส Kan-etsu จาก Jomo-Kogen/Numata มีวันละไม่กี่เที่ยว — ต้องเช็คตารางขาไป-ขากลับล่วงหน้า ถ้าตกรอบสุดท้ายอาจกลับลำบาก (แท็กซี่แพง)",
+    "หน้าฝน/หลังฝนน้ำมากไหลแรงสวยแต่หินยิ่งลื่นและบางจุดอาจปิด · เช็คสภาพอากาศก่อนไป",
+    "หน้า koyo (ปลาย ต.ค.-ต้น พ.ย.) คนเยอะ บัสและที่จอดแน่น เผื่อเวลา"
+  ],
+  "sources": [
+    {
+      "label": "Fukiware Falls — JNTO (japan.travel)",
+      "url": "https://www.japan.travel/en/spot/1499/"
+    },
+    {
+      "label": "How to Get to Fukiware no Taki — Gunma Official Tourist Guide",
+      "url": "https://www.visit-gunma.jp/en/plan-your-trip/access-guide/how-to-get-to-fukiware-no-taki-falls/"
+    },
+    {
+      "label": "Kan-etsu Transportation — Local Bus (Jomo-Kogen〜Numata〜Oze)",
+      "url": "http://global.kan-etsu.net/en/oze/ooshimizu.html"
+    },
+    {
+      "label": "Fukiware-no-Taki Access — Numata City Official",
+      "url": "https://www.city.numata.gunma.jp/kanko/fukiware/1003067.html"
+    }
+  ],
+  "tags_th": [
+    "น้ำตก",
+    "ไนแอการาแห่งตะวันออก",
+    "ใบไม้แดง",
+    "เดินป่า",
+    "Gunma"
+  ],
+  "food": [
+    {
+      "name": "แอปเปิลพาย Kyaraen",
+      "name_jp": "伽羅苑のアップルパイ",
+      "emoji": "🥧",
+      "note_th": "ร้านขึ้นชื่อหน้าน้ำตก แอปเปิลกุนมะอบสดเสิร์ฟอุ่นๆ"
+    },
+    {
+      "name": "โซบะ",
+      "name_jp": "蕎麦",
+      "emoji": "🍜",
+      "note_th": "ร้านริมน้ำตก กินอุ่นๆ หลังเดินโกรก"
+    },
+    {
+      "name": "มันจูนึ่ง",
+      "name_jp": "饅頭",
+      "emoji": "🍡",
+      "note_th": "ของกินเล่นแถวร้านค้าทางเข้าน้ำตก"
+    },
+    {
+      "name": "แอปเปิลกุนมะ",
+      "name_jp": "群馬りんご",
+      "emoji": "🍎",
+      "note_th": "Numata/Gunma เป็นแหล่งปลูกแอปเปิล ฤดูใบไม้ร่วงมีสด"
+    }
+  ]
+}

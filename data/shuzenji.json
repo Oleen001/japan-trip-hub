@@ -1,0 +1,436 @@
+{
+  "slug": "shuzenji",
+  "name": {
+    "en": "Shuzenji Onsen",
+    "th": "ชูเซนจิ ออนเซน",
+    "jp": "修善寺"
+  },
+  "region": "Chubu",
+  "prefecture": "Shizuoka",
+  "coords": {
+    "lat": 34.9697,
+    "lng": 138.9281
+  },
+  "category": [
+    "onsen",
+    "nature"
+  ],
+  "tagline_th": "เมืองออนเซนเก่าแก่ที่สุดของคาบสมุทรอิซุ — วัดโบราณ ป่าไผ่ สะพานแดงเหนือแม่น้ำคัตสึระ + ออนเซนกลางลำธาร บรรยากาศย้อนยุคขลังๆ",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/181124%20Shuzenji%20Onsen%20Izu%20Shizuoka%20pref%20Japan07s5.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shuzenji%20Onsen%20and%20River.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "Tokaido Shinkansen จากโตเกียวถึง Mishima (~50 นาที) ต่อ Izuhakone Sunzu Line ไป Shuzenji (~35 นาที) แล้วบัส/เดินเข้าเมืองออนเซน — ไม่ยาก แต่จุดเด่นคือค้างออนเซน 1 คืนจะคุ้มกว่ามาก",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Tokaido Shinkansen → Mishima → Izuhakone Sunzu Line",
+        "detail_th": "Tokyo → shinkansen (Tokaido, Kodama) → Mishima → train (Izuhakone Sunzu Line) → Shuzenji Station → bus 8 นาที → ย่านออนเซน",
+        "durationMin": 110,
+        "costYen": 4690,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซน",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Mishima Station",
+            "mode": "shinkansen",
+            "line_th": "Tokaido Shinkansen (Kodama)",
+            "durationMin": 50,
+            "costYen": 3270,
+            "note_th": "Kodama จอดทุกสถานี Mishima · JR Pass ใช้ได้เฉพาะ Tokaido Shinkansen ช่วงนี้ (Kodama/Hikari) · Nozomi ใช้ Pass ไม่ได้ · ~2-3 ขบวน/ชม."
+          },
+          {
+            "from": "Mishima Station",
+            "to": "Shuzenji Station",
+            "mode": "train",
+            "line_th": "Izuhakone Railway Sunzu Line",
+            "durationMin": 35,
+            "costYen": 520,
+            "note_th": "รถไฟเอกชน — JR Pass ใช้ไม่ได้ ต้องซื้อตั๋วแยก · ~2-3 เที่ยว/ชม. · สถานีปลายทางของสาย"
+          },
+          {
+            "from": "Shuzenji Station",
+            "to": "Shuzenji Onsen (ย่านออนเซน)",
+            "mode": "bus",
+            "line_th": "Tokai Bus (สาย Shuzenji Onsen)",
+            "durationMin": 8,
+            "costYen": 220,
+            "note_th": "บัสจากหน้าสถานีเข้าเมืองออนเซน ~2-3 เที่ยว/ชม. · ตัวสถานีอยู่ห่างย่านวัด/แม่น้ำ ~2 กม. ไม่ควรเดิน"
+          }
+        ]
+      },
+      {
+        "mode": "Limited Express Odoriko (ตรง ไม่ต้องต่อชินคันเซน)",
+        "detail_th": "Tokyo/Shinagawa → train (LEX Odoriko ตรงถึง Shuzenji) → Shuzenji Station → bus 8 นาที → ย่านออนเซน",
+        "durationMin": 140,
+        "costYen": 4710,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟด่วนพิเศษ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Shuzenji Station",
+            "mode": "train",
+            "line_th": "JR/Izu LEX Odoriko (ตรง ไม่ต้องเปลี่ยนขบวน)",
+            "durationMin": 130,
+            "costYen": 4490,
+            "note_th": "บางขบวนวิ่งตรง Tokyo→Shuzenji (ตู้ที่แยกไป Shuzenji กับ Izukyu-Shimoda) · ที่นั่งแบบจอง · นั่งสบายไม่ต้องลากกระเป๋าต่อรถ แต่ช้ากว่าชินคันเซน · JR Pass ครอบเฉพาะช่วง JR ไม่รวมช่วง Izuhakone — ต้องจ่ายเพิ่ม"
+          },
+          {
+            "from": "Shuzenji Station",
+            "to": "Shuzenji Onsen (ย่านออนเซน)",
+            "mode": "bus",
+            "line_th": "Tokai Bus (สาย Shuzenji Onsen)",
+            "durationMin": 8,
+            "costYen": 220,
+            "note_th": "บัสจากหน้าสถานีเข้าเมืองออนเซน ~2-3 เที่ยว/ชม."
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง พ.ย.",
+      "months": [
+        11
+      ],
+      "note_th": "กลาง-ปลาย พ.ย. เมเปิลแดงรอบแม่น้ำคัตสึระและสะพานแดง Katsura-bashi สวยที่สุด มีไลต์อัปกลางคืนช่วงพีค"
+    },
+    {
+      "label": "ซากุระ ปลาย มี.ค.-ต้น เม.ย.",
+      "months": [
+        3,
+        4
+      ],
+      "note_th": "ซากุระบานริมแม่น้ำและรอบวัด Shuzen-ji อิซุอุ่นกว่าโตเกียวเล็กน้อย บานไวกว่านิดหน่อย"
+    },
+    {
+      "label": "ออนเซนหน้าหนาว ธ.ค.-ก.พ.",
+      "months": [
+        12,
+        1,
+        2
+      ],
+      "note_th": "อากาศเย็นกำลังดีสำหรับแช่ออนเซน คนน้อย บรรยากาศเงียบสงบ อิซุไม่ค่อยมีหิมะ"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ริมแม่น้ำคัตสึระ + สะพานแดง",
+      "type": "koyo",
+      "startFrac": 0.83,
+      "endFrac": 0.95,
+      "note_th": "เมเปิลแดงกลาง-ปลาย พ.ย. มีไลต์อัป"
+    },
+    {
+      "zone": "รอบวัด Shuzen-ji",
+      "type": "bloom",
+      "startFrac": 0.23,
+      "endFrac": 0.3,
+      "note_th": "ซากุระปลาย มี.ค.-ต้น เม.ย."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน ค้างออนเซน 1 คืน ไป-กลับโตเกียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าหลักคือที่พักออนเซน (ryokan + อาหารเย็น-เช้า) · มาเช้ากลับเย็นแบบ day-trip ตัดที่พักออกได้เหลือ ~1,500 บาท",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (ชินคันเซน + Sunzu Line + บัส)",
+        "yen": 9380,
+        "thb": 2157,
+        "note_th": "Tokaido Shinkansen Kodama ไป-กลับ + Izuhakone Sunzu Line + บัสเข้าเมือง"
+      },
+      {
+        "label_th": "ที่พักออนเซน ryokan 1 คืน",
+        "yen": 18000,
+        "thb": 4140,
+        "note_th": "ryokan ระดับกลางพร้อมอาหารเย็น-เช้า (kaiseki) ต่อคน · มีตั้งแต่ ~12,000 ถึงหรูหลายหมื่น"
+      },
+      {
+        "label_th": "อาหารกลางวัน + ของว่าง",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "โซบะวาซาบิ / ของกินเล่นย่านออนเซน (มื้อเย็น-เช้ารวมในที่พักแล้ว)"
+      },
+      {
+        "label_th": "ค่าเข้า/ออนเซนเดย์ทริป/ของฝาก",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "อาบน้ำสาธารณะ Hako-yu / ทำบุญวัด / ของที่ระลึก"
+      }
+    ],
+    "totalYen": 31380,
+    "totalThb": 7217,
+    "ranges": {
+      "lowThb": 1500,
+      "midThb": 7000,
+      "highThb": 14000
+    }
+  },
+  "pois": [
+    {
+      "name": "Tokko-no-yu",
+      "icon": "raindrops-alt",
+      "blurb_th": "ออนเซนกลางลำธารแม่น้ำคัตสึระ ต้นกำเนิดเมืองออนเซนนี้",
+      "deepDive_th": "Tokko-no-yu (独鈷の湯) บ่อน้ำพุร้อนกลางลำธารแม่น้ำคัตสึระ ตำนานเล่าว่าพระโคโบ ไดชิ (Kukai) ใช้คทาวัชระ (tokko) ทุบหินจนน้ำพุร้อนพุ่งออกมาเพื่อรักษาคนป่วยเมื่อกว่า 1,200 ปีก่อน — ถือเป็นต้นกำเนิดของเมืองออนเซนชูเซนจิ และเป็นออนเซนที่เก่าแก่ที่สุดของคาบสมุทรอิซุ · ศาลาไม้มุงหลังคาตั้งอยู่บนโขดหินกลางน้ำ เป็นสัญลักษณ์ถ่ายรูปคู่เมือง · ปัจจุบันลงแช่ตัวไม่ได้แล้ว (เหลือเป็นจุดชมเชิงสัญลักษณ์/แช่เท้าบริเวณใกล้เคียง) แต่บรรยากาศริมน้ำกับเสียงธารยังขลังมาก",
+      "location_th": "กลางแม่น้ำคัตสึระ ใจกลางย่านออนเซน",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokko-no-yu%2020110919.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokkonoyu%20(2738779501).jpg?width=900"
+      }
+    },
+    {
+      "name": "Shuzen-ji Temple",
+      "icon": "building",
+      "durationMin": 40,
+      "blurb_th": "วัดพุทธโบราณ 1,200 ปี ที่เป็นชื่อและหัวใจของเมือง",
+      "deepDive_th": "Shuzen-ji (修禅寺) วัดพุทธนิกายเซน (รินไซ) ที่ก่อตั้งโดยพระโคโบ ไดชิ ราวปี ค.ศ. 807 — เป็นที่มาของชื่อเมือง · มีประวัติศาสตร์ผูกกับตระกูลมินาโมโตะสมัยคามาคุระ: มินาโมโตะ โนะ โยริอิเอะ โชกุนคนที่ 2 ถูกเนรเทศมาที่นี่และเสียชีวิตที่ชูเซนจิ ทำให้เมืองมีกลิ่นอายโศกนาฏกรรมประวัติศาสตร์ · ภายในร่มรื่นด้วยต้นสนจัดทรงและโคมหิน อาคารหลัก (Hondo) สวยขรึม · มี temizu (ที่ล้างมือ) เป็นน้ำพุร้อนแทนน้ำเย็น ซึ่งหาได้ยาก · เดินจากย่านออนเซนถึงได้ในไม่กี่นาที",
+      "location_th": "ใจกลางย่านออนเซน",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shuzenji(temple)%2C%20Hondo%2C%2020110919%20a.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shuzenji(temple)%2C%20Gate%2020110919.jpg?width=900"
+      }
+    },
+    {
+      "name": "Chikurin-no-Komichi (เส้นทางป่าไผ่)",
+      "icon": "trees",
+      "durationMin": 20,
+      "blurb_th": "ทางเดินหินเลียบป่าไผ่ มีม้านั่งไม้ไผ่กลางดง",
+      "deepDive_th": "Chikurin-no-Komichi (竹林の小径) ทางเดินหินปูเลียบดงไผ่สูงตามแนวแม่น้ำคัตสึระ ระยะสั้น ๆ แต่บรรยากาศสงบเย็น แสงลอดใบไผ่สวย · จุดเด่นคือม้านั่งไม้ไผ่ทรงกลมกลางเส้นทางให้นอนเอนมองยอดไผ่ — เป็นสปอตถ่ายรูปยอดนิยม · เดินเชื่อมกับสะพานแดงเล็ก ๆ หลายตัวข้ามแม่น้ำ ทำให้เดินเล่นชมเมืองได้ครบในวงรอบเดียว · เปิดไฟยามค่ำในช่วงเทศกาล",
+      "location_th": "เลียบแม่น้ำคัตสึระ ใจกลางเมือง",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shuzenji%20Onsen%2005.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shuzenji%20Onsen%2004.jpg?width=900"
+      }
+    },
+    {
+      "name": "Katsura-bashi (สะพานแดง) + แม่น้ำคัตสึระ",
+      "icon": "camera",
+      "blurb_th": "สะพานแดงโค้งเหนือธารน้ำใส จุดถ่ายรูปคู่เมือง โดยเฉพาะหน้าใบไม้แดง",
+      "deepDive_th": "แม่น้ำคัตสึระ (桂川) ไหลผ่านกลางเมืองออนเซน มีสะพานแดงเล็ก ๆ ทรงโค้งหลายตัวข้ามน้ำ (Katsura-bashi / Watari-bashi และอื่น ๆ) เป็นภาพจำของชูเซนจิ · ช่วงใบไม้แดงกลาง-ปลาย พ.ย. เมเปิลรอบสะพานเปลี่ยนเป็นสีส้มแดงเต็มต้น ตัดกับสีแดงของราวสะพานและธารน้ำใส — เป็นหนึ่งในวิวออนเซน-โคโยที่สวยที่สุดของอิซุ มีไลต์อัปกลางคืน · ว่ากันว่าสะพานแต่ละตัวมี 'พร' ประจำ (ความรัก/โชค/สุขภาพ) ตามธรรมเนียมเดินครบสะพาน",
+      "location_th": "กลางย่านออนเซน",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shizuoka-Shuzenji%20Onsen%20Town-xl.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shuzenji%20river%2020110919%20A.jpg?width=900"
+      }
+    },
+    {
+      "name": "Hako-yu (โรงอาบน้ำสาธารณะ)",
+      "icon": "raindrops-alt",
+      "durationMin": 40,
+      "blurb_th": "เซ็นโตออนเซนสาธารณะใจกลางเมือง หอคอยไม้สังเกตง่าย",
+      "deepDive_th": "Hako-yu (筥湯) โรงอาบน้ำพุร้อนสาธารณะใจกลางย่านออนเซน สร้างใหม่ในสไตล์ไม้ดั้งเดิม มีหอคอยไม้ 'Nokoribi-no-To' สูงเป็นจุดสังเกต ขึ้นไปชมวิวเมืองได้ · ตามตำนานเป็นจุดที่โชกุนโยริอิเอะถูกลอบสังหารระหว่างอาบน้ำ · เหมาะสำหรับคนที่มาแบบ day-trip ไม่ได้ค้าง ryokan แต่อยากลองแช่ออนเซนแท้ของชูเซนจิ ค่าเข้าไม่แพง · ไม่มีผ้าเช็ดตัวให้ ซื้อ/เช่าหน้าเคาน์เตอร์ได้",
+      "location_th": "ใกล้ Tokko-no-yu ใจกลางเมือง",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shuzenji%20Onsen%20and%20River.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shuzenji%20river%2020110919%20B.jpg?width=900"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "ค้างออนเซน 1 คืน (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "วันแรก — เข้าเมือง เดินเล่น แช่ออนเซน",
+          "detail_th": "ออกโตเกียวสาย ๆ → ชินคันเซน Kodama ถึง Mishima → Izuhakone Sunzu Line → Shuzenji → บัสเข้าเมือง เก็บกระเป๋าที่ ryokan → เดินเล่นย่านออนเซน: Tokko-no-yu กลางน้ำ, วัด Shuzen-ji, ป่าไผ่ Chikurin-no-Komichi, สะพานแดงข้ามแม่น้ำคัตสึระ → กลับ ryokan แช่ออนเซน + อาหารเย็น kaiseki → กลางคืนเดินชมไลต์อัป (ช่วงใบไม้แดง)",
+          "steps": [
+            {
+              "time_th": "~09:30",
+              "title_th": "ออกโตเกียว → Mishima",
+              "detail_th": "Tokaido Shinkansen Kodama ~50 นาที",
+              "mode": "shinkansen",
+              "durationMin": 50
+            },
+            {
+              "time_th": "~10:40",
+              "title_th": "Mishima → Shuzenji",
+              "detail_th": "Izuhakone Sunzu Line (ตั๋วแยก JR Pass ไม่ครอบ)",
+              "mode": "train",
+              "durationMin": 35
+            },
+            {
+              "time_th": "~11:30",
+              "title_th": "บัสเข้าย่านออนเซน + เช็คอินฝากกระเป๋า",
+              "detail_th": "Tokai Bus 8 นาที จากสถานี",
+              "mode": "bus",
+              "durationMin": 8
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "เดินเล่นย่านออนเซน",
+              "detail_th": "Tokko-no-yu → วัด Shuzen-ji → ป่าไผ่ Chikurin-no-Komichi → สะพานแดงริมแม่น้ำคัตสึระ (วงรอบเดินได้สบาย)",
+              "durationMin": 180
+            },
+            {
+              "time_th": "~17:00",
+              "title_th": "เข้า ryokan แช่ออนเซน",
+              "detail_th": "แช่บ่อในที่พัก ตามด้วยอาหารเย็น kaiseki",
+              "durationMin": 120
+            },
+            {
+              "time_th": "ค่ำ",
+              "title_th": "เดินชมไลต์อัป (ตามฤดู)",
+              "detail_th": "ช่วงใบไม้แดง พ.ย. มีไลต์อัปสะพานแดง+ป่าไผ่"
+            }
+          ]
+        },
+        {
+          "title_th": "วันสอง — เช้าเงียบ ๆ แล้วกลับ",
+          "detail_th": "ตื่นแช่ออนเซนเช้า + อาหารเช้า → เดินเล่นซ้ำจุดที่ชอบตอนคนน้อย หรือลองโรงอาบน้ำสาธารณะ Hako-yu → ซื้อของฝาก (วาซาบิ/ขนม) → บัสกลับสถานี → Sunzu Line → Mishima → ชินคันเซนกลับโตเกียวก่อนเที่ยง-บ่าย",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "ออนเซนเช้า + อาหารเช้า ryokan",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~10:00",
+              "title_th": "เดินเล่น/Hako-yu + ซื้อของฝาก",
+              "detail_th": "เมืองตอนเช้าคนน้อย ถ่ายรูปได้สวย",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~12:00",
+              "title_th": "บัส → Shuzenji Station → กลับ",
+              "detail_th": "Sunzu Line → Mishima → ชินคันเซนกลับโตเกียว",
+              "mode": "train",
+              "durationMin": 95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "Day-trip ไม่ค้าง (เก็บไฮไลต์เมือง)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "ไป-กลับวันเดียวจากโตเกียว",
+          "detail_th": "เหมาะถ้าเวลาจำกัด: ออกเช้า → ถึง Shuzenji ก่อนเที่ยง → เดินครบ Tokko-no-yu, วัด Shuzen-ji, ป่าไผ่, สะพานแดง → กินโซบะวาซาบิกลางวัน → ลองแช่ Hako-yu สั้น ๆ → กลับโตเกียวเย็น · เสียดายตรงไม่ได้ค้างแช่ ryokan ซึ่งเป็นหัวใจของเมือง",
+          "steps": [
+            {
+              "time_th": "~08:30",
+              "title_th": "ออกโตเกียว",
+              "detail_th": "ชินคันเซน → Mishima → Sunzu Line → Shuzenji → บัส",
+              "mode": "shinkansen",
+              "durationMin": 110
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "เดินครบย่านออนเซน",
+              "detail_th": "Tokko-no-yu, วัด Shuzen-ji, ป่าไผ่ Chikurin-no-Komichi, สะพานแดงแม่น้ำคัตสึระ",
+              "durationMin": 180
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Hako-yu แช่สั้น ๆ + ของฝาก",
+              "detail_th": "ลองออนเซนสาธารณะแบบไม่ค้าง",
+              "durationMin": 60
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับโตเกียว",
+              "mode": "shinkansen",
+              "durationMin": 110
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "Izuhakone Sunzu Line (Mishima→Shuzenji) เป็นรถไฟเอกชน JR Pass ใช้ไม่ได้ ต้องซื้อตั๋วแยก ~520 เยน · LEX Odoriko ช่วง Izuhakone ก็ต้องจ่ายเพิ่มเช่นกัน",
+    "ชินคันเซน Nozomi ใช้ JR Pass ไม่ได้ — ต้องนั่ง Kodama หรือ Hikari เท่านั้นถ้าใช้ Pass (Kodama จอด Mishima ทุกขบวน)",
+    "Tokko-no-yu ปัจจุบันลงแช่จริงไม่ได้แล้ว เป็นจุดชม/สัญลักษณ์ ถ้าอยากแช่ออนเซนสาธารณะให้ไป Hako-yu หรือค้าง ryokan",
+    "ตัว Shuzenji Station อยู่ห่างย่านวัด/แม่น้ำ ~2 กม. ต้องต่อบัส/แท็กซี่ อย่าตั้งใจเดินจากสถานี",
+    "เมืองเล็กกะทัดรัด เดินครบได้ใน 2-3 ชม. — เสน่ห์จริงอยู่ที่ค้างแช่ออนเซนและบรรยากาศยามเย็น/เช้า ถ้ามาแบบรีบ day-trip จะได้ไม่เต็มอรรถรส"
+  ],
+  "sources": [
+    {
+      "label": "Shuzenji Onsen — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6090.html"
+    },
+    {
+      "label": "Shuzenji — Izu Peninsula (JNTO)",
+      "url": "https://www.japan.travel/en/spot/715/"
+    }
+  ],
+  "tags_th": [
+    "ออนเซน",
+    "ค้างคืน",
+    "ใบไม้แดง",
+    "ป่าไผ่",
+    "วัดโบราณ",
+    "อิซุ"
+  ],
+  "food": [
+    {
+      "name": "โซบะวาซาบิอิซุ",
+      "name_jp": "わさび蕎麦",
+      "emoji": "🍜",
+      "note_th": "อิซุปลูกวาซาบิอันดับต้นของญี่ปุ่น — โซบะกับวาซาบิสดขูดเองเป็นเมนูประจำถิ่น"
+    },
+    {
+      "name": "วาซาบิสด (Izu)",
+      "name_jp": "山葵",
+      "emoji": "🌿",
+      "note_th": "น้ำใสจากภูเขาอิซุปลูกวาซาบิคุณภาพสูง มีของฝากวาซาบิหลายแบบ"
+    },
+    {
+      "name": "ขนมมันจูออนเซน",
+      "name_jp": "温泉まんじゅう",
+      "emoji": "🍡",
+      "note_th": "ขนมไส้ถั่วแดงนึ่งไอน้ำพุร้อน ของกินเล่น/ของฝากคู่เมืองออนเซน"
+    },
+    {
+      "name": "ปลาอามาโกะ/อายุย่าง",
+      "name_jp": "鮎の塩焼き",
+      "emoji": "🐟",
+      "note_th": "ปลาแม่น้ำย่างเกลือ ริมแม่น้ำคัตสึระแบบถิ่นภูเขาอิซุ"
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+{
+  "slug": "yamanakako",
+  "name": {
+    "en": "Lake Yamanaka",
+    "th": "ทะเลสาบยามานากะ",
+    "jp": "山中湖"
+  },
+  "region": "Chubu",
+  "prefecture": "Yamanashi",
+  "coords": {
+    "lat": 35.42,
+    "lng": 138.87
+  },
+  "category": [
+    "lake",
+    "nature"
+  ],
+  "tagline_th": "ทะเลสาบใหญ่สุดและสูงสุดใน Fuji Five Lakes — ฟูจิเต็มลูกสะท้อนผิวน้ำ ปั่นจักรยานรอบทะเลสาบ หงส์ + swan boat หน้าหนาวฟ้าใส Diamond Fuji",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_and_Lake_Yamanaka_(2015-11-21).jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons (CC)",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Yamanaka_and_Mount_Fuji.JPG?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "นั่งบัสด่วน Fujikyu Highway Bus จาก Shinjuku Expressway Bus Terminal (Busta Shinjuku) ตรงถึงรอบทะเลสาบ ~2 ชม. 20 นาที ไม่ต้องต่อรถ คุ้มสุด · หรือรถไฟ Fuji Excursion (limited express ตรง) ไป Fujisan Station แล้วต่อ Fujikyu local bus เข้า Yamanakako อีก ~25-30 นาที · JR Pass ไม่คุ้ม เพราะช่วงหลัก (Otsuki→Kawaguchiko→Yamanakako) เป็นรถไฟเอกชน Fujikyu + บัสที่ไม่ครอบคลุม",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Fujikyu Highway Bus ตรง (แนะนำ)",
+        "detail_th": "Busta Shinjuku → bus (Fujikyu/Keio Highway Bus สาย Yamanakako/Lake Yamanaka) ตรงถึงรอบทะเลสาบ ไม่ต้องต่อ",
+        "durationMin": 140,
+        "costYen": 2300,
+        "transfers": 0,
+        "legs": [
+          {
+            "mode": "bus",
+            "label_th": "บัสด่วน",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Busta Shinjuku (Shinjuku Expressway Bus Terminal)",
+            "to": "Yamanakako (Asahigaoka / Hananomiyako-koen / Hotel Mt. Fuji ป้ายตามจุดลง)",
+            "mode": "bus",
+            "line_th": "Fujikyu / Keio Highway Bus (สาย Lake Yamanaka)",
+            "durationMin": 140,
+            "costYen": 2300,
+            "note_th": "~1 เที่ยว/ชม. ควรจองล่วงหน้า (Japan Bus Online/Highway-buses.jp) · บางเที่ยวเป็นสาย Kawaguchiko-Yamanakako-Gotemba เช็คให้ลงป้ายรอบทะเลสาบ · เลือกป้ายลงใกล้ที่พัก/จุดเที่ยวได้"
+          }
+        ]
+      },
+      {
+        "mode": "Fuji Excursion (รถไฟตรง) + Fujikyu local bus",
+        "detail_th": "Shinjuku → train (Fuji Excursion limited express ตรง) → Fujisan Station → bus (Fujikyu สาย Yamanakako) → Yamanakako",
+        "durationMin": 155,
+        "costYen": 4690,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟด่วน",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัสท้องถิ่น",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Fujisan Station",
+            "mode": "train",
+            "line_th": "Fuji Excursion (JR Chuo Line → Fujikyuko Line ตรง ไม่ต้องเปลี่ยนขบวน)",
+            "durationMin": 115,
+            "costYen": 4130,
+            "note_th": "Limited express ~3-4 เที่ยว/วัน ต้องจองที่นั่ง (รวมค่าธรรมเนียม limited express + ค่าโดยสาร Fujikyu เอกชน) · วิวสวยกว่าบัส แต่แพงกว่าและเที่ยวน้อย"
+          },
+          {
+            "from": "Fujisan Station",
+            "to": "Yamanakako (Asahigaoka)",
+            "mode": "bus",
+            "line_th": "Fujikyu Bus (สายรอบ Lake Yamanaka / Kaba bus)",
+            "durationMin": 30,
+            "costYen": 560,
+            "note_th": "~2 เที่ยว/ชม. · มี Kaba retro bus วิ่งเส้นนี้บางรอบ · ลงป้ายตามจุดเที่ยว/ที่พัก"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "หน้าหนาวฟ้าใส + Diamond Fuji ธ.ค.-ก.พ.",
+      "months": [
+        12,
+        1,
+        2
+      ],
+      "note_th": "ฟ้าใสที่สุดของปี ฟูจิหิมะเต็มลูกสะท้อนน้ำคมชัด · กลาง ก.พ. เกิด Diamond Fuji (พระอาทิตย์ตกบนยอดฟูจิพอดี) ดูได้จากชายฝั่งทิศตะวันออกของทะเลสาบ · หนาวจัด ติดลบ เตรียมเสื้อกันหนาวหนา"
+    },
+    {
+      "label": "ทุ่งดอกไม้ + ฟูจิ เม.ย.-พ.ค.",
+      "months": [
+        4,
+        5
+      ],
+      "note_th": "ทิวลิป/พิงค์มอสที่ Hananomiyako-koen บานพร้อมฟูจิยังมีหิมะ อากาศกำลังดี เหมาะปั่นจักรยานรอบทะเลสาบ"
+    },
+    {
+      "label": "ทานตะวัน+คอสมอส หนีร้อน ก.ค.-ต.ค.",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "note_th": "บนที่สูง ~980 ม. เย็นกว่าโตเกียวหลายองศา · ทานตะวันบาน ส.ค. คอสมอส ก.ย.-ต.ค. ที่ Hananomiyako · ปลาย ต.ค. ใบไม้แดงรอบทะเลสาบ"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ฟ้าใส + Diamond Fuji",
+      "type": "snow",
+      "startFrac": 0.92,
+      "endFrac": 1.0,
+      "note_th": "ธ.ค.-ก.พ. ฟ้าใสสุด ฟูจิหิมะเต็มลูก Diamond Fuji กลาง ก.พ."
+    },
+    {
+      "zone": "ทิวลิป/พิงค์มอส Hananomiyako",
+      "type": "bloom",
+      "startFrac": 0.25,
+      "endFrac": 0.42,
+      "note_th": "ทิวลิป+พิงค์มอส เม.ย.-พ.ค."
+    },
+    {
+      "zone": "ทานตะวัน Hananomiyako",
+      "type": "bloom",
+      "startFrac": 0.58,
+      "endFrac": 0.7,
+      "note_th": "ทุ่งทานตะวันบาน ส.ค."
+    },
+    {
+      "zone": "ใบไม้แดงรอบทะเลสาบ",
+      "type": "koyo",
+      "startFrac": 0.79,
+      "endFrac": 0.9,
+      "note_th": "ใบไม้แดง+อุโมงค์เมเปิล ปลาย ต.ค.-กลาง พ.ย."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียวด้วย Highway Bus (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ถ้าค้าง 1 คืนริมทะเลสาบเพิ่มค่าที่พัก ~3,000-6,000 THB",
+    "items": [
+      {
+        "label_th": "Highway Bus ไป-กลับ (Shinjuku↔Yamanakako)",
+        "yen": 4600,
+        "thb": 1058,
+        "note_th": "Fujikyu/Keio Highway Bus เที่ยวละ 2,300 เยน ตรงไม่ต้องต่อ"
+      },
+      {
+        "label_th": "เช่าจักรยานรอบทะเลสาบ",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "ปั่นเลนจักรยานรอบทะเลสาบ ~13-14 กม. ครึ่งวัน (e-bike แพงกว่าเล็กน้อย)"
+      },
+      {
+        "label_th": "Swan boat (เรือชมทะเลสาบ Swan Lake)",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "เรือหงส์ Hakucho-no-mizuumi ~25 นาที วนทะเลสาบ"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2500,
+        "thb": 575,
+        "note_th": "Houtou หม้อเส้นแบนซุปมิโสะ ของถิ่น Yamanashi + คาเฟ่ริมทะเลสาบ"
+      },
+      {
+        "label_th": "ค่าเข้า Hananomiyako-koen + ของฝาก",
+        "yen": 1200,
+        "thb": 276,
+        "note_th": "สวนดอกไม้ค่าเข้าตามฤดู (ฟรีนอกฤดูบาน) + ของที่ระลึก"
+      }
+    ],
+    "totalYen": 10800,
+    "totalThb": 2484,
+    "ranges": {
+      "lowThb": 1800,
+      "midThb": 2800,
+      "highThb": 7000
+    }
+  },
+  "pois": [
+    {
+      "name": "Lake Yamanaka Shore (Panorama-dai / Diamond Fuji)",
+      "icon": "water",
+      "blurb_th": "ทะเลสาบใหญ่+สูงสุดใน Fuji Five Lakes ฟูจิเต็มลูกสะท้อนน้ำ",
+      "deepDive_th": "Lake Yamanaka (山中湖) เป็นทะเลสาบที่ใหญ่ที่สุด (พื้นที่ ~6.5 ตร.กม.) และอยู่สูงที่สุด (~980 ม.) ใน Fuji Five Lakes อยู่ใกล้ฐานฟูจิที่สุดเลยเห็นภูเขาเต็มลูกตระหง่าน · ชายฝั่งทิศเหนือ-ตะวันออกเป็นจุดถ่ายภาพฟูจิสะท้อนผิวน้ำ (Sakasa-Fuji) ที่นิ่งสุดช่วงเช้าลมสงบ · ช่วงกลาง ต.ค. และกลาง ก.พ. เกิดปรากฏการณ์ Diamond Fuji — พระอาทิตย์ตกตรงยอดฟูจิพอดี ดูได้จากฝั่งตะวันออก (แถบ Hirano) · จุดชมวิวมุมสูงคือ Panorama-dai บนเขาทางใต้ เห็นทะเลสาบทั้งวงกับฟูจิในเฟรมเดียว",
+      "location_th": "รอบทะเลสาบ / จุดชมวิว Panorama-dai ทางใต้",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Yamanaka_and_Mount_Fuji.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B1%B1%E4%B8%AD%E6%B9%96%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E5%AF%8C%E5%A3%AB%E5%B1%B1.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Cycling Loop รอบทะเลสาบ",
+      "icon": "compass",
+      "durationMin": 120,
+      "blurb_th": "เลนจักรยานราบเรียบรอบทะเลสาบ ~13-14 กม. ครึ่งวันชิล",
+      "deepDive_th": "รอบ Lake Yamanaka มีเลนจักรยานเฉพาะ (Yamanakako Cycling Road) ราบเรียบเกือบทั้งเส้น วนรอบทะเลสาบ ~13-14 กม. ใช้เวลาปั่นชิลๆ ~1.5-2 ชม. (หยุดถ่ายรูปได้ตลอด) · ปั่นเลียบน้ำมีฟูจิเป็นฉากหลังเกือบตลอดเส้น ผ่านท่าเรือ ป่าสน คาเฟ่ริมทะเลสาบ และอุโมงค์เมเปิล (สวยมากหน้า koyo ปลาย ต.ค.) · มีจุดเช่าจักรยาน/​e-bike หลายเจ้ารอบทะเลสาบ เหมาะเป็นกิจกรรมหลักของวัน เพราะรถสาธารณะรอบทะเลสาบมาไม่ถี่",
+      "location_th": "เลนจักรยานรอบทะเลสาบ ~13-14 กม.",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Yamanaka_from_Mount_Myojin_(2019-10-26).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_and_Lake_Yamanaka_(5767436265).jpg?width=1600"
+      }
+    },
+    {
+      "name": "Swan Lake Boat (Hakucho-no-mizuumi)",
+      "icon": "water",
+      "durationMin": 25,
+      "blurb_th": "เรือชมทะเลสาบรูปหงส์ยักษ์ วนชมฟูจิจากกลางน้ำ ~25 นาที",
+      "deepDive_th": "Swan Lake (白鳥の湖号) เป็นเรือชมทะเลสาบทรงหงส์ยักษ์สีขาวมงกุฎทอง สัญลักษณ์ของ Yamanakako · ออกจากท่า Yamanakako (ใกล้ Asahigaoka) วนชมทะเลสาบ ~25 นาที เห็นฟูจิจากมุมกลางน้ำที่หามุมบนฝั่งไม่ได้ · ในตัวเรือมีที่นั่งในร่ม+ดาดฟ้าชมวิว เหมาะหน้าหนาวฟ้าใสที่ฟูจิคมชัด · ตั้งชื่อตามฝูงหงส์ (whooper/mute swan) จริงที่อพยพมาอยู่ทะเลสาบนี้ช่วงหนาว",
+      "location_th": "ท่าเรือ Yamanakako ใกล้ Asahigaoka",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Swan_Lake_Ship_in_Lake_Yamanaka_IMG_0641_20130104.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yamanakako.hakucho_ship.jpg?width=1600"
+      }
+    },
+    {
+      "name": "หงส์หน้าหนาว (Swans + Fuji)",
+      "icon": "water",
+      "blurb_th": "ฝูงหงส์ขาวว่ายในทะเลสาบ มีฟูจิเป็นฉากหลัง",
+      "deepDive_th": "ช่วงฤดูหนาว (ธ.ค.-ก.พ.) มีฝูงหงส์อพยพมาอาศัยที่ Lake Yamanaka จำนวนมาก โดยเฉพาะแถบ Asahigaoka และชายฝั่งตะวันออก · ภาพหงส์ขาวว่ายบนน้ำนิ่งกับฟูจิหิมะเต็มลูกสะท้อนน้ำเป็นภาพสัญลักษณ์ของทะเลสาบนี้ · เป็นจุดถ่ายรูปยอดนิยมของช่างภาพช่วงเช้าฟ้าใส น้ำนิ่ง · เดินเลียบฝั่งหาหงส์ได้ฟรี ไม่ต้องเสียค่าเข้า เหมาะคู่กับการปั่นจักรยานหรือก่อนขึ้นเรือ Swan Lake",
+      "location_th": "ชายฝั่ง Asahigaoka / ฝั่งตะวันออก",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cygnus_olor_and_Mount_Fuji.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cygnus_olor_(flocks)_and_Mount_Fuji.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Hananomiyako Flower Park",
+      "icon": "trees",
+      "durationMin": 90,
+      "blurb_th": "สวนดอกไม้ทุ่งใหญ่ ทิวลิป/ทานตะวัน/คอสมอส + ฟูจิเต็มลูก",
+      "deepDive_th": "Hananomiyako-koen (山中湖 花の都公園) สวนดอกไม้ทุ่งกว้างใกล้ทะเลสาบ จุดเด่นคือมีฟูจิเต็มลูกเป็นฉากหลังของทุ่งดอกไม้ · หมุนเวียนตามฤดู: ทิวลิป/พิงค์มอส (เม.ย.-พ.ค.), ป๊อปปี้ (มิ.ย.), ทานตะวัน (ส.ค.), คอสมอส/ดอกไม้ฤดูใบไม้ร่วง (ก.ย.-ต.ค.) · มีโซนสวนน้ำตก เรือนกระจกในร่ม (เที่ยวหน้าหนาวได้) และไฟประดับช่วงค่ำบางฤดู · ค่าเข้าเก็บเฉพาะช่วงดอกไม้บาน (นอกฤดูเข้าฟรี) · อยู่ทางเหนือของทะเลสาบ ปั่นจักรยาน/บัสไปถึงได้",
+      "location_th": "ทางเหนือของทะเลสาบ (Hananomiyako-koen)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_and_Tulips_1.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Fuji_and_Sunflowers_on_August_5th_2017.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Fuji Reflection จุดถ่ายรูปริมทะเลสาบ",
+      "icon": "camera",
+      "blurb_th": "ฟูจิสะท้อนผิวน้ำนิ่ง (Sakasa-Fuji) ช่วงเช้า/เย็นฟ้าใส",
+      "deepDive_th": "ชายฝั่งทะเลสาบหลายจุดเป็นสปอตถ่ายฟูจิสะท้อนน้ำ (逆さ富士 Sakasa-Fuji) ที่คมชัดเมื่อลมสงบ น้ำนิ่ง — ดีสุดช่วงเช้าตรู่และเย็นหน้าหนาวฟ้าใส · จุดยอดนิยมคือแถบ Hirano (ฝั่งตะวันออก) และ Asahigaoka · เย็นหน้าหนาวยังลุ้น Diamond Fuji + ฟ้าเปลี่ยนสีทองตัดเงาฟูจิ · เป็นเหตุผลหลักที่คนมา Yamanakako มากกว่าทะเลสาบฟูจิอื่นๆ เพราะมุมฟูจิใหญ่และน้ำกว้างสะท้อนสวย · ขาตั้งกล้อง + ถุงมือกันหนาวช่วยมากช่วงเช้ามืดฤดูหนาว",
+      "location_th": "ชายฝั่ง Hirano / Asahigaoka",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B1%B1%E4%B8%AD%E6%B9%96%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E5%AF%8C%E5%A3%AB%E5%B1%B1.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_and_Lake_Yamanaka_(2015-11-21).jpg?width=1600"
+      }
+    }
+  ],
+  "routeFlow": [
+    {
+      "name": "Busta Shinjuku",
+      "elevationM": 40,
+      "modeToNext": "bus",
+      "modeDetail_th": "Fujikyu/Keio Highway Bus ตรง ~2 ชม. 20 นาที"
+    },
+    {
+      "name": "Yamanakako (Asahigaoka)",
+      "elevationM": 980,
+      "modeToNext": "walk",
+      "modeDetail_th": "เช่าจักรยานปั่นรอบทะเลสาบ ~13-14 กม."
+    },
+    {
+      "name": "Hananomiyako-koen",
+      "elevationM": 1000
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ปั่นจักรยาน + เรือหงส์ + ทุ่งดอกไม้",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เช้า-เย็น เก็บทะเลสาบครบในวันเดียว",
+          "detail_th": "ออก Busta Shinjuku เช้าด้วย Highway Bus ตรง → ลงรอบทะเลสาบ (Asahigaoka) เช่าจักรยาน → ปั่นเลียบน้ำชมฟูจิ แวะ Hananomiyako Flower Park → กลับมาขึ้นเรือ Swan Lake วนทะเลสาบ → เดินหาหงส์/ถ่ายฟูจิสะท้อนน้ำริมฝั่ง → กิน Houtou → นั่ง Highway Bus กลับเย็น (เช็คเที่ยวสุดท้าย)",
+          "steps": [
+            {
+              "time_th": "~07:30",
+              "title_th": "ออก Busta Shinjuku → Yamanakako",
+              "detail_th": "Fujikyu/Keio Highway Bus ตรง ควรจองที่นั่งล่วงหน้า",
+              "mode": "bus",
+              "durationMin": 140
+            },
+            {
+              "time_th": "~10:00",
+              "title_th": "เช่าจักรยาน + ปั่นรอบทะเลสาบ",
+              "detail_th": "เลนจักรยานราบเรียบ ~13-14 กม. ชมฟูจิเลียบน้ำ หยุดถ่ายรูปได้ตลอด",
+              "mode": "walk",
+              "durationMin": 120
+            },
+            {
+              "time_th": "~11:30",
+              "title_th": "Hananomiyako Flower Park",
+              "detail_th": "ทุ่งดอกไม้ตามฤดู + ฟูจิเต็มลูกเป็นฉากหลัง (แวะระหว่างปั่น)",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~13:00",
+              "title_th": "กิน Houtou กลางวัน",
+              "detail_th": "หม้อเส้นแบนซุปมิโสะของถิ่น Yamanashi ร้านริมทะเลสาบ",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~14:30",
+              "title_th": "เรือ Swan Lake",
+              "detail_th": "เรือหงส์วนชมทะเลสาบ ~25 นาที เห็นฟูจิจากกลางน้ำ",
+              "mode": "ferry",
+              "durationMin": 25
+            },
+            {
+              "time_th": "~15:30",
+              "title_th": "เดินหาหงส์ + ถ่ายฟูจิสะท้อนน้ำ",
+              "detail_th": "ชายฝั่ง Asahigaoka/Hirano · หน้าหนาวลุ้น Diamond Fuji ตอนเย็น",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~17:00",
+              "title_th": "Highway Bus กลับ Shinjuku",
+              "detail_th": "เช็คเที่ยวสุดท้ายของวัน อย่าตกรอบ",
+              "mode": "bus",
+              "durationMin": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง 1 คืน เก็บเช้าฟ้าใส + Diamond Fuji",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "วันแรก — มาถึง + ทะเลสาบช่วงบ่าย-เย็น",
+          "detail_th": "Highway Bus มาถึงบ่าย เช็คอินที่พักริมทะเลสาบ → ปั่นจักรยาน/เดินเล่นริมน้ำ → เย็นรอ Diamond Fuji (กลาง ก.พ.) หรือพระอาทิตย์ตกหลังฟูจิจากฝั่งตะวันออก → กิน Houtou",
+          "steps": [
+            {
+              "time_th": "บ่าย",
+              "title_th": "มาถึง + เช็คอินริมทะเลสาบ",
+              "mode": "bus",
+              "durationMin": 140
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "พระอาทิตย์ตก / Diamond Fuji",
+              "detail_th": "ฝั่งตะวันออก (Hirano) · Diamond Fuji เฉพาะกลาง ก.พ.",
+              "durationMin": 60
+            }
+          ]
+        },
+        {
+          "title_th": "วันสอง — เช้าฟ้าใส น้ำนิ่ง + กลับ",
+          "detail_th": "ตื่นเช้าตรู่ถ่ายฟูจิสะท้อนน้ำ (Sakasa-Fuji) ตอนลมสงบ + หาหงส์ → เรือ Swan Lake → Hananomiyako Flower Park → Highway Bus กลับ Shinjuku บ่าย",
+          "steps": [
+            {
+              "time_th": "เช้าตรู่",
+              "title_th": "ถ่ายฟูจิสะท้อนน้ำ + หงส์",
+              "detail_th": "น้ำนิ่งสุดช่วงเช้า ฟ้าใส ฟูจิคมชัด",
+              "durationMin": 60
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "เรือ Swan Lake + Hananomiyako",
+              "mode": "ferry",
+              "durationMin": 120
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Highway Bus กลับ Shinjuku",
+              "mode": "bus",
+              "durationMin": 140
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "Highway Bus มีเที่ยวจำกัด (~1 เที่ยว/ชม.) และมักเต็มช่วงไฮซีซั่น/ใบไม้แดง — จองที่นั่งล่วงหน้าทุกครั้ง และเช็คเที่ยวสุดท้ายกลับ Shinjuku",
+    "รถสาธารณะรอบทะเลสาบมาไม่ถี่ — วางแผนเดินทางในพื้นที่ด้วยจักรยาน/เดิน/เช่ารถ ไม่งั้นเสียเวลารอบัสนาน",
+    "ฟูจิ 'โผล่' ไม่ทุกวัน — โอกาสเห็นเต็มลูกดีสุดช่วงเช้าฤดูหนาวฟ้าใส กลางวันฤดูร้อนมักมีเมฆบังยอด เผื่อใจ",
+    "Diamond Fuji ดูได้เฉพาะช่วงสั้นๆ (กลาง ต.ค. ฝั่งหนึ่ง / กลาง ก.พ. ฝั่งทะเลสาบ) และต้องฟ้าเปิดพอดี เช็คปฏิทิน Diamond Fuji ก่อนไป",
+    "หน้าหนาวที่ ~980 ม. หนาวจัด ติดลบ เช้ามืดอาจมีน้ำแข็ง/หิมะ เตรียมเสื้อกันหนาวหนา ถุงมือ และระวังพื้นลื่นถ้าจะถ่ายรูปเช้ามืด"
+  ],
+  "sources": [
+    {
+      "label": "Lake Yamanakako — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6906.html"
+    },
+    {
+      "label": "Fuji Five Lakes Access — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6900.html"
+    },
+    {
+      "label": "Lake Yamanaka — Yamanashi Tourism (Fujisan area)",
+      "url": "https://en.yamanashi-kankou.jp/"
+    }
+  ],
+  "tags_th": [
+    "ทะเลสาบ",
+    "วิวฟูจิ",
+    "ปั่นจักรยาน",
+    "หงส์",
+    "Diamond Fuji",
+    "หน้าหนาวฟ้าใส",
+    "ทุ่งดอกไม้"
+  ],
+  "food": [
+    {
+      "name": "Houtou",
+      "name_jp": "ほうとう",
+      "emoji": "🍲",
+      "note_th": "เส้นแบนหนาต้มในซุปมิโสะกับฟักทอง/ผัก อาหารถิ่นขึ้นชื่อสุดของ Yamanashi กินอุ่นๆ หน้าหนาว"
+    },
+    {
+      "name": "Yoshida Udon",
+      "name_jp": "吉田うどん",
+      "emoji": "🍜",
+      "note_th": "อุด้งเส้นเหนียวแน่นเฉพาะถิ่นแถบฟูจิโยชิดะ ใกล้ทะเลสาบ"
+    },
+    {
+      "name": "องุ่น/ไวน์ Yamanashi",
+      "name_jp": "葡萄・ワイン",
+      "emoji": "🍇",
+      "note_th": "Yamanashi เป็นแหล่งองุ่นและไวน์อันดับต้นของญี่ปุ่น มีของฝากองุ่น/ไวน์ Koshu"
+    },
+    {
+      "name": "ปลานิจิมาสึย่าง",
+      "name_jp": "虹鱒の塩焼き",
+      "emoji": "🐟",
+      "note_th": "ปลาเทราต์น้ำจืดของทะเลสาบ ย่างเกลือ กินริมน้ำ"
+    }
+  ]
+}

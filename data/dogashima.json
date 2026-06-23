@@ -1,0 +1,468 @@
+{
+  "slug": "dogashima",
+  "name": {
+    "en": "Dogashima",
+    "th": "โดกาชิมะ",
+    "jp": "堂ヶ島"
+  },
+  "region": "Chubu",
+  "prefecture": "Shizuoka",
+  "coords": {
+    "lat": 34.77,
+    "lng": 138.77
+  },
+  "category": [
+    "coast",
+    "nature"
+  ],
+  "tagline_th": "ชายฝั่งหินภูเขาไฟแกะสลักโดยคลื่นทางตะวันตกของอิซุ — ถ้ำทะเลล่องเรือ Tensodo, เกาะ Sanshiro เดินข้ามได้ตอนน้ำลง + พระอาทิตย์ตกสวยสุดในอิซุ",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20Dogashima%20NIshiizu%20Shizuoka%20Japan.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dogashima%2020121019.jpg?width=1200"
+  },
+  "difficultyFromTokyo": 3,
+  "access": {
+    "summary_th": "ไกลกว่าปลายทางอื่นในลิสต์ — อยู่ฝั่งตะวันตกของคาบสมุทรอิซุที่ไม่มีรถไฟเข้าถึง ต้องนั่ง Shinkansen/รถไฟลงมาที่อิซุก่อนแล้วต่อบัสยาวข้ามคาบสมุทร เผื่อเวลา ~4-4.5 ชม. จากโตเกียว · ค้าง 1 คืนคุ้มกว่าไปเช้า-กลับเย็น โดยเฉพาะถ้าอยากดูพระอาทิตย์ตก",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Shinkansen → Mishima → Izukyu (Shimoda) → บัส",
+        "detail_th": "โตเกียว → shinkansen (Tokaido Kodama) → Mishima → train (Izuhakone + Izukyu ผ่าน Shuzenji เปลี่ยนเป็น Izukyu Line) → Shimoda → bus (Tokai Bus สาย Dogashima) → Dogashima",
+        "durationMin": 270,
+        "costYen": 7200,
+        "transfers": 3,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "train"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Mishima Station",
+            "mode": "shinkansen",
+            "line_th": "Tokaido Shinkansen (Kodama)",
+            "durationMin": 50,
+            "costYen": 4600,
+            "note_th": "Kodama จอดทุกสถานี Mishima ~50 นาที · Hikari บางขบวนก็จอด Mishima เร็วกว่าเล็กน้อย · ออกบ่อยทุก ~15-30 นาที"
+          },
+          {
+            "from": "Mishima Station",
+            "to": "Izukyu-Shimoda Station",
+            "mode": "train",
+            "line_th": "Izuhakone Sunzu Line → Izukyu Line (ต่อที่ Shuzenji/Shimoda) หรือ Limited Express Odoriko ตรง",
+            "durationMin": 100,
+            "costYen": 2000,
+            "note_th": "ง่ายสุดคือนั่ง Odoriko/Saphir Odoriko ตรงโตเกียว→Shimoda แต่ค่าธรรมเนียมรถด่วนสูง · เส้นเลียบทะเลอิซุตะวันออกสวย"
+          },
+          {
+            "from": "Izukyu-Shimoda Station",
+            "to": "Dogashima",
+            "mode": "bus",
+            "line_th": "Tokai Bus (สาย Shimoda → Dogashima / Matsuzaki)",
+            "durationMin": 60,
+            "costYen": 1390,
+            "note_th": "บัสข้ามคาบสมุทรจากฝั่งตะวันออก (Shimoda) ไปฝั่งตะวันตก ~1 ชม. · ~1 เที่ยว/ชม. เช็กรอบล่วงหน้า เที่ยวสุดท้ายเย็นๆ"
+          }
+        ]
+      },
+      {
+        "mode": "Shinkansen → Numazu/Mishima → บัสตรง Dogashima",
+        "detail_th": "โตเกียว → shinkansen (Tokaido Kodama) → Mishima → bus (Tokai Bus ด่วนสาย Dogashima ผ่าน Shuzenji/Matsuzaki) → Dogashima · ต่อรถน้อยกว่าแต่บัสยาว",
+        "durationMin": 240,
+        "costYen": 7100,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "train"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Mishima Station",
+            "mode": "shinkansen",
+            "line_th": "Tokaido Shinkansen (Kodama)",
+            "durationMin": 50,
+            "costYen": 4600,
+            "note_th": "ลง Mishima เป็นประตูสู่อิซุ"
+          },
+          {
+            "from": "Mishima Station",
+            "to": "Dogashima",
+            "mode": "bus",
+            "line_th": "Tokai Bus (สายผ่าน Shuzenji → Matsuzaki → Dogashima)",
+            "durationMin": 170,
+            "costYen": 2500,
+            "note_th": "บัสยาว ~2.5-3 ชม. ข้ามกลางคาบสมุทรอิซุ · เที่ยวจำกัด/วัน เช็กตารางล่วงหน้าให้ดี · เหมาะถ้าไม่อยากเปลี่ยนรถไฟหลายต่อ แต่ต้องนั่งบัสนาน"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "พระอาทิตย์ตก (ทั้งปี)",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "note_th": "Dogashima หันหน้าทะเลทางทิศตะวันตก ดูพระอาทิตย์ตกลงทะเลได้สวยทั้งปี — ขึ้นชื่อว่าจุดชมตะวันตกที่สวยสุดของอิซุ · ฤดูใบไม้ร่วง-หนาวอากาศใสเห็นชัดสุด"
+    },
+    {
+      "label": "ฤดูร้อน ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "ทะเลใสสีเทอร์คอยซ์ เหมาะล่องเรือถ้ำ + เล่นน้ำ แต่คนเยอะและร้อน จองเรือ/ที่พักล่วงหน้า"
+    },
+    {
+      "label": "ใบไม้ผลิ-ใบไม้ร่วง",
+      "months": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "note_th": "อากาศกำลังสบาย ทะเลนิ่ง เรือออกสม่ำเสมอ คนน้อยกว่าหน้าร้อน"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "พระอาทิตย์ตก",
+      "type": "event",
+      "startFrac": 0.0,
+      "endFrac": 1.0,
+      "note_th": "ดูตะวันตกลงทะเลได้ทั้งปี ฝั่งตะวันตกอิซุ"
+    },
+    {
+      "zone": "ทะเลใส/ล่องเรือพีค",
+      "type": "green",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "ก.ค.-ส.ค. ทะเลใส คนเยอะ"
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน ค้าง 1 คืน (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าเดินทางไกล + เรือถ้ำ + ที่พัก onsen เป็นค่าหลัก แพงกว่า day-trip ใกล้ๆ เพราะระยะทางและต้องค้าง",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (Shinkansen + รถไฟ + บัส)",
+        "yen": 14400,
+        "thb": 3312,
+        "note_th": "โตเกียว↔Dogashima ไป-กลับ ผ่าน Mishima/Shimoda — ระยะไกลข้ามคาบสมุทร"
+      },
+      {
+        "label_th": "ล่องเรือถ้ำ Tensodo",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "เรือชมถ้ำทะเล ~20 นาที ออกบ่อยช่วงคลื่นไม่แรง"
+      },
+      {
+        "label_th": "ที่พัก onsen ริมทะเล 1 คืน",
+        "yen": 15000,
+        "thb": 3450,
+        "note_th": "เรียวกัง/โรงแรม onsen วิวทะเลพร้อมอาหารเย็น-เช้า (ต่อคน อาจถูกลงถ้าพัก 2 คน)"
+      },
+      {
+        "label_th": "อาหาร (นอกที่พัก)",
+        "yen": 2500,
+        "thb": 575,
+        "note_th": "ซีฟู้ดสด Izu — kinmedai, ปลาดิบ, หมึก"
+      }
+    ],
+    "totalYen": 33400,
+    "totalThb": 7682,
+    "ranges": {
+      "lowThb": 5500,
+      "midThb": 8000,
+      "highThb": 13000
+    }
+  },
+  "pois": [
+    {
+      "name": "Tensodo Sea Cave",
+      "icon": "water",
+      "durationMin": 20,
+      "blurb_th": "ถ้ำทะเลมีช่องแสงบนเพดาน ล่องเรือเข้าไปชมได้",
+      "deepDive_th": "Tensodo (天窓洞 'ถ้ำช่องฟ้า') เป็นถ้ำทะเลหินทัฟฟ์ภูเขาไฟที่คลื่นกัดเซาะจนเพดานถ้ำพังเป็นช่องกลม แสงอาทิตย์ลอดลงมาส่องผิวน้ำสีฟ้าเทอร์คอยซ์ในถ้ำสวยเหมือนภาพวาด · ได้รับการขึ้นทะเบียนเป็น Natural Monument ของชาติ · ล่องเรือเล็กออกจากท่าเรือ Dogashima เข้าไปในถ้ำ ~20 นาที (เรือจะหยุดให้ชมช่องแสงจากด้านใน) · ด้านบนยังมีทางเดินบนหน้าผาที่มองลงไปเห็นช่องฟ้าจากด้านบนได้ฟรี · เรืออาจงดออกถ้าคลื่นแรง เช็กหน้างาน",
+      "location_th": "ท่าเรือ Dogashima",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tensodo%20Sea%20Cave%20Skylight.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tensodo%202008-09-15.jpg?width=900"
+      }
+    },
+    {
+      "name": "Sanshiro Islands (Tombolo)",
+      "icon": "compass",
+      "durationMin": 60,
+      "blurb_th": "เกาะหินที่เดินข้ามไปได้บนสันกรวดตอนน้ำลง",
+      "deepDive_th": "Sanshiro-jima (三四郎島) คือกลุ่มเกาะหินเล็กๆ นอกชายฝั่ง ที่ตอนน้ำลง (干潮) จะมีสันกรวดหิน (tombolo) โผล่ขึ้นมาเชื่อมชายหาดกับเกาะ ให้เดินข้ามไปเหยียบเกาะได้แบบ 'แยกทะเลออกเป็นทาง' · ปรากฏการณ์นี้เรียกว่า tombolo เกิดเฉพาะช่วงน้ำลงแต่ละวัน — ต้องเช็กตารางน้ำขึ้น-น้ำลง (tide table) ก่อนไป ไม่งั้นสันหินจมน้ำ ข้ามไม่ได้ · พื้นเป็นกรวดหินลื่นมีเพรียง ใส่รองเท้ากันลื่น/รองเท้าที่เปียกได้ · ระวังน้ำเริ่มขึ้นกลับ อย่าค้างบนเกาะนานเกิน",
+      "location_th": "ชายหาด Sawada/Dogashima",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dogashima%20Tombolo%20April%207%201104.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dogashima%20Tombolo%20Panorama%20April%207.jpg?width=900"
+      }
+    },
+    {
+      "name": "Dogashima Coast & Rock Islands",
+      "icon": "camera",
+      "durationMin": 45,
+      "blurb_th": "แนวเกาะหินภูเขาไฟกลางทะเล จุดชมวิว + พระอาทิตย์ตก",
+      "deepDive_th": "ชายฝั่ง Dogashima เป็นแนวหน้าผาและเกาะหินทัฟฟ์ภูเขาไฟที่คลื่นแกะสลักเป็นรูปทรงแปลกตากระจายกลางทะเล มองจากจุดชมวิวบนหน้าผา (มี promenade เดินเลียบ) เห็นเกาะหินเรียงรายสวยทั้งกลางวันและตอนเย็น · เนื่องจากหันหน้าทิศตะวันตก ที่นี่คือจุดชมพระอาทิตย์ตกลงทะเลที่ขึ้นชื่อสุดของอิซุ — ท้องฟ้าเปลี่ยนสีส้ม-แดงตัดเงาเกาะหินดำ · มี Dogashima Sky Park / จุดชมวิวรอบบริเวณท่าเรือที่เดินถึงได้ฟรี",
+      "location_th": "แนวหน้าผารอบท่าเรือ Dogashima",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dogashima%2020121019.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dogashima%2C%20Nishiizu%2003.jpg?width=900"
+      }
+    },
+    {
+      "name": "พระอาทิตย์ตก Dogashima",
+      "icon": "camera",
+      "blurb_th": "ตะวันตกลงทะเลตัดเงาเกาะหิน สวยสุดในอิซุ",
+      "deepDive_th": "Dogashima ได้ชื่อว่าเป็นหนึ่งในจุดชมพระอาทิตย์ตกที่สวยที่สุดของคาบสมุทรอิซุ เพราะเป็นชายฝั่งตะวันตกที่เปิดโล่งสู่ทะเล มองเห็นดวงอาทิตย์ค่อยๆ จมลงทะเลตัดกับเงาเกาะหินภูเขาไฟ · ช่วงพระอาทิตย์ตกท้องฟ้าและผิวน้ำเปลี่ยนเป็นสีส้ม-ชมพู-ม่วงไล่โทน · จุดชมดีคือ promenade ริมหน้าผา ท่าเรือ และระเบียง/onsen กลางแจ้งของที่พักริมทะเล · เป็นเหตุผลหลักที่หลายคนเลือกค้าง 1 คืนเพื่อไม่พลาดช่วงเย็น",
+      "location_th": "ริมทะเลฝั่งตะวันตก Dogashima",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20Dogashima%20NIshiizu%20Shizuoka%20Japan.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dogashima%2020121019.jpg?width=900"
+      }
+    },
+    {
+      "name": "Dogashima Onsen (ริมทะเล)",
+      "icon": "water",
+      "blurb_th": "ออนเซ็นกลางแจ้งริมหน้าผา แช่ตัวมองทะเลตะวันตก",
+      "deepDive_th": "Dogashima Onsen (堂ヶ島温泉) เป็นบ่อน้ำพุร้อนริมทะเลฝั่งตะวันตกของอิซุ มีเรียวกังและโรงแรมที่มี rotenburo (บ่อกลางแจ้ง) เกาะอยู่บนหน้าผาหินมองออกไปเห็นทะเลและเกาะหิน — แช่ตัวพร้อมดูพระอาทิตย์ตกลงทะเลได้ · บางจุดมีบ่อสาธารณะ/บ่อกลางแจ้งบนโขดหินติดทะเล · เหมาะปิดท้ายวันหลังเดินชายฝั่ง/ล่องเรือ เป็นเหตุผลที่ค้างคืนแล้วคุ้ม",
+      "location_th": "ริมหน้าผา Dogashima",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dohgashima%20Onsen%20Shizuoka%2001.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hotels%20and%20cliff%20coast%20in%20Dogashima%20%282006%29.jpg?width=900"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "ค้าง 1 คืน (เก็บครบ + พระอาทิตย์ตก)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "วัน 1 — เดินทาง + ล่องเรือถ้ำ + พระอาทิตย์ตก",
+          "detail_th": "ออกโตเกียวเช้า shinkansen ลง Mishima → ต่อรถไฟ/บัสเข้าฝั่งตะวันตกอิซุ ถึง Dogashima ช่วงบ่าย → เช็กอินที่พัก onsen ริมทะเล → ล่องเรือชมถ้ำทะเล Tensodo (~20 นาที) → เดิน promenade ริมหน้าผาชมแนวเกาะหิน → ดูพระอาทิตย์ตกลงทะเล (ไฮไลต์) → กินซีฟู้ดเย็น + แช่ rotenburo ริมทะเล",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "ออกโตเกียว → Mishima",
+              "detail_th": "Tokaido Shinkansen (Kodama)",
+              "mode": "shinkansen",
+              "durationMin": 50
+            },
+            {
+              "time_th": "~09:00",
+              "title_th": "Mishima → Dogashima",
+              "detail_th": "ต่อรถไฟ Izukyu ลง Shimoda แล้วบัส หรือบัสตรงข้ามคาบสมุทร เผื่อเวลา",
+              "mode": "bus",
+              "durationMin": 180
+            },
+            {
+              "time_th": "~13:00",
+              "title_th": "เช็กอิน + พักผ่อน",
+              "detail_th": "ที่พัก onsen ริมทะเลฝั่งตะวันตก",
+              "durationMin": 30
+            },
+            {
+              "time_th": "~14:00",
+              "title_th": "ล่องเรือถ้ำ Tensodo",
+              "detail_th": "เรือเล็กเข้าถ้ำทะเลช่องแสง ~20 นาที (เช็กคลื่น)",
+              "mode": "ferry",
+              "durationMin": 20
+            },
+            {
+              "time_th": "~15:00",
+              "title_th": "เดิน promenade ชายฝั่ง",
+              "detail_th": "ชมแนวเกาะหินภูเขาไฟ + จุดชมวิวบนหน้าผา",
+              "durationMin": 60
+            },
+            {
+              "time_th": "ก่อนค่ำ",
+              "title_th": "พระอาทิตย์ตก",
+              "detail_th": "ตะวันตกลงทะเลตัดเงาเกาะหิน — ไฮไลต์ของ Dogashima",
+              "durationMin": 45
+            },
+            {
+              "time_th": "ค่ำ",
+              "title_th": "ซีฟู้ด + rotenburo",
+              "detail_th": "kinmedai/ปลาดิบ + แช่บ่อกลางแจ้งริมทะเล",
+              "durationMin": 90
+            }
+          ]
+        },
+        {
+          "title_th": "วัน 2 — Sanshiro tombolo + กลับ",
+          "detail_th": "เช็กตารางน้ำลง (干潮) ของวันนั้น → ไปเดินข้าม tombolo ไปเกาะ Sanshiro ตอนสันกรวดโผล่ → เก็บภาพชายฝั่ง/ของฝากซีฟู้ดแห้ง → ขึ้นบัส+รถไฟ+shinkansen กลับโตเกียว (เผื่อเวลาเดินทางไกล)",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "เช็กตารางน้ำลง",
+              "detail_th": "tombolo โผล่เฉพาะช่วงน้ำลง — เวลาเปลี่ยนทุกวัน",
+              "durationMin": 10
+            },
+            {
+              "time_th": "ช่วงน้ำลง",
+              "title_th": "เดินข้าม Sanshiro tombolo",
+              "detail_th": "ข้ามสันกรวดไปเกาะ ระวังหินลื่น + น้ำขึ้นกลับ",
+              "durationMin": 60
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "ของฝาก + พักก่อนเดินทาง",
+              "detail_th": "ซีฟู้ดแห้ง/ของถิ่นอิซุ",
+              "durationMin": 45
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Dogashima → Mishima → โตเกียว",
+              "detail_th": "บัส + รถไฟ + shinkansen เผื่อเวลา ~4 ชม.",
+              "mode": "shinkansen",
+              "durationMin": 240
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "ไปเช้า-กลับเย็น (เหนื่อย ไม่แนะนำถ้าอยากดูตะวันตก)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เก็บไฮไลต์เร็วในวันเดียว",
+          "detail_th": "เหมาะเฉพาะถ้าไม่มีคืนพักเหลือ: ออกโตเกียวเช้ามากๆ → ถึง Dogashima เที่ยง → ล่องเรือถ้ำ Tensodo + เดินชายฝั่ง + ถ้าจังหวะน้ำลงตรงก็ข้าม tombolo → กลับบ่ายแก่ๆ ก่อนบัสเที่ยวสุดท้าย · เสียดายตรงต้องกลับก่อนพระอาทิตย์ตกซึ่งเป็นไฮไลต์ และเดินทางรวมไป-กลับ ~8-9 ชม.",
+          "steps": [
+            {
+              "time_th": "~06:30",
+              "title_th": "ออกโตเกียวเช้ามาก",
+              "detail_th": "Shinkansen → Mishima → ต่อเข้าอิซุตะวันตก",
+              "mode": "shinkansen",
+              "durationMin": 240
+            },
+            {
+              "time_th": "~11:30",
+              "title_th": "ล่องเรือถ้ำ Tensodo",
+              "detail_th": "ถึงแล้วรีบล่องเรือถ้ำก่อนคลื่นบ่าย",
+              "mode": "ferry",
+              "durationMin": 20
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "ชายฝั่ง + tombolo (ถ้าจังหวะน้ำลง)",
+              "detail_th": "เดิน promenade + ข้าม Sanshiro ถ้าน้ำลงพอดี",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~15:30",
+              "title_th": "กลับโตเกียว",
+              "detail_th": "ขึ้นบัสเที่ยวบ่าย อย่าตกเที่ยวสุดท้าย",
+              "mode": "shinkansen",
+              "durationMin": 240
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "Sanshiro tombolo เดินข้ามได้เฉพาะช่วงน้ำลง (干潮) เท่านั้น — เช็กตารางน้ำขึ้น-น้ำลงของวันนั้นก่อนไป ไม่งั้นสันกรวดจมน้ำ ข้ามไม่ได้ และระวังน้ำขึ้นกลับขณะอยู่บนเกาะ",
+    "พื้นสันกรวด/โขดหินลื่นมีเพรียง ใส่รองเท้ากันลื่นและพร้อมเปียก อย่าใส่รองเท้าแตะลื่นๆ",
+    "อยู่ฝั่งตะวันตกอิซุที่ไม่มีรถไฟ — เดินทางไกล ต้องต่อบัสยาว เผื่อเวลา ~4 ชม./เที่ยว และเช็กรอบบัสเที่ยวสุดท้ายให้ดี (มีไม่กี่เที่ยว/วัน)",
+    "ล่องเรือถ้ำ Tensodo อาจงดออกถ้าคลื่นลม/ทะเลแรง โดยเฉพาะหน้าหนาว/พายุ — เช็กหน้างาน เผื่อแผนสำรอง"
+  ],
+  "sources": [
+    {
+      "label": "Dogashima — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6028.html"
+    },
+    {
+      "label": "Nishi-Izu / Dogashima — Shizuoka Guide",
+      "url": "https://shizuoka-guide.com/en/"
+    },
+    {
+      "label": "Tensodo (天窓洞) — Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/堂ヶ島"
+    }
+  ],
+  "tags_th": [
+    "ชายฝั่ง",
+    "ถ้ำทะเล",
+    "พระอาทิตย์ตก",
+    "ออนเซ็น",
+    "ล่องเรือ",
+    "อิซุ",
+    "ค้างคืน"
+  ],
+  "food": [
+    {
+      "name": "คินเมได (ปลาตาทอง)",
+      "name_jp": "金目鯛",
+      "emoji": "🐟",
+      "note_th": "ปลาขึ้นชื่อของอิซุ นิยมต้มซีอิ๊ว (nitsuke) หรือซาชิมิ"
+    },
+    {
+      "name": "ซาชิมิซีฟู้ดสด",
+      "name_jp": "刺身",
+      "emoji": "🍣",
+      "note_th": "ปลา/หมึก/กุ้งจับสดจากทะเลอิซุตะวันตก"
+    },
+    {
+      "name": "หมึกตากแห้ง",
+      "name_jp": "イカの干物",
+      "emoji": "🦑",
+      "note_th": "himono ของถิ่น Nishi-Izu ซื้อเป็นของฝากได้"
+    },
+    {
+      "name": "เทนกุสะ/ทาคุ (สาหร่ายวุ้น)",
+      "name_jp": "ところてん",
+      "emoji": "🥢",
+      "note_th": "tokoroten วุ้นสาหร่ายเย็นๆ ของถิ่นชายฝั่งอิซุ"
+    }
+  ]
+}

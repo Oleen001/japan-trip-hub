@@ -1,0 +1,479 @@
+{
+  "slug": "chichibu",
+  "name": {
+    "en": "Chichibu",
+    "th": "ชิจิบุ",
+    "jp": "秩父"
+  },
+  "region": "Kanto",
+  "prefecture": "Saitama",
+  "coords": {
+    "lat": 35.9918,
+    "lng": 139.0855
+  },
+  "category": [
+    "nature",
+    "mountain"
+  ],
+  "tagline_th": "หุบเขากลางไซตามะ — ทุ่ง shibazakura ชมพูพราวเชิง Mt Buko, โกรกธาร Nagatoro ล่องแก่ง, วัด 34 แห่ง · นั่ง Laview LEX จากอิเคบุคุโระ ~80 นาทีถึง",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hitsujiyama%20Park%20with%20Mount%20Buko%20(8706304922).jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%BE%8A%E5%B1%B1%E5%85%AC%E5%9C%92%E8%8A%9D%E6%A1%9C%E3%81%AE%E4%B8%98%E3%81%8B%E3%82%89%E6%AD%A6%E7%94%B2%E5%B1%B1.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "ง่าย — นั่ง Seibu Ikebukuro Line จากอิเคบุคุโระ. ตัวเลือกสบายสุดคือ Laview Limited Express ตรงถึง Seibu-Chichibu ~80 นาที (ต้องจองที่นั่ง) ราคารวม 1,700 เยน · ถ้าประหยัดใช้รถไฟธรรมดาต่อ 1 ครั้งที่ Hanno ~100 นาที 800 เยน · ไป Nagatoro ต่อ Chichibu Railway อีก ~20 นาที",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Seibu Laview Limited Express (ตรง แนะนำ)",
+        "detail_th": "อิเคบุคุโระ → train (Laview LEX สาย Seibu Ikebukuro) ตรงถึง Seibu-Chichibu ~80 นาที — มีที่นั่งกว้างวิวสวย ต้องจอง",
+        "durationMin": 80,
+        "costYen": 1700,
+        "transfers": 0,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟด่วน",
+            "icon": "subway"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Ikebukuro Station",
+            "to": "Seibu-Chichibu Station",
+            "mode": "train",
+            "line_th": "Seibu Ikebukuro Line — Laview Limited Express (ตรง ไม่ต้องต่อ)",
+            "durationMin": 80,
+            "costYen": 1700,
+            "note_th": "ค่าโดยสาร 800 + ค่าธรรมเนียม LEX 900 = 1,700 เยน · ต้องจองที่นั่ง · ~1 เที่ยว/ชม. · ขบวน Laview หน้าต่างยักษ์วิวภูเขาสวย"
+          }
+        ]
+      },
+      {
+        "mode": "รถไฟธรรมดา/Rapid (ประหยัด ต่อที่ Hanno)",
+        "detail_th": "อิเคบุคุโระ → train (Seibu Ikebukuro Line) → Hanno → train (ต่อขบวนสาย Seibu Chichibu) → Seibu-Chichibu ~100 นาที ถูกกว่าครึ่ง",
+        "durationMin": 100,
+        "costYen": 800,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Ikebukuro Station",
+            "to": "Hanno Station",
+            "mode": "train",
+            "line_th": "Seibu Ikebukuro Line (Rapid/Express)",
+            "durationMin": 50,
+            "costYen": 0,
+            "note_th": "ค่าโดยสารคิดรวมต่อเนื่องถึง Seibu-Chichibu 800 เยน — ใส่ค่าไว้ที่ leg ถัดไป"
+          },
+          {
+            "from": "Hanno Station",
+            "to": "Seibu-Chichibu Station",
+            "mode": "train",
+            "line_th": "Seibu Chichibu Line (เปลี่ยนขบวนที่ Hanno)",
+            "durationMin": 50,
+            "costYen": 800,
+            "note_th": "ค่าโดยสาร Ikebukuro→Seibu-Chichibu รวม 800 เยน · ไม่มีค่าธรรมเนียมพิเศษ · ขบวนช่วงท้ายวิ่งช้าวิวภูเขา"
+          }
+        ]
+      },
+      {
+        "mode": "ต่อไป Nagatoro (Chichibu Railway)",
+        "detail_th": "ถึง Seibu-Chichibu → เดิน ~3 นาทีไป Ohanabatake Station → train (Chichibu Railway) → Nagatoro Station สำหรับล่องแก่ง/Iwadatami",
+        "durationMin": 25,
+        "costYen": 550,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Seibu-Chichibu Station",
+            "to": "Ohanabatake Station",
+            "mode": "walk",
+            "line_th": "เดินเชื่อมสถานี",
+            "durationMin": 5,
+            "costYen": 0,
+            "note_th": "เดินสั้นๆ ข้ามไปขึ้น Chichibu Railway ที่ Ohanabatake"
+          },
+          {
+            "from": "Ohanabatake Station",
+            "to": "Nagatoro Station",
+            "mode": "train",
+            "line_th": "Chichibu Railway",
+            "durationMin": 20,
+            "costYen": 550,
+            "note_th": "~1-2 เที่ยว/ชม. · ท่าเรือล่องแก่ง + หิน Iwadatami เดินจากสถานี Nagatoro ~5 นาที"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "shibazakura ปลาย เม.ย.-ต้น พ.ค.",
+      "months": [
+        4,
+        5
+      ],
+      "note_th": "ทุ่ง shibazakura (พิงค์มอส) บานเต็มเนินที่ Hitsujiyama Park ปลาย เม.ย.-ต้น พ.ค. ฉากหลัง Mt Buko — ไฮไลต์ของชิจิบุ คนเยอะช่วง Golden Week"
+    },
+    {
+      "label": "ใบไม้แดง พ.ย.",
+      "months": [
+        11
+      ],
+      "note_th": "koyo รอบ Nagatoro/Hodosan + รอบวัด Mitsumine กลาง-ปลาย พ.ย. ใบเมเปิลแดงริมแม่น้ำ Arakawa"
+    },
+    {
+      "label": "เขียวสด-หนีร้อน ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "ล่องแก่ง Nagatoro คลายร้อน ป่าเขียวสด อากาศในหุบเขาเย็นกว่าโตเกียว"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "Hitsujiyama (shibazakura)",
+      "type": "bloom",
+      "startFrac": 0.3,
+      "endFrac": 0.37,
+      "note_th": "พิงค์มอสบานเต็มเนิน ปลาย เม.ย.-ต้น พ.ค."
+    },
+    {
+      "zone": "Nagatoro ล่องแก่ง",
+      "type": "green",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "ล่องแก่งหน้าร้อน เขียวสด ก.ค.-ส.ค."
+    },
+    {
+      "zone": "Nagatoro/Mitsumine",
+      "type": "koyo",
+      "startFrac": 0.82,
+      "endFrac": 0.95,
+      "note_th": "ใบไม้แดงริม Arakawa + บนเขา กลาง-ปลาย พ.ย."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าเดินทาง Laview ไป-กลับ + ค่าเข้าทุ่ง/ล่องแก่งเป็นค่าหลัก",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (Laview LEX อิเคบุคุโระ↔Seibu-Chichibu)",
+        "yen": 3400,
+        "thb": 782,
+        "note_th": "ไป-กลับ 1,700×2 · ถ้าใช้รถไฟธรรมดาเหลือ ~1,600 เยน"
+      },
+      {
+        "label_th": "Chichibu Railway ไป-กลับ Nagatoro",
+        "yen": 1100,
+        "thb": 253,
+        "note_th": "Ohanabatake↔Nagatoro 550×2 (ข้ามได้ถ้าไม่ไปล่องแก่ง)"
+      },
+      {
+        "label_th": "ค่าเข้า shibazakura + ล่องแก่ง",
+        "yen": 2100,
+        "thb": 483,
+        "note_th": "Hitsujiyama ทุ่ง shibazakura 300 + ล่องเรือ Nagatoro 1 course ~1,800 เยน"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "วาราจิคัตสึด้ง / มิโสะโพเทโต้ / โซบะ ในเมืองชิจิบุ"
+      },
+      {
+        "label_th": "ของฝาก/เบ็ดเตล็ด",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "สาเก Chichibu Nishiki + ของที่ระลึก"
+      }
+    ],
+    "totalYen": 9600,
+    "totalThb": 2208,
+    "ranges": {
+      "lowThb": 1300,
+      "midThb": 2300,
+      "highThb": 3800
+    }
+  },
+  "pois": [
+    {
+      "name": "Hitsujiyama Park (Shibazakura Hill)",
+      "icon": "trees",
+      "durationMin": 60,
+      "blurb_th": "เนิน shibazakura ชมพู-ขาว-ม่วงไล่โทน ฉากหลัง Mt Buko",
+      "deepDive_th": "Hitsujiyama Park (羊山公園) สวนบนเนินทางใต้ของเมืองชิจิบุ มี Shibazakura Hill (芝桜の丘) ปลูกพิงค์มอส (moss phlox) กว่า 4 แสนต้น 9 สายพันธุ์ จัดลายไล่โทนชมพู-ขาว-ม่วงเต็มเนิน บานเต็มที่ปลาย เม.ย.-ต้น พ.ค. (รอบ Golden Week) · จุดเด่นคือฉากหลังเป็น Mt Buko ภูเขาสัญลักษณ์ของเมือง ทำให้ภาพมีมิติสวยมาก · ค่าเข้าเฉพาะช่วงเทศกาล ~300 เยน เดินจาก Seibu-Chichibu ~20 นาที (หรือบัส) · ช่วงพีคคนเยอะ แนะนำไปเช้า",
+      "location_th": "ใต้เมือง เดินจาก Seibu-Chichibu ~20 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chichibu's%20shibazakura%2C%20Saitama%20Prefecture%3B%20April%202017%20(02).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chichibu's%20shibazakura%2C%20Saitama%20Prefecture%3B%20April%202017%20(08).jpg?width=900"
+      }
+    },
+    {
+      "name": "Mt Buko",
+      "icon": "mountains",
+      "blurb_th": "ภูเขาสัญลักษณ์ของเมือง สูง 1,304 ม. เห็นได้ทั่วชิจิบุ",
+      "deepDive_th": "Mt Buko (武甲山) ภูเขาสูง 1,304 ม. ทางใต้ของเมืองชิจิบุ เป็นสัญลักษณ์ที่มองเห็นได้แทบทุกมุมในเมือง · หน้าผาด้านเหนือถูกขุดทำเหมืองหินปูนมานาน ทำให้มีหน้าตาเป็นชั้นๆ เป็นเอกลักษณ์ · เป็นฉากหลังของทุ่ง shibazakura และวิวเมือง · นักเดินเขาขึ้นยอดได้จากฝั่ง Urayamaguchi ใช้เวลาไป-กลับ ~4-5 ชม. วิวบนยอดเห็นที่ราบคันโตกว้างไกล · ภูเขานี้ผูกพันกับความเชื่อท้องถิ่นและเทศกาล Chichibu Night Festival",
+      "location_th": "ทางใต้ของเมือง (ยอด 1,304 ม.)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Summit%20of%20Mount%20Bukou%20%40%20Chichibu%20(11043272793).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Summit%20of%20Mount%20Bukou%20%40%20Chichibu%20(11043070325).jpg?width=900"
+      }
+    },
+    {
+      "name": "Nagatoro & Iwadatami (ล่องแก่ง)",
+      "icon": "water",
+      "durationMin": 90,
+      "blurb_th": "โกรกธาร Arakawa หินชั้น Iwadatami + ล่องเรือไม้ผ่านแก่ง",
+      "deepDive_th": "Nagatoro (長瀞) หุบโกรกธารแม่น้ำ Arakawa ทางเหนือของเมือง มีแผ่นหินชั้น Iwadatami (岩畳 'เสื่อหิน') ลานหินกว้างเรียบริมน้ำที่เกิดจากแรงดันธรณีดันหินขึ้นมาเรียงเป็นชั้น — เป็นอนุสรณ์ธรรมชาติของชาติ เดินเล่นถ่ายรูปได้ · ไฮไลต์คือ funakudari (ล่องเรือไม้ไหลลงแก่ง) มี 2 course ละ ~30 นาที คนพายผ่านช่วงน้ำเชี่ยวสลับนิ่ง สนุกหน้าร้อน · หน้าหนาวมีเรือ kotatsu คลุมผ้าอุ่นๆ · ฤดูใบไม้แดง พ.ย. ริมน้ำสวยมาก · เดินจากสถานี Nagatoro (Chichibu Railway) ~5 นาที",
+      "location_th": "เหนือเมือง · สถานี Nagatoro (Chichibu Railway)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nagatoro%20Iwadatami%20Rocks%20(11043511563).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Arakawa%20River%20from%20Takasago%20Bridge%20in%20Nagatoro%2C%20Saitama%201.png?width=900"
+      }
+    },
+    {
+      "name": "Chichibu Shrine",
+      "icon": "building",
+      "durationMin": 30,
+      "blurb_th": "ศาลเจ้าใจกลางเมืองอายุ 2,000+ ปี งานแกะสลักไม้สวย",
+      "deepDive_th": "Chichibu Shrine (秩父神社) ศาลเจ้าหลักของเมือง อยู่ใจกลางเมืองเดินจาก Seibu-Chichibu ~10 นาที · เก่าแก่กว่า 2,000 ปี อาคารปัจจุบันสร้างสมัยเอโดะ (1592) โดดเด่นที่งานแกะสลักไม้สีสันบนผนัง — มีลายลิงสามตัว 'มอง-พูด-ฟัง' (ตรงข้ามลิงสามตัวของนิกโก้) และมังกรของช่างฝีมือ Hidari Jingoro · เป็นหนึ่งใน 3 ศาลเจ้าหลักของชิจิบุ และเป็นเจ้าภาพเทศกาลกลางคืน Chichibu Yomatsuri (ธ.ค.) ที่มีรถแห่โคมและดอกไม้ไฟ · ชิจิบุยังมีเส้นทางจาริกแสวงบุญวัด 34 แห่ง (Chichibu Kannon pilgrimage) กระจายทั่วเมือง",
+      "location_th": "ใจกลางเมือง เดินจากสถานี ~10 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chichibu-Shrine.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Mitsumine Shrine",
+      "icon": "compass",
+      "durationMin": 90,
+      "blurb_th": "ศาลเจ้าบนเขาลึก 1,100 ม. กลางป่าศักดิ์สิทธิ์ บูชาหมาป่า",
+      "deepDive_th": "Mitsumine Shrine (三峯神社) ศาลเจ้าบนเขาสูง ~1,100 ม. ในป่าลึกทางตะวันตกของชิจิบุ — หนึ่งใน 3 ศาลเจ้าหลักของพื้นที่ บรรยากาศขลังกลางป่าสนซีดาร์โบราณ มักมีหมอกปกคลุม · จุดเด่นคือประตู Zuishinmon สีแดงสด และความเชื่อบูชา 'หมาป่า' (ookami) เป็นทูตเทพ มีรูปปั้นหมาป่าแทนสิงโตเฝ้าศาลเจ้า · เป็น power spot ยอดนิยม คนไปขอพร · เดินทางไกล — ต้องนั่งบัสจากกลางเมืองชิจิบุ ~1 ชม.+ ขึ้นเขาคดเคี้ยว เผื่อเวลาทั้งวันถ้าจะไป",
+      "location_th": "เขาตะวันตก · บัส ~1 ชม.+ จากกลางเมือง",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zuishinmon%20Gate%2C%20Mitsumine%20Shrine%2C%20Chichibu%20-%20Sep%2023%2C%202022.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitsumine%20Shrine%20approach%20looking%20towards%20the%20Shrine.jpg?width=900"
+      }
+    },
+    {
+      "name": "Hodosan & Ropeway",
+      "icon": "mountains",
+      "durationMin": 60,
+      "blurb_th": "ภูเขาเตี้ยใกล้ Nagatoro นั่งกระเช้าขึ้นยอดชมวิวหุบเขา",
+      "deepDive_th": "Mt Hodo / Hodosan (宝登山) ภูเขาเตี้ย ~497 ม. ติดกับ Nagatoro มี Hodosan Ropeway กระเช้าขึ้นยอดในไม่กี่นาที · บนยอดมีสวนพลัม (บานปลาย ก.พ.-มี.ค.) สวนแว็กซ์ (รอบ ม.ค.) และจุดชมวิวเห็นหุบเขาชิจิบุ + Mt Buko กว้างไกล · มี Hodosan Shrine ที่ตีนเขา (ศาลเจ้าที่ 3 ของกลุ่ม) · ฤดูใบไม้แดง พ.ย. รอบเขาสวย · เหมาะรวมทริปกับ Nagatoro ในวันเดียว เดินจากสถานี Nagatoro ~15 นาทีถึงสถานีกระเช้าฐานล่าง",
+      "location_th": "ติด Nagatoro (ยอด ~497 ม.)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hodosan-Ropeway-Banbi.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip shibazakura + เมือง (ฤดูใบไม้ผลิ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "ทุ่งพิงค์มอส + ศาลเจ้า + ของกินเมือง",
+          "detail_th": "ออกอิเคบุคุโระเช้าด้วย Laview LEX ตรงถึง Seibu-Chichibu ~80 นาที → เดินขึ้น Hitsujiyama Park ชมทุ่ง shibazakura ฉากหลัง Mt Buko (ไปเช้าเลี่ยงคน) → กลับเข้าเมืองแวะ Chichibu Shrine ชมงานแกะสลักไม้ → กินวาราจิคัตสึด้ง/มิโสะโพเทโต้ในเมือง → บ่ายต่อ Chichibu Railway ไป Nagatoro เดินลาน Iwadatami + ล่องแก่ง 1 course → กลับ Laview เย็น",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "อิเคบุคุโระ → Seibu-Chichibu",
+              "detail_th": "Laview Limited Express ตรง สบายสุด (จองที่นั่งล่วงหน้า)",
+              "mode": "train",
+              "durationMin": 80
+            },
+            {
+              "time_th": "~09:40",
+              "title_th": "Hitsujiyama Park (Shibazakura Hill)",
+              "detail_th": "เดิน ~20 นาทีขึ้นเนิน ชมทุ่งพิงค์มอสฉากหลัง Mt Buko ไปเช้าเลี่ยงคน",
+              "durationMin": 75
+            },
+            {
+              "time_th": "~11:20",
+              "title_th": "Chichibu Shrine",
+              "detail_th": "เดินกลับเข้าเมือง ชมงานแกะสลักไม้ลิงสามตัว+มังกร",
+              "durationMin": 30
+            },
+            {
+              "time_th": "~12:00",
+              "title_th": "กลางวันในเมือง",
+              "detail_th": "วาราจิคัตสึด้ง / มิโสะโพเทโต้ / โซบะชิจิบุ",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~13:15",
+              "title_th": "ต่อ Chichibu Railway ไป Nagatoro",
+              "detail_th": "เดินไป Ohanabatake → รถไฟ ~20 นาที",
+              "mode": "train",
+              "durationMin": 25
+            },
+            {
+              "time_th": "~13:45",
+              "title_th": "Iwadatami + ล่องแก่ง Nagatoro",
+              "detail_th": "เดินลานหินชั้นริมน้ำ + ล่องเรือไม้ 1 course (~30 นาที)",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~16:00",
+              "title_th": "กลับเข้า Seibu-Chichibu",
+              "detail_th": "Chichibu Railway → เดินกลับสถานี Seibu-Chichibu",
+              "mode": "train",
+              "durationMin": 25
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับอิเคบุคุโระ",
+              "detail_th": "Laview LEX เย็น (เช็ครอบสุดท้าย)",
+              "mode": "train",
+              "durationMin": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "Mitsumine Shrine power spot (เน้นเขา-ศาลเจ้า)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "ขึ้นเขาไปศาลเจ้าหมาป่า กลางป่าศักดิ์สิทธิ์",
+          "detail_th": "เหมาะคนชอบศาลเจ้า/power spot/บรรยากาศป่าเขา: ออกเช้าตรงด้วย Laview → ถึง Seibu-Chichibu นั่งบัสขึ้นเขา ~1 ชม.15 ไป Mitsumine Shrine → ไหว้ขอพร เดินชมประตู Zuishinmon + รูปปั้นหมาป่า กลางป่าหมอก → กลับลงมาช่วงบ่าย แวะ Nagatoro/Hodosan ถ้ามีเวลา → กลับเย็น · ใช้เวลาเดินทางเยอะ เผื่อทั้งวัน เช็ครอบบัสลงเขาให้ดี",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "อิเคบุคุโระ → Seibu-Chichibu",
+              "detail_th": "Laview Limited Express ตรง",
+              "mode": "train",
+              "durationMin": 80
+            },
+            {
+              "time_th": "~09:40",
+              "title_th": "บัสขึ้น Mitsumine Shrine",
+              "detail_th": "บัสจากกลางเมืองชิจิบุ ~1 ชม.15 ขึ้นเขาคดเคี้ยว",
+              "mode": "bus",
+              "durationMin": 75
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "Mitsumine Shrine",
+              "detail_th": "ประตู Zuishinmon + รูปปั้นหมาป่า ขอพร power spot กลางป่าหมอก",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~13:00",
+              "title_th": "บัสลงเขา → กลับเมือง",
+              "detail_th": "เช็ครอบบัสสุดท้ายลงเขาให้ดี อย่าตกรอบ",
+              "mode": "bus",
+              "durationMin": 75
+            },
+            {
+              "time_th": "~14:30",
+              "title_th": "Nagatoro / Hodosan (ถ้ามีเวลา)",
+              "detail_th": "ต่อ Chichibu Railway แวะลาน Iwadatami หรือกระเช้า Hodosan",
+              "mode": "train",
+              "durationMin": 90
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับอิเคบุคุโระ",
+              "detail_th": "Laview LEX เย็น",
+              "mode": "train",
+              "durationMin": 80
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ทุ่ง shibazakura บานช่วงสั้น (ปลาย เม.ย.-ต้น พ.ค.) เช็คสถานะการบานก่อนไป · ช่วง Golden Week คนเยอะมาก ไปเช้าเลี่ยงฝูงชน",
+    "Laview LEX ต้องจองที่นั่งล่วงหน้า โดยเฉพาะวันหยุด/ฤดูดอกไม้ · ถ้าไม่จองอาจต้องยืนรถไฟธรรมดา ~100 นาที",
+    "Mitsumine Shrine ไกล — บัสขึ้นเขา ~1 ชม.+ มีรอบจำกัด เช็ครอบบัสลงเขาสุดท้ายให้ดี ถ้าจะไปควรเผื่อทั้งวัน อย่ารวมกับ Nagatoro แบบเร่ง",
+    "ล่องแก่ง Nagatoro งดให้บริการบางช่วงถ้าน้ำเชี่ยว/สภาพอากาศไม่ดี เช็คก่อน · หน้าหนาวเปลี่ยนเป็นเรือ kotatsu"
+  ],
+  "sources": [
+    {
+      "label": "Chichibu Travel Guide — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6550.html"
+    },
+    {
+      "label": "How to get to Chichibu — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6551.html"
+    },
+    {
+      "label": "Nagatoro River Boat Cruises — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6556.html"
+    },
+    {
+      "label": "Seibu Railway — Limited Express Laview",
+      "url": "https://www.seiburailway.jp/en/railway/limitedexpress/laview/"
+    }
+  ],
+  "tags_th": [
+    "day-trip",
+    "shibazakura",
+    "โกรกธาร",
+    "ล่องแก่ง",
+    "ศาลเจ้า",
+    "ใบไม้แดง"
+  ],
+  "food": [
+    {
+      "name": "วาราจิคัตสึด้ง",
+      "name_jp": "わらじカツ丼",
+      "emoji": "🍱",
+      "note_th": "หมูชุบทอดแผ่นใหญ่เท่ารองเท้าฟาง ราดซอสหวานบนข้าว — ของขึ้นชื่อชิจิบุ"
+    },
+    {
+      "name": "มิโสะโพเทโต้",
+      "name_jp": "みそポテト",
+      "emoji": "🥔",
+      "note_th": "มันฝรั่งชุบแป้งทอดราดซอสมิโสะหวาน ของกินเล่นพื้นเมือง"
+    },
+    {
+      "name": "สาเก Chichibu Nishiki",
+      "name_jp": "秩父錦",
+      "emoji": "🍶",
+      "note_th": "น้ำหุบเขาดี ชิจิบุมีโรงสาเกเก่าแก่ ชิม/ซื้อเป็นของฝากได้"
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "slug": "kusatsu",
+  "name": {
+    "en": "Kusatsu Onsen",
+    "th": "คุซัทสึ ออนเซน",
+    "jp": "草津温泉"
+  },
+  "region": "Kanto",
+  "prefecture": "Gunma",
+  "coords": {
+    "lat": 36.6225,
+    "lng": 138.5961
+  },
+  "category": [
+    "onsen",
+    "mountain"
+  ],
+  "tagline_th": "เมืองออนเซนอันดับ 1 ของญี่ปุ่น — Yubatake ลานน้ำร้อนกลางเมืองพ่นไอตลอดวัน + โชว์กวนน้ำ yumomi น้ำกรดกำมะถันแท้ๆ ค้าง 1 คืนเต็มอิ่ม",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/251130%20Yubatake%2C%20Kusatsu%2010.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons (CC)",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2023.04.26%20Yubatake%20%28Kusatsu%20Onsen%29.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 3,
+  "access": {
+    "summary_th": "ไม่มีรถไฟถึงตัวเมืองโดยตรง ต้องนั่งรถไฟไปสุดสายแล้วต่อบัสขึ้นเขา ~25 นาที — ทางหลักคือ JR Agatsuma Line LEX 'Kusatsu·Shima' จากอุเอโนะ/โตเกียวถึง Naganohara-Kusatsuguchi แล้วต่อ JR Bus ขึ้นเมือง · รวม ~3.5-4 ชม. เป็นเมืองออนเซนบนเขา 1,200 ม. เหมาะค้าง 1 คืน",
+    "jrPassWorth": true,
+    "options": [
+      {
+        "mode": "JR Agatsuma Line LEX + บัส",
+        "detail_th": "อุเอโนะ → train (Limited Express Kusatsu·Shima) → Naganohara-Kusatsuguchi → bus (JR Bus Kanto) ~25 นาที → Kusatsu Onsen Bus Terminal",
+        "durationMin": 230,
+        "costYen": 6600,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟด่วน",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Ueno Station (โตเกียว)",
+            "to": "Naganohara-Kusatsuguchi",
+            "mode": "train",
+            "line_th": "JR Agatsuma Line — Limited Express Kusatsu·Shima (特急草津・四万)",
+            "durationMin": 150,
+            "costYen": 5500,
+            "note_th": "ค่าโดยสาร ~2,310 เยน + ค่าตั๋วด่วนที่นั่งสำรอง ~3,170 เยน · วิ่งวันละ ~2-3 เที่ยว (ส่วนใหญ่ช่วงเช้า) จองที่นั่งล่วงหน้า · JR Pass ครอบคลุมทั้งค่าโดยสาร+ตั๋วด่วน"
+          },
+          {
+            "from": "Naganohara-Kusatsuguchi",
+            "to": "Kusatsu Onsen Bus Terminal",
+            "mode": "bus",
+            "line_th": "JR Bus Kanto (สาย Kusatsu Onsen)",
+            "durationMin": 25,
+            "costYen": 710,
+            "note_th": "บัสรับเชื่อมกับรถไฟ ~1 เที่ยว/ชม. · JR Pass ใช้ขึ้นบัส JR สายนี้ได้ฟรี · ขึ้นเขาคดเคี้ยว"
+          }
+        ]
+      },
+      {
+        "mode": "Shinkansen → Karuizawa → บัส",
+        "detail_th": "โตเกียว → shinkansen (Hokuriku Shinkansen) → Karuizawa → bus (Kusakaru Kotsu) ~80 นาที → Kusatsu Onsen Bus Terminal",
+        "durationMin": 195,
+        "costYen": 7500,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซน",
+            "icon": "train"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Karuizawa",
+            "mode": "shinkansen",
+            "line_th": "Hokuriku Shinkansen (Asama/Hakutaka)",
+            "durationMin": 70,
+            "costYen": 5490,
+            "note_th": "เร็วและออกถี่กว่า LEX มาก (~1-2 ขบวน/ชม.) · JR Pass ครอบคลุมช่วงนี้"
+          },
+          {
+            "from": "Karuizawa Station",
+            "to": "Kusatsu Onsen Bus Terminal",
+            "mode": "bus",
+            "line_th": "Kusakaru Kotsu Bus (草軽交通)",
+            "durationMin": 80,
+            "costYen": 2240,
+            "note_th": "บัสเอกชน ไม่อยู่ใน JR Pass (เสียเงินเอง) · ~5-7 เที่ยว/วัน เช็ครอบล่วงหน้า · เส้นทางนี้คุ้มถ้าแวะ Karuizawa ด้วย"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง ต.ค.-พ.ย.",
+      "months": [
+        10,
+        11
+      ],
+      "note_th": "บนที่สูง ~1,200 ม. ใบไม้เปลี่ยนสีเร็วกว่าโตเกียว — กลาง ต.ค. ถึงต้น พ.ย. โดยเฉพาะแถบ Sainokawara และ Kusatsu-Shirane สวยจัด"
+    },
+    {
+      "label": "หิมะ/สกี ธ.ค.-มี.ค.",
+      "months": [
+        12,
+        1,
+        2,
+        3
+      ],
+      "note_th": "Kusatsu Onsen Ski Resort เปิด แช่ออนเซนกลางหิมะฟินสุด แต่หนาวจัด ถนนเขาอาจลื่น/ปิดบางช่วง"
+    },
+    {
+      "label": "หนีร้อน ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "บนเขาเย็นสบายกว่าตัวเมืองมาก เหมาะหนีความร้อนหน้าร้อนญี่ปุ่น มีเทศกาลดนตรีนานาชาติ ส.ค."
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "Sainokawara / Kusatsu-Shirane",
+      "type": "koyo",
+      "startFrac": 0.78,
+      "endFrac": 0.88,
+      "note_th": "ใบไม้แดงกลาง ต.ค.-ต้น พ.ย. (มาก่อนพื้นราบ)"
+    },
+    {
+      "zone": "Ski Resort",
+      "type": "snow",
+      "startFrac": 0.93,
+      "endFrac": 1,
+      "note_th": "เปิดสกี ธ.ค.-มี.ค. (ลากถึงต้นปีถัดไป)"
+    },
+    {
+      "zone": "เทศกาลดนตรีนานาชาติ",
+      "type": "event",
+      "startFrac": 0.58,
+      "endFrac": 0.66,
+      "note_th": "Kusatsu International Music Festival ปลาย ส.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน ค้างคุซัทสึ 1 คืน ไป-กลับจากโตเกียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ที่พักออนเซน (ryokan/โรงแรม) เป็นค่าหลัก · ถ้ามี JR Pass ค่าเดินทางลดลงมาก",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (LEX + บัส JR)",
+        "yen": 13200,
+        "thb": 3036,
+        "note_th": "Limited Express Kusatsu·Shima ไป-กลับ + บัส JR · ฟรีเกือบหมดถ้ามี JR Pass"
+      },
+      {
+        "label_th": "ที่พักออนเซน 1 คืน",
+        "yen": 12000,
+        "thb": 2760,
+        "note_th": "ryokan/โรงแรมรวมอาหารเช้า (kaiseki + อาหารเช้าจะแพงขึ้น) · ช่วง high season/หิมะแพงกว่า"
+      },
+      {
+        "label_th": "อาหาร (เที่ยง+ของว่าง+เครื่องดื่ม)",
+        "yen": 3500,
+        "thb": 805,
+        "note_th": "ออนเซน-มันจู ร้อนๆ ริม Yubatake + soba/อาหารกุนมะ"
+      },
+      {
+        "label_th": "ออนเซน/โชว์/ของฝาก",
+        "yen": 2500,
+        "thb": 575,
+        "note_th": "Netsunoyu โชว์ yumomi ~700 เยน + ค่าแช่ rotenburo Sainokawara + onsen tamago/ของฝาก"
+      }
+    ],
+    "totalYen": 31200,
+    "totalThb": 7176,
+    "ranges": {
+      "lowThb": 4500,
+      "midThb": 7500,
+      "highThb": 13000
+    }
+  },
+  "pois": [
+    {
+      "name": "Yubatake (ลานน้ำร้อน)",
+      "icon": "raindrops-alt",
+      "durationMin": 40,
+      "blurb_th": "หัวใจของเมือง — ลานไม้กลางเมืองที่น้ำร้อนกำมะถันไหลพ่นไอตลอดวัน กลางคืนไฟส่องสวยมาก",
+      "deepDive_th": "Yubatake (湯畑 'ทุ่งน้ำร้อน') คือสัญลักษณ์และศูนย์กลางของคุซัทสึ — บ่อน้ำพุร้อนกลางเมืองที่ปล่อยน้ำกรดกำมะถันราว 4,000 ลิตร/นาที ไหลผ่านรางไม้ 7 รางเพื่อ 'พักน้ำ' ให้เย็นลงตามธรรมชาติก่อนส่งไปตามเรียวกังต่างๆ · ไอน้ำพวยพุ่งตลอดวันพร้อมกลิ่นกำมะถันเฉพาะตัว ตะกอนกำมะถัน (yunohana) เกาะตามรางเป็นสีเหลืองทอง · รอบลานมีทางเดินหิน ร้านค้า ออนเซน-มันจู คาเฟ่ และบ่อแช่เท้าฟรี · ตกค่ำเปิดไฟ illumination สวยที่สุดในเมือง เป็นจุดถ่ายรูปหลักทั้งกลางวัน-กลางคืน",
+      "location_th": "ใจกลางเมือง ติด Bus Terminal เดิน ~5 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023.04.26%20Yubatake%20%28Kusatsu%20Onsen%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/251130%20Yubatake%2C%20Kusatsu%2010.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Netsunoyu — โชว์ Yumomi",
+      "icon": "building",
+      "durationMin": 30,
+      "blurb_th": "โชว์กวนน้ำด้วยไม้พายยาวพร้อมร้องเพลงพื้นบ้าน ลดอุณหภูมิน้ำร้อนจัดให้แช่ได้",
+      "deepDive_th": "Netsunoyu (熱乃湯) คือโรงโชว์ไม้เก่าริม Yubatake ที่จัดการแสดง 'yumomi' (湯もみ) วันละหลายรอบ — น้ำคุซัทสึร้อนถึง 50-90°C เกินจะแช่ได้ ในอดีตชาวเมืองจึงใช้ไม้พายแผ่นยาว (~180 ซม.) กวนน้ำให้สัมผัสอากาศเพื่อลดอุณหภูมิแทนการเติมน้ำเย็น (ซึ่งจะทำให้สรรพคุณเจือจาง) · ระหว่างกวนจะร้องเพลงพื้นบ้าน 'Kusatsu Bushi' เป็นจังหวะ · เป็นการแสดงวัฒนธรรมที่หาดูได้เฉพาะที่นี่ บางรอบให้ผู้ชมลองจับไม้กวนเองได้ · เสียค่าเข้า ~700 เยน เช็ครอบการแสดงหน้าโรง",
+      "location_th": "ริม Yubatake ฝั่งทิศใต้",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kusatsu%20Yumomi%2C%20Gunma%2001.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)"
+      }
+    },
+    {
+      "name": "น้ำกรดกำมะถัน (Acidic Onsen)",
+      "icon": "fire",
+      "durationMin": 60,
+      "blurb_th": "น้ำพุร้อนกรดแรง pH ~2 ฆ่าเชื้อโรค ผิวลื่น — แช่บ่อสาธารณะหรือบ่อในเรียวกัง",
+      "deepDive_th": "คุซัทสึขึ้นชื่อเรื่องน้ำพุร้อนที่เป็น 'กรดกำมะถันแรง' (pH ราว 2.0 เปรี้ยวระดับมะนาว) ปริมาณน้ำธรรมชาติมากที่สุดในญี่ปุ่น · กรดและกำมะถันทำให้น้ำมีฤทธิ์ฆ่าเชื้อ เชื่อกันว่าช่วยโรคผิวหนัง บาดแผล และความเมื่อยล้า — มีคำพูดว่า 'รักษาได้ทุกโรคยกเว้นโรครัก' · บ่อสาธารณะฟรีในเมือง เช่น Shirahata-no-yu / Chiyo-no-yu / Jizo-no-yu ให้ลองแช่หลายแหล่งน้ำ (แต่ละบ่อแร่ต่างกัน) · ข้อควรระวัง: น้ำร้อนจริงและเป็นกรด ไม่ควรแช่นานเกิน ล้างตัวก่อน-หลัง ถอดเครื่องประดับเงิน(ดำได้) และมีไอ H2S โปรดอยู่ที่อากาศถ่ายเท",
+      "location_th": "บ่อสาธารณะกระจายทั่วเมือง",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/251129%20Yubatake%2C%20Kusatsu%2007.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)"
+      }
+    },
+    {
+      "name": "Sainokawara Park & Rotenburo",
+      "icon": "mountains",
+      "durationMin": 90,
+      "blurb_th": "สวนหุบเขามีลำธารน้ำร้อนพุไอ + บ่อแช่กลางแจ้งขนาดใหญ่ ใบไม้แดงสวยหน้า koyo",
+      "deepDive_th": "Sainokawara Park (西の河原公園) สวนหุบเขาเดิน ~10-15 นาทีจาก Yubatake — ทั้งหุบมีน้ำพุร้อนผุดขึ้นตามพื้น ลำธารร้อนพ่นไอ บ่อแช่เท้าฟรีกลางทาง โขดหินและต้นไม้รอบข้างทำให้หน้าใบไม้แดง (กลาง ต.ค.-ต้น พ.ย.) สวยมาก · ปลายสวนคือ Sainokawara Rotenburo บ่อออนเซนกลางแจ้งขนาดใหญ่มากในป่า (แยกชาย-หญิง) เสียค่าเข้า ~700 เยน แช่วิวธรรมชาติฟินสุดทั้งหน้าใบไม้แดงและหน้าหิมะ · เป็นเส้นเดินเล่นชิลๆ ที่เก็บได้ทั้งวิว ออนเซน และ koyo ในที่เดียว",
+      "location_th": "เดิน ~10-15 นาทีจาก Yubatake (ทิศตะวันตก)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/251129%20Sainokawara%20Park%2001.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/251128%20Sainokawara%20Park%2027.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Kusatsu Onsen Ski Resort",
+      "icon": "mountains",
+      "durationMin": 240,
+      "blurb_th": "ลานสกีติดเมือง เล่นสกีตอนกลางวันแล้วเดินกลับมาแช่ออนเซนได้เลย",
+      "deepDive_th": "Kusatsu Onsen Ski Resort (草津温泉スキー場) หนึ่งในลานสกีเก่าแก่ที่สุดของญี่ปุ่น อยู่ติดตัวเมือง เดิน/นั่งรถไม่กี่นาทีจากที่พัก · มีหลายคอร์สทั้งสำหรับมือใหม่และระดับกลาง วิวเทือกเขา Kusatsu-Shirane · จุดขายคือ 'สกีกลางวัน แช่ออนเซนกลางคืน' ในวันเดียว · เปิดราว ธ.ค.-มี.ค. (ขึ้นกับหิมะ) · นอกฤดูหนาวพื้นที่เดียวกันเป็นทุ่งหญ้าเขียว มีลิฟต์ขึ้นชมวิว/กิจกรรมกลางแจ้ง — ภาพนี้เป็นช่วงนอกฤดูสกี (สีเขียว) ให้เห็นแนวสโลป",
+      "location_th": "ติดเมือง ทิศตะวันตกเฉียงเหนือ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kusatsu%20Onsen%20Ski%20Resort.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "ค้าง 1 คืนเต็มอิ่ม (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — เดินทาง + เก็บเมืองช่วงบ่าย-ค่ำ",
+          "detail_th": "ออกอุเอโนะเช้าด้วย LEX Kusatsu·Shima → ต่อบัส JR ขึ้นเมือง ~บ่าย → เช็คอินเรียวกังวาง簡ของ → เดิน Yubatake กลางวัน → เดินเล่น Sainokawara Park + แช่ rotenburo → กลับมาดูโชว์ yumomi ที่ Netsunoyu → เย็นกินอาหารเรียวกัง → กลางคืนกลับมาดู Yubatake เปิดไฟ illumination + แช่บ่อสาธารณะในเมือง",
+          "steps": [
+            {
+              "time_th": "~09:00",
+              "title_th": "อุเอโนะ → Naganohara-Kusatsuguchi",
+              "detail_th": "Limited Express Kusatsu·Shima (จองที่นั่งล่วงหน้า)",
+              "mode": "train",
+              "durationMin": 150
+            },
+            {
+              "time_th": "~11:40",
+              "title_th": "ต่อบัส JR ขึ้นเมือง",
+              "detail_th": "JR Bus ~25 นาที ถึง Kusatsu Onsen Bus Terminal",
+              "mode": "bus",
+              "durationMin": 25
+            },
+            {
+              "time_th": "~12:30",
+              "title_th": "เช็คอิน + เที่ยง",
+              "detail_th": "วางของที่เรียวกัง กินเที่ยง + ออนเซน-มันจูริม Yubatake",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Yubatake + Sainokawara",
+              "detail_th": "เดิน Yubatake → เดินเล่น Sainokawara Park → แช่ rotenburo กลางแจ้ง",
+              "durationMin": 150
+            },
+            {
+              "time_th": "~16:30",
+              "title_th": "โชว์ Yumomi ที่ Netsunoyu",
+              "detail_th": "เช็ครอบการแสดง ~700 เยน",
+              "durationMin": 30
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "อาหารค่ำเรียวกัง",
+              "detail_th": "kaiseki/อาหารกุนมะ แล้วแช่ออนเซนในเรียวกัง",
+              "durationMin": 90
+            },
+            {
+              "time_th": "ค่ำ",
+              "title_th": "Yubatake illumination",
+              "detail_th": "กลับมาดู Yubatake เปิดไฟกลางคืน + แช่บ่อสาธารณะในเมือง",
+              "durationMin": 60
+            }
+          ]
+        },
+        {
+          "title_th": "วันที่ 2 — บ่อสาธารณะ + กลับ",
+          "detail_th": "เช้าแช่บ่อสาธารณะอีกแหล่ง (Shirahata/Jizo-no-yu) → ซื้อของฝาก yunohana/ออนเซน-มันจู → ขึ้นบัสลงเขากลับ Naganohara-Kusatsuguchi → LEX กลับโตเกียว (หรือต่อบัสไป Karuizawa แวะเที่ยวก่อนนั่งชินคันเซนกลับ)",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "แช่บ่อสาธารณะ+ อาหารเช้า",
+              "detail_th": "ลองแหล่งน้ำอื่นในเมือง เก็บบรรยากาศเช้าๆ",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "ซื้อของฝาก",
+              "detail_th": "yunohana (ผงแร่กำมะถัน) + ออนเซน-มันจู ริม Yubatake",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~11:30",
+              "title_th": "บัสลงเขา",
+              "detail_th": "JR Bus → Naganohara-Kusatsuguchi",
+              "mode": "bus",
+              "durationMin": 25
+            },
+            {
+              "time_th": "~12:30",
+              "title_th": "LEX กลับโตเกียว",
+              "detail_th": "Limited Express Kusatsu·Shima (เช็ครอบ — มีไม่กี่เที่ยว/วัน)",
+              "mode": "train",
+              "durationMin": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "เส้น Karuizawa (แวะ 2 เมือง)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "ผ่าน Karuizawa ไป-กลับ",
+          "detail_th": "ใช้ชินคันเซนถึง Karuizawa (เร็ว ออกถี่) → ต่อบัส Kusakaru ~80 นาทีขึ้นคุซัทสึ → ค้าง 1 คืนแช่ออนเซน → ขากลับแวะ Karuizawa ช้อป/คาเฟ่/เดิน outlet ก่อนนั่งชินคันเซนกลับ · เหมาะคนอยากเก็บ 2 เมืองในทริปเดียว แต่บัส Kusakaru ไม่อยู่ใน JR Pass (เสียเงินเอง) และนานกว่าเส้น LEX",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "โตเกียว → Karuizawa",
+              "detail_th": "Hokuriku Shinkansen ~70 นาที",
+              "mode": "shinkansen",
+              "durationMin": 70
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "บัส Kusakaru ขึ้นคุซัทสึ",
+              "detail_th": "~80 นาที (จ่ายเงินสด/นอก JR Pass)",
+              "mode": "bus",
+              "durationMin": 80
+            },
+            {
+              "time_th": "บ่าย-ค่ำ",
+              "title_th": "เที่ยวคุซัทสึ + ค้าง 1 คืน",
+              "detail_th": "Yubatake / yumomi / Sainokawara / บ่อสาธารณะ + ค้างเรียวกัง",
+              "durationMin": 300
+            },
+            {
+              "time_th": "วันถัดไป",
+              "title_th": "ลงเขา + แวะ Karuizawa",
+              "detail_th": "บัสกลับ Karuizawa เดิน outlet/คาเฟ่ → ชินคันเซนกลับโตเกียว",
+              "mode": "shinkansen",
+              "durationMin": 70
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "น้ำพุร้อนคุซัทสึเป็น 'กรดแรง' (pH ~2) — ถอดเครื่องประดับเงิน/ทองเหลือง (ดำได้) ล้างตัวก่อน-หลังแช่ และอย่าแช่นานเกินไป ผิวบอบบางอาจแสบ",
+    "มีไอกำมะถัน (H2S) ตามลานน้ำร้อน/บ่อ — แช่/เดินในที่อากาศถ่ายเท คนเป็นโรคหัวใจ/ทางเดินหายใจระวัง อย่าก้มดมไอใกล้ๆ นาน",
+    "ตัวเมืองอยู่บนเขา ~1,200 ม. หนาวกว่าโตเกียวมาก หน้าหนาวถนนเขาลื่น/อาจปิดบางช่วง เตรียมเสื้อกันหนาว+รองเท้ากันลื่น",
+    "LEX Kusatsu·Shima มีแค่ ~2-3 เที่ยว/วัน (ส่วนใหญ่เช้า) ต้องจองที่นั่งและเช็ครอบ — พลาดแล้วต้องต่อรถไฟธรรมดาหลายต่อหรือเปลี่ยนไปเส้น Karuizawa",
+    "เมืองเป็นออนเซนค้างคืน ไม่ใช่ day-trip ที่ดี — ไป-กลับวันเดียวเหนื่อยและเสียดายบรรยากาศกลางคืน/illumination"
+  ],
+  "sources": [
+    {
+      "label": "Kusatsu Onsen — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6500.html"
+    },
+    {
+      "label": "Kusatsu Onsen Official Tourism (English)",
+      "url": "https://www.kusatsu-onsen.ne.jp/onsen/en/"
+    },
+    {
+      "label": "Kusatsu Onsen — JNTO",
+      "url": "https://www.japan.travel/en/spot/716/"
+    }
+  ],
+  "tags_th": [
+    "ออนเซน",
+    "ค้าง 1 คืน",
+    "น้ำกรดกำมะถัน",
+    "ใบไม้แดง",
+    "สกี",
+    "เมืองออนเซนอันดับ 1"
+  ],
+  "food": [
+    {
+      "name": "ออนเซน-มันจู",
+      "name_jp": "温泉まんじゅう",
+      "emoji": "🍡",
+      "note_th": "ขนมไส้ถั่วแดงนึ่งร้อนๆ ร้านดังริม Yubatake มักแจกชิมฟรีหน้าร้าน"
+    },
+    {
+      "name": "เนื้อหมูกุนมะ (Joshu pork)",
+      "name_jp": "上州豚",
+      "emoji": "🐖",
+      "note_th": "หมูขึ้นชื่อของกุนมะ ทำทงคัตสึ/ย่าง หาได้ในร้านท้องถิ่น"
+    },
+    {
+      "name": "Mizusawa udon",
+      "name_jp": "水沢うどん",
+      "emoji": "🍜",
+      "note_th": "อูด้งเส้นเหนียวนุ่มขึ้นชื่อของกุนมะ หนึ่งใน 3 อูด้งดังของญี่ปุ่น"
+    },
+    {
+      "name": "Onsen tamago",
+      "name_jp": "温泉卵",
+      "emoji": "🥚",
+      "note_th": "ไข่ลวกน้ำพุร้อน ไข่แดงข้นหนึบ กินเล่นแถบลานน้ำร้อน"
+    },
+    {
+      "name": "Konnyaku กุนมะ",
+      "name_jp": "こんにゃく",
+      "emoji": "🍢",
+      "note_th": "กุนมะเป็นแหล่งบุกอันดับ 1 ของญี่ปุ่น มีของฝาก/ของกินจากบุกหลากหลาย"
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "slug": "fukuroda",
+  "name": {
+    "en": "Fukuroda Falls",
+    "th": "น้ำตกฟุคุโรดะ",
+    "jp": "袋田の滝"
+  },
+  "region": "Kanto",
+  "prefecture": "Ibaraki",
+  "coords": {
+    "lat": 36.7806,
+    "lng": 140.4214
+  },
+  "category": [
+    "nature"
+  ],
+  "tagline_th": "1 ใน 3 น้ำตกใหญ่สุดของญี่ปุ่น — 4 ชั้น สูง 120m กว้าง 73m ใบไม้แดงต้น พ.ย. สวยจัด หน้าหนาวแช่แข็งทั้งผามี ice climbing",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Autumn%20of%20Fukuroda%20Falls%2C%20Daigo%2C%20Ibaraki%3B%20November%202016.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukuroda%20Falls%2004.JPG?width=1600"
+  },
+  "difficultyFromTokyo": 3,
+  "access": {
+    "summary_th": "จากโตเกียวนั่ง JR Joban Line LEX (Hitachi/Tokiwa) อุเอโนะ → Mito (~70 นาที) ต่อ JR Suigun Line ไป Fukuroda Station (~70 นาที) แล้วบัส/แท็กซี่ ~10 นาที + เดินเข้าซื้อตั๋วลอดอุโมงค์ 276m ออก observation deck · ไป-กลับวันเดียวได้แต่ตึง บัส Suigun Line ห่างกันมาก แนะนำเช็ครอบล่วงหน้า",
+    "jrPassWorth": true,
+    "options": [
+      {
+        "mode": "JR Joban LEX (Hitachi) + Suigun Line + บัส",
+        "detail_th": "อุเอโนะ → LEX (Hitachi/Tokiwa) → Mito → train (Suigun Line) → Fukuroda Station → บัส 7 นาที → Takimoto → เดิน ~10 นาทีถึงทางเข้าน้ำตก",
+        "durationMin": 175,
+        "costYen": 5030,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟด่วน LEX",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Ueno Station",
+            "to": "Mito Station",
+            "mode": "train",
+            "line_th": "JR Joban Line LEX (Hitachi / Tokiwa) — มี reserved seat",
+            "durationMin": 70,
+            "costYen": 4280,
+            "note_th": "ค่าโดยสาร + ค่าธรรมเนียมรถด่วนพิเศษ (รวม ~4,280 เยน Ueno→Mito) · ออกจาก Ueno/Shinagawa/Tokyo · JR Pass ครอบคลุม · จองที่นั่งล่วงหน้าได้ผ่านแอป JR-EAST"
+          },
+          {
+            "from": "Mito Station",
+            "to": "Fukuroda Station",
+            "mode": "train",
+            "line_th": "JR Suigun Line (local)",
+            "durationMin": 70,
+            "costYen": 990,
+            "note_th": "รถไฟ local สาย Suigun ออกบ่อยน้อย ~1 ขบวน/ชม. ต้องเช็คตารางให้ดี · บางขบวนต้องเปลี่ยนที่ Hitachi-Daigo"
+          },
+          {
+            "from": "Fukuroda Station",
+            "to": "Takimoto (ทางเข้าน้ำตก)",
+            "mode": "bus",
+            "line_th": "Ibaraki Kotsu Bus (สาย Takimoto)",
+            "durationMin": 7,
+            "costYen": 260,
+            "note_th": "บัสมีแค่ ~4 เที่ยว/วัน (เช้า 1, เที่ยง 1, บ่าย 2) — เช็ครอบล่วงหน้า · หรือแท็กซี่ ~1,300 เยน หรือเดินจากสถานี ~45 นาที"
+          },
+          {
+            "from": "Takimoto (ป้ายบัส)",
+            "to": "ทางเข้าอุโมงค์น้ำตก",
+            "mode": "walk",
+            "line_th": "เดินผ่านถนนร้านค้า",
+            "durationMin": 10,
+            "costYen": 0,
+            "note_th": "เดินผ่านถนนของฝาก/ร้านอายุย่าง ~10 นาทีถึงช่องขายตั๋วลอดอุโมงค์ (ค่าเข้า 500 เยน)"
+          }
+        ]
+      },
+      {
+        "mode": "รถไฟ local ล้วน (ประหยัด ช้ากว่า)",
+        "detail_th": "อุเอโนะ → train (Joban Line local/rapid ไม่จองที่นั่ง) → Mito → train (Suigun Line) → Fukuroda Station → บัส/แท็กซี่",
+        "durationMin": 235,
+        "costYen": 3500,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Ueno Station",
+            "to": "Mito Station",
+            "mode": "train",
+            "line_th": "JR Joban Line (Rapid/Local ไม่ใช่ LEX)",
+            "durationMin": 130,
+            "costYen": 2310,
+            "note_th": "ไม่มีค่าธรรมเนียมรถด่วน ประหยัดกว่า ~2,000 เยน แต่ช้ากว่า ~1 ชม. · ต้องเปลี่ยนขบวนที่ Tsuchiura/Katsuta บางเที่ยว"
+          },
+          {
+            "from": "Mito Station",
+            "to": "Fukuroda Station",
+            "mode": "train",
+            "line_th": "JR Suigun Line (local)",
+            "durationMin": 70,
+            "costYen": 990,
+            "note_th": "เหมือน option แรก — ออกบ่อยน้อย เช็คตารางก่อน"
+          },
+          {
+            "from": "Fukuroda Station",
+            "to": "Takimoto (ทางเข้าน้ำตก)",
+            "mode": "bus",
+            "line_th": "Ibaraki Kotsu Bus / แท็กซี่",
+            "durationMin": 10,
+            "costYen": 260,
+            "note_th": "บัส 4 เที่ยว/วัน หรือแท็กซี่ ~1,300 เยน · ตามด้วยเดิน ~10 นาทีถึงอุโมงค์"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง ต้น พ.ย.",
+      "months": [
+        11
+      ],
+      "note_th": "ไฮไลต์สุด — เมเปิลแดงรอบหุบน้ำตกพีคต้น-กลาง พ.ย. ตัดกับสายน้ำขาว สวยติดอันดับ koyo ของคันโต · มี illumination กลางคืนช่วงนี้ด้วย"
+    },
+    {
+      "label": "น้ำตกแช่แข็ง ม.ค.-ก.พ.",
+      "months": [
+        1,
+        2
+      ],
+      "note_th": "หน้าหนาวจัดน้ำตกแข็งเป็นน้ำแข็งทั้งผา บางปีมี ice climber ปีนจริง · ดีสุดปลาย ม.ค.-ก.พ. ตอนเช้ามืดที่อุณหภูมิต่ำสุด (สายแดดออกน้ำแข็งเริ่มละลาย)"
+    },
+    {
+      "label": "เขียวสด ปลาย เม.ย.-มิ.ย.",
+      "months": [
+        4,
+        5,
+        6
+      ],
+      "note_th": "ใบไม้เขียวสด น้ำเยอะหลังหิมะละลาย สายน้ำแรงเต็มที่ อากาศกำลังดี ไม่แออัด"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "หุบน้ำตก",
+      "type": "koyo",
+      "startFrac": 0.79,
+      "endFrac": 0.9,
+      "note_th": "เมเปิลแดงต้น-กลาง พ.ย."
+    },
+    {
+      "zone": "น้ำตกแช่แข็ง",
+      "type": "snow",
+      "startFrac": 0.0,
+      "endFrac": 0.13,
+      "note_th": "แข็งทั้งผา ม.ค.-ก.พ. (ปลาย ธ.ค. เริ่ม)"
+    },
+    {
+      "zone": "Daigo Light illumination",
+      "type": "event",
+      "startFrac": 0.87,
+      "endFrac": 1.0,
+      "note_th": "เปิดไฟน้ำตกกลางคืน กลาง พ.ย.-ม.ค."
+    },
+    {
+      "zone": "ป่าเขียวฤดูร้อน",
+      "type": "green",
+      "startFrac": 0.33,
+      "endFrac": 0.58,
+      "note_th": "เขียวสด น้ำแรง พ.ค.-ก.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ถ้ามี JR Pass ค่ารถไฟแทบฟรี เหลือแค่บัส+ค่าเข้า",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (LEX อุเอโนะ↔Fukuroda)",
+        "yen": 10060,
+        "thb": 2314,
+        "note_th": "Joban LEX + Suigun Line ไป-กลับ · ถ้ามี JR Pass ส่วนนี้ครอบคลุม"
+      },
+      {
+        "label_th": "บัส Fukuroda Station↔Takimoto ไป-กลับ",
+        "yen": 520,
+        "thb": 120,
+        "note_th": "Ibaraki Kotsu Bus หรือเดิน 45 นาที/แท็กซี่ ~1,300 เยน/เที่ยว"
+      },
+      {
+        "label_th": "ค่าเข้าอุโมงค์ + observation deck",
+        "yen": 500,
+        "thb": 115,
+        "note_th": "ตั๋วลอดอุโมงค์ 276m ออกชานชมวิว + ลิฟต์ขึ้นชั้นบน"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "soba/ปลาอายุย่างเกลือ + คาเฟ่ถนนร้านค้า"
+      },
+      {
+        "label_th": "ของฝาก/เบ็ดเตล็ด",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "ของที่ระลึก/น้ำพุร้อนแช่เท้า"
+      }
+    ],
+    "totalYen": 14080,
+    "totalThb": 3238,
+    "ranges": {
+      "lowThb": 1200,
+      "midThb": 3200,
+      "highThb": 5000
+    }
+  },
+  "pois": [
+    {
+      "name": "Fukuroda Falls (4 ชั้น)",
+      "icon": "water",
+      "durationMin": 60,
+      "blurb_th": "น้ำตก 4 ชั้น สูง 120m กว้าง 73m 1 ใน 3 น้ำตกใหญ่สุดของญี่ปุ่น",
+      "deepDive_th": "Fukuroda Falls (袋田の滝) น้ำตกเอกของอิบารากิ สูง 120 เมตร กว้าง 73 เมตร ไหลลดหลั่นลงหินผา 4 ชั้น จึงมีชื่อเล่นว่า 'Yodo-no-Taki' (น้ำตก 4 ชั้น) · จัดเป็น 1 ใน 3 น้ำตกที่ยิ่งใหญ่ที่สุดของญี่ปุ่น ร่วมกับ Nachi (วาคายามะ) และ Kegon (นิกโก้) · ว่ากันว่าต้องมาดูครบทั้ง 4 ฤดูถึงจะเข้าใจความงาม — เขียวสดหน้าร้อน, แดงฉานหน้า koyo, แช่แข็งหน้าหนาว · เดินเข้าทางอุโมงค์แล้วโผล่ออก observation deck เห็นน้ำตกระยะใกล้มาก",
+      "location_th": "Daigo, อิบารากิ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukuroda%20Falls%2004.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukuroda%20Falls%2012.jpg?width=900"
+      }
+    },
+    {
+      "name": "อุโมงค์ + ลิฟต์ชมวิว (Observation Deck)",
+      "icon": "mountains",
+      "durationMin": 40,
+      "blurb_th": "ลอดอุโมงค์ 276m ออกชานชมวิว 2 ระดับ + ลิฟต์ขึ้นจุดสูง ~50m",
+      "deepDive_th": "จุดชมน้ำตกหลักเข้าผ่านอุโมงค์คนเดินยาว 276 เมตรเจาะทะลุภูเขา (ค่าเข้า 500 เยน) · ปลายอุโมงค์เป็น observation deck ชั้นล่างชิดฐานน้ำตก เห็นละอองน้ำใกล้มาก แล้วมีลิฟต์พาขึ้นชานชมวิวชั้นบนสูงราว 50 เมตร มองเห็นน้ำตกครบทั้ง 4 ชั้นในเฟรมเดียว · มีทางออกอีกฝั่งเชื่อมสะพานแขวนชมวิวด้านข้าง · เปิด 8:00-18:00 (พ.ค.-ต.ค.) สั้นลงในหน้าหนาว เช็คเวลาตามฤดู",
+      "location_th": "ทางเข้าหลักน้ำตก",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukuroda%20Falls%2029.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukuroda%20Falls%2010.jpg?width=900"
+      }
+    },
+    {
+      "name": "น้ำตกแช่แข็ง (Frozen Falls)",
+      "icon": "water",
+      "durationMin": 30,
+      "blurb_th": "หน้าหนาวจัดน้ำตกแข็งทั้งผา บางปีมี ice climber ปีนจริง",
+      "deepDive_th": "ช่วงหนาวจัดปลาย ธ.ค.-ก.พ. น้ำตกฟุคุโรดะกลายเป็นกำแพงน้ำแข็งสีฟ้าขาวทั้งผา — ปรากฏการณ์ที่ทำให้ที่นี่ดังในฐานะ frozen waterfall ระดับท็อปของญี่ปุ่น · ช่วงเวลาดีสุดคือปลาย ม.ค.-ก.พ. ตอนเช้ามืดที่อุณหภูมิต่ำสุด (พอแดดออกน้ำแข็งเริ่มละลาย) · ถ้าโชคดีจะเห็นนักปีน ice climbing ไต่ผาน้ำแข็งจริงจากชานชมวิว · ค่ำๆ มี illumination 'Daigo Light' เปิดไฟส่องน้ำตกช่วงกลาง พ.ย.-ม.ค.",
+      "location_th": "Observation deck (หน้าหนาว)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukuroda%2020060129%20110900.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukuroda%20Falls%2004.JPG?width=900"
+      }
+    },
+    {
+      "name": "Tsukiyomi Bridge + เส้นเดิน Namase",
+      "icon": "trees",
+      "durationMin": 60,
+      "blurb_th": "สะพานชมวิว + ทางเดินป่าชัน ~20-30 นาทีขึ้นน้ำตก Namase ชั้นบน",
+      "deepDive_th": "นอกจากชานชมวิวหลัก ยังมีสะพานคนเดิน (Tsukiyomi/Saika Bridge) ข้ามลำธารให้มองน้ำตกมุมเฉียง และเส้นทางเดินป่าชันขึ้นเขา ~20-30 นาทีไปถึง Namase Waterfall (生瀬滝) ซึ่งบางคนนับเป็นชั้นที่ 5 ของน้ำตก · เดินต่ออีก ~45 นาทีถึงศาลเล็ก Kannon บนเนิน วิวมองลงหุบน้ำตก · เส้นนี้ชันและพื้นลื่นช่วงฝน เหมาะคนชอบเดินเบาๆ ใส่รองเท้ายึดเกาะดี · ข้ามได้ถ้าเวลาน้อยเพราะไฮไลต์อยู่ที่ชานชมวิวหลักอยู่แล้ว",
+      "location_th": "ฝั่งบนน้ำตก",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukuroda%20Falls%2010.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukuroda%20Falls%2012.jpg?width=900"
+      }
+    },
+    {
+      "name": "ถนนร้านค้า + แช่เท้าออนเซ็น",
+      "icon": "camera",
+      "durationMin": 30,
+      "blurb_th": "ถนนของฝาก ปลาอายุย่างเกลือ + จุดแช่เท้าฟรีก่อนถึงน้ำตก",
+      "deepDive_th": "ช่วงเดินจากป้ายบัส Takimoto ไปทางเข้าน้ำตก ~10 นาที เป็นถนนร้านค้าเล็กๆ ขายของฝากท้องถิ่น Daigo · ไฮไลต์กินคือ 'ปลาอายุย่างเกลือ' (鮎の塩焼き) เสียบไม้ย่างถ่านสดๆ และเมนู soba ของเขต Okukuji · มีจุดแช่เท้าออนเซ็นฟรี (ashiyu) ให้พักขาก่อน/หลังเดินเที่ยว · เหมาะถ่ายรูปบรรยากาศเมืองน้ำตกเล็กๆ และซื้อของก่อนกลับ",
+      "location_th": "ทางเดินก่อนถึงน้ำตก",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukuroda%20Falls.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukuroda%20Falls%2012.jpg?width=900"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip น้ำตก + อุโมงค์ชมวิว (ไป-กลับวันเดียว)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เช้า-บ่าย เก็บน้ำตกครบมุม",
+          "detail_th": "ออกอุเอโนะเช้าด้วย Joban LEX (Hitachi) → Mito ต่อ Suigun Line ไป Fukuroda (เช็ครอบรถไฟ+บัสล่วงหน้า สาย Suigun ออกห่าง) → บัส/แท็กซี่ไป Takimoto เดินเข้าถนนร้านค้า → ลอดอุโมงค์ 276m ออก observation deck ชั้นล่างชิดน้ำตก → ลิฟต์ขึ้นชานบนเห็นครบ 4 ชั้น → ถ้ามีแรงเดินเส้น Namase ชั้นบน → กินปลาอายุย่าง/soba ถนนร้านค้า → กลับ Mito → LEX กลับโตเกียวเย็น",
+          "steps": [
+            {
+              "time_th": "~07:30",
+              "title_th": "อุเอโนะ → Mito",
+              "detail_th": "Joban Line LEX (Hitachi/Tokiwa) จองที่นั่งล่วงหน้า",
+              "mode": "train",
+              "durationMin": 70
+            },
+            {
+              "time_th": "~09:00",
+              "title_th": "Mito → Fukuroda Station",
+              "detail_th": "Suigun Line local — เช็คขบวนให้ดี ออกห่าง ~1 ชม./ขบวน",
+              "mode": "train",
+              "durationMin": 70
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "บัสไป Takimoto + เดินเข้าน้ำตก",
+              "detail_th": "Ibaraki Kotsu Bus 7 นาที (4 เที่ยว/วัน) + เดิน ~10 นาทีผ่านถนนร้านค้า",
+              "mode": "bus",
+              "durationMin": 20
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "ลอดอุโมงค์ + observation deck",
+              "detail_th": "ค่าเข้า 500 เยน · ชั้นล่างชิดน้ำตก แล้วลิฟต์ขึ้นชานบนเห็น 4 ชั้น",
+              "durationMin": 50
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "เส้นเดิน Namase + สะพานชมวิว",
+              "detail_th": "ชัน ~20-30 นาทีขึ้นน้ำตกชั้นบน (ข้ามได้ถ้าเวลาน้อย)",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~14:00",
+              "title_th": "กินปลาอายุ/soba ถนนร้านค้า",
+              "detail_th": "ปลาอายุย่างเกลือ + แช่เท้า ashiyu ก่อนกลับ",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~15:30",
+              "title_th": "Fukuroda → Mito → อุเอโนะ",
+              "detail_th": "Suigun Line กลับ Mito ต่อ LEX กลับโตเกียว — เช็ครอบบัส+รถไฟขากลับให้ตรงกัน",
+              "mode": "train",
+              "durationMin": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง 1 คืน + ออนเซ็น (สบายไม่ตึง)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "วันแรก: น้ำตก + ออนเซ็น Daigo",
+          "detail_th": "ไม่ต้องรีบไล่ตามรอบรถไฟ — บ่ายถึง Daigo เข้าน้ำตกแบบสบาย แช่ Daigo Onsen ค้าง 1 คืนใน ryokan/minshuku ของหมู่บ้าน เหมาะมาหน้า koyo หรือหน้าหนาว frozen ที่อยากดูช่วงเช้ามืด",
+          "steps": [
+            {
+              "time_th": "บ่าย",
+              "title_th": "ถึง Daigo เข้าน้ำตก",
+              "detail_th": "ลอดอุโมงค์ + observation deck แบบไม่รีบ",
+              "durationMin": 90
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "เช็คอิน ryokan + แช่ออนเซ็น",
+              "detail_th": "Daigo Onsen / minshuku ในเมือง",
+              "durationMin": 0
+            }
+          ]
+        },
+        {
+          "title_th": "วันสอง: frozen ช่วงเช้ามืด + กลับ",
+          "detail_th": "หน้าหนาวออกมาดูน้ำตกแช่แข็งช่วงเช้ามืดที่น้ำแข็งยังเต็มผา (สวยสุดก่อนแดดออก) แล้วค่อยทยอยกลับโตเกียว",
+          "steps": [
+            {
+              "time_th": "เช้ามืด",
+              "title_th": "ดูน้ำตกแช่แข็ง",
+              "detail_th": "ม.ค.-ก.พ. น้ำแข็งเต็มผา ก่อนแดดออกละลาย",
+              "durationMin": 60
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "กลับโตเกียว",
+              "detail_th": "Suigun Line → Mito → Joban LEX",
+              "mode": "train",
+              "durationMin": 140
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "JR Suigun Line ออกห่างมาก (~1 ขบวน/ชม. บางช่วงน้อยกว่า) และบัส Fukuroda Station→Takimoto มีแค่ ~4 เที่ยว/วัน — ต้องเช็คตารางรถไฟ+บัสล่วงหน้าและล็อกรอบกลับ ไม่งั้นตกค้าง",
+    "อยากดูน้ำตกแช่แข็งต้องไปเช้ามืดปลาย ม.ค.-ก.พ. ตอนหนาวจัด — สายแดดออกน้ำแข็งเริ่มละลาย และบางปีแข็งไม่เต็ม ขึ้นกับอากาศปีนั้น",
+    "เวลาเปิดอุโมงค์/observation deck เปลี่ยนตามฤดู (8:00-18:00 พ.ค.-ต.ค. / สั้นลงหน้าหนาว) เช็คก่อนไป อย่าไปสายเกิน",
+    "เส้นเดิน Namase ชั้นบนชันและลื่นช่วงฝน/หลังหิมะ ใส่รองเท้ายึดเกาะดี · หน้าหนาวทางเดินอาจมีน้ำแข็งเกาะ ระวังลื่น"
+  ],
+  "sources": [
+    {
+      "label": "Fukuroda Falls — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6250.html"
+    },
+    {
+      "label": "Fukuroda Falls — Ibaraki Guide (Official)",
+      "url": "https://visit.ibarakiguide.jp/en/sightseeing/22349/"
+    },
+    {
+      "label": "Fukuroda Falls — JNTO Travel Japan",
+      "url": "https://www.japan.travel/en/japans-local-treasures/fukuroda-falls/"
+    }
+  ],
+  "tags_th": [
+    "น้ำตก",
+    "3 น้ำตกใหญ่",
+    "ใบไม้แดง",
+    "น้ำตกแช่แข็ง",
+    "อิบารากิ"
+  ],
+  "food": [
+    {
+      "name": "ปลาอายุย่างเกลือ",
+      "name_jp": "鮎の塩焼き",
+      "emoji": "🐟",
+      "note_th": "ปลาแม่น้ำเสียบไม้ย่างถ่านสดๆ ขายตามถนนร้านค้าหน้าน้ำตก"
+    },
+    {
+      "name": "โซบะ Okukuji",
+      "name_jp": "奥久慈そば",
+      "emoji": "🍜",
+      "note_th": "โซบะขึ้นชื่อของเขต Okukuji เส้นเหนียวหอม"
+    },
+    {
+      "name": "เนื้อไก่ Okukuji Shamo",
+      "name_jp": "奥久慈しゃも",
+      "emoji": "🍢",
+      "note_th": "ไก่พันธุ์ชาโมะท้องถิ่น Daigo เนื้อแน่น นิยมทำ nabe/ย่าง"
+    },
+    {
+      "name": "แอปเปิล/ลูกพลับ Daigo",
+      "name_jp": "りんご・干し柿",
+      "emoji": "🍎",
+      "note_th": "ผลไม้ตามฤดูของ Daigo — สวนแอปเปิลให้เก็บ + ลูกพลับตากแห้ง"
+    }
+  ]
+}

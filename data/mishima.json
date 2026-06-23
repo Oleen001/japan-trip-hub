@@ -1,0 +1,449 @@
+{
+  "slug": "mishima",
+  "name": {
+    "en": "Mishima Skywalk",
+    "th": "มิชิมะ สกายวอล์ก",
+    "jp": "三島スカイウォーク"
+  },
+  "region": "Chubu",
+  "prefecture": "Shizuoka",
+  "coords": {
+    "lat": 35.1303,
+    "lng": 138.9417
+  },
+  "category": [
+    "nature",
+    "mountain"
+  ],
+  "tagline_th": "สะพานแขวนคนเดินยาวสุดในญี่ปุ่น 400 ม. ยืนกลางอากาศมองฟูจิเต็มลูก + อ่าว Suruga · นั่งชินคันเซ็นจากโตเกียวแค่ ~50 นาที",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Fuji%20From%20Mishima%20Skywalk2023.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mishima%20Skywalk%20North%20Facade2023.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "นั่ง Tokaido Shinkansen (Kodama) จากโตเกียวถึงสถานี Mishima ~50 นาที จากนั้นต่อบัสจากหน้าสถานีอีก ~25 นาทีถึงตัวสะพาน · ไป-กลับวันเดียวสบาย ไม่ต้องค้าง แต่มีต่อหนึ่งทอดเลยให้ความยาก 2",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Tokaido Shinkansen (Kodama) + บัส",
+        "detail_th": "Tokyo → shinkansen (Tokaido, Kodama) → Mishima Station → bus (Tokai Bus สาย Skywalk/Genpei) → Mishima Skywalk",
+        "durationMin": 80,
+        "costYen": 4910,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "train"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Mishima Station",
+            "mode": "shinkansen",
+            "line_th": "Tokaido Shinkansen (Kodama — ขบวนจอดทุกสถานี)",
+            "durationMin": 50,
+            "costYen": 4400,
+            "note_th": "Kodama จอด Mishima ทุกขบวน (Hikari/Nozomi ส่วนใหญ่ผ่าน) · ~2-3 เที่ยว/ชม. · ตั๋วธรรมดา 4,400 เยน (non-reserved) · JR Pass ใช้ได้เฉพาะ Kodama/Hikari ไม่ใช่ Nozomi"
+          },
+          {
+            "from": "Mishima Station (ทางออกใต้ South Exit)",
+            "to": "Mishima Skywalk",
+            "mode": "bus",
+            "line_th": "Tokai Bus (สาย Mishima Skywalk / Genpei-no-taki)",
+            "durationMin": 25,
+            "costYen": 510,
+            "note_th": "ขึ้นที่ทางออกใต้ของสถานี ~1-2 เที่ยว/ชม. · มีบัสตรงไปสะพาน เช็ครอบเที่ยวกลับช่วงเย็น"
+          }
+        ]
+      },
+      {
+        "mode": "ประหยัด: JR ปกติ (ไม่ขึ้นชินคันเซ็น) + บัส",
+        "detail_th": "Tokyo → train (JR Tokaido Line, ปกติ/Rapid) → Mishima Station → bus → Mishima Skywalk · ช้ากว่าแต่ถูกกว่ามาก",
+        "durationMin": 165,
+        "costYen": 2660,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Mishima Station",
+            "mode": "train",
+            "line_th": "JR Tokaido Line (มักต่อขบวนที่ Atami)",
+            "durationMin": 130,
+            "costYen": 2150,
+            "note_th": "นั่งรถไฟปกติ ~2 ชม. มักเปลี่ยนขบวนที่ Atami 1 ครั้ง · ถูกกว่าชินคันเซ็นครึ่งหนึ่ง แต่กินเวลาเพิ่มชั่วโมงกว่า · ซื้อ Green Car เพิ่มเบาะนุ่มได้"
+          },
+          {
+            "from": "Mishima Station (South Exit)",
+            "to": "Mishima Skywalk",
+            "mode": "bus",
+            "line_th": "Tokai Bus (สาย Mishima Skywalk)",
+            "durationMin": 25,
+            "costYen": 510,
+            "note_th": "บัสเดียวกับ option ชินคันเซ็น · เช็ครอบสุดท้ายขากลับ"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ฟูจิใส ธ.ค.-ก.พ.",
+      "months": [
+        12,
+        1,
+        2
+      ],
+      "note_th": "หน้าหนาวอากาศแห้งใส ฟูจิยอดหิมะขาวโพลนเห็นชัดที่สุด โอกาสเจอฟูจิเต็มลูกสูงสุด · เช้าฟ้าใสกว่าบ่าย"
+    },
+    {
+      "label": "ใบไม้เปลี่ยนสี พ.ย.",
+      "months": [
+        11
+      ],
+      "note_th": "ต้นไม้ในหุบเขารอบสะพานเปลี่ยนเป็นสีส้มแดง ตัดกับสะพานฟ้า + ฟูจิ"
+    },
+    {
+      "label": "ฤดูใบไม้ผลิ มี.ค.-เม.ย.",
+      "months": [
+        3,
+        4
+      ],
+      "note_th": "ดอกไม้ในสวนฝั่ง North Area บานสะพรั่ง อากาศกำลังสบาย ยังพอเห็นฟูจิหิมะ"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ฟูจิใสหน้าหนาว",
+      "type": "snow",
+      "startFrac": 0.92,
+      "endFrac": 1.0,
+      "note_th": "ธ.ค.-ก.พ. ฟ้าใส เห็นฟูจิหิมะชัดสุด"
+    },
+    {
+      "zone": "ฟูจิใสหน้าหนาว (ต้นปี)",
+      "type": "snow",
+      "startFrac": 0.0,
+      "endFrac": 0.16,
+      "note_th": "ม.ค.-ก.พ. ต่อเนื่องต้นปี"
+    },
+    {
+      "zone": "หุบเขารอบสะพาน",
+      "type": "koyo",
+      "startFrac": 0.83,
+      "endFrac": 0.95,
+      "note_th": "ใบไม้แดงกลาง-ปลาย พ.ย."
+    },
+    {
+      "zone": "สวนดอกไม้ North Area",
+      "type": "bloom",
+      "startFrac": 0.2,
+      "endFrac": 0.33,
+      "note_th": "ดอกไม้บาน มี.ค.-เม.ย."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าหลักคือชินคันเซ็น + ค่าเข้าสะพาน",
+    "items": [
+      {
+        "label_th": "ชินคันเซ็นไป-กลับ (Tokyo↔Mishima)",
+        "yen": 8800,
+        "thb": 2024,
+        "note_th": "Tokaido Shinkansen Kodama ไป-กลับ non-reserved · ใช้ JR Pass ได้ (Kodama/Hikari) ตัดค่านี้ออก"
+      },
+      {
+        "label_th": "บัสไป-กลับ (สถานี↔สะพาน)",
+        "yen": 1020,
+        "thb": 235,
+        "note_th": "Tokai Bus ~25 นาที/เที่ยว"
+      },
+      {
+        "label_th": "ค่าเข้าสะพาน Skywalk",
+        "yen": 1100,
+        "thb": 253,
+        "note_th": "ผู้ใหญ่ 1,100 เยน (เดินสะพาน + North/South Area) · กิจกรรม zipline/Long Zip Slide จ่ายเพิ่มแยก"
+      },
+      {
+        "label_th": "อาหาร + คาเฟ่",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "ร้านในสะพาน + อูนางิ (ปลาไหล) ของขึ้นชื่อเมือง Mishima"
+      },
+      {
+        "label_th": "ค่าเข้า Rakujuen / ของฝาก",
+        "yen": 800,
+        "thb": 184,
+        "note_th": "สวน Rakujuen ~300 เยน + ของที่ระลึก"
+      }
+    ],
+    "totalYen": 13720,
+    "totalThb": 3156,
+    "ranges": {
+      "lowThb": 1500,
+      "midThb": 3200,
+      "highThb": 5000
+    }
+  },
+  "pois": [
+    {
+      "name": "Mishima Skywalk (สะพานแขวน 400 ม.)",
+      "icon": "mountains",
+      "durationMin": 60,
+      "blurb_th": "สะพานแขวนคนเดินยาวสุดในญี่ปุ่น 400 ม. เดินกลางอากาศมองฟูจิ + อ่าว Suruga",
+      "deepDive_th": "Mishima Skywalk (三島スカイウォーก) สะพานแขวนสำหรับคนเดินที่ยาวที่สุดในญี่ปุ่น ความยาว 400 เมตร สูงจากหุบเขาราว 70 เมตร · จุดขายคือยืนกลางสะพานแล้วเห็นภูเขาไฟฟูจิเต็มลูกเป็นฉากหลัง พร้อมอ่าว Suruga และเทือกเขา Numazu Alps ในเฟรมเดียว · พื้นสะพานมั่นคงเดินสบายไม่โยกมาก ราวจับสองข้างปลอดภัย เหมาะทุกวัย · แบ่งเป็น South Area (ทางเข้า ร้านค้า คาเฟ่) และ North Area (สวนดอกไม้ จุดกิจกรรม) เดินข้ามสะพานไป-กลับ · ช่วงเช้าหน้าหนาวฟ้าใสเห็นฟูจิชัดสุด",
+      "location_th": "ตัวสะพานหลัก",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mishima%20skywalk%2C%20Japan%27s%20longest%20suspension%20bridge%2C%20Shizuoka%20Prefecture%2C%20Japan.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mishima%20Skywalk%20North%20Facade2023.jpg?width=1600"
+      }
+    },
+    {
+      "name": "วิวภูเขาไฟฟูจิ + อ่าว Suruga",
+      "icon": "camera",
+      "blurb_th": "จุดถ่ายรูปฟูจิเต็มลูก ฉากหลังอ่าว Suruga มองลงไปเห็นเมือง Numazu",
+      "deepDive_th": "ไฮไลต์การถ่ายรูปของ Mishima Skywalk — มองจากสะพานเห็นภูเขาไฟฟูจิตั้งตระหง่าน และทอดสายตาลงไปเห็นอ่าว Suruga (อ่าวลึกที่สุดในญี่ปุ่น) กับตัวเมือง Numazu เบื้องล่าง · วันฟ้าใสหน้าหนาวคือช่วงทอง — อากาศแห้งทำให้ฟูจิคมชัด หิมะบนยอดขาวจัด · มีจุดชมวิวและเดคถ่ายรูปทั้งฝั่ง South และ North เลือกมุมได้หลากหลาย ทั้งฟูจิคู่สะพาน และพาโนรามาอ่าว",
+      "location_th": "ตลอดแนวสะพาน",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Suruga%20Bay%20and%20Numazu%20Alps%20from%20Mishima%20Skywalk%2C%20Hakone%2C%20Japan1.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Fuji%20From%20Mishima%20Skywalk2023.jpg?width=1600"
+      }
+    },
+    {
+      "name": "กิจกรรมผจญภัย (Zipline / Long Zip Slide)",
+      "icon": "mountains",
+      "durationMin": 40,
+      "blurb_th": "ซิปไลน์โหนข้ามหุบเขามองฟูจิ + ฟอเรสต์แอดเวนเจอร์ จ่ายเพิ่มแยก",
+      "deepDive_th": "ฝั่ง North Area มีกิจกรรมผจญภัยให้เพิ่มความมันส์ — Long Zip Slide ซิปไลน์ยาวพุ่งข้ามหุบเขาความเร็วสูงพร้อมวิวฟูจิ, Forest Adventure เส้นทางผจญภัยบนต้นไม้, Segway tour และ Kit Cat (รถกระเช้าลอยฟ้าเล็ก) · ทุกกิจกรรมจ่ายค่าเข้าสะพานก่อน แล้วซื้อตั๋วกิจกรรมเพิ่มแยกต่างหาก · เหมาะครอบครัว/กลุ่มเพื่อนที่อยากได้มากกว่าแค่เดินถ่ายรูป · ภาพประกอบเป็นวิวพาโนรามาสะพาน+ฟูจิจากฝั่งกิจกรรม (landmark ของจุด ไม่ใช่ตัวซิปไลน์โดยตรง)",
+      "location_th": "North Area (ฝั่งตรงข้ามทางเข้า)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mishima%20sky%20walk.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (landmark แทน — วิวสะพาน+ฟูจิ ไม่ใช่ภาพ zipline โดยตรง)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mishima%20Skywalk%20North%20Facade2023.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Rakujuen Park (สวนน้ำใส)",
+      "icon": "water",
+      "durationMin": 60,
+      "blurb_th": "สวนเมือง Mishima น้ำพุใต้ดินจากฟูจิใสแจ๋ว ติดสถานี Mishima",
+      "deepDive_th": "Rakujuen (楽寿園) สวนสาธารณะกลางเมือง Mishima ติดสถานี Mishima เดิน ~3 นาที · เด่นที่บ่อน้ำและลำธารที่ได้น้ำพุใต้ดินจากหิมะภูเขาฟูจิละลายซึมลงมา ใสจนเห็นพื้น เป็นสัญลักษณ์ของเมือง 'เมืองแห่งน้ำ' (Mishima ขึ้นชื่อเรื่องน้ำใสทั้งเมือง มีลำคลองน้ำใสไหลผ่านตัวเมือง) · ในสวนมีเรือนพักญี่ปุ่นโบราณ (Rakuju-kan) สวนเดินเล่น และสวนสัตว์เล็ก · แวะปิดท้ายก่อนขึ้นชินคันเซ็นกลับได้พอดี",
+      "location_th": "ติดสถานี Mishima ~3 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rakujuen%2020110918%20a.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rakujuen%2020110918%20g.jpg?width=900"
+      }
+    },
+    {
+      "name": "Mishima Taisha (ศาลเจ้า)",
+      "icon": "building",
+      "durationMin": 45,
+      "blurb_th": "ศาลเจ้าหลักประจำภูมิภาค โครงไม้แกะสลักงดงาม ใจกลางเมือง",
+      "deepDive_th": "Mishima Taisha (三嶋大社) ศาลเจ้าชินโตเก่าแก่ที่เป็นศาลเจ้าประจำจังหวัด (ichinomiya) ของ Izu · อาคารหลัก (honden/haiden) เป็นงานไม้แกะสลักลายละเอียดยุคเอโดะที่ขึ้นทะเบียนทรัพย์สินทางวัฒนธรรมสำคัญ หลังคาทองแดงเขียวสง่างาม · มินาโมโตะ โนะ โยริโตโมะเคยมาขอพรก่อนตั้งรัฐบาลคามาคุระ ทำให้เป็นศาลเจ้าแห่งชัยชนะ/ความสำเร็จ · ต้นออสมันทัสยักษ์อายุ 1,200 ปีในบริเวณ · เดินจากสถานี Mishima ~15 นาที จับคู่กับ Rakujuen ได้ในย่านเดียวกัน",
+      "location_th": "ใจกลางเมือง เดินจากสถานี ~15 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mishima-taisha%20Honden.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mishima%20Taisya%20ac.jpg?width=900"
+      }
+    }
+  ],
+  "routeFlow": [
+    {
+      "name": "Tokyo Station",
+      "elevationM": 5,
+      "modeToNext": "shinkansen",
+      "modeDetail_th": "Tokaido Shinkansen (Kodama) ~50 นาที"
+    },
+    {
+      "name": "Mishima Station",
+      "elevationM": 22,
+      "modeToNext": "bus",
+      "modeDetail_th": "Tokai Bus สาย Skywalk ~25 นาที"
+    },
+    {
+      "name": "Mishima Skywalk",
+      "elevationM": 415,
+      "modeToNext": "walk",
+      "modeDetail_th": "เดินข้ามสะพาน 400 ม. South → North"
+    },
+    {
+      "name": "North Area (กิจกรรม/สวน)",
+      "elevationM": 420
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ฟูจิ + สะพาน + เมืองน้ำใส",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เช้าฟ้าใสล่าฟูจิ บ่ายเดินเมือง",
+          "detail_th": "ออกโตเกียวเช้า (ฟ้าใสเห็นฟูจิชัดสุด) นั่งชินคันเซ็น Kodama ~50 นาทีถึง Mishima → บัส ~25 นาทีไปสะพาน → เดิน Mishima Skywalk ถ่ายรูปฟูจิ + อ่าว Suruga → เล่นกิจกรรม North Area ถ้าสนใจ (zipline) → บัสกลับเข้าเมือง → แวะ Mishima Taisha + Rakujuen ย่านสถานี → กินอูนางิเย็น → ชินคันเซ็นกลับโตเกียว",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "ออกโตเกียว → Mishima",
+              "detail_th": "Tokaido Shinkansen Kodama ~50 นาที · เช้าฟ้าใสเห็นฟูจิชัด",
+              "mode": "shinkansen",
+              "durationMin": 50
+            },
+            {
+              "time_th": "~09:10",
+              "title_th": "บัสไป Mishima Skywalk",
+              "detail_th": "Tokai Bus จากทางออกใต้สถานี",
+              "mode": "bus",
+              "durationMin": 25
+            },
+            {
+              "time_th": "~09:45",
+              "title_th": "เดินสะพาน + ถ่ายฟูจิ",
+              "detail_th": "ข้ามสะพาน 400 ม. ถ่ายฟูจิ + อ่าว Suruga ทั้ง South/North Area",
+              "durationMin": 75
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "กิจกรรม North Area (ออปชัน)",
+              "detail_th": "Long Zip Slide / Forest Adventure ถ้าสนใจ ข้ามได้ถ้าเวลาน้อย",
+              "durationMin": 50
+            },
+            {
+              "time_th": "~12:30",
+              "title_th": "บัสกลับเข้าเมือง",
+              "detail_th": "กลับสถานี Mishima",
+              "mode": "bus",
+              "durationMin": 25
+            },
+            {
+              "time_th": "~13:30",
+              "title_th": "Mishima Taisha",
+              "detail_th": "เดินจากสถานี ~15 นาที ชมศาลเจ้าโครงไม้แกะสลัก",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~14:30",
+              "title_th": "Rakujuen สวนน้ำใส",
+              "detail_th": "บ่อน้ำใสจากฟูจิ ติดสถานี ปิดท้ายชิลๆ",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~16:30",
+              "title_th": "อูนางิเย็น + ชินคันเซ็นกลับ",
+              "detail_th": "กินปลาไหลของขึ้นชื่อ Mishima แล้วขึ้นชินคันเซ็นกลับโตเกียว",
+              "mode": "shinkansen",
+              "durationMin": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "แบบสั้น ครึ่งวัน (เน้นสะพาน)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เก็บไฮไลต์สะพานเร็วๆ",
+          "detail_th": "เหมาะถ้ามีเวลาจำกัด/แวะระหว่างทางไป Hakone-Izu: ชินคันเซ็น → บัส → เดินสะพานถ่ายฟูจิ → กลับ · ข้ามเมืองออกไป",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "ชินคันเซ็น → Mishima → บัส",
+              "detail_th": "Kodama ~50 นาที + บัส ~25 นาทีถึงสะพาน",
+              "mode": "shinkansen",
+              "durationMin": 50
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "เดิน Mishima Skywalk",
+              "detail_th": "ข้ามสะพาน ถ่ายฟูจิ + อ่าว Suruga ครบในรอบเดียว",
+              "durationMin": 90
+            },
+            {
+              "time_th": "เที่ยง",
+              "title_th": "บัสกลับ + เดินทางต่อ",
+              "detail_th": "กลับสถานี Mishima ขึ้นชินคันเซ็นกลับ หรือต่อ Izu/Hakone",
+              "mode": "bus",
+              "durationMin": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ค่าเข้าสะพาน 1,100 เยน/คน (รวมเดินสะพาน + North/South Area) — กิจกรรม zipline/Long Zip Slide ต้องจ่ายเพิ่มแยกต่างหาก",
+    "สะพานอยู่บนสันเขา ลมแรงเป็นช่วงๆ โดยเฉพาะหน้าหนาว เตรียมเสื้อกันลม/หมวกที่ไม่ปลิว ระวังของหล่นลงหุบเขา",
+    "เห็นฟูจิหรือไม่ขึ้นกับสภาพอากาศ — เมฆบังบ่อยช่วงบ่าย/หน้าร้อน ไปเช้าฟ้าใสหน้าหนาวโอกาสเจอเต็มลูกสูงสุด",
+    "บัสจากสถานีมีแค่ ~1-2 เที่ยว/ชม. เช็ครอบเที่ยวกลับช่วงเย็นให้ดี อย่าตกรอบสุดท้าย"
+  ],
+  "sources": [
+    {
+      "label": "Mishima Skywalk — เว็บไซต์ทางการ",
+      "url": "https://mishima-skywalk.jp/"
+    },
+    {
+      "label": "Mishima — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6905.html"
+    },
+    {
+      "label": "Mishima Taisha — JNTO",
+      "url": "https://www.japan.travel/en/spot/715/"
+    }
+  ],
+  "tags_th": [
+    "ฟูจิวิว",
+    "สะพานแขวน",
+    "day-trip",
+    "ชินคันเซ็น",
+    "ถ่ายรูป",
+    "เมืองน้ำใส"
+  ],
+  "food": [
+    {
+      "name": "อูนางิ (ปลาไหลย่าง)",
+      "name_jp": "うなぎ",
+      "emoji": "🍱",
+      "note_th": "ของขึ้นชื่อเมือง Mishima น้ำใสทำให้ปลาไหลเนื้อสะอาด ไร้กลิ่นโคลน ร้านดังหลายเจ้าในเมือง"
+    },
+    {
+      "name": "มิชิมะโครกเกะ",
+      "name_jp": "三島コロッケ",
+      "emoji": "🥔",
+      "note_th": "โครกเกะมันฝรั่งพันธุ์ท้องถิ่น Mishima bareisho ของกินเล่นริมทาง"
+    },
+    {
+      "name": "วาซาบิสด",
+      "name_jp": "山葵",
+      "emoji": "🌿",
+      "note_th": "แถบ Izu/Shizuoka น้ำใสปลูกวาซาบิคุณภาพดี"
+    }
+  ]
+}

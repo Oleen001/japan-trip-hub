@@ -1,0 +1,486 @@
+{
+  "slug": "mitsutoge",
+  "name": {
+    "en": "Mt. Mitsutoge",
+    "th": "ภูเขามิสึโทเงะ",
+    "jp": "三ツ峠"
+  },
+  "region": "Chubu",
+  "prefecture": "Yamanashi",
+  "coords": {
+    "lat": 35.55,
+    "lng": 138.81
+  },
+  "category": [
+    "mountain",
+    "nature"
+  ],
+  "tagline_th": "ยอด 1,785 ม. จุดชมฟูจิคลาสสิกที่สุดที่ช่างภาพหมายปอง — ฟูจิเต็มตาแบบโปสการ์ด แลกกับ hike ขึ้น ~3-4 ชม.",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_%40_Summit_of_Mount_Mitsutoge_%40_Hike_to_Mount_Mitsutoge_%40_Yamanashi_(14111531705).jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons (CC)",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_in_the_morning_%40_Hike_to_Mount_Mitsutoge_%40_Yamanashi_(13924952710).jpg?width=1600"
+  },
+  "difficultyFromTokyo": 3,
+  "access": {
+    "summary_th": "นั่งรถไฟจากโตเกียวถึง Mitsutoge Station ได้สบาย (~2 ชม.) — Fuji Excursion ตรง หรือ Chuo Line + ต่อ Fujikyuko ที่ Otsuki — แต่จุดยากคือต้อง 'เดินขึ้นเขาเอง' ~3-4 ชม. จากสถานี (ไม่มีกระเช้า) ถึงยอดที่เห็นฟูจิเต็มตา",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Fuji Excursion (ตรงสุด) + Fujikyuko Line",
+        "detail_th": "ชินจูกุ → train (Fuji Excursion limited express) → Otsuki → train (Fujikyuko Line) → Mitsutoge Station → เดินขึ้นเขา ~3-4 ชม. ถึงยอด",
+        "durationMin": 230,
+        "costYen": 3290,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟด่วน",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดินขึ้นเขา",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Otsuki Station",
+            "mode": "train",
+            "line_th": "Fuji Excursion (รถด่วนพิเศษ ที่นั่งจองล่วงหน้าทั้งขบวน)",
+            "durationMin": 60,
+            "costYen": 2400,
+            "note_th": "ทั้งขบวนเป็นที่นั่งจอง — ต้องซื้อตั๋วด่วนพิเศษก่อนขึ้น (จองล่วงหน้าได้) · ค่านี้รวมตั๋วโดยสาร JR ชินจูกุ→Otsuki + ค่าธรรมเนียมด่วนพิเศษ · มีไม่กี่เที่ยว/วัน เช็ครอบ"
+          },
+          {
+            "from": "Otsuki Station",
+            "to": "Mitsutoge Station",
+            "mode": "train",
+            "line_th": "Fujikyuko Line (รถไฟท้องถิ่นเอกชน)",
+            "durationMin": 25,
+            "costYen": 890,
+            "note_th": "Fujikyuko เป็นรถเอกชน คิดค่าโดยสารแยกจาก JR (Otsuki→Mitsutoge 890 เยน) · บาง Fuji Excursion วิ่งยาวเข้าสาย Fujikyuko ถึง Kawaguchiko โดยไม่ต้องต่อ แต่ Mitsutoge อยู่ก่อนถึง"
+          },
+          {
+            "from": "Mitsutoge Station",
+            "to": "ยอด Mt. Kaiun (1,785 ม.)",
+            "mode": "walk",
+            "line_th": "เดินขึ้นเขา (ผ่าน trailhead) ~3-4 ชม.",
+            "durationMin": 210,
+            "costYen": 0,
+            "note_th": "ออกจากสถานีเดินตามถนน ~3 กม. ถึงปากทาง (trailhead) แล้วเข้าป่าเดินขึ้น · ไม่มีกระเช้า ต้องเดินเองล้วน · ขาลงเร็วกว่า ~2-2.5 ชม."
+          }
+        ]
+      },
+      {
+        "mode": "JR Chuo Line (Rapid) + ต่อ Fujikyuko ที่ Otsuki (ถูกกว่า)",
+        "detail_th": "ชินจูกุ → train (Chuo Line Rapid/Special Rapid) → Otsuki → train (Fujikyuko Line) → Mitsutoge Station → เดินขึ้นเขา ~3-4 ชม.",
+        "durationMin": 250,
+        "costYen": 2300,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดินขึ้นเขา",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Otsuki Station",
+            "mode": "train",
+            "line_th": "JR Chuo Line (Rapid / Chuo Special Rapid)",
+            "durationMin": 90,
+            "costYen": 1340,
+            "note_th": "รถธรรมดาไม่ต้องจองที่นั่ง ประหยัดกว่า Fuji Excursion · บางขบวนต้องต่อที่ Takao/Otsuki · ออกบ่อยกว่าด่วนพิเศษ"
+          },
+          {
+            "from": "Otsuki Station",
+            "to": "Mitsutoge Station",
+            "mode": "train",
+            "line_th": "Fujikyuko Line (รถไฟท้องถิ่นเอกชน)",
+            "durationMin": 25,
+            "costYen": 890,
+            "note_th": "ต่อรถเอกชน Fujikyuko (890 เยน) · ~2 เที่ยว/ชม. เช็คตารางให้ต่อกับ Chuo ได้พอดี"
+          },
+          {
+            "from": "Mitsutoge Station",
+            "to": "ยอด Mt. Kaiun (1,785 ม.)",
+            "mode": "walk",
+            "line_th": "เดินขึ้นเขา (ผ่าน trailhead) ~3-4 ชม.",
+            "durationMin": 210,
+            "costYen": 0,
+            "note_th": "เดินถนน ~3 กม. ถึงปากทาง แล้วเข้าป่าขึ้นยอด · ขาลง ~2-2.5 ชม. · ไป-กลับวันเดียวได้ถ้าออกเช้า รวม ~7-8 ชม. เดิน"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ฟูจิใสสุด ธ.ค.-ก.พ.",
+      "months": [
+        12,
+        1,
+        2
+      ],
+      "note_th": "อากาศฤดูหนาวแห้งใส ฟูจิคมชัดที่สุด มีหิมะคลุมยอดสวย — แต่เทรลมีน้ำแข็ง/หิมะ ต้องมี crampon + ประสบการณ์เดินเขาหน้าหนาว"
+    },
+    {
+      "label": "ใบไม้แดง ปลาย ต.ค.-พ.ย.",
+      "months": [
+        10,
+        11
+      ],
+      "note_th": "koyo ตามเทรลและรอบ Kawaguchiko ปลาย ต.ค.-ต้น พ.ย. ฟูจิเริ่มมีหิมะหัว ฟ้าใสขึ้นเรื่อยๆ เป็นช่วงถ่ายรูปสวย"
+    },
+    {
+      "label": "ใบไม้ผลิ-ต้นฤดูร้อน เม.ย.-มิ.ย.",
+      "months": [
+        4,
+        5,
+        6
+      ],
+      "note_th": "ป่าเขียวสด อากาศกำลังเดินสบาย หิมะละลายแล้ว — แต่ฟ้าอาจมีหมอก/เมฆบังฟูจิบ่อยกว่าหน้าหนาว"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ฟ้าใสเห็นฟูจิ",
+      "type": "snow",
+      "startFrac": 0.92,
+      "endFrac": 1.0,
+      "note_th": "ธ.ค. ฟ้าแห้งใส ฟูจิคมชัดสุด (ต่อเนื่องต้นปี)"
+    },
+    {
+      "zone": "ฟ้าใสเห็นฟูจิ (ต้นปี)",
+      "type": "snow",
+      "startFrac": 0.0,
+      "endFrac": 0.16,
+      "note_th": "ม.ค.-ก.พ. อากาศหนาวแห้ง ฟูจิชัด แต่เทรลมีน้ำแข็ง"
+    },
+    {
+      "zone": "ใบไม้แดงรอบเขา",
+      "type": "koyo",
+      "startFrac": 0.81,
+      "endFrac": 0.9,
+      "note_th": "ปลาย ต.ค.-ต้น พ.ย. koyo + ฟูจิเริ่มมีหิมะ"
+    },
+    {
+      "zone": "ป่าเขียวเดินสบาย",
+      "type": "green",
+      "startFrac": 0.33,
+      "endFrac": 0.5,
+      "note_th": "พ.ค.-มิ.ย. ป่าเขียว หิมะละลาย"
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าหลักคือเดินทาง ส่วน hike ฟรี (ไม่มีค่ากระเช้า) ทำให้ถูกกว่าภูเขามีกระเช้า",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (Chuo + Fujikyuko)",
+        "yen": 4460,
+        "thb": 1026,
+        "note_th": "ชินจูกุ↔Mitsutoge ไป-กลับ แบบ Chuo Rapid (ประหยัด) · ใช้ Fuji Excursion เพิ่มอีก ~2,000 เยน/เที่ยว ถ้าอยากนั่งสบายมีที่จอง"
+      },
+      {
+        "label_th": "น้ำ/อาหารกลางทาง + ของกินบนยอด",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "เตรียมน้ำขึ้นเขาเอง 1.5-2 ลิตร + ของว่าง · มี Mitsutoge Sanso บนยอดขายเครื่องดื่ม/ของกินบ้าง"
+      },
+      {
+        "label_th": "อาหารมื้อหลัก (เมือง/ก่อน-หลังเดิน)",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "ข้าว/เส้นแถวสถานีหรือ Kawaguchiko ตอนลง"
+      },
+      {
+        "label_th": "เผื่อ (อุปกรณ์/ขนม/ของฝาก)",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "ถุงมือ/หมวกกันแดด หน้าหนาวเผื่อเช่า/ซื้อ crampon"
+      }
+    ],
+    "totalYen": 8460,
+    "totalThb": 1946,
+    "ranges": {
+      "lowThb": 1400,
+      "midThb": 2000,
+      "highThb": 3200
+    }
+  },
+  "pois": [
+    {
+      "name": "Mt. Kaiun Summit (ยอด 1,785 ม.)",
+      "icon": "mountains",
+      "durationMin": 60,
+      "blurb_th": "ยอดสูงสุดของมิสึโทเงะ ฟูจิเต็มตาแบบโปสการ์ด จุดถ่ายรูปในตำนาน",
+      "deepDive_th": "ยอด Mt. Kaiun (開運山) สูง 1,785 ม. เป็นจุดสูงสุดของกลุ่มสามยอด 'มิสึโทเงะ' และเป็นหนึ่งใน viewpoint ฟูจิที่ 'คลาสสิกที่สุด' ของญี่ปุ่น — ช่างภาพมาตั้งขาตั้งกล้องรอแสงเช้า/พระอาทิตย์ขึ้นหลังฟูจิกันเป็นประจำ · จากยอดเห็นฟูจิตั้งตระหง่านเต็มหน้าแบบไม่มีอะไรบัง พร้อมเทือก Southern Alps และ Misaka อยู่ไกลออกไป · มีหลักหินสลัก '三ツ峠' ให้ถ่ายคู่กับฟูจิ · วันฟ้าใส (โดยเฉพาะหน้าหนาว) คือช่วงที่ภาพออกมาสวยที่สุด",
+      "location_th": "ยอดสูงสุด 1,785 ม.",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Mitsutoge_(Peak).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_%40_Summit_of_Mount_Mitsutoge_%40_Hike_to_Mount_Mitsutoge_%40_Yamanashi_(14111531705).jpg?width=1600"
+      }
+    },
+    {
+      "name": "Fuji View from Summit (วิวฟูจิจากยอด)",
+      "icon": "camera",
+      "blurb_th": "ฟูจิเต็มหน้าไม่มีอะไรบัง เหตุผลหลักที่คนยอมเดินขึ้น",
+      "deepDive_th": "ไฮไลต์ของทั้งเขาคือ 'วิวฟูจิ' — จากแนวยอดมิสึโทเงะ ฟูจิตั้งอยู่ตรงหน้าระยะใกล้พอดี เห็นทรงกรวยสมมาตรเต็มลูกตั้งแต่ฐานถึงยอด หาที่บังยากมาก จึงเป็นสปอตที่ขึ้นปกหนังสือ/โปสการ์ดบ่อย · ช่วงเช้าตรู่อากาศนิ่งที่สุด ฟูจิคมชัดและมักไร้เมฆคาดยอด — หลายคนค้างคืนที่ Mitsutoge Sanso เพื่อรอแสงเช้า/พระอาทิตย์ขึ้น · หน้าหนาวฟ้าแห้งใสภาพคมสุด แต่ก็หนาวและเทรลมีน้ำแข็ง",
+      "location_th": "ตลอดแนวยอด/จุดชมวิว",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_in_the_morning_%40_Hike_to_Mount_Mitsutoge_%40_Yamanashi_(13924952710).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_%40_Hike_to_Mount_Mitsutoge_%40_Yamanashi_(13924940630).jpg?width=1600"
+      }
+    },
+    {
+      "name": "Byobu-iwa (ผาร็อกไคลม์มิ่ง)",
+      "icon": "compass",
+      "blurb_th": "ผาหินสูงใกล้ยอด สนาม rock climbing ยอดนิยมของภูมิภาค",
+      "deepDive_th": "Byobu-iwa (屏風岩) 'ผาฉากพับ' เป็นหน้าผาหินตั้งชันใกล้ยอด Mt. Kaiun เป็นหนึ่งในสนามฝึก rock climbing ที่มีชื่อที่สุดแถบรอบฟูจิ มีนักปีนผามาฝึกเป็นประจำ · เส้นเดินขึ้นยอดจะผ่านฐานผานี้ คนเดินทั่วไปแค่แวะดู/ถ่ายรูปได้ (ไม่ต้องปีน) ส่วนการปีนจริงต้องมีอุปกรณ์+ทักษะ · เป็นจุดที่ทำให้มิสึโทเงะดังในหมู่นักปีนเขา ไม่ใช่แค่นักถ่ายภาพฟูจิ",
+      "location_th": "ใกล้ยอด ก่อนถึง Mt. Kaiun",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_%40_Hike_to_Mount_Mitsutoge_%40_Yamanashi_(13924940630).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC) — ภาพช่วง hike ขึ้นมิสึโทเงะ (ใช้แทนผา Byobu-iwa)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_%40_Summit_of_Mount_Mitsutoge_%40_Hike_to_Mount_Mitsutoge_%40_Yamanashi_(14111531705).jpg?width=1600"
+      }
+    },
+    {
+      "name": "เส้นเทรลขึ้นเขา (ป่าสนซีดาร์)",
+      "icon": "trees",
+      "durationMin": 210,
+      "blurb_th": "เดิน ~3-4 ชม. จากสถานี ผ่านถนน → ป่าสนซีดาร์/บีช ชันเป็นช่วง",
+      "deepDive_th": "เส้นมาตรฐานจาก Mitsutoge Station: ~3 กม. แรกเดินตามถนนถึงปากทาง (trailhead) แล้วเข้าป่าเป็นทางดินรากไม้สลับหินชันเป็นช่วงๆ ผ่านป่าสนซีดาร์และบีชเย็นชื้น · รวมขึ้นยอด ~3-4 ชม. ขาลง ~2-2.5 ชม. (ไป-กลับวันเดียวได้ถ้าออกเช้า รวม ~7-8 ชม. เดิน) · มีจุดนั่งพักวิวฟูจิเป็นระยะ · ต้องการความฟิตพอควรและรองเท้าเดินป่า — เป็นเหตุผลที่ระดับความยากจากโตเกียวสูงกว่าภูเขามีกระเช้า",
+      "location_th": "Mitsutoge Station → ยอด",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Trail_to_Lake_Kawaguchiko_%40_Hike_to_Mount_Mitsutoge_%40_Yamanashi_(13924765499).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_%40_Summit_of_Mount_Mitsutoge_%40_Hike_to_Mount_Mitsutoge_%40_Yamanashi_(14111531705).jpg?width=1600"
+      }
+    },
+    {
+      "name": "Mitsutoge Station (จุดตั้งต้น)",
+      "icon": "compass",
+      "blurb_th": "สถานีรถไฟ Fujikyuko หลังคาแดงเล็กๆ จุดเริ่มเดินขึ้นเขา",
+      "deepDive_th": "Mitsutoge Station (三つ峠駅) สถานีบนสาย Fujikyuko หลังคากระเบื้องแดงดูคลาสสิก เป็นจุดตั้งต้นของเส้น hike มาตรฐานขึ้นยอด · จากสถานีเดินตามถนนไปปากทาง ~3 กม. (บางคนเรียกแท็กซี่ช่วงนี้ประหยัดแรง) · รอบสถานีมีร้านสะดวกซื้อ/ร้านอาหารไม่มาก เตรียมน้ำ-เสบียงมาก่อนได้เปรียบ · สาย Fujikyuko วิ่งต่อไป Kawaguchiko ทำให้ลงเขาฝั่งทะเลสาบแล้วเที่ยวต่อ Kawaguchiko ได้",
+      "location_th": "สาย Fujikyuko ก่อนถึง Kawaguchiko",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fuji-Kyuko-Mitsutoge-Station-01.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitsutoge-STA.jpg?width=1600"
+      }
+    }
+  ],
+  "routeFlow": [
+    {
+      "name": "Mitsutoge Station",
+      "elevationM": 600,
+      "modeToNext": "walk",
+      "modeDetail_th": "เดินถนน ~3 กม. ถึงปากทาง"
+    },
+    {
+      "name": "Trailhead (ปากทางเข้าป่า)",
+      "elevationM": 830,
+      "modeToNext": "walk",
+      "modeDetail_th": "เข้าป่าเดินขึ้น ~2.5-3 ชม."
+    },
+    {
+      "name": "Byobu-iwa / Mitsutoge Sanso",
+      "elevationM": 1700,
+      "modeToNext": "walk",
+      "modeDetail_th": "ต่ออีก ~15 นาทีถึงยอด"
+    },
+    {
+      "name": "Mt. Kaiun Summit",
+      "elevationM": 1785
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip เดินขึ้น-ลงวันเดียว (ออกเช้าตรู่)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "ขึ้นยอดเก็บวิวฟูจิ แล้วลงกลับในวันเดียว",
+          "detail_th": "ออกชินจูกุเช้าตรู่ (Fuji Excursion หรือ Chuo Line ต่อ Fujikyuko ที่ Otsuki) → ลง Mitsutoge Station → เดินถนน ~3 กม. ถึงปากทาง → ขึ้นป่าผ่าน Byobu-iwa ~3-4 ชม. ถึงยอด Mt. Kaiun เก็บวิวฟูจิเต็มตา → ลงเขา ~2-2.5 ชม. → กลับโตเกียวเย็น · ต้องออกเช้าและเช็ครอบรถไฟกลับ อย่าให้ลงเขามืด",
+          "steps": [
+            {
+              "time_th": "~06:30",
+              "title_th": "ออกชินจูกุ → Mitsutoge Station",
+              "detail_th": "Fuji Excursion ตรง หรือ Chuo Line ต่อ Fujikyuko ที่ Otsuki",
+              "mode": "train",
+              "durationMin": 120
+            },
+            {
+              "time_th": "~08:45",
+              "title_th": "เดินถนนไป trailhead",
+              "detail_th": "จากสถานี ~3 กม. ถึงปากทางเข้าป่า (หรือเรียกแท็กซี่ช่วงนี้)",
+              "mode": "walk",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "ขึ้นป่าสู่ยอด",
+              "detail_th": "ทางดิน/หินชันเป็นช่วง ผ่านป่าสนซีดาร์ มีจุดพักวิวฟูจิ",
+              "mode": "walk",
+              "durationMin": 180
+            },
+            {
+              "time_th": "~12:30",
+              "title_th": "ยอด Mt. Kaiun + Byobu-iwa",
+              "detail_th": "เก็บวิวฟูจิเต็มตา ถ่ายรูปหลักหิน 三ツ峠 พักกินข้าว",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~13:30",
+              "title_th": "ลงเขา",
+              "detail_th": "ขาลงเร็วกว่า ~2-2.5 ชม. กลับ Mitsutoge Station",
+              "mode": "walk",
+              "durationMin": 150
+            },
+            {
+              "time_th": "~16:30",
+              "title_th": "กลับโตเกียว",
+              "detail_th": "Fujikyuko → Otsuki → Chuo/Fuji Excursion เข้าชินจูกุ · เช็ครอบรถไฟกลับล่วงหน้า",
+              "mode": "train",
+              "durationMin": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง 1 คืนบนยอด (รอแสงเช้า/พระอาทิตย์ขึ้น)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "วัน 1 — เดินขึ้น ค้าง Mitsutoge Sanso",
+          "detail_th": "ออกโตเกียวสาย → Mitsutoge Station → เดินขึ้นยอดช่วงบ่าย (ไม่ต้องรีบ) → เช็คอินเรือนพักบนยอด Mitsutoge Sanso → เก็บฟูจิยามเย็น/พระอาทิตย์ตก",
+          "steps": [
+            {
+              "time_th": "เช้า-สาย",
+              "title_th": "โตเกียว → Mitsutoge Station",
+              "mode": "train",
+              "durationMin": 120
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "เดินขึ้นยอด",
+              "detail_th": "ขึ้นแบบไม่เร่ง ~3-4 ชม. ผ่าน Byobu-iwa",
+              "mode": "walk",
+              "durationMin": 210
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "ค้าง Mitsutoge Sanso + ฟูจิยามเย็น",
+              "detail_th": "เรือนพักบนยอด มีห้องน้ำ/ขายของ · ดูฟูจิตอนแสงทอง"
+            }
+          ]
+        },
+        {
+          "title_th": "วัน 2 — พระอาทิตย์ขึ้นหลังฟูจิ แล้วลง",
+          "detail_th": "ตื่นก่อนฟ้าสาง รอแสงเช้า/พระอาทิตย์ขึ้นหลังฟูจิ (ช่วงที่ภาพสวยสุด) → เดินลงเขา ~2-2.5 ชม. → ลง Mitsutoge หรือเดินทะลุฝั่ง Kawaguchiko เที่ยวต่อ → กลับโตเกียว",
+          "steps": [
+            {
+              "time_th": "~05:00",
+              "title_th": "แสงเช้า/พระอาทิตย์ขึ้น",
+              "detail_th": "ฟ้านิ่งสุด ฟูจิคมชัด — ไฮไลต์ของการค้างคืน"
+            },
+            {
+              "time_th": "เช้า",
+              "title_th": "ลงเขา",
+              "detail_th": "ลง Mitsutoge หรือทะลุไป Kawaguchiko",
+              "mode": "walk",
+              "durationMin": 150
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "กลับโตเกียว",
+              "mode": "train",
+              "durationMin": 120
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ไม่มีกระเช้า — ต้องเดินขึ้นเองล้วน ~3-4 ชม. (รวมไป-กลับ ~7-8 ชม.) ต้องมีความฟิต รองเท้าเดินป่า และน้ำเพียงพอ 1.5-2 ลิตร",
+    "เทรลชันเป็นช่วง พื้นเป็นรากไม้/หินลื่นง่ายช่วงฝนหรือหลังฝน ระวังลื่น — ขาลงเป็นจุดที่บาดเจ็บบ่อย",
+    "สภาพอากาศบนเขาเปลี่ยนเร็วมาก เช็คพยากรณ์อากาศภูเขาก่อนออก ฟูจิอาจถูกเมฆบังได้แม้ในเมืองฟ้าใส",
+    "หน้าหนาว (ตั้งแต่ พ.ย.) เทรลมีน้ำแข็ง/หิมะ ต้องมี crampon และประสบการณ์เดินเขาฤดูหนาว มือใหม่ไม่ควรขึ้นช่วงนี้",
+    "วางแผนรอบรถไฟกลับล่วงหน้า โดยเฉพาะ Fuji Excursion ที่เป็นที่นั่งจองและมีไม่กี่เที่ยว/วัน — อย่าให้ลงเขามืดแล้วตกรถ"
+  ],
+  "sources": [
+    {
+      "label": "Mt Mitsutoge: Lake Kawaguchiko hike with a Fuji view — emgoto",
+      "url": "https://www.emgoto.com/mt-mitsutoge/"
+    },
+    {
+      "label": "Climb Mount Mitsutoge for views of Mount Fuji — My Nihon",
+      "url": "https://mynihonblog.com/2020/11/10/mitsutoge/"
+    },
+    {
+      "label": "Mount Mitsutoge (1,785m) — Yamakei Online",
+      "url": "https://en.yamakei-online.com/yamanavi/yama.php?yama_id=392"
+    },
+    {
+      "label": "FUJI EXCURSION — Fujikyu Railway",
+      "url": "https://e.fujikyu-railway.jp/fujikaiyuu/"
+    }
+  ],
+  "tags_th": [
+    "ภูเขา",
+    "วิวฟูจิ",
+    "hike",
+    "ถ่ายรูป",
+    "ใกล้ Kawaguchiko"
+  ],
+  "food": [
+    {
+      "name": "โฮโตะ",
+      "name_jp": "ほうとう",
+      "emoji": "🍲",
+      "note_th": "เส้นแบนต้มมิโซะกับฟักทอง/ผัก อาหารถิ่นยามานาชิ กินอุ่นๆ หลังลงเขา"
+    },
+    {
+      "name": "โยชิดะ อุด้ง",
+      "name_jp": "吉田うどん",
+      "emoji": "🍜",
+      "note_th": "อุด้งเส้นแข็งเหนียวสไตล์ฟูจิ-โยชิดะ ขึ้นชื่อแถบเชิงฟูจิ"
+    },
+    {
+      "name": "ของกินบนยอด (Mitsutoge Sanso)",
+      "name_jp": "山小屋",
+      "emoji": "☕",
+      "note_th": "เรือนพักบนยอดมีเครื่องดื่มร้อน/ของกินเบาๆ ขายระหว่างพักชมฟูจิ"
+    }
+  ]
+}

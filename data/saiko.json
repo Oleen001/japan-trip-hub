@@ -1,0 +1,453 @@
+{
+  "slug": "saiko",
+  "name": {
+    "en": "Lake Saiko & Aokigahara",
+    "th": "ทะเลสาบไซโกะ",
+    "jp": "西湖・青木ヶ原"
+  },
+  "region": "Chubu",
+  "prefecture": "Yamanashi",
+  "coords": {
+    "lat": 35.5,
+    "lng": 138.68
+  },
+  "category": [
+    "lake",
+    "nature"
+  ],
+  "tagline_th": "ทะเลสาบฟูจิที่เงียบสงบกว่า Kawaguchiko — หมู่บ้านมุงจากวิวฟูจิ + ป่า Sea of Trees + ถ้ำลาวา/ถ้ำน้ำแข็ง",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Fuji%20view%20from%20Saiko%20Iyashi%20no%20Sato%20Nenba%20-%20Oct%2031%2C%202024.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Iyashinosato%20village%2004.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "นั่ง Fuji Excursion (รถไฟด่วนพิเศษตรงจากชินจูกุ ~2 ชม.) หรือ highway bus ถึง Kawaguchiko ก่อน แล้วต่อ Saiko Aokigahara Retro Bus (สายเขียว) รอบทะเลสาบไซโกะ จอด Iyashino-Sato, ถ้ำลม, ถ้ำน้ำแข็ง — แนะนำซื้อ pass บัสไม่จำกัดเที่ยว เพราะจุดเที่ยวกระจายรอบทะเลสาบ",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Fuji Excursion (รถไฟด่วนตรง) + Retro Bus",
+        "detail_th": "ชินจูกุ → Fuji Excursion (limited express ตรง ไม่ต้องต่อ) → Kawaguchiko Station → Saiko Aokigahara Retro Bus (สายเขียว) → จุดเที่ยวรอบทะเลสาบไซโกะ",
+        "durationMin": 160,
+        "costYen": 5330,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟด่วน",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Kawaguchiko Station",
+            "mode": "train",
+            "line_th": "JR/Fujikyu — Limited Express Fuji Excursion (ตรง ไม่ต้องต่อ)",
+            "durationMin": 115,
+            "costYen": 4130,
+            "note_th": "ที่นั่งสำรองล่วงหน้าเท่านั้น (reserved only) ~4 รอบ/วัน จองก่อนช่วง koyo จะเต็มเร็ว · ราคารวมค่าโดยสาร+ค่าด่วน ~4,130-4,200 เยน"
+          },
+          {
+            "from": "Kawaguchiko Station",
+            "to": "Saiko Iyashino-Sato Nenba / รอบทะเลสาบไซโกะ",
+            "mode": "bus",
+            "line_th": "Saiko Aokigahara Excursion Retro Bus (สายเขียว)",
+            "durationMin": 45,
+            "costYen": 1200,
+            "note_th": "ออกจาก Terminal 1 หน้าสถานี ~ทุก 30 นาที · จอด Iyashino-Sato (Healing Village), Bat Cave, Wind Cave, Ice Cave · แนะนำ pass บัสไม่จำกัดเที่ยว (2 วัน) แทนตั๋วเดี่ยว เพราะต้องขึ้น-ลงหลายจุด"
+          }
+        ]
+      },
+      {
+        "mode": "Highway Bus (ถูกสุด) + Retro Bus",
+        "detail_th": "Shinjuku Bus Terminal (Busta) → highway bus ตรง → Kawaguchiko Station → Saiko Aokigahara Retro Bus (สายเขียว) → จุดเที่ยวรอบทะเลสาบไซโกะ",
+        "durationMin": 150,
+        "costYen": 3400,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "bus",
+            "label_th": "บัสทางด่วน",
+            "icon": "bus"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Bus Terminal (Busta Shinjuku)",
+            "to": "Kawaguchiko Station",
+            "mode": "bus",
+            "line_th": "Fujikyu / Keio Highway Bus (ตรง)",
+            "durationMin": 105,
+            "costYen": 2200,
+            "note_th": "~2 เที่ยว/ชม. ถูกกว่ารถไฟครึ่งหนึ่ง · จองล่วงหน้าออนไลน์ได้ ช่วง weekend/koyo รถติดอาจช้ากว่าตาราง"
+          },
+          {
+            "from": "Kawaguchiko Station",
+            "to": "Saiko Iyashino-Sato Nenba / รอบทะเลสาบไซโกะ",
+            "mode": "bus",
+            "line_th": "Saiko Aokigahara Excursion Retro Bus (สายเขียว)",
+            "durationMin": 45,
+            "costYen": 1200,
+            "note_th": "ออกจาก Terminal 1 หน้าสถานี ~ทุก 30 นาที · pass บัสไม่จำกัดเที่ยวคุ้มกว่าถ้าเที่ยวหลายจุด"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง ต.ค.-พ.ย.",
+      "months": [
+        10,
+        11
+      ],
+      "note_th": "ปลาย ต.ค.-กลาง พ.ย. ใบไม้แดงรอบทะเลสาบไซโกะ + เทศกาล Fuji Kawaguchiko Momiji Corridor ใกล้ๆ คนน้อยกว่าฝั่ง Kawaguchiko หลัก"
+    },
+    {
+      "label": "เขียวสด+ฟูจิชัด เม.ย.-มิ.ย.",
+      "months": [
+        4,
+        5,
+        6
+      ],
+      "note_th": "ป่าเขียวสด อากาศใส มีโอกาสเห็นยอดฟูจิชัดจาก Iyashino-Sato · หน้าร้อนยังเย็นสบายในป่า Aokigahara"
+    },
+    {
+      "label": "ถ้ำน้ำแข็งสวย ฤดูหนาว",
+      "months": [
+        1,
+        2,
+        3
+      ],
+      "note_th": "ถ้ำน้ำแข็ง Narusawa เสาน้ำแข็งหนาสุดช่วงปลายหนาว-ต้นใบไม้ผลิ · บนพื้นที่หนาว เตรียมเสื้อกันหนาวหนา"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "รอบทะเลสาบไซโกะ",
+      "type": "koyo",
+      "startFrac": 0.79,
+      "endFrac": 0.9,
+      "note_th": "ใบไม้แดงปลาย ต.ค.-กลาง พ.ย."
+    },
+    {
+      "zone": "ป่า Aokigahara",
+      "type": "green",
+      "startFrac": 0.33,
+      "endFrac": 0.66,
+      "note_th": "ป่าเขียวสด เม.ย.-ส.ค."
+    },
+    {
+      "zone": "ถ้ำน้ำแข็ง Narusawa",
+      "type": "snow",
+      "startFrac": 0.0,
+      "endFrac": 0.25,
+      "note_th": "เสาน้ำแข็งหนาสุด ม.ค.-มี.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ใช้ Fuji Excursion + Retro Bus pass · เลือก highway bus แทนรถไฟจะถูกลง ~1,900 เยน",
+    "items": [
+      {
+        "label_th": "Fuji Excursion ไป-กลับ (ชินจูกุ↔Kawaguchiko)",
+        "yen": 8260,
+        "thb": 1900,
+        "note_th": "ด่วนตรง reserved ~4,130/เที่ยว · ใช้ highway bus แทนเหลือ ~4,400 ไป-กลับ"
+      },
+      {
+        "label_th": "Retro Bus pass (2 วัน ไม่จำกัดเที่ยว)",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "Kawaguchiko+Saiko+Narusawa area · คุ้มกว่าตั๋วเดี่ยวถ้าเที่ยวหลายจุด"
+      },
+      {
+        "label_th": "ค่าเข้า Iyashino-Sato + ถ้ำ 2 แห่ง",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "Iyashino-Sato 500 + ตั๋วรวมถ้ำลม+ถ้ำน้ำแข็ง 500 เยน"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "houtou (บะหมี่แบนซุปมิโซะ) + คาเฟ่ในหมู่บ้าน"
+      },
+      {
+        "label_th": "ของฝาก/เวิร์กช็อปงานคราฟต์",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "เวิร์กช็อปย้อมผ้า/ปั้นในเรือนมุงจาก Iyashino-Sato"
+      }
+    ],
+    "totalYen": 13760,
+    "totalThb": 3165,
+    "ranges": {
+      "lowThb": 1800,
+      "midThb": 3200,
+      "highThb": 5000
+    }
+  },
+  "pois": [
+    {
+      "name": "Saiko Iyashino-Sato Nenba",
+      "icon": "building",
+      "durationMin": 120,
+      "blurb_th": "หมู่บ้านมุงจากฟื้นฟู ~20 หลัง ฉากหลังเป็นภูเขาฟูจิ",
+      "deepDive_th": "Saiko Iyashino-Sato Nenba (西湖いやしの里根場 — 'หมู่บ้านเยียวยาแห่งเนนบะ') เคยเป็นหมู่บ้านมุงจาก gassho แท้ๆ ริมทะเลสาบไซโกะที่ถูกดินถล่มจากไต้ฝุ่นปี 1966 ทำลายไปเกือบหมด · ภายหลังเทศบาล Fujikawaguchiko บูรณะเรือนมุงจากขึ้นใหม่ราว 20 หลังให้เหมือนภาพหมู่บ้านญี่ปุ่นดั้งเดิม โดยมียอดฟูจิเป็นฉากหลังตรงๆ เป็นจุดถ่ายรูปที่สวยที่สุดจุดหนึ่งของฝั่งไซโกะ · แต่ละเรือนเปิดเป็นพิพิธภัณฑ์เล็ก แกลเลอรี ร้านงานคราฟต์ท้องถิ่น และเวิร์กช็อป (ย้อมผ้า/ปั้น/ทำของที่ระลึก) · ค่าเข้าผู้ใหญ่ 500 เยน เดินชิลครึ่งวัน เหมาะคนชอบบรรยากาศย้อนยุค+วิวฟูจิแบบไม่แออัด",
+      "location_th": "ริมทะเลสาบไซโกะฝั่งตะวันตก",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Iyashinosato%20village%2004.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Fuji%20view%20from%20Saiko%20Iyashi%20no%20Sato%20Nenba%20-%20Oct%2031%2C%202024.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Lake Saiko",
+      "icon": "water",
+      "blurb_th": "ทะเลสาบฟูจิที่เงียบสงบ คนน้อย เหมาะแคมป์/คายัก/ตกปลา",
+      "deepDive_th": "Lake Saiko (西湖) หนึ่งใน Fuji Five Lakes ที่เล็กและเงียบสงบที่สุด อยู่ระดับน้ำเดียวกับ Lake Shoji และ Lake Motosu (ใต้ดินเชื่อมกัน เคยเป็นทะเลสาบเดียวก่อนลาวาฟูจิแบ่งแยก) · ไม่มีร้านค้า/โรงแรมหนาแน่นแบบ Kawaguchiko จึงเหมาะคนหนีฝูงนักท่องเที่ยว — รอบทะเลสาบมีจุดแคมป์ปิ้ง เช่าคายัก/SUP ตกปลา (เป็นจุด wakasagi ขึ้นชื่อ) · จากฝั่งเหนือบางจุดเห็นยอดฟูจิสะท้อนผิวน้ำในวันลมสงบ · บรรยากาศรีแลกซ์ ดื่มด่ำธรรมชาติแบบช้าๆ",
+      "location_th": "Fuji Five Lakes ฝั่งตะวันตกของ Kawaguchiko",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saiko%20lake%202022%20Aug%2027%205PM.jpeg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/038%20Mount%20Fuji%20and%20Aokigahara%20forest%20(Japan)%20at%20sunrise%20Photo%20by%20Giles%20Laurent.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Aokigahara (Sea of Trees)",
+      "icon": "trees",
+      "durationMin": 60,
+      "blurb_th": "ป่าดึกดำบรรพ์บนพื้นลาวา พื้นมอสหนา รากไม้บิดเกาะหิน",
+      "deepDive_th": "Aokigahara Jukai (青木ヶ原樹海 — 'ทะเลแห่งต้นไม้') ป่าทึบที่ขึ้นบนลานลาวาจากการปะทุครั้งใหญ่ของฟูจิปี ค.ศ. 864 · พื้นเป็นหินลาวาปกคลุมมอสหนา ต้นไม้หยั่งรากบิดเกาะหินตื้นๆ ดูดึกดำบรรพ์มาก เงียบจนได้ยินเสียงตัวเอง · มีเส้นเดินป่าปูทางชัดเจน (nature trail) เชื่อมถ้ำลม-ถ้ำน้ำแข็ง เดินสบายราว 1 ชม. ปลอดภัยถ้าอยู่บนเส้นทาง · ป่ามีชื่อเสียงด้านมืดเรื่องการฆ่าตัวตาย แต่สำหรับนักท่องเที่ยวคือการเดินป่าธรรมชาติบนธรณีวิทยาภูเขาไฟที่หาดูยาก",
+      "location_th": "ระหว่างทะเลสาบไซโกะ–โชจิ ตีนฟูจิฝั่งเหนือ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aokigahara%20Forest%20(10863169686).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/038%20Mount%20Fuji%20and%20Aokigahara%20forest%20(Japan)%20at%20sunrise%20Photo%20by%20Giles%20Laurent.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Narusawa Ice Cave",
+      "icon": "water",
+      "durationMin": 30,
+      "blurb_th": "ถ้ำลาวาน้ำแข็ง อุณหภูมิต่ำตลอดปี เสาน้ำแข็งสีฟ้า",
+      "deepDive_th": "Narusawa Ice Cave (鳴沢氷穴) ถ้ำลาวาทรงดิ่งลึก เกิดจากลาวาฟูจิปี 864 · อุณหภูมิในถ้ำต่ำกว่า 0-3°C เกือบตลอดปี ในอดีตใช้เป็นตู้เย็นธรรมชาติเก็บไหมและเมล็ดพันธุ์ · ไฮไลต์คือเสาน้ำแข็ง (ice pillar) ที่ก่อตัวจากหยดน้ำแข็งตัว สวยสุดช่วง ม.ค.-เม.ย. มีไฟส่องสีฟ้าให้บรรยากาศ · ทางเดินลงบันไดชันและเตี้ยมาก บางช่วงต้องก้มย่อ พื้นลื่นมีน้ำแข็ง เดินวนสั้นๆ ~15-20 นาที · ตั๋วรวมเข้าถ้ำลม Fugaku ได้ในใบเดียว 500 เยน เดินถึงกันได้",
+      "location_th": "ตีนฟูจิ ใกล้ทางหลวง 139 (จุดจอด Retro Bus)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lighting-uped%20Narusawa%20Ice%20Cave.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fugaku%20fuketsu%20-%20Walking%20in%20the%20cave.jpg?width=900"
+      }
+    },
+    {
+      "name": "Fugaku Wind Cave",
+      "icon": "mountains",
+      "durationMin": 25,
+      "blurb_th": "ถ้ำลมลาวา ผนังดูดเสียง อุณหภูมิเฉลี่ย ~3°C ทั้งปี",
+      "deepDive_th": "Fugaku Wind Cave (富岳風穴) ถ้ำลาวาแนวนอนในป่า Aokigahara เกิดจากการปะทุปี 864 เช่นกัน · อุณหภูมิเฉลี่ยราว 3°C ตลอดปี ในอดีตใช้เป็นห้องเย็นธรรมชาติเก็บไหมและเมล็ดพันธุ์ มีชั้นวางก้อนน้ำแข็งให้เห็น · ผนังลาวามีคุณสมบัติดูดซับเสียง (ไม่มีเสียงสะท้อน) · ทางเดินในถ้ำราบและกว้างกว่าถ้ำน้ำแข็ง เดินง่ายกว่า ~15-20 นาที · เดินจากถ้ำน้ำแข็ง Narusawa ผ่านเส้นทางป่า Aokigahara ราว 20 นาที ใช้ตั๋วรวมใบเดียวกัน",
+      "location_th": "ในป่า Aokigahara ห่างถ้ำน้ำแข็งเดิน ~20 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fugaku%20fuketsu%20-%20Walking%20in%20the%20cave.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lighting-uped%20Narusawa%20Ice%20Cave.jpg?width=900"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip รอบไซโกะ (หมู่บ้าน + ป่า + ถ้ำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เก็บไฮไลต์ฝั่งไซโกะในวันเดียว",
+          "detail_th": "ออกชินจูกุเช้าด้วย Fuji Excursion → ถึง Kawaguchiko ซื้อ Retro Bus pass → นั่งสายเขียวไป Saiko Iyashino-Sato เดินชมหมู่บ้านมุงจาก+วิวฟูจิ → กินกลางวัน houtou → ต่อบัสไปถ้ำน้ำแข็ง Narusawa → เดินเส้น Aokigahara nature trail ~20 นาทีไปถ้ำลม Fugaku → กลับ Kawaguchiko → Fuji Excursion กลับโตเกียวเย็น",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "ออกชินจูกุ → Kawaguchiko",
+              "detail_th": "Fuji Excursion ด่วนตรง (จองที่นั่งล่วงหน้า)",
+              "mode": "train",
+              "durationMin": 115
+            },
+            {
+              "time_th": "~10:15",
+              "title_th": "Retro Bus → Iyashino-Sato",
+              "detail_th": "ซื้อ bus pass ที่ Terminal 1 → สายเขียว Saiko Line",
+              "mode": "bus",
+              "durationMin": 40
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "Saiko Iyashino-Sato Nenba",
+              "detail_th": "เดินชมหมู่บ้านมุงจาก+ฟูจิ เวิร์กช็อปงานคราฟต์ ค่าเข้า 500 เยน",
+              "durationMin": 120
+            },
+            {
+              "time_th": "~13:00",
+              "title_th": "กลางวัน houtou",
+              "detail_th": "บะหมี่แบนซุปมิโซะ ของถิ่นยามานาชิ",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~14:00",
+              "title_th": "บัสไปถ้ำน้ำแข็ง Narusawa",
+              "detail_th": "Retro Bus สายเขียวลงจุดถ้ำน้ำแข็ง",
+              "mode": "bus",
+              "durationMin": 20
+            },
+            {
+              "time_th": "~14:30",
+              "title_th": "Narusawa Ice Cave",
+              "detail_th": "เสาน้ำแข็งสีฟ้า ลงบันไดชันต้องก้ม (ตั๋วรวมถ้ำลม 500 เยน)",
+              "durationMin": 30
+            },
+            {
+              "time_th": "~15:15",
+              "title_th": "เดิน Aokigahara → Fugaku Wind Cave",
+              "detail_th": "เส้น nature trail ในป่า Sea of Trees ~20 นาที → ถ้ำลม",
+              "mode": "walk",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~16:30",
+              "title_th": "บัสกลับ Kawaguchiko",
+              "detail_th": "Retro Bus สายเขียว กลับสถานี",
+              "mode": "bus",
+              "durationMin": 40
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "Fuji Excursion กลับชินจูกุ",
+              "detail_th": "เช็ครอบสุดท้าย (reserved) อย่าตกรอบ",
+              "mode": "train",
+              "durationMin": 115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง 1 คืน ชิลๆ (ไซโกะ + Kawaguchiko)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "วันแรก — ฝั่งไซโกะเงียบสงบ",
+          "detail_th": "ถึง Kawaguchiko ช่วงเที่ยง → Retro Bus ไป Iyashino-Sato ชมหมู่บ้านมุงจาก → เดินป่า Aokigahara + ถ้ำลม/ถ้ำน้ำแข็ง → เย็นแช่ออนเซ็นริมทะเลสาบ ค้างฝั่งไซโกะหรือ Kawaguchiko",
+          "steps": [
+            {
+              "time_th": "เที่ยง",
+              "title_th": "ถึง Kawaguchiko → Iyashino-Sato",
+              "detail_th": "Retro Bus สายเขียว",
+              "mode": "bus",
+              "durationMin": 45
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "หมู่บ้านมุงจาก + ป่า + ถ้ำ",
+              "detail_th": "Iyashino-Sato → Aokigahara trail → ถ้ำลม/ถ้ำน้ำแข็ง",
+              "durationMin": 240
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "ออนเซ็น + ค้างคืน",
+              "detail_th": "แช่ออนเซ็นวิวทะเลสาบ พักผ่อน"
+            }
+          ]
+        },
+        {
+          "title_th": "วันสอง — ทะเลสาบ + กลับ",
+          "detail_th": "เช้าเดินเล่นริมทะเลสาบไซโกะ/เช่าคายัก ถ่ายรูปฟูจิสะท้อนน้ำ → กลับ Kawaguchiko ช้อปของฝาก → รถไฟ/บัสกลับโตเกียวบ่าย",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "ริมทะเลสาบไซโกะ",
+              "detail_th": "เดินเล่น/คายัก ถ่ายฟูจิสะท้อนน้ำวันลมสงบ",
+              "durationMin": 120
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "กลับโตเกียว",
+              "detail_th": "Fuji Excursion หรือ highway bus จาก Kawaguchiko",
+              "mode": "train",
+              "durationMin": 115
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ป่า Aokigahara: เดินเฉพาะบนเส้นทางที่ปูไว้เท่านั้น อย่าออกนอกเส้นเด็ดขาด — ป่าทึบมาก หลงง่าย และพื้นลาวาทำให้เข็มทิศ/GPS เพี้ยนได้ในบางจุด",
+    "ถ้ำน้ำแข็ง Narusawa บันไดชัน เพดานเตี้ยต้องก้มย่อ พื้นลื่นมีน้ำแข็ง ระวังหัวชนและลื่น ไม่เหมาะคนกลัวที่แคบ/เข่าไม่ดี",
+    "จุดเที่ยวกระจายรอบทะเลสาบและบัสมาทุก 30 นาที — วางแผนรอบบัสให้ดี เผื่อเวลารอ และเช็ครอบ Fuji Excursion เที่ยวสุดท้าย (reserved ตกรอบแล้วยุ่ง)",
+    "ในถ้ำหนาวตลอดปี (~3°C หรือต่ำกว่า) เตรียมเสื้อกันหนาวแม้ไปหน้าร้อน"
+  ],
+  "sources": [
+    {
+      "label": "Fuji Five Lakes — Access & Transport (Japan Guide)",
+      "url": "https://www.japan-guide.com/e/e6905.html"
+    },
+    {
+      "label": "Saiko Iyashi no Sato Nenba — Yamanashi Official",
+      "url": "https://www.yamanashi-kankou.jp/english/explore-by-area/fujisan-fujigoko/saiko-iyashi-no-sato-nenba.html"
+    },
+    {
+      "label": "Iyashi no Sato — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6923.html"
+    },
+    {
+      "label": "Fuji Five Lakes Caves — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6911.html"
+    },
+    {
+      "label": "Fuji Excursion — Fujikyu Railway",
+      "url": "https://e.fujikyu-railway.jp/fujikaiyuu/"
+    }
+  ],
+  "tags_th": [
+    "ทะเลสาบฟูจิ",
+    "หมู่บ้านมุงจาก",
+    "ป่าลาวา",
+    "ถ้ำน้ำแข็ง",
+    "เงียบสงบ",
+    "ใบไม้แดง"
+  ],
+  "food": [
+    {
+      "name": "โฮโตะ",
+      "name_jp": "ほうとう",
+      "emoji": "🍜",
+      "note_th": "บะหมี่เส้นแบนหนาในซุปมิโซะใส่ฟักทอง อาหารถิ่นยามานาชิ"
+    },
+    {
+      "name": "ปลาวากาซางิทอด",
+      "name_jp": "わかさぎ",
+      "emoji": "🐟",
+      "note_th": "ปลาตัวเล็กจากทะเลสาบไซโกะ ทอดกรอบ"
+    },
+    {
+      "name": "ดังโงะย่าง",
+      "name_jp": "団子",
+      "emoji": "🍡",
+      "note_th": "ของว่างในหมู่บ้าน Iyashino-Sato จิบชาเขียว"
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "slug": "matsushima",
+  "name": {
+    "en": "Matsushima",
+    "th": "มัตสึชิมะ",
+    "jp": "松島"
+  },
+  "region": "Tohoku",
+  "prefecture": "Miyagi",
+  "coords": {
+    "lat": 38.37,
+    "lng": 141.06
+  },
+  "category": [
+    "coast",
+    "nature"
+  ],
+  "tagline_th": "1 ใน 3 วิวสวยที่สุดของญี่ปุ่น — อ่าวเงียบสงบที่มีเกาะสนเล็กๆ กว่า 260 เกาะลอยอยู่ ล่องเรือชมอ่าว + วัด Zuiganji เก่าแก่ ไปจากโตเกียวด้วยชินคันเซ็นตรง ~2-2.5 ชม.",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Miyagi-Landscape_of_cherry_blossoms_and_Matsushima_Bay-xl.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/211030_Saigyo_Modoshi_no_Matsu_Park_Matsushima_Miyagi_pref_Japan01n.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 3,
+  "access": {
+    "summary_th": "ไกลกว่าปลายทางอื่นในลิสต์ แต่ไม่ยุ่งยาก — Tohoku Shinkansen จากโตเกียวถึง Sendai ~1.5 ชม. (Hayabusa) แล้วต่อ JR Senseki Line ไป Matsushima-Kaigan อีก ~40 นาที รวม ~2-2.5 ชม. นั่งยาวต่อเดียวจริงๆ · ไป-กลับวันเดียวได้แต่เหนื่อย แนะนำรวมกับเที่ยว Sendai หรือค้าง 1 คืน",
+    "jrPassWorth": true,
+    "options": [
+      {
+        "mode": "Tohoku Shinkansen (Hayabusa) + JR Senseki Line",
+        "detail_th": "Tokyo → shinkansen (Hayabusa) → Sendai → train (JR Senseki Line) → Matsushima-Kaigan",
+        "durationMin": 135,
+        "costYen": 11630,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Sendai Station",
+            "mode": "shinkansen",
+            "line_th": "Tohoku Shinkansen (Hayabusa)",
+            "durationMin": 95,
+            "costYen": 11410,
+            "note_th": "Hayabusa เร็วสุด ~1.5 ชม. · ที่นั่งจองล่วงหน้าทั้งหมด (reserved-only) จองก่อนได้ · ราคา ~11,410 เยน (พื้นฐาน+ค่าด่วน reserved) · JR East/JR Pass ครอบคลุม Hayabusa"
+          },
+          {
+            "from": "Sendai Station",
+            "to": "Matsushima-Kaigan Station",
+            "mode": "train",
+            "line_th": "JR Senseki Line (ไป Ishinomaki)",
+            "durationMin": 40,
+            "costYen": 420,
+            "note_th": "รถไฟท้องถิ่นจากชั้นใต้ดินสถานี Sendai · ~2-3 เที่ยว/ชม. · ลงป้าย Matsushima-Kaigan (ไม่ใช่ Matsushima) ใกล้ท่าเรือ+Godaido ที่สุด"
+          }
+        ]
+      },
+      {
+        "mode": "Shinkansen + JR Tohoku Line (ประหยัด/ต่อ Zuiganji)",
+        "detail_th": "Tokyo → shinkansen (Hayabusa/Yamabiko) → Sendai → train (JR Tohoku Line) → Matsushima Station",
+        "durationMin": 140,
+        "costYen": 11580,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Sendai Station",
+            "mode": "shinkansen",
+            "line_th": "Tohoku Shinkansen (Hayabusa หรือ Yamabiko)",
+            "durationMin": 100,
+            "costYen": 11210,
+            "note_th": "Yamabiko ช้ากว่า Hayabusa เล็กน้อย (~1.7 ชม.) มีตู้ non-reserved ถูกกว่านิด · เลือก Hayabusa ถ้าเน้นเร็ว"
+          },
+          {
+            "from": "Sendai Station",
+            "to": "Matsushima Station",
+            "mode": "train",
+            "line_th": "JR Tohoku Line",
+            "durationMin": 25,
+            "costYen": 420,
+            "note_th": "ลงป้าย Matsushima (คนละสถานีกับ Matsushima-Kaigan) — ใกล้วัด Zuiganji แต่ไกลท่าเรือกว่า เดินเชื่อมกันได้ ~20 นาที · เหมาะถ้าจะเริ่มที่วัดก่อน"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "เกาะสนเขียวทั้งปี",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "note_th": "เกาะปกคลุมต้นสนเขียวตลอดทั้งปี วิวอ่าวสวยได้ทุกฤดู ไม่ต้องรอ peak เหมือนใบไม้แดง/ซากุระ"
+    },
+    {
+      "label": "ซากุระ กลาง-ปลาย เม.ย.",
+      "months": [
+        4
+      ],
+      "note_th": "Saigyo Modoshi no Matsu Park บนเนินมีซากุระบานคู่วิวเกาะในอ่าว เป็นช่วงสวยพิเศษ (รูป hero ถ่ายช่วงนี้)"
+    },
+    {
+      "label": "ออทั่มน์ + หอย ต.ค.-พ.ย.",
+      "months": [
+        10,
+        11
+      ],
+      "note_th": "อากาศใส ทะเลนิ่ง เหมาะล่องเรือ · เริ่มเข้าฤดูหอยนางรม Matsushima ตัวอ้วน"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "Saigyo Modoshi Park (ซากุระ)",
+      "type": "bloom",
+      "startFrac": 0.28,
+      "endFrac": 0.36,
+      "note_th": "ซากุระบานคู่วิวอ่าว กลาง-ปลาย เม.ย."
+    },
+    {
+      "zone": "เกาะสนในอ่าว",
+      "type": "green",
+      "startFrac": 0.0,
+      "endFrac": 1.0,
+      "note_th": "ต้นสนเขียวทั้งปี วิวสวยทุกฤดู"
+    },
+    {
+      "zone": "ฤดูหอยนางรม",
+      "type": "event",
+      "startFrac": 0.78,
+      "endFrac": 0.99,
+      "note_th": "หอยนางรม Matsushima ตัวอ้วน ต.ค.-ก.พ."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าชินคันเซ็นไป-กลับเป็นก้อนใหญ่สุด ถ้ามี JR Pass จะคุ้มทันที · รวมเที่ยว Sendai ในวันเดียวจะคุ้มค่าเดินทางกว่า",
+    "items": [
+      {
+        "label_th": "ชินคันเซ็น+รถไฟ ไป-กลับ (Tokyo↔Matsushima)",
+        "yen": 23260,
+        "thb": 5350,
+        "note_th": "Tohoku Shinkansen reserved ไป-กลับ + JR Senseki Line · ฟรีถ้ามี JR Pass / JR East Tohoku Pass"
+      },
+      {
+        "label_th": "ล่องเรือชมอ่าว",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "รอบมาตรฐาน ~50 นาที (Marubun / Niren) ราคา ~1,500 เยน"
+      },
+      {
+        "label_th": "ค่าเข้า Zuiganji + Godaido บริเวณ",
+        "yen": 700,
+        "thb": 161,
+        "note_th": "Zuiganji ~700 เยน · Godaido เดินชมรอบนอกฟรี"
+      },
+      {
+        "label_th": "อาหาร (หอยนางรม/gyutan)",
+        "yen": 2500,
+        "thb": 575,
+        "note_th": "หอยนางรมย่าง/ทอด ที่ Matsushima + ลิ้นวัวย่าง (gyutan) ที่ Sendai"
+      },
+      {
+        "label_th": "ของฝาก/จิปาถะ",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "ของที่ระลึก + ขนม zunda"
+      }
+    ],
+    "totalYen": 28960,
+    "totalThb": 6661,
+    "ranges": {
+      "lowThb": 2000,
+      "midThb": 6700,
+      "highThb": 9000
+    }
+  },
+  "pois": [
+    {
+      "name": "Matsushima Bay (260 islands viewpoint)",
+      "icon": "water",
+      "blurb_th": "อ่าวที่มีเกาะสนเล็กๆ กว่า 260 เกาะ — 1 ใน 3 วิวสวยที่สุดของญี่ปุ่น",
+      "deepDive_th": "Matsushima Bay (松島湾) อ่าวที่ติดอันดับ Nihon Sankei — 1 ใน 3 วิวที่งดงามที่สุดของญี่ปุ่น (คู่กับ Amanohashidate และ Miyajima) จุดเด่นคือเกาะหินเล็กๆ ที่ปกคลุมต้นสนกว่า 260 เกาะกระจายทั่วอ่าว ปั้นรูปทรงแปลกตาจากการกัดเซาะของคลื่นนับร้อยปี · จุดชมวิวมุมกว้างที่ดีที่สุดคือสวนบนเนินสี่ทิศ (Shidaikan) โดยเฉพาะ Saigyo Modoshi no Matsu Park ทางเหนือ มองเห็นเกาะลอยเรียงสุดสายตา และมีซากุระบานช่วง เม.ย. · ทะเลในอ่าวนิ่งมากเพราะเกาะช่วยกันคลื่น ทำให้บรรยากาศสงบเป็นเอกลักษณ์",
+      "location_th": "ทั่วอ่าว · จุดชมวิวบนเนินรอบเมือง",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/211030_Saigyo_Modoshi_no_Matsu_Park_Matsushima_Miyagi_pref_Japan01n.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Matsushima_20201227.jpg?width=900"
+      }
+    },
+    {
+      "name": "Bay Sightseeing Cruise",
+      "icon": "compass",
+      "durationMin": 50,
+      "blurb_th": "ล่องเรือชมอ่าว ~50 นาที แล่นเลาะเกาะสนทีละเกาะใกล้ๆ",
+      "deepDive_th": "ล่องเรือชมอ่าว (松島湾遊覧船) เป็นวิธีที่ดีที่สุดในการดูเกาะแต่ละเกาะใกล้ๆ — เรือออกจากท่าหน้าเมือง แล่นวนอ่าวรอบมาตรฐาน ~50 นาที ผ่านเกาะรูปทรงเด่นๆ ที่มีชื่อเสียง เช่น Niojima, Kanejima พร้อมบรรยายจุดต่างๆ · มีหลายบริษัท (Marubun, Niren) รอบทุก ~30-60 นาที ราคา ~1,500 เยน ชั้นบนเปิดโล่งถ่ายรูปสวย · บนเรือมักมีคนให้อาหารนกนางนวลที่บินตามเรือ (ช่วงไม่ใช่ฤดูหนาวอาจงด) · ทะเลนิ่งจึงไม่ค่อยเมาเรือ เหมาะทุกวัย",
+      "location_th": "ท่าเรือใกล้ Matsushima-Kaigan Station",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Japan%2C_sightseeing_boat_on_Matsushima_Bay_-_Oct_25%2C_2022_%281%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Matsushima_20201227.jpg?width=900"
+      }
+    },
+    {
+      "name": "Zuiganji Temple",
+      "icon": "building",
+      "durationMin": 60,
+      "blurb_th": "วัดเซนเก่าแก่ที่สุดของ Tohoku ทางเข้าเรียงต้นสนซีดาร์สูง",
+      "deepDive_th": "Zuiganji (瑞巌寺) วัดเซนนิกาย Rinzai ที่สำคัญและเก่าแก่ที่สุดแห่งหนึ่งของภูมิภาค Tohoku ก่อตั้งตั้งแต่ปี ค.ศ. 828 และบูรณะใหญ่โดยตระกูล Date Masamune ขุนศึกผู้ก่อตั้งเมือง Sendai · ตัวอาคารหลัก (Hondo) เป็นสมบัติชาติ ภายในตกแต่งภาพวาดบนบานเลื่อนทองอร่ามสไตล์ Momoyama · ทางเข้าเป็นถนนเรียงรายต้นสนซีดาร์ (cryptomeria) สูงตระหง่านสร้างบรรยากาศขลัง ข้างทางมีถ้ำหินที่พระเคยใช้ปฏิบัติธรรม · ค่าเข้า ~700 เยน อยู่ใกล้ Godaido เดินถึงกันได้",
+      "location_th": "ในเมือง ใกล้ Godaido เดิน ~5 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zuiganji_Temple_%2851964200554%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Matsushima%2C_Zuiganji_%282005%29_11.jpg?width=900"
+      }
+    },
+    {
+      "name": "Godaido",
+      "icon": "building",
+      "durationMin": 20,
+      "blurb_th": "ศาลาไม้บนเกาะเล็กกลางอ่าว สัญลักษณ์ของ Matsushima",
+      "deepDive_th": "Godaido (五大堂) ศาลาไม้หลังเล็กตั้งอยู่บนเกาะหินเล็กๆ ริมอ่าว เป็นสัญลักษณ์ภาพจำของ Matsushima · เดินเข้าได้โดยข้ามสะพานแดงเล็กๆ ที่พื้นมีช่องโปร่งเห็นทะเลด้านล่าง (สร้างให้คนเดินตั้งสติก่อนเข้าที่ศักดิ์สิทธิ์) · ตัวศาลาปัจจุบันสร้างใหม่ปี ค.ศ. 1604 โดย Date Masamune ประดับงานแกะสลักรูป 12 นักษัตรรอบชายคา · ชมรอบนอกฟรี เปิดให้ดูองค์พระข้างในเฉพาะรอบ 33 ปีครั้ง · จุดถ่ายรูปอยู่ใกล้ท่าเรือมาก แวะได้สะดวก",
+      "location_th": "เกาะริมอ่าว ใกล้ท่าเรือ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matsushima_Godaido_4.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/People_at_the_Godaido_in_Matsushima_01.jpg?width=900"
+      }
+    },
+    {
+      "name": "Fukuura Bridge & Island",
+      "icon": "trees",
+      "durationMin": 45,
+      "blurb_th": "สะพานแดงยาว 252 ม. ข้ามไปเกาะธรรมชาติ Fukuurajima",
+      "deepDive_th": "Fukuura Bridge (福浦橋) สะพานสีแดงสดยาว 252 เมตร ทอดข้ามทะเลไปยังเกาะ Fukuurajima เกาะธรรมชาติที่เป็นเหมือนสวนพฤกษศาสตร์ มีพืชพื้นเมืองกว่า 250 ชนิดและเส้นเดินป่าสั้นๆ รอบเกาะ · มีฉายาว่า 'สะพานพบรัก' (出会い橋) ตามความเชื่อว่าข้ามแล้วเสริมความสัมพันธ์ · ค่าข้ามสะพาน ~200 เยน · บนเกาะมีจุดชมวิวอ่าวมุมต่างจากฝั่ง เดินชิลในความเขียวสงบ ~30-45 นาที เหมาะหนีฝูงนักท่องเที่ยวริมเมือง",
+      "location_th": "ปลายเมืองด้านใต้ เดินจากท่าเรือ ~10 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukuura_Bridge_With_Fukuura_Island.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Matsushima Bay shoreline walk",
+      "icon": "camera",
+      "blurb_th": "เดินเลียบอ่าวเก็บมุมเกาะหินสน + ป้อมยาม Sendai เก่า",
+      "deepDive_th": "เส้นเดินเลียบชายฝั่งอ่าว (松島海岸) จากท่าเรือไปตามแนวน้ำ เก็บภาพเกาะหินที่มีต้นสนเกาะอยู่ใกล้ฝั่งหลายเกาะ น้ำใสนิ่งสะท้อนเงา · ระหว่างทางมีศาลาน้ำชา Kanrantei (観瀾亭) ศาลาชมคลื่นเก่าของตระกูล Date นั่งจิบมัทฉะมองอ่าวได้ · ช่วงเย็นแสงทองตกกระทบเกาะสวยเป็นพิเศษ เหมาะถ่ายรูปปิดท้ายวัน · เป็นกิจกรรมฟรีที่ทำได้ยืดหยุ่นระหว่างรอเรือหรือรถไฟเที่ยวถัดไป",
+      "location_th": "เลียบอ่าวหน้าเมือง",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matsushima_20201227.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/View_in_Matsushima_Bay_01.jpg?width=900"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip รวมกับ Sendai (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เช้า Matsushima + เย็น Sendai gyutan",
+          "detail_th": "ออกโตเกียวเช้าด้วย Hayabusa ถึง Sendai ~1.5 ชม. ต่อ Senseki Line ลง Matsushima-Kaigan → เริ่มที่ Godaido ริมอ่าว → ล่องเรือชมอ่าว ~50 นาที → เดินไป Zuiganji + Fukuura Bridge → กินหอยนางรมมื้อเที่ยง → บ่ายแก่กลับ Sendai เดินเล่น/กิน gyutan (ลิ้นวัวย่าง) เป็นมื้อเย็น → ชินคันเซ็นกลับโตเกียว · เก็บ 2 เมืองในวันเดียว คุ้มค่าเดินทาง",
+          "steps": [
+            {
+              "time_th": "~07:30",
+              "title_th": "โตเกียว → Sendai (Hayabusa)",
+              "detail_th": "Tohoku Shinkansen reserved จองที่นั่งล่วงหน้า ~1.5 ชม.",
+              "mode": "shinkansen",
+              "durationMin": 95
+            },
+            {
+              "time_th": "~09:10",
+              "title_th": "Sendai → Matsushima-Kaigan",
+              "detail_th": "JR Senseki Line จากชั้นใต้ดินสถานี Sendai",
+              "mode": "train",
+              "durationMin": 40
+            },
+            {
+              "time_th": "~10:00",
+              "title_th": "Godaido + ริมอ่าว",
+              "detail_th": "ข้ามสะพานแดงชมศาลาไม้สัญลักษณ์ เก็บภาพเกาะสน",
+              "durationMin": 40
+            },
+            {
+              "time_th": "~10:45",
+              "title_th": "ล่องเรือชมอ่าว",
+              "detail_th": "รอบมาตรฐาน ~50 นาที แล่นเลาะเกาะใกล้ๆ",
+              "mode": "ferry",
+              "durationMin": 50
+            },
+            {
+              "time_th": "~12:00",
+              "title_th": "Zuiganji + มื้อเที่ยงหอยนางรม",
+              "detail_th": "เดินชมวัดเซนทางเข้าเรียงต้นสนซีดาร์ แล้วกินหอยนางรมย่าง",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~13:45",
+              "title_th": "Fukuura Bridge & Island",
+              "detail_th": "ข้ามสะพานแดง 252 ม. เดินเกาะธรรมชาติชิลๆ",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~15:00",
+              "title_th": "กลับ Sendai",
+              "detail_th": "Senseki Line กลับเข้าเมือง Sendai",
+              "mode": "train",
+              "durationMin": 40
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "Sendai gyutan + กลับโตเกียว",
+              "detail_th": "กินลิ้นวัวย่างมื้อเย็นในเมือง แล้วชินคันเซ็นกลับ",
+              "mode": "shinkansen",
+              "durationMin": 95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง 1 คืน ชิลเต็มอ่าว",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — เกาะ + วัด + เรือ",
+          "detail_th": "ถึง Matsushima ช่วงสายแบบไม่รีบ → Godaido + ล่องเรือชมอ่าว → Zuiganji + Kanrantei จิบมัทฉะ → เย็นเดินเลียบอ่าวเก็บแสงทอง → เข้าพักเรียวกังริมทะเล กินหอยนางรมเต็มมื้อ แช่ออนเซ็น",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "โตเกียว → Matsushima",
+              "detail_th": "Hayabusa → Sendai → Senseki Line",
+              "mode": "shinkansen",
+              "durationMin": 135
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "Godaido + ล่องเรือ",
+              "detail_th": "ชมศาลาริมอ่าว แล้วลงเรือชมเกาะ",
+              "mode": "ferry",
+              "durationMin": 90
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Zuiganji + Kanrantei",
+              "detail_th": "วัดเซน + ศาลาชมคลื่นจิบมัทฉะ",
+              "durationMin": 120
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "เลียบอ่าว + เข้าพัก",
+              "detail_th": "เก็บแสงเย็น เข้าเรียวกัง กินหอยนางรม แช่ออนเซ็น"
+            }
+          ]
+        },
+        {
+          "title_th": "วันที่ 2 — จุดชมวิว + เกาะ Fukuura",
+          "detail_th": "เช้าขึ้นจุดชมวิว Saigyo Modoshi no Matsu Park เห็นเกาะเรียงทั้งอ่าว → เดิน Fukuura Bridge ชมเกาะธรรมชาติ → กลับเข้า Sendai แวะเที่ยว/ช้อปก่อนชินคันเซ็นกลับโตเกียวเย็น",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "Saigyo Modoshi viewpoint",
+              "detail_th": "เนินชมวิวเห็นเกาะสนเรียงสุดสายตา (ซากุระช่วง เม.ย.)",
+              "durationMin": 60
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "Fukuura Bridge & Island",
+              "detail_th": "ข้ามสะพานแดงเดินเกาะธรรมชาติ",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย-เย็น",
+              "title_th": "Sendai แล้วกลับโตเกียว",
+              "detail_th": "แวะเมือง Sendai → ชินคันเซ็นกลับ",
+              "mode": "shinkansen",
+              "durationMin": 135
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ไกลกว่าปลายทางอื่นในลิสต์ — แม้ชินคันเซ็นตรงแต่รวมต่อรถไฟแล้ว ~2-2.5 ชม. ต่อเที่ยว ไป-กลับวันเดียวเหนื่อย แนะนำรวมกับ Sendai หรือค้าง 1 คืน",
+    "มี 2 สถานีชื่อคล้ายกัน: Matsushima-Kaigan (Senseki Line, ใกล้ท่าเรือ+Godaido) กับ Matsushima (Tohoku Line, ใกล้ Zuiganji แต่ไกลอ่าว) — ลงผิดต้องเดินเชื่อม ~20 นาที เช็คให้ดีก่อนลง",
+    "ค่าชินคันเซ็นไป-กลับแพง (~23,000 เยน) ถ้าไม่มี JR Pass/JR East Tohoku Pass จะเป็นทริปที่แพงสุดในลิสต์ — คำนวณความคุ้มก่อน",
+    "Hayabusa เป็นขบวน reserved-only ทุกที่นั่ง ต้องจองล่วงหน้า ขึ้นแบบ non-reserved ไม่ได้",
+    "ช่วงวันหยุดยาว/Golden Week เมืองเล็กคนแน่นมาก เรือ+ร้านหอยนางรมคิวยาว ไปเช้าหรือจองล่วงหน้า"
+  ],
+  "sources": [
+    {
+      "label": "Matsushima — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e2444.html"
+    },
+    {
+      "label": "Matsushima — JNTO (Japan Travel)",
+      "url": "https://www.japan.travel/en/spot/716/"
+    },
+    {
+      "label": "Zuiganji Temple — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e2445.html"
+    }
+  ],
+  "tags_th": [
+    "วิวอ่าว",
+    "เกาะสน",
+    "ล่องเรือ",
+    "วัดเซน",
+    "1 ใน 3 วิวสวยสุด",
+    "Tohoku",
+    "หอยนางรม"
+  ],
+  "food": [
+    {
+      "name": "หอยนางรม Matsushima",
+      "name_jp": "牡蠣",
+      "emoji": "🦪",
+      "note_th": "อ่าว Matsushima เป็นแหล่งเลี้ยงหอยนางรมชั้นดี ย่าง/ทอด/บุฟเฟต์ อร่อยสุดช่วง ต.ค.-ก.พ."
+    },
+    {
+      "name": "ลิ้นวัวย่าง (gyutan)",
+      "name_jp": "牛タン",
+      "emoji": "🥩",
+      "note_th": "ของขึ้นชื่อเมือง Sendai ที่ผ่านระหว่างทาง — ย่างถ่านนุ่มหนึบ แวะกินตอนต่อรถที่ Sendai"
+    },
+    {
+      "name": "ขนมzunda",
+      "name_jp": "ずんだ",
+      "emoji": "🍡",
+      "note_th": "ถั่วแระบดหวานสีเขียวราดโมจิ/ใส่เชค ของถิ่น Miyagi/Sendai หาง่ายในสถานี"
+    },
+    {
+      "name": "สาสะกามาโบโกะ",
+      "name_jp": "笹かまぼこ",
+      "emoji": "🐟",
+      "note_th": "ลูกชิ้นปลาทรงใบไผ่ย่าง ของฝากขึ้นชื่อ Miyagi ซื้อกินร้อนๆ ตามร้านริมอ่าว"
+    }
+  ]
+}

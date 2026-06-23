@@ -1,0 +1,499 @@
+{
+  "slug": "akagi",
+  "name": {
+    "en": "Mt. Akagi",
+    "th": "ภูเขาอาคากิ",
+    "jp": "赤城山"
+  },
+  "region": "Kanto",
+  "prefecture": "Gunma",
+  "coords": {
+    "lat": 36.56,
+    "lng": 139.19
+  },
+  "category": [
+    "lake",
+    "mountain"
+  ],
+  "tagline_th": "ภูเขาไฟ caldera ใหญ่ที่ยอดเป็นทะเลสาบปากปล่อง Onuma — ล่องเรือ/พายเป็ดหน้าร้อน ตกปลาน้ำแข็งหน้าหนาว koyo ปลาย ต.ค. + ศาลเจ้ากลางน้ำสะพานแดง",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitsutsuki%20Bridge%2C%20Akagi%20Shrine%2C%20Maebashi%20-%20Oct%2010%2C%202008.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons (CC)",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Onuma%20%40%20Trail%20from%20Mount%20Kurobi%20to%20Lake%20Onuma%20%40%20Mount%20Akagi%20area%20%2814018440230%29.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 3,
+  "access": {
+    "summary_th": "ขึ้น Joetsu/Hokuriku Shinkansen จากโตเกียวถึง Takasaki (~50 นาที) ต่อ JR ไป Maebashi แล้วนั่งบัส Kanto Bus สาย Akagi-san ขึ้นยอดถึงทะเลสาบ Onuma (~1 ชม. 10 นาที) บัสน้อยเที่ยว/วัน เช็ครอบให้ดี — รวมเบ็ดเสร็จ ~2.5-3 ชม. ขึ้นได้แบบ day-trip แต่ค้าง 1 คืนสบายกว่า",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Shinkansen → Maebashi → Kanto Bus ขึ้นยอด (แนะนำ)",
+        "detail_th": "Tokyo → shinkansen (Joetsu/Hokuriku) → Takasaki → train (JR Ryomo Line) → Maebashi → bus (Kanto Bus สาย Akagi-san) → Akagi-san Visitor Center (Onuma)",
+        "durationMin": 175,
+        "costYen": 6610,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo / Ueno Station",
+            "to": "Takasaki Station",
+            "mode": "shinkansen",
+            "line_th": "Joetsu / Hokuriku Shinkansen (Toki / Tanigawa / Hakutaka)",
+            "durationMin": 50,
+            "costYen": 4490,
+            "note_th": "ไป-มาบ่อยทุก ~20-30 นาที · ค่าโดยสาร+ค่าธรรมเนียม non-reserved ~4,490 เยน · นั่งจาก Ueno ก็ได้ ถูกลงเล็กน้อย"
+          },
+          {
+            "from": "Takasaki Station",
+            "to": "Maebashi Station",
+            "mode": "train",
+            "line_th": "JR Ryomo Line (ในตัวเมือง Gunma)",
+            "durationMin": 15,
+            "costYen": 240,
+            "note_th": "ราว 2-3 ขบวน/ชม. · Maebashi เป็นจุดขึ้นบัส Akagi-san หลัก"
+          },
+          {
+            "from": "Maebashi Station (ป้ายบัสหน้า 6)",
+            "to": "Akagi-san Visitor Center (Onuma)",
+            "mode": "bus",
+            "line_th": "Kanto Bus สาย Akagi-san (Tomioka/直通)",
+            "durationMin": 70,
+            "costYen": 1880,
+            "note_th": "บัสน้อยเที่ยว/วัน (เสาร์-อาทิตย์/ฤดูท่องเที่ยวมีเสริม) · ทางขึ้นเขาคดเคี้ยว · เช็ครอบสุดท้ายลงเขาให้ดี · ฤดูหนาวบางช่วงงดวิ่งช่วงบน เช็คล่วงหน้า"
+          }
+        ]
+      },
+      {
+        "mode": "Shinkansen → บัสตรงจาก Maebashi (วันหยุด/ฤดูกาล)",
+        "detail_th": "Tokyo → shinkansen → Takasaki → train → Maebashi → bus ตรงขึ้น Onuma (รอบจำกัด เน้นเสาร์-อาทิตย์/ฤดู koyo+ตกปลาน้ำแข็ง)",
+        "durationMin": 165,
+        "costYen": 6610,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo / Ueno Station",
+            "to": "Takasaki Station",
+            "mode": "shinkansen",
+            "line_th": "Joetsu / Hokuriku Shinkansen",
+            "durationMin": 50,
+            "costYen": 4490,
+            "note_th": "เหมือน option แรก"
+          },
+          {
+            "from": "Takasaki Station",
+            "to": "Maebashi Station",
+            "mode": "train",
+            "line_th": "JR Ryomo Line",
+            "durationMin": 15,
+            "costYen": 240,
+            "note_th": "ต่อในตัวเมือง Gunma"
+          },
+          {
+            "from": "Maebashi Station",
+            "to": "Onuma (ยอด Akagi)",
+            "mode": "bus",
+            "line_th": "Kanto Bus สาย Akagi-san (รอบฤดูกาล)",
+            "durationMin": 60,
+            "costYen": 1880,
+            "note_th": "ช่วง koyo (ปลาย ต.ค.) และตกปลาน้ำแข็ง (ม.ค.-ก.พ.) มักมีรอบเสริม/รถพิเศษ · เช็คเว็บ Kanto Bus ล่วงหน้าเสมอ"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง ต.ค.",
+      "months": [
+        10
+      ],
+      "note_th": "koyo รอบทะเลสาบ Onuma + ศาลเจ้าสะพานแดง สวยช่วงกลาง-ปลาย ต.ค. (สูง ~1,300-1,800 ม. ใบเปลี่ยนเร็วกว่าพื้นราบ) เตรียมเสื้อกันหนาว"
+    },
+    {
+      "label": "ตกปลาน้ำแข็ง ม.ค.-ก.พ.",
+      "months": [
+        1,
+        2
+      ],
+      "note_th": "Onuma กลายเป็นน้ำแข็ง เปิดให้ตกปลา wakasagi (ปลาน้ำจืดตัวเล็ก) บนทะเลสาบแข็ง กิจกรรมหน้าหนาวขึ้นชื่อ — เช็คประกาศความหนาน้ำแข็งก่อน"
+    },
+    {
+      "label": "หนีร้อนเล่นน้ำ ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "ยอดเขาเย็นกว่าพื้นราบหลายองศา · ล่องเรือ/พายเป็ด/ตกปลาบน Onuma · เหมาะหนีร้อนโตเกียว"
+    },
+    {
+      "label": "ใบไม้ผลิ พ.ค.-มิ.ย.",
+      "months": [
+        5,
+        6
+      ],
+      "note_th": " azalea (tsutsuji) แถบ Akagi บานสวย ป่าเขียวอ่อน อากาศกำลังดีสำหรับเดินเขา Kurobi/Jizodake"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ทะเลสาบ Onuma",
+      "type": "koyo",
+      "startFrac": 0.78,
+      "endFrac": 0.88,
+      "note_th": "ใบไม้แดงรอบทะเลสาบกลาง-ปลาย ต.ค."
+    },
+    {
+      "zone": "Onuma แข็ง",
+      "type": "snow",
+      "startFrac": 0.02,
+      "endFrac": 0.16,
+      "note_th": "ตกปลาน้ำแข็ง wakasagi ม.ค.-ก.พ."
+    },
+    {
+      "zone": "azalea Akagi",
+      "type": "bloom",
+      "startFrac": 0.36,
+      "endFrac": 0.46,
+      "note_th": "tsutsuji บานปลาย พ.ค.-ต้น มิ.ย."
+    },
+    {
+      "zone": "ทะเลสาบฤดูร้อน",
+      "type": "green",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "เรือ/พายเป็ด เขียวสด ก.ค.-ส.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าหลักคือชินคันเซ็น+บัสขึ้นยอด ค้างคืนเพิ่มอีกราว 2,500-4,000 บาท",
+    "items": [
+      {
+        "label_th": "ชินคันเซ็นไป-กลับ (Tokyo↔Takasaki)",
+        "yen": 8980,
+        "thb": 2065,
+        "note_th": "Joetsu/Hokuriku Shinkansen non-reserved ไป-กลับ ~4,490 เยน/เที่ยว"
+      },
+      {
+        "label_th": "รถไฟ+บัสขึ้นยอดไป-กลับ",
+        "yen": 4240,
+        "thb": 975,
+        "note_th": "Takasaki↔Maebashi (JR) + Kanto Bus Maebashi↔Onuma ไป-กลับ"
+      },
+      {
+        "label_th": "กิจกรรม (เรือ/พายเป็ด หรือ ชุดตกปลาน้ำแข็ง)",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "พายเป็ด/เรือถีบรอบ Onuma หรือเช่าอุปกรณ์ตกปลา wakasagi หน้าหนาว"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "ร้านริมทะเลสาบ — udon/soba, ปลา wakasagi ทอด, ของอุ่นๆ"
+      },
+      {
+        "label_th": "ค่าเข้า/ของฝาก",
+        "yen": 800,
+        "thb": 184,
+        "note_th": "ทำบุญศาลเจ้า Akagi + ของที่ระลึก"
+      }
+    ],
+    "totalYen": 17520,
+    "totalThb": 4029,
+    "ranges": {
+      "lowThb": 2800,
+      "midThb": 4000,
+      "highThb": 7000
+    }
+  },
+  "pois": [
+    {
+      "name": "Lake Onuma (ทะเลสาบปากปล่อง)",
+      "icon": "water",
+      "durationMin": 90,
+      "blurb_th": "ทะเลสาบปากปล่องภูเขาไฟกลางยอด — เรือ/พายเป็ดหน้าร้อน ตกปลาน้ำแข็งหน้าหนาว",
+      "deepDive_th": "Lake Onuma (大沼) ทะเลสาบปากปล่อง (caldera lake) ที่ยอดภูเขาไฟ Akagi สูงราว 1,345 ม. เป็นหัวใจของยอดเขาทั้งหมด รอบทะเลสาบมีทางเดินเลียบน้ำ ร้านอาหาร ที่พัก และจุดขึ้นเดินเขายอดต่างๆ · หน้าร้อน (ก.ค.-ส.ค.) เป็นแหล่งเล่นน้ำคลายร้อนยอดนิยม มีเรือถีบ/พายเป็ดหงส์ ตกปลา และล่องเรือชมวิว · ปลาย ต.ค. ใบไม้รอบทะเลสาบเปลี่ยนเป็นสีแดง-ส้มสะท้อนผิวน้ำสวยมาก · หน้าหนาว (ม.ค.-ก.พ.) ผิวน้ำกลายเป็นน้ำแข็งหนา เปิดให้ตกปลา wakasagi บนทะเลสาบแข็ง เป็นกิจกรรมขึ้นชื่อของ Akagi",
+      "location_th": "ยอด Akagi ~1,345 ม.",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Onuma%20%40%20Trail%20from%20Mount%20Kurobi%20to%20Lake%20Onuma%20%40%20Mount%20Akagi%20area%20%2814018440230%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lakeside%20path%20near%20Lake%20Onuma%20%40%20Mount%20Akagi%20area%20%2814202601202%29.jpg?width=900"
+      }
+    },
+    {
+      "name": "Akagi Shrine (ศาลเจ้ากลางน้ำ)",
+      "icon": "building",
+      "durationMin": 40,
+      "blurb_th": "ศาลเจ้าบนคาบสมุทรเล็กกลางทะเลสาบ เชื่อมด้วยสะพานแดง Keyaki สวยมาก",
+      "deepDive_th": "Akagi Shrine (赤城神社) ศาลเจ้าโบราณบนคาบสมุทรเล็ก ๆ ที่ยื่นเข้าไปกลางทะเลสาบ Onuma เชื่อมต่อฝั่งด้วยสะพานสีแดง (Keyaki/啄木橋) ที่เป็นภาพไอคอนของ Akagi โดยเฉพาะช่วง koyo ที่ใบไม้แดงล้อมรอบและสะท้อนน้ำ · ศาลเจ้าบูชาเทพเจ้าแห่งภูเขา Akagi และเป็นที่นิยมขอพรเรื่องความรัก/คู่ครอง · บรรยากาศเงียบสงบ น้ำล้อมรอบ เดินจากฝั่งทะเลสาบ Onuma ถึงได้สบาย เหมาะเริ่มหรือปิดท้ายการเดินรอบทะเลสาบ",
+      "location_th": "คาบสมุทรกลาง Onuma",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Akagi%20Shrine%20%40%20Lake%20Onuma%20%40%20Trail%20from%20Mount%20Kurobi%20to%20Lake%20Onuma%20%40%20Mount%20Akagi%20area%20%2814181943776%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitsutsuki%20Bridge%2C%20Akagi%20Shrine%2C%20Maebashi%20-%20Oct%2010%2C%202008.jpg?width=900"
+      }
+    },
+    {
+      "name": "Mt. Kurobi (ยอดสูงสุด)",
+      "icon": "mountains",
+      "durationMin": 180,
+      "blurb_th": "ยอดสูงสุดของ Akagi 1,828 ม. เดินขึ้นจาก Onuma ~1.5 ชม. มีศาลเจ้าเล็กบนยอด",
+      "deepDive_th": "Mt. Kurobi (黒檜山) เป็นยอดสูงสุดของกลุ่มภูเขา Akagi ที่ความสูง 1,828 ม. เดินขึ้นจากฝั่งทะเลสาบ Onuma ราว 1.5 ชม. (ไป-กลับ ~3 ชม.) ทางช่วงต้นชันและเป็นหินก้อนใหญ่ ต้องใช้แรง · บนยอดมีลานหินกับ torii + ศาลเจ้าเล็ก และจุดชมวิวที่มองเห็นทะเลสาบ Onuma เบื้องล่าง รวมถึงเทือกเขา Alps ของญี่ปุ่นในวันฟ้าใส · เป็นหนึ่งใน 'ภูเขา 100 ลูกชื่อดังของญี่ปุ่น' (Hyakumeizan) นักเดินเขานิยมจับคู่กับยอด Komagatake เดินวงรอบ",
+      "location_th": "ยอดเหนือของ Onuma 1,828 ม.",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Summit%20of%20Mount%20Kurobi%20%40%20Mount%20Akagi%20area%20%2814181932036%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)"
+      }
+    },
+    {
+      "name": "Kakumanbuchi Marsh",
+      "icon": "trees",
+      "durationMin": 40,
+      "blurb_th": "พื้นที่ชุ่มน้ำเล็กข้าง Onuma มี boardwalk เดินชมพืชน้ำ ดอกไม้ตามฤดู",
+      "deepDive_th": "Kakumanbuchi (覚満淵) พื้นที่ชุ่มน้ำ (marsh) เล็ก ๆ อยู่ติดกับทะเลสาบ Onuma มักถูกเรียกว่า 'Oze จิ๋ว' เพราะมีทางเดิน boardwalk ไม้เลียบบึงให้เดินวนรอบ ~30-40 นาที ชมพืชน้ำ กก และดอกไม้ป่าตามฤดู · ฤดูร้อนเขียวสด ฤดูใบไม้ร่วงหญ้าและต้นไม้รอบบึงเปลี่ยนสีทอง-แดง สะท้อนผิวน้ำสวย · ทางราบเรียบ เดินสบายทุกวัย เหมาะแทรกระหว่างกิจกรรมรอบ Onuma",
+      "location_th": "ติด Onuma ใกล้ Visitor Center",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kakumanbuchi%20Marsh%20%40%20Mount%20Akagi%20area%20%2814205109065%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)"
+      }
+    },
+    {
+      "name": "เส้นเดินเลียบทะเลสาบ Onuma",
+      "icon": "trees",
+      "durationMin": 60,
+      "blurb_th": "ทางเดินรอบทะเลสาบ ป่าเงียบ วิวน้ำ-ภูเขา ราบเรียบเดินสบาย",
+      "deepDive_th": "เส้นเดินเลียบทะเลสาบ Onuma เป็นทางเดินป่าราบเรียบที่วนรอบ/เลียบริมทะเลสาบ ผ่านป่าไม้เงียบสงบ จุดชมวิวผิวน้ำตัดกับยอด Kurobi และ Jizodake · เดินครบรอบใช้เวลาราว 1-1.5 ชม. (เลือกเดินบางช่วงได้) เหมาะคนที่อยากซึมซับธรรมชาติแบบไม่ต้องปีนเขา · ช่วง koyo ปลาย ต.ค. ทั้งเส้นเต็มไปด้วยใบไม้แดง-ส้ม เป็นไฮไลต์การเดินที่สวยที่สุด ส่วนหน้าร้อนร่มรื่นเย็นสบาย",
+      "location_th": "รอบทะเลสาบ Onuma",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lakeside%20path%20near%20Lake%20Onuma%20%40%20Mount%20Akagi%20area%20%2814202601202%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)"
+      }
+    },
+    {
+      "name": "Otome Falls",
+      "icon": "water",
+      "durationMin": 20,
+      "blurb_th": "น้ำตกเล็กในป่าเขต Akagi ทางเดินสั้นแวะชมระหว่างทาง",
+      "deepDive_th": "Otome Falls (はね滝 / น้ำตกฮาเนะ) น้ำตกเล็กในเขตป่าภูเขา Akagi สายน้ำกระจายเป็นม่านขาวบนหน้าผาหินสีเข้ม ล้อมรอบด้วยป่าไม้ บรรยากาศเย็นชื้นสงบ · เป็นจุดแวะสั้น ๆ ระหว่างทางขึ้น/ลงเขา เดินเข้าถึงไม่ไกล เหมาะคนชอบน้ำตกเล็กแบบธรรมชาติดิบ ไม่พลุกพล่าน · เสริมความหลากหลายให้ทริปนอกเหนือจากทะเลสาบและยอดเขา",
+      "location_th": "เขตป่า Akagi (ระหว่างทาง)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Otome%20Falls%20%28Mount%20Akagi%29%20-%20%E3%81%AF%E3%81%AD%E6%BB%9D%20-%20panoramio.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ยอดเขา + ทะเลสาบ (วันเดียว)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เช้า-เย็น เก็บไฮไลต์รอบ Onuma",
+          "detail_th": "ออกโตเกียวเช้า ชินคันเซ็นถึง Takasaki → ต่อรถไฟไป Maebashi → บัส Kanto ขึ้นยอด Onuma → เดินเลียบทะเลสาบ + ข้ามสะพานแดงไป Akagi Shrine → ถ้ามาหน้าร้อนเช่าเรือ/พายเป็ด, หน้าหนาวลองตกปลาน้ำแข็ง wakasagi → เดิน Kakumanbuchi Marsh → กินกลางวันริมทะเลสาบ → (ถ้าแรงดีและเวลาพอ ขึ้น Mt. Kurobi ~3 ชม. ไป-กลับ) → เช็ครอบบัสสุดท้ายลงเขา → กลับโตเกียวเย็น",
+          "steps": [
+            {
+              "time_th": "~07:30",
+              "title_th": "ออกโตเกียว → Takasaki",
+              "detail_th": "Joetsu/Hokuriku Shinkansen ~50 นาที",
+              "mode": "shinkansen",
+              "durationMin": 50
+            },
+            {
+              "time_th": "~08:40",
+              "title_th": "Takasaki → Maebashi",
+              "detail_th": "JR Ryomo Line ~15 นาที",
+              "mode": "train",
+              "durationMin": 15
+            },
+            {
+              "time_th": "~09:10",
+              "title_th": "บัสขึ้นยอด Onuma",
+              "detail_th": "Kanto Bus สาย Akagi-san ~70 นาที ทางคดเคี้ยว",
+              "mode": "bus",
+              "durationMin": 70
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "เดินเลียบ Onuma + Akagi Shrine",
+              "detail_th": "เดินริมทะเลสาบ ข้ามสะพานแดงไปศาลเจ้ากลางน้ำ",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~12:00",
+              "title_th": "กิจกรรมบนทะเลสาบ + อาหารกลางวัน",
+              "detail_th": "หน้าร้อน: เรือ/พายเป็ด · หน้าหนาว: ตกปลาน้ำแข็ง wakasagi · กินริมทะเลสาบ",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~13:30",
+              "title_th": "Kakumanbuchi Marsh",
+              "detail_th": "เดิน boardwalk รอบบึงเล็ก ~30-40 นาที",
+              "durationMin": 40
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Mt. Kurobi (ออปชั่นถ้าแรงดี)",
+              "detail_th": "ขึ้นยอดสูงสุด 1,828 ม. ไป-กลับ ~3 ชม. ข้ามได้ถ้าเวลาน้อย",
+              "durationMin": 180
+            },
+            {
+              "time_th": "~16:30",
+              "title_th": "บัสลงเขา → กลับโตเกียว",
+              "detail_th": "เช็ครอบบัสสุดท้ายให้ดี → Maebashi → Takasaki → ชินคันเซ็นกลับ",
+              "mode": "bus",
+              "durationMin": 70
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง 1 คืนริมทะเลสาบ (สบาย + เก็บครบ)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "วันแรก — ขึ้นยอด เดินรอบทะเลสาบ",
+          "detail_th": "ขึ้นยอดช่วงสาย เช็คอินที่พักริม Onuma → เดินเลียบทะเลสาบ + Akagi Shrine + Kakumanbuchi Marsh → กิจกรรมบนทะเลสาบ (เรือ/ตกปลา) → เย็นชมพระอาทิตย์ตก/ดาว บนยอดอากาศเย็นสบาย",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "โตเกียว → Onuma",
+              "detail_th": "ชินคันเซ็น → Maebashi → บัสขึ้นยอด",
+              "mode": "shinkansen",
+              "durationMin": 175
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "เดินรอบทะเลสาบ + ศาลเจ้า + บึง",
+              "detail_th": "Onuma lakeside + Akagi Shrine + Kakumanbuchi",
+              "durationMin": 180
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "พักริมทะเลสาบ",
+              "detail_th": "ที่พัก/ryokan ริม Onuma — ดาวสวย อากาศเย็น"
+            }
+          ]
+        },
+        {
+          "title_th": "วันสอง — ขึ้น Mt. Kurobi แล้วกลับ",
+          "detail_th": "เช้าขึ้น Mt. Kurobi ยอดสูงสุด 1,828 ม. ชมวิวทะเลสาบจากบน → ลงมาแวะ Otome Falls → กินกลางวัน → บัสลงเขา → กลับโตเกียวบ่าย",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "ขึ้น Mt. Kurobi",
+              "detail_th": "ยอดสูงสุด ไป-กลับ ~3 ชม. วิวทะเลสาบ+Alps",
+              "durationMin": 180
+            },
+            {
+              "time_th": "เที่ยง",
+              "title_th": "Otome Falls + อาหารกลางวัน",
+              "detail_th": "แวะน้ำตกเล็กระหว่างทาง",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "บัสลง → กลับโตเกียว",
+              "mode": "bus",
+              "durationMin": 175
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "บัส Kanto Bus ขึ้นยอด Akagi มีน้อยเที่ยว/วัน และบางช่วงฤดูหนาวงดวิ่งช่วงบน — เช็คตารางล่าสุดและรอบสุดท้ายลงเขาให้ดี อย่าตกรอบ",
+    "ยอดเขาสูง 1,300-1,800 ม. หนาวกว่าโตเกียวมาก โดยเฉพาะเช้า-เย็นและฤดูหนาว เตรียมเสื้อกันหนาว/รองเท้ากันลื่น",
+    "ตกปลาน้ำแข็งบน Onuma เปิดเฉพาะเมื่อน้ำแข็งหนาพอและทางการประกาศปลอดภัย — ห้ามลงเองพลการ เช็คประกาศก่อนเสมอ",
+    "ทาง Mt. Kurobi ช่วงต้นชันและเป็นหินก้อนใหญ่ ลื่นช่วงฝน/หิมะ ใส่รองเท้าเดินเขาและเผื่อเวลา"
+  ],
+  "sources": [
+    {
+      "label": "Mount Akagi — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e3812.html"
+    },
+    {
+      "label": "Akagi-yama — JNTO / Japan Travel",
+      "url": "https://www.japan.travel/en/spot/717/"
+    },
+    {
+      "label": "Maebashi / Akagi access — Kanto Bus (Akagi-san line)",
+      "url": "https://www.kanto-bus.co.jp/"
+    }
+  ],
+  "tags_th": [
+    "ทะเลสาบปากปล่อง",
+    "ภูเขาไฟ",
+    "ตกปลาน้ำแข็ง",
+    "ใบไม้แดง",
+    "ศาลเจ้า",
+    "เดินเขา"
+  ],
+  "food": [
+    {
+      "name": "ปลา wakasagi ทอด",
+      "name_jp": "ワカサギの天ぷら",
+      "emoji": "🐟",
+      "note_th": "ปลาน้ำจืดตัวเล็กจาก Onuma ทอดกรอบ — ของกินคู่การตกปลาน้ำแข็งหน้าหนาว"
+    },
+    {
+      "name": "อุด้ง/โซบะร้อนริมทะเลสาบ",
+      "name_jp": "うどん・蕎麦",
+      "emoji": "🍜",
+      "note_th": "ร้านริม Onuma เสิร์ฟชามอุ่น ๆ คลายหนาวบนยอดเขา"
+    },
+    {
+      "name": "Mizusawa udon (ของ Gunma)",
+      "name_jp": "水沢うどん",
+      "emoji": "🥢",
+      "note_th": "อุด้งเส้นเหนียวขึ้นชื่อของจังหวัด Gunma หาทานแถบเชิงเขา"
+    },
+    {
+      "name": "คอนยัค Gunma",
+      "name_jp": "こんにゃく",
+      "emoji": "🍢",
+      "note_th": "Gunma เป็นแหล่งผลิตคอนยัคใหญ่สุดของญี่ปุ่น ลองเมนูโอเด้ง/สเต๊กคอนยัค"
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "slug": "kinugawa",
+  "name": {
+    "en": "Kinugawa & Ryuokyo",
+    "th": "คินุงาวะ-ริวโอเคียว",
+    "jp": "鬼怒川・龍王峡"
+  },
+  "region": "Kanto",
+  "prefecture": "Tochigi",
+  "coords": {
+    "lat": 36.82,
+    "lng": 139.71
+  },
+  "category": [
+    "onsen",
+    "nature"
+  ],
+  "tagline_th": "เมืองออนเซนริมหน้าผาแม่น้ำคินุงาวะ + โกรกธารริวโอเคียว 'หุบเขามังกร' หินภูเขาไฟ 3 สี น้ำมรกต เดินเลียบหินชิลๆ ใกล้นิกโก้",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ryuokyo%2C_Tochigi.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ryu-o-kyo_%28Tochigi%29-1.JPG?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "ขึ้น Tobu Limited Express (SPACIA Kinu / Revaty Kinu) จาก Asakusa ตรงถึง Kinugawa-Onsen ~2 ชม. ไม่ต้องต่อรถ จองที่นั่งล่วงหน้า · ไป Ryuokyo ต่อ Yagan Railway อีก 1-2 สถานี ~12 นาที · ทริปนี้ค้างออนเซน 1 คืนกำลังดี (ไม่ใช่ day-trip ที่คุ้ม)",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Tobu Limited Express (SPACIA Kinu / Revaty Kinu) ตรงจาก Asakusa",
+        "detail_th": "Asakusa → train (Tobu SPACIA Kinu / Revaty Kinu ตรง) → Kinugawa-Onsen → train (Yagan Railway) → Ryuokyo",
+        "durationMin": 130,
+        "costYen": 3270,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟด่วน",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tobu Asakusa Station",
+            "to": "Kinugawa-Onsen Station",
+            "mode": "train",
+            "line_th": "Tobu Limited Express SPACIA Kinu / Revaty Kinu (ตรง ไม่ต้องต่อ)",
+            "durationMin": 118,
+            "costYen": 2890,
+            "note_th": "ราคารวม 2,890 เยน = ค่าโดยสาร ~1,580 + ค่าธรรมเนียม limited express ~1,310 · ที่นั่งต้องจองล่วงหน้าทุกที่นั่ง · SPACIA Kinu ~ทุกชั่วโมงช่วงกลางวัน, Revaty Kinu วันละไม่กี่เที่ยว · ไม่ครอบคลุมด้วย JR Pass (Tobu เอกชน)"
+          },
+          {
+            "from": "Kinugawa-Onsen Station",
+            "to": "Ryuokyo Station",
+            "mode": "train",
+            "line_th": "Yagan Railway Aizu-Kinugawa Line",
+            "durationMin": 12,
+            "costYen": 380,
+            "note_th": "ต่อ 1-2 สถานีไปทาง Aizu · ออกจาก Ryuokyo เดิน ~3-10 นาทีถึงสะพาน Nijimibashi ปากโกรก · ข้ามขั้นนี้ถ้าเที่ยวแค่เมืองออนเซน"
+          }
+        ]
+      },
+      {
+        "mode": "ประหยัด: Tobu ปกติ/Rapid ต่อที่ Shimo-Imaichi (ไม่มีค่าธรรมเนียมด่วน)",
+        "detail_th": "Asakusa → train (Tobu Nikko Line ปกติ/Rapid) → Shimo-Imaichi → train (Tobu Kinugawa Line) → Kinugawa-Onsen",
+        "durationMin": 175,
+        "costYen": 1580,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tobu Asakusa Station",
+            "to": "Shimo-Imaichi Station",
+            "mode": "train",
+            "line_th": "Tobu Nikko Line (ปกติ/Rapid)",
+            "durationMin": 130,
+            "costYen": 1580,
+            "note_th": "ค่าโดยสารธรรมดา Asakusa→Kinugawa-Onsen รวม ~1,580 เยน (คิดต่อเนื่อง) ไม่ต้องจองที่นั่ง · ช้ากว่า LE ~1 ชม. และต้องเปลี่ยนขบวน · บางช่วงต้องต่อหลายขบวน เช็ค timetable"
+          },
+          {
+            "from": "Shimo-Imaichi Station",
+            "to": "Kinugawa-Onsen Station",
+            "mode": "train",
+            "line_th": "Tobu Kinugawa Line (Local)",
+            "durationMin": 35,
+            "costYen": 0,
+            "note_th": "รวมค่าโดยสารกับช่วงแรกแล้ว · ~1-2 เที่ยว/ชม. · เหมาะคนเที่ยวประหยัด ไม่รีบ"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง ปลาย ต.ค.-กลาง พ.ย.",
+      "months": [
+        10,
+        11
+      ],
+      "note_th": "ไฮไลต์ของที่นี่ — ใบไม้เปลี่ยนสีในโกรก Ryuokyo แดงส้มจัดตัดกับหินภูเขาไฟ 3 สีและน้ำมรกต เป็นหนึ่งในจุด koyo ที่สวยสุดของ Kanto · ปลาย ต.ค. เริ่มที่ Kawaji ด้านบน ไล่ลงมา Kinugawa กลาง พ.ย."
+    },
+    {
+      "label": "เขียวสด หนีร้อน ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "ป่าเขียวสด น้ำเย็นใส เหมาะล่องเรือ Kinugawa Line Kudari + เดินโกรก อากาศเย็นกว่าโตเกียว"
+    },
+    {
+      "label": "ใบไม้ผลิ เม.ย.-พ.ค.",
+      "months": [
+        4,
+        5
+      ],
+      "note_th": "ดอกไม้ภูเขาบาน ป่าเขียวอ่อน อากาศกำลังดี คนน้อยกว่าหน้า koyo"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "โกรก Ryuokyo (koyo)",
+      "type": "koyo",
+      "startFrac": 0.79,
+      "endFrac": 0.92,
+      "note_th": "ใบไม้แดงปลาย ต.ค.-กลาง พ.ย."
+    },
+    {
+      "zone": "ป่าฤดูร้อน",
+      "type": "green",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "เขียวสด น้ำเย็น ก.ค.-ส.ค."
+    },
+    {
+      "zone": "ฤดูหนาว (ออนเซน)",
+      "type": "snow",
+      "startFrac": 0.0,
+      "endFrac": 0.13,
+      "note_th": "แช่ออนเซนหน้าหนาว ม.ค.-กลาง ก.พ. บางปีมีหิมะโรย"
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน ค้างออนเซน 1 คืน ไป-กลับจากโตเกียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าหลักคือ ryokan ออนเซนพร้อมอาหารเย็น-เช้า (kaiseki) ซึ่งเป็นประสบการณ์หลักของทริปนี้",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (Tobu LE Asakusa↔Kinugawa-Onsen)",
+        "yen": 5780,
+        "thb": 1329,
+        "note_th": "SPACIA/Revaty Kinu ไป-กลับ รวมค่าธรรมเนียมด่วน · ประหยัดได้เหลือ ~3,160 ถ้าใช้ Tobu ปกติต่อ Shimo-Imaichi"
+      },
+      {
+        "label_th": "ที่พัก ryokan ออนเซน 1 คืน (รวมอาหารเย็น-เช้า)",
+        "yen": 15000,
+        "thb": 3450,
+        "note_th": "ต่อคน แบบ 2 คนพักห้องเดียว · ryokan ริมแม่น้ำมีออนเซนในตัว ระดับกลาง · เดี่ยวห้องเดียวจะแพงขึ้น"
+      },
+      {
+        "label_th": "ล่องเรือ Kinugawa Line Kudari",
+        "yen": 3200,
+        "thb": 736,
+        "note_th": "ล่องแก่งเรือไม้ ~40 นาที (มี.ค.-พ.ย. ตามน้ำ) ต่อคน"
+      },
+      {
+        "label_th": "Yagan Railway ไป-กลับ Ryuokyo + ของกิน",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "ค่ารถไป Ryuokyo + ของว่างริมทางเดิน/ออนเซนทามาโกะ"
+      }
+    ],
+    "totalYen": 25980,
+    "totalThb": 5975,
+    "ranges": {
+      "lowThb": 4000,
+      "midThb": 6500,
+      "highThb": 12000
+    }
+  },
+  "pois": [
+    {
+      "name": "Ryuokyo Gorge",
+      "icon": "raindrops-alt",
+      "durationMin": 120,
+      "blurb_th": "โกรกธาร 'หุบเขามังกร' หินภูเขาไฟ 3 สี น้ำมรกต ทางเดินเลียบหินยาว ~3 กม.",
+      "deepDive_th": "Ryuokyo (龍王峡 'หุบเขามังกร') โกรกธารยาว ~3 กม. ระหว่าง Kinugawa Onsen กับ Kawaji Onsen เกิดจากการกัดเซาะของแม่น้ำ Kinugawa ผ่านหินภูเขาไฟใต้ทะเลอายุ ~22 ล้านปี · แบ่งเป็น 3 ช่วงตามสีหิน: Hakuryu (มังกรขาว — หินไรโอไลต์ขาว), Seiryu (มังกรเขียว — หินทัฟฟ์เขียว), Shiryu (มังกรม่วง — หินแอนดีไซต์ม่วง) น้ำสีมรกตตัดกับโขดหินรูปทรงแปลกตา · มีเส้นเดินเลียบโกรก ~7 กม. (เดินทางเดียว ~90 นาที-ครึ่งวัน) ค่อนข้างราบ มีขึ้นลงบ้าง มือใหม่เดินได้ · ปลาย ต.ค.-กลาง พ.ย. ใบไม้แดงจัดมากที่สุดจุดหนึ่งของ Kanto",
+      "location_th": "ระหว่าง Kinugawa↔Kawaji · ลง Ryuokyo Station",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tochigi%2C_Ryuokyo_in_Nikko_2010_%285089061545%29.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ryu-o-kyo_%28Tochigi%29-1.JPG?width=1600"
+      }
+    },
+    {
+      "name": "Nijimibashi Bridge",
+      "icon": "camera",
+      "durationMin": 20,
+      "blurb_th": "สะพานชมวิวปากโกรก Ryuokyo จุดถ่ายรูปแรกจากสถานี วิวน้ำมรกต + koyo",
+      "deepDive_th": "Nijimibashi (虹見橋 'สะพานเห็นรุ้ง') สะพานคนเดินข้ามปากโกรก Ryuokyo ห่างจาก Ryuokyo Station เดินลงไป ~3-10 นาที เป็นจุดเริ่มเส้นเดินและวิวเปิดแรกที่เห็นโกรกเต็มตา · มองลงไปเห็นน้ำตก Nijimi และน้ำสีมรกตไหลผ่านโขดหินสีต่างกัน · หน้า koyo ใบไม้แดงล้อมรอบสะพานสวยมาก เป็นสปอตถ่ายรูปยอดนิยม · ใกล้ๆ มีศาลเจ้า Goryuo เล็กๆ บนโขดหินเหนือน้ำ",
+      "location_th": "ปากโกรก ใกล้ Ryuokyo Station",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nijimibashi%2C_Ry%C5%AB%C5%8Dky%C5%8D_01.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Goryuo Shrine & Kotonotaki",
+      "icon": "water",
+      "durationMin": 30,
+      "blurb_th": "ศาลเจ้ามังกรบนโขดหินเหนือน้ำมรกต + น้ำตกเล็กในเส้นเดินโกรก",
+      "deepDive_th": "Goryuo Shrine (五龍王神社) ศาลเจ้าเล็กบูชาเทพมังกรแห่งน้ำ ตั้งอยู่บนโขดหินยื่นเหนือสระน้ำมรกตกลางโกรก เป็นที่มาของชื่อ 'หุบเขามังกร' · อยู่ในเส้นเดินช่วงต้นจาก Nijimibashi ใกล้น้ำตก Kotonotaki (琴の滝 'น้ำตกพิณ') น้ำตกเล็กไหลลงสระสีเขียวมรกต · บรรยากาศขลังสงบ เป็นจุดพักถ่ายรูปสวยช่วงต้นเส้นเดิน เดินถึงง่ายไม่ต้องไปไกล",
+      "location_th": "ต้นเส้นเดินโกรก จาก Nijimibashi",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ryuokyo_Ryuo_Shrine.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ryu-o-kyo_%28Tochigi%29-1.JPG?width=1600"
+      }
+    },
+    {
+      "name": "Kinugawa Onsen Town",
+      "icon": "mountains",
+      "durationMin": 180,
+      "blurb_th": "เมืองออนเซนริมหน้าผาแม่น้ำ ryokan เรียงราย แช่บ่อร้อนวิวโกรก",
+      "deepDive_th": "Kinugawa Onsen (鬼怒川温泉) เมืองออนเซนเก่าแก่ริมแม่น้ำ Kinugawa ที่ ryokan โรงแรมเรียงรายเกาะอยู่บนหน้าผาสองฝั่งแม่น้ำที่ไหลผ่านโกรก · ค้าง 1 คืนแช่ rotenburo (บ่อกลางแจ้ง) วิวแม่น้ำ + กิน kaiseki เป็นหัวใจของทริป · ในเมืองมีสะพาน Kinu-Tateiwa Otsuribashi สะพานแขวนคนเดินยาว ~140 ม. ข้ามไปยังหิน Tateiwa วิวแม่น้ำสวย · เดินเล่นแช่เท้า ashiyu ฟรีหลายจุด · เป็นฐานไปต่อ Nikko / Edo Wonderland / Tobu World Square ได้สบาย",
+      "location_th": "รอบ Kinugawa-Onsen Station",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89_-_panoramio.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kinugawa_Onsen.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Kinugawa Line Kudari (River Cruise)",
+      "icon": "water",
+      "durationMin": 50,
+      "blurb_th": "ล่องแก่งเรือไม้ ~40 นาที คนพายแต่งชุดโบราณ ผ่านหินรูปสัตว์",
+      "deepDive_th": "Kinugawa Line Kudari (鬼怒川ライン下り) ล่องแก่งด้วยเรือไม้ก้นแบนตามแม่น้ำ Kinugawa ~40 นาที คนพายแต่งชุดโบราณพายด้วยไม้พาย ผ่านช่วงแม่น้ำที่ยังเป็นธรรมชาติ มีโขดหินรูปร่างเหมือนสัตว์/สิ่งของให้ทาย · จุดขึ้นเรืออยู่หลัง Kinugawa Kanaya Hotel เดิน ~5 นาทีจากสถานี Kinugawa-Onsen · จบแล้วมีรถ shuttle ฟรีกลับสถานี · เปิดราว มี.ค.-พ.ย. (ปิดหน้าหนาว/วันน้ำมาก) ควรเช็ครอบล่วงหน้า",
+      "location_th": "หลัง Kanaya Hotel เดิน 5 นาทีจากสถานี",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ryu-o-kyo_%28Tochigi%29-1.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Ryuokyo Walking Trail",
+      "icon": "trees",
+      "durationMin": 210,
+      "blurb_th": "เส้นเดินเลียบโกรก ~7 กม. เชื่อม Kinugawa↔Kawaji ผ่านวิวหิน 3 สี",
+      "deepDive_th": "เส้นเดินเลียบโกรก Ryuokyo ทอดยาว ~7 กม. ตามริมแม่น้ำเชื่อมฝั่ง Kinugawa Onsen กับ Kawaji Onsen ใช้เวลาเดินทางเดียว ~3-4 ชม. (หรือเดินสั้นแค่ช่วงต้นจาก Nijimibashi ~1-1.5 ชม. ก็เก็บไฮไลต์ได้) · เส้นทางตามริมโกรกค่อนข้างราบ มีขึ้นลงบันไดหินบ้าง พื้นลื่นช่วงฝน · ผ่านจุดชม Hakuryu/Seiryu/Shiryu วิวหิน 3 สี โขดหินแปลกตา และสะพานชมวิวหลายจุด · ปลายทางออกที่สถานี Kawaji-Onsen แล้วนั่ง Yagan Railway กลับได้",
+      "location_th": "ริมโกรกระหว่าง Ryuokyo↔Kawaji-Onsen Station",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%BE%8D%E7%8E%8B%E5%B3%A1_-_panoramio.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "ค้างออนเซน 1 คืน (เมือง + โกรก Ryuokyo)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — ถึงเมือง + ล่องแก่ง + เข้า ryokan",
+          "detail_th": "ออก Asakusa สาย ขึ้น SPACIA Kinu ตรงถึง Kinugawa-Onsen ~2 ชม. → เก็บกระเป๋า ฝากที่ ryokan/locker → ล่องแก่ง Kinugawa Line Kudari ~40 นาที (เช็ครอบก่อน) → เดินเล่นในเมือง ข้ามสะพานแขวน Kinu-Tateiwa แช่เท้า ashiyu → เช็คอิน ryokan แช่ rotenburo วิวแม่น้ำ + กิน kaiseki เย็น",
+          "steps": [
+            {
+              "time_th": "~09:30",
+              "title_th": "ออก Asakusa → Kinugawa-Onsen",
+              "detail_th": "SPACIA Kinu / Revaty Kinu ตรง ไม่ต้องต่อ (จองที่นั่งก่อน)",
+              "mode": "train",
+              "durationMin": 118
+            },
+            {
+              "time_th": "~12:00",
+              "title_th": "ฝากกระเป๋า + ข้าวเที่ยง",
+              "detail_th": "ฝากที่ ryokan/coin locker สถานี กินข้าวในเมือง",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~13:30",
+              "title_th": "ล่องแก่ง Kinugawa Line Kudari",
+              "detail_th": "เรือไม้ ~40 นาที จุดขึ้นหลัง Kanaya Hotel · มี shuttle ฟรีกลับ",
+              "durationMin": 50
+            },
+            {
+              "time_th": "~15:00",
+              "title_th": "เดินเล่นเมือง + สะพานแขวน Kinu-Tateiwa",
+              "detail_th": "สะพานแขวน ~140 ม. วิวแม่น้ำ + แช่เท้า ashiyu",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~16:30",
+              "title_th": "เช็คอิน ryokan + แช่ออนเซน",
+              "detail_th": "rotenburo วิวแม่น้ำ → kaiseki เย็น · พักผ่อนเต็มที่",
+              "durationMin": 180
+            }
+          ]
+        },
+        {
+          "title_th": "วันที่ 2 — โกรก Ryuokyo แล้วกลับ",
+          "detail_th": "เช้ากิน breakfast ryokan แช่ออนเซนรอบเช้า → เช็คเอาท์ ฝากกระเป๋า → นั่ง Yagan Railway ~12 นาทีไป Ryuokyo → เดินจาก Nijimibashi ชมโกรกน้ำมรกต หิน 3 สี ศาลเจ้า Goryuo + น้ำตก Kotonotaki (เดินสั้น ~1.5 ชม. หรือเดินยาวถึง Kawaji ~3-4 ชม.) → กลับมาเอากระเป๋า → SPACIA Kinu กลับ Asakusa เย็น",
+          "steps": [
+            {
+              "time_th": "~08:30",
+              "title_th": "Breakfast + ออนเซนเช้า",
+              "detail_th": "อาหารเช้า ryokan + แช่บ่อรอบเช้าก่อนเช็คเอาท์",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "Yagan Railway ไป Ryuokyo",
+              "detail_th": "ต่อ 1-2 สถานีไปทาง Aizu ~12 นาที",
+              "mode": "train",
+              "durationMin": 12
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "เดินโกรก Ryuokyo",
+              "detail_th": "Nijimibashi → Goryuo Shrine + Kotonotaki → ชมหิน 3 สี น้ำมรกต (เดินสั้น ~1.5 ชม. หรือยาวถึง Kawaji)",
+              "durationMin": 120
+            },
+            {
+              "time_th": "~13:30",
+              "title_th": "กลับเมือง + ข้าวเที่ยง",
+              "detail_th": "Yagan Railway กลับ Kinugawa-Onsen เอากระเป๋า กินข้าว",
+              "mode": "train",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~15:30",
+              "title_th": "SPACIA Kinu กลับ Asakusa",
+              "detail_th": "รถไฟด่วนตรงกลับโตเกียว ~2 ชม.",
+              "mode": "train",
+              "durationMin": 118
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "ต่อ Nikko 2 คืน (Kinugawa + Nikko)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "วันที่ 1 — Kinugawa Onsen + ล่องแก่ง",
+          "detail_th": "ถึง Kinugawa-Onsen เที่ยง ล่องแก่ง + เดินเมือง + ค้าง ryokan ออนเซน 1 คืน (เหมือนแผนหลักวันแรก) · เหมาะคนอยากเที่ยวยาวรวม Nikko",
+          "steps": [
+            {
+              "time_th": "เที่ยง",
+              "title_th": "ถึง Kinugawa-Onsen",
+              "detail_th": "ล่องแก่ง + เดินเมือง + สะพานแขวน",
+              "durationMin": 240
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "ค้าง ryokan ออนเซน",
+              "detail_th": "rotenburo + kaiseki",
+              "durationMin": 180
+            }
+          ]
+        },
+        {
+          "title_th": "วันที่ 2 — Ryuokyo เช้า แล้วย้ายไป Nikko",
+          "detail_th": "เช้าเดินโกรก Ryuokyo → บ่ายนั่ง Tobu จาก Kinugawa ผ่าน Shimo-Imaichi ต่อไป Tobu-Nikko (~40-50 นาที) เข้าเมือง Nikko ค้างต่อ เที่ยว Toshogu/Kegon วันรุ่งขึ้น",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "เดินโกรก Ryuokyo",
+              "detail_th": "Nijimibashi + หิน 3 สี + ศาลเจ้า Goryuo",
+              "durationMin": 120
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "ย้ายไป Nikko",
+              "detail_th": "Tobu Kinugawa Line → Shimo-Imaichi → Tobu-Nikko",
+              "mode": "train",
+              "durationMin": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ที่นั่ง Tobu SPACIA Kinu / Revaty Kinu ต้องจองล่วงหน้าทุกที่นั่ง โดยเฉพาะหน้า koyo (พ.ย.) และวันหยุดเต็มเร็ว จองก่อนทาง Tobu Top Tours / ตู้ที่ Asakusa",
+    "Tobu เป็นรถไฟเอกชน ไม่ครอบคลุมด้วย JR Pass — ถ้ามี JR Pass ใช้ JR Limited Express Kinugawa จาก Shinjuku ได้บางช่วง (ผ่าน Tobu ต้องจ่ายส่วน Tobu เพิ่ม)",
+    "ล่องแก่ง Kinugawa Line Kudari เปิดตามฤดู (~มี.ค.-พ.ย.) และอาจงดวันน้ำมาก/ลมแรง เช็ครอบ+สภาพอากาศก่อนไป",
+    "เส้นเดินโกรก Ryuokyo ลื่นช่วงฝน/หลังฝน มีบันไดหิน ใส่รองเท้ายึดเกาะดี · เส้นเต็มถึง Kawaji ~7 กม. เผื่อเวลาและน้ำดื่ม",
+    "เมืองออนเซนมี ryokan ร้างเก่าหลายหลัง บางมุมดูซบเซา — เป็นเรื่องปกติของเมือง ไม่กระทบจุดเที่ยวหลัก"
+  ],
+  "sources": [
+    {
+      "label": "Kinugawa Onsen — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e3881.html"
+    },
+    {
+      "label": "Ryuokyo Valley Gorge Hike — Visit Nikko",
+      "url": "https://www.visitnikko.jp/en/itineraries/river-gorge-hike-ryuokyo-valley/"
+    },
+    {
+      "label": "Ryuokyo Gorge — Visit Tochigi",
+      "url": "https://www.visit-tochigi.com/plan-your-trip/things-to-do/982/"
+    },
+    {
+      "label": "Spacia Kinu / Revaty Kinu — Tobu Railway",
+      "url": "https://www.tobu.co.jp/en/express_info/express/spacia.html"
+    },
+    {
+      "label": "Kinugawa River Cruise — JNTO",
+      "url": "https://www.japan.travel/en/spot/1487/"
+    }
+  ],
+  "tags_th": [
+    "ออนเซน",
+    "โกรกธาร",
+    "ใบไม้แดง",
+    "ล่องแก่ง",
+    "ค้างคืน",
+    "ใกล้นิกโก้"
+  ],
+  "food": [
+    {
+      "name": "ออนเซนทามาโกะ",
+      "name_jp": "温泉卵",
+      "emoji": "🥚",
+      "note_th": "ไข่ต้มบ่อน้ำพุร้อน ขายตามเมืองออนเซน"
+    },
+    {
+      "name": "ยูบะ (ฟองเต้าหู้)",
+      "name_jp": "湯波",
+      "emoji": "🍲",
+      "note_th": "ของขึ้นชื่อแถบ Nikko-Kinugawa กินในเซ็ต kaiseki"
+    },
+    {
+      "name": "kaiseki ryokan",
+      "name_jp": "懐石料理",
+      "emoji": "🍱",
+      "note_th": "อาหารเย็นชุดญี่ปุ่นตามฤดูที่ ryokan ออนเซน"
+    },
+    {
+      "name": "ปลาอายุย่างเกลือ",
+      "name_jp": "鮎の塩焼き",
+      "emoji": "🐟",
+      "note_th": "ปลาแม่น้ำย่างเกลือ ริมแม่น้ำ Kinugawa"
+    }
+  ]
+}

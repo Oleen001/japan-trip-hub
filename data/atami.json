@@ -1,0 +1,403 @@
+{
+  "slug": "atami",
+  "name": {
+    "en": "Atami",
+    "th": "อาตามิ",
+    "jp": "熱海"
+  },
+  "region": "Chubu",
+  "prefecture": "Shizuoka",
+  "coords": {
+    "lat": 35.1,
+    "lng": 139.07
+  },
+  "category": [
+    "coast",
+    "onsen"
+  ],
+  "tagline_th": "เมืองออนเซนริมทะเลคลาสสิก หาดทรายในเมือง + ปราสาทวิวอ่าว + ดอกไม้ไฟริมทะเลเกือบทั้งปี — Shinkansen จากโตเกียวแค่ ~50 นาที ใกล้สุดในลิสต์",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Atami%20city%2020100612.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Atami%20Castle%2020120915.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 1,
+  "access": {
+    "summary_th": "ใกล้สุดในลิสต์ — นั่ง Tokaido Shinkansen (Kodama) จากสถานี Tokyo ถึง Atami แค่ ~50 นาที ลงสถานีเดียวจบ ไม่ต้องต่อรถ เดินเข้าเมือง/ออนเซนได้เลย · ถ้าอยากประหยัด นั่ง JR Tokaido Line ตรง (Ueno-Tokyo Line) ~100 นาที ถูกกว่าครึ่ง",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Tokaido Shinkansen (Kodama) ตรง — เร็วสุด",
+        "detail_th": "Tokyo Station → shinkansen (Tokaido Shinkansen Kodama) → Atami Station (ลงสถานีเดียวจบ เดินเข้าเมืองได้เลย)",
+        "durationMin": 50,
+        "costYen": 4270,
+        "transfers": 0,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "fast-mail"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Atami Station",
+            "mode": "shinkansen",
+            "line_th": "Tokaido Shinkansen (Kodama — จอดทุกสถานี)",
+            "durationMin": 50,
+            "costYen": 4270,
+            "note_th": "ทุก Kodama จอด Atami · ~2-3 เที่ยว/ชม. · ที่นั่งไม่จองก็ได้ (jiyuseki ถูกกว่าเล็กน้อย) · Hikari บางขบวนก็จอด Atami เร็วกว่านิดหน่อย"
+          }
+        ]
+      },
+      {
+        "mode": "JR Tokaido Line ตรง (รถไฟธรรมดา) — ประหยัด",
+        "detail_th": "Tokyo Station → train (Ueno-Tokyo Line / Tokaido Line ตรง) → Atami Station · ช้ากว่าแต่ถูกกว่าครึ่ง ไม่ต้องต่อรถ",
+        "durationMin": 100,
+        "costYen": 1980,
+        "transfers": 0,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Atami Station",
+            "mode": "train",
+            "line_th": "JR Tokaido Line (Ueno-Tokyo Line) — ขบวนตรงถึง Atami",
+            "durationMin": 100,
+            "costYen": 1980,
+            "note_th": "Atami เป็นปลายทางของหลายขบวน Tokaido Line · บางขบวนมีตู้ Green Car (จ่ายเพิ่ม) นั่งสบายขึ้น · เพิ่ม ~520 เยนซื้อที่นั่ง Limited Express Odoriko ก็ได้ (~80 นาที)"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ซากุระต้น ม.ค.-ก.พ.",
+      "months": [
+        1,
+        2
+      ],
+      "note_th": "Atami-zakura (熱海桜) เป็นซากุระบานต้นปี ปลาย ม.ค.–กลาง ก.พ. ก่อนที่อื่นทั้งญี่ปุ่น ชมริมแม่น้ำ Itokawa กลางเมือง"
+    },
+    {
+      "label": "พลัมบาน ก.พ.-มี.ค.",
+      "months": [
+        2,
+        3
+      ],
+      "note_th": "Atami Plum Garden (Bairin) ดอกบ๊วยบานช่วงเทศกาล Ume Matsuri หนึ่งในสวนบ๊วยที่บานเร็วสุดในญี่ปุ่น"
+    },
+    {
+      "label": "ดอกไม้ไฟริมทะเล (ทั้งปี)",
+      "months": [
+        4,
+        5,
+        7,
+        8,
+        12
+      ],
+      "note_th": "Atami Marine Fireworks จัดเป็นรอบหลายครั้งตลอดปี (ไม่ใช่แค่หน้าร้อน) ในอ่าวรูปเกือกม้าทำให้เสียงสะท้อนกระหึ่ม"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ริมแม่น้ำ Itokawa",
+      "type": "bloom",
+      "startFrac": 0.04,
+      "endFrac": 0.13,
+      "note_th": "Atami-zakura ซากุระต้นปี ปลาย ม.ค.–กลาง ก.พ."
+    },
+    {
+      "zone": "Atami Plum Garden",
+      "type": "bloom",
+      "startFrac": 0.08,
+      "endFrac": 0.2,
+      "note_th": "ดอกบ๊วย ก.พ.–ต้น มี.ค."
+    },
+    {
+      "zone": "อ่าว Atami",
+      "type": "event",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "ดอกไม้ไฟทะเลรอบหน้าร้อน (มีรอบกระจายทั้งปีด้วย)"
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าหลักคือ Shinkansen ไป-กลับ ถ้าใช้ Tokaido Line ธรรมดาประหยัดได้มาก",
+    "items": [
+      {
+        "label_th": "Shinkansen ไป-กลับ (Tokyo↔Atami, Kodama)",
+        "yen": 8540,
+        "thb": 1964,
+        "note_th": "~50 นาที/เที่ยว · เลือก Tokaido Line ธรรมดาแทนได้ ลดเหลือ ~3,960 เยนไป-กลับ"
+      },
+      {
+        "label_th": "ออนเซนแบบไม่ค้าง (higaeri onsen)",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "แช่ public bath/โรงแรมเปิด day-use ในเมือง"
+      },
+      {
+        "label_th": "อาหาร (ซีฟู้ด/himono set)",
+        "yen": 2500,
+        "thb": 575,
+        "note_th": "ข้าวหน้าซีฟู้ดสด หรือเซ็ตปลาตากแห้ง himono ย่าง"
+      },
+      {
+        "label_th": "ค่าเข้า (ปราสาท/พิพิธภัณฑ์/สวน)",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "Atami Castle ~1,100 เยน หรือ MOA Museum ~1,760 เยน เลือกอย่าง"
+      }
+    ],
+    "totalYen": 14040,
+    "totalThb": 3229,
+    "ranges": {
+      "lowThb": 1800,
+      "midThb": 3200,
+      "highThb": 6000
+    }
+  },
+  "pois": [
+    {
+      "name": "Atami Sun Beach",
+      "icon": "water",
+      "durationMin": 60,
+      "blurb_th": "หาดทรายในเมือง น้ำใส เดินจากสถานี/ออนเซนถึงง่าย เล่นน้ำหน้าร้อน",
+      "deepDive_th": "Atami Sun Beach (熱海サンビーチ) หาดทรายโค้งยาวกลางเมืองริมอ่าว Atami ทรายนำเข้าเนื้อละเอียด น้ำใส เป็นภาพจำของเมืองออนเซนริมทะเลแห่งนี้ · หน้าร้อน (ก.ค.-ส.ค.) เปิดให้เล่นน้ำ มีเต็นท์ร่มสีน้ำเงินเรียงเต็มหาด · กลางคืนมีไฟ illumination ส่องหาดให้บรรยากาศโรแมนติก และเป็นจุดชมดอกไม้ไฟทะเลชั้นดี · อยู่ห่างสถานี Atami เดิน ~15 นาที หรือนั่งบัส/แท็กซี่สั้นๆ ลงเนินไปทางทะเล",
+      "location_th": "ริมอ่าว Atami กลางเมือง เดินจากสถานี ~15 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Atami%20Sun%20Beach%20-%20Aug%2029%2C%202013%20(1).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Atami%20Sun%20Beach%20-%20Aug%2029%2C%202013%20(2).jpg?width=900"
+      }
+    },
+    {
+      "name": "Atami Castle",
+      "icon": "building",
+      "durationMin": 60,
+      "blurb_th": "ปราสาทบนยอดเนิน วิวพาโนรามาอ่าวและเมืองทั้งเมือง",
+      "deepDive_th": "Atami Castle (熱海城) ปราสาทสไตล์ญี่ปุ่นตั้งบนยอดเขา Nishikigaura มองลงเห็นอ่าว Atami และตัวเมืองทั้งหมดแบบพาโนรามา (จริงๆ สร้างปี 1959 เป็นจุดชมวิว/พิพิธภัณฑ์ ไม่ใช่ปราสาทประวัติศาสตร์ — แต่วิวคุ้มมาก) · ภายในมีนิทรรศการดาบ/อาวุธซามูไร, มุมถ่ายรูปชุดญี่ปุ่น และระเบียงชมวิวชั้นบน · ขึ้นไปได้ด้วยกระเช้า Atami Ropeway จากย่านริมทะเล หรือนั่งรถ · เป็นจุดชมพระอาทิตย์ตกและดอกไม้ไฟทะเลที่สวยมาก",
+      "location_th": "ยอดเขา Nishikigaura — ขึ้นด้วย Atami Ropeway",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Atami%20Castle%2020120915.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Atami%20Castle2024.jpg?width=900"
+      }
+    },
+    {
+      "name": "Atami Onsen (บ่อน้ำพุร้อน)",
+      "icon": "raindrops-alt",
+      "durationMin": 90,
+      "blurb_th": "หนึ่งในสามเมืองออนเซนคลาสสิกของญี่ปุ่น น้ำเกลือพ่นไอจากใต้ดิน",
+      "deepDive_th": "Atami Onsen (熱海温泉) เมืองออนเซนเก่าแก่ระดับตำนาน เป็นแหล่งพักตากอากาศของคนโตเกียวมากว่าร้อยปี ชื่อ Atami แปลว่า 'ทะเลร้อน' เพราะมีน้ำพุร้อนพ่นออกมาถึงในทะเล · จุดชม Oyu Geyser (大湯間欠泉) เป็นบ่อพ่นไอน้ำกลางเมืองที่เคยพ่นเองตามธรรมชาติ · น้ำเป็นแบบเกลือ (chloride) อุ่นนาน ดีต่อผิว · เล่นได้แบบ day-use (higaeri) ตามโรงแรม/public bath เช่น Oyu, Sajiro-no-yu โดยไม่ต้องค้าง หรือค้างเรียวกังริมทะเลแช่ออนเซนวิวอ่าว",
+      "location_th": "กระจายทั่วเมือง — จุดเด่น Oyu Geyser ใจกลางเมือง",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/230127%20Oyu%20Atami%20Onsen%20Atami%20Japan01s3.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bandai%20Atami%20Onsen%20Motoyu.jpg?width=900"
+      }
+    },
+    {
+      "name": "Atami Marine Fireworks",
+      "icon": "camera",
+      "durationMin": 60,
+      "blurb_th": "ดอกไม้ไฟทะเลในอ่าวเกือกม้า เสียงสะท้อนกระหึ่ม จัดเกือบทั้งปี",
+      "deepDive_th": "Atami Marine Fireworks Festival (熱海海上花火大会) เป็นเอกลักษณ์ของเมือง — ยิงดอกไม้ไฟจากกลางอ่าว Atami ซึ่งมีรูปทรงเกือกม้าล้อมด้วยภูเขาสามด้าน ทำให้เสียงระเบิดสะท้อนกลับมากระหึ่มเหมือนอยู่ในฮอลล์ · ต่างจากที่อื่นตรงที่จัด 'หลายรอบกระจายทั้งปี' (ฤดูใบไม้ผลิ/ร้อน/ใบไม้ร่วง/ปลายปี) ไม่ใช่แค่ matsuri หน้าร้อน เลยวางแผนไปดูได้ง่าย · จุดชมดีคือ Sun Beach, Moon Terrace ริมทะเล หรือมุมสูงจาก Atami Castle · เช็ควันยิงรอบล่าสุดก่อนไปเสมอ",
+      "location_th": "อ่าว Atami — ชมจาก Sun Beach / Moon Terrace",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%86%B1%E6%B5%B7%E6%B5%B7%E4%B8%8A%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Atami%20Nagahama%2020090816.jpg?width=900"
+      }
+    },
+    {
+      "name": "MOA Museum of Art",
+      "icon": "building",
+      "durationMin": 120,
+      "blurb_th": "พิพิธภัณฑ์ศิลปะบนเขา วิวอ่าวกว้าง + บันไดเลื่อนยาวในถ้ำ",
+      "deepDive_th": "MOA Museum of Art (MOA美術館) พิพิธภัณฑ์ศิลปะหรูบนเนินเขาเหนือเมือง Atami มองลงเห็นอ่าวและทะเลแบบพาโนรามา · ขึ้นไปด้วยบันไดเลื่อนยาวต่อกันหลายช่วงในอุโมงค์ที่มีไฟ/โดมเปลี่ยนสี เป็นประสบการณ์ตื่นตาก่อนถึงตัวพิพิธภัณฑ์ · จัดแสดงงานศิลปะญี่ปุ่นและตะวันออกระดับสมบัติชาติ รวมถึงงานเซรามิก ภาพพับ และห้องชาในสวนญี่ปุ่น · ลานชมวิวด้านนอกเป็นจุดถ่ายรูปอ่าว Atami ที่สวยที่สุดจุดหนึ่ง · นั่งบัสจากสถานี Atami ~10-15 นาที",
+      "location_th": "บนเขาเหนือเมือง — บัสจากสถานี Atami ~10-15 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/231007%20MOA%20Museum%20of%20Art%20Atami%20Japan09s3.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/231007%20MOA%20Museum%20of%20Art%20Atami%20Japan12s3.jpg?width=900"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ริมทะเล + ออนเซน (วันเดียว)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เช้า-เย็น เก็บเมือง ทะเล ปราสาท ออนเซน",
+          "detail_th": "นั่ง Shinkansen Kodama จาก Tokyo เช้า ~50 นาที → ถึง Atami เดินกินซีฟู้ด/เดินตลาดหน้าสถานี → นั่งกระเช้า Atami Ropeway ขึ้น Atami Castle ชมวิวอ่าวพาโนรามา → ลงมาเดิน Atami Sun Beach ริมทะเล → แช่ออนเซน day-use (higaeri) คลายเมื่อย → เย็นถ้าตรงรอบ ดูดอกไม้ไฟทะเลริม Sun Beach → กลับ Tokyo",
+          "steps": [
+            {
+              "time_th": "~08:30",
+              "title_th": "Tokyo → Atami",
+              "detail_th": "Tokaido Shinkansen Kodama ~50 นาที ลงสถานีเดียวจบ",
+              "mode": "shinkansen",
+              "durationMin": 50
+            },
+            {
+              "time_th": "~09:30",
+              "title_th": "เดินเมือง + ซีฟู้ดหน้าสถานี",
+              "detail_th": "ตลาด/อาเขตหน้าสถานี Atami กินข้าวหน้าซีฟู้ดสด หรือซื้อ himono",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~10:45",
+              "title_th": "Atami Castle (ขึ้น Ropeway)",
+              "detail_th": "กระเช้าขึ้นยอดเขา Nishikigaura ชมวิวอ่าวพาโนรามา",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~13:00",
+              "title_th": "Atami Sun Beach",
+              "detail_th": "ลงมาเดินหาดริมทะเลกลางเมือง",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~14:30",
+              "title_th": "ออนเซน day-use",
+              "detail_th": "แช่ public bath / โรงแรมเปิด higaeri คลายเมื่อย",
+              "durationMin": 90
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "ดอกไม้ไฟทะเล (ถ้าตรงรอบ)",
+              "detail_th": "ชมจาก Sun Beach / Moon Terrace — เช็ควันยิงก่อน",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~20:00",
+              "title_th": "กลับ Tokyo",
+              "mode": "shinkansen",
+              "durationMin": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง 1 คืน ออนเซน + ศิลปะ + ดอกไม้",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "วันแรก: เมือง + เรียวกังออนเซน",
+          "detail_th": "ถึง Atami เที่ยง → เดินเมือง + Sun Beach → เช็คอินเรียวกังริมทะเล แช่ออนเซนวิวอ่าว กินไคเซกิซีฟู้ด → กลางคืนชมไฟ illumination/ดอกไม้ไฟ",
+          "steps": [
+            {
+              "time_th": "เที่ยง",
+              "title_th": "ถึง Atami + Sun Beach",
+              "detail_th": "เดินเมือง กินซีฟู้ด เดินหาด",
+              "durationMin": 120
+            },
+            {
+              "time_th": "บ่าย-เย็น",
+              "title_th": "เช็คอินเรียวกังออนเซน",
+              "detail_th": "แช่ออนเซนวิวอ่าว + ไคเซกิซีฟู้ด ค้าง 1 คืน",
+              "durationMin": 180
+            }
+          ]
+        },
+        {
+          "title_th": "วันสอง: MOA Museum + ดอกไม้ตามฤดู",
+          "detail_th": "เช้าขึ้น MOA Museum of Art ชมศิลปะ + วิวอ่าว → ช่วง ม.ค.-มี.ค. แวะชม Atami-zakura ริมแม่น้ำ Itokawa หรือ Plum Garden → กลับ Tokyo บ่าย",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "MOA Museum of Art",
+              "detail_th": "บัสขึ้นเขา ~10-15 นาที ชมงานศิลป์ + ลานวิวอ่าว",
+              "mode": "bus",
+              "durationMin": 120
+            },
+            {
+              "time_th": "เที่ยง",
+              "title_th": "ดอกไม้ตามฤดู (ม.ค.-มี.ค.)",
+              "detail_th": "Atami-zakura ริม Itokawa หรือ Plum Garden",
+              "durationMin": 90
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "กลับ Tokyo",
+              "mode": "shinkansen",
+              "durationMin": 50
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ดอกไม้ไฟทะเลจัดเป็น 'รอบ' ตามวันที่กำหนด ไม่ได้มีทุกวัน — เช็คตารางรอบล่าสุดบนเว็บการท่องเที่ยว Atami ก่อนวางแผนวันไป",
+    "Atami-zakura บานต้นปีมาก (ปลาย ม.ค.–กลาง ก.พ.) ไม่ใช่ช่วงซากุระปกติ มี.ค.-เม.ย. — อย่าไปผิดฤดู",
+    "เมืองเป็นเนินเขาริมทะเล ทางขึ้น-ลงชัน เดินเยอะพอควร เตรียมรองเท้าสบาย หรือใช้บัสวนเมือง/แท็กซี่ช่วงขึ้นเขา",
+    "เสาร์-อาทิตย์/วันหยุดยาว คนเที่ยวเยอะ เรียวกังและร้านซีฟู้ดดังคิวยาว ควรจองล่วงหน้า"
+  ],
+  "sources": [
+    {
+      "label": "Atami — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e3071.html"
+    },
+    {
+      "label": "Atami — JNTO Japan Travel",
+      "url": "https://www.japan.travel/en/spot/717/"
+    },
+    {
+      "label": "Atami Marine Fireworks — Official Atami Tourism",
+      "url": "https://www.ataminews.gr.jp/en/"
+    }
+  ],
+  "tags_th": [
+    "ริมทะเล",
+    "ออนเซน",
+    "ใกล้โตเกียว",
+    "shinkansen",
+    "ดอกไม้ไฟ",
+    "ซากุระต้นปี",
+    "day-trip"
+  ],
+  "food": [
+    {
+      "name": "ข้าวหน้าซีฟู้ดสด",
+      "name_jp": "海鮮丼",
+      "emoji": "🍣",
+      "note_th": "ปลาทะเลสดจากท่า Atami ราดบนข้าว ร้านแถวตลาด/หน้าสถานีเยอะ"
+    },
+    {
+      "name": "ปลาตากแห้งย่าง (himono)",
+      "name_jp": "干物",
+      "emoji": "🐟",
+      "note_th": "ของขึ้นชื่อ Atami — ปลาตากแห้งแดดทะเล ย่างเป็นเซ็ตอาหารเช้า/ของฝาก"
+    },
+    {
+      "name": "ปลาหมึก/กุ้งทะเลย่าง",
+      "name_jp": "海鮮焼き",
+      "emoji": "🦑",
+      "note_th": "ซีฟู้ดย่างสดๆ ตามร้านริมทางเดินอาเขตหน้าสถานี"
+    },
+    {
+      "name": "พุดดิ้ง Atami",
+      "name_jp": "熱海プリン",
+      "emoji": "🍮",
+      "note_th": "ของหวานยอดฮิตเดินเล่น ร้าน Atami Pudding ใกล้สถานี ขวดน่ารักถ่ายรูป"
+    }
+  ]
+}

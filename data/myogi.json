@@ -1,0 +1,443 @@
+{
+  "slug": "myogi",
+  "name": {
+    "en": "Mt. Myogi",
+    "th": "ภูเขาเมียวงิ",
+    "jp": "妙義山"
+  },
+  "region": "Kanto",
+  "prefecture": "Gunma",
+  "coords": {
+    "lat": 36.3,
+    "lng": 138.74
+  },
+  "category": [
+    "mountain",
+    "nature"
+  ],
+  "tagline_th": "ยอดหินแหลมขรุขระ dramatic 1 ใน 3 ภูเขาประหลาดของญี่ปุ่น + ศาลเจ้าโบราณกลางหน้าผา · koyo จัดสุดในคันโต",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt-myogi-in-summer.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%A6%99%E7%BE%A9%E5%B1%B1%EF%BD%9E%E9%87%91%E9%B6%8F%E5%B1%B1%20-%20panoramio.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 3,
+  "access": {
+    "summary_th": "นั่ง Hokuriku Shinkansen จากโตเกียว → Takasaki (~50 นาที) ต่อ JR Shinetsu Line ไป Matsuida (~25 นาที) แล้วแท็กซี่ ~15 นาที (หรือเดิน ~1 ชม.) ถึงศาลเจ้า Myogi · ไม่มีบัสตรงสะดวก ควรเผื่อแท็กซี่ ไป-กลับวันเดียวได้แต่ต้องวางแผนเวลา",
+    "jrPassWorth": true,
+    "options": [
+      {
+        "mode": "Hokuriku Shinkansen + JR Shinetsu Line + แท็กซี่",
+        "detail_th": "Tokyo → shinkansen (Hokuriku/Asama) → Takasaki → train (JR Shinetsu Line) → Matsuida → แท็กซี่ ~15 นาที → Myogi Shrine",
+        "durationMin": 110,
+        "costYen": 5320,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "train"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "car",
+            "label_th": "แท็กซี่",
+            "icon": "car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Takasaki Station",
+            "mode": "shinkansen",
+            "line_th": "Hokuriku Shinkansen (Asama) / Joetsu Shinkansen",
+            "durationMin": 50,
+            "costYen": 4490,
+            "note_th": "base fare 1,980 + reserved 2,510 เยน · ~3-4 เที่ยว/ชม. · JR Pass / JR Tokyo Wide Pass ครอบคลุม คุ้มถ้ามี"
+          },
+          {
+            "from": "Takasaki Station",
+            "to": "Matsuida Station",
+            "mode": "train",
+            "line_th": "JR Shinetsu Line (ทาง Yokogawa)",
+            "durationMin": 25,
+            "costYen": 330,
+            "note_th": "~1 เที่ยว/ชม. เช็ครอบล่วงหน้า · Matsuida เป็นสถานีไร้คนเฝ้า มีเบอร์แท็กซี่ติดที่ประตู"
+          },
+          {
+            "from": "Matsuida Station",
+            "to": "Myogi Shrine",
+            "mode": "car",
+            "line_th": "แท็กซี่ท้องถิ่น",
+            "durationMin": 15,
+            "costYen": 500,
+            "note_th": "~500 เยน/คน ถ้าหารกัน (เหมาคันราว 2,000 เยน) · หรือเดินขึ้น ~1 ชม. · ไม่มีบัสประจำทางสะดวก"
+          }
+        ]
+      },
+      {
+        "mode": "JR ธรรมดา (Takasaki Line) ประหยัด",
+        "detail_th": "Ueno/Tokyo → train (JR Takasaki Line ตรง) → Takasaki → train (JR Shinetsu Line) → Matsuida → แท็กซี่ → Myogi Shrine",
+        "durationMin": 165,
+        "costYen": 2310,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "car",
+            "label_th": "แท็กซี่",
+            "icon": "car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Ueno Station",
+            "to": "Takasaki Station",
+            "mode": "train",
+            "line_th": "JR Takasaki Line (Special Rapid / ธรรมดา)",
+            "durationMin": 110,
+            "costYen": 1980,
+            "note_th": "ช้ากว่าชินคันเซ็น ~1 ชม. แต่ถูกกว่ามาก · นั่ง Green Car เพิ่มเงินได้ถ้าอยากสบาย"
+          },
+          {
+            "from": "Takasaki Station",
+            "to": "Matsuida Station",
+            "mode": "train",
+            "line_th": "JR Shinetsu Line (ทาง Yokogawa)",
+            "durationMin": 25,
+            "costYen": 330,
+            "note_th": "~1 เที่ยว/ชม. เช็ครอบล่วงหน้า"
+          },
+          {
+            "from": "Matsuida Station",
+            "to": "Myogi Shrine",
+            "mode": "car",
+            "line_th": "แท็กซี่ท้องถิ่น",
+            "durationMin": 15,
+            "costYen": 500,
+            "note_th": "~500 เยน/คน ถ้าหารกัน · หรือเดิน ~1 ชม."
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง ปลาย ต.ค.-กลาง พ.ย.",
+      "months": [
+        10,
+        11
+      ],
+      "note_th": "ไฮไลต์สุดของ Myogi — ใบเมเปิลแดงส้มตัดกับหน้าผาหินสีเทาขรุขระ จัดจ้านที่สุดในคันโต พีคต้น-กลาง พ.ย."
+    },
+    {
+      "label": "ซากุระ ใบไม้ผลิ เม.ย.",
+      "months": [
+        4
+      ],
+      "note_th": "ซากุระ weeping cherry ที่ศาลเจ้า Myogi + เขียวอ่อนตามหน้าผา อากาศกำลังดีเดินเขา"
+    },
+    {
+      "label": "ดอกคอสมอส ต.ค.",
+      "months": [
+        10
+      ],
+      "note_th": "ทุ่งคอสมอสหน้า Furusato Art Museum มีฉากหลังเป็นยอดหิน Myogi ถ่ายรูปสวย"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "หน้าผา + เส้นเดินเขา",
+      "type": "koyo",
+      "startFrac": 0.79,
+      "endFrac": 0.9,
+      "note_th": "ใบไม้แดงปลาย ต.ค.-กลาง พ.ย. (พีคต้น พ.ย.)"
+    },
+    {
+      "zone": "ศาลเจ้า Myogi",
+      "type": "bloom",
+      "startFrac": 0.27,
+      "endFrac": 0.33,
+      "note_th": "ซากุระ weeping cherry ต้น เม.ย."
+    },
+    {
+      "zone": "ทุ่ง Furusato",
+      "type": "bloom",
+      "startFrac": 0.74,
+      "endFrac": 0.82,
+      "note_th": "ทุ่งคอสมอส ต.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ชินคันเซ็นเป็นค่าหลัก ถ้ามี JR Pass / JR Tokyo Wide Pass ตัดออกได้เกือบหมด",
+    "items": [
+      {
+        "label_th": "ชินคันเซ็นไป-กลับ (Tokyo↔Takasaki)",
+        "yen": 8980,
+        "thb": 2065,
+        "note_th": "reserved ไป-กลับ · JR Pass / Tokyo Wide Pass ครอบคลุม"
+      },
+      {
+        "label_th": "รถไฟ JR ไป-กลับ (Takasaki↔Matsuida)",
+        "yen": 660,
+        "thb": 152,
+        "note_th": "JR Shinetsu Line"
+      },
+      {
+        "label_th": "แท็กซี่ไป-กลับ (Matsuida↔ศาลเจ้า)",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "หารกัน ~500/เที่ยว/คน · หรือเดินฟรี ~1 ชม."
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 1800,
+        "thb": 414,
+        "note_th": "โซบะ/อาหารถิ่น + คอนยัคคุท้องถิ่น Shimonita"
+      },
+      {
+        "label_th": "ค่าเข้า/ของฝาก",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "ทำบุญศาลเจ้า + ของที่ระลึก"
+      }
+    ],
+    "totalYen": 13440,
+    "totalThb": 3091,
+    "ranges": {
+      "lowThb": 1200,
+      "midThb": 3100,
+      "highThb": 4500
+    }
+  },
+  "pois": [
+    {
+      "name": "Jagged Rock Peaks (ยอดหินขรุขระ)",
+      "icon": "mountains",
+      "blurb_th": "ยอดหินแหลมตัดเป็นฟันเลื่อย เกิดจากภูเขาไฟ + กัดเซาะ 6 ล้านปี",
+      "deepDive_th": "หัวใจของ Myogi คือแนวยอดหินแหลมขรุขระ (妙義山) สูงสุดที่ยอด Somadake 1,104 ม. เกิดจากลาวาภูเขาไฟเมื่อ ~6 ล้านปีก่อน แล้วถูกฝน-ลมกัดเซาะจนเหลือเป็นแท่งหินตั้งชันเหมือนฟันเลื่อย · ได้ชื่อเป็น 1 ใน 'สามภูเขาประหลาด/สามทัศนียภาพแปลกของญี่ปุ่น' (Three Great Strange Scenic Spots) คู่กับโกรกใน Kyushu และ Shikoku · ฉากภูเขามองได้สวยตั้งแต่ระดับพื้น ไม่ต้องปีนถึงยอด เห็นชัดจากศาลเจ้า ทุ่งคอสมอส และถนนทางเข้า",
+      "location_th": "ยอดสูงสุด Somadake 1,104 ม.",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.%20Myogi%201.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Myogi Shrine (妙義神社)",
+      "icon": "building",
+      "durationMin": 40,
+      "blurb_th": "ศาลเจ้าโบราณยุค 1700s เกาะอยู่กลางหน้าผา ขึ้นบันไดหินมอส",
+      "deepDive_th": "Myogi Shrine (妙義神社) ศาลเจ้าเก่าแก่ตั้งอยู่กลางทางขึ้นเขา ตัวอาคารตกแต่งสลักไม้ลงรักปิดทองอลังการสไตล์ยุค Edo (สมัยคริสต์ศตวรรษ 1700) · สมัยก่อนคนมาขอพรให้พ้นจากอัคคีภัยและฟ้าผ่า · เดินขึ้นผ่านโทริอิหินขนาดใหญ่ (otorii) ที่มียอดหิน Myogi เป็นฉากหลัง แล้วขึ้นบันไดหิน 165 ขั้นปกคลุมมอสกลางป่าซีดาร์สูง บรรยากาศขลังมาก · เป็นทั้งจุดสักการะและประตูเริ่มเส้นเดินเขาหลัก",
+      "location_th": "กลางทางขึ้นเขา ฝั่ง Sakaemachi",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Myogi-jinja%20Otorii.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "บันไดหิน 165 ขั้น",
+      "icon": "building",
+      "blurb_th": "บันไดหินมอสชันกลางป่าซีดาร์เก่า ขึ้นสู่ศาลเจ้าด้านบน",
+      "deepDive_th": "บันไดหิน 165 ขั้น (165段の石段) ทางขึ้นสู่อาคารบูชาหลักของ Myogi Shrine ทอดยาวชันขึ้นไปกลางดงต้นซีดาร์ (sugi) อายุหลายร้อยปี ผิวบันไดปกคลุมมอสเขียว สองข้างมีโคมหิน · เป็นจุดถ่ายรูปคลาสสิกที่สื่อความขลังของศาลเจ้าภูเขา · ชันพอควร เผื่อแรงและใส่รองเท้ากันลื่น โดยเฉพาะหลังฝน",
+      "location_th": "ในเขต Myogi Shrine",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Myogi-jinja%20staircase%20of%20165%20steps.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Koyo บนหน้าผา (ใบไม้แดง)",
+      "icon": "trees",
+      "blurb_th": "ใบเมเปิลแดงส้มตัดกับหน้าผาหินเทา จัดจ้านสุดในคันโต",
+      "deepDive_th": "ช่วงปลาย ต.ค.-กลาง พ.ย. ป่ารอบ Myogi เปลี่ยนเป็นสีแดงส้มจัด ตัดกับผนังหินสีเทาขรุขระเป็นภาพ koyo ที่ดราม่าที่สุดแห่งหนึ่งของคันโต · จุดชมยอดนิยมคือเส้นเดินชมวิว Naka-no-take (中之嶽) ฝั่งล่าง ที่ราบเรียบกว่า เดินเลียบเชิงผาเก็บวิวใบไม้แดงได้โดยไม่ต้องปีนหินอันตราย · พีคสีต้น พ.ย. ควรเช็คสภาพใบก่อนไปเพราะแปรตามอากาศแต่ละปี",
+      "location_th": "เส้น Naka-no-take + รอบศาลเจ้า",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%A6%99%E7%BE%A9%E5%B1%B1%EF%BD%9E%E9%87%91%E9%B6%8F%E5%B1%B1%20-%20panoramio.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "ทุ่งคอสมอส Furusato",
+      "icon": "camera",
+      "blurb_th": "ทุ่งดอกคอสมอสหน้าพิพิธภัณฑ์ มีฉากหลังเป็นยอดหิน Myogi",
+      "deepDive_th": "ลานหน้า Myogi Furusato Art Museum (ふるさと美術館) ช่วง ต.ค. มีทุ่งดอกคอสมอสสีชมพูบานสะพรั่ง โดยมีแนวยอดหินขรุขระของ Myogi เป็นฉากหลัง เป็นมุมถ่ายรูปยอดฮิตที่ได้ทั้งดอกไม้และภูเขาในเฟรมเดียว · จุดนี้อยู่ระดับพื้น เดินชิล เหมาะคนไม่อยากปีนเขาแต่อยากเก็บวิวยอดหินสวยๆ · บริเวณเดียวกันมีลานจอดรถและจุดเริ่มเส้นเดินบางสาย",
+      "location_th": "หน้า Furusato Art Museum",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%BE%8E%E8%A1%93%E9%A4%A8%E3%81%AE%E3%82%B3%E3%82%B9%E3%83%A2%E3%82%B9%E3%81%A8%E5%A6%99%E7%BE%A9%E5%B1%B1.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Chained Ridge Course (เส้นโซ่สายโหด)",
+      "icon": "mountains",
+      "durationMin": 300,
+      "blurb_th": "เส้นปีนสันหินมีโซ่ช่วยปีน ~5 ชม. สำหรับสายแอดวานซ์เท่านั้น",
+      "deepDive_th": "Myogi มีเส้นเดินหลายสายแยกตามระดับความยาก จุดขึ้นชื่อคือเส้นสันเขาที่ต้องปีนหน้าผาด้วยโซ่เหล็ก (chained ridge) ~5 ชม. สาย rock-climbing/scrambling ตัวจริง มีช่วงหน้าผาตั้งชัน ต้องใช้ทั้งมือทั้งเท้าจับโซ่ปีน · อันตรายจริง เคยมีอุบัติเหตุ ไม่เหมาะมือใหม่/คนกลัวความสูงเด็ดขาด ต้องมีประสบการณ์ + อุปกรณ์ + สภาพอากาศดี · ถ้าไม่สายโหดให้เลือกเส้น Naka-no-take ชมวิวด้านล่างแทนซึ่งปลอดภัยกว่ามาก",
+      "location_th": "สันเขาฝั่งบน (advanced)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt-myogi-in-summer.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip สายชมวิว (ศาลเจ้า + koyo + คอสมอส)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เก็บไฮไลต์แบบไม่ต้องปีนหิน",
+          "detail_th": "ออกโตเกียวเช้า ชินคันเซ็น → Takasaki → Shinetsu Line → Matsuida → แท็กซี่ขึ้นศาลเจ้า Myogi → เดินผ่านโทริอิหิน ขึ้นบันไดหิน 165 ขั้นสักการะศาลเจ้า → เดินเส้น Naka-no-take ชมวิวยอดหิน + koyo (ปลอดภัย ไม่ปีน) → แวะทุ่งคอสมอสหน้า Furusato Art Museum ถ่ายรูป → แท็กซี่ลง Matsuida → กลับโตเกียวเย็น",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "ออกโตเกียว → Takasaki",
+              "detail_th": "Hokuriku/Joetsu Shinkansen ~50 นาที",
+              "mode": "shinkansen",
+              "durationMin": 50
+            },
+            {
+              "time_th": "~09:10",
+              "title_th": "Takasaki → Matsuida",
+              "detail_th": "JR Shinetsu Line (เช็ครอบ ~1 เที่ยว/ชม.)",
+              "mode": "train",
+              "durationMin": 25
+            },
+            {
+              "time_th": "~09:40",
+              "title_th": "แท็กซี่ขึ้นศาลเจ้า Myogi",
+              "detail_th": "~15 นาที จาก Matsuida (ไม่มีบัสสะดวก)",
+              "mode": "car",
+              "durationMin": 15
+            },
+            {
+              "time_th": "~10:00",
+              "title_th": "Myogi Shrine + บันได 165 ขั้น",
+              "detail_th": "โทริอิหิน → บันไดหินมอสกลางป่าซีดาร์ → ศาลเจ้ายุค Edo",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~11:30",
+              "title_th": "เส้น Naka-no-take ชมวิว + koyo",
+              "detail_th": "เดินเลียบเชิงผา เก็บวิวยอดหิน + ใบไม้แดง (ปลอดภัย ไม่ปีนโซ่)",
+              "durationMin": 120
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "ทุ่งคอสมอส Furusato",
+              "detail_th": "ถ่ายรูปทุ่งดอกไม้ฉากหลังยอดหิน (ถ้าหน้าคอสมอส ต.ค.)",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~16:00",
+              "title_th": "แท็กซี่ลง Matsuida → กลับโตเกียว",
+              "detail_th": "Shinetsu Line → Takasaki → ชินคันเซ็นกลับ",
+              "mode": "shinkansen",
+              "durationMin": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "สายปีนเขา (chained ridge สำหรับมือโปร)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เส้นสันหินโซ่เหล็กเต็มวัน",
+          "detail_th": "เฉพาะคนมีประสบการณ์ปีนเขา/scrambling: ขึ้นจากศาลเจ้า Myogi เดินเส้นสันเขาที่ต้องจับโซ่เหล็กปีนหน้าผาตั้งชัน ~5 ชม. · ต้องเช็คสภาพอากาศ เริ่มเช้า เตรียมถุงมือ/รองเท้าปีนเขา/น้ำให้พอ · ถ้าไม่มั่นใจให้เปลี่ยนไปเส้น Naka-no-take ด้านล่างแทน",
+          "steps": [
+            {
+              "time_th": "เช้าตรู่",
+              "title_th": "ถึงศาลเจ้า Myogi เริ่มเส้น",
+              "detail_th": "ชินคันเซ็น+รถไฟ+แท็กซี่ ถึงก่อน 9 โมงเริ่มปีน",
+              "durationMin": 30
+            },
+            {
+              "time_th": "เช้า-บ่าย",
+              "title_th": "Chained ridge course",
+              "detail_th": "ปีนสันหินจับโซ่เหล็ก ~5 ชม. หน้าผาชัน อันตราย เฉพาะมือโปร",
+              "durationMin": 300
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "ลงเขา → กลับโตเกียว",
+              "detail_th": "เผื่อเวลาลงให้ทันรอบรถไฟ Shinetsu Line",
+              "mode": "shinkansen",
+              "durationMin": 90
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "เส้น chained ridge ปีนสันหินด้วยโซ่เหล็ก หน้าผาตั้งชัน อันตรายจริง เคยมีอุบัติเหตุเสียชีวิต — เฉพาะคนมีประสบการณ์ปีนเขา ห้ามมือใหม่/คนกลัวความสูง",
+    "ถ้าไม่ใช่สายปีน เลือกเส้นชมวิว Naka-no-take ด้านล่างที่ปลอดภัยกว่ามาก ได้วิวยอดหินครบโดยไม่ต้องจับโซ่",
+    "หินลื่นมากหลังฝน/หน้าหนาวมีน้ำแข็งเกาะ เลี่ยงปีนเส้นโซ่ช่วงฝนหรือเช้ามืดหน้าหนาว",
+    "Matsuida เป็นสถานีไร้คนเฝ้า ไม่มีบัสตรงสะดวกไปศาลเจ้า ควรเตรียมเบอร์แท็กซี่/เผื่อเวลาเดิน ~1 ชม.",
+    "รอบรถไฟ JR Shinetsu Line จาก Takasaki มีไม่ถี่ (~1 เที่ยว/ชม.) เช็คตารางทั้งขาไป-ขากลับล่วงหน้า"
+  ],
+  "sources": [
+    {
+      "label": "Mt. Myogi — JNTO (Japan Travel)",
+      "url": "https://www.japan.travel/en/spot/1506/"
+    },
+    {
+      "label": "Mt. Myogi — Shimonita Town Tourism",
+      "url": "https://www.shimonita.jp/sightseeing/eng/myougi-en"
+    },
+    {
+      "label": "Mt. Myogi Hiking — JNTO",
+      "url": "https://www.japan.travel/en/sports/hiking/courses/mt-myogi/"
+    }
+  ],
+  "tags_th": [
+    "ภูเขาหิน",
+    "สามภูเขาประหลาด",
+    "ศาลเจ้า",
+    "ใบไม้แดง",
+    "เดินเขา",
+    "ปีนผา"
+  ],
+  "food": [
+    {
+      "name": "คอนยัคคุ Shimonita",
+      "name_jp": "下仁田こんにゃく",
+      "emoji": "🍢",
+      "note_th": "Shimonita เป็นแหล่งคอนยัคคุชั้นดีของญี่ปุ่น กินสด/โอเด้ง"
+    },
+    {
+      "name": "ต้นหอม Shimonita",
+      "name_jp": "下仁田ネギ",
+      "emoji": "🧅",
+      "note_th": "ต้นหอมหวานชื่อดังของถิ่น ย่าง/ใส่สุกี้อร่อย ฤดูหนาว"
+    },
+    {
+      "name": "โซบะภูเขา",
+      "name_jp": "蕎麦",
+      "emoji": "🍜",
+      "note_th": "ร้านโซบะแถบเชิงเขา Myogi กินอุ่นๆ หลังเดิน"
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "slug": "kawazu",
+  "name": {
+    "en": "Kawazu",
+    "th": "คาวาซุ",
+    "jp": "河津"
+  },
+  "region": "Chubu",
+  "prefecture": "Shizuoka",
+  "coords": {
+    "lat": 34.74,
+    "lng": 138.98
+  },
+  "category": [
+    "nature",
+    "coast"
+  ],
+  "tagline_th": "ซากุระบานเร็วสุดของญี่ปุ่น — Kawazu-zakura ชมพูเข้มหลายพันต้นเลียบแม่น้ำตั้งแต่ ก.พ. + น้ำตก 7 ชั้น วาซาบิ และชายฝั่งอิซุ",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shizuoka-Kawazu%20cherry%20blossoms%20and%20Odoriko-xl.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kawazu%20river%20with%20its%20famous%20cherry%20blossoms%20-%20Flickr%20-%20odako1.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "นั่ง Limited Express Odoriko ตรงจากโตเกียว/ชินากาวะ → Kawazu ~2.5 ชม. ไม่ต้องต่อรถ ลงสถานีปุ๊บเดินไปริมแม่น้ำชมซากุระได้เลย · ถ้าจะไปน้ำตก 7 ชั้น ต่อบัส Tokai ~25 นาที · ไกลกว่า day-trip ใกล้ๆ นิดหน่อยแต่ตรงเดียวจบ",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Limited Express Odoriko (ตรง ไม่ต้องต่อ)",
+        "detail_th": "Tokyo/Shinagawa → train (LEX Odoriko ตรง) → Kawazu Station → เดินริมแม่น้ำ Kawazu ชมซากุระ",
+        "durationMin": 156,
+        "costYen": 4560,
+        "transfers": 0,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟด่วนพิเศษ",
+            "icon": "subway"
+          },
+          {
+            "mode": "walk",
+            "label_th": "เดิน",
+            "icon": "walking"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station (หรือ Shinagawa)",
+            "to": "Kawazu Station",
+            "mode": "train",
+            "line_th": "JR/Izukyu Limited Express Odoriko (ตรง ไม่ต้องต่อ)",
+            "durationMin": 156,
+            "costYen": 4560,
+            "note_th": "~2 ชม. 36 นาที · ราคารวมค่าโดยสาร+ค่าธรรมเนียม LEX ~4,560 เยน · ช่วงเทศกาลซากุระ ก.พ.-มี.ค. คนเยอะ ควรจองที่นั่งล่วงหน้า · บางขบวนเป็น Saphir Odoriko (หรู คาเฟ่บนรถ ราคาสูงกว่า)"
+          },
+          {
+            "from": "Kawazu Station",
+            "to": "ริมแม่น้ำ Kawazu (แนวซากุระ)",
+            "mode": "walk",
+            "line_th": "เดินจากสถานี",
+            "durationMin": 5,
+            "costYen": 0,
+            "note_th": "แนวซากุระเลียบแม่น้ำเริ่มห่างสถานีแค่ ~5 นาที เดินยาวเลียบน้ำได้หลายกิโล"
+          }
+        ]
+      },
+      {
+        "mode": "Odoriko + บัส Tokai (ไปน้ำตก 7 ชั้น Nanadaru)",
+        "detail_th": "Tokyo → train (LEX Odoriko) → Kawazu Station → bus (Tokai สาย Nanadaru) ~25 นาที → Kawazu Nanadaru → เดินเทรลน้ำตก",
+        "durationMin": 186,
+        "costYen": 5230,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟด่วนพิเศษ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Kawazu Station",
+            "mode": "train",
+            "line_th": "JR/Izukyu Limited Express Odoriko (ตรง)",
+            "durationMin": 156,
+            "costYen": 4560,
+            "note_th": "เหมือน option แรก · จองที่นั่งช่วงเทศกาล"
+          },
+          {
+            "from": "Kawazu Station",
+            "to": "Kawazu Nanadaru (น้ำตก 7 ชั้น)",
+            "mode": "bus",
+            "line_th": "Tokai Bus (สายขึ้น Nanadaru/Shuzenji)",
+            "durationMin": 25,
+            "costYen": 670,
+            "note_th": "~1 เที่ยว/ชม. · ขาเดียว ~670 เยน (ไป-กลับ ~1,150 ถ้าซื้อที่เคาน์เตอร์) · ลงป้าย Kawazu Nanataki Onsen แล้วเดินเทรลน้ำตก ~1.3 กม. (ไป-กลับ ~2.6 กม.) · เช็ครอบบัสกลับให้ดี"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ซากุระบานเร็ว ก.พ.",
+      "months": [
+        2,
+        3
+      ],
+      "note_th": "ไฮไลต์ของที่นี่ — Kawazu-zakura บานต้น ก.พ. ถึงต้น มี.ค. เร็วกว่าซากุระทั่วญี่ปุ่นเป็นเดือน ชมพูเข้มกว่า บานนานกว่า เลียบแม่น้ำหลายกิโล มีเทศกาล Kawazu-zakura Festival + ไฟประดับกลางคืน"
+    },
+    {
+      "label": "ใบไม้แดง พ.ย.",
+      "months": [
+        11
+      ],
+      "note_th": "ปลาย พ.ย. ใบไม้แดงในป่ารอบน้ำตก 7 ชั้น (Nanadaru) และตามเทรล เย็นสบาย คนน้อยกว่าหน้าซากุระมาก"
+    },
+    {
+      "label": "หนีร้อน/ทะเลอิซุ ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "หน้าร้อนเล่นน้ำชายหาดฝั่งอิซุตะวันออก เดินเทรลน้ำตกเย็นชื้น ลำธารคลายร้อน"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ซากุระเลียบแม่น้ำ Kawazu",
+      "type": "bloom",
+      "startFrac": 0.09,
+      "endFrac": 0.18,
+      "note_th": "Kawazu-zakura ต้น ก.พ.–ต้น มี.ค. (ไฮไลต์)"
+    },
+    {
+      "zone": "ป่ารอบน้ำตก Nanadaru",
+      "type": "koyo",
+      "startFrac": 0.85,
+      "endFrac": 0.95,
+      "note_th": "ใบไม้แดงปลาย พ.ย."
+    },
+    {
+      "zone": "ชายฝั่งอิซุ",
+      "type": "green",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "ฤดูทะเล ก.ค.-ส.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่ารถไฟ Odoriko เป็นก้อนหลัก แพงกว่า day-trip ใกล้ๆ เพราะเป็น Limited Express",
+    "items": [
+      {
+        "label_th": "Odoriko ไป-กลับ (Tokyo↔Kawazu)",
+        "yen": 9120,
+        "thb": 2098,
+        "note_th": "LEX Odoriko ตรง ~4,560 เยน/เที่ยว รวมค่าธรรมเนียมที่นั่ง"
+      },
+      {
+        "label_th": "บัส Tokai ไป-กลับ (น้ำตก 7 ชั้น)",
+        "yen": 1150,
+        "thb": 265,
+        "note_th": "ตัดออกได้ถ้าเที่ยวเฉพาะแนวซากุระริมแม่น้ำในเมือง"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2500,
+        "thb": 575,
+        "note_th": "วาซาบิดง/ปลาทะเลสด/ของกินเทศกาลริมแม่น้ำ"
+      },
+      {
+        "label_th": "ออนเซ็น/ของฝาก",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "แช่ออนเซ็นฝั่งอิซุ + ของที่ระลึก wasabi/ซากุระ"
+      }
+    ],
+    "totalYen": 14270,
+    "totalThb": 3283,
+    "ranges": {
+      "lowThb": 2500,
+      "midThb": 3500,
+      "highThb": 5500
+    }
+  },
+  "pois": [
+    {
+      "name": "Kawazu-zakura Riverside",
+      "icon": "trees",
+      "durationMin": 90,
+      "blurb_th": "ซากุระชมพูเข้มหลายพันต้นเลียบแม่น้ำ บานต้น ก.พ. เร็วสุดในญี่ปุ่น",
+      "deepDive_th": "Kawazu-zakura (河津桜) คือสายพันธุ์ซากุระที่บานเร็วและบานนานกว่าซากุระทั่วไป สีชมพูเข้มสด แนวต้นซากุระทอดยาวเลียบแม่น้ำ Kawazu หลายกิโลเมตรในตัวเมือง · ช่วงพีคคือต้น ก.พ. ถึงต้น มี.ค. (เร็วกว่าซากุระโตเกียวเป็นเดือน) มีเทศกาล Kawazu-zakura Festival ที่ดึงคนมาทั้งญี่ปุ่น มีแผงอาหารริมน้ำและไฟประดับชมซากุระกลางคืน · จุดถ่ายรูปคลาสสิกคือสะพานสีแดงข้ามแม่น้ำตัดกับซากุระชมพูและภูเขาเป็นฉากหลัง บางจังหวะรถไฟ Odoriko วิ่งผ่านพอดี · เดินเลียบน้ำได้เรื่อยๆ ทางราบสบาย เหมาะทุกวัย",
+      "location_th": "เลียบแม่น้ำ Kawazu ห่างสถานี ~5 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kawazu%20river%20with%20its%20famous%20cherry%20blossoms%20-%20Flickr%20-%20odako1.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kawazu%20river%20and%20Kawazu%20Cherry%20blossom.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Kawazu Nanadaru (น้ำตก 7 ชั้น)",
+      "icon": "raindrops-alt",
+      "durationMin": 90,
+      "blurb_th": "น้ำตก 7 ชั้นในโกรกเสาหินบะซอลต์ เดินเทรล ~1.3 กม. เชื่อมทุกชั้น",
+      "deepDive_th": "Kawazu Nanadaru (河津七滝 'น้ำตก 7 ชั้นแห่งคาวาซุ') คือชุดน้ำตก 7 แห่งไหลลดหลั่นในโกรกลึก จุดเด่นคือผนังหินเป็น 'columnar joints' เสาหินบะซอลต์หกเหลี่ยมจากลาวาเย็นตัว ทำให้น้ำตกแต่ละชั้นมีฉากหลังหินเรียงตัวสวยแปลกตา · มีเส้นเดินเทรลปูทางต่อเนื่องเลียบลำธารยาว ~1.3 กม. (ไป-กลับ ~2.6 กม.) ผ่านครบทั้ง 7 ชั้น มีสะพานแขวนและบันไดหินบางช่วง · บรรยากาศป่าเขียวชื้นเย็นสบาย เป็นไฮไลต์สายธรรมชาติของคาวาซุ คู่กับซากุระ · จาก Kawazu Station ต่อบัส Tokai ~25 นาที",
+      "location_th": "ต้นน้ำแม่น้ำ Kawazu · บัส ~25 นาทีจากสถานี",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Deaidaru%20Fall%20in%20Kawazu%20Seven%20Falls.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarutafuchi%20Fall%20in%20Kawazu%20Town.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Kawazu-zakura Original Tree",
+      "icon": "camera",
+      "durationMin": 20,
+      "blurb_th": "ต้นซากุระคาวาซุต้นแรกของโลก ที่มาของสายพันธุ์ทั้งหมด",
+      "deepDive_th": "Kawazu-zakura Original Tree (河津桜原木) คือต้นซากุระคาวาซุ 'ต้นแม่' ต้นแรกที่พบในตัวเมืองคาวาซุเมื่อราวปี 1955 จากต้นกล้าริมแม่น้ำ ก่อนถูกขยายพันธุ์จนกลายเป็นสายพันธุ์ Kawazu-zakura ที่ปลูกทั่วญี่ปุ่นทุกวันนี้ · ต้นเดิมยังยืนอยู่หน้าบ้านหลังหนึ่งในเมือง เป็นจุดแวะเชิงสัญลักษณ์ของคนที่มาตามรอยซากุระบานเร็ว มักบานก่อนต้นริมแม่น้ำเล็กน้อย · ขนาดเล็กกะทัดรัด แวะถ่ายรูปสั้นๆ ระหว่างเดินเล่นในเมืองได้",
+      "location_th": "ในตัวเมือง Kawazu (เดินจากแนวริมแม่น้ำ)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kawazu%20Sakura%20original%20tree.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Izu Wasabi Terraces",
+      "icon": "trees",
+      "blurb_th": "นาวาซาบิขั้นบันไดน้ำใสจากภูเขาอิซุ ของขึ้นชื่อประจำถิ่น",
+      "deepDive_th": "คาบสมุทรอิซุเป็นแหล่งปลูกวาซาบิชั้นนำของญี่ปุ่น เพราะมีน้ำพุภูเขาใสเย็นไหลตลอดปี — นาวาซาบิทำเป็นขั้นบันได (terrace) ให้น้ำไหลผ่านรากตลอด ปลูกในร่มเงาป่า · ตามเส้นทางอิซุ (รวมแถบ Nanadaru/Amagi) จะเห็นแปลงวาซาบิเขียวชอุ่มเรียงขั้นริมลำธาร เป็นภาพชนบทญี่ปุ่นที่หาดูยาก · ของกินห้ามพลาดคือ 'wasabi-don' (ข้าวหน้าวาซาบิสดขูด) และซอฟต์ครีมวาซาบิ รสเผ็ดหอมสดที่ต้องกินถึงถิ่นถึงได้ของจริง",
+      "location_th": "ตามเส้นภูเขาอิซุ (Amagi/Nanadaru)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Izu%20city%2C%20Yugashima%2C%20Wasabi%20fields%2020111002%20B.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Izu Coast (Geopark)",
+      "icon": "mountains",
+      "blurb_th": "ชายฝั่งอิซุตะวันออก หน้าผาหินภูเขาไฟ + ทะเลใสเขียวมรกต",
+      "deepDive_th": "คาวาซุอยู่ติดชายฝั่งอิซุตะวันออก ส่วนหนึ่งของ Izu Peninsula UNESCO Global Geopark — แนวชายฝั่งเกิดจากภูเขาไฟใต้ทะเลโบราณ มีหน้าผาหิน เสาหินบะซอลต์ และอ่าวน้ำใสสีเขียวมรกตเรียงตลอดเส้น · ใกล้คาวาซุมีหาดและจุดชมวิวทะเล เช่นแถบ Imaihama เหมาะแวะปิดท้ายทริปหลังชมซากุระ/น้ำตก หรือมาเล่นน้ำหน้าร้อน · ภาพคลาสสิกของอิซุคือผาหินตัดกับทะเลใส (ภาพนี้คือแนว columnar joints แถบ Minami-Izu เป็น landmark ตัวแทนของชายฝั่ง geopark)",
+      "location_th": "ชายฝั่งอิซุตะวันออก ใกล้ Kawazu",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Columnar%20joints%20at%20Nakagi%2C%20Minami-Izu%2C%20Shizuoka%2C%20Japan.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ตามล่าซากุระบานเร็ว (ก.พ.)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เก็บซากุระริมแม่น้ำ + น้ำตก 7 ชั้นในวันเดียว",
+          "detail_th": "ออกโตเกียวเช้า นั่ง Odoriko ตรงถึง Kawazu (~2.5 ชม.) → เดินเลียบแม่น้ำ Kawazu ชมซากุระชมพูเข้ม แวะ Original Tree → กินวาซาบิดง/ปลาสดมื้อเที่ยงริมแม่น้ำ → ต่อบัส Tokai ขึ้น Kawazu Nanadaru เดินเทรลน้ำตก 7 ชั้น ~1.5 ชม. → กลับลงเมือง ถ้ามีเวลาแช่ออนเซ็น → กลับโตเกียวเย็น (จองที่นั่ง Odoriko ขากลับล่วงหน้า)",
+          "steps": [
+            {
+              "time_th": "~08:30",
+              "title_th": "ออกโตเกียว → Kawazu",
+              "detail_th": "LEX Odoriko ตรง ไม่ต้องต่อ จองที่นั่งช่วงเทศกาล",
+              "mode": "train",
+              "durationMin": 156
+            },
+            {
+              "time_th": "~11:10",
+              "title_th": "เดินซากุระริมแม่น้ำ + Original Tree",
+              "detail_th": "แนวซากุระเลียบน้ำ ถ่ายรูปสะพานแดง แวะต้นซากุระต้นแรก",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~12:45",
+              "title_th": "มื้อเที่ยงริมแม่น้ำ",
+              "detail_th": "วาซาบิดง/ปลาทะเลสด/ของกินแผงเทศกาล",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~14:00",
+              "title_th": "บัสขึ้น Kawazu Nanadaru",
+              "detail_th": "Tokai Bus ~25 นาที ลง Kawazu Nanataki Onsen",
+              "mode": "bus",
+              "durationMin": 25
+            },
+            {
+              "time_th": "~14:30",
+              "title_th": "เดินเทรลน้ำตก 7 ชั้น",
+              "detail_th": "เส้น ~1.3 กม. ผ่านครบ 7 ชั้น เสาหินบะซอลต์ + สะพานแขวน",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~16:30",
+              "title_th": "บัสกลับ + ออนเซ็น (ถ้ามีเวลา)",
+              "detail_th": "ลงเมือง เช็ครอบบัส แช่ออนเซ็นฝั่งอิซุก่อนกลับ",
+              "mode": "bus",
+              "durationMin": 25
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับโตเกียว",
+              "detail_th": "Odoriko ขากลับ จองที่นั่งล่วงหน้า",
+              "mode": "train",
+              "durationMin": 156
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "แบบสบาย ครึ่งวัน เน้นซากุระริมแม่น้ำ",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เก็บไฮไลต์ซากุระ ไม่ต่อบัส",
+          "detail_th": "เหมาะถ้ามากับเด็ก/ผู้ใหญ่ หรือเวลาน้อย: นั่ง Odoriko ถึง Kawazu → เดินเลียบแม่น้ำชมซากุระเต็มอิ่ม แวะ Original Tree + แผงอาหารเทศกาล → ไม่ต้องต่อบัสไปน้ำตก → กลับโตเกียวบ่าย-เย็น · เดินทางตรงทั้งหมด ทางราบสบาย",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "ถึง Kawazu",
+              "detail_th": "Odoriko ตรงจากโตเกียว ลงสถานีเดินไปริมแม่น้ำ ~5 นาที",
+              "mode": "train",
+              "durationMin": 156
+            },
+            {
+              "time_th": "สาย-บ่าย",
+              "title_th": "ซากุระริมแม่น้ำ + Original Tree",
+              "detail_th": "เดินเลียบน้ำเต็มอิ่ม ถ่ายรูป กินของแผงเทศกาล",
+              "durationMin": 150
+            },
+            {
+              "time_th": "บ่าย-เย็น",
+              "title_th": "กลับโตเกียว",
+              "detail_th": "Odoriko ขากลับ (ข้ามน้ำตก 7 ชั้นออกไป)",
+              "mode": "train",
+              "durationMin": 156
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "ซากุระ Kawazu-zakura บานเฉพาะช่วงต้น ก.พ.–ต้น มี.ค. เท่านั้น (เร็วกว่าซากุระทั่วไปเป็นเดือน) — มานอกช่วงนี้จะไม่เจอดอก เช็ควันบานปีนั้นๆ ก่อนซื้อตั๋ว เพราะแกว่งตามอากาศ",
+    "ช่วงเทศกาลซากุระคนเยอะมากทั้งบนรถไฟและในเมือง — จองที่นั่ง Odoriko ทั้งไปและกลับล่วงหน้า ไม่งั้นอาจต้องยืน/ตกรอบ",
+    "เทรลน้ำตก Nanadaru มีบันไดหิน สะพานแขวน และพื้นลื่นช่วงฝน — ใส่รองเท้ายึดเกาะดี และเช็ครอบบัส Tokai กลับ (~1 เที่ยว/ชม.) อย่าตกรอบ",
+    "เป็น Limited Express ค่ารถแพงกว่า day-trip ใกล้ๆ และ JR Pass ทั่วไปไม่ครอบคลุมช่วง Izukyu (เอกชน) — เผื่อค่าตั๋วส่วนนี้"
+  ],
+  "sources": [
+    {
+      "label": "Kawazu Cherry Blossoms — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6014.html"
+    },
+    {
+      "label": "Kawazu Seven Waterfalls (Nanadaru) — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6313.html"
+    },
+    {
+      "label": "Odoriko — JR-EAST",
+      "url": "https://www.jreast.co.jp/en/multi/traininformation/odoriko/"
+    },
+    {
+      "label": "Kawazu Seven Waterfalls — JNTO",
+      "url": "https://www.japan.travel/en/spot/1278/"
+    }
+  ],
+  "tags_th": [
+    "ซากุระบานเร็ว",
+    "น้ำตก",
+    "วาซาบิ",
+    "ชายฝั่งอิซุ",
+    "ออนเซ็น",
+    "เทศกาล"
+  ],
+  "food": [
+    {
+      "name": "วาซาบิดง",
+      "name_jp": "わさび丼",
+      "emoji": "🌿",
+      "note_th": "ข้าวหน้าวาซาบิสดขูด ของขึ้นชื่ออิซุ น้ำภูเขาใสปลูกวาซาบิดี"
+    },
+    {
+      "name": "ปลาทะเลสดอิซุ",
+      "name_jp": "海鮮丼",
+      "emoji": "🐟",
+      "note_th": "ไคเซ็นดง/ซาชิมิจากชายฝั่งอิซุ ปลาสดประจำถิ่น"
+    },
+    {
+      "name": "ของกินเทศกาลซากุระ",
+      "name_jp": "桜まつり屋台",
+      "emoji": "🍡",
+      "note_th": "แผงอาหารริมแม่น้ำช่วงเทศกาล ก.พ.-มี.ค. ดังโงะ/ของย่าง/ขนมซากุระ"
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "slug": "suwa",
+  "name": {
+    "en": "Lake Suwa",
+    "th": "ทะเลสาบสุวะ",
+    "jp": "諏訪湖"
+  },
+  "region": "Chubu",
+  "prefecture": "Nagano",
+  "coords": {
+    "lat": 36.05,
+    "lng": 138.08
+  },
+  "category": [
+    "lake",
+    "onsen"
+  ],
+  "tagline_th": "ทะเลสาบใหญ่สุดของนางาโนะ ล้อมด้วยออนเซ็นริมน้ำ ศาลเจ้า Suwa Taisha โบราณ วิวเทือกเขาแอลป์ + ดอกไม้ไฟใหญ่สุดของญี่ปุ่นใน ส.ค. หน้าหนาวมีปรากฏการณ์สันน้ำแข็ง omiwatari",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Suwa%2C%20Nagano%20Prefecture%3B%20May%202019%20(06).jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Suwa%2C%20from%20Tateishi%20Park%3B%20October%202018%20(03).jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "นั่ง JR Chuo Line รถด่วนพิเศษ Azusa จากชินจูกุตรงถึง Kami-Suwa (ริมทะเลสาบ) ~2.5 ชม. ไม่ต้องต่อรถ ลงสถานีเดินถึงออนเซ็นริมน้ำ + ท่าเรือ · เป็น day-trip ได้แต่ค้าง 1 คืนแช่ออนเซ็นริมทะเลสาบคุ้มกว่า",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "JR Chuo Line LEX Azusa (ตรง แนะนำ)",
+        "detail_th": "ชินจูกุ → train (Limited Express Azusa) → Kami-Suwa Station ตรง ไม่ต้องต่อ ~2.5 ชม.",
+        "durationMin": 150,
+        "costYen": 5580,
+        "transfers": 0,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟด่วนพิเศษ",
+            "icon": "subway"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Kami-Suwa Station",
+            "mode": "train",
+            "line_th": "JR Chuo Line — Limited Express Azusa (あずさ)",
+            "durationMin": 150,
+            "costYen": 5580,
+            "note_th": "ค่าโดยสาร + ค่าด่วนพิเศษที่นั่งสำรอง รวม ~5,580 เยน · ~1 ขบวน/ชม. · จองที่นั่งล่วงหน้าช่วง weekend/ดอกไม้ไฟ ส.ค. · บางขบวนจอด Chino/Shimo-Suwa ด้วย"
+          }
+        ]
+      },
+      {
+        "mode": "รถไฟธรรมดา (ประหยัด ต่อรถ)",
+        "detail_th": "ชินจูกุ → train (Chuo Line Rapid) → Otsuki → train (Chuo Line ท้องถิ่น) → Kobuchizawa → train → Kami-Suwa · ช้ากว่าแต่ถูกกว่า",
+        "durationMin": 240,
+        "costYen": 4070,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Otsuki Station",
+            "mode": "train",
+            "line_th": "JR Chuo Line (Rapid)",
+            "durationMin": 65,
+            "costYen": 1342,
+            "note_th": "ไม่มีค่าธรรมเนียมด่วนพิเศษ · ~2-3 เที่ยว/ชม."
+          },
+          {
+            "from": "Otsuki Station",
+            "to": "Kobuchizawa Station",
+            "mode": "train",
+            "line_th": "JR Chuo Line (ท้องถิ่น)",
+            "durationMin": 95,
+            "costYen": 1980,
+            "note_th": "ช่วงนี้รถน้อย ~1 เที่ยว/ชม. เช็คตารางก่อน"
+          },
+          {
+            "from": "Kobuchizawa Station",
+            "to": "Kami-Suwa Station",
+            "mode": "train",
+            "line_th": "JR Chuo Line (ท้องถิ่น)",
+            "durationMin": 40,
+            "costYen": 748,
+            "note_th": "ผ่าน Chino ก่อนถึง Kami-Suwa ริมทะเลสาบ"
+          }
+        ]
+      },
+      {
+        "mode": "รถบัสทางไกล (ถูกสุด)",
+        "detail_th": "ชินจูกุ (Busta Shinjuku) → highway bus → Suwa IC / Kami-Suwa ~3-3.5 ชม. ถูกสุดแต่ขึ้นกับรถติด",
+        "durationMin": 200,
+        "costYen": 3300,
+        "transfers": 0,
+        "legs": [
+          {
+            "mode": "bus",
+            "label_th": "บัสทางไกล",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Busta Shinjuku (ชินจูกุ)",
+            "to": "Kami-Suwa / Suwa IC",
+            "mode": "bus",
+            "line_th": "Alpico/Keio Highway Bus สาย Suwa-Okaya",
+            "durationMin": 200,
+            "costYen": 3300,
+            "note_th": "จองล่วงหน้า · เวลาแปรผันตามรถติดช่วง weekend/วันหยุดยาว · ถูกกว่ารถไฟ Azusa มาก"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ดอกไม้ไฟใหญ่ ส.ค.",
+      "months": [
+        8
+      ],
+      "note_th": "Lake Suwa Fireworks Festival 15 ส.ค. ยิงกว่า 40,000 ลูก สะท้อนผิวน้ำ ใหญ่สุดงานหนึ่งของญี่ปุ่น · จองที่พัก+ตั๋วรถล่วงหน้าหลายเดือน คนแน่นมาก"
+    },
+    {
+      "label": "ใบไม้แดง + วิวแอลป์ ต.ค.-พ.ย.",
+      "months": [
+        10,
+        11
+      ],
+      "note_th": "อากาศใส มองเห็นเทือกเขาแอลป์ญี่ปุ่นรอบทะเลสาบชัด ใบไม้เปลี่ยนสีรอบ Tateishi Park เหมาะถ่ายรูป"
+    },
+    {
+      "label": "หน้าหนาว omiwatari ม.ค.-ก.พ.",
+      "months": [
+        1,
+        2
+      ],
+      "note_th": "ปีที่หนาวจัดพอ ผิวทะเลสาบกลายเป็นน้ำแข็ง เกิดสันน้ำแข็งดัน omiwatari (御神渡り) · ไม่เกิดทุกปี ขึ้นกับอุณหภูมิ"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ทะเลสาบ (omiwatari)",
+      "type": "snow",
+      "startFrac": 0.0,
+      "endFrac": 0.13,
+      "note_th": "ผิวน้ำแข็ง สันน้ำแข็ง ม.ค.-กลาง ก.พ. (เฉพาะปีหนาวจัด)"
+    },
+    {
+      "zone": "ริมทะเลสาบ (ดอกไม้ไฟ)",
+      "type": "event",
+      "startFrac": 0.61,
+      "endFrac": 0.63,
+      "note_th": "เทศกาลดอกไม้ไฟใหญ่ 15 ส.ค."
+    },
+    {
+      "zone": "Tateishi Park / รอบทะเลสาบ",
+      "type": "koyo",
+      "startFrac": 0.78,
+      "endFrac": 0.9,
+      "note_th": "ใบไม้แดง + วิวแอลป์ใส ต.ค.-พ.ย."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน ค้าง 1 คืนแช่ออนเซ็นริมทะเลสาบ (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค้างคืนแนะนำกว่า day-trip เพราะออนเซ็นริมน้ำคือไฮไลต์",
+    "items": [
+      {
+        "label_th": "เดินทางไป-กลับ (Azusa ชินจูกุ↔Kami-Suwa)",
+        "yen": 11160,
+        "thb": 2567,
+        "note_th": "LEX Azusa ไป-กลับ · ประหยัดได้ถ้าใช้รถไฟธรรมดา/บัส"
+      },
+      {
+        "label_th": "ที่พักออนเซ็นริมทะเลสาบ 1 คืน",
+        "yen": 13000,
+        "thb": 2990,
+        "note_th": "เรียวกัง/โรงแรมออนเซ็น Kamisuwa มีบ่อวิวทะเลสาบ ราคาต่อคน (พักคู่ถูกกว่า)"
+      },
+      {
+        "label_th": "อาหาร 2-3 มื้อ",
+        "yen": 3500,
+        "thb": 805,
+        "note_th": "อูนางิย่าง / ปลาทะเลสาบ / ของถิ่นนางาโนะ"
+      },
+      {
+        "label_th": "เข้าชม/รถเมือง/ของฝาก",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "Takashima Castle, ทำบุญศาลเจ้า, รถรอบทะเลสาบ"
+      }
+    ],
+    "totalYen": 29660,
+    "totalThb": 6822,
+    "ranges": {
+      "lowThb": 3500,
+      "midThb": 7000,
+      "highThb": 12000
+    }
+  },
+  "pois": [
+    {
+      "name": "Suwa Taisha (Kamisha Honmiya)",
+      "icon": "building",
+      "durationMin": 60,
+      "blurb_th": "ศาลเจ้า Suwa หนึ่งในเก่าแก่สุดของญี่ปุ่น เสาไม้ onbashira ยักษ์ 4 มุม",
+      "deepDive_th": "Suwa Taisha (諏訪大社) เป็นศาลเจ้าหัวของเครือข่ายศาลเจ้า Suwa กว่า 25,000 แห่งทั่วญี่ปุ่น และเป็นหนึ่งในศาลเจ้าที่เก่าแก่ที่สุด · ประกอบด้วย 4 ศาลย่อยรอบทะเลสาบ (Kamisha 2 + Shimosha 2) — ศาลที่นิยมไปสุดคือ Kamisha Honmiya (上社本宮) ฝั่ง Chino · จุดเด่นคือเสาไม้ซีดาร์ยักษ์ 'onbashira' (御柱) ปักไว้ 4 มุมของแต่ละศาล · ทุก 6 ปีมีเทศกาล Onbashira Matsuri ลากเสาไม้ยักษ์ลงจากภูเขา หนึ่งในเทศกาลที่ดุเดือดที่สุดของญี่ปุ่น · บรรยากาศขลังกลางป่าสนซีดาร์เก่า · ไปจาก Kami-Suwa ต่อรถ/แท็กซี่ ~15 นาที",
+      "location_th": "Kamisha Honmiya, Chino (ฝั่งใต้ทะเลสาบ)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Suwa%20Taisha%20Kamisha%20Honmiya%20Big%20Torii.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Tateishi Park (จุดชมวิว)",
+      "icon": "camera",
+      "durationMin": 45,
+      "blurb_th": "จุดชมวิวพานอรามาเหนือทะเลสาบทั้งใบ พระอาทิตย์ตก + วิวแอลป์",
+      "deepDive_th": "Tateishi Park (立石公園) สวนบนเนินเหนือเมือง Suwa เป็นจุดชมวิวพานอรามาที่มองเห็นทะเลสาบสุวะทั้งใบจากมุมสูง โอบล้อมด้วยเทือกเขา · ขึ้นชื่อเรื่องวิวพระอาทิตย์ตกสะท้อนผิวน้ำ และวิวกลางคืนเมือง Suwa เรืองแสงรอบทะเลสาบ · เป็นโลเคชันที่เชื่อกันว่าเป็นแรงบันดาลใจวิวทะเลสาบในอนิเมะ 'Kimi no Na wa (Your Name)' จึงมีแฟนอนิเมะมาแสวงบุญ · ขึ้นได้ด้วยรถ/แท็กซี่จากตัวเมือง ~10-15 นาที (ไม่มีรถเมล์ตรง) · ช่วง ต.ค.-พ.ย. อากาศใสเห็นแอลป์ชัด ใบไม้เปลี่ยนสีรอบสวน",
+      "location_th": "เนินเหนือเมือง Suwa ~10-15 นาทีจากสถานี",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Suwa%2C%20from%20Tateishi%20Park%3B%20October%202018%20(03).jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tateishi%20park%20Suwa.jpg?width=900"
+      }
+    },
+    {
+      "name": "Kamisuwa Onsen (ออนเซ็นริมทะเลสาบ)",
+      "icon": "water",
+      "durationMin": 90,
+      "blurb_th": "ย่านออนเซ็นริมทะเลสาบ มีบ่อแช่เท้าฟรี + เรียวกังวิวน้ำ",
+      "deepDive_th": "Kamisuwa Onsen (上諏訪温泉) ย่านน้ำพุร้อนเลียบทะเลสาบใจกลางเมือง Suwa เดินถึงจากสถานี Kami-Suwa · เป็นออนเซ็นเก่าแก่ น้ำใส มีเรียวกัง/โรงแรมหลายแห่งที่มีบ่อแช่ rotenburo วิวทะเลสาบโดยตรง · มีบ่อแช่เท้า (ashiyu) ฟรีริมทางเดินเลียบทะเลสาบ และน้ำพุร้อนพุ่ง 'kantsushi' กลางทะเลสาบเป็นแลนด์มาร์ก · ทางเดิน-ปั่นจักรยานรอบทะเลสาบ ~16 กม. เรียบสบาย เช่าจักรยานได้ · มีเรือสำราญรูปหงส์/เต่าล่องทะเลสาบ · เหมาะค้าง 1 คืนซึมซับบรรยากาศเมืองออนเซ็นริมน้ำ",
+      "location_th": "เดินจาก Kami-Suwa Station ~5-10 นาที",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/130607%20Kamisuwa%20Onsen%20Suwa%20Japan01n.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Omiwatari (สันน้ำแข็ง)",
+      "icon": "raindrops-alt",
+      "blurb_th": "ปรากฏการณ์สันน้ำแข็งดันตัวข้ามทะเลสาบ หน้าหนาว (เฉพาะปีหนาวจัด)",
+      "deepDive_th": "Omiwatari (御神渡り) ปรากฏการณ์ธรรมชาติหน้าหนาว เมื่อผิวทะเลสาบกลายเป็นน้ำแข็งหนาแล้วขยาย-หดตัวจากอุณหภูมิกลางวัน-กลางคืน ดันแผ่นน้ำแข็งให้แตกและยกตัวเป็นสันยาวพาดข้ามทะเลสาบ · ตำนานเล่าว่าเป็นรอยเทพเจ้าจาก Suwa Taisha เดินข้ามไปหาคู่ จึงมีพิธีของนักบวชชินโตมาตรวจสันน้ำแข็งและทำนายดวงประจำปี · ไม่เกิดทุกปี — ต้องหนาวต่อเนื่องพอ บางปีว่างเว้นหลายปี · ช่วงที่มีโอกาสเห็นคือกลาง ม.ค.-กลาง ก.พ. · เช็คประกาศจากศาลเจ้า/เทศบาลก่อนเดินทางไปดูโดยเฉพาะ",
+      "location_th": "ทั่วผิวทะเลสาบ (ดูจากริมฝั่ง)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/180205%20Lake%20Suwa%20omiwatari%2001.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Lake Suwa Fireworks Festival",
+      "icon": "camera",
+      "blurb_th": "ดอกไม้ไฟ 15 ส.ค. ยิง 40,000+ ลูก สะท้อนผิวทะเลสาบ ใหญ่สุดงานหนึ่งของญี่ปุ่น",
+      "deepDive_th": "Lake Suwa Fireworks Festival (諏訪湖祭湖上花火大会) จัด 15 ส.ค. ทุกปี เป็นหนึ่งในเทศกาลดอกไม้ไฟที่ใหญ่และมีชื่อเสียงที่สุดของญี่ปุ่น ยิงกว่า 40,000 ลูก · จุดเด่นคือทะเลสาบเป็นแอ่งล้อมด้วยภูเขา ทำให้เสียงดอกไม้ไฟก้องสะท้อน และแสงสะท้อนบนผิวน้ำเป็นภาพคู่ · มีโชว์ 'Niagara Falls' ดอกไม้ไฟไหลจากสะพานลงผิวน้ำ · คนมาหลายแสน — ต้องจองที่พัก+ตั๋วรถไฟ Azusa ล่วงหน้าหลายเดือน ที่นั่งริมทะเลสาบบางส่วนต้องซื้อบัตร · นอกจากนี้ยังมีงานดอกไม้ไฟเล็กกว่า 'New Confidence' ทุกคืนช่วงปลาย ส.ค.-ต้น ก.ย.",
+      "location_th": "ริมทะเลสาบฝั่ง Kami-Suwa",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Suwa-ko%20firework%2020080815%2002.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "name": "Takashima Castle",
+      "icon": "building",
+      "durationMin": 45,
+      "blurb_th": "ปราสาทเล็กกลางเมือง เคยลอยอยู่กลางทะเลสาบ ฉายา 'ปราสาทลอยน้ำแห่งสุวะ'",
+      "deepDive_th": "Takashima Castle (高島城) ปราสาทกลางเมือง Suwa สร้างปลายศตวรรษที่ 16 · เดิมตัวปราสาทตั้งติดริมทะเลสาบจนน้ำล้อมเกือบรอบ จึงได้ฉายา 'Suwa no ukishiro' (ปราสาทลอยน้ำแห่งสุวะ) แม้ปัจจุบันทะเลสาบถอยห่างจากการถมที่ · หอปราสาท (tenshu) ปัจจุบันเป็นการบูรณะปี 1970 ข้างในเป็นพิพิธภัณฑ์เล็ก ขึ้นชั้นบนชมวิวเมืองได้ · สวนรอบปราสาทมีคูน้ำ ซากุระสวยช่วง เม.ย. · เดินถึงจาก Kami-Suwa Station ~10-15 นาที เหมาะแวะระหว่างเดินเล่นในเมือง",
+      "location_th": "ใจกลางเมือง Suwa ~10-15 นาทีจากสถานี",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/160603%20Takashima%20Castle%20Suwa%20Nagano%20pref%20Japan01n.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "ค้าง 1 คืน ออนเซ็นริมทะเลสาบ (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "วันแรก — เข้าเมือง + ศาลเจ้า + ออนเซ็น",
+          "detail_th": "นั่ง Azusa จากชินจูกุเช้าถึง Kami-Suwa เที่ยง → เก็บกระเป๋าที่เรียวกังริมทะเลสาบ → แวะ Takashima Castle ในเมือง → ต่อรถไป Suwa Taisha Kamisha Honmiya ดูเสา onbashira → กลับมาเดินเลียบทะเลสาบ แช่เท้าที่ ashiyu → เย็นแช่ออนเซ็น rotenburo วิวทะเลสาบ + กินมื้อค่ำที่พัก",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "ออกชินจูกุ → Kami-Suwa",
+              "detail_th": "LEX Azusa ตรง ~2.5 ชม. จองที่นั่งล่วงหน้า",
+              "mode": "train",
+              "durationMin": 150
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "เช็คอินเรียวกัง / ฝากกระเป๋า",
+              "detail_th": "ที่พักออนเซ็น Kamisuwa เดินจากสถานี ~5-10 นาที",
+              "durationMin": 30
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Takashima Castle",
+              "detail_th": "ปราสาทกลางเมือง + สวนคูน้ำ ~10-15 นาทีจากสถานี",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~14:30",
+              "title_th": "Suwa Taisha Kamisha Honmiya",
+              "detail_th": "ต่อรถ/แท็กซี่ ~15 นาที ดูเสา onbashira ป่าซีดาร์",
+              "mode": "bus",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~17:00",
+              "title_th": "เดินเลียบทะเลสาบ + แช่เท้า",
+              "detail_th": "ashiyu ฟรีริมน้ำ ดูพระอาทิตย์ตก",
+              "durationMin": 60
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "ออนเซ็น rotenburo + มื้อค่ำ",
+              "detail_th": "บ่อแช่วิวทะเลสาบที่เรียวกัง อาหารถิ่นนางาโนะ",
+              "durationMin": 120
+            }
+          ]
+        },
+        {
+          "title_th": "วันสอง — จุดชมวิว + กลับ",
+          "detail_th": "เช้าขึ้น Tateishi Park ชมวิวทะเลสาบทั้งใบ + แอลป์ (ถ้าอากาศใส) → ปั่นจักรยาน/เดินรอบทะเลสาบบางส่วน หรือล่องเรือหงส์ → กินกลางวันอูนางิ → นั่ง Azusa กลับชินจูกุบ่าย",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "Tateishi Park",
+              "detail_th": "ขึ้นรถ/แท็กซี่ ~10-15 นาที ชมวิวพานอรามาทะเลสาบ + แอลป์",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "ปั่นจักรยาน / ล่องเรือทะเลสาบ",
+              "detail_th": "ทางเลียบทะเลสาบ ~16 กม. หรือเรือสำราญรูปหงส์",
+              "durationMin": 90
+            },
+            {
+              "time_th": "เที่ยง",
+              "title_th": "มื้อกลางวันอูนางิ",
+              "detail_th": "ปลาไหลย่างเป็นของขึ้นชื่อรอบทะเลสาบสุวะ",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "นั่ง Azusa กลับชินจูกุ",
+              "mode": "train",
+              "durationMin": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "Day-trip วันเดียว (เก็บไฮไลต์เร็ว)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เช้า-เย็น ไป-กลับวันเดียว",
+          "detail_th": "เหมาะถ้าเวลาน้อย: Azusa เช้าถึง Kami-Suwa → เดินเลียบทะเลสาบ + แช่เท้า ashiyu → ต่อรถไป Suwa Taisha → กลับมาแวะ Takashima Castle → ขึ้น Tateishi Park ดูวิว → นั่ง Azusa กลับเย็น · ข้ามการค้างออนเซ็นไป",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "ออกชินจูกุ → Kami-Suwa",
+              "detail_th": "LEX Azusa ตรง ~2.5 ชม.",
+              "mode": "train",
+              "durationMin": 150
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "เดินเลียบทะเลสาบ + แช่เท้า",
+              "detail_th": "ashiyu ฟรี ดูน้ำพุร้อนกลางทะเลสาบ",
+              "durationMin": 45
+            },
+            {
+              "time_th": "เที่ยง",
+              "title_th": "Suwa Taisha + มื้อกลางวัน",
+              "detail_th": "ต่อรถไปศาลเจ้า ดูเสา onbashira",
+              "mode": "bus",
+              "durationMin": 90
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Takashima Castle + Tateishi Park",
+              "detail_th": "ปราสาทในเมือง แล้วขึ้นจุดชมวิวทะเลสาบ",
+              "durationMin": 120
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "นั่ง Azusa กลับชินจูกุ",
+              "mode": "train",
+              "durationMin": 150
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "omiwatari (สันน้ำแข็ง) ไม่เกิดทุกปี — ต้องหนาวต่อเนื่องพอ บางปีว่างเว้นหลายปี เช็คประกาศจากศาลเจ้า/เทศบาลก่อนเดินทางไปดูโดยเฉพาะ",
+    "เทศกาลดอกไม้ไฟ 15 ส.ค. คนหลายแสน ที่พัก+ตั๋ว Azusa เต็มล่วงหน้าหลายเดือน จองแต่เนิ่นๆ และเผื่อเวลารถไฟ-รถติดขากลับ",
+    "จุดเด่นหลายจุด (Suwa Taisha, Tateishi Park) ไม่มีรถเมล์ตรง/รถน้อย — เตรียมแท็กซี่หรือเช่ารถ/จักรยาน · 4 ศาลของ Suwa Taisha อยู่คนละฝั่งทะเลสาบ เลือกไปศาลเดียว (Kamisha Honmiya) พอ",
+    "LEX Azusa ค่าตั๋วแพง (~5,580 เยน/เที่ยว) · ถ้างบจำกัดใช้รถไฟธรรมดา (ช้ากว่า ~4 ชม.) หรือบัสทางไกลที่ถูกกว่ามาก"
+  ],
+  "sources": [
+    {
+      "label": "Lake Suwa — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6052.html"
+    },
+    {
+      "label": "Suwa Taisha — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6053.html"
+    },
+    {
+      "label": "Suwa / Lake Suwa — JNTO",
+      "url": "https://www.japan.travel/en/spot/1717/"
+    }
+  ],
+  "tags_th": [
+    "ทะเลสาบ",
+    "ออนเซ็น",
+    "ศาลเจ้า",
+    "ดอกไม้ไฟ",
+    "วิวแอลป์",
+    "ค้าง 1 คืน"
+  ],
+  "food": [
+    {
+      "name": "อูนางิย่าง",
+      "name_jp": "鰻",
+      "emoji": "🍱",
+      "note_th": "ปลาไหลย่างซอสเป็นของขึ้นชื่อรอบทะเลสาบสุวะมาแต่โบราณ"
+    },
+    {
+      "name": "วาคาซางิทอด",
+      "name_jp": "公魚",
+      "emoji": "🐟",
+      "note_th": "ปลาตัวเล็กจากทะเลสาบ ทอดกรอบ/เทมปุระ ของถิ่น"
+    },
+    {
+      "name": "โซบะชินชู",
+      "name_jp": "信州そば",
+      "emoji": "🍜",
+      "note_th": "นางาโนะ (ชินชู) ขึ้นชื่อเรื่องโซบะคุณภาพทั่วจังหวัด"
+    },
+    {
+      "name": "สาเกท้องถิ่น",
+      "name_jp": "地酒",
+      "emoji": "🍶",
+      "note_th": "ย่าน Kami-Suwa มีโรงสาเกเก่าแก่ 5 แห่งเรียงติดกัน เดินชิมได้"
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "slug": "tsukuba",
+  "name": {
+    "en": "Mt. Tsukuba",
+    "th": "ภูเขาสึคุบะ",
+    "jp": "筑波山"
+  },
+  "region": "Kanto",
+  "prefecture": "Ibaraki",
+  "coords": {
+    "lat": 36.225,
+    "lng": 140.1
+  },
+  "category": [
+    "mountain",
+    "shrine",
+    "nature"
+  ],
+  "tagline_th": "เขาแฝดสองยอด 877 ม. 'ฟูจิตะวันออก' — cable car + ropeway ขึ้นง่าย วิวที่ราบคันโต 360° + ใบไม้แดง ศาลเจ้าโบราณ day-trip จากโตเกียวด้วย Tsukuba Express",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Tsukuba%20from%20Kangori%2C%20Feb%202012.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsukuba%20Mountain%20Peak%20in%202024.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 2,
+  "access": {
+    "summary_th": "ขึ้น Tsukuba Express จาก Akihabara ถึงปลายทาง Tsukuba ~45 นาที (รถไฟเร็วสุดในแถบนี้) → ต่อบัส Tsukuba Shuttle ของ Kanto Railway ~36-40 นาทีถึงตีนเขา (Tsukubasan Jinja-iri ฐาน cable car หรือ Tsutsujigaoka ฐาน ropeway) → cable car/ropeway ขึ้นยอด ไม่ต้องค้าง day-trip ได้สบาย",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Tsukuba Express + บัส Tsukuba Shuttle + cable car",
+        "detail_th": "Akihabara → train (Tsukuba Express ด่วน) → Tsukuba Station → bus (Tsukuba Shuttle) → Tsukubasan Jinja-iri → cable car ~8 นาที → Nantai (ยอดชาย)",
+        "durationMin": 100,
+        "costYen": 2890,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "cablecar",
+            "label_th": "เคเบิลคาร์",
+            "icon": "cable-car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Akihabara Station",
+            "to": "Tsukuba Station",
+            "mode": "train",
+            "line_th": "Tsukuba Express (Rapid ด่วน)",
+            "durationMin": 45,
+            "costYen": 1210,
+            "note_th": "TX เป็นปลายทาง ลงสุดสาย · ขบวน Rapid เร็วสุด ~45 นาที (Semi-Rapid/Local ช้ากว่า) · ~ทุก 10-15 นาที"
+          },
+          {
+            "from": "Tsukuba Station (ป้าย Tsukuba Center)",
+            "to": "Tsukubasan Jinja-iri (ฐาน cable car)",
+            "mode": "bus",
+            "line_th": "Kanto Railway — Tsukuba Shuttle",
+            "durationMin": 36,
+            "costYen": 740,
+            "note_th": "ขึ้นที่ป้าย Tsukuba Center ฝั่งหน้าสถานี · ~1 เที่ยว/ชม. (วันหยุดถี่กว่า) เช็ครอบล่วงหน้า · ลง Tsukubasan Jinja-iri เดินเข้า cable car"
+          },
+          {
+            "from": "Miyawaki (ฐานล่าง ใกล้ศาลเจ้า)",
+            "to": "Nantai-san Summit Station",
+            "mode": "cablecar",
+            "line_th": "Tsukubasan Cable Car",
+            "durationMin": 8,
+            "costYen": 940,
+            "note_th": "ขาเดียว 940 เยน (ไป-กลับ 1,580) · ~ทุก 20 นาที · ฤดู koyo มีรอบกลางคืน light-up เช็คตารางพิเศษ"
+          }
+        ]
+      },
+      {
+        "mode": "Tsukuba Express + บัส + ropeway (ฝั่ง Tsutsujigaoka)",
+        "detail_th": "Akihabara → train (Tsukuba Express) → Tsukuba Station → bus (Tsukuba Shuttle) → Tsutsujigaoka → ropeway ~6 นาที → Nyotai (ยอดหญิง)",
+        "durationMin": 105,
+        "costYen": 3000,
+        "transfers": 2,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "ropeway",
+            "label_th": "กระเช้าลอยฟ้า",
+            "icon": "cable-car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Akihabara Station",
+            "to": "Tsukuba Station",
+            "mode": "train",
+            "line_th": "Tsukuba Express (Rapid ด่วน)",
+            "durationMin": 45,
+            "costYen": 1210,
+            "note_th": "เหมือน option แรก · เลือกฝั่งนี้ถ้าอยากขึ้น Nyotai (ยอดสูงสุด 877 ม.) ก่อน"
+          },
+          {
+            "from": "Tsukuba Station (ป้าย Tsukuba Center)",
+            "to": "Tsutsujigaoka (ฐาน ropeway)",
+            "mode": "bus",
+            "line_th": "Kanto Railway — Tsukuba Shuttle",
+            "durationMin": 50,
+            "costYen": 890,
+            "note_th": "Tsutsujigaoka เป็นป้ายปลายสายของ Shuttle (ไกลกว่า Jinja-iri ~14 นาที) · มีลานจอด + ทุ่งอะซาเลีย (tsutsuji) ช่วง พ.ค."
+          },
+          {
+            "from": "Tsutsujigaoka",
+            "to": "Nyotaisan Station (ยอดหญิง)",
+            "mode": "ropeway",
+            "line_th": "Tsukubasan Ropeway",
+            "durationMin": 6,
+            "costYen": 900,
+            "note_th": "ขาเดียว 900 เยน (ไป-กลับ 1,300) · ~ทุก 20 นาที · จุดชมวิวกลางคืน + light-up ฤดูใบไม้แดง"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง พ.ย.",
+      "months": [
+        11
+      ],
+      "note_th": "กลาง-ปลาย พ.ย. ใบเมเปิลแดงทั้งภูเขา มี light-up กลางคืน + cable car/ropeway รอบพิเศษ เป็นไฮไลต์ที่สุดของปี"
+    },
+    {
+      "label": "ดอกบ๊วยบาน ก.พ.-มี.ค.",
+      "months": [
+        2,
+        3
+      ],
+      "note_th": "สวนบ๊วย Tsukubasan Bairin บนไหล่เขา ~1,000 ต้น บานช่วงปลาย ก.พ.-กลาง มี.ค. มีงาน Plum Festival วิวบ๊วยขาว-ชมพูคู่ที่ราบคันโต"
+    },
+    {
+      "label": "อะซาเลีย-เขียวสด เม.ย.-พ.ค.",
+      "months": [
+        4,
+        5
+      ],
+      "note_th": "ทุ่งอะซาเลีย (tsutsuji) แถบ Tsutsujigaoka บานปลาย เม.ย.-พ.ค. อากาศกำลังดี ป่าเขียวอ่อน เดินสบาย"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ทั้งภูเขา (koyo + light-up)",
+      "type": "koyo",
+      "startFrac": 0.83,
+      "endFrac": 0.95,
+      "note_th": "ใบไม้แดงกลาง-ปลาย พ.ย."
+    },
+    {
+      "zone": "สวนบ๊วย Bairin",
+      "type": "bloom",
+      "startFrac": 0.12,
+      "endFrac": 0.22,
+      "note_th": "บ๊วยบานปลาย ก.พ.-กลาง มี.ค."
+    },
+    {
+      "zone": "ทุ่งอะซาเลีย Tsutsujigaoka",
+      "type": "bloom",
+      "startFrac": 0.3,
+      "endFrac": 0.4,
+      "note_th": "อะซาเลียบานปลาย เม.ย.-พ.ค."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียววันเดียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าหลักคือ Tsukuba Express + บัส Shuttle + cable car/ropeway",
+    "items": [
+      {
+        "label_th": "Tsukuba Express ไป-กลับ (Akihabara↔Tsukuba)",
+        "yen": 2420,
+        "thb": 557,
+        "note_th": "1,210 เยน/เที่ยว · TX เร็วสุดในแถบนี้ ~45 นาที"
+      },
+      {
+        "label_th": "บัส Tsukuba Shuttle ไป-กลับ",
+        "yen": 1480,
+        "thb": 340,
+        "note_th": "Tsukuba Center ↔ ตีนเขา · ~740 เยน/เที่ยว (ฝั่ง cable car)"
+      },
+      {
+        "label_th": "cable car/ropeway ไป-กลับ",
+        "yen": 1580,
+        "thb": 363,
+        "note_th": "cable car ไป-กลับ 1,580 · หรือซื้อ combo cable car+ropeway เดินสันเขาเชื่อมสองยอด"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2000,
+        "thb": 460,
+        "note_th": "tsukuba udon/soba + กบทอด (เมนูถิ่น) ร้านรอบศาลเจ้าและบนยอด"
+      },
+      {
+        "label_th": "ค่าเข้า/ของฝาก",
+        "yen": 1000,
+        "thb": 230,
+        "note_th": "ทำบุญศาลเจ้า + ของที่ระลึก (gama no abura เครื่องราง/ของฝากกบ)"
+      }
+    ],
+    "totalYen": 8480,
+    "totalThb": 1950,
+    "ranges": {
+      "lowThb": 1400,
+      "midThb": 2100,
+      "highThb": 3200
+    }
+  },
+  "pois": [
+    {
+      "name": "Tsukubasan Shrine",
+      "icon": "building",
+      "durationMin": 40,
+      "blurb_th": "ศาลเจ้าโบราณตีนเขา บูชาสองยอดเป็นเทพชาย-หญิง จุดเริ่มขึ้นเขา",
+      "deepDive_th": "Tsukubasan-jinja (筑波山神社) ศาลเจ้าเก่าแก่กว่า 3,000 ปี ตั้งบนไหล่เขาราว 270 ม. บูชาภูเขาเองเป็นเทพ — ยอด Nantai (ชาย) เป็นที่สถิตเทพ Izanagi และยอด Nyotai (หญิง) เป็นเทพ Izanami สองยอดจึงถือเป็น 'ภูเขาแห่งคู่รัก/ความอุดมสมบูรณ์' · haiden (หอสักการะ) หลังคาทองแดงเขียวสวยงาม มี suzu (กระดิ่ง) ใหญ่ · เป็นจุดเริ่มเดินขึ้นเขาและฐานล่างของ cable car (สถานี Miyawaki อยู่ติดกัน) · ช่วงปีใหม่/เทศกาลคนเยอะ",
+      "location_th": "ไหล่เขา ~270 ม. ติดฐาน cable car",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsukubasan-jinja%20haiden.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsukubasan-jinja%20%C5%8Dtorii.JPG?width=900"
+      }
+    },
+    {
+      "name": "Cable Car & Ropeway",
+      "icon": "mountains",
+      "durationMin": 20,
+      "blurb_th": "cable car ฝั่ง Nantai + ropeway ฝั่ง Nyotai ขึ้นยอดง่ายไม่ต้องปีน",
+      "deepDive_th": "ขึ้นเขาแฝดสึคุบะมีสองข้อต่อกลไก: 'Cable Car' (รถรางลาก รางคู่) จาก Miyawaki ใกล้ศาลเจ้า ขึ้นฝั่ง Nantai ~8 นาที วิ่งผ่านอุโมงค์ใบเมเปิลฤดู koyo สวยมาก · และ 'Ropeway' (กระเช้าลอยฟ้า) จาก Tsutsujigaoka ขึ้นฝั่ง Nyotai ~6 นาที ลอยเหนือป่าเห็นที่ราบคันโตกว้าง · เคล็ดลับ: ขึ้นทางหนึ่ง เดินสันเขาเชื่อมสองยอด (~15-20 นาที ผ่าน Miyukigahara) แล้วลงอีกทาง จะได้เก็บทั้งคู่ในรอบเดียว · ฤดูใบไม้แดงมี light-up กลางคืน",
+      "location_th": "Miyawaki (cable) / Tsutsujigaoka (ropeway)",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt%20Tsukuba%20Cable%20Car.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt%20Tsukuba%20Ropeway.jpg?width=900"
+      }
+    },
+    {
+      "name": "Nyotai & Nantai Twin Peaks",
+      "icon": "mountains",
+      "durationMin": 60,
+      "blurb_th": "ยอดแฝด Nyotai 877 ม. (สูงสุด) + Nantai 871 ม. เดินสันเขาเชื่อมกัน",
+      "deepDive_th": "สึคุบะเป็นภูเขาแฝดสองยอดเด่น: 'Nyotaisan' (女体山) ยอดหญิง 877 ม. เป็นจุดสูงสุด มีหินก้อนใหญ่ยื่นออกไปเป็นจุดถ่ายรูปวิว 360° แบบไม่มีอะไรบัง · 'Nantaisan' (男体山) ยอดชาย 871 ม. มีศาลเจ้าเล็กบนยอดและสถานีตรวจอากาศ · สองยอดเชื่อมด้วยสันเขา Miyukigahara เดิน ~15-20 นาที ผ่านป่าและก้อนหินรูปร่างแปลก (มีชื่อ-ตำนานหลายก้อน เช่น Benkei Nanamodori) · Nyotai ฝั่ง ropeway, Nantai ฝั่ง cable car — เก็บทั้งคู่ได้ในเดินรอบเดียว",
+      "location_th": "ยอดเขา 871-877 ม.",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsukuba%20Mountain%20Peak%20in%202024.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsukuba%20Mountains%20from%20Mt.Tsukuba%2001.jpg?width=900"
+      }
+    },
+    {
+      "name": "Kanto Plain 360° View",
+      "icon": "camera",
+      "durationMin": 30,
+      "blurb_th": "วิวที่ราบคันโตกว้างสุดสายตา วันฟ้าใสเห็นถึงฟูจิ-สกายทรี",
+      "deepDive_th": "เพราะสึคุบะตั้งโดดเดี่ยวกลางที่ราบคันโต (ไม่มีเขาอื่นบัง) วิวจากยอดจึงเปิดโล่ง 360° เห็นทุ่งนา-เมืองสุดลูกหูลูกตา · วันอากาศใส (โดยเฉพาะฤดูหนาวที่ฟ้าโปร่ง) มองเห็น Mt. Fuji, Tokyo Skytree, ทะเลสาบ Kasumigaura และมหาสมุทรแปซิฟิกได้ · จุดชมวิวเด็ดคือหินยื่นบนยอด Nyotai และลานหน้าสถานี ropeway/cable car · ตอนเย็นพระอาทิตย์ตก + ไฟเมืองยามค่ำเป็นวิวกลางคืนยอดนิยม (มีรอบ ropeway กลางคืนบางช่วง)",
+      "location_th": "ยอด Nyotai / ลานสถานีกระเช้า",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View%20from%20Tsukubasan%20Ropeway%20Nyotaisan%20station%20observatory.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsukuba%20Mountains%20from%20Mt.Tsukuba%2001.jpg?width=900"
+      }
+    },
+    {
+      "name": "Tsukubasan Bairin (สวนบ๊วย)",
+      "icon": "trees",
+      "durationMin": 60,
+      "blurb_th": "สวนบ๊วยบนไหล่เขา ~1,000 ต้น บานปลาย ก.พ.-มี.ค. คู่วิวคันโต",
+      "deepDive_th": "Tsukubasan Bairin (筑波山梅林) สวนบ๊วยบนไหล่เขาทางใต้ราว 250 ม. ปลูกบ๊วยขาว-ชมพู-แดง ~1,000 ต้น เรียงตามไหล่ลาดหินก้อนใหญ่ · บานช่วงปลาย ก.พ.-กลาง มี.ค. มีงาน Tsukubasan Plum Festival (กิจกรรม ชา ขายของถิ่น) · จุดเด่นคือมองลงเห็นบ๊วยบานเป็นพรมตัดกับที่ราบคันโตกว้าง วันฟ้าใสเห็นถึง Skytree · เข้าฟรี อยู่ระหว่างทางขึ้นศาลเจ้า แวะก่อน/หลังขึ้นเขาได้",
+      "location_th": "ไหล่เขาใต้ ~250 ม. ใกล้ศาลเจ้า",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsukubasan%20bairin%2009.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  ],
+  "routeFlow": [
+    {
+      "name": "Akihabara",
+      "elevationM": 5,
+      "modeToNext": "train",
+      "modeDetail_th": "Tsukuba Express (Rapid) ~45 นาที"
+    },
+    {
+      "name": "Tsukuba Station",
+      "elevationM": 25,
+      "modeToNext": "bus",
+      "modeDetail_th": "บัส Tsukuba Shuttle ~36-50 นาที"
+    },
+    {
+      "name": "Tsukubasan Jinja-iri / Tsutsujigaoka (ตีนเขา)",
+      "elevationM": 270,
+      "modeToNext": "cablecar",
+      "modeDetail_th": "cable car ~8 นาที / ropeway ~6 นาที"
+    },
+    {
+      "name": "Nantai 871 ม. / Nyotai 877 ม. (ยอดแฝด)",
+      "elevationM": 877
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip เก็บสองยอด + ศาลเจ้า (แนะนำ)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "ขึ้นทางหนึ่ง เดินสันเขา ลงอีกทาง",
+          "detail_th": "ออก Akihabara เช้าด้วย Tsukuba Express → Tsukuba Station ต่อบัส Shuttle ไป Tsukubasan Jinja-iri → ไหว้ Tsukubasan Shrine + แวะสวนบ๊วยถ้าหน้าบ๊วย → cable car ขึ้นยอด Nantai → เดินสันเขา Miyukigahara ~15-20 นาทีไปยอด Nyotai 877 ม. ถ่ายวิว 360° บนหินยื่น → ropeway ลงฝั่ง Tsutsujigaoka → บัสกลับ Tsukuba Station → TX กลับโตเกียวเย็น",
+          "steps": [
+            {
+              "time_th": "~08:00",
+              "title_th": "Akihabara → Tsukuba Station",
+              "detail_th": "Tsukuba Express ขบวน Rapid เร็วสุด ~45 นาที",
+              "mode": "train",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~09:00",
+              "title_th": "บัสไปตีนเขา",
+              "detail_th": "Tsukuba Shuttle จาก Tsukuba Center → Tsukubasan Jinja-iri",
+              "mode": "bus",
+              "durationMin": 36
+            },
+            {
+              "time_th": "~09:45",
+              "title_th": "Tsukubasan Shrine (+ สวนบ๊วย ถ้าหน้าบ๊วย)",
+              "detail_th": "ไหว้ศาลเจ้าตีนเขา · ก.พ.-มี.ค. แวะ Bairin ใกล้ๆ",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~10:40",
+              "title_th": "Cable car ขึ้นยอด Nantai",
+              "detail_th": "Tsukubasan Cable Car ~8 นาที จาก Miyawaki",
+              "mode": "cablecar",
+              "durationMin": 8
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "เดินสันเขาไปยอด Nyotai 877 ม.",
+              "detail_th": "ผ่าน Miyukigahara + ก้อนหินตำนาน ~15-20 นาที ขึ้นจุดสูงสุด",
+              "mode": "walk",
+              "durationMin": 30
+            },
+            {
+              "time_th": "~11:40",
+              "title_th": "วิว 360° บนหินยื่น Nyotai",
+              "detail_th": "ถ่ายวิวที่ราบคันโต วันใสเห็นฟูจิ/Skytree + กินข้าวบนยอด",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~13:30",
+              "title_th": "Ropeway ลง Tsutsujigaoka",
+              "detail_th": "กระเช้าลอยฟ้า ~6 นาที เห็นวิวลงเขา",
+              "mode": "ropeway",
+              "durationMin": 6
+            },
+            {
+              "time_th": "~14:00",
+              "title_th": "บัสกลับ Tsukuba Station",
+              "detail_th": "Tsukuba Shuttle เช็ครอบบัส (มาห่าง)",
+              "mode": "bus",
+              "durationMin": 50
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "TX กลับโตเกียว",
+              "mode": "train",
+              "durationMin": 45
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "แบบสั้น ครึ่งวัน (ยอดเดียว + ศาลเจ้า)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "เก็บไฮไลต์เร็วๆ",
+          "detail_th": "เหมาะถ้ามีเวลาจำกัด/มากับเด็กเล็ก: ขึ้น cable car ฝั่ง Nantai → เดินขึ้นยอด Nantai ดูวิว → ลง cable car ทางเดิม → ไหว้ Tsukubasan Shrine ปิดท้าย → กลับ · ข้ามการเดินสันเขาไป Nyotai ออกไป",
+          "steps": [
+            {
+              "time_th": "สาย",
+              "title_th": "ขึ้นถึงยอด Nantai",
+              "detail_th": "TX → บัส → cable car ขึ้นฝั่งยอดชาย",
+              "mode": "cablecar",
+              "durationMin": 8
+            },
+            {
+              "time_th": "เที่ยง",
+              "title_th": "วิว Nantai + กินข้าว",
+              "detail_th": "ชมวิวคันโต + udon/soba บนยอด (ข้ามสันเขาไป Nyotai ออกไป)",
+              "durationMin": 60
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Tsukubasan Shrine",
+              "detail_th": "cable car ลง → ไหว้ศาลเจ้าตีนเขาปิดท้าย",
+              "durationMin": 40
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "กลับโตเกียว",
+              "mode": "train",
+              "durationMin": 45
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "บัส Tsukuba Shuttle มาห่าง (~1 เที่ยว/ชม. วันธรรมดา) — เช็ครอบขากลับให้ดี โดยเฉพาะป้าย Tsutsujigaoka ปลายสาย อย่าตกรอบสุดท้าย",
+    "cable car/ropeway มีรอบสุดท้ายลงเขาช่วงเย็น (ต่างฤดู) เช็คก่อน ไม่งั้นต้องเดินลงทางชัน ~1-1.5 ชม.",
+    "เดินสันเขา Nantai↔Nyotai มีบันไดหิน/ก้อนหินลื่นช่วงฝน ใส่รองเท้าผ้าใบ/เดินป่าพื้นยึดเกาะดี",
+    "ฤดู koyo (กลาง-ปลาย พ.ย.) และงานบ๊วย คนเยอะมาก cable car/ropeway ต่อคิวยาว เผื่อเวลา + ไปเช้า"
+  ],
+  "sources": [
+    {
+      "label": "Mount Tsukuba — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e3753.html"
+    },
+    {
+      "label": "Mt. Tsukuba — Ibaraki Guide (official)",
+      "url": "https://www.ibarakiguide.jp/db_kanko/mt-tsukuba.html"
+    },
+    {
+      "label": "Tsukubasan Cable Car & Ropeway (official)",
+      "url": "https://www.mt-tsukuba.com/"
+    }
+  ],
+  "tags_th": [
+    "day-trip",
+    "เขาแฝด",
+    "ศาลเจ้า",
+    "ใบไม้แดง",
+    "วิว 360",
+    "ดอกบ๊วย",
+    "ใกล้โตเกียว"
+  ],
+  "food": [
+    {
+      "name": "สึคุบะอุด้ง",
+      "name_jp": "つくばうどん",
+      "emoji": "🍜",
+      "note_th": "อุด้งถิ่นใส่หมูเห็ดผัก เมนูดังรอบศาลเจ้าและบนยอด"
+    },
+    {
+      "name": "กบทอด",
+      "name_jp": "ガマ揚げ",
+      "emoji": "🐸",
+      "note_th": "เมนูเล่นกับสัญลักษณ์ 'กบ' (gama) ของสึคุบะ ของกินเล่นถิ่น"
+    },
+    {
+      "name": "บ๊วยดอง/ขนมบ๊วย",
+      "name_jp": "梅",
+      "emoji": "🌸",
+      "note_th": "จากสวนบ๊วย Bairin ของฝากช่วงเทศกาลบ๊วย ก.พ.-มี.ค."
+    }
+  ]
+}

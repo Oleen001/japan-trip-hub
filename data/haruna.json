@@ -1,0 +1,517 @@
+{
+  "slug": "haruna",
+  "name": {
+    "en": "Mt. Haruna & Lake",
+    "th": "ภูเขาฮารุนะ",
+    "jp": "榛名山"
+  },
+  "region": "Kanto",
+  "prefecture": "Gunma",
+  "coords": {
+    "lat": 36.48,
+    "lng": 138.86
+  },
+  "category": [
+    "lake",
+    "mountain"
+  ],
+  "tagline_th": "ภูเขาไฟปากปล่อง — ทะเลสาบฮารุนะ + กรวยภูเขา Haruna-Fuji รูปทรงเป๊ะสะท้อนผิวน้ำ นั่งกระเช้าขึ้นยอด แวะออนเซ็น Ikaho บันไดหิน 365 ขั้น",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%80%86%E3%81%95%E6%A6%9B%E5%90%8D%E5%AF%8C%E5%A3%AB%20-%20panoramio.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons (CC)",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.%20Haruna%20in%20fall.JPG?width=1600"
+  },
+  "difficultyFromTokyo": 3,
+  "access": {
+    "summary_th": "จากโตเกียวนั่ง Joetsu/Hokuriku Shinkansen ถึง Takasaki (~50 นาที) แล้วต่อบัสขึ้นทะเลสาบฮารุนะ (~90 นาที) — ขึ้นยอดด้วย Haruna-san Ropeway · ไม่มีรถไฟขึ้นถึงทะเลสาบ บัสเป็นข้อต่อหลัก เที่ยวน้อย เช็กตารางให้ดี · ทำ day-trip ได้แต่ค่อนข้างยาว ถ้าอยากชิลพักออนเซ็น Ikaho 1 คืน",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Shinkansen → Takasaki → บัสขึ้นทะเลสาบ",
+        "detail_th": "โตเกียว/อุเอโนะ → shinkansen (Joetsu/Hokuriku) → Takasaki → bus (Gunma Bus สาย Haruna-ko) ขึ้นทะเลสาบฮารุนะโดยตรง",
+        "durationMin": 150,
+        "costYen": 6010,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Takasaki Station",
+            "mode": "shinkansen",
+            "line_th": "Joetsu/Hokuriku Shinkansen (Toki / Tanigawa / Hakutaka)",
+            "durationMin": 50,
+            "costYen": 4820,
+            "note_th": "~2-4 ขบวน/ชม. · ที่นั่งไม่ต้องจองล่วงหน้าก็ได้ มีตู้ non-reserved · ขึ้นที่โตเกียวหรืออุเอโนะก็ได้"
+          },
+          {
+            "from": "Takasaki Station (ทางออกฝั่งตะวันตก)",
+            "to": "Harunako (ทะเลสาบฮารุนะ)",
+            "mode": "bus",
+            "line_th": "Gunma Bus สาย Haruna-ko (ขึ้นทะเลสาบตรง)",
+            "durationMin": 90,
+            "costYen": 1190,
+            "note_th": "เที่ยวน้อยมาก (ราว 4-6 เที่ยว/วัน) เช็กตารางก่อน · ขาขึ้นไต่เขาคดเคี้ยว นั่งนาน · บางช่วงต้องต่อที่ Haruna Shrine"
+          }
+        ]
+      },
+      {
+        "mode": "แวะ Ikaho Onsen ก่อน (ผ่าน Shibukawa)",
+        "detail_th": "โตเกียว → shinkansen → Takasaki → train (JR Joetsu Line) → Shibukawa → bus ขึ้น Ikaho Onsen → bus ต่อขึ้นทะเลสาบฮารุนะ",
+        "durationMin": 165,
+        "costYen": 6520,
+        "transfers": 3,
+        "legs": [
+          {
+            "mode": "shinkansen",
+            "label_th": "ชินคันเซ็น",
+            "icon": "subway"
+          },
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Tokyo Station",
+            "to": "Takasaki Station",
+            "mode": "shinkansen",
+            "line_th": "Joetsu/Hokuriku Shinkansen (Toki / Tanigawa / Hakutaka)",
+            "durationMin": 50,
+            "costYen": 4820,
+            "note_th": "~2-4 ขบวน/ชม."
+          },
+          {
+            "from": "Takasaki Station",
+            "to": "Shibukawa Station",
+            "mode": "train",
+            "line_th": "JR Joetsu Line",
+            "durationMin": 25,
+            "costYen": 510,
+            "note_th": "ท้องถิ่น ~1-2 ขบวน/ชม."
+          },
+          {
+            "from": "Shibukawa Station",
+            "to": "Ikaho Onsen (ปลายทางบัส)",
+            "mode": "bus",
+            "line_th": "Kan-etsu Kotsu Bus สาย Ikaho",
+            "durationMin": 25,
+            "costYen": 590,
+            "note_th": "~2 เที่ยว/ชม. · ลงป้าย Ikaho Onsen เดินไปบันไดหิน Ishidan ~5 นาที"
+          },
+          {
+            "from": "Ikaho Onsen",
+            "to": "Harunako (ทะเลสาบฮารุนะ)",
+            "mode": "bus",
+            "line_th": "Gunma Bus (Ikaho ↔ Haruna-ko)",
+            "durationMin": 30,
+            "costYen": 600,
+            "note_th": "เที่ยวน้อย เช็กตารางก่อน · ข้ามสันเขา view ทะเลสาบ"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ใบไม้แดง ต.ค.-พ.ย.",
+      "months": [
+        10,
+        11
+      ],
+      "note_th": "กลาง ต.ค.-ต้น พ.ย. รอบทะเลสาบและกรวย Haruna-Fuji เปลี่ยนสีแดง-ส้ม สะท้อนผิวน้ำสวยสุด อากาศเย็น เตรียมเสื้อกันหนาว"
+    },
+    {
+      "label": "ร้อนหนีร้อน ก.ค.-ส.ค.",
+      "months": [
+        7,
+        8
+      ],
+      "note_th": "ทะเลสาบสูง ~1,100 ม. เย็นกว่าตัวเมืองมาก พายเรือ/ปั่นเป็ดน้ำ เขียวสด"
+    },
+    {
+      "label": "ฤดูหนาว ม.ค.-ก.พ.",
+      "months": [
+        1,
+        2
+      ],
+      "note_th": "หนาวจัด ทะเลสาบบางปีกลายเป็นน้ำแข็ง มีเทศกาลตกปลาน้ำแข็ง (wakasagi) · ถนนอาจปิด/ลื่น เช็กสภาพอากาศ"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "รอบทะเลสาบ + Haruna-Fuji",
+      "type": "koyo",
+      "startFrac": 0.78,
+      "endFrac": 0.88,
+      "note_th": "ใบไม้แดงกลาง ต.ค.-ต้น พ.ย."
+    },
+    {
+      "zone": "ทะเลสาบฤดูร้อน",
+      "type": "green",
+      "startFrac": 0.5,
+      "endFrac": 0.66,
+      "note_th": "เขียวสด เย็นสบาย ก.ค.-ส.ค."
+    },
+    {
+      "zone": "ทะเลสาบเยือกแข็ง",
+      "type": "snow",
+      "startFrac": 0.0,
+      "endFrac": 0.13,
+      "note_th": "หนาวจัด บางปีน้ำแข็ง ตกปลา wakasagi ม.ค.-ก.พ."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน day-trip ไป-กลับโตเกียว (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าหลักคือ shinkansen ไป-กลับ + บัสขึ้นเขา ถ้าค้าง Ikaho 1 คืนบวกค่าที่พักอีก",
+    "items": [
+      {
+        "label_th": "Shinkansen ไป-กลับ (โตเกียว↔Takasaki)",
+        "yen": 9640,
+        "thb": 2217,
+        "note_th": "Joetsu/Hokuriku non-reserved ไป-กลับ เป็นค่าหลัก"
+      },
+      {
+        "label_th": "บัสขึ้น-ลงทะเลสาบ (Takasaki↔Harunako)",
+        "yen": 2380,
+        "thb": 547,
+        "note_th": "Gunma Bus สาย Haruna-ko ไป-กลับ"
+      },
+      {
+        "label_th": "Haruna-san Ropeway ไป-กลับ",
+        "yen": 950,
+        "thb": 219,
+        "note_th": "ขึ้นยอด Haruna-Fuji ~3 นาที"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2500,
+        "thb": 575,
+        "note_th": "udon/โซบะ ริมทะเลสาบ + ของกินเล่นบันได Ikaho"
+      },
+      {
+        "label_th": "ค่าเข้า/ออนเซ็น/ของฝาก",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "แช่ออนเซ็น Ikaho แบบไปเช้า-เย็นกลับ + ทำบุญศาลเจ้า"
+      }
+    ],
+    "totalYen": 16970,
+    "totalThb": 3903,
+    "ranges": {
+      "lowThb": 3000,
+      "midThb": 4500,
+      "highThb": 8000
+    }
+  },
+  "pois": [
+    {
+      "name": "Lake Haruna (ทะเลสาบปากปล่อง)",
+      "icon": "water",
+      "durationMin": 90,
+      "blurb_th": "ทะเลสาบปากปล่องภูเขาไฟบนที่สูง ~1,100 ม. เป็ดน้ำ-เรือพาย วิวกรวยภูเขาสะท้อนผิวน้ำ",
+      "deepDive_th": "Lake Haruna (榛名湖) ทะเลสาบปากปล่อง (caldera lake) ของภูเขาไฟฮารุนะ อยู่สูงราว 1,100 เมตร อากาศเย็นกว่าพื้นราบหลายองศาตลอดปี · จุดเด่นคือวิว 'กรวย Haruna-Fuji' ที่ตั้งตระหง่านริมน้ำ ทรงเกือบสมมาตรเหมือนฟูจิจิ๋ว สะท้อนผิวทะเลสาบเวลานิ่ง (จุดถ่ายรูปคลาสสิกชื่อ 逆さ榛名富士 'ฮารุนะฟูจิกลับหัว') · รอบทะเลสาบมีเส้นทางเดิน/ปั่นจักรยานเลียบน้ำ เช่าเป็ดน้ำ-เรือพาย-เรือถีบได้หน้าร้อน หน้าหนาวบางปีน้ำแข็งจับมีตกปลา wakasagi · เป็นหัวใจของการมาเที่ยวฮารุนะ มาถึงแล้วเดินเล่นชิลได้ทั้งวัน",
+      "location_th": "ใจกลางปากปล่อง ~1,100 ม.",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Haruna%2001.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.%20Haruna%20in%20fall.JPG?width=1600"
+      }
+    },
+    {
+      "name": "Mt. Haruna-Fuji",
+      "icon": "mountains",
+      "durationMin": 60,
+      "blurb_th": "กรวยภูเขาไฟทรงสวยริมทะเลสาบ 'ฟูจิแห่งฮารุนะ' จุดถ่ายเงาสะท้อน",
+      "deepDive_th": "Mt. Haruna-Fuji (榛名富士) กรวยภูเขาไฟ (lava dome) สูง 1,391 เมตร ที่โผล่ขึ้นกลางปากปล่อง รูปทรงเกือบสมมาตรสวยจนได้ชื่อว่าเป็น 'ฟูจิแห่งฮารุนะ' · เป็นฉากหลังหลักของทะเลสาบ และเป็นภูเขาที่ขึ้นไปถึงยอดได้ทั้งเดินเทรล (~1.5 ชม.) หรือนั่ง ropeway ~3 นาที · บนยอดมีศาลเจ้าเล็ก Haruna-Fuji Sengen และวิว 360 องศามองเห็นเทือกเขา Joshinetsu, ภูเขาไฟ Asama และในวันฟ้าใสเห็นได้ถึงฟูจิจริง · ช่วงใบไม้แดงเนินเขาทั้งลูกเปลี่ยนสีสวยสะท้อนน้ำ",
+      "location_th": "ริมทะเลสาบ ยอด 1,391 ม.",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%80%86%E3%81%95%E6%A6%9B%E5%90%8D%E5%AF%8C%E5%A3%AB%20-%20panoramio.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.%20Haruna%20in%20fall.JPG?width=1600"
+      }
+    },
+    {
+      "name": "Haruna-san Ropeway",
+      "icon": "camera",
+      "durationMin": 30,
+      "blurb_th": "กระเช้าขึ้นยอด Haruna-Fuji ~3 นาที วิว 360 องศา เห็นทะเลสาบทั้งวง",
+      "deepDive_th": "Haruna-san Ropeway (榛名山ロープウェイ) กระเช้าสีแดงคันเล็กที่พาขึ้นยอด Haruna-Fuji จากริมทะเลสาบในเวลาเพียง ~3 นาที (วิ่ง 2 ช่วงต่อกัน) · เหมาะคนที่ไม่อยากเดินเทรลขึ้นเอง พาเด็ก-ผู้สูงอายุได้สบาย · ขาขึ้นเห็นเนินเขาด้านล่าง ขาถึงยอดที่สถานี Haruna-Fuji Sancho เดินไม่กี่นาทีถึงจุดชมวิวและศาลเจ้าบนยอด มองเห็นทะเลสาบทั้งวงและแนวเทือกเข้าโดยรอบ · ช่วงโคโยวิวจากกระเช้าสวยมาก เช็กรอบสุดท้ายลงก่อนเย็น",
+      "location_th": "สถานีล่างริมทะเลสาบ → ยอด Haruna-Fuji",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Harunasan-Ropeway.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Harunasan%20Ropeway%20Harunafuji-Sancho%20Station.jpg?width=900"
+      }
+    },
+    {
+      "name": "Ikaho Onsen (บันไดหิน 365 ขั้น)",
+      "icon": "trees",
+      "durationMin": 90,
+      "blurb_th": "เมืองออนเซ็นเก่าบนเนิน บันไดหิน Ishidan 365 ขั้น ร้านรวงสองข้าง น้ำแร่สีน้ำตาลทอง",
+      "deepDive_th": "Ikaho Onsen (伊香保温泉) เมืองออนเซ็นเก่าแก่บนไหล่เขาฝั่งตะวันออกของภูเขาฮารุนะ หัวใจคือ 'บันไดหิน' (石段街 Ishidan-gai) ทอดยาว 365 ขั้น มีร้านขายของ ร้านเกม ของกิน เรียวกังเรียงสองข้างทาง เดินขึ้นชมบรรยากาศย้อนยุคสนุก (365 ขั้น = สื่อถึง 'ความรุ่งเรืองตลอดทั้งปี') · ขึ้นสุดบันไดเป็นศาลเจ้า Ikaho · น้ำแร่ที่นี่มีสองแบบ 'Kogane no Yu' (น้ำสีน้ำตาลทองมีธาตุเหล็ก) และ 'Shirogane no Yu' (น้ำใส) มีบ่อแช่เท้าฟรีและโรงอาบสาธารณะให้ไปเช้า-เย็นกลับได้ · อยู่ระหว่างทางขึ้น/ลงทะเลสาบ แวะรวมในทริปได้พอดี เหมาะค้าง 1 คืนถ้าอยากชิล",
+      "location_th": "ไหล่เขาฝั่ง Shibukawa ระหว่างทางขึ้นทะเลสาบ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikaho%20Onsen%20Stone%20Steps.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikaho%20Onsen%20steps%201.jpg?width=900"
+      }
+    },
+    {
+      "name": "Haruna Shrine (榛名神社)",
+      "icon": "trees",
+      "durationMin": 60,
+      "blurb_th": "ศาลเจ้าโบราณ ~1,400 ปี กลางหุบเขาหินผา ทางเดินผ่านป่าซีดาร์-น้ำตก-โขดหินยักษ์",
+      "deepDive_th": "Haruna Shrine (榛名神社) ศาลเจ้าเก่าแก่กว่า 1,400 ปี ตั้งซ่อนอยู่กลางหุบเขาหินผาเชิงภูเขาฮารุนะ · จุดเด่นคือทางเดินเข้า ~15 นาทีผ่านป่าซีดาร์เก่า ลำธาร น้ำตก และโขดหินรูปทรงประหลาดขนาดยักษ์ ก่อนถึงตัวศาลเจ้าหลัก (honden) ที่แกะสลักไม้ลงรักปิดทอง-แดงอย่างวิจิตร สร้างพิงเข้ากับหน้าผาหินโดยตรง · บรรยากาศขลังมาก เป็น 'power spot' ยอดนิยมเรื่องขอพรโชคลาภ-สมหวัง · อยู่คนละฝั่งของทะเลสาบ มีบัสผ่านระหว่างทาง Takasaki↔Harunako แวะลงได้ ใช้เวลาเดินชมราว 1 ชม.",
+      "location_th": "เชิงเขาฝั่ง Takasaki ระหว่างทางขึ้นทะเลสาบ",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%A6%9B%E5%90%8D%E7%A5%9E%E7%A4%BE%20Haruna%20shrine%20-%20panoramio.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Haruna%20Honden.JPG?width=900"
+      }
+    },
+    {
+      "name": "ใบไม้แดงริมทะเลสาบ (Koyo)",
+      "icon": "raindrops-alt",
+      "blurb_th": "กลาง ต.ค.-ต้น พ.ย. เนินเขารอบทะเลสาบเปลี่ยนแดง-ส้ม สะท้อนผิวน้ำ",
+      "deepDive_th": "ช่วงใบไม้เปลี่ยนสี (โคโย) ของฮารุนะมาเร็วกว่าพื้นราบเพราะอยู่สูง ~1,100 ม. — โดยทั่วไปสวยสุดกลาง ต.ค. ถึงต้น พ.ย. · เนินเขารอบทะเลสาบและไหล่ Haruna-Fuji เปลี่ยนเป็นแดง-ส้ม-ทอง สะท้อนลงผิวน้ำที่นิ่งช่วงเช้า เป็นภาพคลาสสิกของกุนมะ · ลำธาร Numao ที่ไหลออกจากทะเลสาบและทางเดินเลียบน้ำเต็มไปด้วยใบเมเปิล · ช่วงพีคนักท่องเที่ยวเยอะ บัสอาจแน่น แนะนำไปเช้าและเผื่อเวลารถ · อากาศหนาว เตรียมเสื้อกันหนาว",
+      "location_th": "รอบทะเลสาบ + ลำธาร Numao",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Haruna%20Numao%20River.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons (CC)",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.%20Haruna%20in%20fall.JPG?width=1600"
+      }
+    }
+  ],
+  "routeFlow": [
+    {
+      "name": "Tokyo",
+      "elevationM": 40,
+      "modeToNext": "shinkansen",
+      "modeDetail_th": "Joetsu/Hokuriku Shinkansen ~50 นาที"
+    },
+    {
+      "name": "Takasaki",
+      "elevationM": 95,
+      "modeToNext": "bus",
+      "modeDetail_th": "Gunma Bus สาย Haruna-ko ไต่เขา ~90 นาที (ผ่าน Haruna Shrine)"
+    },
+    {
+      "name": "Lake Haruna",
+      "elevationM": 1100,
+      "modeToNext": "ropeway",
+      "modeDetail_th": "Haruna-san Ropeway ~3 นาที"
+    },
+    {
+      "name": "Mt. Haruna-Fuji (ยอด)",
+      "elevationM": 1391
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip ทะเลสาบ + ยอดเขา + ศาลเจ้า",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "ไป-กลับโตเกียววันเดียว เก็บไฮไลต์",
+          "detail_th": "ออกโตเกียวเช้า → shinkansen ถึง Takasaki → บัสขึ้นเขา (แวะลง Haruna Shrine เดินชมศาลเจ้ากลางหุบหิน ~1 ชม.) → ต่อบัสถึงทะเลสาบฮารุนะ เดินเล่นริมน้ำชมวิว Haruna-Fuji → นั่ง ropeway ขึ้นยอดชมวิว 360 องศา → กินอุด้งริมทะเลสาบ → บัสลง (เผื่อเวลารถเที่ยวสุดท้าย) → กลับโตเกียวเย็น · วันแน่นพอควรเพราะบัสเที่ยวน้อย ต้องคุมเวลาดี",
+          "steps": [
+            {
+              "time_th": "~07:30",
+              "title_th": "โตเกียว → Takasaki",
+              "detail_th": "Joetsu/Hokuriku Shinkansen ~50 นาที",
+              "mode": "shinkansen",
+              "durationMin": 50
+            },
+            {
+              "time_th": "~09:00",
+              "title_th": "บัสขึ้นเขา แวะ Haruna Shrine",
+              "detail_th": "Gunma Bus สาย Haruna-ko · ลงเดินชมศาลเจ้ากลางหุบหิน",
+              "mode": "bus",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~10:30",
+              "title_th": "Haruna Shrine",
+              "detail_th": "เดินผ่านป่าซีดาร์-น้ำตก-โขดหินยักษ์ ขึ้น honden แกะสลักวิจิตร",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~12:00",
+              "title_th": "ต่อบัสถึงทะเลสาบฮารุนะ",
+              "detail_th": "Gunma Bus ขึ้นต่อถึง Harunako",
+              "mode": "bus",
+              "durationMin": 30
+            },
+            {
+              "time_th": "~12:45",
+              "title_th": "อุด้ง + เดินริมทะเลสาบ",
+              "detail_th": "กินข้าวริมน้ำ ชมวิว Haruna-Fuji สะท้อนผิวน้ำ",
+              "durationMin": 75
+            },
+            {
+              "time_th": "~14:00",
+              "title_th": "Ropeway ขึ้นยอด Haruna-Fuji",
+              "detail_th": "กระเช้า ~3 นาที วิว 360 องศา ศาลเจ้าบนยอด",
+              "mode": "ropeway",
+              "durationMin": 45
+            },
+            {
+              "time_th": "~15:30",
+              "title_th": "บัสลงจากทะเลสาบ",
+              "detail_th": "เช็กรอบบัสเที่ยวสุดท้ายให้ดี อย่าตกรอบ",
+              "mode": "bus",
+              "durationMin": 90
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "Takasaki → กลับโตเกียว",
+              "mode": "shinkansen",
+              "durationMin": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง Ikaho Onsen 1 คืน (ชิลกว่า)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "วัน 1 — Ikaho Onsen + บันไดหิน",
+          "detail_th": "โตเกียว → Takasaki → Shibukawa → บัสขึ้น Ikaho Onsen · เดินบันไดหิน 365 ขั้น ชมเมืองออนเซ็นย้อนยุค แช่ Kogane no Yu น้ำสีน้ำตาลทอง · เช็กอินเรียวกังนอนแช่ออนเซ็นชิลๆ 1 คืน",
+          "steps": [
+            {
+              "time_th": "เช้า-สาย",
+              "title_th": "โตเกียว → Ikaho Onsen",
+              "detail_th": "shinkansen → Shibukawa → บัสขึ้น Ikaho",
+              "mode": "bus",
+              "durationMin": 120
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "บันไดหิน 365 ขั้น",
+              "detail_th": "เดินขึ้นชมร้านรวง ของกิน ถึงศาลเจ้า Ikaho ด้านบน",
+              "durationMin": 90
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "แช่ออนเซ็น + ค้างเรียวกัง",
+              "detail_th": "Kogane no Yu น้ำแร่สีทอง + ดินเนอร์ไคเซกิ"
+            }
+          ]
+        },
+        {
+          "title_th": "วัน 2 — ทะเลสาบฮารุนะ + ยอดเขา",
+          "detail_th": "เช้าบัสจาก Ikaho ข้ามสันเขาขึ้นทะเลสาบฮารุนะ → เดินริมน้ำ ชม Haruna-Fuji → ropeway ขึ้นยอด → (มีแรงแวะ Haruna Shrine ขาลง) → บัสลง Takasaki → กลับโตเกียว",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "Ikaho → ทะเลสาบฮารุนะ",
+              "detail_th": "บัสข้ามสันเขา view ทะเลสาบ",
+              "mode": "bus",
+              "durationMin": 30
+            },
+            {
+              "time_th": "สาย",
+              "title_th": "เดินริมทะเลสาบ + Ropeway",
+              "detail_th": "ชม Haruna-Fuji สะท้อนน้ำ → กระเช้าขึ้นยอด",
+              "mode": "ropeway",
+              "durationMin": 120
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "บัสลง Takasaki → กลับโตเกียว",
+              "detail_th": "แวะ Haruna Shrine ขาลงถ้าตารางบัสเอื้อ",
+              "mode": "bus",
+              "durationMin": 90
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "บัสขึ้นทะเลสาบเที่ยวน้อยมาก (วันละไม่กี่เที่ยว) — เช็กตาราง Gunma Bus ล่วงหน้าและเผื่อเวลารถเที่ยวสุดท้ายลงเขา อย่าตกรอบ ไม่งั้นติดค้างบนเขา",
+    "ทะเลสาบสูง ~1,100 ม. หนาวกว่าโตเกียวหลายองศาตลอดปี หน้าหนาว/เช้า-เย็นเย็นจัด เตรียมเสื้อกันหนาว",
+    "ช่วงโคโย (กลาง ต.ค.-ต้น พ.ย.) คนเยอะ บัสและถนนแน่น ไปเช้าและเผื่อเวลาเดินทาง",
+    "หน้าหนาวถนนขึ้นเขาอาจลื่น/ปิดบางช่วง และบางเส้นบัสลดเที่ยว เช็กสภาพอากาศก่อนไป",
+    "ropeway มีรอบสุดท้ายช่วงเย็น เช็กเวลาปิดให้ดีก่อนขึ้นยอด"
+  ],
+  "sources": [
+    {
+      "label": "Lake Haruna — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6804.html"
+    },
+    {
+      "label": "Ikaho Onsen — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6803.html"
+    },
+    {
+      "label": "Mount Haruna / Haruna Shrine — JNTO",
+      "url": "https://www.japan.travel/en/spot/715/"
+    }
+  ],
+  "tags_th": [
+    "ทะเลสาบ",
+    "ภูเขาไฟ",
+    "ออนเซ็น",
+    "ใบไม้แดง",
+    "กระเช้า",
+    "ศาลเจ้า"
+  ],
+  "food": [
+    {
+      "name": "อุด้งฮิโมคาวะ",
+      "name_jp": "ひもかわうどん",
+      "emoji": "🍜",
+      "note_th": "เส้นอุด้งแบนกว้างของกุนมะ กินริมทะเลสาบ"
+    },
+    {
+      "name": "วากาซางิทอด",
+      "name_jp": "公魚",
+      "emoji": "🐟",
+      "note_th": "ปลาตัวเล็กจากทะเลสาบฮารุนะ ทอดกรอบ (เด่นหน้าหนาว)"
+    },
+    {
+      "name": "พุดดิ้งน้ำแร่ Ikaho",
+      "name_jp": "温泉まんじゅう",
+      "emoji": "🍮",
+      "note_th": "ออนเซ็นมันจู/ของหวานน้ำแร่ ตามบันไดหิน Ikaho"
+    },
+    {
+      "name": "คอนยัค",
+      "name_jp": "蒟蒻",
+      "emoji": "🍢",
+      "note_th": "กุนมะเป็นแหล่งคอนยักใหญ่ของญี่ปุ่น เสียบไม้ราดมิโซะ"
+    }
+  ]
+}

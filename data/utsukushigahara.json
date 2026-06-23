@@ -1,0 +1,484 @@
+{
+  "slug": "utsukushigahara",
+  "name": {
+    "en": "Utsukushigahara",
+    "th": "ที่ราบสูงอุสึคุชิงาฮาระ",
+    "jp": "美ヶ原"
+  },
+  "region": "Chubu",
+  "prefecture": "Nagano",
+  "coords": {
+    "lat": 36.2336,
+    "lng": 138.1003
+  },
+  "category": [
+    "mountain",
+    "nature"
+  ],
+  "tagline_th": "ที่ราบสูง 2,000 ม. ทุ่งหญ้ากว้างมีวัวเล็มหญ้า วิว 360° เห็น Japan Alps + Fuji เดินชิลบนหลังคาโลก",
+  "heroImage": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%AD%A6%E7%9F%B3%E5%B3%B0%E3%82%88%E3%82%8A%E6%80%9D%E3%81%84%E5%87%BA%E3%81%AE%E4%B8%98%E3%82%92%E6%9C%9B%E3%82%80%202013-07-14.jpg?width=1600",
+    "source": "wikimedia",
+    "credit": "Wikimedia Commons",
+    "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/250426%20At%20Utsukushigahara%20Nagano%20pref%20Japan08s3.jpg?width=1600"
+  },
+  "difficultyFromTokyo": 3,
+  "access": {
+    "summary_th": "นั่ง Azusa LEX จากชินจูกุถึง Matsumoto (~2.5 ชม.) แล้วต่อขึ้นที่ราบสูง — ทางขึ้นยอดเป็นจุดยาก: หน้าร้อน (ต้น-กลาง ส.ค.) มีบัส Alpico ขึ้น Open-Air Museum วันละเที่ยว ~1 ชม. 40 นาที · นอกฤดูแทบไม่มีขนส่งสาธารณะ เช่ารถ/แท็กซี่จาก Matsumoto สะดวกสุด (~1 ชม. ตาม Venus Line)",
+    "jrPassWorth": false,
+    "options": [
+      {
+        "mode": "Azusa LEX + เช่ารถจาก Matsumoto (แนะนำ ใช้ได้ทุกฤดูเปิด)",
+        "detail_th": "ชินจูกุ → train (Azusa LEX) → Matsumoto → เช่ารถขับขึ้น Venus Line/Route 158 → Utsukushigahara (ยอด Ohgato/พิพิธภัณฑ์)",
+        "durationMin": 210,
+        "costYen": 11730,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "car",
+            "label_th": "เช่ารถ",
+            "icon": "car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Matsumoto Station",
+            "mode": "train",
+            "line_th": "JR Limited Express Azusa (Chuo Line)",
+            "durationMin": 150,
+            "costYen": 6730,
+            "note_th": "~1-2 ขบวน/ชม. · 6,730 เยน (รวมตั๋วพื้นฐาน + ค่า LEX) · จองที่นั่งล่วงหน้าช่วง high season"
+          },
+          {
+            "from": "Matsumoto",
+            "to": "Utsukushigahara (ยอด)",
+            "mode": "car",
+            "line_th": "เช่ารถ ขับขึ้น Route 158 → Utsukushigahara Skyline / Venus Line",
+            "durationMin": 60,
+            "costYen": 5000,
+            "note_th": "ค่าเช่ารถ ~5,000-8,000 เยน/วัน + น้ำมัน · ถนนคดเคี้ยวขึ้นเขา ~20 กม. · มีลานจอดที่พิพิธภัณฑ์และจุดชมวิว · ปิดหน้าหิมะ (กลาง พ.ย.-ปลาย เม.ย.)"
+          }
+        ]
+      },
+      {
+        "mode": "Azusa LEX + บัสฤดูร้อน (เฉพาะต้น-กลาง ส.ค. วันละเที่ยว)",
+        "detail_th": "ชินจูกุ → train (Azusa LEX) → Matsumoto → bus (Alpico สาย Utsukushigahara Open-Air Museum) → Utsukushigahara Kogen Museum",
+        "durationMin": 250,
+        "costYen": 9230,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "bus",
+            "label_th": "บัส",
+            "icon": "bus"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Matsumoto Station",
+            "mode": "train",
+            "line_th": "JR Limited Express Azusa (Chuo Line)",
+            "durationMin": 150,
+            "costYen": 6730,
+            "note_th": "~1-2 ขบวน/ชม. · 6,730 เยน · จองที่นั่งล่วงหน้า"
+          },
+          {
+            "from": "Matsumoto Bus Terminal",
+            "to": "Utsukushigahara Open-Air Museum",
+            "mode": "bus",
+            "line_th": "Alpico Kotsu — Utsukushigahara Open-Air Museum Line",
+            "durationMin": 100,
+            "costYen": 2500,
+            "note_th": "วิ่งเฉพาะช่วงต้น-กลาง ส.ค. · วันละ 1 เที่ยว (ไป-กลับ) · ~1 ชม. 40 นาที · ต้องเช็คตารางปีนั้นก่อนเสมอ ราคาประมาณการ"
+          }
+        ]
+      },
+      {
+        "mode": "Azusa LEX + แท็กซี่จาก Matsumoto (นอกฤดูบัส)",
+        "detail_th": "ชินจูกุ → train (Azusa LEX) → Matsumoto → taxi ขึ้นยอด Utsukushigahara",
+        "durationMin": 220,
+        "costYen": 19730,
+        "transfers": 1,
+        "legs": [
+          {
+            "mode": "train",
+            "label_th": "รถไฟ",
+            "icon": "subway"
+          },
+          {
+            "mode": "car",
+            "label_th": "แท็กซี่",
+            "icon": "car"
+          }
+        ],
+        "steps": [
+          {
+            "from": "Shinjuku Station",
+            "to": "Matsumoto Station",
+            "mode": "train",
+            "line_th": "JR Limited Express Azusa (Chuo Line)",
+            "durationMin": 150,
+            "costYen": 6730,
+            "note_th": "~1-2 ขบวน/ชม. · 6,730 เยน"
+          },
+          {
+            "from": "Matsumoto",
+            "to": "Utsukushigahara (ยอด)",
+            "mode": "car",
+            "line_th": "แท็กซี่ขึ้นเขา",
+            "durationMin": 60,
+            "costYen": 13000,
+            "note_th": "~13,000 เยน/เที่ยว · แท็กซี่ไม่ค่อยรอบนยอด อาจต้องนัดรับ/เหมาไป-กลับ แพง · เหมาะกรณีไม่ขับเองช่วงไม่มีบัส"
+          }
+        ]
+      }
+    ]
+  },
+  "bestSeasons": [
+    {
+      "label": "ทุ่งเขียว ฤดูร้อน (มิ.ย.-ส.ค.)",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "note_th": "ไฮไลต์ที่สุด — ทุ่งหญ้าเขียวขจี วัวออกเล็มหญ้า ดอกไม้ป่าบาน อากาศเย็นสบายหนีร้อนจากที่ราบ · ส.ค. มีบัสฤดูร้อนขึ้นได้"
+    },
+    {
+      "label": "ใบหญ้าทอง ต้นฤดูใบไม้ร่วง (ก.ย.-ต้น ต.ค.)",
+      "months": [
+        9,
+        10
+      ],
+      "note_th": "ทุ่งหญ้าเปลี่ยนเป็นสีทอง ฟ้าใส วิว Japan Alps คมชัด · เริ่มหนาว เตรียมเสื้อกันลม"
+    },
+    {
+      "label": "ใบไม้ผลิ คลายหิมะ (ปลาย เม.ย.-พ.ค.)",
+      "months": [
+        4,
+        5
+      ],
+      "note_th": "ถนน Venus Line/Skyline เพิ่งเปิดหลังหิมะ (ปกติปลาย เม.ย.) · ยังหนาว ทุ่งเริ่มเขียว"
+    }
+  ],
+  "seasonTimeline": [
+    {
+      "zone": "ทุ่งหญ้าที่ราบสูง",
+      "type": "green",
+      "startFrac": 0.42,
+      "endFrac": 0.67,
+      "note_th": "เขียวสด วัวเล็มหญ้า มิ.ย.-ส.ค. — ช่วงเด่นสุด"
+    },
+    {
+      "zone": "ทุ่งหญ้าสีทอง",
+      "type": "koyo",
+      "startFrac": 0.67,
+      "endFrac": 0.79,
+      "note_th": "หญ้าเปลี่ยนสีทอง ก.ย.-ต้น ต.ค."
+    },
+    {
+      "zone": "ถนนขึ้นเขาปิดหิมะ",
+      "type": "snow",
+      "startFrac": 0.87,
+      "endFrac": 1,
+      "note_th": "หิมะปกคลุม ถนนปิด กลาง พ.ย.-ปลาย เม.ย."
+    }
+  ],
+  "budget": {
+    "note_th": "ประมาณการคนไทย 1 คน แบบไป-กลับโตเกียววันเดียวหรือพักค้าง 1 คืนที่ Matsumoto (เรท 0.23 THB/JPY) — ไม่รวมตั๋วเครื่องบินไปญี่ปุ่น · ค่าหลักคือ Azusa LEX ไป-กลับ + ขึ้นยอด (เช่ารถ/บัส) ค่อนข้างแพงเพราะไกลและทางขึ้นยาก",
+    "items": [
+      {
+        "label_th": "Azusa LEX ไป-กลับ (ชินจูกุ↔Matsumoto)",
+        "yen": 13460,
+        "thb": 3096,
+        "note_th": "6,730 เยน/เที่ยว x2 · ข้อต่อหลักจากโตเกียว"
+      },
+      {
+        "label_th": "ขึ้นยอด (เช่ารถ 1 วัน หรือบัสฤดูร้อน)",
+        "yen": 6000,
+        "thb": 1380,
+        "note_th": "เช่ารถ ~5,000-8,000 เยน/วัน + น้ำมัน หรือบัสฤดูร้อนไป-กลับ ~2,500-5,000 เยน"
+      },
+      {
+        "label_th": "อาหาร",
+        "yen": 2500,
+        "thb": 575,
+        "note_th": "ร้านบนที่ราบสูง/ที่พักภูเขา + ของกิน Matsumoto"
+      },
+      {
+        "label_th": "ค่าเข้าพิพิธภัณฑ์/ของฝาก",
+        "yen": 1500,
+        "thb": 345,
+        "note_th": "Utsukushigahara Open-Air Museum + ของที่ระลึก"
+      }
+    ],
+    "totalYen": 23460,
+    "totalThb": 5396,
+    "ranges": {
+      "lowThb": 3500,
+      "midThb": 5500,
+      "highThb": 9000
+    }
+  },
+  "pois": [
+    {
+      "name": "ทุ่งหญ้าที่ราบสูง (Utsukushigahara Plateau)",
+      "icon": "mountains",
+      "blurb_th": "ทุ่งหญ้ากว้างสุดลูกหูลูกตาบนที่ราบสูง 2,000 ม. มีวัวออกเล็มหญ้าหน้าร้อน",
+      "deepDive_th": "Utsukushigahara (美ヶ原) ที่ราบสูงยอดเรียบกว้างใหญ่ระดับความสูง ~2,000 ม. กลางใจเกาะฮอนชู เป็นหนึ่งใน 100 ภูเขาดังของญี่ปุ่น · จุดเด่นคือทุ่งหญ้าโล่งสุดลูกหูลูกตาแทบไม่มีต้นไม้บัง ทำให้รู้สึกเหมือนเดินอยู่บนหลังคาโลก · หน้าร้อน (มิ.ย.-ส.ค.) เป็นทุ่งเลี้ยงวัวจริง มีฝูงวัวออกมาเล็มหญ้าเป็นภาพคลาสสิกของที่นี่ อากาศเย็นสบายต่างจากที่ราบเบื้องล่างมาก · ทางเดินบนที่ราบส่วนใหญ่ราบเรียบ ไม่ชัน เดินเล่นชิลได้ทุกวัย เหมาะ picnic + ถ่ายรูปทุ่งกว้าง",
+      "location_th": "ที่ราบสูง ~2,000 ม.",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/250426%20At%20Utsukushigahara%20Nagano%20pref%20Japan08s3.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%AD%A6%E7%9F%B3%E5%B3%B0%E3%82%88%E3%82%8A%E6%80%9D%E3%81%84%E5%87%BA%E3%81%AE%E4%B8%98%E3%82%92%E6%9C%9B%E3%82%80%202013-07-14.jpg?width=1600"
+      }
+    },
+    {
+      "name": "Ohgato Summit (王ヶ頭) — วิว 360°",
+      "icon": "compass",
+      "durationMin": 60,
+      "blurb_th": "จุดสูงสุด 2,034 ม. วิวรอบทิศ เห็น Japan Alps, Yatsugatake, Fuji ในวันฟ้าใส",
+      "deepDive_th": "Ohgato (王ヶ頭) เป็นยอดสูงสุดของ Utsukushigahara ที่ 2,034 ม. มีหลักหินสลัก ' 美ヶ原頂上 王ヶ頭 2034m ' เป็นจุดเช็คอินคลาสสิก · เพราะที่ราบสูงโล่งและสูงพอดี ทำให้ได้วิว 360 องศาแบบหาที่ไหนยาก — มองเห็นแนวเทือก Northern Japan Alps (Hotaka, Yari), Central Alps, Yatsugatake และในวันฟ้าใสเห็นถึง Mt. Fuji ไกลๆ ทางใต้ · บางวันมีทะเลหมอก (unkai) ลอยอยู่เบื้องล่าง · บนยอดมีกลุ่มเสาส่งสัญญาณวิทยุ/ทีวีตั้งเรียงเป็นแลนด์มาร์กที่เห็นแต่ไกล มีที่พักภูเขา (Ohgato Hotel) สำหรับคนอยากค้างดูพระอาทิตย์ขึ้น/ดาว · เดินจากลานจอด/พิพิธภัณฑ์มาตามทางราบ ~30-40 นาที",
+      "location_th": "ยอดสูงสุด 2,034 ม.",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ushibuseyama%20observatory.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%8E%8B%E3%83%B6%E9%A0%AD%20-%20panoramio.jpg?width=900"
+      }
+    },
+    {
+      "name": "Utsukushigahara Open-Air Museum",
+      "icon": "building",
+      "durationMin": 90,
+      "blurb_th": "พิพิธภัณฑ์ประติมากรรมกลางแจ้งบนที่ราบสูง ~350 ชิ้นกลางทุ่งหญ้าวิวภูเขา",
+      "deepDive_th": "Utsukushigahara Open-Air Museum (美ヶ原高原美術館) พิพิธภัณฑ์ประติมากรรมกลางแจ้งบนที่ราบสูงระดับ ~2,000 ม. เป็นสาขาบนภูเขาของ Hakone Open-Air Museum · จัดแสดงงานประติมากรรมสมัยใหม่กว่า 350 ชิ้นกระจายอยู่กลางทุ่งหญ้า เดินชมไปพร้อมวิว Japan Alps เป็นฉากหลัง — งานศิลปะ + ธรรมชาติ + วิวภูเขาในที่เดียว · อาคารหลักดีไซน์โมเดิร์นผนังหินสีเข้ม มีร้านอาหาร/ของฝาก เป็นจุดหมายปลายทางของบัสฤดูร้อนและถนน Venus Line · เปิดเฉพาะช่วงปลาย เม.ย.-กลาง พ.ย. ปิดหน้าหิมะ",
+      "location_th": "ฝั่ง Ueda ปลายทาง Venus Line",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/250426%20Utsukushi-ga-hara%20Open-Air%20Museum%20Ueda%20Nagano%20pref%20Japan06s3.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roadside%20Station%20the%20Utsukushi-ga-hara%20Open-Air%20Museum.jpg?width=900"
+      }
+    },
+    {
+      "name": "เส้นเดินทุ่งหญ้า + Bullguard (Omoide-no-oka)",
+      "icon": "trees",
+      "durationMin": 120,
+      "blurb_th": "เส้นเดินเล่นราบเรียบเชื่อมจุดชมวิวข้ามทุ่งหญ้า เหมาะเดินชิลทั้งวัน",
+      "deepDive_th": "ที่ราบสูงนี้มีเครือข่ายทางเดินเท้าราบเรียบเชื่อมจุดชมวิวต่างๆ บนทุ่งหญ้า เช่น Ohgato, Omoide-no-oka (思い出の丘 'เนินแห่งความทรงจำ') และ Mihsarashi · พื้นเป็นหญ้า/ทางลูกรังกว้าง เดินสบาย ไม่ต้องปีนป่าย เหมาะ trekking เบาๆ เก็บวิวได้ทั้งวันโดยไม่เหนื่อย · ระหว่างทางมีรั้วกั้นวัวและประตูเปิด-ปิด (ต้องปิดประตูตามหลังกันวัวออก) · เป็นเส้นที่ดีที่สุดสำหรับซึมซับความกว้างของที่ราบสูงและวิวเทือกเขารอบด้าน เหมาะถ่ายภาพ landscape ช่วงแสงเช้า/เย็น",
+      "location_th": "เครือข่ายทางเดินบนที่ราบสูง",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/250426%20At%20Utsukushigahara%20Nagano%20pref%20Japan15s3.jpg?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%AD%A6%E7%9F%B3%E5%B3%B0%E3%82%88%E3%82%8A%E6%80%9D%E3%81%84%E5%87%BA%E3%81%AE%E4%B8%98%E3%82%92%E6%9C%9B%E3%82%80%202013-07-14.jpg?width=1600"
+      }
+    },
+    {
+      "name": "วิวหิมะ + ทะเลภูเขา (หน้าหนาว)",
+      "icon": "camera",
+      "blurb_th": "ปลายฤดู/ต้นฤดูเห็นทุ่งคลุมหิมะ + แนว Japan Alps ขาวโพลนสุดสายตา",
+      "deepDive_th": "ช่วงคาบเกี่ยวต้นฤดู (เม.ย. หลังถนนเปิด) หรือปลายฤดู (ต้น พ.ย.) ยอด Ohgato และทุ่งยังมีหิมะค้าง ให้วิวพิเศษ — ทุ่งหญ้าขาวตัดกับฟ้าน้ำเงินเข้ม และแนวเทือก Japan Alps ปกคลุมหิมะขาวโพลนทอดยาวสุดสายตา ทัศนวิสัยคมชัดกว่าหน้าร้อน · เป็นมุมถ่ายภาพที่ดราม่าที่สุด แต่ต้องระวังหนาวจัด ลมแรง พื้นลื่น · กลางหน้าหนาวจริง (ธ.ค.-มี.ค.) ถนนปิด เข้าไม่ได้ด้วยรถทั่วไป — ภาพหิมะส่วนใหญ่จึงเป็นช่วงหัว/ท้ายฤดูเปิด",
+      "location_th": "ยอด Ohgato / ทุ่งหญ้า",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2010.01.24utukusigahara.JPG?width=900",
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "fallbackUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%8E%8B%E3%83%B6%E9%A0%AD%20-%20panoramio.jpg?width=900"
+      }
+    }
+  ],
+  "routeFlow": [
+    {
+      "name": "Shinjuku",
+      "elevationM": 40,
+      "modeToNext": "train",
+      "modeDetail_th": "Azusa LEX ~2.5 ชม."
+    },
+    {
+      "name": "Matsumoto",
+      "elevationM": 590,
+      "modeToNext": "car",
+      "modeDetail_th": "เช่ารถ/บัสฤดูร้อน ขึ้น Venus Line ~1 ชม."
+    },
+    {
+      "name": "Utsukushigahara (museum/ลานจอด)",
+      "elevationM": 2000,
+      "modeToNext": "walk",
+      "modeDetail_th": "เดินทุ่งราบ ~30-40 นาที"
+    },
+    {
+      "name": "Ohgato Summit (王ヶ頭)",
+      "elevationM": 2034
+    }
+  ],
+  "plans": [
+    {
+      "label_th": "Day-trip เช่ารถจาก Matsumoto (เก็บครบในวันเดียว)",
+      "recommended": true,
+      "days": [
+        {
+          "title_th": "เช้า-เย็น ขึ้นที่ราบสูงเดินทุ่ง",
+          "detail_th": "ออกชินจูกุเช้าด้วย Azusa LEX → ถึง Matsumoto รับรถเช่า → ขับขึ้น Venus Line/Skyline ~1 ชม. → จอดที่พิพิธภัณฑ์/ลานจอด → เดินทุ่งหญ้าไปยอด Ohgato (王ヶ頭) เก็บวิว 360° Japan Alps + Fuji → แวะ Utsukushigahara Open-Air Museum → ลงเขากลับ Matsumoto คืนรถ → Azusa LEX กลับโตเกียวเย็น (วันยาว เผื่อเวลาขับเขา)",
+          "steps": [
+            {
+              "time_th": "~07:00",
+              "title_th": "ออกชินจูกุ → Matsumoto",
+              "detail_th": "Azusa LEX จองที่นั่งล่วงหน้า",
+              "mode": "train",
+              "durationMin": 150
+            },
+            {
+              "time_th": "~09:40",
+              "title_th": "รับรถเช่าที่ Matsumoto → ขึ้นเขา",
+              "detail_th": "ขับ Venus Line/Skyline ขึ้นที่ราบสูง ~20 กม. คดเคี้ยว",
+              "mode": "car",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~11:00",
+              "title_th": "เดินทุ่งหญ้า → Ohgato Summit",
+              "detail_th": "เดินทางราบข้ามทุ่ง ~30-40 นาที ถึงยอด 2,034 ม. เก็บวิว 360°",
+              "durationMin": 120
+            },
+            {
+              "time_th": "~13:30",
+              "title_th": "Utsukushigahara Open-Air Museum",
+              "detail_th": "เดินชมประติมากรรมกลางทุ่ง + พักทานข้าว",
+              "durationMin": 90
+            },
+            {
+              "time_th": "~15:30",
+              "title_th": "ขับลงเขากลับ Matsumoto",
+              "detail_th": "คืนรถเช่าที่สถานี",
+              "mode": "car",
+              "durationMin": 60
+            },
+            {
+              "time_th": "~17:30",
+              "title_th": "Azusa LEX กลับชินจูกุ",
+              "detail_th": "เช็ครอบขบวนเย็นล่วงหน้า",
+              "mode": "train",
+              "durationMin": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label_th": "ค้าง 1 คืน Matsumoto (ชิลกว่า + เที่ยวเมือง)",
+      "recommended": false,
+      "days": [
+        {
+          "title_th": "วันแรก: Matsumoto Castle + เมือง",
+          "detail_th": "Azusa LEX ถึง Matsumoto เที่ยง → เที่ยวปราสาท Matsumoto (มรดกชาติ) + ย่านเมืองเก่า Nawate/Nakamachi → พักค้าง Matsumoto",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "ชินจูกุ → Matsumoto",
+              "mode": "train",
+              "durationMin": 150
+            },
+            {
+              "time_th": "บ่าย",
+              "title_th": "Matsumoto Castle + เมืองเก่า",
+              "detail_th": "ปราสาทดำ + เดินย่าน Nawate/Nakamachi",
+              "durationMin": 240
+            }
+          ]
+        },
+        {
+          "title_th": "วันสอง: ขึ้น Utsukushigahara",
+          "detail_th": "เช้าเช่ารถ/ขึ้นบัสฤดูร้อน → ที่ราบสูง เดินทุ่งหญ้า + Ohgato + พิพิธภัณฑ์เต็มวัน → ลงเขาเย็น → Azusa LEX กลับโตเกียว",
+          "steps": [
+            {
+              "time_th": "เช้า",
+              "title_th": "Matsumoto → ที่ราบสูง",
+              "detail_th": "เช่ารถ หรือบัสฤดูร้อน (ต้น-กลาง ส.ค.) ~1 ชม.",
+              "mode": "car",
+              "durationMin": 60
+            },
+            {
+              "time_th": "สาย-บ่าย",
+              "title_th": "เดินทุ่ง + Ohgato + Museum",
+              "detail_th": "เก็บวิว 360° เดินเล่นเต็มที่แบบไม่รีบ",
+              "durationMin": 240
+            },
+            {
+              "time_th": "เย็น",
+              "title_th": "ลงเขา → Azusa LEX กลับชินจูกุ",
+              "mode": "train",
+              "durationMin": 150
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings_th": [
+    "หน้าหนาว (กลาง พ.ย.-ปลาย เม.ย.) ถนนขึ้นเขา (Venus Line/Skyline) ปิดเพราะหิมะ เข้าไม่ได้ด้วยรถทั่วไป และพิพิธภัณฑ์ปิด — วางแผนช่วงฤดูเปิดเท่านั้น",
+    "ขนส่งสาธารณะขึ้นยอดมีจำกัดมาก — บัสฤดูร้อนวิ่งเฉพาะต้น-กลาง ส.ค. วันละเที่ยว นอกนั้นต้องเช่ารถหรือแท็กซี่ (แพง) เช็คตารางบัส Alpico ปีนั้นก่อนเสมอ",
+    "บนที่ราบสูง 2,000 ม. ลมแรงและเย็นกว่าที่ราบมาก แม้หน้าร้อนก็ควรมีเสื้อกันลม/กันหนาว · แดดแรง เตรียมกันแดด",
+    "เป็นทุ่งเลี้ยงวัวจริง — ปิดประตูรั้วตามหลังทุกครั้งกันวัวออก และไม่รบกวนฝูงวัว"
+  ],
+  "sources": [
+    {
+      "label": "Utsukushigahara Highlands — Visit Matsumoto (Official)",
+      "url": "https://visitmatsumoto.com/en/spot/detail_1034.html"
+    },
+    {
+      "label": "Utsukushigahara Open-Air Museum — JNTO",
+      "url": "https://www.japan.travel/en/spot/1350/"
+    },
+    {
+      "label": "Tokyo to Matsumoto access (Azusa LEX) — Japan Guide",
+      "url": "https://www.japan-guide.com/e/e6053.html"
+    },
+    {
+      "label": "Transport in Matsumoto & Kamikochi — Visit Matsumoto",
+      "url": "https://visitmatsumoto.com/en/article/detail_27.html"
+    }
+  ],
+  "tags_th": [
+    "ที่ราบสูง",
+    "ทุ่งหญ้า",
+    "วิว 360",
+    "Japan Alps",
+    "เช่ารถ",
+    "ฤดูร้อน"
+  ],
+  "food": [
+    {
+      "name": "ไอศกรีมนมที่ราบสูง",
+      "name_jp": "高原ソフトクリーム",
+      "emoji": "🍦",
+      "note_th": "นมจากวัวที่เลี้ยงบนที่ราบสูง รสเข้ม ขายตามจุดพัก/ที่พักภูเขา"
+    },
+    {
+      "name": "โซบะชินชู",
+      "name_jp": "信州そば",
+      "emoji": "🍜",
+      "note_th": "นางาโนะ (ชินชู) ขึ้นชื่อโซบะ หาทานได้ในเมือง Matsumoto"
+    },
+    {
+      "name": "วาซาบิ Azumino",
+      "name_jp": "安曇野わさび",
+      "emoji": "🌿",
+      "note_th": "แถบ Matsumoto/Azumino น้ำใส ปลูกวาซาบิดี ลองเมนูวาซาบิสด"
+    }
+  ]
+}
