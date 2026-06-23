@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import type { ImageRef } from '@/lib/types';
 import { cn } from '@/lib/cn';
 
@@ -23,6 +23,15 @@ export function SmartImage({ image, alt, className, ratio }: SmartImageProps) {
   const [triedFallback, setTriedFallback] = useState(false);
   const [loaded, setLoaded] = useState(false);
   const [failed, setFailed] = useState(false);
+
+  // when the component is reused for a different destination (e.g. the mobile
+  // pin card), the image prop changes but state wouldn't — resync on url change
+  useEffect(() => {
+    setSrc(image.url);
+    setTriedFallback(false);
+    setLoaded(false);
+    setFailed(false);
+  }, [image.url]);
 
   function handleError() {
     if (!triedFallback && image.fallbackUrl) {

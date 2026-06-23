@@ -162,18 +162,31 @@ export function IndexClient({ destinations }: { destinations: Destination[] }) {
       </div>
 
       {/* mobile: selected pin card (bottom) */}
-      {activeSlug && (
+      {activeDest && (
         <div className="absolute inset-x-3 bottom-3 z-30 lg:hidden">
-          <div className="mx-auto flex max-h-[58vh] max-w-[520px] flex-col overflow-y-auto rounded-2xl border border-line bg-white p-3 shadow-pop">
-            <button
-              onClick={() => setActiveSlug(null)}
-              className="mx-auto mb-2 block h-1 w-10 flex-none cursor-pointer rounded-full bg-line"
-              aria-label="ปิด"
-            />
-            {(() => {
-              const d = destinations.find((x) => x.slug === activeSlug);
-              return d ? <DestinationCard destination={d} variant="compact" /> : null;
-            })()}
+          <div
+            key={activeDest.slug}
+            className="mx-auto flex max-h-[64vh] max-w-[520px] flex-col overflow-y-auto rounded-2xl border border-line bg-white p-3 shadow-pop"
+          >
+            <div className="mb-2 flex flex-none items-center justify-between">
+              <span className="text-[12px] font-bold uppercase tracking-wide text-ink-soft">
+                ปลายทางที่เลือก
+              </span>
+              <button
+                onClick={() => setActiveSlug(null)}
+                aria-label="ปิด"
+                className="grid h-8 w-8 cursor-pointer place-items-center rounded-full bg-paper text-ink-soft transition-colors hover:bg-paper-sunken hover:text-ink"
+              >
+                <Icon name="times" size={18} />
+              </button>
+            </div>
+            <DestinationCard destination={activeDest} variant="compact" />
+            <Link
+              href={`/d/${activeDest.slug}`}
+              className="mt-3 flex w-full flex-none items-center justify-center gap-1 rounded-md bg-alp px-4 py-[11px] text-[14px] font-bold text-white transition-colors hover:bg-alp-700"
+            >
+              ดูรายละเอียด <Icon name="angle-right" size={16} />
+            </Link>
           </div>
         </div>
       )}
