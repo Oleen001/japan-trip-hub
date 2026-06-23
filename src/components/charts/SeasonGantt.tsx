@@ -260,31 +260,35 @@ export function SeasonGantt({
         แตะแถบเพื่อดูรายละเอียดแต่ละช่วง
       </p>
 
-      {/* a11y table fallback (visually hidden) */}
-      <table className="sr-only">
-        <caption>ช่วงเวลาแต่ละฤดูในรอบปี</caption>
-        <thead>
-          <tr>
-            <th>โซน</th>
-            <th>ประเภท</th>
-            <th>ช่วง</th>
-            <th>หมายเหตุ</th>
-          </tr>
-        </thead>
-        <tbody>
-          {timeline.map((row, i) => (
-            <tr key={i}>
-              <td>{row.zone}</td>
-              <td>{SEASON_LABEL_TH[row.type]}</td>
-              <td>
-                {MONTH_TH_FULL[Math.floor(row.startFrac * 12) % 12]}–
-                {MONTH_TH_FULL[Math.min(11, Math.floor(row.endFrac * 12))]}
-              </td>
-              <td>{row.note_th}</td>
+      {/* a11y table fallback (visually hidden) — wrapped in a div so the sr-only
+          clip actually contains it (a table escapes sr-only on its own and
+          forces horizontal overflow on mobile) */}
+      <div className="sr-only">
+        <table>
+          <caption>ช่วงเวลาแต่ละฤดูในรอบปี</caption>
+          <thead>
+            <tr>
+              <th>โซน</th>
+              <th>ประเภท</th>
+              <th>ช่วง</th>
+              <th>หมายเหตุ</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {timeline.map((row, i) => (
+              <tr key={i}>
+                <td>{row.zone}</td>
+                <td>{SEASON_LABEL_TH[row.type]}</td>
+                <td>
+                  {MONTH_TH_FULL[Math.floor(row.startFrac * 12) % 12]}–
+                  {MONTH_TH_FULL[Math.min(11, Math.floor(row.endFrac * 12))]}
+                </td>
+                <td>{row.note_th}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
