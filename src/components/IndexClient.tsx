@@ -161,14 +161,14 @@ export function IndexClient({ destinations }: { destinations: Destination[] }) {
         </button>
       </div>
 
-      {/* mobile: selected pin card (bottom) */}
+      {/* mobile: selected pin card — bottom sheet flush to the edge, footer button always visible */}
       {activeDest && (
-        <div className="absolute inset-x-3 bottom-3 z-30 lg:hidden">
+        <div className="absolute inset-x-0 bottom-0 z-30 lg:hidden">
           <div
             key={activeDest.slug}
-            className="mx-auto flex max-h-[64vh] max-w-[520px] flex-col overflow-y-auto rounded-2xl border border-line bg-white p-3 shadow-pop"
+            className="mx-auto flex max-h-[82vh] max-w-[560px] flex-col rounded-t-2xl border border-line bg-white shadow-pop"
           >
-            <div className="mb-2 flex flex-none items-center justify-between">
+            <div className="flex flex-none items-center justify-between px-4 pb-2 pt-3">
               <span className="text-[12px] font-bold uppercase tracking-wide text-ink-soft">
                 ปลายทางที่เลือก
               </span>
@@ -180,13 +180,17 @@ export function IndexClient({ destinations }: { destinations: Destination[] }) {
                 <Icon name="times" size={18} />
               </button>
             </div>
-            <DestinationCard destination={activeDest} variant="compact" />
-            <Link
-              href={`/d/${activeDest.slug}`}
-              className="mt-3 flex w-full flex-none items-center justify-center gap-1 rounded-md bg-alp px-4 py-[11px] text-[14px] font-bold text-white transition-colors hover:bg-alp-700"
-            >
-              ดูรายละเอียด <Icon name="angle-right" size={16} />
-            </Link>
+            <div className="flex-1 overflow-y-auto px-3">
+              <DestinationCard destination={activeDest} variant="compact" />
+            </div>
+            <div className="flex-none border-t border-line p-3">
+              <Link
+                href={`/d/${activeDest.slug}`}
+                className="flex w-full items-center justify-center gap-1 rounded-md bg-alp px-4 py-[12px] text-[14px] font-bold text-white transition-colors hover:bg-alp-700"
+              >
+                ดูรายละเอียด <Icon name="angle-right" size={16} />
+              </Link>
+            </div>
           </div>
         </div>
       )}
